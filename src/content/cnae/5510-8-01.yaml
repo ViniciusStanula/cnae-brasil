@@ -1,0 +1,72 @@
+codigo: 5510-8/01
+codigo_slug: 5510-8-01
+codigo_numerico: '5510801'
+descricao_oficial: HOTÉIS
+descricao_plana: >-
+  Estabelecimento de hospedagem que oferece quartos ou suítes para estadias curtas, com recepção, serviços de limpeza e
+  estrutura típica de hotel.
+secao:
+  letra: I
+  slug: alojamento-alimentacao
+  nome: Alojamento e alimentação
+  nome_curto: Alimentação
+divisao:
+  codigo: '55'
+  nome: ALOJAMENTO
+grupo:
+  codigo: '55.1'
+  nome: HOTÉIS E SIMILARES
+classe:
+  codigo: 5510-8
+  nome: HOTÉIS E SIMILARES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Hotel de negócios em centro urbano
+  - Hotel de lazer em destino turístico
+  - Hotel boutique com menos de 50 quartos
+  - Hotel de aeroporto para passageiros em trânsito
+  - Hotel fazenda com hospedagem e atividades rurais
+  - Hotel econômico de beira de estrada
+o_que_inclui:
+  - Locação de quartos e suítes para hospedagem temporária
+  - Serviços de recepção e check-in/check-out de hóspedes
+  - Serviços de arrumação e limpeza dos apartamentos
+  - Café da manhã e refeições oferecidos como parte da hospedagem
+  - Uso de áreas comuns como lobby, piscina e academia pelos hóspedes
+  - Serviços de concierge e apoio ao hóspede durante a estadia
+o_que_nao_inclui:
+  - Apart-hotéis com unidades equipadas para uso residencial prolongado (use CNAE 5510-8/02)
+  - Motéis com acesso independente e locação por períodos curtos (use CNAE 5510-8/03)
+  - Pousadas e hospedagens de pequeno porte com características similares (use CNAE 5590-6/01)
+  - Albergues e hostels voltados a turismo de baixo custo (use CNAE 5590-6/02)
+  - Campings e parques de lazer com hospedagem em tendas ou trailers (use CNAE 5590-6/03)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Alvará sanitário
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença ambiental (quando aplicável à localização ou porte)
+  - Cadastro no órgão oficial de turismo
+cnaes_relacionados:
+  - 5510-8/02
+  - 5510-8/03
+  - 5590-6/01
+  - 5590-6/02
+  - 5590-6/03
+  - 5611-2/01
+  - 5611-2/03
+  - 7990-2/00
+  - 9329-8/99
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:53:02.063Z'

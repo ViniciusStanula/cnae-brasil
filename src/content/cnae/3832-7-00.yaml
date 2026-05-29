@@ -1,0 +1,40 @@
+codigo: 3832-7/00
+codigo_slug: 3832-7-00
+codigo_numerico: '3832700'
+descricao_oficial: RECUPERAÇÃO DE MATERIAIS PLÁSTICOS
+descricao_plana: RECUPERAÇÃO DE MATERIAIS PLÁSTICOS
+secao:
+  letra: E
+  slug: agua-esgoto-residuos
+  nome: Água, esgoto, atividades de gestão de resíduos e descontaminação
+  nome_curto: Saneamento
+divisao:
+  codigo: '38'
+  nome: COLETA, TRATAMENTO E DISPOSIÇÃO DE RESÍDUOS; RECUPERAÇÃO DE MATERIAIS
+grupo:
+  codigo: '38.3'
+  nome: RECUPERAÇÃO DE MATERIAIS
+classe:
+  codigo: 3832-7
+  nome: RECUPERAÇÃO DE MATERIAIS PLÁSTICOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: RECICLADOR (A) DE MATERIAIS PLÁSTICOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

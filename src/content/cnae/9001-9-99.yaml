@@ -1,0 +1,38 @@
+codigo: 9001-9/99
+codigo_slug: 9001-9-99
+codigo_numerico: '9001999'
+descricao_oficial: ARTES CÊNICAS, ESPETÁCULOS E ATIVIDADES COMPLEMENTARES NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: ARTES CÊNICAS, ESPETÁCULOS E ATIVIDADES COMPLEMENTARES NÃO ESPECIFICADAS ANTERIORMENTE
+secao:
+  letra: R
+  slug: artes-cultura-esporte
+  nome: Artes, cultura, esporte e recreação
+  nome_curto: Cultura e Esporte
+divisao:
+  codigo: '90'
+  nome: ATIVIDADES ARTÍSTICAS, CRIATIVAS E DE ESPETÁCULOS
+grupo:
+  codigo: '90.0'
+  nome: ATIVIDADES ARTÍSTICAS, CRIATIVAS E DE ESPETÁCULOS
+classe:
+  codigo: 9001-9
+  nome: ARTES CÊNICAS, ESPETÁCULOS E ATIVIDADES COMPLEMENTARES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

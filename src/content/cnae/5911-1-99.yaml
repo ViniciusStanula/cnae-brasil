@@ -1,0 +1,38 @@
+codigo: 5911-1/99
+codigo_slug: 5911-1-99
+codigo_numerico: '5911199'
+descricao_oficial: ATIVIDADES DE PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: ATIVIDADES DE PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO NÃO ESPECIFICADAS ANTERIORMENTE
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '59'
+  nome: ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO; GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA
+grupo:
+  codigo: '59.1'
+  nome: ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO
+classe:
+  codigo: 5911-1
+  nome: ATIVIDADES DE PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

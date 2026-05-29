@@ -1,0 +1,38 @@
+codigo: 9609-2/05
+codigo_slug: 9609-2-05
+codigo_numerico: '9609205'
+descricao_oficial: ATIVIDADES DE SAUNA E BANHOS
+descricao_plana: ATIVIDADES DE SAUNA E BANHOS
+secao:
+  letra: S
+  slug: outras-atividades-de-servicos
+  nome: Outras atividades de serviços
+  nome_curto: Outros Serviços
+divisao:
+  codigo: '96'
+  nome: OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS
+grupo:
+  codigo: '96.0'
+  nome: OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS
+classe:
+  codigo: 9609-2
+  nome: ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,37 @@
+codigo: 6621-5/01
+codigo_slug: 6621-5-01
+codigo_numerico: '6621501'
+descricao_oficial: PERITOS E AVALIADORES DE SEGUROS
+descricao_plana: PERITOS E AVALIADORES DE SEGUROS
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '66'
+  nome: ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS, SEGUROS, PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE
+grupo:
+  codigo: '66.2'
+  nome: ATIVIDADES AUXILIARES DOS SEGUROS, DA PREVIDÊNCIA COMPLEMENTAR E DOS PLANOS DE SAÚDE
+classe:
+  codigo: 6621-5
+  nome: AVALIAÇÃO DE RISCOS E PERDAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

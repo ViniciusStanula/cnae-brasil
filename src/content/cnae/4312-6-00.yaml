@@ -1,0 +1,69 @@
+﻿codigo: 4312-6/00
+codigo_slug: 4312-6-00
+codigo_numerico: '4312600'
+descricao_oficial: PERFURAÇÕES E SONDAGENS
+descricao_plana: >-
+  Serviço de perfuração e sondagem do solo ou subsolo para fins de construção, investigação geotécnica ou prospecção,
+  sem extração de minerais.
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '43'
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+grupo:
+  codigo: '43.1'
+  nome: DEMOLIÇÃO E PREPARAÇÃO DO TERRENO
+classe:
+  codigo: 4312-6
+  nome: PERFURAÇÕES E SONDAGENS
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Empresa de sondagem geotécnica para obras de engenharia civil
+  - Serviço de perfuração de estacas para fundações de edificações
+  - Empresa de investigação do subsolo para projetos de infraestrutura
+  - Serviço de sondagem SPT (Standard Penetration Test) para laudos de solo
+  - Empresa de perfuração horizontal dirigida para passagem de dutos e cabos
+o_que_inclui:
+  - Sondagem geotécnica do solo para fins de construção civil
+  - Perfuração de furos de sondagem para investigação do subsolo
+  - Execução de ensaios SPT (Standard Penetration Test) em campo
+  - Perfuração para instalação de estacas e fundações profundas
+  - Perfuração horizontal dirigida para passagem de tubulações e cabos subterrâneos
+  - Coleta de amostras de solo e rocha para análise laboratorial no contexto de obras
+o_que_nao_inclui:
+  - Perfuração de poços para captação de água subterrânea (use CNAE 4291-0/00)
+  - Extração de petróleo, gás natural ou minerais do subsolo (use CNAE 0600-0/01 ou divisão 07)
+  - Demolição de edificações e estruturas (use CNAE 4311-8/01)
+  - Preparação e terraplanagem de terrenos sem perfuração (use CNAE 4313-4/00)
+  - Construção de fundações por métodos que não envolvam perfuração, como sapatas rasas (use CNAE 4391-6/00)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Licença ambiental (para atividades com potencial impacto ao solo e subsolo)
+  - Licenças setoriais de órgãos de recursos hídricos (quando próximo a aquíferos ou corpos d'água)
+  - Anotação de Responsabilidade Técnica (ART) junto ao CREA para cada serviço executado
+cnaes_relacionados:
+  - 4311-8/01
+  - 4311-8/02
+  - 4313-4/00
+  - 4291-0/00
+  - 4399-1/01
+  - 4391-6/00
+  - 7112-0/00
+  - 0990-4/01
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:51:59.141Z'

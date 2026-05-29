@@ -1,0 +1,40 @@
+codigo: 4520-0/07
+codigo_slug: 4520-0-07
+codigo_numerico: '4520007'
+descricao_oficial: SERVIÇOS DE INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ACESSÓRIOS PARA VEÍCULOS AUTOMOTORES
+descricao_plana: SERVIÇOS DE INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ACESSÓRIOS PARA VEÍCULOS AUTOMOTORES
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '45'
+  nome: COMÉRCIO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS
+grupo:
+  codigo: '45.2'
+  nome: MANUTENÇÃO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES
+classe:
+  codigo: 4520-0
+  nome: MANUTENÇÃO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: INSTALADOR(A) E REPARADOR (A) DE ACESSÓRIOS AUTOMOTIVOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

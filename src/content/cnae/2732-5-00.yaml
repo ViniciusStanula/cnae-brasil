@@ -1,0 +1,38 @@
+codigo: 2732-5/00
+codigo_slug: 2732-5-00
+codigo_numerico: '2732500'
+descricao_oficial: FABRICAÇÃO DE MATERIAL ELÉTRICO PARA INSTALAÇÕES EM CIRCUITO DE CONSUMO
+descricao_plana: FABRICAÇÃO DE MATERIAL ELÉTRICO PARA INSTALAÇÕES EM CIRCUITO DE CONSUMO
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '27'
+  nome: FABRICAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS
+grupo:
+  codigo: '27.3'
+  nome: FABRICAÇÃO DE EQUIPAMENTOS PARA DISTRIBUIÇÃO E CONTROLE DE ENERGIA ELÉTRICA
+classe:
+  codigo: 2732-5
+  nome: FABRICAÇÃO DE MATERIAL ELÉTRICO PARA INSTALAÇÕES EM CIRCUITO DE CONSUMO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

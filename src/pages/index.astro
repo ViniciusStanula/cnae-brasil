@@ -1,0 +1,105 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/search/SearchBox.astro';
+import SectionGrid from '../components/hierarchy/SectionGrid.astro';
+import { SECOES, SITE_NAME, SITE_TAGLINE, MEI_LIMITE_FATURAMENTO } from '../lib/constants.js';
+import { buildCanonical } from '../lib/seo.js';
+import { buildWebsiteJsonLd } from '../lib/schema-org.js';
+import { buildSearchIndex } from '../lib/search.js';
+
+const entries = await getCollection('cnae');
+const searchItems = buildSearchIndex(entries.map((e) => e.data));
+
+const countBySecao = new Map<string, number>();
+for (const e of entries) {
+  countBySecao.set(e.data.secao.slug, (countBySecao.get(e.data.secao.slug) ?? 0) + 1);
+}
+const secoesWithCount = SECOES.map((s) => ({ ...s, count: countBySecao.get(s.slug) ?? 0 }));
+
+const meiEntries = entries
+  .filter((e) => e.data.mei.permitido && e.data.enriched)
+  .slice(0, 8);
+
+const title = `${SITE_NAME} — ${SITE_TAGLINE}`;
+const description = `Consulte qualquer código CNAE em português claro. Saiba se é permitido para MEI, qual anexo do Simples Nacional se aplica e quais licenças são necessárias. ${entries.length} CNAEs disponíveis.`;
+const canonical = buildCanonical('/');
+const websiteJsonLd = buildWebsiteJsonLd();
+---
+
+<BaseLayout {title} {description} {canonical} jsonLd={websiteJsonLd}>
+  <section class="bg-blue-900 text-white py-12 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-3xl sm:text-4xl font-bold mb-3">{SITE_TAGLINE}</h1>
+      <p class="text-blue-200 mb-8 text-lg">
+        Consulte qualquer código CNAE — MEI, regime tributário e licenças em linguagem simples.
+      </p>
+      <div class="max-w-2xl mx-auto">
+        <SearchBox items={searchItems} placeholder="Digite um código CNAE ou nome da atividade…" maxSuggestions={150} />
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-5xl mx-auto px-4 py-10">
+    <div class="bg-green-50 border border-green-200 rounded-xl p-5 mb-10 flex flex-wrap gap-4 items-center justify-between">
+      <div>
+        <h2 class="text-lg font-bold text-green-900">CNAEs permitidos para MEI</h2>
+        <p class="text-sm text-green-700 mt-1">
+          Todas as atividades autorizadas para Microempreendedor Individual. Faturamento até {MEI_LIMITE_FATURAMENTO}.
+        </p>
+      </div>
+      <a
+        href="/mei/"
+        class="bg-green-700 text-white px-5 py-2.5 rounded-xl font-semibold text-sm hover:bg-green-800 transition-colors whitespace-nowrap"
+      >
+        Ver CNAEs MEI →
+      </a>
+    </div>
+
+    {meiEntries.length > 0 && (
+      <section class="mb-12">
+        <h2 class="text-xl font-bold text-gray-900 mb-4">Atividades MEI mais buscadas</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {meiEntries.map((e) => (
+            <a
+              href={`/cnae/${e.data.codigo_slug}/`}
+              class="rounded-xl border border-gray-200 bg-white p-3 hover:border-green-400 hover:shadow-sm transition-all"
+            >
+              <code class="text-xs font-mono text-blue-700 font-bold">{e.data.codigo}</code>
+              <p class="text-sm text-gray-800 mt-1 line-clamp-2">{e.data.descricao_plana.slice(0, 70)}</p>
+              <span class="inline-block mt-2 text-xs bg-green-100 text-green-800 px-2 py-0.5 rounded-full font-medium">MEI: Sim</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-gray-900 mb-4">Explorar por seção</h2>
+      <SectionGrid secoes={secoesWithCount} />
+      <div class="text-center mt-4">
+        <a href="/cnae/" class="text-blue-700 font-medium hover:underline text-sm">
+          Ver todos os {entries.length} CNAEs →
+        </a>
+      </div>
+    </section>
+
+    <section class="mb-10 bg-blue-50 rounded-xl border border-blue-100 p-6">
+      <h2 class="text-lg font-bold text-blue-900 mb-3">Como usar este site</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-blue-800">
+        <div>
+          <p class="font-semibold mb-1">1. Encontre seu CNAE</p>
+          <p class="text-blue-700">Use a busca ou explore por seção para localizar a atividade da sua empresa.</p>
+        </div>
+        <div>
+          <p class="font-semibold mb-1">2. Verifique MEI e tributação</p>
+          <p class="text-blue-700">Cada página mostra se a atividade é permitida para MEI e qual anexo do Simples Nacional se aplica.</p>
+        </div>
+        <div>
+          <p class="font-semibold mb-1">3. Abra sua empresa</p>
+          <p class="text-blue-700">Com o CNAE correto, registre sua empresa com segurança. Consulte um contador para dúvidas.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

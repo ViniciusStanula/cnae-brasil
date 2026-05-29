@@ -1,0 +1,38 @@
+codigo: 6190-6/02
+codigo_slug: 6190-6-02
+codigo_numerico: '6190602'
+descricao_oficial: PROVEDORES DE VOZ SOBRE PROTOCOLO INTERNET - VOIP
+descricao_plana: PROVEDORES DE VOZ SOBRE PROTOCOLO INTERNET - VOIP
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '61'
+  nome: TELECOMUNICAÇÕES
+grupo:
+  codigo: '61.9'
+  nome: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES
+classe:
+  codigo: 6190-6
+  nome: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

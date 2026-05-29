@@ -1,0 +1,66 @@
+---
+import HubLayout from '../layouts/HubLayout.astro';
+import { buildCanonical } from '../lib/seo.js';
+import { homeCrumb } from '../lib/breadcrumbs.js';
+import { CNAE_VERSION, MEI_FONTE, CNAE_DATA_YEAR } from '../lib/constants.js';
+
+const title = `Metodologia e Fontes de Dados | CNAE Brasil`;
+const description = `Fontes de dados, metodologia de classificação MEI e Simples Nacional usadas no CNAE Brasil.`;
+const canonical = buildCanonical('/metodologia/');
+const crumbs = [homeCrumb(), { label: 'Metodologia', href: '/metodologia/', current: true }];
+---
+
+<HubLayout {title} {description} {canonical} {crumbs}>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Metodologia e Fontes de Dados</h1>
+
+  <div class="space-y-8">
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-3">Hierarquia CNAE</h2>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Os dados de hierarquia CNAE (seções, divisões, grupos, classes e subclasses) são obtidos diretamente
+        da API pública do IBGE: <code class="text-xs bg-gray-100 px-1 py-0.5 rounded">servicodados.ibge.gov.br/api/v2/cnae</code>.
+        Utilizamos a versão CNAE {CNAE_VERSION} ({CNAE_DATA_YEAR}), que é a classificação vigente.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-3">Elegibilidade MEI</h2>
+      <p class="text-gray-700 text-sm leading-relaxed mb-2">
+        A elegibilidade para MEI é determinada com base em: <strong>{MEI_FONTE}</strong>, que estabelece
+        a relação de atividades permitidas para Microempreendedor Individual.
+      </p>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        <strong>Aviso de precisão:</strong> A lista MEI é extensa e pode sofrer atualizações. Os dados deste site
+        passaram por uma validação inicial, mas podem conter imprecisões para atividades de menor popularidade.
+        Sempre verifique no Portal do Empreendedor (gov.br) antes de abrir seu MEI.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-3">Simples Nacional</h2>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        O enquadramento nos Anexos I a V do Simples Nacional é baseado na natureza da atividade (comércio,
+        indústria ou serviços) conforme Lei Complementar 123/2006 e suas atualizações. Os valores de alíquota
+        são os intervalos das tabelas vigentes — a alíquota efetiva depende da receita bruta acumulada.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-3">Frequência de atualização</h2>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Os dados hierárquicos são atualizados quando o IBGE publica uma nova versão do CNAE.
+        Os dados de MEI são atualizados quando o Comitê Gestor do Simples Nacional publica nova resolução.
+        A data da última revisão é exibida em cada página de CNAE.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold text-gray-900 mb-3">Disclaimer</h2>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        Este site tem caráter informativo e de referência. Não constitui assessoria jurídica, contábil ou tributária.
+        Para decisões definitivas sobre abertura de empresa, natureza jurídica ou regime tributário, consulte
+        um contador habilitado pelo CFC (Conselho Federal de Contabilidade).
+      </p>
+    </section>
+  </div>
+</HubLayout>

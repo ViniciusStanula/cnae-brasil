@@ -1,0 +1,38 @@
+codigo: 5822-1/02
+codigo_slug: 5822-1-02
+codigo_numerico: '5822102'
+descricao_oficial: EDIÇÃO INTEGRADA À IMPRESSÃO DE JORNAIS NÃO DIÁRIOS
+descricao_plana: EDIÇÃO INTEGRADA À IMPRESSÃO DE JORNAIS NÃO DIÁRIOS
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '58'
+  nome: EDIÇÃO E EDIÇÃO INTEGRADA À IMPRESSÃO
+grupo:
+  codigo: '58.2'
+  nome: EDIÇÃO INTEGRADA À IMPRESSÃO DE LIVROS, JORNAIS, REVISTAS E OUTRAS PUBLICAÇÕES
+classe:
+  codigo: 5822-1
+  nome: EDIÇÃO INTEGRADA À IMPRESSÃO DE JORNAIS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

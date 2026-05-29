@@ -1,0 +1,37 @@
+codigo: 6499-9/99
+codigo_slug: 6499-9-99
+codigo_numerico: '6499999'
+descricao_oficial: OUTRAS ATIVIDADES DE SERVIÇOS FINANCEIROS NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: OUTRAS ATIVIDADES DE SERVIÇOS FINANCEIROS NÃO ESPECIFICADAS ANTERIORMENTE
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '64'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS
+grupo:
+  codigo: '64.9'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS NÃO ESPECIFICADAS ANTERIORMENTE
+classe:
+  codigo: 6499-9
+  nome: OUTRAS ATIVIDADES DE SERVIÇOS FINANCEIROS NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

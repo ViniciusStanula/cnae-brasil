@@ -1,0 +1,38 @@
+﻿codigo: 4930-2/03
+codigo_slug: 4930-2-03
+codigo_numerico: '4930203'
+descricao_oficial: TRANSPORTE RODOVIÁRIO DE PRODUTOS PERIGOSOS
+descricao_plana: TRANSPORTE RODOVIÁRIO DE PRODUTOS PERIGOSOS
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '49'
+  nome: TRANSPORTE TERRESTRE
+grupo:
+  codigo: '49.3'
+  nome: TRANSPORTE RODOVIÁRIO DE CARGA
+classe:
+  codigo: 4930-2
+  nome: TRANSPORTE RODOVIÁRIO DE CARGA
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

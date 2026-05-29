@@ -1,0 +1,40 @@
+codigo: 8219-9/99
+codigo_slug: 8219-9-99
+codigo_numerico: '8219999'
+descricao_oficial: PREPARAÇÃO DE DOCUMENTOS E SERVIÇOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: PREPARAÇÃO DE DOCUMENTOS E SERVIÇOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO NÃO ESPECIFICADOS ANTERIORMENTE
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '82'
+  nome: SERVIÇOS DE ESCRITÓRIO, DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS
+grupo:
+  codigo: '82.1'
+  nome: SERVIÇOS DE ESCRITÓRIO E APOIO ADMINISTRATIVO
+classe:
+  codigo: 8219-9
+  nome: FOTOCÓPIAS, PREPARAÇÃO DE DOCUMENTOS E OUTROS SERVIÇOS ESPECIALIZADOS DE APOIO ADMINISTRATIVO
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: DIGITADOR(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

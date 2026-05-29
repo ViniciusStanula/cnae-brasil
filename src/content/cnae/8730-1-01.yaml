@@ -1,0 +1,40 @@
+codigo: 8730-1/01
+codigo_slug: 8730-1-01
+codigo_numerico: '8730101'
+descricao_oficial: ORFANATOS
+descricao_plana: ORFANATOS
+secao:
+  letra: Q
+  slug: saude-servicos-sociais
+  nome: Saúde humana e serviços sociais
+  nome_curto: Saúde
+divisao:
+  codigo: '87'
+  nome: >-
+    ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA INTEGRADAS COM ASSISTÊNCIA SOCIAL, PRESTADAS EM RESIDÊNCIAS COLETIVAS E
+    PARTICULARES
+grupo:
+  codigo: '87.3'
+  nome: ATIVIDADES DE ASSISTÊNCIA SOCIAL PRESTADAS EM RESIDÊNCIAS COLETIVAS E PARTICULARES
+classe:
+  codigo: 8730-1
+  nome: ATIVIDADES DE ASSISTÊNCIA SOCIAL PRESTADAS EM RESIDÊNCIAS COLETIVAS E PARTICULARES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

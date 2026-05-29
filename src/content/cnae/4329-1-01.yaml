@@ -1,0 +1,40 @@
+codigo: 4329-1/01
+codigo_slug: 4329-1-01
+codigo_numerico: '4329101'
+descricao_oficial: INSTALAÇÃO DE PAINÉIS PUBLICITÁRIOS
+descricao_plana: INSTALAÇÃO DE PAINÉIS PUBLICITÁRIOS
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '43'
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+grupo:
+  codigo: '43.2'
+  nome: INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS E OUTRAS INSTALAÇÕES EM CONSTRUÇÕES
+classe:
+  codigo: 4329-1
+  nome: OBRAS DE INSTALAÇÕES EM CONSTRUÇÕES NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: INSTALADOR(A) DE PAINÉIS PUBLICITÁRIOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,37 @@
+codigo: 6461-1/00
+codigo_slug: 6461-1-00
+codigo_numerico: '6461100'
+descricao_oficial: HOLDINGS DE INSTITUIÇÕES FINANCEIRAS
+descricao_plana: HOLDINGS DE INSTITUIÇÕES FINANCEIRAS
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '64'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS
+grupo:
+  codigo: '64.6'
+  nome: ATIVIDADES DE SOCIEDADES DE PARTICIPAÇÃO
+classe:
+  codigo: 6461-1
+  nome: HOLDINGS DE INSTITUIÇÕES FINANCEIRAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

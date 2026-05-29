@@ -1,0 +1,38 @@
+codigo: 9200-3/01
+codigo_slug: 9200-3-01
+codigo_numerico: '9200301'
+descricao_oficial: CASAS DE BINGO
+descricao_plana: CASAS DE BINGO
+secao:
+  letra: R
+  slug: artes-cultura-esporte
+  nome: Artes, cultura, esporte e recreação
+  nome_curto: Cultura e Esporte
+divisao:
+  codigo: '92'
+  nome: ATIVIDADES DE EXPLORAÇÃO DE JOGOS DE AZAR E APOSTAS
+grupo:
+  codigo: '92.0'
+  nome: ATIVIDADES DE EXPLORAÇÃO DE JOGOS DE AZAR E APOSTAS
+classe:
+  codigo: 9200-3
+  nome: ATIVIDADES DE EXPLORAÇÃO DE JOGOS DE AZAR E APOSTAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

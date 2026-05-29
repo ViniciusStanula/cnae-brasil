@@ -1,0 +1,68 @@
+﻿codigo: 6201-5/01
+codigo_slug: 6201-5-01
+codigo_numerico: '6201501'
+descricao_oficial: DESENVOLVIMENTO DE PROGRAMAS DE COMPUTADOR SOB ENCOMENDA
+descricao_plana: >-
+  Criação de software personalizado para clientes específicos, como sistemas, aplicativos ou ferramentas desenvolvidas
+  sob pedido e conforme as necessidades de cada contratante.
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '62'
+  nome: ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO
+grupo:
+  codigo: '62.0'
+  nome: ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO
+classe:
+  codigo: 6201-5
+  nome: DESENVOLVIMENTO DE PROGRAMAS DE COMPUTADOR SOB ENCOMENDA
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Freelancer que desenvolve sistemas de gestão para pequenas empresas
+  - Empresa que cria aplicativos mobile sob medida para clientes corporativos
+  - Desenvolvedor que programa integrações entre sistemas de um cliente
+  - Software house que entrega ERPs customizados para indústrias
+  - Programador que constrói APIs e back-ends sob encomenda para startups
+o_que_inclui:
+  - Desenvolvimento de sistemas de informação personalizados conforme especificações do cliente
+  - Criação de aplicativos mobile (iOS e Android) sob encomenda
+  - Programação de back-end, APIs e microsserviços para projetos específicos
+  - Desenvolvimento de softwares embarcados ou de automação sob contrato
+  - Customização e adaptação de sistemas existentes conforme demanda do contratante
+  - Entrega de código-fonte ou produto de software desenvolvido exclusivamente para um cliente
+o_que_nao_inclui:
+  - Criação de layouts e interfaces visuais para sites e aplicações web (use CNAE 6201-5/02)
+  - Desenvolvimento de softwares padronizados vendidos em larga escala para múltiplos clientes (use CNAE 5820-9/00)
+  - Consultoria em tecnologia da informação sem desenvolvimento de software (use CNAE 6204-0/00)
+  - Hospedagem de sites e servidores (use CNAE 6311-9/00)
+  - Suporte técnico e manutenção de sistemas já entregues (use CNAE 6209-1/00)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Inscrição municipal para emissão de nota fiscal de serviços (ISS)
+cnaes_relacionados:
+  - 6201-5/02
+  - 5820-9/00
+  - 6202-3/00
+  - 6203-1/00
+  - 6204-0/00
+  - 6209-1/00
+  - 6311-9/00
+  - 6319-4/00
+  - 7490-1/04
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2026-05-22T14:50:31.671Z'

@@ -1,0 +1,38 @@
+codigo: 1910-1/00
+codigo_slug: 1910-1-00
+codigo_numerico: '1910100'
+descricao_oficial: COQUERIAS
+descricao_plana: COQUERIAS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '19'
+  nome: FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS
+grupo:
+  codigo: '19.1'
+  nome: COQUERIAS
+classe:
+  codigo: 1910-1
+  nome: COQUERIAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

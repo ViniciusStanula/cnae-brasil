@@ -1,0 +1,40 @@
+codigo: 1064-3/00
+codigo_slug: 1064-3-00
+codigo_numerico: '1064300'
+descricao_oficial: FABRICAÇÃO DE FARINHA DE MILHO E DERIVADOS, EXCETO ÓLEOS DE MILHO
+descricao_plana: FABRICAÇÃO DE FARINHA DE MILHO E DERIVADOS, EXCETO ÓLEOS DE MILHO
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '10'
+  nome: FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS
+grupo:
+  codigo: '10.6'
+  nome: MOAGEM, FABRICAÇÃO DE PRODUTOS AMILÁCEOS E DE ALIMENTOS PARA ANIMAIS
+classe:
+  codigo: 1064-3
+  nome: FABRICAÇÃO DE FARINHA DE MILHO E DERIVADOS, EXCETO ÓLEOS DE MILHO
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FARINHEIRO DE MILHO INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,33 @@
+---
+import { formatCodigoForDisplay, formatCodigoForUrl } from '../../lib/cnae-helpers.js';
+
+interface RelatedEntry {
+  codigo: string;
+  descricao: string;
+}
+
+interface Props {
+  related: RelatedEntry[];
+}
+
+const { related } = Astro.props;
+---
+
+{related.length > 0 && (
+  <section class="mb-8">
+    <h2 class="text-xl font-bold text-gray-900 mb-3">CNAEs relacionados</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {related.map((r) => (
+        <a
+          href={`/cnae/${formatCodigoForUrl(r.codigo)}/`}
+          class="flex gap-3 items-start rounded-xl border border-gray-200 bg-white p-3 hover:border-blue-400 hover:shadow-sm transition-all"
+        >
+          <code class="text-sm font-mono font-bold text-blue-700 whitespace-nowrap mt-0.5">
+            {formatCodigoForDisplay(r.codigo)}
+          </code>
+          <span class="text-sm text-gray-700 line-clamp-2">{r.descricao}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

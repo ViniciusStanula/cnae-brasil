@@ -1,0 +1,40 @@
+codigo: 4399-1/03
+codigo_slug: 4399-1-03
+codigo_numerico: '4399103'
+descricao_oficial: OBRAS DE ALVENARIA
+descricao_plana: OBRAS DE ALVENARIA
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '43'
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+grupo:
+  codigo: '43.9'
+  nome: OUTROS SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+classe:
+  codigo: 4399-1
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: PEDREIRO INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

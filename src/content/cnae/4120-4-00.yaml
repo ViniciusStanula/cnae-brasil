@@ -1,0 +1,38 @@
+codigo: 4120-4/00
+codigo_slug: 4120-4-00
+codigo_numerico: '4120400'
+descricao_oficial: CONSTRUÇÃO DE EDIFÍCIOS
+descricao_plana: CONSTRUÇÃO DE EDIFÍCIOS
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '41'
+  nome: CONSTRUÇÃO DE EDIFÍCIOS
+grupo:
+  codigo: '41.2'
+  nome: CONSTRUÇÃO DE EDIFÍCIOS
+classe:
+  codigo: 4120-4
+  nome: CONSTRUÇÃO DE EDIFÍCIOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

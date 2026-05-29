@@ -1,0 +1,71 @@
+codigo: 1011-2/01
+codigo_slug: 1011-2-01
+codigo_numerico: '1011201'
+descricao_oficial: FRIGORÍFICO - ABATE DE BOVINOS
+descricao_plana: >-
+  Empresa que realiza o abate industrial de bovinos (bois, vacas, novilhos) em frigorífico, transformando o animal em
+  carcaça e cortes para comercialização.
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '10'
+  nome: FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS
+grupo:
+  codigo: '10.1'
+  nome: ABATE E FABRICAÇÃO DE PRODUTOS DE CARNE
+classe:
+  codigo: 1011-2
+  nome: ABATE DE RESES, EXCETO SUÍNOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Frigorífico industrial de abate de bois e vacas
+  - Planta de abate bovino integrada a produção de cortes
+  - Frigorífico exportador de carne bovina
+  - Unidade de abate bovino de médio porte para mercado regional
+  - Frigorífico com linha de abate e câmaras frigoríficas para bovinos
+o_que_inclui:
+  - Abate de bovinos (bois, vacas, novilhos, bezerros) em instalações frigoríficas
+  - Obtenção de carcaças bovinas após o abate
+  - Processamento primário da carne bovina logo após o abate (evisceração, divisão de carcaça)
+  - Produção de subprodutos do abate bovino, como couro, vísceras e sebo, gerados no mesmo processo
+  - Resfriamento e armazenamento das carcaças nas câmaras do próprio frigorífico
+o_que_nao_inclui:
+  - Abate de equinos (cavalos, mulas, asininos) — use CNAE 1011-2/02
+  - Abate de ovinos e caprinos (ovelhas e cabras) — use CNAE 1011-2/03
+  - Abate de bufalinos (búfalos) — use CNAE 1011-2/04
+  - Abate de bovinos sob contrato para terceiros, sem posse do animal — use CNAE 1011-2/05
+  - Abate de suínos — use CNAE 1012-1/01
+  - Fabricação de produtos processados de carne bovina, como embutidos e conservas — use CNAE 1013-9/01
+licencas_comuns:
+  - Alvará sanitário federal (inspeção de produtos de origem animal)
+  - Licença ambiental (instalação e operação)
+  - Alvará municipal de funcionamento
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença sanitária estadual ou municipal, conforme abrangência do mercado atendido
+cnaes_relacionados:
+  - 1011-2/02
+  - 1011-2/03
+  - 1011-2/04
+  - 1011-2/05
+  - 1012-1/01
+  - 1013-9/01
+  - 1013-9/02
+  - 1031-7/00
+  - 4634-6/01
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:51:15.156Z'

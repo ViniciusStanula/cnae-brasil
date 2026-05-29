@@ -1,0 +1,38 @@
+codigo: 6391-7/00
+codigo_slug: 6391-7-00
+codigo_numerico: '6391700'
+descricao_oficial: AGÊNCIAS DE NOTÍCIAS
+descricao_plana: AGÊNCIAS DE NOTÍCIAS
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '63'
+  nome: ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO
+grupo:
+  codigo: '63.9'
+  nome: OUTRAS ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO
+classe:
+  codigo: 6391-7
+  nome: AGÊNCIAS DE NOTÍCIAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

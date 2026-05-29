@@ -1,0 +1,38 @@
+codigo: 3329-5/99
+codigo_slug: 3329-5-99
+codigo_numerico: '3329599'
+descricao_oficial: INSTALAÇÃO DE OUTROS EQUIPAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: INSTALAÇÃO DE OUTROS EQUIPAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '33'
+  nome: MANUTENÇÃO, REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS
+grupo:
+  codigo: '33.2'
+  nome: INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS
+classe:
+  codigo: 3329-5
+  nome: INSTALAÇÃO DE EQUIPAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

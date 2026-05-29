@@ -1,0 +1,38 @@
+codigo: 4691-5/00
+codigo_slug: 4691-5-00
+codigo_numerico: '4691500'
+descricao_oficial: COMÉRCIO ATACADISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS
+descricao_plana: COMÉRCIO ATACADISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '46'
+  nome: COMÉRCIO POR ATACADO, EXCETO VEÍCULOS AUTOMOTORES E MOTOCICLETAS
+grupo:
+  codigo: '46.9'
+  nome: COMÉRCIO ATACADISTA NÃO-ESPECIALIZADO
+classe:
+  codigo: 4691-5
+  nome: COMÉRCIO ATACADISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

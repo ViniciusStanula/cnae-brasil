@@ -1,0 +1,38 @@
+codigo: 5310-5/01
+codigo_slug: 5310-5-01
+codigo_numerico: '5310501'
+descricao_oficial: ATIVIDADES DO CORREIO NACIONAL
+descricao_plana: ATIVIDADES DO CORREIO NACIONAL
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '53'
+  nome: CORREIO E OUTRAS ATIVIDADES DE ENTREGA
+grupo:
+  codigo: '53.1'
+  nome: ATIVIDADES DE CORREIO
+classe:
+  codigo: 5310-5
+  nome: ATIVIDADES DE CORREIO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

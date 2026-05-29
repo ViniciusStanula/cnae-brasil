@@ -1,0 +1,63 @@
+codigo: 8230-0/01
+codigo_slug: 8230-0-01
+codigo_numerico: '8230001'
+descricao_oficial: SERVIÇOS DE ORGANIZAÇÃO DE FEIRAS, CONGRESSOS, EXPOSIÇÕES E FESTAS
+descricao_plana: >-
+  Organização de eventos: empresas e profissionais que planejam, coordenam e executam eventos corporativos, sociais e
+  culturais. Inclui casamentos, formaturas, congressos e feiras.
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '82'
+  nome: SERVIÇOS DE ESCRITÓRIO, DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS
+grupo:
+  codigo: '82.3'
+  nome: ATIVIDADES DE ORGANIZAÇÃO DE EVENTOS, EXCETO CULTURAIS E ESPORTIVOS
+classe:
+  codigo: 8230-0
+  nome: ATIVIDADES DE ORGANIZAÇÃO DE EVENTOS, EXCETO CULTURAIS E ESPORTIVOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: PROMOTOR(A) DE EVENTOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Empresa de organização de casamentos (wedding planner)
+  - Produtora de eventos corporativos
+  - Organizadora de formaturas
+  - Empresa de congressos e feiras
+o_que_inclui:
+  - Planejamento e coordenação de eventos
+  - Contratação e gestão de fornecedores
+  - Locação de espaços e montagem
+  - Produção de formaturas e bailes
+  - Organização de congressos e seminários
+o_que_nao_inclui:
+  - Serviços de buffet (fornecimento de refeições) — use CNAE 5620-1/01
+  - Locação de equipamentos de áudio/vídeo — use CNAE 7719-5/99
+  - Decoração de festas como atividade principal — use CNAE 9003-5/00
+licencas_comuns:
+  - Alvará de funcionamento (Prefeitura)
+  - Cadastro na Prefeitura para eventos em espaço público
+  - Licença da ABRAPE (opcional, para credibilidade)
+cnaes_relacionados:
+  - 8230-0/02
+  - 5620-1/01
+  - 7719-5/99
+  - 9003-5/00
+  - 7420-0/01
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

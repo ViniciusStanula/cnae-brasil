@@ -1,0 +1,40 @@
+codigo: 8011-1/02
+codigo_slug: 8011-1-02
+codigo_numerico: '8011102'
+descricao_oficial: SERVIÇOS DE ADESTRAMENTO DE CÃES DE GUARDA
+descricao_plana: SERVIÇOS DE ADESTRAMENTO DE CÃES DE GUARDA
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '80'
+  nome: ATIVIDADES DE VIGILÂNCIA, SEGURANÇA E INVESTIGAÇÃO
+grupo:
+  codigo: '80.1'
+  nome: ATIVIDADES DE VIGILÂNCIA, SEGURANÇA PRIVADA E TRANSPORTE DE VALORES
+classe:
+  codigo: 8011-1
+  nome: ATIVIDADES DE VIGILÂNCIA E SEGURANÇA PRIVADA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: ADESTRADOR(A) DE CÃES DE GUARDA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

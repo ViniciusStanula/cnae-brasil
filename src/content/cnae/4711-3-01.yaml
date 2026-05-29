@@ -1,0 +1,40 @@
+﻿codigo: 4711-3/01
+codigo_slug: 4711-3-01
+codigo_numerico: '4711301'
+descricao_oficial: COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS   HIPERMERCADOS
+descricao_plana: COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS   HIPERMERCADOS
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '47'
+  nome: COMÉRCIO VAREJISTA
+grupo:
+  codigo: '47.1'
+  nome: COMÉRCIO VAREJISTA NÃO-ESPECIALIZADO
+classe:
+  codigo: 4711-3
+  nome: >-
+    COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - HIPERMERCADOS E
+    SUPERMERCADOS
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

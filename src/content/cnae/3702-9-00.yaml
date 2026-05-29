@@ -1,0 +1,40 @@
+codigo: 3702-9/00
+codigo_slug: 3702-9-00
+codigo_numerico: '3702900'
+descricao_oficial: ATIVIDADES RELACIONADAS A ESGOTO, EXCETO A GESTÃO DE REDES
+descricao_plana: ATIVIDADES RELACIONADAS A ESGOTO, EXCETO A GESTÃO DE REDES
+secao:
+  letra: E
+  slug: agua-esgoto-residuos
+  nome: Água, esgoto, atividades de gestão de resíduos e descontaminação
+  nome_curto: Saneamento
+divisao:
+  codigo: '37'
+  nome: ESGOTO E ATIVIDADES RELACIONADAS
+grupo:
+  codigo: '37.0'
+  nome: ESGOTO E ATIVIDADES RELACIONADAS
+classe:
+  codigo: 3702-9
+  nome: ATIVIDADES RELACIONADAS A ESGOTO, EXCETO A GESTÃO DE REDES
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FOSSEIRO (LIMPADOR DE FOSSA) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

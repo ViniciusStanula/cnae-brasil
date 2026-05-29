@@ -1,0 +1,40 @@
+codigo: 7319-0/02
+codigo_slug: 7319-0-02
+codigo_numerico: '7319002'
+descricao_oficial: PROMOÇÃO DE VENDAS
+descricao_plana: PROMOÇÃO DE VENDAS
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '73'
+  nome: PUBLICIDADE E PESQUISA DE MERCADO
+grupo:
+  codigo: '73.1'
+  nome: PUBLICIDADE
+classe:
+  codigo: 7319-0
+  nome: ATIVIDADES DE PUBLICIDADE NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: PANFLETEIRO(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

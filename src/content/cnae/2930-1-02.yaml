@@ -1,0 +1,38 @@
+codigo: 2930-1/02
+codigo_slug: 2930-1-02
+codigo_numerico: '2930102'
+descricao_oficial: FABRICAÇÃO DE CARROCERIAS PARA ÔNIBUS
+descricao_plana: FABRICAÇÃO DE CARROCERIAS PARA ÔNIBUS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '29'
+  nome: FABRICAÇÃO DE VEÍCULOS AUTOMOTORES, REBOQUES E CARROCERIAS
+grupo:
+  codigo: '29.3'
+  nome: FABRICAÇÃO DE CABINES, CARROCERIAS E REBOQUES PARA VEÍCULOS AUTOMOTORES
+classe:
+  codigo: 2930-1
+  nome: FABRICAÇÃO DE CABINES, CARROCERIAS E REBOQUES PARA VEÍCULOS AUTOMOTORES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

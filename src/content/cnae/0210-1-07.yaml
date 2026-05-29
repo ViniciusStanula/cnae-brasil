@@ -1,0 +1,38 @@
+codigo: 0210-1/07
+codigo_slug: 0210-1-07
+codigo_numerico: '0210107'
+descricao_oficial: EXTRAÇÃO DE MADEIRA EM FLORESTAS PLANTADAS
+descricao_plana: EXTRAÇÃO DE MADEIRA EM FLORESTAS PLANTADAS
+secao:
+  letra: A
+  slug: agricultura
+  nome: Agricultura, pecuária, produção florestal, pesca e aquicultura
+  nome_curto: Agricultura
+divisao:
+  codigo: '02'
+  nome: PRODUÇÃO FLORESTAL
+grupo:
+  codigo: '02.1'
+  nome: PRODUÇÃO FLORESTAL - FLORESTAS PLANTADAS
+classe:
+  codigo: 0210-1
+  nome: PRODUÇÃO FLORESTAL - FLORESTAS PLANTADAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

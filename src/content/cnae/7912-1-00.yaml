@@ -1,0 +1,40 @@
+codigo: 7912-1/00
+codigo_slug: 7912-1-00
+codigo_numerico: '7912100'
+descricao_oficial: OPERADORES TURÍSTICOS
+descricao_plana: OPERADORES TURÍSTICOS
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '79'
+  nome: AGÊNCIAS DE VIAGENS, OPERADORES TURÍSTICOS E SERVIÇOS DE RESERVAS
+grupo:
+  codigo: '79.1'
+  nome: AGÊNCIAS DE VIAGENS E OPERADORES TURÍSTICOS
+classe:
+  codigo: 7912-1
+  nome: OPERADORES TURÍSTICOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: GUIA DE TURISMO INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

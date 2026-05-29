@@ -1,0 +1,40 @@
+codigo: 4330-4/05
+codigo_slug: 4330-4-05
+codigo_numerico: '4330405'
+descricao_oficial: APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES
+descricao_plana: APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '43'
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+grupo:
+  codigo: '43.3'
+  nome: OBRAS DE ACABAMENTO
+classe:
+  codigo: 4330-4
+  nome: OBRAS DE ACABAMENTO
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: AZULEJISTA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

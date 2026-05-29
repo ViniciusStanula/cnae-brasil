@@ -1,0 +1,37 @@
+codigo: 8413-2/00
+codigo_slug: 8413-2-00
+codigo_numerico: '8413200'
+descricao_oficial: REGULAÇÃO DAS ATIVIDADES ECONÔMICAS
+descricao_plana: REGULAÇÃO DAS ATIVIDADES ECONÔMICAS
+secao:
+  letra: O
+  slug: administracao-publica
+  nome: Administração pública, defesa e seguridade social
+  nome_curto: Adm. Pública
+divisao:
+  codigo: '84'
+  nome: ADMINISTRAÇÃO PÚBLICA, DEFESA E SEGURIDADE SOCIAL
+grupo:
+  codigo: '84.1'
+  nome: ADMINISTRAÇÃO DO ESTADO E DA POLÍTICA ECONÔMICA E SOCIAL
+classe:
+  codigo: 8413-2
+  nome: REGULAÇÃO DAS ATIVIDADES ECONÔMICAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

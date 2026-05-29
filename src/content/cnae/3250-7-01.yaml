@@ -1,0 +1,38 @@
+codigo: 3250-7/01
+codigo_slug: 3250-7-01
+codigo_numerico: '3250701'
+descricao_oficial: FABRICAÇÃO DE INSTRUMENTOS NÃO ELETRÔNICOS E UTENSÍLIOS PARA USO MÉDICO, CIRÚRGICO, ODONTOLÓGICO E DE LABORATÓRIO
+descricao_plana: FABRICAÇÃO DE INSTRUMENTOS NÃO ELETRÔNICOS E UTENSÍLIOS PARA USO MÉDICO, CIRÚRGICO, ODONTOLÓGICO E DE LABORATÓRIO
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '32'
+  nome: FABRICAÇÃO DE PRODUTOS DIVERSOS
+grupo:
+  codigo: '32.5'
+  nome: FABRICAÇÃO DE INSTRUMENTOS E MATERIAIS PARA USO MÉDICO E ODONTOLÓGICO E DE ARTIGOS ÓPTICOS
+classe:
+  codigo: 3250-7
+  nome: FABRICAÇÃO DE INSTRUMENTOS E MATERIAIS PARA USO MÉDICO E ODONTOLÓGICO E DE ARTIGOS ÓPTICOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,40 @@
+codigo: 4322-3/01
+codigo_slug: 4322-3-01
+codigo_numerico: '4322301'
+descricao_oficial: INSTALAÇÕES HIDRÁULICAS, SANITÁRIAS E DE GÁS
+descricao_plana: INSTALAÇÕES HIDRÁULICAS, SANITÁRIAS E DE GÁS
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '43'
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+grupo:
+  codigo: '43.2'
+  nome: INSTALAÇÕES ELÉTRICAS, HIDRÁULICAS E OUTRAS INSTALAÇÕES EM CONSTRUÇÕES
+classe:
+  codigo: 4322-3
+  nome: INSTALAÇÕES HIDRÁULICAS, DE SISTEMAS DE VENTILAÇÃO E REFRIGERAÇÃO
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: BOMBEIRO(A) HIDRÁULICO INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

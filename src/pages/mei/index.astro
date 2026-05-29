@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content';
+import HubLayout from '../../layouts/HubLayout.astro';
+import SearchBox from '../../components/search/SearchBox.astro';
+import { buildCanonical } from '../../lib/seo.js';
+import { buildBreadcrumbJsonLd, buildCollectionPageJsonLd } from '../../lib/schema-org.js';
+import { buildSearchIndex } from '../../lib/search.js';
+import { homeCrumb } from '../../lib/breadcrumbs.js';
+import { MEI_FONTE, MEI_LIMITE_FATURAMENTO } from '../../lib/constants.js';
+
+const allEntries = await getCollection('cnae');
+const meiEntries = allEntries.filter((e) => e.data.mei.permitido);
+const searchItems = buildSearchIndex(meiEntries.map((e) => e.data));
+
+const year = new Date().getFullYear();
+const title = `CNAEs Permitidos para MEI ${year} — Lista Completa | CNAE Brasil`;
+const description = `Lista completa de ${meiEntries.length} CNAEs permitidos para MEI em ${year}. Verifique se sua atividade é elegível para Microempreendedor Individual.`;
+const canonical = buildCanonical('/mei/');
+
+const crumbs = [homeCrumb(), { label: 'MEI', href: '/mei/', current: true }];
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(crumbs.map((c) => ({ label: c.label, href: c.href })));
+const collectionJsonLd = buildCollectionPageJsonLd(
+  title,
+  description,
+  '/mei/',
+  meiEntries.slice(0, 50).map((e) => ({
+    name: `CNAE ${e.data.codigo}: ${e.data.descricao_oficial}`,
+    url: `/cnae/${e.data.codigo_slug}/`,
+  }))
+);
+---
+
+<HubLayout {title} {description} {canonical} {crumbs} jsonLd={[breadcrumbJsonLd, collectionJsonLd]}>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+    CNAEs Permitidos para MEI — Guia Completo {year}
+  </h1>
+  <p class="text-gray-600 mb-6">
+    O MEI (Microempreendedor Individual) é uma forma simplificada de formalizar seu negócio com faturamento
+    até {MEI_LIMITE_FATURAMENTO}. Nem todas as atividades são permitidas.
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+    <div class="bg-green-50 border border-green-200 rounded-xl p-4 text-center">
+      <p class="text-3xl font-bold text-green-700">{meiEntries.length}</p>
+      <p class="text-sm text-green-800 mt-1">atividades permitidas</p>
+    </div>
+    <div class="bg-blue-50 border border-blue-200 rounded-xl p-4 text-center">
+      <p class="text-3xl font-bold text-blue-700">{MEI_LIMITE_FATURAMENTO}</p>
+      <p class="text-sm text-blue-800 mt-1">limite de faturamento anual</p>
+    </div>
+    <div class="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center">
+      <p class="text-sm font-bold text-gray-700">Fonte</p>
+      <p class="text-xs text-gray-600 mt-1">{MEI_FONTE}</p>
+    </div>
+  </div>
+
+  <div class="mb-8">
+    <SearchBox items={searchItems} placeholder="Buscar atividade MEI…" />
+  </div>
+
+  <div class="flex flex-wrap gap-3 mb-8">
+    <a href="/mei/atividades-permitidas/" class="bg-green-700 text-white px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-green-800 transition-colors">
+      Ver lista completa permitidas →
+    </a>
+    <a href="/mei/atividades-proibidas/" class="bg-red-600 text-white px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-red-700 transition-colors">
+      Ver atividades proibidas →
+    </a>
+  </div>
+
+  <section class="mb-8">
+    <h2 class="text-xl font-bold text-gray-900 mb-4">O que é MEI?</h2>
+    <div class="prose prose-sm max-w-none text-gray-700 space-y-3">
+      <p>
+        O Microempreendedor Individual (MEI) é uma categoria jurídica criada para facilitar a formalização
+        de trabalhadores autônomos e pequenos negócios. Com o MEI, você paga um valor fixo mensal
+        (DAS-MEI) que inclui INSS, ISS e/ou ICMS, sem precisar contratar contador.
+      </p>
+      <p>
+        Para abrir um MEI, sua atividade precisa estar na lista de CNAEs permitidos pela {MEI_FONTE}.
+        Nem todas as atividades são elegíveis — profissões regulamentadas (médico, advogado, engenheiro)
+        e atividades de maior complexidade geralmente exigem outra natureza jurídica.
+      </p>
+    </div>
+  </section>
+
+  <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800">
+    <strong>Aviso:</strong> Esta lista é de referência. Consulte um contador para confirmar se sua situação
+    específica permite abertura como MEI. Fonte: {MEI_FONTE}.
+  </div>
+</HubLayout>

@@ -1,0 +1,37 @@
+codigo: 6613-4/00
+codigo_slug: 6613-4-00
+codigo_numerico: '6613400'
+descricao_oficial: ADMINISTRAÇÃO DE CARTÕES DE CRÉDITO
+descricao_plana: ADMINISTRAÇÃO DE CARTÕES DE CRÉDITO
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '66'
+  nome: ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS, SEGUROS, PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE
+grupo:
+  codigo: '66.1'
+  nome: ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS
+classe:
+  codigo: 6613-4
+  nome: ADMINISTRAÇÃO DE CARTÕES DE CRÉDITO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,72 @@
+codigo: 7810-8/00
+codigo_slug: 7810-8-00
+codigo_numerico: '7810800'
+descricao_oficial: SELEÇÃO E AGENCIAMENTO DE MÃO DE OBRA
+descricao_plana: >-
+  Empresa que recruta, avalia e encaminha profissionais para trabalhar em outras organizações, atuando como
+  intermediária entre candidatos e empregadores.
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '78'
+  nome: SELEÇÃO, AGENCIAMENTO E LOCAÇÃO DE MÃO-DE-OBRA
+grupo:
+  codigo: '78.1'
+  nome: SELEÇÃO E AGENCIAMENTO DE MÃO-DE-OBRA
+classe:
+  codigo: 7810-8
+  nome: SELEÇÃO E AGENCIAMENTO DE MÃO DE OBRA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Agência de empregos generalista
+  - Consultoria de recrutamento e seleção para empresas
+  - Headhunter especializado em cargos executivos
+  - Agência de seleção de profissionais de tecnologia
+  - Empresa de triagem e encaminhamento de candidatos para o varejo
+o_que_inclui:
+  - Recrutamento e triagem de candidatos para vagas em empresas clientes
+  - Aplicação de testes, entrevistas e avaliações de perfil profissional
+  - Encaminhamento de candidatos selecionados para contratação pelo empregador final
+  - Serviços de headhunting para posições de média e alta gestão
+  - Divulgação de vagas e captação de currículos em nome de empresas contratantes
+  - Consultoria em processos seletivos para organizações públicas ou privadas
+o_que_nao_inclui:
+  - >-
+    Fornecimento de trabalhadores temporários em que a empresa de mão de obra é a empregadora formal (use CNAE
+    7820-5/00)
+  - >-
+    Terceirização de serviços em que a empresa contratada executa a atividade com seus próprios funcionários (use CNAE
+    7830-2/00)
+  - Treinamento e capacitação de profissionais após a contratação (use CNAE 8599-6/04)
+  - Gestão de folha de pagamento e serviços de RH internos para outras empresas (use CNAE 8219-9/99)
+  - Agenciamento de artistas, modelos e atletas (use CNAE 7490-1/05)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Registro no Ministério do Trabalho e Emprego para agências de emprego
+  - Licenças setoriais conforme exigência do município
+cnaes_relacionados:
+  - 7820-5/00
+  - 7830-2/00
+  - 7490-1/05
+  - 8219-9/99
+  - 8599-6/04
+  - 7490-1/99
+  - 6920-6/01
+  - 8211-3/00
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:54:24.027Z'

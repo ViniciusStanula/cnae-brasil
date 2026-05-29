@@ -1,0 +1,62 @@
+codigo: 4930-2/01
+codigo_slug: 4930-2-01
+codigo_numerico: '4930201'
+descricao_oficial: TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, MUNICIPAL
+descricao_plana: >-
+  Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal: serviços de entrega e transporte de
+  mercadorias dentro do mesmo município. Popular entre MEIs que atuam como entregadores.
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '49'
+  nome: TRANSPORTE TERRESTRE
+grupo:
+  codigo: '49.3'
+  nome: TRANSPORTE RODOVIÁRIO DE CARGA
+classe:
+  codigo: 4930-2
+  nome: TRANSPORTE RODOVIÁRIO DE CARGA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: CARROCEIRO - TRANSPORTE DE CARGA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Entregador autônomo com van ou pick-up
+  - Transportadora local de pequenas cargas
+  - Serviço de frete municipal
+  - Motorista de entrega de e-commerce
+o_que_inclui:
+  - Entrega de mercadorias no mesmo município
+  - Frete de pequenas e médias cargas
+  - Transporte de móveis e eletrodomésticos localmente
+  - Última milha de e-commerce
+o_que_nao_inclui:
+  - Transporte intermunicipal — use CNAE 4930-2/02
+  - Transporte de produtos perigosos — use CNAE 4930-2/03
+  - Mudanças residenciais — use CNAE 4930-2/04
+  - Mototaxi — use CNAE 4929-9/02
+licencas_comuns:
+  - Registro como ETC (Empresa de Transporte de Carga) no RNTRC/ANTT
+  - CNH categoria D ou E (veículos pesados)
+  - Seguro obrigatório de carga (RCTR-C)
+cnaes_relacionados:
+  - 4930-2/02
+  - 4940-0/00
+  - 5320-2/01
+  - 4929-9/02
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

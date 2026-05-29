@@ -1,0 +1,38 @@
+codigo: 4632-0/02
+codigo_slug: 4632-0-02
+codigo_numerico: '4632002'
+descricao_oficial: COMÉRCIO ATACADISTA DE FARINHAS, AMIDOS E FÉCULAS
+descricao_plana: COMÉRCIO ATACADISTA DE FARINHAS, AMIDOS E FÉCULAS
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '46'
+  nome: COMÉRCIO POR ATACADO, EXCETO VEÍCULOS AUTOMOTORES E MOTOCICLETAS
+grupo:
+  codigo: '46.3'
+  nome: COMÉRCIO ATACADISTA ESPECIALIZADO EM PRODUTOS ALIMENTÍCIOS, BEBIDAS E FUMO
+classe:
+  codigo: 4632-0
+  nome: COMÉRCIO ATACADISTA DE CEREAIS E LEGUMINOSAS BENEFICIADOS, FARINHAS, AMIDOS E FÉCULAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,38 @@
+codigo: 8211-3/00
+codigo_slug: 8211-3-00
+codigo_numerico: '8211300'
+descricao_oficial: SERVIÇOS COMBINADOS DE ESCRITÓRIO E APOIO ADMINISTRATIVO
+descricao_plana: SERVIÇOS COMBINADOS DE ESCRITÓRIO E APOIO ADMINISTRATIVO
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '82'
+  nome: SERVIÇOS DE ESCRITÓRIO, DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS
+grupo:
+  codigo: '82.1'
+  nome: SERVIÇOS DE ESCRITÓRIO E APOIO ADMINISTRATIVO
+classe:
+  codigo: 8211-3
+  nome: SERVIÇOS COMBINADOS DE ESCRITÓRIO E APOIO ADMINISTRATIVO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

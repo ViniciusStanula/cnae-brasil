@@ -1,0 +1,40 @@
+codigo: 4541-2/06
+codigo_slug: 4541-2-06
+codigo_numerico: '4541206'
+descricao_oficial: COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS NOVOS PARA MOTOCICLETAS E MOTONETAS
+descricao_plana: COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS NOVOS PARA MOTOCICLETAS E MOTONETAS
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '45'
+  nome: COMÉRCIO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS
+grupo:
+  codigo: '45.4'
+  nome: COMÉRCIO, MANUTENÇÃO E REPARAÇÃO DE MOTOCICLETAS, PEÇAS E ACESSÓRIOS
+classe:
+  codigo: 4541-2
+  nome: COMÉRCIO POR ATACADO E A VAREJO DE MOTOCICLETAS, PEÇAS E ACESSÓRIOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: COMERCIANTE DE PEÇAS E ACESSÓRIOS NOVOS PARA MOTOCICLETAS E MOTONONETAS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

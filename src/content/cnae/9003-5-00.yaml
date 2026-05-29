@@ -1,0 +1,38 @@
+codigo: 9003-5/00
+codigo_slug: 9003-5-00
+codigo_numerico: '9003500'
+descricao_oficial: GESTÃO DE ESPAÇOS PARA ARTES CÊNICAS, ESPETÁCULOS E OUTRAS ATIVIDADES ARTÍSTICAS
+descricao_plana: GESTÃO DE ESPAÇOS PARA ARTES CÊNICAS, ESPETÁCULOS E OUTRAS ATIVIDADES ARTÍSTICAS
+secao:
+  letra: R
+  slug: artes-cultura-esporte
+  nome: Artes, cultura, esporte e recreação
+  nome_curto: Cultura e Esporte
+divisao:
+  codigo: '90'
+  nome: ATIVIDADES ARTÍSTICAS, CRIATIVAS E DE ESPETÁCULOS
+grupo:
+  codigo: '90.0'
+  nome: ATIVIDADES ARTÍSTICAS, CRIATIVAS E DE ESPETÁCULOS
+classe:
+  codigo: 9003-5
+  nome: GESTÃO DE ESPAÇOS PARA ARTES CÊNICAS, ESPETÁCULOS E OUTRAS ATIVIDADES ARTÍSTICAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

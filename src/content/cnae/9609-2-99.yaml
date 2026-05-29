@@ -1,0 +1,73 @@
+codigo: 9609-2/99
+codigo_slug: 9609-2-99
+codigo_numerico: '9609299'
+descricao_oficial: OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: >-
+  Serviços pessoais variados que não se encaixam em nenhuma outra categoria específica, como astrologia, quiromancia,
+  numerologia e atividades similares.
+secao:
+  letra: S
+  slug: outras-atividades-de-servicos
+  nome: Outras atividades de serviços
+  nome_curto: Outros Serviços
+divisao:
+  codigo: '96'
+  nome: OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS
+grupo:
+  codigo: '96.0'
+  nome: OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS
+classe:
+  codigo: 9609-2
+  nome: ATIVIDADES DE SERVIÇOS PESSOAIS NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: ASTRÓLOGO(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Consultório de astrologia independente
+  - Serviço de quiromancia e leitura de mãos
+  - Consultoria de numerologia
+  - Serviço de tarô e cartomancia
+  - Serviço de acompanhamento pessoal e organização de rotina (personal organizer)
+  - Serviço de acompanhante social para eventos
+o_que_inclui:
+  - Consultas e elaboração de mapas astrológicos por astrólogo independente
+  - Serviços de quiromancia, numerologia e cartomancia prestados de forma autônoma
+  - Atividades de personal organizer (organização de espaços e rotinas pessoais)
+  - Serviços de acompanhante social para eventos e compromissos
+  - Outras atividades de serviços pessoais que não possuem código CNAE próprio na classe 9609-2
+o_que_nao_inclui:
+  - Agências que conectam pessoas para relacionamentos afetivos (use CNAE 9609-2/02)
+  - Exploração de máquinas automáticas de serviços pessoais acionadas por moeda (use CNAE 9609-2/04)
+  - Serviços de sauna, banhos e termas (use CNAE 9609-2/05)
+  - Estúdios e profissionais de tatuagem e colocação de piercing (use CNAE 9609-2/06)
+  - Hospedagem e alojamento de animais domésticos (use CNAE 9609-2/07)
+  - Banho, tosa e embelezamento de animais domésticos (use CNAE 9609-2/08)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Licença sanitária municipal (quando há atendimento presencial ao público)
+  - AVCB (Auto de Vistoria do Corpo de Bombeiros) para estabelecimentos físicos
+cnaes_relacionados:
+  - 9609-2/02
+  - 9609-2/04
+  - 9609-2/05
+  - 9609-2/06
+  - 9609-2/07
+  - 9609-2/08
+  - 9602-5/01
+  - 9602-5/02
+  - 9601-7/01
+  - 8599-6/04
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:55:17.502Z'

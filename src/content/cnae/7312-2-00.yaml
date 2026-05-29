@@ -1,0 +1,38 @@
+codigo: 7312-2/00
+codigo_slug: 7312-2-00
+codigo_numerico: '7312200'
+descricao_oficial: AGENCIAMENTO DE ESPAÇOS PARA PUBLICIDADE, EXCETO EM VEÍCULOS DE COMUNICAÇÃO
+descricao_plana: AGENCIAMENTO DE ESPAÇOS PARA PUBLICIDADE, EXCETO EM VEÍCULOS DE COMUNICAÇÃO
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '73'
+  nome: PUBLICIDADE E PESQUISA DE MERCADO
+grupo:
+  codigo: '73.1'
+  nome: PUBLICIDADE
+classe:
+  codigo: 7312-2
+  nome: AGENCIAMENTO DE ESPAÇOS PARA PUBLICIDADE, EXCETO EM VEÍCULOS DE COMUNICAÇÃO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,38 @@
+codigo: 4291-0/00
+codigo_slug: 4291-0-00
+codigo_numerico: '4291000'
+descricao_oficial: OBRAS PORTUÁRIAS, MARÍTIMAS E FLUVIAIS
+descricao_plana: OBRAS PORTUÁRIAS, MARÍTIMAS E FLUVIAIS
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '42'
+  nome: OBRAS DE INFRA-ESTRUTURA
+grupo:
+  codigo: '42.9'
+  nome: CONSTRUÇÃO DE OUTRAS OBRAS DE INFRA-ESTRUTURA
+classe:
+  codigo: 4291-0
+  nome: OBRAS PORTUÁRIAS, MARÍTIMAS E FLUVIAIS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

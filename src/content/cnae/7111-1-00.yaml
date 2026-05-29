@@ -1,0 +1,72 @@
+codigo: 7111-1/00
+codigo_slug: 7111-1-00
+codigo_numerico: '7111100'
+descricao_oficial: SERVIÇOS DE ARQUITETURA
+descricao_plana: >-
+  Prestação de serviços de arquitetura, como projetos de edificações, interiores e urbanismo, por escritórios ou
+  profissionais autônomos registrados no CAU.
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '71'
+  nome: SERVIÇOS DE ARQUITETURA E ENGENHARIA; TESTES E ANÁLISES TÉCNICAS
+grupo:
+  codigo: '71.1'
+  nome: SERVIÇOS DE ARQUITETURA E ENGENHARIA E ATIVIDADES TÉCNICAS RELACIONADAS
+classe:
+  codigo: 7111-1
+  nome: SERVIÇOS DE ARQUITETURA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Escritório de arquitetura residencial
+  - Escritório de arquitetura comercial e corporativa
+  - Estúdio de design de interiores com habilitação em arquitetura
+  - Consultoria em arquitetura urbanística e planejamento urbano
+  - Escritório especializado em arquitetura hospitalar e de saúde
+  - Empresa de projetos arquitetônicos para retrofit e requalificação de edificações
+o_que_inclui:
+  - Elaboração de projetos arquitetônicos residenciais, comerciais e industriais
+  - Projetos de interiores desenvolvidos por arquitetos
+  - Projetos urbanísticos e de planejamento de espaços urbanos
+  - Coordenação e compatibilização de projetos arquitetônicos
+  - Consultoria técnica em arquitetura para obras e reformas
+  - Elaboração de estudos de viabilidade arquitetônica e programas de necessidades
+  - Projetos de acessibilidade e adequação de edificações a normas técnicas
+o_que_nao_inclui:
+  - Serviços de engenharia civil, como projetos estruturais e de fundações (use CNAE 7112-0/00)
+  - Serviços de engenharia elétrica, hidráulica ou mecânica predial (use CNAE 7112-0/00)
+  - Execução física de obras de construção civil (use CNAE 4120-4/00)
+  - Atividades de gerenciamento e fiscalização de obras por engenheiros (use CNAE 7112-0/00)
+  - Serviços de decoração de interiores sem habilitação em arquitetura (use CNAE 7410-2/02)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Registro e anuidade no Conselho de Arquitetura e Urbanismo (CAU)
+  - Licenças setoriais exigidas pelo município para prestação de serviços técnicos
+cnaes_relacionados:
+  - 7112-0/00
+  - 7119-7/01
+  - 7119-7/02
+  - 7119-7/03
+  - 7119-7/99
+  - 7410-2/02
+  - 7410-2/03
+  - 7490-1/04
+  - 4120-4/00
+  - 7020-4/00
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:53:57.687Z'

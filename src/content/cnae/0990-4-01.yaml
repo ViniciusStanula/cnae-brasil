@@ -1,0 +1,38 @@
+codigo: 0990-4/01
+codigo_slug: 0990-4-01
+codigo_numerico: '0990401'
+descricao_oficial: ATIVIDADES DE APOIO À EXTRAÇÃO DE MINÉRIO DE FERRO
+descricao_plana: ATIVIDADES DE APOIO À EXTRAÇÃO DE MINÉRIO DE FERRO
+secao:
+  letra: B
+  slug: industrias-extrativas
+  nome: Indústrias extrativas
+  nome_curto: Extrativa
+divisao:
+  codigo: '09'
+  nome: ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS
+grupo:
+  codigo: '09.9'
+  nome: ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS, EXCETO PETRÓLEO E GÁS NATURAL
+classe:
+  codigo: 0990-4
+  nome: ATIVIDADES DE APOIO À EXTRAÇÃO DE MINERAIS, EXCETO PETRÓLEO E GÁS NATURAL
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

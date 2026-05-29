@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import HubLayout from '../../layouts/HubLayout.astro';
+import { buildCanonical } from '../../lib/seo.js';
+import { buildBreadcrumbJsonLd } from '../../lib/schema-org.js';
+import { homeCrumb } from '../../lib/breadcrumbs.js';
+import { MEI_FONTE } from '../../lib/constants.js';
+import { formatCodigoForDisplay } from '../../lib/cnae-helpers.js';
+import { ANEXO_BY_CODE } from '../../lib/constants.js';
+
+const allEntries = await getCollection('cnae');
+const meiEntries = allEntries
+  .filter((e) => e.data.mei.permitido)
+  .sort((a, b) => a.data.codigo.localeCompare(b.data.codigo));
+
+const title = `Lista Completa de Atividades Permitidas para MEI ${new Date().getFullYear()} | CNAE Brasil`;
+const description = `${meiEntries.length} atividades permitidas para MEI. Tabela completa com código CNAE, descrição e regime tributário, baseada em ${MEI_FONTE}.`;
+const canonical = buildCanonical('/mei/atividades-permitidas/');
+
+const crumbs = [
+  homeCrumb(),
+  { label: 'MEI', href: '/mei/' },
+  { label: 'Atividades Permitidas', href: '/mei/atividades-permitidas/', current: true },
+];
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(crumbs.map((c) => ({ label: c.label, href: c.href })));
+---
+
+<HubLayout {title} {description} {canonical} {crumbs} jsonLd={breadcrumbJsonLd}>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+    Atividades Permitidas para MEI
+  </h1>
+  <p class="text-gray-600 mb-2">
+    {meiEntries.length} atividades permitidas conforme {MEI_FONTE}.
+  </p>
+  <p class="text-xs text-gray-400 mb-6">
+    Última atualização: 24/05/2026. Clique em um código para ver detalhes completos.
+  </p>
+
+  <div class="overflow-x-auto rounded-xl border border-gray-200">
+    <table class="w-full text-sm border-collapse">
+      <thead>
+        <tr class="bg-gray-50 border-b border-gray-200">
+          <th class="text-left px-4 py-3 font-semibold text-gray-700 whitespace-nowrap">Código CNAE</th>
+          <th class="text-left px-4 py-3 font-semibold text-gray-700">Descrição</th>
+          <th class="text-left px-4 py-3 font-semibold text-gray-700 whitespace-nowrap hidden sm:table-cell">Simples Nacional</th>
+        </tr>
+      </thead>
+      <tbody>
+        {meiEntries.map((e, i) => {
+          const anexo = ANEXO_BY_CODE.get(e.data.simples_nacional.anexo);
+          return (
+            <tr class={`border-b border-gray-100 hover:bg-blue-50 transition-colors ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}`}>
+              <td class="px-4 py-3">
+                <a href={`/cnae/${e.data.codigo_slug}/`} class="font-mono font-bold text-blue-700 hover:underline whitespace-nowrap">
+                  {formatCodigoForDisplay(e.data.codigo_slug)}
+                </a>
+              </td>
+              <td class="px-4 py-3 text-gray-800 max-w-md">
+                <a href={`/cnae/${e.data.codigo_slug}/`} class="hover:text-blue-700 hover:underline line-clamp-2">
+                  {e.data.descricao_oficial}
+                </a>
+              </td>
+              <td class="px-4 py-3 text-gray-600 whitespace-nowrap hidden sm:table-cell">
+                {anexo?.nome ?? e.data.simples_nacional.anexo}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+</HubLayout>

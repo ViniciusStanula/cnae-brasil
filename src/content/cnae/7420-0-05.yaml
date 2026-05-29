@@ -1,0 +1,38 @@
+﻿codigo: 7420-0/05
+codigo_slug: 7420-0-05
+codigo_numerico: '7420005'
+descricao_oficial: SERVIÇOS DE MICROFILMAGEM
+descricao_plana: SERVIÇOS DE MICROFILMAGEM
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '74'
+  nome: OUTRAS ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS
+grupo:
+  codigo: '74.2'
+  nome: ATIVIDADES FOTOGRÁFICAS E SIMILARES
+classe:
+  codigo: 7420-0
+  nome: ATIVIDADES FOTOGRÁFICAS E SIMILARES
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

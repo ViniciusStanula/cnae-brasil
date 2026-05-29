@@ -1,0 +1,38 @@
+codigo: 1621-8/00
+codigo_slug: 1621-8-00
+codigo_numerico: '1621800'
+descricao_oficial: FABRICAÇÃO DE MADEIRA LAMINADA E DE CHAPAS DE MADEIRA COMPENSADA, PRENSADA E AGLOMERADA
+descricao_plana: FABRICAÇÃO DE MADEIRA LAMINADA E DE CHAPAS DE MADEIRA COMPENSADA, PRENSADA E AGLOMERADA
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '16'
+  nome: FABRICAÇÃO DE PRODUTOS DE MADEIRA
+grupo:
+  codigo: '16.2'
+  nome: FABRICAÇÃO DE PRODUTOS DE MADEIRA, CORTIÇA E MATERIAL TRANÇADO, EXCETO MÓVEIS
+classe:
+  codigo: 1621-8
+  nome: FABRICAÇÃO DE MADEIRA LAMINADA E DE CHAPAS DE MADEIRA COMPENSADA, PRENSADA E AGLOMERADA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

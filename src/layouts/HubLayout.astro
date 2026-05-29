@@ -1,0 +1,22 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import type { Crumb } from '../lib/breadcrumbs.js';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  crumbs?: Crumb[];
+  jsonLd?: object | object[];
+}
+
+const { crumbs, ...rest } = Astro.props;
+---
+
+<BaseLayout {...rest}>
+  <div class="max-w-5xl mx-auto px-4 pt-6 pb-16">
+    {crumbs && crumbs.length > 0 && <Breadcrumbs crumbs={crumbs} />}
+    <slot />
+  </div>
+</BaseLayout>

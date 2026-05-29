@@ -1,0 +1,40 @@
+codigo: 1094-5/00
+codigo_slug: 1094-5-00
+codigo_numerico: '1094500'
+descricao_oficial: FABRICAÇÃO DE MASSAS ALIMENTÍCIAS
+descricao_plana: FABRICAÇÃO DE MASSAS ALIMENTÍCIAS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '10'
+  nome: FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS
+grupo:
+  codigo: '10.9'
+  nome: FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS
+classe:
+  codigo: 1094-5
+  nome: FABRICAÇÃO DE MASSAS ALIMENTÍCIAS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FABRICANTE DE MASSAS ALIMENTÍCIAS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,38 @@
+codigo: 9329-8/02
+codigo_slug: 9329-8-02
+codigo_numerico: '9329802'
+descricao_oficial: EXPLORAÇÃO DE BOLICHES
+descricao_plana: EXPLORAÇÃO DE BOLICHES
+secao:
+  letra: R
+  slug: artes-cultura-esporte
+  nome: Artes, cultura, esporte e recreação
+  nome_curto: Cultura e Esporte
+divisao:
+  codigo: '93'
+  nome: ATIVIDADES ESPORTIVAS E DE RECREAÇÃO E LAZER
+grupo:
+  codigo: '93.2'
+  nome: ATIVIDADES DE RECREAÇÃO E LAZER
+classe:
+  codigo: 9329-8
+  nome: ATIVIDADES DE RECREAÇÃO E LAZER NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

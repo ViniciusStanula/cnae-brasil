@@ -1,0 +1,38 @@
+codigo: 1922-5/01
+codigo_slug: 1922-5-01
+codigo_numerico: '1922501'
+descricao_oficial: FORMULAÇÃO DE COMBUSTÍVEIS
+descricao_plana: FORMULAÇÃO DE COMBUSTÍVEIS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '19'
+  nome: FABRICAÇÃO DE COQUE, DE PRODUTOS DERIVADOS DO PETRÓLEO E DE BIOCOMBUSTÍVEIS
+grupo:
+  codigo: '19.2'
+  nome: FABRICAÇÃO DE PRODUTOS DERIVADOS DO PETRÓLEO
+classe:
+  codigo: 1922-5
+  nome: FABRICAÇÃO DE PRODUTOS DERIVADOS DO PETRÓLEO, EXCETO PRODUTOS DO REFINO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

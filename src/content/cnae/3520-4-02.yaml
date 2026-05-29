@@ -1,0 +1,38 @@
+codigo: 3520-4/02
+codigo_slug: 3520-4-02
+codigo_numerico: '3520402'
+descricao_oficial: DISTRIBUIÇÃO DE COMBUSTÍVEIS GASOSOS POR REDES URBANAS
+descricao_plana: DISTRIBUIÇÃO DE COMBUSTÍVEIS GASOSOS POR REDES URBANAS
+secao:
+  letra: D
+  slug: eletricidade-gas-agua
+  nome: Eletricidade, gás, vapor e ar condicionado
+  nome_curto: Energia
+divisao:
+  codigo: '35'
+  nome: ELETRICIDADE, GÁS E OUTRAS UTILIDADES
+grupo:
+  codigo: '35.2'
+  nome: PRODUÇÃO E DISTRIBUIÇÃO DE COMBUSTÍVEIS GASOSOS POR REDES URBANAS
+classe:
+  codigo: 3520-4
+  nome: PRODUÇÃO DE GÁS; PROCESSAMENTO DE GÁS NATURAL; DISTRIBUIÇÃO DE COMBUSTÍVEIS GASOSOS POR REDES URBANAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

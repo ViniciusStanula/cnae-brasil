@@ -1,0 +1,40 @@
+codigo: 3240-0/99
+codigo_slug: 3240-0-99
+codigo_numerico: '3240099'
+descricao_oficial: FABRICAÇÃO DE OUTROS BRINQUEDOS E JOGOS RECREATIVOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: FABRICAÇÃO DE OUTROS BRINQUEDOS E JOGOS RECREATIVOS NÃO ESPECIFICADOS ANTERIORMENTE
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '32'
+  nome: FABRICAÇÃO DE PRODUTOS DIVERSOS
+grupo:
+  codigo: '32.4'
+  nome: FABRICAÇÃO DE BRINQUEDOS E JOGOS RECREATIVOS
+classe:
+  codigo: 3240-0
+  nome: FABRICAÇÃO DE BRINQUEDOS E JOGOS RECREATIVOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FABRICANTE DE BRINQUEDOS NÃO ELETRÔNICOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,38 @@
+﻿codigo: 6202-3/00
+codigo_slug: 6202-3-00
+codigo_numerico: '6202300'
+descricao_oficial: DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZÁVEIS
+descricao_plana: DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZÁVEIS
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '62'
+  nome: ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO
+grupo:
+  codigo: '62.0'
+  nome: ATIVIDADES DOS SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO
+classe:
+  codigo: 6202-3
+  nome: DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZÁVEIS
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

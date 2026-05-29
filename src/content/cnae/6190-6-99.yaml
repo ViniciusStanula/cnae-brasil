@@ -1,0 +1,40 @@
+codigo: 6190-6/99
+codigo_slug: 6190-6-99
+codigo_numerico: '6190699'
+descricao_oficial: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES NÃO ESPECIFICADAS ANTERIORMENTE
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '61'
+  nome: TELECOMUNICAÇÕES
+grupo:
+  codigo: '61.9'
+  nome: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES
+classe:
+  codigo: 6190-6
+  nome: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: INSTALADOR(A) DE REDE DE COMPUTADORES INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,2798 @@
+[
+  {
+    "cnae_code": "0121101",
+    "ocupacao": "viveirista independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "0159801",
+    "ocupacao": "apicultor(a) independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "0159802",
+    "ocupacao": "criador(a) de animais domésticos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "0161002",
+    "ocupacao": "prestador(a) de serviços de poda, sob contrato de empreitada, independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "0161003",
+    "ocupacao": "prestador(a) de serviços de colheita, sob contrato de empreitada, independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "0161003",
+    "ocupacao": "prestador(a) de serviços de preparação de terrenos, sob contrato de empreitada, independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "0161003",
+    "ocupacao": "prestador(a) de serviços de roçagem, destocamento, lavração, gradagem e sulcamento, sob contrato de empreitada, independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "0161003",
+    "ocupacao": "prestador(a) de serviços de semeadura, sob contrato de empreitada, independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "0162802",
+    "ocupacao": "tosquiador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "0321304",
+    "ocupacao": "criador(a) de peixes ornamentais em água salgada independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "0322104",
+    "ocupacao": "criador(a) de peixes ornamentais em água doce independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "0892401",
+    "ocupacao": "salineiro/extrator de sal marinho independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1013901",
+    "ocupacao": "fabricante de produtos derivados de carne independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1013901",
+    "ocupacao": "salsicheiro(a)/linguiceiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1031700",
+    "ocupacao": "beneficiador(a) de castanha independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1031700",
+    "ocupacao": "compoteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1031700",
+    "ocupacao": "fabricante de amendoim e castanha de caju torrados e salgados independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1031700",
+    "ocupacao": "fabricante de conservas de frutas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1031700",
+    "ocupacao": "fabricante de polpas de frutas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1032599",
+    "ocupacao": "fabricante de conservas de legumes e outros vegetais independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1033301",
+    "ocupacao": "fabricante de sucos concentrados de frutas, hortaliças e legumes independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1033302",
+    "ocupacao": "fabricante de sucos de frutas, hortaliças e legumes independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1052000",
+    "ocupacao": "fabricante de laticínios independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1052000",
+    "ocupacao": "queijeiro(a)/ manteigueiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1061902",
+    "ocupacao": "fabricante de produtos derivados do arroz independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1063500",
+    "ocupacao": "farinheiro de mandioca independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1064300",
+    "ocupacao": "farinheiro de milho independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1065101",
+    "ocupacao": "fabricante de amido e féculas de vegetais independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1069400",
+    "ocupacao": "moendeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1071600",
+    "ocupacao": "fabricante de açúcar mascavo independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1071600",
+    "ocupacao": "fabricante de rapadura e melaço independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1091101",
+    "ocupacao": "fabricante de pão de queijo congelado independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1091101",
+    "ocupacao": "padeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1091102",
+    "ocupacao": "confeiteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1092900",
+    "ocupacao": "bolacheiro(a)/biscoiteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1093701",
+    "ocupacao": "chocolateiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1093702",
+    "ocupacao": "fabricante de balas, confeitos e frutas cristalizadas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1094500",
+    "ocupacao": "fabricante de massas alimentícias independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1095300",
+    "ocupacao": "fabricante de especiarias independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1096100",
+    "ocupacao": "fabricante de alimentos prontos congelados independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1099601",
+    "ocupacao": "vinagreiro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1099604",
+    "ocupacao": "fabricante de gelo comum independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1099605",
+    "ocupacao": "fabricante de chá independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1099699",
+    "ocupacao": "fabricante de geléia de mocotó independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1099699",
+    "ocupacao": "fabricante de produtos de soja independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1122403",
+    "ocupacao": "fabricante de refrescos, xaropes e pós para refrescos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1220499",
+    "ocupacao": "fabricante de fumo e derivados do fumo independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1311100",
+    "ocupacao": "fabricante de fios de algodão independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1312000",
+    "ocupacao": "fabricante de fios de linho, rami, juta, seda e lã independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1321900",
+    "ocupacao": "tecelão(ã) de algodão independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1322700",
+    "ocupacao": "tecelão(ã) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1340501",
+    "ocupacao": "estampador(a) de peças do vestuário independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "1340599",
+    "ocupacao": "bordadeiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "1340599",
+    "ocupacao": "customizador(a) de roupas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "1351100",
+    "ocupacao": "fabricante de artefatos têxteis para uso doméstico independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1352900",
+    "ocupacao": "tapeceiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1353700",
+    "ocupacao": "redeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1359600",
+    "ocupacao": "artesão têxtil",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1359600",
+    "ocupacao": "rendeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1411801",
+    "ocupacao": "fabricante de roupas íntimas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1411802",
+    "ocupacao": "fabricante de partes de roupas íntimas – facção independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1412601",
+    "ocupacao": "costureiro(a) de roupas, exceto sob medida independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1412602",
+    "ocupacao": "alfaiate independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "1412602",
+    "ocupacao": "costureiro(a) de roupas, sob medida independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "1412603",
+    "ocupacao": "fabricante de partes de peças do vestuário – facção independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1413403",
+    "ocupacao": "fabricante de partes de roupas profissionais – facção independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1414200",
+    "ocupacao": "boneleiro(a) (fabricante de bonés) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1414200",
+    "ocupacao": "chapeleiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1414200",
+    "ocupacao": "fabricante de cintos/cinteiro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1421500",
+    "ocupacao": "fabricante de meias independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1422300",
+    "ocupacao": "crocheteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1422300",
+    "ocupacao": "tricoteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1510600",
+    "ocupacao": "curtidor de couro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1521100",
+    "ocupacao": "fabricante de bolsas/bolseiro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1521100",
+    "ocupacao": "fabricante de malas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1521100",
+    "ocupacao": "fabricante de mochilas e carteiras independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1529700",
+    "ocupacao": "artesão(ã) em couro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1529700",
+    "ocupacao": "seleiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1531901",
+    "ocupacao": "fabricante de calçados de couro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1531902",
+    "ocupacao": "acabador(a) de calçados independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1539400",
+    "ocupacao": "fabricante de calçados de borracha, madeira e tecidos e fibras independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1540800",
+    "ocupacao": "fabricante de partes para calçados independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1622699",
+    "ocupacao": "carpinteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1623400",
+    "ocupacao": "fabricante de embalagens de madeira independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1623400",
+    "ocupacao": "tanoeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1629301",
+    "ocupacao": "artesão(ã) em madeira independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1629302",
+    "ocupacao": "artesão(ã) em cortiça, bambu e afins independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1721400",
+    "ocupacao": "fabricante de papel independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1731100",
+    "ocupacao": "fabricante de embalagens de papel independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1732000",
+    "ocupacao": "fabricante de embalagens de cartolina e papel-cartão independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1742799",
+    "ocupacao": "fabricante de guardanapos e copos de papel independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1749400",
+    "ocupacao": "artesão(ã) em papel independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "1813001",
+    "ocupacao": "serigrafista publicitário independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1813099",
+    "ocupacao": "serigrafista independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "1821100",
+    "ocupacao": "clicherista independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "1822901",
+    "ocupacao": "encadernador(a)/plastificador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "2219600",
+    "ocupacao": "artesão(ã) em borracha independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2229399",
+    "ocupacao": "artesão(ã) em plástico independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2319200",
+    "ocupacao": "artesão(ã) em vidro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2330399",
+    "ocupacao": "artesão(ã) em cimento independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2330399",
+    "ocupacao": "artesão(ã) em gesso independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2342702",
+    "ocupacao": "oleiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2349499",
+    "ocupacao": "artesão(ã) em cerâmica independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2391501",
+    "ocupacao": "britador independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2391503",
+    "ocupacao": "artesão(ã) em mármore, granito, ardósia e outras pedras independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "2399101",
+    "ocupacao": "artesão(ã) em louças, vidro e cristal independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "2512800",
+    "ocupacao": "fabricante de esquadrias metálicas sob encomenda ou não independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "2532201",
+    "ocupacao": "fabricante de artefatos de funilaria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2532201",
+    "ocupacao": "fabricante de artefatos estampados de metal, sob encomenda ou não independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "2539001",
+    "ocupacao": "soldador(a) / brasador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "2539001",
+    "ocupacao": "torneiro(a) mecânico independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "2539002",
+    "ocupacao": "galvanizador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "2541100",
+    "ocupacao": "fabricante de artigos de cutelaria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2542000",
+    "ocupacao": "serralheiro (a), sob encomenda ou não independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "2543800",
+    "ocupacao": "ferramenteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2543800",
+    "ocupacao": "ferreiro/forjador independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2599301",
+    "ocupacao": "armador(a) de ferragens na construção civil independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "2599399",
+    "ocupacao": "artesão(ã) em metais independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2740602",
+    "ocupacao": "fabricante de luminárias e outros equipamentos de iluminação independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "2950600",
+    "ocupacao": "retificador(a) de motores para veículos automotores independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3101200",
+    "ocupacao": "marceneiro (a) sob encomenda ou não independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "3102100",
+    "ocupacao": "moveleiro(a) de móveis metálicos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3103900",
+    "ocupacao": "moveleiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3104700",
+    "ocupacao": "colchoeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3211601",
+    "ocupacao": "lapidador(a) independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "3211602",
+    "ocupacao": "artesão(ã) em metais preciosos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3211603",
+    "ocupacao": "cunhador(a) de moedas e medalhas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3212400",
+    "ocupacao": "artesão(ã) de bijuterias independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3220500",
+    "ocupacao": "fabricante de instrumentos musicais independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3230200",
+    "ocupacao": "fabricante de artefatos para pesca e esporte independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3240099",
+    "ocupacao": "fabricante de brinquedos não eletrônicos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3240099",
+    "ocupacao": "fabricante de jogos recreativos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3291400",
+    "ocupacao": "vassoureiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3292202",
+    "ocupacao": "fabricante de produtos de tecido não tecido para uso odonto-médico-hospitalar independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3299001",
+    "ocupacao": "fabricante de guarda-chuvas e similares independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3299002",
+    "ocupacao": "confeccionador(a) de carimbos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3299003",
+    "ocupacao": "fabricante de letreiros, placas e painéis não luminosos, sob encomenda ou não independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "3299004",
+    "ocupacao": "fabricante de painéis e letreiros luminosos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3299005",
+    "ocupacao": "fabricante de aviamentos para costura independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3299006",
+    "ocupacao": "fabricante de velas, inclusive decorativas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3299099",
+    "ocupacao": "artesão(ã) em outros materiais independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "3311200",
+    "ocupacao": "reparador(a) de tanques, reservatórios metálicos e caldeiras, exceto para veículos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3313901",
+    "ocupacao": "reparador(a) de geradores, transformadores e motores elétricos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3313902",
+    "ocupacao": "reparador(a) de baterias e acumuladores elétricos, exceto para veículos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3313999",
+    "ocupacao": "reparador(a) de aparelhos e equipamentos para distribuição e controle de energia elétrica independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314701",
+    "ocupacao": "reparador(a) de máquinas motrizes não elétricas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314702",
+    "ocupacao": "reparador(a) de equipamentos hidráulicos e pneumáticos, exceto válvulas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314706",
+    "ocupacao": "reparador(a) de máquinas, aparelhos e equipamentos para instalações térmicas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314707",
+    "ocupacao": "reparador(a) de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314709",
+    "ocupacao": "reparador(a) de máquinas de escrever, calcular e de outros equipamentos não eletrônicos para escritório independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314710",
+    "ocupacao": "reparador(a) de balanças industriais e comerciais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314710",
+    "ocupacao": "reparador(a) de extintor de incêndio independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314710",
+    "ocupacao": "reparador(a) de filtros industriais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314710",
+    "ocupacao": "reparador(a) de máquinas para bares e lanchonetes independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314711",
+    "ocupacao": "reparador(a) de máquinas e equipamentos para agricultura e pecuária independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314712",
+    "ocupacao": "reparador(a) de tratores agrícolas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314719",
+    "ocupacao": "reparador(a) de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314720",
+    "ocupacao": "reparador(a) de máquinas e equipamentos para a indústria têxtil, do vestuário, do couro e calçados independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314799",
+    "ocupacao": "reparador(a) de máquinas e aparelhos para a indústria gráfica independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314799",
+    "ocupacao": "reparador(a) de máquinas e equipamentos para a indústria da madeira independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3314799",
+    "ocupacao": "reparador(a) de máquinas para encadernação independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3317102",
+    "ocupacao": "reparador(a) de embarcações para esporte e lazer independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3319800",
+    "ocupacao": "reparador(a) de cordas, velames e lonas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3319800",
+    "ocupacao": "reparador(a) de equipamentos médico-hospitalares não eletrônicos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3319800",
+    "ocupacao": "reparador(a) de tonéis, barris e paletes de madeira independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3319800",
+    "ocupacao": "reparador(a) de veículos de tração animal independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3319800",
+    "ocupacao": "restaurador(a) de instrumentos musicais históricos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3319800",
+    "ocupacao": "restaurador(a) de jogos acionados por moedas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3321000",
+    "ocupacao": "instalador(a) de máquinas e equipamentos industriais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3329501",
+    "ocupacao": "montador(a) de móveis independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3600602",
+    "ocupacao": "distribuidor(a) de água potável em caminhão pipa independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "3702900",
+    "ocupacao": "fosseiro (limpador de fossa) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3811400",
+    "ocupacao": "carroceiro – coleta de entulhos e resíduos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3811400",
+    "ocupacao": "coletor de resíduos não-perigosos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "3831901",
+    "ocupacao": "reciclador (a) de sucatas de alumínio independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "3831999",
+    "ocupacao": "reciclador (a) de materiais metálicos, exceto alumínio independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "3832700",
+    "ocupacao": "reciclador (a) de materiais plásticos independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "3839499",
+    "ocupacao": "reciclador(a) de borracha, madeira, papel e vidro independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "4321500",
+    "ocupacao": "eletricista em residências e estabelecimentos comerciais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4321500",
+    "ocupacao": "instalador(a) de antenas de tv independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4321500",
+    "ocupacao": "instalador(a) de equipamentos de segurança domiciliar e empresarial, sem prestação de serviços de vigilância e segurança independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4322301",
+    "ocupacao": "bombeiro(a) hidráulico independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4322301",
+    "ocupacao": "encanador independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4322302",
+    "ocupacao": "instalador(a) e reparador(a) de sistemas centrais de ar condicionado, de ventilação e refrigeração independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4322303",
+    "ocupacao": "instalador(a) de sistema de prevenção contra incêndio independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4329101",
+    "ocupacao": "instalador(a) de painéis publicitários independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4329102",
+    "ocupacao": "instalador(a) de equipamentos para orientação à navegação marítima, fluvial e lacustre independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4329103",
+    "ocupacao": "instalador(a) e reparador(a) de elevadores, escadas e esteiras rolantes independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4329104",
+    "ocupacao": "montador(a) e instalador de sistemas e equipamentos de iluminação e sinalização em vias públicas, portos e aeroportos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4329105",
+    "ocupacao": "instalador(a) de isolantes acústicos e de vibração independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4329105",
+    "ocupacao": "instalador(a) de isolantes térmicos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330402",
+    "ocupacao": "carpinteiro(a) instalador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330403",
+    "ocupacao": "gesseiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330404",
+    "ocupacao": "pintor(a) de parede independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330405",
+    "ocupacao": "azulejista independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330405",
+    "ocupacao": "calafetador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330405",
+    "ocupacao": "colocador(a) de revestimentos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330405",
+    "ocupacao": "pastilheiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330405",
+    "ocupacao": "sintequeiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4330499",
+    "ocupacao": "vidraceiro de edificações independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4399103",
+    "ocupacao": "pedreiro independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4399105",
+    "ocupacao": "poceiro/cisterneiro/cacimbeiro independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4399199",
+    "ocupacao": "calheiro (a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4399199",
+    "ocupacao": "cerqueiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4399199",
+    "ocupacao": "telhador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520001",
+    "ocupacao": "mecânico(a) de veículos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520001",
+    "ocupacao": "vidraceiro de automóveis independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520002",
+    "ocupacao": "funileiro / lanterneiro independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520002",
+    "ocupacao": "pintor(a) de automóveis independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520003",
+    "ocupacao": "eletricista de automóveis independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520005",
+    "ocupacao": "lavador(a) e polidor de carro independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520006",
+    "ocupacao": "borracheiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520007",
+    "ocupacao": "instalador(a) e reparador (a) de acessórios automotivos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4520008",
+    "ocupacao": "capoteiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4530703",
+    "ocupacao": "comerciante de peças e acessórios novos para veículos automotores independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4530704",
+    "ocupacao": "comerciante de peças e acessórios usados para veículos automotores independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4530705",
+    "ocupacao": "comerciante de pneumáticos e câmaras-de-ar independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4541206",
+    "ocupacao": "comerciante de peças e acessórios novos para motocicletas e motononetas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4541207",
+    "ocupacao": "comerciante de peças e acessórios usados para motocicletas e motononetas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4543900",
+    "ocupacao": "mecânico(a) de motocicletas e motonetas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4712100",
+    "ocupacao": "barraqueiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4712100",
+    "ocupacao": "merceeiro(a)/vendeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4713002",
+    "ocupacao": "comerciante de miudezas e quinquilharias independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4721102",
+    "ocupacao": "comerciante de produtos de panificação independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4721103",
+    "ocupacao": "comerciante de laticínios independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4721104",
+    "ocupacao": "baleiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4722901",
+    "ocupacao": "açougueiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4722902",
+    "ocupacao": "peixeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4723700",
+    "ocupacao": "comerciante de bebidas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4724500",
+    "ocupacao": "abatedor(a) de aves com comercialização do produto independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4724500",
+    "ocupacao": "vendedor(a) de aves vivas, coelhos e outros pequenos animais para alimentação independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4724500",
+    "ocupacao": "verdureiro independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4729601",
+    "ocupacao": "comerciante de produtos de tabacaria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4729699",
+    "ocupacao": "comerciante de cestas de café da manhã independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4729699",
+    "ocupacao": "comerciante de produtos naturais independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4729699",
+    "ocupacao": "quitandeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4729699",
+    "ocupacao": "sorveteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4732600",
+    "ocupacao": "comerciante de lubrificantes independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4741500",
+    "ocupacao": "comerciante de tintas e materiais para pintura independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4742300",
+    "ocupacao": "comerciante de material elétrico independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4743100",
+    "ocupacao": "comerciante de vidros independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4744001",
+    "ocupacao": "comerciante de ferragens e ferramentas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4744002",
+    "ocupacao": "comerciante de madeira e artefatos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4744003",
+    "ocupacao": "comerciante de materiais hidráulicos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4744004",
+    "ocupacao": "comerciante de cal, areia, pedra britada, tijolos e telhas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4744099",
+    "ocupacao": "comerciante de materiais de construção em geral independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4751201",
+    "ocupacao": "comerciante de equipamentos e suprimentos de informática independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4751202",
+    "ocupacao": "recarregador(a) de cartuchos para equipamentos de informática independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "4752100",
+    "ocupacao": "comerciante de equipamentos de telefonia e comunicação independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4753900",
+    "ocupacao": "comerciante de eletrodomésticos e equipamentos de áudio e vídeo independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4754701",
+    "ocupacao": "comerciante de móveis independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4754702",
+    "ocupacao": "comerciante de artigos de colchoaria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4754703",
+    "ocupacao": "comerciante de artigos de iluminação independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4755501",
+    "ocupacao": "comerciante de tecidos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4755502",
+    "ocupacao": "comerciante de artigos de armarinho independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4755503",
+    "ocupacao": "comerciante de artigos de cama, mesa e banho independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4756300",
+    "ocupacao": "comerciante de instrumentos musicais e acessórios independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4757100",
+    "ocupacao": "comerciante de peças e acessórios para aparelhos eletroeletrônicos para uso doméstico independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4759801",
+    "ocupacao": "comerciante de artigos de tapeçaria, cortinas e persianas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4759899",
+    "ocupacao": "comerciante de artigos de cutelaria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4759899",
+    "ocupacao": "comerciante de artigos para habitação independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4759899",
+    "ocupacao": "comerciante de sistema de segurança residencial independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4759899",
+    "ocupacao": "comerciante de toldos e papel de parede independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4761001",
+    "ocupacao": "livreiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4761002",
+    "ocupacao": "jornaleiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4761003",
+    "ocupacao": "papeleiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4762800",
+    "ocupacao": "comerciante de discos, cds, dvds e fitas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4763601",
+    "ocupacao": "comerciante de brinquedos e artigos recreativos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4763602",
+    "ocupacao": "comerciante de artigos esportivos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4763603",
+    "ocupacao": "comerciante de bicicletas e triciclos; peças e acessórios independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4763604",
+    "ocupacao": "comerciante de artigos de caça, pesca e camping independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4772500",
+    "ocupacao": "comerciante de cosméticos e artigos de perfumaria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4772500",
+    "ocupacao": "comerciante de produtos de higiene pessoal independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4773300",
+    "ocupacao": "comerciante de artigos médicos e ortopédicos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4774100",
+    "ocupacao": "comerciante de artigos de óptica independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4781400",
+    "ocupacao": "comerciante de artigos do vestuário e acessórios independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4782201",
+    "ocupacao": "comerciante de calçados independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4782202",
+    "ocupacao": "comerciante de artigos de viagem independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4783101",
+    "ocupacao": "comerciante de artigos de joalheria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4783102",
+    "ocupacao": "comerciante de artigos de relojoaria independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4785701",
+    "ocupacao": "antiquário(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4785799",
+    "ocupacao": "comerciante de artigos usados independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789001",
+    "ocupacao": "comerciante de suvenires, bijuterias e artesanatos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789002",
+    "ocupacao": "comerciante de plantas, flores naturais, vasos e adubos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789003",
+    "ocupacao": "comerciante de objetos de arte independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789004",
+    "ocupacao": "comerciante de artigos e alimentos para animais de estimação (pet shop) independente (não inclui a venda de medicamentos)",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789005",
+    "ocupacao": "comerciante de inseticidas e raticidas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789005",
+    "ocupacao": "comerciante de produtos para piscinas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789005",
+    "ocupacao": "comerciante de produtos de limpeza independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789007",
+    "ocupacao": "comerciante de equipamentos para escritório independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789008",
+    "ocupacao": "comerciante de artigos fotográficos e para filmagem independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de artigos de bebê independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de artigos eróticos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de artigos funerários independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de carvão e lenha independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de embalagens independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de flores, plantas e frutas artificiais independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de molduras e quadros independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de perucas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de produtos para festas e natal independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de produtos religiosos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4789099",
+    "ocupacao": "comerciante de redes para dormir independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4923001",
+    "ocupacao": "mototaxista independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4923001",
+    "ocupacao": "taxista independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4924800",
+    "ocupacao": "transportador(a) escolar independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4929901",
+    "ocupacao": "transportador(a) municipal de passageiros sob frete independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4929902",
+    "ocupacao": "transportador(a) intermunicipal de passageiros sob frete em região metropolitana independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4929903",
+    "ocupacao": "organizador(a) de excursões em veículo próprio, municipal independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4930201",
+    "ocupacao": "carroceiro – transporte de carga independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4930201",
+    "ocupacao": "transportador(a) municipal de cargas não perigosas(carreto) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "4930202",
+    "ocupacao": "caminhoneiro (a) de cargas não perigosas, intermunicipal e interestadual independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "4930204",
+    "ocupacao": "carroceiro – transporte de mudança independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "4930204",
+    "ocupacao": "transportador(a) de mudanças independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "5011401",
+    "ocupacao": "transportador(a) marítimo de carga independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5021101",
+    "ocupacao": "transportador(a) municipal hidroviário de cargas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5091201",
+    "ocupacao": "transportador(a) municipal de travessia por navegação independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5091202",
+    "ocupacao": "transportador(a) intermunicipal e interestadual de travessia por navegação fluvial independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5099801",
+    "ocupacao": "transportador(a) aquaviário para passeios turísticos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5099899",
+    "ocupacao": "barqueiro(a) independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "5211702",
+    "ocupacao": "guardador(a) de móveis independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5212500",
+    "ocupacao": "carregador (veículos de transportes terrestres) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5223100",
+    "ocupacao": "proprietário(a) de estacionamento de veículos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5229002",
+    "ocupacao": "guincheiro independente (reboque de veículos)",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "5310502",
+    "ocupacao": "agente de correio franqueado e permissionário independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "5320201",
+    "ocupacao": "entregador de malotes independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "5320202",
+    "ocupacao": "bikeboy (ciclista mensageiro) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5320202",
+    "ocupacao": "motoboy independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5590601",
+    "ocupacao": "proprietário(a) de albergue não assistencial independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5590602",
+    "ocupacao": "proprietário(a) de camping independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5590603",
+    "ocupacao": "proprietário(a) de pensão independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5590699",
+    "ocupacao": "proprietário(a) de hospedaria independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5611201",
+    "ocupacao": "proprietário(a) de restaurante independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5611203",
+    "ocupacao": "proprietário(a) de casa de chá independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5611203",
+    "ocupacao": "proprietário(a) de casa de sucos independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5611203",
+    "ocupacao": "proprietário(a) de lanchonete independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5611204",
+    "ocupacao": "proprietário(a) de bar e congêneres, sem entretenimento, independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5611205",
+    "ocupacao": "proprietário(a) de bar e congêneres, com entretenimento, independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "5612100",
+    "ocupacao": "churrasqueiro(a) ambulante independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5612100",
+    "ocupacao": "pipoqueiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5612100",
+    "ocupacao": "quitandeiro(a) ambulante independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5612100",
+    "ocupacao": "sorveteiro(a) ambulante independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5612100",
+    "ocupacao": "vendedor(a) ambulante de produtos alimentícios independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620101",
+    "ocupacao": "fornecedor(a) de alimentos preparados para empresas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620102",
+    "ocupacao": "churrasqueiro(a) em domicílio independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620102",
+    "ocupacao": "pizzaiolo(a) em domicílio independente",
+    "iss": true,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620103",
+    "ocupacao": "proprietário(a) de cantinas independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620104",
+    "ocupacao": "cozinheiro(a) que fornece refeições prontas e embaladas para consumo independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620104",
+    "ocupacao": "doceiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620104",
+    "ocupacao": "marmiteiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5620104",
+    "ocupacao": "salgadeiro(a) independente",
+    "iss": false,
+    "icms": true
+  },
+  {
+    "cnae_code": "5811500",
+    "ocupacao": "editor(a) de livros independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5812301",
+    "ocupacao": "editor(a) de jornais diários independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5812302",
+    "ocupacao": "editor(a) de jornais não diários independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5813100",
+    "ocupacao": "editor(a) de revistas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5819100",
+    "ocupacao": "editor(a) de lista de dados e de outras informações independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5912001",
+    "ocupacao": "dublador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "5912099",
+    "ocupacao": "editor(a) de vídeo independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "6190699",
+    "ocupacao": "instalador(a) de rede de computadores independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "6399200",
+    "ocupacao": "apurador(a), coletor(a) e fornecedor(a) de recortes de matérias publicadas em jornais e revistas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7319002",
+    "ocupacao": "panfleteiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7319002",
+    "ocupacao": "promotor(a) de vendas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7319099",
+    "ocupacao": "bike propagandista independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7319099",
+    "ocupacao": "proprietário(a) de carro de som para fins publicitários independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7420001",
+    "ocupacao": "fotógrafo(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7420002",
+    "ocupacao": "fotógrafo(a) aéreo independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7420002",
+    "ocupacao": "fotógrafo(a) submarino independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7420003",
+    "ocupacao": "revelador(a) fotográfico independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7420004",
+    "ocupacao": "filmador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7490102",
+    "ocupacao": "mergulhador(a) (escafandrista) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7719599",
+    "ocupacao": "locador(a) de motocicleta, sem condutor, independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7721700",
+    "ocupacao": "locador(a) de bicicletas, independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7721700",
+    "ocupacao": "locador(a) de equipamentos recreativos e esportivos independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7721700",
+    "ocupacao": "locador(a) de material e equipamento esportivo, independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7722500",
+    "ocupacao": "locador(a) de fitas de vídeo, dvds e similares independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7722500",
+    "ocupacao": "locador(a) de vídeo games, independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7723300",
+    "ocupacao": "locador(a) de objetos do vestuário, jóias e acessórios independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7729201",
+    "ocupacao": "locador(a) de aparelhos de jogos eletrônicos independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7729202",
+    "ocupacao": "locador(a) de móveis e utensílios, inclusive para festas independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7729202",
+    "ocupacao": "locador(a) de instrumentos musicais independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7729203",
+    "ocupacao": "locador(a) de material médico independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7729299",
+    "ocupacao": "locador(a) de livros, revistas, plantas e flores independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7731400",
+    "ocupacao": "locador(a) de máquinas e equipamentos agrícolas sem operador independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7732201",
+    "ocupacao": "locador(a) de máquinas e equipamentos para construção sem operador, exceto andaimes independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7732202",
+    "ocupacao": "locador de andaimes independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7733100",
+    "ocupacao": "locador(a) de máquinas e equipamentos para escritório independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7739002",
+    "ocupacao": "locador(a) de equipamentos científicos, médicos e hospitalares, sem operador independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7739003",
+    "ocupacao": "locador(a) de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7739099",
+    "ocupacao": "locador(a) de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador independente",
+    "iss": false,
+    "icms": false
+  },
+  {
+    "cnae_code": "7911200",
+    "ocupacao": "agente de viagens independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7912100",
+    "ocupacao": "guia de turismo independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "7990200",
+    "ocupacao": "promotor(a) de turismo local independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8011102",
+    "ocupacao": "adestrador(a) de cães de guarda independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8020002",
+    "ocupacao": "instalador(a) e reparador de cofres, trancas e travas de segurança independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8129000",
+    "ocupacao": "piscineiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8130300",
+    "ocupacao": "jardineiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8219901",
+    "ocupacao": "fotocopiador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8219999",
+    "ocupacao": "digitador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8230001",
+    "ocupacao": "promotor(a) de eventos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8230002",
+    "ocupacao": "proprietário(a) de casas de festas e eventos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8291100",
+    "ocupacao": "cobrador(a) de dívidas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8292000",
+    "ocupacao": "envasador(a) e empacotador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8299703",
+    "ocupacao": "gravador(a) de carimbos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8299707",
+    "ocupacao": "proprietário(a) de sala de acesso à internet independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8299799",
+    "ocupacao": "cartazista, pintor de faixas publicitárias e de letras independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8592902",
+    "ocupacao": "instrutor(a) de artes cênicas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8592903",
+    "ocupacao": "instrutor(a) de música independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8592999",
+    "ocupacao": "instrutor(a) de arte e cultura em geral independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8593700",
+    "ocupacao": "instrutor(a) de idiomas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8599603",
+    "ocupacao": "instrutor(a) de informática independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8599604",
+    "ocupacao": "instrutor(a) de cursos gerenciais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8599605",
+    "ocupacao": "instrutor(a) de cursos preparatórios independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8599699",
+    "ocupacao": "professor(a) particular independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "8712300",
+    "ocupacao": "cuidador(a) de idosos e enfermos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9001901",
+    "ocupacao": "humorista e contador de histórias independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9001902",
+    "ocupacao": "cantor(a)/músico(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9001906",
+    "ocupacao": "disc jockey (dj) ou video jockey (vj) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9001906",
+    "ocupacao": "técnico(a) de sonorização e de iluminação independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9002702",
+    "ocupacao": "restaurador(a) de obras de arte independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9329803",
+    "ocupacao": "proprietário(a) de salão de jogos de sinuca e bilhar independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9329804",
+    "ocupacao": "proprietário(a) de fliperama independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9329899",
+    "ocupacao": "animador(a) de festas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9329899",
+    "ocupacao": "mágico(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9511800",
+    "ocupacao": "técnico(a) de manutenção de computador independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9512600",
+    "ocupacao": "técnico(a) de manutenção de telefonia independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9521500",
+    "ocupacao": "técnico(a) de manutenção de eletrodomésticos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529101",
+    "ocupacao": "sapateiro(a)",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529102",
+    "ocupacao": "chaveiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529103",
+    "ocupacao": "relojoeiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529104",
+    "ocupacao": "reparador(a) de bicicleta independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529105",
+    "ocupacao": "estofador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529105",
+    "ocupacao": "reparador (a) de artigos de tapeçaria independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529105",
+    "ocupacao": "reparador(a) de móveis independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529105",
+    "ocupacao": "reparador(a) de toldos e persianas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529106",
+    "ocupacao": "ourives independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "amolador(a) de artigos de cutelaria independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "reparador(a) de artigos e acessórios do vestuário independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "reparador(a) de brinquedos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "reparador(a) de equipamentos esportivos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "reparador(a) de guarda chuva e sombrinhas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "reparador(a) de instrumentos musicais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "reparador(a) de panelas (paneleiro) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9529199",
+    "ocupacao": "restaurador(a) de livros ndependente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9601701",
+    "ocupacao": "lavadeiro(a) de roupas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9601702",
+    "ocupacao": "tintureiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9601703",
+    "ocupacao": "lavadeiro(a) de roupas profissionais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9602501",
+    "ocupacao": "barbeiro independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9602501",
+    "ocupacao": "cabeleireiro(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9602501",
+    "ocupacao": "manicure/pedicure independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9602502",
+    "ocupacao": "depilador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9602502",
+    "ocupacao": "esteticista independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9602502",
+    "ocupacao": "maquiador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9603304",
+    "ocupacao": "agente funerário independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609202",
+    "ocupacao": "agente matrimonial independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609206",
+    "ocupacao": "colocador(a) de piercing independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609206",
+    "ocupacao": "tatuador(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609207",
+    "ocupacao": "adestrador(a) de animais independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609207",
+    "ocupacao": "esteticista de animais domésticos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609207",
+    "ocupacao": "tosador(a) de animais domésticos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609208",
+    "ocupacao": "banhista de animais domésticos independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609208",
+    "ocupacao": "cuidador(a) de animais (pet sitter) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609299",
+    "ocupacao": "astrólogo(a) independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609299",
+    "ocupacao": "carregador de malas independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609299",
+    "ocupacao": "engraxate independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609299",
+    "ocupacao": "lavador(a) de estofado e sofá independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9609299",
+    "ocupacao": "locutor(a) de mensagens fonadas e ao vivo independente",
+    "iss": true,
+    "icms": false
+  },
+  {
+    "cnae_code": "9700500",
+    "ocupacao": "diarista independente",
+    "iss": true,
+    "icms": false
+  }
+]

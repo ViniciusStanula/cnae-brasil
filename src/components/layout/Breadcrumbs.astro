@@ -1,0 +1,29 @@
+---
+import type { Crumb } from '../../lib/breadcrumbs.js';
+
+interface Props {
+  crumbs: Crumb[];
+}
+
+const { crumbs } = Astro.props;
+---
+
+<nav aria-label="Breadcrumb" class="text-sm text-gray-500 mb-4">
+  <ol class="flex flex-wrap items-center gap-1">
+    {crumbs.map((crumb, i) => {
+      const isLast = i === crumbs.length - 1;
+      return (
+        <li class="flex items-center gap-1">
+          {i > 0 && <span aria-hidden="true" class="text-gray-300">›</span>}
+          {isLast ? (
+            <span class="text-gray-700 font-medium" aria-current="page">{crumb.label}</span>
+          ) : (
+            <a href={crumb.href} class="hover:text-blue-700 hover:underline transition-colors">
+              {crumb.label}
+            </a>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+</nav>

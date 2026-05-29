@@ -1,0 +1,74 @@
+codigo: 8592-9/02
+codigo_slug: 8592-9-02
+codigo_numerico: '8592902'
+descricao_oficial: ENSINO DE ARTES CÊNICAS, EXCETO DANÇA
+descricao_plana: >-
+  Escolas e instrutores que ensinam teatro, circo, mímica, improvisação e outras artes cênicas — exceto dança, que tem
+  código próprio.
+secao:
+  letra: P
+  slug: educacao
+  nome: Educação
+  nome_curto: Educação
+divisao:
+  codigo: '85'
+  nome: EDUCAÇÃO
+grupo:
+  codigo: '85.9'
+  nome: OUTRAS ATIVIDADES DE ENSINO
+classe:
+  codigo: 8592-9
+  nome: ENSINO DE ARTE E CULTURA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: INSTRUTOR(A) DE ARTES CÊNICAS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Escola de teatro para crianças e adultos
+  - Estúdio de formação em artes circenses
+  - Curso de improvisação teatral
+  - Instrutor independente de mímica e expressão corporal
+  - Escola de preparação para atores amadores
+  - Oficina de teatro para empresas e grupos comunitários
+o_que_inclui:
+  - Aulas e cursos de teatro em qualquer modalidade (dramaturgia, interpretação, teatro físico)
+  - Ensino de artes circenses como malabarismo, acrobacia e palhaçaria
+  - Cursos de mímica e expressão corporal cênica
+  - Oficinas de improvisação teatral
+  - Formação de atores amadores ou profissionais em escola ou estúdio
+  - Aulas particulares de técnicas cênicas ministradas por instrutor independente
+o_que_nao_inclui:
+  - Ensino de dança em qualquer estilo (use CNAE 8592-9/01)
+  - Ensino de música, canto lírico ou técnica vocal musical (use CNAE 8592-9/03)
+  - Ensino de arte e cultura em formato não especificado acima (use CNAE 8592-9/99)
+  - Produção e apresentação de espetáculos teatrais ou circenses sem função de ensino (use CNAE 9001-9/01 ou 9001-9/03)
+  - >-
+    Ensino superior de artes cênicas em faculdades e universidades (use CNAE 8533-4/00 ou equivalente de ensino
+    superior)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Alvará sanitário, quando houver atendimento a crianças em espaço físico
+  - Licença de uso e ocupação do solo conforme zoneamento municipal
+cnaes_relacionados:
+  - 8592-9/01
+  - 8592-9/03
+  - 8592-9/99
+  - 9001-9/01
+  - 9001-9/03
+  - 9001-9/06
+  - 8599-6/04
+  - 8591-1/00
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:54:50.690Z'

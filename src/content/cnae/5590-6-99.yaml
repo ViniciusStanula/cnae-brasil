@@ -1,0 +1,40 @@
+codigo: 5590-6/99
+codigo_slug: 5590-6-99
+codigo_numerico: '5590699'
+descricao_oficial: OUTROS ALOJAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: OUTROS ALOJAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE
+secao:
+  letra: I
+  slug: alojamento-alimentacao
+  nome: Alojamento e alimentação
+  nome_curto: Alimentação
+divisao:
+  codigo: '55'
+  nome: ALOJAMENTO
+grupo:
+  codigo: '55.9'
+  nome: OUTROS TIPOS DE ALOJAMENTO NÃO ESPECIFICADOS ANTERIORMENTE
+classe:
+  codigo: 5590-6
+  nome: OUTROS TIPOS DE ALOJAMENTO NÃO ESPECIFICADOS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: PROPRIETÁRIO(A) DE HOSPEDARIA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,72 @@
+﻿codigo: 4399-1/01
+codigo_slug: 4399-1-01
+codigo_numerico: '4399101'
+descricao_oficial: ADMINISTRAÇÃO DE OBRAS
+descricao_plana: >-
+  Empresa ou profissional que gerencia e coordena a execução de obras de construção civil, sem necessariamente executar
+  o trabalho físico diretamente.
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '43'
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+grupo:
+  codigo: '43.9'
+  nome: OUTROS SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+classe:
+  codigo: 4399-1
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Empresa de gerenciamento de obras residenciais e comerciais
+  - Profissional autônomo que administra canteiros de obras para construtoras
+  - Escritório de coordenação e fiscalização de reformas
+  - Empresa de gestão de contratos e cronogramas de obras
+  - Prestador de serviços de supervisão técnica de construções
+o_que_inclui:
+  - Coordenação e supervisão geral da execução de obras de construção civil
+  - Gestão de equipes, subcontratados e fornecedores no canteiro de obras
+  - Controle de cronograma, orçamento e andamento físico da obra
+  - Fiscalização do cumprimento de normas técnicas e especificações de projeto
+  - Administração de contratos de serviços e materiais vinculados à obra
+  - Elaboração de relatórios de acompanhamento e prestação de contas ao contratante
+o_que_nao_inclui:
+  - Execução direta de serviços de alvenaria, como levantamento de paredes (use CNAE 4399-1/03)
+  - Montagem e desmontagem de andaimes e estruturas temporárias (use CNAE 4399-1/02)
+  - Operação e fornecimento de equipamentos de elevação de cargas em obras (use CNAE 4399-1/04)
+  - Perfuração e construção de poços de água (use CNAE 4399-1/05)
+  - Elaboração de projetos arquitetônicos ou de engenharia (use CNAE 7112-0/00)
+  - Construção de edifícios por incorporadoras ou construtoras (use CNAE 4120-4/00)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Registro em conselho profissional de engenharia ou arquitetura
+  - Licença ambiental para obras com impacto ambiental
+  - ART ou RRT por obra administrada
+cnaes_relacionados:
+  - 4399-1/02
+  - 4399-1/03
+  - 4399-1/04
+  - 4399-1/05
+  - 4399-1/99
+  - 4120-4/00
+  - 4110-7/00
+  - 7112-0/00
+  - 7119-7/01
+  - 4211-1/01
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:52:20.837Z'

@@ -1,0 +1,40 @@
+codigo: 8129-0/00
+codigo_slug: 8129-0-00
+codigo_numerico: '8129000'
+descricao_oficial: ATIVIDADES DE LIMPEZA NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: ATIVIDADES DE LIMPEZA NÃO ESPECIFICADAS ANTERIORMENTE
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '81'
+  nome: SERVIÇOS PARA EDIFÍCIOS E ATIVIDADES PAISAGÍSTICAS
+grupo:
+  codigo: '81.2'
+  nome: ATIVIDADES DE LIMPEZA
+classe:
+  codigo: 8129-0
+  nome: ATIVIDADES DE LIMPEZA NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: PISCINEIRO(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

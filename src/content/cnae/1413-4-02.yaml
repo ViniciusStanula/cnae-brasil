@@ -1,0 +1,38 @@
+codigo: 1413-4/02
+codigo_slug: 1413-4-02
+codigo_numerico: '1413402'
+descricao_oficial: CONFECÇÃO, SOB MEDIDA, DE ROUPAS PROFISSIONAIS
+descricao_plana: CONFECÇÃO, SOB MEDIDA, DE ROUPAS PROFISSIONAIS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '14'
+  nome: CONFECÇÃO DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
+grupo:
+  codigo: '14.1'
+  nome: CONFECÇÃO DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
+classe:
+  codigo: 1413-4
+  nome: CONFECÇÃO DE ROUPAS PROFISSIONAIS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

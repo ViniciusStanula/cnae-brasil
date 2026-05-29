@@ -1,0 +1,38 @@
+codigo: 0721-9/01
+codigo_slug: 0721-9-01
+codigo_numerico: '0721901'
+descricao_oficial: EXTRAÇÃO DE MINÉRIO DE ALUMÍNIO
+descricao_plana: EXTRAÇÃO DE MINÉRIO DE ALUMÍNIO
+secao:
+  letra: B
+  slug: industrias-extrativas
+  nome: Indústrias extrativas
+  nome_curto: Extrativa
+divisao:
+  codigo: '07'
+  nome: EXTRAÇÃO DE MINERAIS METÁLICOS
+grupo:
+  codigo: '07.2'
+  nome: EXTRAÇÃO DE MINERAIS METÁLICOS NÃO-FERROSOS
+classe:
+  codigo: 0721-9
+  nome: EXTRAÇÃO DE MINÉRIO DE ALUMÍNIO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

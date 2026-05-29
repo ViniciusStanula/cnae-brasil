@@ -1,0 +1,38 @@
+codigo: 0135-1/00
+codigo_slug: 0135-1-00
+codigo_numerico: '0135100'
+descricao_oficial: CULTIVO DE CACAU
+descricao_plana: CULTIVO DE CACAU
+secao:
+  letra: A
+  slug: agricultura
+  nome: Agricultura, pecuária, produção florestal, pesca e aquicultura
+  nome_curto: Agricultura
+divisao:
+  codigo: '01'
+  nome: AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS
+grupo:
+  codigo: '01.3'
+  nome: PRODUÇÃO DE LAVOURAS PERMANENTES
+classe:
+  codigo: 0135-1
+  nome: CULTIVO DE CACAU
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

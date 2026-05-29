@@ -1,0 +1,70 @@
+﻿codigo: 0111-3/01
+codigo_slug: 0111-3-01
+codigo_numerico: '0111301'
+descricao_oficial: CULTIVO DE ARROZ
+descricao_plana: >-
+  Produção agrícola voltada ao plantio e colheita de arroz em lavouras temporárias, abrangendo desde o preparo do solo
+  até a entrega do grão bruto.
+secao:
+  letra: A
+  slug: agricultura
+  nome: Agricultura, pecuária, produção florestal, pesca e aquicultura
+  nome_curto: Agricultura
+divisao:
+  codigo: '01'
+  nome: AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS
+grupo:
+  codigo: '01.1'
+  nome: PRODUÇÃO DE LAVOURAS TEMPORÁRIAS
+classe:
+  codigo: 0111-3
+  nome: CULTIVO DE CEREAIS
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Produtor rural familiar de arroz irrigado
+  - Fazenda de arroz de sequeiro no Cerrado
+  - Cooperativa agrícola com produção própria de arroz
+  - Arrozal em várzea com produção para comercialização em grão
+  - Produtor de arroz orgânico certificado
+o_que_inclui:
+  - Preparo do solo e plantio de arroz em lavouras temporárias
+  - Cultivo de arroz irrigado (inundado) e de sequeiro
+  - Colheita do arroz em grão bruto (arroz em casca)
+  - Secagem e armazenagem do arroz ainda na propriedade rural, como etapa do próprio cultivo
+  - Produção de arroz para fins comerciais ou de subsistência
+  - Atividade de produtor rural pessoa física ou jurídica com foco exclusivo no cultivo de arroz
+o_que_nao_inclui:
+  - Cultivo de milho, que tem código próprio (use CNAE 0111-3/02)
+  - Cultivo de trigo, que tem código próprio (use CNAE 0111-3/03)
+  - Cultivo de outros cereais não listados, como sorgo ou aveia (use CNAE 0111-3/99)
+  - Beneficiamento industrial do arroz, como polimento, parboilização e empacotamento (use CNAE 1061-9/01)
+  - Comércio atacadista de arroz já beneficiado (use CNAE 4632-0/01)
+  - Serviços de colheita e preparo de lavouras prestados a terceiros (use CNAE 0161-0/03)
+licencas_comuns:
+  - Cadastro no órgão estadual de agricultura ou secretaria rural
+  - Licença ambiental para uso do solo e recursos hídricos (especialmente em cultivo irrigado)
+  - Inscrição estadual de produtor rural
+  - Outorga de uso de água, quando houver captação para irrigação
+cnaes_relacionados:
+  - 0111-3/02
+  - 0111-3/03
+  - 0111-3/99
+  - 0161-0/03
+  - 1061-9/01
+  - 4632-0/01
+  - 0115-6/00
+  - 0119-9/99
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:51:00.986Z'

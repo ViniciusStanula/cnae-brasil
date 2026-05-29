@@ -1,0 +1,38 @@
+codigo: 5232-0/00
+codigo_slug: 5232-0-00
+codigo_numerico: '5232000'
+descricao_oficial: ATIVIDADES DE AGENCIAMENTO MARÍTIMO
+descricao_plana: ATIVIDADES DE AGENCIAMENTO MARÍTIMO
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '52'
+  nome: ARMAZENAMENTO E ATIVIDADES AUXILIARES DOS TRANSPORTES
+grupo:
+  codigo: '52.3'
+  nome: ATIVIDADES AUXILIARES DOS TRANSPORTES AQUAVIÁRIOS
+classe:
+  codigo: 5232-0
+  nome: ATIVIDADES DE AGENCIAMENTO MARÍTIMO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

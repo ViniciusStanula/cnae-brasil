@@ -1,0 +1,38 @@
+﻿codigo: 4922-1/01
+codigo_slug: 4922-1-01
+codigo_numerico: '4922101'
+descricao_oficial: TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, COM ITINERÁRIO FIXO, INTERMUNICIPAL, EXCETO EM REGIÃO METROPOLITANA
+descricao_plana: TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, COM ITINERÁRIO FIXO, INTERMUNICIPAL, EXCETO EM REGIÃO METROPOLITANA
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '49'
+  nome: TRANSPORTE TERRESTRE
+grupo:
+  codigo: '49.2'
+  nome: TRANSPORTE RODOVIÁRIO DE PASSAGEIROS
+classe:
+  codigo: 4922-1
+  nome: TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, COM ITINERÁRIO FIXO, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

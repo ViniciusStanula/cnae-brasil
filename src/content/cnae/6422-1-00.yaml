@@ -1,0 +1,70 @@
+codigo: 6422-1/00
+codigo_slug: 6422-1-00
+codigo_numerico: '6422100'
+descricao_oficial: BANCOS MÚLTIPLOS, COM CARTEIRA COMERCIAL
+descricao_plana: >-
+  Instituição financeira que opera com múltiplas carteiras bancárias, incluindo obrigatoriamente a carteira comercial,
+  podendo captar depósitos à vista do público.
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '64'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS
+grupo:
+  codigo: '64.2'
+  nome: INTERMEDIAÇÃO MONETÁRIA - DEPÓSITOS À VISTA
+classe:
+  codigo: 6422-1
+  nome: BANCOS MÚLTIPLOS, COM CARTEIRA COMERCIAL
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - sa
+exemplos_negocios:
+  - Banco múltiplo com carteira comercial e de investimento
+  - Banco múltiplo com carteira comercial e de crédito imobiliário
+  - Banco múltiplo com carteira comercial e de crédito, financiamento e investimento
+  - Banco múltiplo com carteira comercial e de câmbio
+  - Banco múltiplo com carteira comercial e de arrendamento mercantil
+o_que_inclui:
+  - Captação de depósitos à vista e a prazo do público em geral
+  - Concessão de crédito pessoal, empresarial e rural por meio da carteira comercial
+  - Operações de câmbio, quando a instituição possui carteira de câmbio autorizada
+  - Emissão de instrumentos de pagamento como cheques e cartões vinculados à conta corrente
+  - Operações de crédito imobiliário, de arrendamento mercantil ou de investimento combinadas na mesma instituição
+  - Prestação de serviços bancários gerais como cobranças, transferências e pagamentos
+o_que_nao_inclui:
+  - Bancos exclusivamente de investimento, sem carteira comercial (use CNAE 6421-2/00)
+  - Bancos de desenvolvimento, como bancos estaduais de fomento (use CNAE 6423-9/00)
+  - Caixas econômicas, como a Caixa Econômica Federal (use CNAE 6424-7/01)
+  - Cooperativas de crédito que captam depósitos de associados (use CNAE 6430-1/00)
+  - Sociedades de crédito, financiamento e investimento — financeiras — sem carteira comercial (use CNAE 6431-0/00)
+  - Administradoras de cartões de crédito sem vínculo com banco múltiplo (use CNAE 6450-6/00)
+licencas_comuns:
+  - Autorização de funcionamento concedida pelo Banco Central do Brasil
+  - Alvará municipal de funcionamento para cada agência ou sede
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB) para as instalações físicas
+  - Licenças setoriais para operação de câmbio, quando aplicável
+cnaes_relacionados:
+  - 6421-2/00
+  - 6423-9/00
+  - 6424-7/01
+  - 6424-7/02
+  - 6430-1/00
+  - 6431-0/00
+  - 6432-8/00
+  - 6433-6/00
+  - 6450-6/00
+  - 6461-1/00
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2026-05-22T14:50:46.451Z'

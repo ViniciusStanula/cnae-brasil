@@ -1,0 +1,74 @@
+codigo: 8630-5/04
+codigo_slug: 8630-5-04
+codigo_numerico: '8630504'
+descricao_oficial: ATIVIDADE ODONTOLÓGICA
+descricao_plana: >-
+  Prestação de serviços odontológicos em consultório ou clínica, como consultas, tratamentos e procedimentos realizados
+  por dentistas.
+secao:
+  letra: Q
+  slug: saude-servicos-sociais
+  nome: Saúde humana e serviços sociais
+  nome_curto: Saúde
+divisao:
+  codigo: '86'
+  nome: ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA
+grupo:
+  codigo: '86.3'
+  nome: ATIVIDADES DE ATENÇÃO AMBULATORIAL EXECUTADAS POR MÉDICOS E ODONTÓLOGOS
+classe:
+  codigo: 8630-5
+  nome: ATIVIDADES DE ATENÇÃO AMBULATORIAL EXECUTADAS POR MÉDICOS E ODONTÓLOGOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Consultório odontológico individual de dentista clínico geral
+  - Clínica odontológica com múltiplos especialistas (ortodontia, implantodontia, endodontia)
+  - Clínica de odontologia estética e reabilitação oral
+  - Consultório de odontopediatria
+  - Clínica de periodontia e cirurgia oral
+  - Serviço odontológico ambulatorial vinculado a plano de saúde
+o_que_inclui:
+  - Consultas e avaliações odontológicas realizadas por cirurgião-dentista
+  - Tratamentos clínicos como restaurações, extrações e tratamentos de canal
+  - Procedimentos de ortodontia e instalação de aparelhos
+  - Cirurgias orais ambulatoriais, como extração de sisos e implantes dentários
+  - Atendimentos de odontopediatria
+  - Procedimentos de periodontia, como raspagem e tratamento de gengiva
+  - Clareamento dental e outros procedimentos de odontologia estética
+o_que_nao_inclui:
+  - Consultas e procedimentos realizados exclusivamente por médicos (use CNAE 8630-5/01 ou 8630-5/03)
+  - Serviços de vacinação e imunização aplicados no mesmo estabelecimento (use CNAE 8630-5/06)
+  - Laboratórios de prótese dentária sem atendimento direto ao paciente (use CNAE 3250-7/06)
+  - Comércio de equipamentos e materiais odontológicos (use CNAE 4664-8/00)
+  - Atividades de reprodução humana assistida (use CNAE 8630-5/07)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Alvará sanitário estadual ou municipal (vigilância sanitária)
+  - Licença ou registro no Conselho Regional de Odontologia (CRO)
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença para gerenciamento de resíduos de serviços de saúde
+cnaes_relacionados:
+  - 8630-5/01
+  - 8630-5/02
+  - 8630-5/03
+  - 8630-5/06
+  - 8630-5/07
+  - 8630-5/99
+  - 3250-7/06
+  - 8650-0/99
+  - 8660-7/00
+  - 4664-8/00
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:55:04.987Z'

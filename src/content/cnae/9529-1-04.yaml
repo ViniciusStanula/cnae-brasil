@@ -1,0 +1,40 @@
+codigo: 9529-1/04
+codigo_slug: 9529-1-04
+codigo_numerico: '9529104'
+descricao_oficial: REPARAÇÃO DE BICICLETAS, TRICICLOS E OUTROS VEÍCULOS NÃO MOTORIZADOS
+descricao_plana: REPARAÇÃO DE BICICLETAS, TRICICLOS E OUTROS VEÍCULOS NÃO MOTORIZADOS
+secao:
+  letra: S
+  slug: outras-atividades-de-servicos
+  nome: Outras atividades de serviços
+  nome_curto: Outros Serviços
+divisao:
+  codigo: '95'
+  nome: REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS
+grupo:
+  codigo: '95.2'
+  nome: REPARAÇÃO E MANUTENÇÃO DE OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS
+classe:
+  codigo: 9529-1
+  nome: REPARAÇÃO E MANUTENÇÃO DE OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: REPARADOR(A) DE BICICLETA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,38 @@
+codigo: 2422-9/02
+codigo_slug: 2422-9-02
+codigo_numerico: '2422902'
+descricao_oficial: PRODUÇÃO DE LAMINADOS PLANOS DE AÇOS ESPECIAIS
+descricao_plana: PRODUÇÃO DE LAMINADOS PLANOS DE AÇOS ESPECIAIS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '24'
+  nome: METALURGIA
+grupo:
+  codigo: '24.2'
+  nome: SIDERURGIA
+classe:
+  codigo: 2422-9
+  nome: PRODUÇÃO DE LAMINADOS PLANOS DE AÇO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

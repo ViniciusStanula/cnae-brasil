@@ -1,0 +1,38 @@
+codigo: 3900-5/00
+codigo_slug: 3900-5-00
+codigo_numerico: '3900500'
+descricao_oficial: DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS
+descricao_plana: DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS
+secao:
+  letra: E
+  slug: agua-esgoto-residuos
+  nome: Água, esgoto, atividades de gestão de resíduos e descontaminação
+  nome_curto: Saneamento
+divisao:
+  codigo: '39'
+  nome: DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS
+grupo:
+  codigo: '39.0'
+  nome: DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS
+classe:
+  codigo: 3900-5
+  nome: DESCONTAMINAÇÃO E OUTROS SERVIÇOS DE GESTÃO DE RESÍDUOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

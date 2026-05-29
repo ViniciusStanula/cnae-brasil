@@ -1,0 +1,37 @@
+codigo: 8430-2/00
+codigo_slug: 8430-2-00
+codigo_numerico: '8430200'
+descricao_oficial: SEGURIDADE SOCIAL OBRIGATÓRIA
+descricao_plana: SEGURIDADE SOCIAL OBRIGATÓRIA
+secao:
+  letra: O
+  slug: administracao-publica
+  nome: Administração pública, defesa e seguridade social
+  nome_curto: Adm. Pública
+divisao:
+  codigo: '84'
+  nome: ADMINISTRAÇÃO PÚBLICA, DEFESA E SEGURIDADE SOCIAL
+grupo:
+  codigo: '84.3'
+  nome: SEGURIDADE SOCIAL OBRIGATÓRIA
+classe:
+  codigo: 8430-2
+  nome: SEGURIDADE SOCIAL OBRIGATÓRIA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

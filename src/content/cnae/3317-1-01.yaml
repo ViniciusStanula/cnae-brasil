@@ -1,0 +1,38 @@
+codigo: 3317-1/01
+codigo_slug: 3317-1-01
+codigo_numerico: '3317101'
+descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE EMBARCAÇÕES E ESTRUTURAS FLUTUANTES
+descricao_plana: MANUTENÇÃO E REPARAÇÃO DE EMBARCAÇÕES E ESTRUTURAS FLUTUANTES
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '33'
+  nome: MANUTENÇÃO, REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS
+grupo:
+  codigo: '33.1'
+  nome: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS
+classe:
+  codigo: 3317-1
+  nome: MANUTENÇÃO E REPARAÇÃO DE EMBARCAÇÕES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

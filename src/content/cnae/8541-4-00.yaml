@@ -1,0 +1,38 @@
+﻿codigo: 8541-4/00
+codigo_slug: 8541-4-00
+codigo_numerico: '8541400'
+descricao_oficial: EDUCAÇÃO PROFISSIONAL DE NÍVEL TÉCNICO
+descricao_plana: EDUCAÇÃO PROFISSIONAL DE NÍVEL TÉCNICO
+secao:
+  letra: P
+  slug: educacao
+  nome: Educação
+  nome_curto: Educação
+divisao:
+  codigo: '85'
+  nome: EDUCAÇÃO
+grupo:
+  codigo: '85.4'
+  nome: EDUCAÇÃO PROFISSIONAL DE NÍVEL TÉCNICO E TECNOLÓGICO
+classe:
+  codigo: 8541-4
+  nome: EDUCAÇÃO PROFISSIONAL DE NÍVEL TÉCNICO
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

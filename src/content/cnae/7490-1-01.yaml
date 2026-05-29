@@ -1,0 +1,38 @@
+codigo: 7490-1/01
+codigo_slug: 7490-1-01
+codigo_numerico: '7490101'
+descricao_oficial: SERVIÇOS DE TRADUÇÃO, INTERPRETAÇÃO E SIMILARES
+descricao_plana: SERVIÇOS DE TRADUÇÃO, INTERPRETAÇÃO E SIMILARES
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '74'
+  nome: OUTRAS ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS
+grupo:
+  codigo: '74.9'
+  nome: ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS NÃO ESPECIFICADAS ANTERIORMENTE
+classe:
+  codigo: 7490-1
+  nome: ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

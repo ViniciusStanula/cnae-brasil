@@ -1,0 +1,38 @@
+codigo: 1065-1/02
+codigo_slug: 1065-1-02
+codigo_numerico: '1065102'
+descricao_oficial: FABRICAÇÃO DE ÓLEO DE MILHO EM BRUTO
+descricao_plana: FABRICAÇÃO DE ÓLEO DE MILHO EM BRUTO
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '10'
+  nome: FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS
+grupo:
+  codigo: '10.6'
+  nome: MOAGEM, FABRICAÇÃO DE PRODUTOS AMILÁCEOS E DE ALIMENTOS PARA ANIMAIS
+classe:
+  codigo: 1065-1
+  nome: FABRICAÇÃO DE AMIDOS E FÉCULAS DE VEGETAIS E DE ÓLEOS DE MILHO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

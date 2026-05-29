@@ -1,0 +1,1714 @@
+{
+  "generated_at": "2026-05-22T14:27:25.150Z",
+  "scraped_at": "2026-05-22T14:22:10.391Z",
+  "summary": {
+    "total_cnaes": 1332,
+    "scraped_unique": 350,
+    "legacy_total": 254,
+    "agreement_mei": 350,
+    "added_auto": 233,
+    "flagged_review": 87,
+    "matching_no_mei": 895
+  },
+  "govbr_fixes_applied": [
+    {
+      "original": "602-5/02",
+      "fixed": "9602-5/02"
+    },
+    {
+      "original": "7729 2/99",
+      "fixed": "7729-2/99"
+    }
+  ],
+  "added_auto": [
+    {
+      "cnae": "7729-2/01",
+      "ocupacao_oficial": "LOCADOR(A) DE APARELHOS DE JOGOS ELETRÔNICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0161-0/02",
+      "ocupacao_oficial": "PRESTADOR(A) DE SERVIÇOS DE PODA, SOB CONTRATO DE EMPREITADA, INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0161-0/03",
+      "ocupacao_oficial": "PRESTADOR(A) DE SERVIÇOS DE COLHEITA, SOB CONTRATO DE EMPREITADA, INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0321-3/04",
+      "ocupacao_oficial": "CRIADOR(A) DE PEIXES ORNAMENTAIS EM ÁGUA SALGADA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0322-1/04",
+      "ocupacao_oficial": "CRIADOR(A) DE PEIXES ORNAMENTAIS EM ÁGUA DOCE INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0892-4/01",
+      "ocupacao_oficial": "SALINEIRO/EXTRATOR DE SAL MARINHO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1351-1/00",
+      "ocupacao_oficial": "FABRICANTE DE ARTEFATOS TÊXTEIS PARA USO DOMÉSTICO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1013-9/01",
+      "ocupacao_oficial": "FABRICANTE DE PRODUTOS DERIVADOS DE CARNE INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1031-7/00",
+      "ocupacao_oficial": "BENEFICIADOR(A) DE CASTANHA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1032-5/99",
+      "ocupacao_oficial": "FABRICANTE DE CONSERVAS DE LEGUMES E OUTROS VEGETAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1033-3/01",
+      "ocupacao_oficial": "FABRICANTE DE SUCOS CONCENTRADOS DE FRUTAS, HORTALIÇAS E LEGUMES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1033-3/02",
+      "ocupacao_oficial": "FABRICANTE DE SUCOS DE FRUTAS, HORTALIÇAS E LEGUMES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1052-0/00",
+      "ocupacao_oficial": "FABRICANTE DE LATICÍNIOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1061-9/02",
+      "ocupacao_oficial": "FABRICANTE DE PRODUTOS DERIVADOS DO ARROZ INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1063-5/00",
+      "ocupacao_oficial": "FARINHEIRO DE MANDIOCA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1064-3/00",
+      "ocupacao_oficial": "FARINHEIRO DE MILHO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1065-1/01",
+      "ocupacao_oficial": "FABRICANTE DE AMIDO E FÉCULAS DE VEGETAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1069-4/00",
+      "ocupacao_oficial": "MOENDEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1071-6/00",
+      "ocupacao_oficial": "FABRICANTE DE AÇÚCAR MASCAVO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1421-5/00",
+      "ocupacao_oficial": "FABRICANTE DE MEIAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1091-1/01",
+      "ocupacao_oficial": "FABRICANTE DE PÃO DE QUEIJO CONGELADO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1091-1/02",
+      "ocupacao_oficial": "CONFEITEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1092-9/00",
+      "ocupacao_oficial": "BOLACHEIRO(A)/BISCOITEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1093-7/01",
+      "ocupacao_oficial": "CHOCOLATEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1093-7/02",
+      "ocupacao_oficial": "FABRICANTE DE BALAS, CONFEITOS E FRUTAS CRISTALIZADAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1094-5/00",
+      "ocupacao_oficial": "FABRICANTE DE MASSAS ALIMENTÍCIAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1095-3/00",
+      "ocupacao_oficial": "FABRICANTE DE ESPECIARIAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1099-6/01",
+      "ocupacao_oficial": "VINAGREIRO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1099-6/04",
+      "ocupacao_oficial": "FABRICANTE DE GELO COMUM INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1099-6/05",
+      "ocupacao_oficial": "FABRICANTE DE CHÁ INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1311-1/00",
+      "ocupacao_oficial": "FABRICANTE DE FIOS DE ALGODÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1312-0/00",
+      "ocupacao_oficial": "FABRICANTE DE FIOS DE LINHO, RAMI, JUTA, SEDA E LÃ INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1099-6/99",
+      "ocupacao_oficial": "FABRICANTE DE GELÉIA DE MOCOTÓ INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1122-4/03",
+      "ocupacao_oficial": "FABRICANTE DE REFRESCOS, XAROPES E PÓS PARA REFRESCOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1220-4/99",
+      "ocupacao_oficial": "FABRICANTE DE FUMO E DERIVADOS DO FUMO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1321-9/00",
+      "ocupacao_oficial": "TECELÃO(Ã) DE ALGODÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1322-7/00",
+      "ocupacao_oficial": "TECELÃO(Ã) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1340-5/01",
+      "ocupacao_oficial": "ESTAMPADOR(A) DE PEÇAS DO VESTUÁRIO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1340-5/99",
+      "ocupacao_oficial": "BORDADEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7729-2/02",
+      "ocupacao_oficial": "LOCADOR(A) DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1352-9/00",
+      "ocupacao_oficial": "TAPECEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1353-7/00",
+      "ocupacao_oficial": "REDEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1359-6/00",
+      "ocupacao_oficial": "ARTESÃO TÊXTIL",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1411-8/01",
+      "ocupacao_oficial": "FABRICANTE DE ROUPAS ÍNTIMAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1411-8/02",
+      "ocupacao_oficial": "FABRICANTE DE PARTES DE ROUPAS ÍNTIMAS FACÇÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1412-6/01",
+      "ocupacao_oficial": "COSTUREIRO(A) DE ROUPAS, EXCETO SOB MEDIDA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1412-6/02",
+      "ocupacao_oficial": "ALFAIATE INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1412-6/03",
+      "ocupacao_oficial": "FABRICANTE DE PARTES DE PEÇAS DO VESTUÁRIO FACÇÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1413-4/03",
+      "ocupacao_oficial": "FABRICANTE DE PARTES DE ROUPAS PROFISSIONAIS FACÇÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1622-6/99",
+      "ocupacao_oficial": "CARPINTEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4763-6/04",
+      "ocupacao_oficial": "COMERCIANTE DE ARTIGOS DE CAÇA, PESCA E CAMPING INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1414-2/00",
+      "ocupacao_oficial": "BONELEIRO(A) (FABRICANTE DE BONÉS) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7729-2/03",
+      "ocupacao_oficial": "LOCADOR(A) DE MATERIAL MÉDICO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1422-3/00",
+      "ocupacao_oficial": "CROCHETEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1510-6/00",
+      "ocupacao_oficial": "CURTIDOR DE COURO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1521-1/00",
+      "ocupacao_oficial": "FABRICANTE DE BOLSAS/BOLSEIRO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1529-7/00",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM COURO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1531-9/01",
+      "ocupacao_oficial": "FABRICANTE DE CALÇADOS DE COURO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1531-9/02",
+      "ocupacao_oficial": "ACABADOR(A) DE CALÇADOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1539-4/00",
+      "ocupacao_oficial": "FABRICANTE DE CALÇADOS DE BORRACHA, MADEIRA E TECIDOS E FIBRAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1540-8/00",
+      "ocupacao_oficial": "FABRICANTE DE PARTES PARA CALÇADOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1623-4/00",
+      "ocupacao_oficial": "FABRICANTE DE EMBALAGENS DE MADEIRA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1629-3/01",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM MADEIRA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1629-3/02",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM CORTIÇA, BAMBU E AFINS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1721-4/00",
+      "ocupacao_oficial": "FABRICANTE DE PAPEL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1731-1/00",
+      "ocupacao_oficial": "FABRICANTE DE EMBALAGENS DE PAPEL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1732-0/00",
+      "ocupacao_oficial": "FABRICANTE DE EMBALAGENS DE CARTOLINA E PAPEL-CARTÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1742-7/99",
+      "ocupacao_oficial": "FABRICANTE DE GUARDANAPOS E COPOS DE PAPEL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1749-4/00",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM PAPEL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1813-0/01",
+      "ocupacao_oficial": "SERIGRAFISTA PUBLICITÁRIO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1813-0/99",
+      "ocupacao_oficial": "SERIGRAFISTA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1821-1/00",
+      "ocupacao_oficial": "CLICHERISTA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1822-9/01",
+      "ocupacao_oficial": "ENCADERNADOR(A)/PLASTIFICADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2391-5/01",
+      "ocupacao_oficial": "BRITADOR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2219-6/00",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM BORRACHA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3299-0/04",
+      "ocupacao_oficial": "FABRICANTE DE PAINÉIS E LETREIROS LUMINOSOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3600-6/02",
+      "ocupacao_oficial": "DISTRIBUIDOR(A) DE ÁGUA POTÁVEL EM CAMINHÃO PIPA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2229-3/99",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM PLÁSTICO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2319-2/00",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM VIDRO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2330-3/99",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM CIMENTO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2342-7/02",
+      "ocupacao_oficial": "OLEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2349-4/99",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM CERÂMICA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/06",
+      "ocupacao_oficial": "REPARADOR(A) DE MÁQUINAS, APARELHOS E EQUIPAMENTOS PARA INSTALAÇÕES TÉRMICAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2399-1/01",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM LOUÇAS, VIDRO E CRISTAL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2599-3/01",
+      "ocupacao_oficial": "ARMADOR(A) DE FERRAGENS NA CONSTRUÇÃO CIVIL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2512-8/00",
+      "ocupacao_oficial": "FABRICANTE DE ESQUADRIAS METÁLICAS SOB ENCOMENDA OU NÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2542-0/00",
+      "ocupacao_oficial": "SERRALHEIRO(A), EXCETO PARA ESQUADRIAS, SOB ENCOMENDA OU NÃO, INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2532-2/01",
+      "ocupacao_oficial": "FABRICANTE DE ARTEFATOS DE FUNILARIA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2539-0/01",
+      "ocupacao_oficial": "SOLDADOR(A) / BRASADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2539-0/02",
+      "ocupacao_oficial": "GALVANIZADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2541-1/00",
+      "ocupacao_oficial": "FABRICANTE DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2543-8/00",
+      "ocupacao_oficial": "FERRAMENTEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2599-3/99",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM METAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3299-0/05",
+      "ocupacao_oficial": "FABRICANTE DE AVIAMENTOS PARA COSTURA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2740-6/02",
+      "ocupacao_oficial": "FABRICANTE DE LUMINÁRIAS E OUTROS EQUIPAMENTOS DE ILUMINAÇÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3299-0/06",
+      "ocupacao_oficial": "FABRICANTE DE VELAS, INCLUSIVE DECORATIVAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3102-1/00",
+      "ocupacao_oficial": "MOVELEIRO(A) DE MÓVEIS METÁLICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3317-1/02",
+      "ocupacao_oficial": "REPARADOR(A) DE EMBARCAÇÕES PARA ESPORTE E LAZER INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2950-6/00",
+      "ocupacao_oficial": "RETIFICADOR(A) DE MOTORES PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3101-2/00",
+      "ocupacao_oficial": "MARCENEIRO (A) SOB ENCOMENDA OU NÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3299-0/01",
+      "ocupacao_oficial": "FABRICANTE DE GUARDA-CHUVAS E SIMILARES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3103-9/00",
+      "ocupacao_oficial": "MOVELEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3211-6/01",
+      "ocupacao_oficial": "LAPIDADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3211-6/02",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM METAIS PRECIOSOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3211-6/03",
+      "ocupacao_oficial": "CUNHADOR(A) DE MOEDAS E MEDALHAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3212-4/00",
+      "ocupacao_oficial": "ARTESÃO(Ã) DE BIJUTERIAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3220-5/00",
+      "ocupacao_oficial": "FABRICANTE DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3299-0/02",
+      "ocupacao_oficial": "CONFECCIONADOR(A) DE CARIMBOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3299-0/03",
+      "ocupacao_oficial": "FABRICANTE DE LETREIROS, PLACAS E PAINÉIS NÃO LUMINOSOS, SOB ENCOMENDA OU NÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3230-2/00",
+      "ocupacao_oficial": "FABRICANTE DE ARTEFATOS PARA PESCA E ESPORTE INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3240-0/99",
+      "ocupacao_oficial": "FABRICANTE DE BRINQUEDOS NÃO ELETRÔNICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3291-4/00",
+      "ocupacao_oficial": "VASSOUREIR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3292-2/02",
+      "ocupacao_oficial": "FABRICANTE DE PRODUTOS DE TECIDO NÃO TECIDO PARA USO ODONTO-MÉDICO-HOSPITALAR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3299-0/99",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM OUTROS MATERIAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3311-2/00",
+      "ocupacao_oficial": "REPARADOR(A) DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3313-9/01",
+      "ocupacao_oficial": "REPARADOR(A) DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3313-9/02",
+      "ocupacao_oficial": "REPARADOR(A) DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3313-9/99",
+      "ocupacao_oficial": "REPARADOR(A) DE APARELHOS E EQUIPAMENTOS PARA DISTRIBUIÇÃO E CONTROLE DE ENERGIA ELÉTRICA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/01",
+      "ocupacao_oficial": "REPARADOR(A) INDEPENDENTE DE MÁQUINAS MOTRIZES NÃO ELÉTRICAS",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/02",
+      "ocupacao_oficial": "REPARADOR(A) DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/07",
+      "ocupacao_oficial": "REPARADOR(A) DE MÁQUINAS E APARELHOS DE REFRIGERAÇÃO E VENTILAÇÃO PARA USO INDUSTRIAL E COMERCIAL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/09",
+      "ocupacao_oficial": "REPARADOR(A) DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/10",
+      "ocupacao_oficial": "REPARADOR(A) DE BALANÇAS INDUSTRIAIS E COMERCIAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/11",
+      "ocupacao_oficial": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/12",
+      "ocupacao_oficial": "REPARADOR(A) DE TRATORES AGRÍCOLAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/19",
+      "ocupacao_oficial": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/20",
+      "ocupacao_oficial": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3314-7/99",
+      "ocupacao_oficial": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA DA MADEIRA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3319-8/00",
+      "ocupacao_oficial": "REPARADOR(A) DE CORDAS, VELAMES E LONAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3321-0/00",
+      "ocupacao_oficial": "INSTALADOR(A) DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3329-5/01",
+      "ocupacao_oficial": "MONTADOR(A) DE MÓVEIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3702-9/00",
+      "ocupacao_oficial": "FOSSEIRO (LIMPADOR DE FOSSA) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3811-4/00",
+      "ocupacao_oficial": "CARROCEIRO COLETA DE ENTULHOS E RESÍDUOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3831-9/01",
+      "ocupacao_oficial": "RECICLADOR (A) DE SUCATAS DE ALUMÍNIO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3831-9/99",
+      "ocupacao_oficial": "RECICLADOR (A) DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3832-7/00",
+      "ocupacao_oficial": "RECICLADOR (A) DE MATERIAIS PLÁSTICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3839-4/99",
+      "ocupacao_oficial": "RECICLADOR(A) DE BORRACHA, MADEIRA, PAPEL E VIDRO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4322-3/02",
+      "ocupacao_oficial": "INSTALADOR(A) E REPARADOR(A) DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4520-0/06",
+      "ocupacao_oficial": "BORRACHEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4330-4/99",
+      "ocupacao_oficial": "VIDRACEIRO DE EDIFICAÇÕES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4399-1/99",
+      "ocupacao_oficial": "CALHEIRO (A) INDEPENDENT",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4520-0/07",
+      "ocupacao_oficial": "INSTALADOR(A) E REPARADOR (A) DE ACESSÓRIOS AUTOMOTIVOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4520-0/08",
+      "ocupacao_oficial": "CAPOTEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4530-7/04",
+      "ocupacao_oficial": "COMERCIANTE DE PEÇAS E ACESSÓRIOS USADOS PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4530-7/05",
+      "ocupacao_oficial": "COMERCIANTE DE PNEUMÁTICOS E CÂMARAS-DE-AR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4543-9/00",
+      "ocupacao_oficial": "MECÂNICO(A) DE MOTOCICLETAS E MOTONETAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4721-1/04",
+      "ocupacao_oficial": "BALEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4754-7/03",
+      "ocupacao_oficial": "COMERCIANTE DE ARTIGOS DE ILUMINAÇÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4755-5/03",
+      "ocupacao_oficial": "COMERCIANTE DE ARTIGOS DE CAMA, MESA E BANHO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5320-2/01",
+      "ocupacao_oficial": "ENTREGADOR DE MALOTES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4783-1/01",
+      "ocupacao_oficial": "COMERCIANTE DE ARTIGOS DE JOALHERIA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4783-1/02",
+      "ocupacao_oficial": "COMERCIANTE DE ARTIGOS DE RELOJOARIA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4785-7/99",
+      "ocupacao_oficial": "COMERCIANTE DE ARTIGOS USADOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4923-0/02",
+      "ocupacao_oficial": "MOTORISTA (POR APLICATIVO OU NÃO) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4929-9/03",
+      "ocupacao_oficial": "ORGANIZADOR(A) DE EXCURSÕES EM VEÍCULO PRÓPRIO, MUNICIPAL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4930-2/03",
+      "ocupacao_oficial": "TRANSPORTADOR AUTÔNOMO DE CARGA - PRODUTOS PERIGOSOS",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4930-2/04",
+      "ocupacao_oficial": "CARROCEIRO - TRANSPORTE DE MUDANÇA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5011-4/01",
+      "ocupacao_oficial": "TRANSPORTADOR(A) MARÍTIMO DE CARGA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5021-1/01",
+      "ocupacao_oficial": "TRANSPORTADOR(A) MUNICIPAL HIDROVIÁRIO DE CARGAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5099-8/01",
+      "ocupacao_oficial": "TRANSPORTADOR(A) AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5099-8/99",
+      "ocupacao_oficial": "BARQUEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5211-7/02",
+      "ocupacao_oficial": "GUARDADOR(A) DE MÓVEIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5212-5/00",
+      "ocupacao_oficial": "CARREGADOR (VEÍCULOS INDEPENDENTE DE TRANSPORTES TERRESTRES)",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5223-1/00",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE ESTACIONAMENTO DE VEÍCULOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5229-0/02",
+      "ocupacao_oficial": "GUINCHEIRO INDEPENDENTE (REBOQUE DE VEÍCULOS)",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5620-1/04",
+      "ocupacao_oficial": "COZINHEIRO(A) QUE FORNECE REFEIÇÕES PRONTAS E EMBALADAS PARA CONSUMO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5310-5/02",
+      "ocupacao_oficial": "AGENTE DE CORREIO FRANQUEADO E PERMISSIONÁRIO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5320-2/02",
+      "ocupacao_oficial": "BIKEBOY (CICLISTA MENSAGEIRO) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5590-6/01",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE ALBERGUE NÃO ASSISTENCIAL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5590-6/02",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE CAMPING INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5590-6/03",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE PENSÃO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5590-6/99",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE HOSPEDARIA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5811-5/00",
+      "ocupacao_oficial": "EDITOR(A) DE LIVROS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5812-3/01",
+      "ocupacao_oficial": "EDITOR(A) DE JORNAIS DIÁRIOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5812-3/02",
+      "ocupacao_oficial": "EDITOR(A) DE JORNAIS NÃO DIÁRIOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5813-1/00",
+      "ocupacao_oficial": "EDITOR(A) DE REVISTAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5819-1/00",
+      "ocupacao_oficial": "EDITOR(A) DE LISTA DE DADOS E DE OUTRAS INFORMAÇÕES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5912-0/01",
+      "ocupacao_oficial": "DUBLADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "5912-0/99",
+      "ocupacao_oficial": "EDITOR(A) DE VÍDEO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6190-6/99",
+      "ocupacao_oficial": "INSTALADOR(A) DE REDE DE COMPUTADORES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6399-2/00",
+      "ocupacao_oficial": "APURADOR(A), COLETOR(A) E FORNECEDOR(A) DE RECORTES DE MATÉRIAS PUBLICADAS EM JORNAIS E REVISTAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7722-5/00",
+      "ocupacao_oficial": "LOCADOR(A) DE FITAS DE VÍDEO, DVDS E SIMILARES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7490-1/02",
+      "ocupacao_oficial": "MERGULHADOR(A) (ESCAFANDRISTA) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7723-3/00",
+      "ocupacao_oficial": "LOCADOR(A) DE OBJETOS DO VESTUÁRIO, JÓIAS E ACESSÓRIOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7319-0/02",
+      "ocupacao_oficial": "PANFLETEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7319-0/99",
+      "ocupacao_oficial": "BIKE PROPAGANDISTA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7719-5/99",
+      "ocupacao_oficial": "LOCADOR(A) DE MOTOCICLETA, SEM CONDUTOR, INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7721-7/00",
+      "ocupacao_oficial": "LOCADOR(A) DE BICICLETAS, INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7729-2/99",
+      "ocupacao_oficial": "LOCADOR(A) DE LIVROS, REVISTAS, PLANTAS E FLORES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7731-4/00",
+      "ocupacao_oficial": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS AGRÍCOLAS SEM OPERADOR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7732-2/01",
+      "ocupacao_oficial": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA CONSTRUÇÃO SEM OPERADOR, EXCETO ANDAIMES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7732-2/02",
+      "ocupacao_oficial": "LOCADOR DE ANDAIMES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7733-1/00",
+      "ocupacao_oficial": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA ESCRITÓRIO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7739-0/02",
+      "ocupacao_oficial": "LOCADOR(A) DE EQUIPAMENTOS CIENTÍFICOS, MÉDICOS E HOSPITALARES, SEM OPERADOR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7739-0/03",
+      "ocupacao_oficial": "LOCADOR(A) DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORÁRIO, EXCETO ANDAIMES INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7739-0/99",
+      "ocupacao_oficial": "LOCADOR(A) DE OUTRAS MÁQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE, SEM OPERADOR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7911-2/00",
+      "ocupacao_oficial": "AGENTE DE VIAGENS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7912-1/00",
+      "ocupacao_oficial": "GUIA DE TURISMO INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7990-2/00",
+      "ocupacao_oficial": "PROMOTOR(A) DE TURISMO LOCAL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8011-1/02",
+      "ocupacao_oficial": "ADESTRADOR(A) DE CÃES DE GUARDA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8020-0/02",
+      "ocupacao_oficial": "INSTALADOR(A) E REPARADOR DE COFRES, TRANCAS E TRAVAS DE SEGURANÇA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8129-0/00",
+      "ocupacao_oficial": "PISCINEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8130-3/00",
+      "ocupacao_oficial": "JARDINEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8219-9/01",
+      "ocupacao_oficial": "FOTOCOPIADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8291-1/00",
+      "ocupacao_oficial": "COBRADOR(A) DE DÍVIDAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8292-0/00",
+      "ocupacao_oficial": "ENVASADOR(A) E EMPACOTADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8299-7/03",
+      "ocupacao_oficial": "GRAVADOR(A) DE CARIMBOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8299-7/07",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE SALA DE ACESSO À INTERNET INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8299-7/99",
+      "ocupacao_oficial": "CARTAZISTA, PINTOR DE INDEPENDENTE FAIXAS PUBLICITÁRIAS E DE LETRAS",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8599-6/03",
+      "ocupacao_oficial": "INSTRUTOR(A) DE INFORMÁTICA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8592-9/99",
+      "ocupacao_oficial": "INSTRUTOR(A) DE ARTE E CULTURA EM GERAL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8599-6/99",
+      "ocupacao_oficial": "PROFESSOR(A) PARTICULAR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9609-2/02",
+      "ocupacao_oficial": "AGENTE MATRIMONIAL INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8712-3/00",
+      "ocupacao_oficial": "CUIDADOR(A) DE IDOSOS E ENFERMOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9002-7/02",
+      "ocupacao_oficial": "RESTAURADOR(A) DE OBRAS DE ARTE INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9001-9/01",
+      "ocupacao_oficial": "HUMORISTA E CONTADOR DE HISTÓRIAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9001-9/02",
+      "ocupacao_oficial": "CANTOR(A)/MÚSICO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9001-9/06",
+      "ocupacao_oficial": "DISC JOCKEY (DJ) OU VIDEO JOCKEY (VJ) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9329-8/03",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE SALÃO DE JOGOS DE SINUCA E BILHAR INDEPENDENTE 9329-8/03",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9329-8/04",
+      "ocupacao_oficial": "PROPRIETÁRIO(A) DE FLIPERAMA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9329-8/99",
+      "ocupacao_oficial": "ANIMADOR(A) DE FESTAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9609-2/06",
+      "ocupacao_oficial": "COLOCADOR(A) DE PIERCING INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9511-8/00",
+      "ocupacao_oficial": "TÉCNICO(A) DE MANUTENÇÃO DE COMPUTADOR INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9512-6/00",
+      "ocupacao_oficial": "TÉCNICO(A) DE MANUTENÇÃO DE TELEFONIA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9521-5/00",
+      "ocupacao_oficial": "TÉCNICO(A) DE MANUTENÇÃO DE ELETRODOMÉSTICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9609-2/07",
+      "ocupacao_oficial": "ADESTRADOR(A) DE ANIMAIS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9609-2/08",
+      "ocupacao_oficial": "BANHISTA DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "9700-5/00",
+      "ocupacao_oficial": "DIARISTA INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "3104-7/00",
+      "ocupacao_oficial": "COLCHOEIRO(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "1096-1/00",
+      "ocupacao_oficial": "FABRICANTE DE ALIMENTOS PRONTOS CONGELADOS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8219-9/99",
+      "ocupacao_oficial": "DIGITADOR(A) INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "2391-5/03",
+      "ocupacao_oficial": "ARTESÃO(Ã) EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4541-2/07",
+      "ocupacao_oficial": "COMERCIANTE DE PEÇAS E ACESSÓRIOS USADOS PARA MOTOCICLETAS E MOTONONETAS INDEPENDENTE",
+      "reason": "Found in gov.br scrape, was not in legacy MEI_PERMITIDOS"
+    }
+  ],
+  "flagged_review": [
+    {
+      "cnae": "0111-3/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0111-3/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0111-3/03",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0111-3/99",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0112-1/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0112-1/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0113-0/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0114-8/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0115-6/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0116-4/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0116-4/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0119-9/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0119-9/99",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0121-1/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0122-9/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0133-4/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0151-2/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0151-2/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0152-1/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0153-9/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0154-7/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0155-5/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0155-5/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0159-8/03",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0161-0/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0162-8/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0163-6/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0210-1/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0210-1/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0210-1/03",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0210-1/04",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0220-9/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0311-6/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0311-6/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "0321-3/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4312-6/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4313-4/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4391-6/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4399-1/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4399-1/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4520-0/04",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4530-7/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4541-2/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4542-1/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4711-3/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4711-3/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4729-6/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4731-8/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4744-0/05",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4744-0/06",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4751-2/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4771-7/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4771-7/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4771-7/03",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4771-7/04",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4784-9/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4789-0/06",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4789-0/09",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4921-3/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4922-1/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4940-0/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "4950-7/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8650-0/06",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6201-5/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6201-5/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6202-3/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6203-1/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6204-0/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "6209-1/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "7420-0/05",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8591-1/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8592-9/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8512-1/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8511-2/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8513-9/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8520-1/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8531-7/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8532-5/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8541-4/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8542-2/00",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8550-3/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8550-3/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8650-0/04",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8650-0/01",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8650-0/02",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8650-0/03",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    },
+    {
+      "cnae": "8650-0/05",
+      "current_decision": "permitido=true (kept pending review)",
+      "reason": "Not found in gov.br scrape on 2026-05-22",
+      "hint": "Verify against current CGSN resolutions, or remove from legacy MEI_PERMITIDOS"
+    }
+  ]
+}

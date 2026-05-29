@@ -1,0 +1,25 @@
+---
+import { formatDateShort } from '../../lib/format.js';
+import { CNAE_VERSION, MEI_FONTE } from '../../lib/constants.js';
+
+interface Props {
+  lastReviewed: string;
+  enriched: boolean;
+}
+
+const { lastReviewed, enriched } = Astro.props;
+---
+
+<div class="text-xs text-gray-400 border-t border-gray-100 pt-4 mt-6 space-y-1">
+  <p>Dados baseados em CNAE {CNAE_VERSION} — IBGE. Última revisão: {formatDateShort(lastReviewed)}.</p>
+  <p>Fonte MEI: {MEI_FONTE}.</p>
+  {!enriched && (
+    <p class="text-amber-600">
+      Esta página ainda não foi totalmente enriquecida com conteúdo editorial. Exibindo dados oficiais IBGE.
+    </p>
+  )}
+  <p>
+    <a href="/metodologia/" class="underline hover:text-gray-600">Ver metodologia e fontes</a>
+
+  </p>
+</div>

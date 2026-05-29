@@ -1,0 +1,38 @@
+codigo: 5130-7/00
+codigo_slug: 5130-7-00
+codigo_numerico: '5130700'
+descricao_oficial: TRANSPORTE ESPACIAL
+descricao_plana: TRANSPORTE ESPACIAL
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '51'
+  nome: TRANSPORTE AÉREO
+grupo:
+  codigo: '51.3'
+  nome: TRANSPORTE ESPACIAL
+classe:
+  codigo: 5130-7
+  nome: TRANSPORTE ESPACIAL
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

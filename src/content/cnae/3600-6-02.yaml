@@ -1,0 +1,40 @@
+codigo: 3600-6/02
+codigo_slug: 3600-6-02
+codigo_numerico: '3600602'
+descricao_oficial: DISTRIBUIÇÃO DE ÁGUA POR CAMINHÕES
+descricao_plana: DISTRIBUIÇÃO DE ÁGUA POR CAMINHÕES
+secao:
+  letra: E
+  slug: agua-esgoto-residuos
+  nome: Água, esgoto, atividades de gestão de resíduos e descontaminação
+  nome_curto: Saneamento
+divisao:
+  codigo: '36'
+  nome: CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA
+grupo:
+  codigo: '36.0'
+  nome: CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA
+classe:
+  codigo: 3600-6
+  nome: CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: DISTRIBUIDOR(A) DE ÁGUA POTÁVEL EM CAMINHÃO PIPA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

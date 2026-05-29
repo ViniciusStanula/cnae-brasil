@@ -1,0 +1,38 @@
+codigo: 5240-1/01
+codigo_slug: 5240-1-01
+codigo_numerico: '5240101'
+descricao_oficial: OPERAÇÃO DOS AEROPORTOS E CAMPOS DE ATERRISSAGEM
+descricao_plana: OPERAÇÃO DOS AEROPORTOS E CAMPOS DE ATERRISSAGEM
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '52'
+  nome: ARMAZENAMENTO E ATIVIDADES AUXILIARES DOS TRANSPORTES
+grupo:
+  codigo: '52.4'
+  nome: ATIVIDADES AUXILIARES DOS TRANSPORTES AÉREOS
+classe:
+  codigo: 5240-1
+  nome: ATIVIDADES AUXILIARES DOS TRANSPORTES AÉREOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

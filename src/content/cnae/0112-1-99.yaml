@@ -1,0 +1,38 @@
+codigo: 0112-1/99
+codigo_slug: 0112-1-99
+codigo_numerico: '0112199'
+descricao_oficial: CULTIVO DE OUTRAS FIBRAS DE LAVOURA TEMPORÁRIA NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: CULTIVO DE OUTRAS FIBRAS DE LAVOURA TEMPORÁRIA NÃO ESPECIFICADAS ANTERIORMENTE
+secao:
+  letra: A
+  slug: agricultura
+  nome: Agricultura, pecuária, produção florestal, pesca e aquicultura
+  nome_curto: Agricultura
+divisao:
+  codigo: '01'
+  nome: AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS
+grupo:
+  codigo: '01.1'
+  nome: PRODUÇÃO DE LAVOURAS TEMPORÁRIAS
+classe:
+  codigo: 0112-1
+  nome: CULTIVO DE ALGODÃO HERBÁCEO E DE OUTRAS FIBRAS DE LAVOURA TEMPORÁRIA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

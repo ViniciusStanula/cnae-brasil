@@ -1,0 +1,76 @@
+---
+import HubLayout from '../../layouts/HubLayout.astro';
+import { buildCanonical } from '../../lib/seo.js';
+import { buildBreadcrumbJsonLd } from '../../lib/schema-org.js';
+import { homeCrumb } from '../../lib/breadcrumbs.js';
+import { MEI_FONTE } from '../../lib/constants.js';
+
+const title = `Atividades Proibidas para MEI — O que não pode ser MEI | CNAE Brasil`;
+const description = `Conheça as atividades que não são permitidas para MEI e saiba qual natureza jurídica escolher. Profissões regulamentadas e atividades de maior risco geralmente não podem ser MEI.`;
+const canonical = buildCanonical('/mei/atividades-proibidas/');
+
+const crumbs = [
+  homeCrumb(),
+  { label: 'MEI', href: '/mei/' },
+  { label: 'Atividades Proibidas', href: '/mei/atividades-proibidas/', current: true },
+];
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(crumbs.map((c) => ({ label: c.label, href: c.href })));
+
+const proibidasExemplos = [
+  { atividade: 'Advocacia', motivo: 'Profissão regulamentada pela OAB', alternativa: 'ME ou EPP — CNAE 6910-7/00' },
+  { atividade: 'Medicina', motivo: 'Profissão regulamentada pelo CFM', alternativa: 'ME ou EPP — CNAE 8630-5/03' },
+  { atividade: 'Odontologia', motivo: 'Profissão regulamentada pelo CFO', alternativa: 'ME ou EPP — CNAE 8630-5/04' },
+  { atividade: 'Engenharia e Arquitetura', motivo: 'Profissão regulamentada pelo CREA/CAU', alternativa: 'ME ou EPP — CNAEs 7111-1/00, 7112-0/00' },
+  { atividade: 'Contabilidade', motivo: 'Profissão regulamentada pelo CRC', alternativa: 'ME ou EPP — CNAE 6920-6/01' },
+  { atividade: 'Psicologia', motivo: 'Profissão regulamentada pelo CFP', alternativa: 'ME ou EPP — CNAE 8650-0/06' },
+  { atividade: 'Farmácia', motivo: 'Atividade de risco sanitário', alternativa: 'ME ou EPP — CNAE 4771-7/01' },
+  { atividade: 'Banco / Financeira', motivo: 'Exige autorização do BACEN', alternativa: 'S.A. ou Ltda com autorização específica' },
+  { atividade: 'Posto de combustível', motivo: 'Atividade com risco ambiental elevado', alternativa: 'ME, EPP ou Ltda — CNAE 4731-8/00' },
+  { atividade: 'Produção de alimentos industrializados em escala', motivo: 'Exige registro no MAPA/ANVISA', alternativa: 'ME ou EPP com registro sanitário' },
+];
+---
+
+<HubLayout {title} {description} {canonical} {crumbs} jsonLd={breadcrumbJsonLd}>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+    Atividades que Não Podem ser MEI
+  </h1>
+  <p class="text-gray-600 mb-6">
+    Algumas atividades não são permitidas para MEI por exigirem regulamentação profissional,
+    licenças especiais ou por apresentarem maior risco. Veja os casos mais comuns e qual
+    natureza jurídica usar.
+  </p>
+
+  <div class="bg-red-50 border border-red-200 rounded-xl p-4 mb-8 text-sm text-red-800">
+    <strong>Importante:</strong> Esta lista apresenta exemplos comuns. A relação completa de atividades
+    permitidas está em {MEI_FONTE}. Consulte um contador para sua situação específica.
+  </div>
+
+  <div class="overflow-x-auto rounded-xl border border-gray-200 mb-8">
+    <table class="w-full text-sm border-collapse">
+      <thead>
+        <tr class="bg-gray-50 border-b border-gray-200">
+          <th class="text-left px-4 py-3 font-semibold text-gray-700">Atividade</th>
+          <th class="text-left px-4 py-3 font-semibold text-gray-700">Por que não pode ser MEI</th>
+          <th class="text-left px-4 py-3 font-semibold text-gray-700 hidden sm:table-cell">Alternativa</th>
+        </tr>
+      </thead>
+      <tbody>
+        {proibidasExemplos.map((item, i) => (
+          <tr class={`border-b border-gray-100 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}`}>
+            <td class="px-4 py-3 font-medium text-gray-900">{item.atividade}</td>
+            <td class="px-4 py-3 text-gray-700">{item.motivo}</td>
+            <td class="px-4 py-3 text-blue-700 hidden sm:table-cell text-xs">{item.alternativa}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="bg-blue-50 border border-blue-200 rounded-xl p-5">
+    <h2 class="font-bold text-blue-900 mb-2">Minha atividade não está permitida para MEI. E agora?</h2>
+    <p class="text-sm text-blue-800 mb-3">
+      Se sua atividade não é elegível para MEI, você pode abrir uma ME (Microempresa) ou EPP (Empresa de
+      Pequeno Porte). Ambas permitem faturamento maior e acesso ao Simples Nacional para muitas atividades.
+    </p>
+  </div>
+</HubLayout>

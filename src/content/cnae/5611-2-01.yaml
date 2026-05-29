@@ -1,0 +1,71 @@
+codigo: 5611-2/01
+codigo_slug: 5611-2-01
+codigo_numerico: '5611201'
+descricao_oficial: RESTAURANTES E SIMILARES
+descricao_plana: >-
+  Estabelecimento que serve refeições completas para consumo no local, como almoço, jantar ou rodízio, com atendimento
+  em mesa ou balcão.
+secao:
+  letra: I
+  slug: alojamento-alimentacao
+  nome: Alojamento e alimentação
+  nome_curto: Alimentação
+divisao:
+  codigo: '56'
+  nome: ALIMENTAÇÃO
+grupo:
+  codigo: '56.1'
+  nome: RESTAURANTES E OUTROS SERVIÇOS DE ALIMENTAÇÃO E BEBIDAS
+classe:
+  codigo: 5611-2
+  nome: RESTAURANTES E OUTROS ESTABELECIMENTOS DE SERVIÇOS DE ALIMENTAÇÃO E BEBIDAS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: PROPRIETÁRIO(A) DE RESTAURANTE INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Restaurante por quilo (self-service)
+  - Churrascaria com rodízio
+  - Restaurante japonês com serviço de mesa
+  - Restaurante italiano familiar
+  - Restaurante executivo voltado para almoço corporativo
+o_que_inclui:
+  - Preparo e venda de refeições completas para consumo no local
+  - Serviço de mesa com garçons em restaurantes tradicionais
+  - Buffet self-service com cobrança por peso ou preço fixo
+  - Venda de bebidas como acompanhamento das refeições
+  - Rodízio de carnes, massas, sushi ou outros pratos
+  - Entrega de refeições (delivery) como atividade complementar ao salão
+o_que_nao_inclui:
+  - Lanchonetes, casas de sucos e estabelecimentos de refeições rápidas (use CNAE 5611-2/03)
+  - Bares e estabelecimentos cujo foco principal é servir bebidas, sem entretenimento (use CNAE 5611-2/04)
+  - Bares com entretenimento ao vivo ou programação cultural (use CNAE 5611-2/05)
+  - Fornecimento de refeições para coletividades, como empresas e escolas (use CNAE 5620-1/01)
+  - Preparo e entrega exclusiva de marmitas e refeições sem salão de atendimento (use CNAE 5620-1/04)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Alvará sanitário
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença ambiental (quando aplicável à geração de resíduos ou emissões)
+cnaes_relacionados:
+  - 5611-2/03
+  - 5611-2/04
+  - 5611-2/05
+  - 5620-1/01
+  - 5620-1/04
+  - 5620-1/03
+  - 4721-1/02
+  - 4729-6/99
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2026-05-22T14:50:06.406Z'

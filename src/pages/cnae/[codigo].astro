@@ -1,0 +1,242 @@
+---
+import { getCollection } from 'astro:content';
+import CnaeLayout from '../../layouts/CnaeLayout.astro';
+import HeroBlock from '../../components/cnae/HeroBlock.astro';
+import MeiBadge from '../../components/cnae/MeiBadge.astro';
+import TaxInfoBlock from '../../components/cnae/TaxInfoBlock.astro';
+import FaqBlock from '../../components/cnae/FaqBlock.astro';
+import RelatedCnaes from '../../components/cnae/RelatedCnaes.astro';
+import DataFreshnessBadge from '../../components/cnae/DataFreshnessBadge.astro';
+import Callout from '../../components/ui/Callout.astro';
+import AdSlot from '../../components/ads/AdSlot.astro';
+import {
+  formatCodigoForDisplay,
+  subclassePageTitle,
+  subclasseMetaDescription,
+} from '../../lib/cnae-helpers.js';
+import { buildCanonical } from '../../lib/seo.js';
+import {
+  buildBreadcrumbJsonLd,
+  buildDefinedTermJsonLd,
+  buildFaqJsonLd,
+} from '../../lib/schema-org.js';
+import {
+  homeCrumb,
+  cnaeCrumb,
+  secaoCrumb,
+  divisaoCrumb,
+  grupoCrumb,
+  classeCrumb,
+  subclasseCrumb,
+} from '../../lib/breadcrumbs.js';
+import { ANEXO_BY_CODE, MEI_LIMITE_FATURAMENTO } from '../../lib/constants.js';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('cnae');
+  return entries.map((entry) => ({
+    params: { codigo: entry.data.codigo_slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const data = entry.data;
+const codigoDisplay = formatCodigoForDisplay(data.codigo_slug);
+
+const title = subclassePageTitle(data.codigo_slug, data.descricao_plana);
+const description = subclasseMetaDescription(
+  data.codigo_slug,
+  data.descricao_oficial,
+  data.mei.permitido
+);
+const canonical = buildCanonical(`/cnae/${data.codigo_slug}/`);
+
+const crumbs = [
+  homeCrumb(),
+  cnaeCrumb(),
+  secaoCrumb(data.secao.slug, data.secao.nome_curto),
+  divisaoCrumb(data.secao.slug, data.divisao.codigo),
+  grupoCrumb(data.secao.slug, data.divisao.codigo, data.grupo.codigo),
+  classeCrumb(data.secao.slug, data.divisao.codigo, data.grupo.codigo, data.classe.codigo),
+  subclasseCrumb(data.codigo_slug),
+];
+
+const anexoInfo = ANEXO_BY_CODE.get(data.simples_nacional.anexo);
+
+const faqs = [
+  {
+    question: `O que é o CNAE ${codigoDisplay}?`,
+    answer: data.descricao_plana,
+  },
+  {
+    question: `CNAE ${codigoDisplay} é permitido para MEI?`,
+    answer: data.mei.permitido
+      ? `Sim, o CNAE ${codigoDisplay} é permitido para Microempreendedor Individual (MEI), conforme ${data.mei.fonte}. O MEI pode faturar até ${MEI_LIMITE_FATURAMENTO}. ${data.mei.observacao ?? ''}`
+      : `Não, o CNAE ${codigoDisplay} não é permitido para MEI. Para atuar nessa atividade, você precisará de outra natureza jurídica, como ME (Microempresa) ou EPP.`,
+  },
+  {
+    question: `Qual o anexo do Simples Nacional para o CNAE ${codigoDisplay}?`,
+    answer: anexoInfo && anexoInfo.anexo !== 'nao_aplicavel'
+      ? `O CNAE ${codigoDisplay} se enquadra no ${anexoInfo.nome} do Simples Nacional (${anexoInfo.descricao}), com alíquotas entre ${anexoInfo.aliquota_min} e ${anexoInfo.aliquota_max} dependendo da receita bruta acumulada.`
+      : `O CNAE ${codigoDisplay} geralmente não se enquadra no Simples Nacional ou tem regime tributário específico. Consulte um contador para verificar o regime mais adequado.`,
+  },
+  {
+    question: `Quais negócios usam o CNAE ${codigoDisplay}?`,
+    answer: data.exemplos_negocios.length > 0
+      ? `Exemplos de negócios que usam este CNAE: ${data.exemplos_negocios.join(', ')}.`
+      : `Negócios relacionados à atividade: ${data.descricao_oficial.toLowerCase()}.`,
+  },
+  {
+    question: `Preciso de alvará especial para o CNAE ${codigoDisplay}?`,
+    answer: data.licencas_comuns.length > 0
+      ? `Para o CNAE ${codigoDisplay}, as licenças mais comuns são: ${data.licencas_comuns.join('; ')}. Verifique junto à Prefeitura e órgãos competentes quais são exigidas na sua cidade.`
+      : `Além do alvará de funcionamento padrão da Prefeitura, verifique junto à Vigilância Sanitária e outros órgãos se há exigências específicas para esta atividade.`,
+  },
+  {
+    question: `Qual a diferença entre o CNAE principal e o CNAE secundário?`,
+    answer: `O CNAE principal representa a atividade que gera a maior parte do faturamento da empresa. O CNAE secundário descreve atividades complementares. Uma empresa pode ter múltiplos CNAEs secundários, mas apenas um principal.`,
+  },
+];
+
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(
+  crumbs.map((c) => ({ label: c.label, href: c.href }))
+);
+const termJsonLd = buildDefinedTermJsonLd(data);
+const faqJsonLd = buildFaqJsonLd(faqs);
+
+// Resolve related CNAEs descriptions from data (best-effort, no second query)
+const relatedEntries = data.cnaes_relacionados.map((cod) => ({
+  codigo: cod,
+  descricao: cod,
+}));
+---
+
+<CnaeLayout {title} {description} {canonical} jsonLd={[breadcrumbJsonLd, termJsonLd, faqJsonLd]}>
+  <HeroBlock
+    codigoSlug={data.codigo_slug}
+    descricaoPlana={data.descricao_plana}
+    descricaoOficial={data.descricao_oficial}
+  />
+
+  <AdSlot slot="top" />
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+    <div class="lg:col-span-2">
+      <MeiBadge permitido={data.mei.permitido} observacao={data.mei.observacao} />
+    </div>
+    <div class="bg-gray-50 rounded-xl border border-gray-200 p-4">
+      <h2 class="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">Resumo rápido</h2>
+      <dl class="space-y-2 text-sm">
+        <div class="flex justify-between">
+          <dt class="text-gray-500">Código</dt>
+          <dd class="font-mono font-bold text-blue-700">{codigoDisplay}</dd>
+        </div>
+        <div class="flex justify-between">
+          <dt class="text-gray-500">MEI</dt>
+          <dd class={`font-semibold ${data.mei.permitido ? 'text-green-700' : 'text-red-700'}`}>
+            {data.mei.permitido ? 'Sim' : 'Não'}
+          </dd>
+        </div>
+        <div class="flex justify-between">
+          <dt class="text-gray-500">Simples Nacional</dt>
+          <dd class="font-semibold text-gray-800">{anexoInfo?.nome ?? data.simples_nacional.anexo}</dd>
+        </div>
+        <div class="flex justify-between">
+          <dt class="text-gray-500">Seção</dt>
+          <dd class="text-gray-800">{data.secao.letra} — {data.secao.nome_curto}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+
+  <section class="mb-8">
+    <h2 class="text-xl font-bold text-gray-900 mb-3">O que é este CNAE?</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">{data.descricao_plana}</p>
+    <Callout title="Descrição oficial IBGE">
+      <p class="font-mono text-xs">{data.descricao_oficial}</p>
+    </Callout>
+  </section>
+
+  {data.exemplos_negocios.length > 0 && (
+    <section class="mb-8">
+      <h2 class="text-xl font-bold text-gray-900 mb-3">Exemplos de negócios</h2>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        {data.exemplos_negocios.map((ex) => (
+          <li class="flex items-start gap-2 text-sm text-gray-700">
+            <span class="text-blue-500 mt-1 flex-shrink-0" aria-hidden="true">▸</span>
+            {ex}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {(data.o_que_inclui.length > 0 || data.o_que_nao_inclui.length > 0) && (
+    <section class="mb-8">
+      <h2 class="text-xl font-bold text-gray-900 mb-3">O que está incluído?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {data.o_que_inclui.length > 0 && (
+          <div class="bg-green-50 rounded-xl border border-green-100 p-4">
+            <h3 class="font-semibold text-green-800 mb-2 text-sm flex items-center gap-1">
+              <span aria-hidden="true">✓</span> Está incluído
+            </h3>
+            <ul class="space-y-1">
+              {data.o_que_inclui.map((item) => (
+                <li class="text-sm text-green-900 flex items-start gap-2">
+                  <span class="text-green-500 mt-0.5 flex-shrink-0" aria-hidden="true">•</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {data.o_que_nao_inclui.length > 0 && (
+          <div class="bg-red-50 rounded-xl border border-red-100 p-4">
+            <h3 class="font-semibold text-red-800 mb-2 text-sm flex items-center gap-1">
+              <span aria-hidden="true">✗</span> Não está incluído
+            </h3>
+            <ul class="space-y-1">
+              {data.o_que_nao_inclui.map((item) => (
+                <li class="text-sm text-red-900 flex items-start gap-2">
+                  <span class="text-red-400 mt-0.5 flex-shrink-0" aria-hidden="true">•</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  <AdSlot slot="mid" />
+
+  <TaxInfoBlock simplestNacional={data.simples_nacional} />
+
+  {data.licencas_comuns.length > 0 && (
+    <section class="mb-8">
+      <h2 class="text-xl font-bold text-gray-900 mb-3">Licenças e alvarás comuns</h2>
+      <ul class="space-y-2">
+        {data.licencas_comuns.map((lic) => (
+          <li class="flex items-start gap-2 text-sm text-gray-700">
+            <span class="text-amber-500 mt-1 flex-shrink-0" aria-hidden="true">📋</span>
+            {lic}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <RelatedCnaes related={relatedEntries} />
+
+  <AdSlot slot="bottom" />
+
+  <FaqBlock {faqs} />
+
+  <DataFreshnessBadge lastReviewed={data.last_reviewed} enriched={data.enriched} />
+
+  <div class="mt-4 p-4 bg-amber-50 rounded-xl border border-amber-200 text-sm text-amber-800">
+    <strong>Atenção:</strong>{' '}
+    As informações deste site são de referência — consulte um contador para decisões definitivas.
+  </div>
+</CnaeLayout>

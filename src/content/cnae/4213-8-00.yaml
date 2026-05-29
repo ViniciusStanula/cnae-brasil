@@ -1,0 +1,38 @@
+codigo: 4213-8/00
+codigo_slug: 4213-8-00
+codigo_numerico: '4213800'
+descricao_oficial: OBRAS DE URBANIZAÇÃO - RUAS, PRAÇAS E CALÇADAS
+descricao_plana: OBRAS DE URBANIZAÇÃO - RUAS, PRAÇAS E CALÇADAS
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '42'
+  nome: OBRAS DE INFRA-ESTRUTURA
+grupo:
+  codigo: '42.1'
+  nome: CONSTRUÇÃO DE RODOVIAS, FERROVIAS, OBRAS URBANAS E OBRAS-DE-ARTE ESPECIAIS
+classe:
+  codigo: 4213-8
+  nome: OBRAS DE URBANIZAÇÃO - RUAS, PRAÇAS E CALÇADAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

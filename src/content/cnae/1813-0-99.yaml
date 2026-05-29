@@ -1,0 +1,40 @@
+codigo: 1813-0/99
+codigo_slug: 1813-0-99
+codigo_numerico: '1813099'
+descricao_oficial: IMPRESSÃO DE MATERIAL PARA OUTROS USOS
+descricao_plana: IMPRESSÃO DE MATERIAL PARA OUTROS USOS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '18'
+  nome: IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES
+grupo:
+  codigo: '18.1'
+  nome: ATIVIDADE DE IMPRESSÃO
+classe:
+  codigo: 1813-0
+  nome: IMPRESSÃO DE MATERIAIS PARA OUTROS USOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: SERIGRAFISTA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

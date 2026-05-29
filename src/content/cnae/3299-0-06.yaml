@@ -1,0 +1,40 @@
+codigo: 3299-0/06
+codigo_slug: 3299-0-06
+codigo_numerico: '3299006'
+descricao_oficial: FABRICAÇÃO DE VELAS, INCLUSIVE DECORATIVAS
+descricao_plana: FABRICAÇÃO DE VELAS, INCLUSIVE DECORATIVAS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '32'
+  nome: FABRICAÇÃO DE PRODUTOS DIVERSOS
+grupo:
+  codigo: '32.9'
+  nome: FABRICAÇÃO DE PRODUTOS DIVERSOS
+classe:
+  codigo: 3299-0
+  nome: FABRICAÇÃO DE PRODUTOS DIVERSOS NÃO ESPECIFICADOS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FABRICANTE DE VELAS, INCLUSIVE DECORATIVAS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

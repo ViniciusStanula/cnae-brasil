@@ -1,0 +1,40 @@
+codigo: 4721-1/02
+codigo_slug: 4721-1-02
+codigo_numerico: '4721102'
+descricao_oficial: PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE REVENDA
+descricao_plana: PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE REVENDA
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '47'
+  nome: COMÉRCIO VAREJISTA
+grupo:
+  codigo: '47.2'
+  nome: COMÉRCIO VAREJISTA DE PRODUTOS ALIMENTÍCIOS, BEBIDAS E FUMO
+classe:
+  codigo: 4721-1
+  nome: COMÉRCIO VAREJISTA DE PRODUTOS DE PADARIA, LATICÍNIO, DOCES, BALAS E SEMELHANTES
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: COMERCIANTE DE PRODUTOS DE PANIFICAÇÃO INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

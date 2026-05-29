@@ -1,0 +1,40 @@
+codigo: 3102-1/00
+codigo_slug: 3102-1-00
+codigo_numerico: '3102100'
+descricao_oficial: FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE METAL
+descricao_plana: FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE METAL
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '31'
+  nome: FABRICAÇÃO DE MÓVEIS
+grupo:
+  codigo: '31.0'
+  nome: FABRICAÇÃO DE MÓVEIS
+classe:
+  codigo: 3102-1
+  nome: FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE METAL
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: MOVELEIRO(A) DE MÓVEIS METÁLICOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

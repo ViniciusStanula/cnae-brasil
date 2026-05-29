@@ -1,0 +1,38 @@
+codigo: 9499-5/00
+codigo_slug: 9499-5-00
+codigo_numerico: '9499500'
+descricao_oficial: ATIVIDADES ASSOCIATIVAS NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: ATIVIDADES ASSOCIATIVAS NÃO ESPECIFICADAS ANTERIORMENTE
+secao:
+  letra: S
+  slug: outras-atividades-de-servicos
+  nome: Outras atividades de serviços
+  nome_curto: Outros Serviços
+divisao:
+  codigo: '94'
+  nome: ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS
+grupo:
+  codigo: '94.9'
+  nome: ATIVIDADES DE ORGANIZAÇÕES ASSOCIATIVAS NÃO ESPECIFICADAS ANTERIORMENTE
+classe:
+  codigo: 9499-5
+  nome: ATIVIDADES ASSOCIATIVAS NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,40 @@
+codigo: 1822-9/01
+codigo_slug: 1822-9-01
+codigo_numerico: '1822901'
+descricao_oficial: SERVIÇOS DE ENCADERNAÇÃO E PLASTIFICAÇÃO
+descricao_plana: SERVIÇOS DE ENCADERNAÇÃO E PLASTIFICAÇÃO
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '18'
+  nome: IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES
+grupo:
+  codigo: '18.2'
+  nome: SERVIÇOS DE PRÉ-IMPRESSÃO E ACABAMENTOS GRÁFICOS
+classe:
+  codigo: 1822-9
+  nome: SERVIÇOS DE ACABAMENTOS GRÁFICOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: ENCADERNADOR(A)/PLASTIFICADOR(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

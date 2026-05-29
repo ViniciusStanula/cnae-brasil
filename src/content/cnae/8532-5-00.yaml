@@ -1,0 +1,38 @@
+﻿codigo: 8532-5/00
+codigo_slug: 8532-5-00
+codigo_numerico: '8532500'
+descricao_oficial: EDUCAÇÃO SUPERIOR - GRADUAÇÃO E PÓS GRADUAÇÃO
+descricao_plana: EDUCAÇÃO SUPERIOR - GRADUAÇÃO E PÓS GRADUAÇÃO
+secao:
+  letra: P
+  slug: educacao
+  nome: Educação
+  nome_curto: Educação
+divisao:
+  codigo: '85'
+  nome: EDUCAÇÃO
+grupo:
+  codigo: '85.3'
+  nome: EDUCAÇÃO SUPERIOR
+classe:
+  codigo: 8532-5
+  nome: EDUCAÇÃO SUPERIOR - GRADUAÇÃO E PÓS-GRADUAÇÃO
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

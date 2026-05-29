@@ -1,0 +1,57 @@
+﻿codigo: 0161-0/01
+codigo_slug: 0161-0-01
+codigo_numerico: '0161001'
+descricao_oficial: SERVIÇO DE PULVERIZAÇÃO E CONTROLE DE PRAGAS AGRÍCOLAS
+descricao_plana: >-
+  Serviço de pulverização e controle de pragas na agricultura: atividades de aplicação de defensivos agrícolas,
+  herbicidas e controle fitossanitário em lavouras e pastagens.
+secao:
+  letra: A
+  slug: agricultura
+  nome: Agricultura, pecuária, produção florestal, pesca e aquicultura
+  nome_curto: Agricultura
+divisao:
+  codigo: '01'
+  nome: AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS
+grupo:
+  codigo: '01.6'
+  nome: ATIVIDADES DE APOIO À AGRICULTURA E À PECUÁRIA; ATIVIDADES DE PÓS-COLHEITA
+classe:
+  codigo: 0161-0
+  nome: ATIVIDADES DE APOIO À AGRICULTURA
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Empresa de pulverização aérea (drone agrícola)
+  - Prestador de serviços de aplicação de agrotóxico
+  - Cooperativa de aplicação de defensivos
+o_que_inclui:
+  - Pulverização terrestre de defensivos agrícolas
+  - Pulverização aérea com aeronaves ou drones
+  - Controle biológico de pragas
+  - Monitoramento fitossanitário
+o_que_nao_inclui:
+  - Controle de pragas urbanas (dedetização) — use CNAE 8122-2/00
+  - Comércio de defensivos — use CNAE 4683-4/00
+licencas_comuns:
+  - Receituário agronômico (obrigatório por lei)
+  - Registro no MAPA como prestador de serviços
+  - Licença ambiental estadual
+  - Certificado de aplicador de defensivos
+cnaes_relacionados:
+  - 0162-8/01
+  - 8122-2/00
+  - 0111-3/01
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

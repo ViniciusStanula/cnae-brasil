@@ -1,0 +1,40 @@
+codigo: 1093-7/02
+codigo_slug: 1093-7-02
+codigo_numerico: '1093702'
+descricao_oficial: FABRICAÇÃO DE FRUTAS CRISTALIZADAS, BALAS E SEMELHANTES
+descricao_plana: FABRICAÇÃO DE FRUTAS CRISTALIZADAS, BALAS E SEMELHANTES
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '10'
+  nome: FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS
+grupo:
+  codigo: '10.9'
+  nome: FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS
+classe:
+  codigo: 1093-7
+  nome: FABRICAÇÃO DE PRODUTOS DERIVADOS DO CACAU, DE CHOCOLATES E CONFEITOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FABRICANTE DE BALAS, CONFEITOS E FRUTAS CRISTALIZADAS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

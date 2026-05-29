@@ -1,0 +1,266 @@
+---
+/**
+ * Handles hierarchy pages: secao, divisao, grupo, classe
+ * /cnae/[secao]/
+ * /cnae/[secao]/[divisao]/
+ * /cnae/[secao]/[divisao]/[grupo]/
+ * /cnae/[secao]/[divisao]/[grupo]/[classe]/
+ */
+
+import { getCollection } from 'astro:content';
+import HubLayout from '../../layouts/HubLayout.astro';
+import HierarchyChildren from '../../components/hierarchy/HierarchyChildren.astro';
+import {
+  buildBreadcrumbJsonLd,
+  buildCollectionPageJsonLd,
+} from '../../lib/schema-org.js';
+import { buildCanonical } from '../../lib/seo.js';
+import { SECAO_BY_SLUG } from '../../lib/constants.js';
+import { homeCrumb, cnaeCrumb } from '../../lib/breadcrumbs.js';
+import { formatCodigoForDisplay, formatCodigoForUrl } from '../../lib/cnae-helpers.js';
+import type { CnaeEntry } from '../../content.config.js';
+import { JS_SECOES } from '../../../experiment.config.js';
+
+export async function getStaticPaths() {
+  const allEntries = await getCollection('cnae');
+  const paths: Array<{ params: { path: string }; props: unknown }> = [];
+  const seen = new Set<string>();
+
+  // Build section paths (depth 1)
+  const sectionMap = new Map<string, { slug: string; entries: CnaeEntry[] }>();
+  for (const e of allEntries) {
+    const slug = e.data.secao.slug;
+    if (!sectionMap.has(slug)) {
+      sectionMap.set(slug, { slug, entries: [] });
+    }
+    sectionMap.get(slug)!.entries.push(e.data);
+  }
+
+  for (const [slug, { entries }] of sectionMap) {
+    const p = slug;
+    if (!seen.has(p)) {
+      seen.add(p);
+      paths.push({
+        params: { path: p },
+        props: { depth: 1, entries, slug },
+      });
+    }
+
+    // Build divisao paths (depth 2)
+    const divisaoMap = new Map<string, CnaeEntry[]>();
+    for (const e of entries) {
+      const k = e.divisao.codigo;
+      if (!divisaoMap.has(k)) divisaoMap.set(k, []);
+      divisaoMap.get(k)!.push(e);
+    }
+
+    for (const [divisaoCodigo, divEntries] of divisaoMap) {
+      const p2 = `${slug}/${divisaoCodigo}`;
+      if (!seen.has(p2)) {
+        seen.add(p2);
+        paths.push({
+          params: { path: p2 },
+          props: { depth: 2, entries: divEntries, slug, divisaoCodigo },
+        });
+      }
+
+      // Build grupo paths (depth 3)
+      const grupoMap = new Map<string, CnaeEntry[]>();
+      for (const e of divEntries) {
+        const k = e.grupo.codigo;
+        if (!grupoMap.has(k)) grupoMap.set(k, []);
+        grupoMap.get(k)!.push(e);
+      }
+
+      for (const [grupoCodigo, grupoEntries] of grupoMap) {
+        const p3 = `${slug}/${divisaoCodigo}/${grupoCodigo}`;
+        if (!seen.has(p3)) {
+          seen.add(p3);
+          paths.push({
+            params: { path: p3 },
+            props: { depth: 3, entries: grupoEntries, slug, divisaoCodigo, grupoCodigo },
+          });
+        }
+
+        // Build classe paths (depth 4)
+        const classeMap = new Map<string, CnaeEntry[]>();
+        for (const e of grupoEntries) {
+          const k = formatCodigoForUrl(e.classe.codigo);
+          if (!classeMap.has(k)) classeMap.set(k, []);
+          classeMap.get(k)!.push(e);
+        }
+
+        for (const [classeSlug, classeEntries] of classeMap) {
+          const p4 = `${slug}/${divisaoCodigo}/${grupoCodigo}/${classeSlug}`;
+          if (!seen.has(p4)) {
+            seen.add(p4);
+            paths.push({
+              params: { path: p4 },
+              props: { depth: 4, entries: classeEntries, slug, divisaoCodigo, grupoCodigo, classeSlug },
+            });
+          }
+        }
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { depth, entries, slug, divisaoCodigo, grupoCodigo, classeSlug } = Astro.props as {
+  depth: number;
+  entries: CnaeEntry[];
+  slug: string;
+  divisaoCodigo?: string;
+  grupoCodigo?: string;
+  classeSlug?: string;
+};
+
+const secaoInfo = SECAO_BY_SLUG.get(slug);
+const firstEntry = entries[0]!;
+
+let title = '';
+let description = '';
+let h1 = '';
+let canonical = '';
+const crumbs = [homeCrumb(), cnaeCrumb()];
+
+if (depth === 1) {
+  const nome = secaoInfo?.nome ?? firstEntry.secao.nome;
+  const nomeCurto = secaoInfo?.nome_curto ?? firstEntry.secao.nome_curto;
+  title = `CNAE Seção ${firstEntry.secao.letra} — ${nomeCurto} | CNAE Brasil`;
+  description = `Todos os CNAEs da Seção ${firstEntry.secao.letra} (${nome}). ${entries.length} subclasses com informações sobre MEI, Simples Nacional e abertura de empresa.`;
+  h1 = `Seção ${firstEntry.secao.letra}: ${nome}`;
+  canonical = buildCanonical(`/cnae/${slug}/`);
+  crumbs.push({ label: nomeCurto, href: `/cnae/${slug}/`, current: true });
+} else if (depth === 2 && divisaoCodigo) {
+  const nome = firstEntry.divisao.nome;
+  title = `CNAE Divisão ${divisaoCodigo} — ${nome.slice(0, 40)} | CNAE Brasil`;
+  description = `Todos os CNAEs da Divisão ${divisaoCodigo}: ${nome}. ${entries.length} subclasses.`;
+  h1 = `Divisão ${divisaoCodigo}: ${nome}`;
+  canonical = buildCanonical(`/cnae/${slug}/${divisaoCodigo}/`);
+  crumbs.push({ label: firstEntry.secao.nome_curto, href: `/cnae/${slug}/` });
+  crumbs.push({ label: divisaoCodigo, href: `/cnae/${slug}/${divisaoCodigo}/`, current: true });
+} else if (depth === 3 && divisaoCodigo && grupoCodigo) {
+  const nome = firstEntry.grupo.nome;
+  title = `CNAE Grupo ${grupoCodigo} — ${nome.slice(0, 40)} | CNAE Brasil`;
+  description = `Todos os CNAEs do Grupo ${grupoCodigo}: ${nome}. ${entries.length} subclasses.`;
+  h1 = `Grupo ${grupoCodigo}: ${nome}`;
+  canonical = buildCanonical(`/cnae/${slug}/${divisaoCodigo}/${grupoCodigo}/`);
+  crumbs.push({ label: firstEntry.secao.nome_curto, href: `/cnae/${slug}/` });
+  crumbs.push({ label: divisaoCodigo, href: `/cnae/${slug}/${divisaoCodigo}/` });
+  crumbs.push({ label: grupoCodigo, href: `/cnae/${slug}/${divisaoCodigo}/${grupoCodigo}/`, current: true });
+} else if (depth === 4 && divisaoCodigo && grupoCodigo && classeSlug) {
+  const nome = firstEntry.classe.nome;
+  const classeDisplay = formatCodigoForDisplay(classeSlug);
+  title = `CNAE Classe ${classeDisplay} — ${nome.slice(0, 40)} | CNAE Brasil`;
+  description = `Todos os CNAEs da Classe ${classeDisplay}: ${nome}. ${entries.length} subclasses.`;
+  h1 = `Classe ${classeDisplay}: ${nome}`;
+  canonical = buildCanonical(`/cnae/${slug}/${divisaoCodigo}/${grupoCodigo}/${classeSlug}/`);
+  crumbs.push({ label: firstEntry.secao.nome_curto, href: `/cnae/${slug}/` });
+  crumbs.push({ label: divisaoCodigo, href: `/cnae/${slug}/${divisaoCodigo}/` });
+  crumbs.push({ label: grupoCodigo, href: `/cnae/${slug}/${divisaoCodigo}/${grupoCodigo}/` });
+  crumbs.push({ label: classeDisplay, href: canonical, current: true });
+}
+
+// Build children list
+let children: Array<{ label: string; href: string; count?: number; description?: string }> = [];
+
+if (depth === 1) {
+  // Children = divisoes
+  const divisaoMap = new Map<string, { nome: string; count: number }>();
+  for (const e of entries) {
+    if (!divisaoMap.has(e.divisao.codigo)) {
+      divisaoMap.set(e.divisao.codigo, { nome: e.divisao.nome, count: 0 });
+    }
+    divisaoMap.get(e.divisao.codigo)!.count++;
+  }
+  children = Array.from(divisaoMap.entries()).map(([cod, info]) => ({
+    label: `${cod} — ${info.nome}`,
+    href: `/cnae/${slug}/${cod}/`,
+    count: info.count,
+  }));
+} else if (depth === 2 && divisaoCodigo) {
+  // Children = grupos
+  const grupoMap = new Map<string, { nome: string; count: number }>();
+  for (const e of entries) {
+    if (!grupoMap.has(e.grupo.codigo)) {
+      grupoMap.set(e.grupo.codigo, { nome: e.grupo.nome, count: 0 });
+    }
+    grupoMap.get(e.grupo.codigo)!.count++;
+  }
+  children = Array.from(grupoMap.entries()).map(([cod, info]) => ({
+    label: `${cod} — ${info.nome}`,
+    href: `/cnae/${slug}/${divisaoCodigo}/${cod}/`,
+    count: info.count,
+  }));
+} else if (depth === 3 && divisaoCodigo && grupoCodigo) {
+  // Children = classes
+  const classeMap = new Map<string, { nome: string; slug: string; count: number }>();
+  for (const e of entries) {
+    const cSlug = formatCodigoForUrl(e.classe.codigo);
+    if (!classeMap.has(e.classe.codigo)) {
+      classeMap.set(e.classe.codigo, { nome: e.classe.nome, slug: cSlug, count: 0 });
+    }
+    classeMap.get(e.classe.codigo)!.count++;
+  }
+  children = Array.from(classeMap.entries()).map(([cod, info]) => ({
+    label: `${formatCodigoForDisplay(cod)} — ${info.nome}`,
+    href: `/cnae/${slug}/${divisaoCodigo}/${grupoCodigo}/${info.slug}/`,
+    count: info.count,
+  }));
+} else if (depth === 4) {
+  // Children = subclasses (leaf)
+  children = entries.map((e) => ({
+    label: `${formatCodigoForDisplay(e.codigo_slug)} — ${e.descricao_oficial}`,
+    href: `/cnae/${e.codigo_slug}/`,
+    description: e.mei.permitido ? 'MEI: Sim' : 'MEI: Não',
+  }));
+}
+
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(crumbs.map((c) => ({ label: c.label, href: c.href })));
+const collectionJsonLd = buildCollectionPageJsonLd(
+  h1,
+  description,
+  canonical.replace('https://cnaebrasil.com.br', ''),
+  children.slice(0, 50).map((c) => ({ name: c.label, url: c.href }))
+);
+
+const isJsGroup = depth === 1 && (JS_SECOES as readonly string[]).includes(slug);
+const divisaoLinks = isJsGroup
+  ? children.map((c) => ({ href: c.href, label: c.label, count: c.count }))
+  : [];
+---
+
+<HubLayout {title} {description} {canonical} jsonLd={[breadcrumbJsonLd, collectionJsonLd]}>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">{h1}</h1>
+  <p class="text-gray-600 mb-6">{description}</p>
+
+  {isJsGroup ? (
+    <>
+      <div id="divisao-links" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div>
+      <script define:vars={{ divisaoLinks }}>
+        const container = document.getElementById('divisao-links');
+        divisaoLinks.forEach((d) => {
+          const a = document.createElement('a');
+          a.href = d.href;
+          a.className =
+            'rounded-xl border border-gray-200 bg-white p-4 hover:border-blue-400 hover:shadow-sm transition-all';
+          const p = document.createElement('p');
+          p.className = 'font-semibold text-gray-900 text-sm';
+          p.textContent = d.label;
+          a.appendChild(p);
+          if (d.count !== undefined) {
+            const cnt = document.createElement('p');
+            cnt.className = 'text-xs text-blue-600 mt-1';
+            cnt.textContent = d.count + ' subclasses';
+            a.appendChild(cnt);
+          }
+          container.appendChild(a);
+        });
+      </script>
+    </>
+  ) : (
+    <HierarchyChildren {children} type={depth === 4 ? 'list' : 'grid'} />
+  )}
+</HubLayout>

@@ -1,0 +1,38 @@
+codigo: 8800-6/00
+codigo_slug: 8800-6-00
+codigo_numerico: '8800600'
+descricao_oficial: SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO
+descricao_plana: SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO
+secao:
+  letra: Q
+  slug: saude-servicos-sociais
+  nome: Saúde humana e serviços sociais
+  nome_curto: Saúde
+divisao:
+  codigo: '88'
+  nome: SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO
+grupo:
+  codigo: '88.0'
+  nome: SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO
+classe:
+  codigo: 8800-6
+  nome: SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

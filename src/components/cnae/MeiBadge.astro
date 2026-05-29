@@ -1,0 +1,41 @@
+---
+interface Props {
+  permitido: boolean;
+  observacao?: string;
+}
+
+const { permitido, observacao } = Astro.props;
+
+const label = permitido ? 'MEI: SIM' : 'MEI: NÃO';
+const subLabel = permitido
+  ? 'Atividade permitida para Microempreendedor Individual'
+  : 'Não permitido para MEI — exige outra natureza jurídica';
+
+const colors = permitido
+  ? 'bg-green-600 text-white'
+  : 'bg-red-600 text-white';
+
+const iconPath = permitido
+  ? 'M5 13l4 4L19 7'
+  : 'M6 18L18 6M6 6l12 12';
+---
+
+<div class={`rounded-xl p-4 ${colors}`} role="status" aria-label={label}>
+  <div class="flex items-center gap-3">
+    <div class="flex-shrink-0 w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d={iconPath} />
+      </svg>
+    </div>
+    <div>
+      <p class="text-xl font-bold leading-tight">{label}</p>
+      <p class="text-sm opacity-90">{subLabel}</p>
+      {observacao && <p class="text-xs opacity-80 mt-1 italic">{observacao}</p>}
+    </div>
+  </div>
+  <div class="mt-3 pt-3 border-t border-white/20">
+    <a href="/mei/" class="text-sm font-medium underline hover:no-underline opacity-90">
+      Ver regras do MEI →
+    </a>
+  </div>
+</div>

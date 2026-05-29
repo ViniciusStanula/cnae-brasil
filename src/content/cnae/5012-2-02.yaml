@@ -1,0 +1,38 @@
+codigo: 5012-2/02
+codigo_slug: 5012-2-02
+codigo_numerico: '5012202'
+descricao_oficial: TRANSPORTE MARÍTIMO DE LONGO CURSO - PASSAGEIROS
+descricao_plana: TRANSPORTE MARÍTIMO DE LONGO CURSO - PASSAGEIROS
+secao:
+  letra: H
+  slug: transporte
+  nome: Transporte, armazenagem e correio
+  nome_curto: Transporte
+divisao:
+  codigo: '50'
+  nome: TRANSPORTE AQUAVIÁRIO
+grupo:
+  codigo: '50.1'
+  nome: TRANSPORTE MARÍTIMO DE CABOTAGEM E LONGO CURSO
+classe:
+  codigo: 5012-2
+  nome: TRANSPORTE MARÍTIMO DE LONGO CURSO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

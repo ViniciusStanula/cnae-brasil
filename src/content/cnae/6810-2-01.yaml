@@ -1,0 +1,69 @@
+codigo: 6810-2/01
+codigo_slug: 6810-2-01
+codigo_numerico: '6810201'
+descricao_oficial: COMPRA E VENDA DE IMÓVEIS PRÓPRIOS
+descricao_plana: >-
+  Empresa que compra e vende imóveis que são de sua própria propriedade, como terrenos, casas, apartamentos e salas
+  comerciais adquiridos para revenda.
+secao:
+  letra: L
+  slug: atividades-imobiliarias
+  nome: Atividades imobiliárias
+  nome_curto: Imóveis
+divisao:
+  codigo: '68'
+  nome: ATIVIDADES IMOBILIÁRIAS
+grupo:
+  codigo: '68.1'
+  nome: ATIVIDADES IMOBILIÁRIAS DE IMÓVEIS PRÓPRIOS
+classe:
+  codigo: 6810-2
+  nome: ATIVIDADES IMOBILIÁRIAS DE IMÓVEIS PRÓPRIOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Incorporadora que compra terrenos, constrói empreendimentos residenciais e vende as unidades prontas
+  - Empresa que adquire imóveis antigos, reforma e revende
+  - Sociedade patrimonial que compra e revende apartamentos como atividade principal
+  - Empresa de desenvolvimento imobiliário que compra glebas urbanas e revende como lotes urbanizados
+  - Holding imobiliária que mantém portfólio de imóveis para compra e venda
+o_que_inclui:
+  - Compra de imóveis residenciais (casas, apartamentos) para posterior revenda
+  - Compra de imóveis comerciais (salas, lojas, galpões) para posterior revenda
+  - Compra de terrenos urbanos para revenda sem parcelamento
+  - Revenda de imóveis próprios adquiridos anteriormente pela empresa
+  - Compra e venda de imóveis rurais de propriedade da própria empresa
+  - Aquisição de imóveis em leilão para revenda
+o_que_nao_inclui:
+  - Aluguel ou arrendamento de imóveis que a empresa possui (use CNAE 6810-2/02)
+  - Parcelamento e venda de terrenos em loteamentos próprios (use CNAE 6810-2/03)
+  - Intermediação na compra e venda de imóveis de terceiros, como corretagem (use CNAE 6821-8/01)
+  - Administração de imóveis de terceiros por conta de proprietários (use CNAE 6822-6/00)
+  - Construção de edifícios para venda, quando a atividade principal é a construção (use CNAE 4110-7/00)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Licenças urbanísticas e de parcelamento do solo emitidas pelo município
+  - Licença ambiental (quando a atividade envolver imóveis em áreas de interesse ambiental)
+  - Registro e averbação dos imóveis no Cartório de Registro de Imóveis
+cnaes_relacionados:
+  - 6810-2/02
+  - 6810-2/03
+  - 6821-8/01
+  - 6821-8/02
+  - 6822-6/00
+  - 4110-7/00
+  - 4120-4/00
+  - 6630-4/00
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:53:44.473Z'

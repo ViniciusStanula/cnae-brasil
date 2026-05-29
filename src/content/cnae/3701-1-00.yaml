@@ -1,0 +1,38 @@
+codigo: 3701-1/00
+codigo_slug: 3701-1-00
+codigo_numerico: '3701100'
+descricao_oficial: GESTÃO DE REDES DE ESGOTO
+descricao_plana: GESTÃO DE REDES DE ESGOTO
+secao:
+  letra: E
+  slug: agua-esgoto-residuos
+  nome: Água, esgoto, atividades de gestão de resíduos e descontaminação
+  nome_curto: Saneamento
+divisao:
+  codigo: '37'
+  nome: ESGOTO E ATIVIDADES RELACIONADAS
+grupo:
+  codigo: '37.0'
+  nome: ESGOTO E ATIVIDADES RELACIONADAS
+classe:
+  codigo: 3701-1
+  nome: GESTÃO DE REDES DE ESGOTO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

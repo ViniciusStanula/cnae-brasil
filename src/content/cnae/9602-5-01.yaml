@@ -1,0 +1,66 @@
+codigo: 9602-5/01
+codigo_slug: 9602-5-01
+codigo_numerico: '9602501'
+descricao_oficial: CABELEIREIROS, MANICURE E PEDICURE
+descricao_plana: Salões e profissionais que fazem corte de cabelo, coloração, manicure e pedicure para homens, mulheres e crianças.
+secao:
+  letra: S
+  slug: outras-atividades-de-servicos
+  nome: Outras atividades de serviços
+  nome_curto: Outros Serviços
+divisao:
+  codigo: '96'
+  nome: OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS
+grupo:
+  codigo: '96.0'
+  nome: OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS
+classe:
+  codigo: 9602-5
+  nome: CABELEIREIROS E OUTRAS ATIVIDADES DE TRATAMENTO DE BELEZA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: CABELEIREIRO(A), MANICURE OU PEDICURE INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Salão de cabeleireiro feminino
+  - Barbearia masculina
+  - Salão unissex com serviços de manicure e pedicure
+  - Cabeleireiro autônomo que atende em domicílio
+  - Salão infantil especializado em cortes para crianças
+  - Profissional de manicure e pedicure que atende em estúdio próprio
+o_que_inclui:
+  - Corte, lavagem, escova e penteado de cabelo
+  - Coloração, tintura, mechas e descoloração capilar
+  - Serviços de manicure (cuidados com unhas das mãos)
+  - Serviços de pedicure (cuidados com unhas e pés)
+  - Barba, bigode e acabamento masculino em barbearia
+  - Tratamentos capilares como hidratação e relaxamento realizados no salão
+o_que_nao_inclui:
+  - Serviços de estética facial, depilação, massagem e tratamentos corporais (use CNAE 9602-5/02)
+  - Aplicação de extensão de cílios e design de sobrancelhas como atividade principal (use CNAE 9602-5/02)
+  - Venda de produtos de beleza e cosméticos sem prestação de serviço (use CNAE 4772-5/00)
+  - Ensino de técnicas de cabeleireiro e estética em cursos profissionalizantes (use CNAE 8599-6/04)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Alvará sanitário (vigilância sanitária municipal ou estadual)
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença de uso e ocupação do solo conforme zoneamento municipal
+cnaes_relacionados:
+  - 9602-5/02
+  - 9609-2/99
+  - 4772-5/00
+  - 8599-6/04
+  - 9609-2/06
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2026-05-22T14:50:18.910Z'

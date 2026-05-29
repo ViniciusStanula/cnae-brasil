@@ -1,0 +1,545 @@
+{
+  "generated_at": "2026-05-24T11:02:42.149Z",
+  "source_url": "https://www.contabilizei.com.br/contabilidade-online/atividades-mei-tabela/",
+  "summary": {
+    "source_rows": 466,
+    "source_unique_mei": 349,
+    "project_total": 1332,
+    "project_mei_true": 437,
+    "false_positives": 88,
+    "false_negatives": 0,
+    "source_only_not_in_project": 0
+  },
+  "false_positives": [
+    {
+      "codigo": "0111-3/01",
+      "codigo_numerico": "0111301",
+      "descricao": "CULTIVO DE ARROZ",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0111-3/02",
+      "codigo_numerico": "0111302",
+      "descricao": "CULTIVO DE MILHO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0111-3/03",
+      "codigo_numerico": "0111303",
+      "descricao": "CULTIVO DE TRIGO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0111-3/99",
+      "codigo_numerico": "0111399",
+      "descricao": "CULTIVO DE OUTROS CEREAIS NÃO ESPECIFICADOS ANTERIORMENTE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0112-1/01",
+      "codigo_numerico": "0112101",
+      "descricao": "CULTIVO DE ALGODÃO HERBÁCEO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0112-1/02",
+      "codigo_numerico": "0112102",
+      "descricao": "CULTIVO DE JUTA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0113-0/00",
+      "codigo_numerico": "0113000",
+      "descricao": "CULTIVO DE CANA DE AÇÚCAR",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0114-8/00",
+      "codigo_numerico": "0114800",
+      "descricao": "CULTIVO DE FUMO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0115-6/00",
+      "codigo_numerico": "0115600",
+      "descricao": "CULTIVO DE SOJA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0116-4/01",
+      "codigo_numerico": "0116401",
+      "descricao": "CULTIVO DE AMENDOIM",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0116-4/02",
+      "codigo_numerico": "0116402",
+      "descricao": "CULTIVO DE GIRASSOL",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0119-9/01",
+      "codigo_numerico": "0119901",
+      "descricao": "CULTIVO DE ABACAXI",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0119-9/99",
+      "codigo_numerico": "0119999",
+      "descricao": "CULTIVO DE OUTRAS PLANTAS DE LAVOURA TEMPORÁRIA NÃO ESPECIFICADAS ANTERIORMENTE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0121-1/02",
+      "codigo_numerico": "0121102",
+      "descricao": "CULTIVO DE MORANGO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0122-9/00",
+      "codigo_numerico": "0122900",
+      "descricao": "CULTIVO DE FLORES E PLANTAS ORNAMENTAIS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0133-4/02",
+      "codigo_numerico": "0133402",
+      "descricao": "CULTIVO DE BANANA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0151-2/01",
+      "codigo_numerico": "0151201",
+      "descricao": "CRIAÇÃO DE BOVINOS PARA CORTE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0151-2/02",
+      "codigo_numerico": "0151202",
+      "descricao": "CRIAÇÃO DE BOVINOS PARA LEITE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0152-1/01",
+      "codigo_numerico": "0152101",
+      "descricao": "CRIAÇÃO DE BUFALINOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0153-9/01",
+      "codigo_numerico": "0153901",
+      "descricao": "CRIAÇÃO DE CAPRINOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0154-7/00",
+      "codigo_numerico": "0154700",
+      "descricao": "CRIAÇÃO DE SUÍNOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0155-5/01",
+      "codigo_numerico": "0155501",
+      "descricao": "CRIAÇÃO DE FRANGOS PARA CORTE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0155-5/02",
+      "codigo_numerico": "0155502",
+      "descricao": "PRODUÇÃO DE PINTOS DE UM DIA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0159-8/03",
+      "codigo_numerico": "0159803",
+      "descricao": "CRIAÇÃO DE ESCARGÔ",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0161-0/01",
+      "codigo_numerico": "0161001",
+      "descricao": "SERVIÇO DE PULVERIZAÇÃO E CONTROLE DE PRAGAS AGRÍCOLAS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0162-8/01",
+      "codigo_numerico": "0162801",
+      "descricao": "SERVIÇO DE INSEMINAÇÃO ARTIFICIAL DE ANIMAIS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0163-6/00",
+      "codigo_numerico": "0163600",
+      "descricao": "ATIVIDADES DE PÓS COLHEITA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0210-1/01",
+      "codigo_numerico": "0210101",
+      "descricao": "CULTIVO DE EUCALIPTO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0210-1/02",
+      "codigo_numerico": "0210102",
+      "descricao": "CULTIVO DE ACÁCIA NEGRA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0210-1/03",
+      "codigo_numerico": "0210103",
+      "descricao": "CULTIVO DE PINUS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0210-1/04",
+      "codigo_numerico": "0210104",
+      "descricao": "CULTIVO DE TECA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0220-9/01",
+      "codigo_numerico": "0220901",
+      "descricao": "EXTRAÇÃO DE MADEIRA EM FLORESTAS NATIVAS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0311-6/01",
+      "codigo_numerico": "0311601",
+      "descricao": "PESCA DE PEIXES EM ÁGUA SALGADA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0311-6/02",
+      "codigo_numerico": "0311602",
+      "descricao": "PESCA DE CRUSTÁCEOS E MOLUSCOS EM ÁGUA SALGADA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "0321-3/01",
+      "codigo_numerico": "0321301",
+      "descricao": "CRIAÇÃO DE PEIXES EM ÁGUA SALGADA E SALOBRA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4312-6/00",
+      "codigo_numerico": "4312600",
+      "descricao": "PERFURAÇÕES E SONDAGENS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4313-4/00",
+      "codigo_numerico": "4313400",
+      "descricao": "OBRAS DE TERRAPLENAGEM",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4391-6/00",
+      "codigo_numerico": "4391600",
+      "descricao": "OBRAS DE FUNDAÇÕES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4399-1/01",
+      "codigo_numerico": "4399101",
+      "descricao": "ADMINISTRAÇÃO DE OBRAS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4399-1/02",
+      "codigo_numerico": "4399102",
+      "descricao": "MONTAGEM E DESMONTAGEM DE ANDAIMES E OUTRAS ESTRUTURAS TEMPORÁRIAS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4520-0/04",
+      "codigo_numerico": "4520004",
+      "descricao": "SERVIÇOS DE ALINHAMENTO E BALANCEAMENTO DE VEÍCULOS AUTOMOTORES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4530-7/01",
+      "codigo_numerico": "4530701",
+      "descricao": "COMÉRCIO POR ATACADO DE PEÇAS E ACESSÓRIOS NOVOS PARA VEÍCULOS AUTOMOTORES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4541-2/01",
+      "codigo_numerico": "4541201",
+      "descricao": "COMÉRCIO POR ATACADO DE MOTOCICLETAS E MOTONETAS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4542-1/01",
+      "codigo_numerico": "4542101",
+      "descricao": "REPRESENTANTES COMERCIAIS E AGENTES DO COMÉRCIO DE MOTOCICLETAS E MOTONETAS, PEÇAS E ACESSÓRIOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4711-3/01",
+      "codigo_numerico": "4711301",
+      "descricao": "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS   HIPERMERCADOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4711-3/02",
+      "codigo_numerico": "4711302",
+      "descricao": "COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - SUPERMERCADOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4729-6/02",
+      "codigo_numerico": "4729602",
+      "descricao": "COMÉRCIO VAREJISTA DE MERCADORIAS EM LOJAS DE CONVENIÊNCIA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4731-8/00",
+      "codigo_numerico": "4731800",
+      "descricao": "COMÉRCIO VAREJISTA DE COMBUSTÍVEIS PARA VEÍCULOS AUTOMOTORES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4744-0/05",
+      "codigo_numerico": "4744005",
+      "descricao": "COMÉRCIO VAREJISTA DE MATERIAIS DE CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4744-0/06",
+      "codigo_numerico": "4744006",
+      "descricao": "COMÉRCIO VAREJISTA DE PEDRAS PARA REVESTIMENTO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4771-7/01",
+      "codigo_numerico": "4771701",
+      "descricao": "COMÉRCIO VAREJISTA DE PRODUTOS FARMACÊUTICOS, SEM MANIPULAÇÃO DE FÓRMULAS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4771-7/02",
+      "codigo_numerico": "4771702",
+      "descricao": "COMÉRCIO VAREJISTA DE PRODUTOS FARMACÊUTICOS, COM MANIPULAÇÃO DE FÓRMULAS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4771-7/03",
+      "codigo_numerico": "4771703",
+      "descricao": "COMÉRCIO VAREJISTA DE PRODUTOS FARMACÊUTICOS HOMEOPÁTICOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4771-7/04",
+      "codigo_numerico": "4771704",
+      "descricao": "COMÉRCIO VAREJISTA DE MEDICAMENTOS VETERINÁRIOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4784-9/00",
+      "codigo_numerico": "4784900",
+      "descricao": "COMÉRCIO VAREJISTA DE GÁS LIQÜEFEITO DE PETRÓLEO (GLP)",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4789-0/06",
+      "codigo_numerico": "4789006",
+      "descricao": "COMÉRCIO VAREJISTA DE FOGOS DE ARTIFÍCIO E ARTIGOS PIROTÉCNICOS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4789-0/09",
+      "codigo_numerico": "4789009",
+      "descricao": "COMÉRCIO VAREJISTA DE ARMAS E MUNIÇÕES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4921-3/01",
+      "codigo_numerico": "4921301",
+      "descricao": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, COM ITINERÁRIO FIXO, MUNICIPAL",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4922-1/01",
+      "codigo_numerico": "4922101",
+      "descricao": "TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, COM ITINERÁRIO FIXO, INTERMUNICIPAL, EXCETO EM REGIÃO METROPOLITANA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4923-0/02",
+      "codigo_numerico": "4923002",
+      "descricao": "SERVIÇO DE TRANSPORTE DE PASSAGEIROS - LOCAÇÃO DE AUTOMÓVEIS COM MOTORISTA",
+      "conflito_pendente": false
+    },
+    {
+      "codigo": "4930-2/03",
+      "codigo_numerico": "4930203",
+      "descricao": "TRANSPORTE RODOVIÁRIO DE PRODUTOS PERIGOSOS",
+      "conflito_pendente": false
+    },
+    {
+      "codigo": "4940-0/00",
+      "codigo_numerico": "4940000",
+      "descricao": "TRANSPORTE DUTOVIÁRIO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "4950-7/00",
+      "codigo_numerico": "4950700",
+      "descricao": "TRENS TURÍSTICOS, TELEFÉRICOS E SIMILARES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "6201-5/01",
+      "codigo_numerico": "6201501",
+      "descricao": "DESENVOLVIMENTO DE PROGRAMAS DE COMPUTADOR SOB ENCOMENDA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "6201-5/02",
+      "codigo_numerico": "6201502",
+      "descricao": "WEB DESIGN",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "6202-3/00",
+      "codigo_numerico": "6202300",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR CUSTOMIZÁVEIS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "6203-1/00",
+      "codigo_numerico": "6203100",
+      "descricao": "DESENVOLVIMENTO E LICENCIAMENTO DE PROGRAMAS DE COMPUTADOR NÃO CUSTOMIZÁVEIS",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "6204-0/00",
+      "codigo_numerico": "6204000",
+      "descricao": "CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "6209-1/00",
+      "codigo_numerico": "6209100",
+      "descricao": "SUPORTE TÉCNICO, MANUTENÇÃO E OUTROS SERVIÇOS EM TECNOLOGIA DA INFORMAÇÃO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "7420-0/05",
+      "codigo_numerico": "7420005",
+      "descricao": "SERVIÇOS DE MICROFILMAGEM",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8511-2/00",
+      "codigo_numerico": "8511200",
+      "descricao": "EDUCAÇÃO INFANTIL - CRECHE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8512-1/00",
+      "codigo_numerico": "8512100",
+      "descricao": "EDUCAÇÃO INFANTIL - PRÉESCOLA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8513-9/00",
+      "codigo_numerico": "8513900",
+      "descricao": "ENSINO FUNDAMENTAL",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8520-1/00",
+      "codigo_numerico": "8520100",
+      "descricao": "ENSINO MÉDIO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8531-7/00",
+      "codigo_numerico": "8531700",
+      "descricao": "EDUCAÇÃO SUPERIOR - GRADUAÇÃO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8532-5/00",
+      "codigo_numerico": "8532500",
+      "descricao": "EDUCAÇÃO SUPERIOR - GRADUAÇÃO E PÓS GRADUAÇÃO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8541-4/00",
+      "codigo_numerico": "8541400",
+      "descricao": "EDUCAÇÃO PROFISSIONAL DE NÍVEL TÉCNICO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8542-2/00",
+      "codigo_numerico": "8542200",
+      "descricao": "EDUCAÇÃO PROFISSIONAL DE NÍVEL TECNOLÓGICO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8550-3/01",
+      "codigo_numerico": "8550301",
+      "descricao": "ADMINISTRAÇÃO DE CAIXAS ESCOLARES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8550-3/02",
+      "codigo_numerico": "8550302",
+      "descricao": "ATIVIDADES DE APOIO À EDUCAÇÃO, EXCETO CAIXAS ESCOLARES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8591-1/00",
+      "codigo_numerico": "8591100",
+      "descricao": "ENSINO DE ESPORTES",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8592-9/01",
+      "codigo_numerico": "8592901",
+      "descricao": "ENSINO DE DANÇA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8650-0/01",
+      "codigo_numerico": "8650001",
+      "descricao": "ATIVIDADES DE ENFERMAGEM",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8650-0/02",
+      "codigo_numerico": "8650002",
+      "descricao": "ATIVIDADES DE PROFISSIONAIS DA NUTRIÇÃO",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8650-0/03",
+      "codigo_numerico": "8650003",
+      "descricao": "ATIVIDADES DE PSICOLOGIA E PSICANÁLISE",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8650-0/04",
+      "codigo_numerico": "8650004",
+      "descricao": "ATIVIDADES DE FISIOTERAPIA",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8650-0/05",
+      "codigo_numerico": "8650005",
+      "descricao": "ATIVIDADES DE TERAPIA OCUPACIONAL",
+      "conflito_pendente": true
+    },
+    {
+      "codigo": "8650-0/06",
+      "codigo_numerico": "8650006",
+      "descricao": "ATIVIDADES DE FONOAUDIOLOGIA",
+      "conflito_pendente": true
+    }
+  ],
+  "false_negatives": [],
+  "source_only_not_in_project": []
+}

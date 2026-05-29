@@ -1,0 +1,70 @@
+﻿codigo: 8592-9/01
+codigo_slug: 8592-9-01
+codigo_numerico: '8592901'
+descricao_oficial: ENSINO DE DANÇA
+descricao_plana: >-
+  Escolas, estúdios e professores que ensinam qualquer estilo de dança, como ballet, funk, forró, sapateado ou dança
+  contemporânea.
+secao:
+  letra: P
+  slug: educacao
+  nome: Educação
+  nome_curto: Educação
+divisao:
+  codigo: '85'
+  nome: EDUCAÇÃO
+grupo:
+  codigo: '85.9'
+  nome: OUTRAS ATIVIDADES DE ENSINO
+classe:
+  codigo: 8592-9
+  nome: ENSINO DE ARTE E CULTURA
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Escola de ballet clássico para crianças e adultos
+  - Estúdio de dança urbana com aulas de hip-hop e funk
+  - Academia de danças de salão (forró, samba, zouk)
+  - Professor autônomo de dança contemporânea
+  - Escola de sapateado americano
+  - Estúdio de dança fitness com aulas de zumba e ritmos latinos
+o_que_inclui:
+  - Aulas de ballet clássico e dança contemporânea
+  - Ensino de danças de salão como forró, samba e zouk
+  - Aulas de dança urbana, hip-hop e funk
+  - Ensino de sapateado e jazz dance
+  - Cursos e workshops de qualquer estilo de dança
+  - Aulas particulares ou em grupo ministradas por professor de dança
+o_que_nao_inclui:
+  - Ensino de teatro, mímica ou circo (use CNAE 8592-9/02)
+  - Ensino de música, canto ou instrumentos musicais (use CNAE 8592-9/03)
+  - Ensino de artes plásticas, pintura ou escultura (use CNAE 8592-9/99)
+  - Apresentações e espetáculos profissionais de dança sem fins de ensino (use CNAE 9001-9/01)
+  - Ensino de artes marciais ou ginástica olímpica (use CNAE 8591-1/00)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Alvará de vigilância sanitária (quando há vestiários e instalações coletivas)
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença de uso e ocupação do solo conforme zoneamento municipal
+cnaes_relacionados:
+  - 8592-9/02
+  - 8592-9/03
+  - 8592-9/99
+  - 8591-1/00
+  - 9001-9/01
+  - 9001-9/02
+  - 8599-6/04
+  - 8599-6/99
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:54:36.638Z'

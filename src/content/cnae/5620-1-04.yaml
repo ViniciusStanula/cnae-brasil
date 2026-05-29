@@ -1,0 +1,40 @@
+codigo: 5620-1/04
+codigo_slug: 5620-1-04
+codigo_numerico: '5620104'
+descricao_oficial: FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR
+descricao_plana: FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR
+secao:
+  letra: I
+  slug: alojamento-alimentacao
+  nome: Alojamento e alimentação
+  nome_curto: Alimentação
+divisao:
+  codigo: '56'
+  nome: ALIMENTAÇÃO
+grupo:
+  codigo: '56.2'
+  nome: SERVIÇOS DE CATERING, BUFÊ E OUTROS SERVIÇOS DE COMIDA PREPARADA
+classe:
+  codigo: 5620-1
+  nome: SERVIÇOS DE CATERING, BUFÊ E OUTROS SERVIÇOS DE COMIDA PREPARADA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: COZINHEIRO(A) QUE FORNECE REFEIÇÕES PRONTAS E EMBALADAS PARA CONSUMO INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

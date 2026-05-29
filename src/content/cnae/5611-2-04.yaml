@@ -1,0 +1,40 @@
+codigo: 5611-2/04
+codigo_slug: 5611-2-04
+codigo_numerico: '5611204'
+descricao_oficial: BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, SEM ENTRETENIMENTO
+descricao_plana: BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, SEM ENTRETENIMENTO
+secao:
+  letra: I
+  slug: alojamento-alimentacao
+  nome: Alojamento e alimentação
+  nome_curto: Alimentação
+divisao:
+  codigo: '56'
+  nome: ALIMENTAÇÃO
+grupo:
+  codigo: '56.1'
+  nome: RESTAURANTES E OUTROS SERVIÇOS DE ALIMENTAÇÃO E BEBIDAS
+classe:
+  codigo: 5611-2
+  nome: RESTAURANTES E OUTROS ESTABELECIMENTOS DE SERVIÇOS DE ALIMENTAÇÃO E BEBIDAS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: PROPRIETÁRIO(A) DE BAR E CONGÊNERES, SEM ENTRETENIMENTO, INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

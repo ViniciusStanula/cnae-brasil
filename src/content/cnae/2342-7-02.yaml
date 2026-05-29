@@ -1,0 +1,40 @@
+codigo: 2342-7/02
+codigo_slug: 2342-7-02
+codigo_numerico: '2342702'
+descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE CERÂMICA E BARRO COZIDO PARA USO NA CONSTRUÇÃO, EXCETO AZULEJOS E PISOS
+descricao_plana: FABRICAÇÃO DE ARTEFATOS DE CERÂMICA E BARRO COZIDO PARA USO NA CONSTRUÇÃO, EXCETO AZULEJOS E PISOS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '23'
+  nome: FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO-METÁLICOS
+grupo:
+  codigo: '23.4'
+  nome: FABRICAÇÃO DE PRODUTOS CERÂMICOS
+classe:
+  codigo: 2342-7
+  nome: FABRICAÇÃO DE PRODUTOS CERÂMICOS NÃO REFRATÁRIOS PARA USO ESTRUTURAL NA CONSTRUÇÃO
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: OLEIRO(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

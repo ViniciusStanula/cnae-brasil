@@ -1,0 +1,38 @@
+codigo: 2399-1/02
+codigo_slug: 2399-1-02
+codigo_numerico: '2399102'
+descricao_oficial: FABRICAÇÃO DE ABRASIVOS
+descricao_plana: FABRICAÇÃO DE ABRASIVOS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '23'
+  nome: FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO-METÁLICOS
+grupo:
+  codigo: '23.9'
+  nome: APARELHAMENTO DE PEDRAS E FABRICAÇÃO DE OUTROS PRODUTOS DE MINERAIS NÃO-METÁLICOS
+classe:
+  codigo: 2399-1
+  nome: FABRICAÇÃO DE PRODUTOS DE MINERAIS NÃO METÁLICOS NÃO ESPECIFICADOS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

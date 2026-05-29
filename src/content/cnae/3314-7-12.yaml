@@ -1,0 +1,40 @@
+codigo: 3314-7/12
+codigo_slug: 3314-7-12
+codigo_numerico: '3314712'
+descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE TRATORES AGRÍCOLAS
+descricao_plana: MANUTENÇÃO E REPARAÇÃO DE TRATORES AGRÍCOLAS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '33'
+  nome: MANUTENÇÃO, REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS
+grupo:
+  codigo: '33.1'
+  nome: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS
+classe:
+  codigo: 3314-7
+  nome: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS DA INDÚSTRIA MECÂNICA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: REPARADOR(A) DE TRATORES AGRÍCOLAS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,2855 @@
+{
+  "fonte": "Ocupações Permitidas ao MEI — Portal do Empreendedor",
+  "fonte_url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/atividades-permitidas",
+  "scraped_at": "2026-05-22T14:22:10.391Z",
+  "total_ocupacoes": 471,
+  "letras_processadas": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "L",
+    "M",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "V"
+  ],
+  "ocupacoes": [
+    {
+      "ocupacao": "ABATEDOR(A) DE AVES COM COMERCIALIZAÇÃO DO PRODUTO INDEPENDENTE",
+      "cnae": "4724-5/00",
+      "cnae_normalized": "4724-5-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ACABADOR(A) DE CALÇADOS INDEPENDENTE",
+      "cnae": "1531-9/02",
+      "cnae_normalized": "1531-9-02",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "AÇOUGUEIRO(A) INDEPENDENTE",
+      "cnae": "4722-9/01",
+      "cnae_normalized": "4722-9-01",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ADESTRADOR(A) DE ANIMAIS INDEPENDENTE",
+      "cnae": "9609-2/07",
+      "cnae_normalized": "9609-2-07",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ADESTRADOR(A) DE CÃES DE GUARDA INDEPENDENTE",
+      "cnae": "8011-1/02",
+      "cnae_normalized": "8011-1-02",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "AGENTE DE CORREIO FRANQUEADO E PERMISSIONÁRIO INDEPENDENTE",
+      "cnae": "5310-5/02",
+      "cnae_normalized": "5310-5-02",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "AGENTE DE VIAGENS INDEPENDENTE",
+      "cnae": "7911-2/00",
+      "cnae_normalized": "7911-2-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "AGENTE FUNERÁRIO INDEPENDENTE",
+      "cnae": "9603-3/04",
+      "cnae_normalized": "9603-3-04",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "AGENTE MATRIMONIAL INDEPENDENTE",
+      "cnae": "9609-2/02",
+      "cnae_normalized": "9609-2-02",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ALFAIATE INDEPENDENTE",
+      "cnae": "1412-6/02",
+      "cnae_normalized": "1412-6-02",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "AMOLADOR(A) DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ANIMADOR(A) DE FESTAS INDEPENDENTE",
+      "cnae": "9329-8/99",
+      "cnae_normalized": "9329-8-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ANTIQUÁRIO(A) INDEPENDENTE",
+      "cnae": "4785-7/01",
+      "cnae_normalized": "4785-7-01",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "APICULTOR(A) INDEPENDENTE",
+      "cnae": "0159-8/01",
+      "cnae_normalized": "0159-8-01",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "APURADOR(A), COLETOR(A) E FORNECEDOR(A) DE RECORTES DE MATÉRIAS PUBLICADAS EM JORNAIS E REVISTAS INDEPENDENTE",
+      "cnae": "6399-2/00",
+      "cnae_normalized": "6399-2-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARMADOR(A) DE FERRAGENS NA CONSTRUÇÃO CIVIL INDEPENDENTE",
+      "cnae": "2599-3/01",
+      "cnae_normalized": "2599-3-01",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO TÊXTIL",
+      "cnae": "1359-6/00",
+      "cnae_normalized": "1359-6-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) DE BIJUTERIAS INDEPENDENTE",
+      "cnae": "3212-4/00",
+      "cnae_normalized": "3212-4-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM BORRACHA INDEPENDENTE",
+      "cnae": "2219-6/00",
+      "cnae_normalized": "2219-6-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM CERÂMICA INDEPENDENTE",
+      "cnae": "2349-4/99",
+      "cnae_normalized": "2349-4-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM CIMENTO INDEPENDENTE",
+      "cnae": "2330-3/99",
+      "cnae_normalized": "2330-3-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM CORTIÇA, BAMBU E AFINS INDEPENDENTE",
+      "cnae": "1629-3/02",
+      "cnae_normalized": "1629-3-02",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM COURO INDEPENDENTE",
+      "cnae": "1529-7/00",
+      "cnae_normalized": "1529-7-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM GESSO INDEPENDENTE",
+      "cnae": "2330-3/99",
+      "cnae_normalized": "2330-3-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM LOUÇAS, VIDRO E CRISTAL INDEPENDENTE",
+      "cnae": "2399-1/01",
+      "cnae_normalized": "2399-1-01",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM MADEIRA INDEPENDENTE",
+      "cnae": "1629-3/01",
+      "cnae_normalized": "1629-3-01",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS INDEPENDENTE",
+      "cnae": "2391-5/03",
+      "cnae_normalized": "2391-5-03",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM METAIS INDEPENDENTE",
+      "cnae": "2599-3/99",
+      "cnae_normalized": "2599-3-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM METAIS PRECIOSOS INDEPENDENTE",
+      "cnae": "3211-6/02",
+      "cnae_normalized": "3211-6-02",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM OUTROS MATERIAIS INDEPENDENTE",
+      "cnae": "3299-0/99",
+      "cnae_normalized": "3299-0-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM PAPEL INDEPENDENTE",
+      "cnae": "1749-4/00",
+      "cnae_normalized": "1749-4-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM PLÁSTICO INDEPENDENTE",
+      "cnae": "2229-3/99",
+      "cnae_normalized": "2229-3-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ARTESÃO(Ã) EM VIDRO INDEPENDENTE",
+      "cnae": "2319-2/00",
+      "cnae_normalized": "2319-2-00",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "ASTRÓLOGO(A) INDEPENDENTE",
+      "cnae": "9609-2/99",
+      "cnae_normalized": "9609-2-99",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "AZULEJISTA INDEPENDENTE",
+      "cnae": "4330-4/05",
+      "cnae_normalized": "4330-4-05",
+      "letra": "A"
+    },
+    {
+      "ocupacao": "BALEIRO(A) INDEPENDENTE",
+      "cnae": "4721-1/04",
+      "cnae_normalized": "4721-1-04",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BANHISTA DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+      "cnae": "9609-2/08",
+      "cnae_normalized": "9609-2-08",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BARBEIRO INDEPENDENTE",
+      "cnae": "9602-5/01",
+      "cnae_normalized": "9602-5-01",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BARQUEIRO(A) INDEPENDENTE",
+      "cnae": "5099-8/99",
+      "cnae_normalized": "5099-8-99",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BARRAQUEIRO(A) INDEPENDENTE",
+      "cnae": "4712-1/00",
+      "cnae_normalized": "4712-1-00",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BENEFICIADOR(A) DE CASTANHA INDEPENDENTE",
+      "cnae": "1031-7/00",
+      "cnae_normalized": "1031-7-00",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BIKE PROPAGANDISTA INDEPENDENTE",
+      "cnae": "7319-0/99",
+      "cnae_normalized": "7319-0-99",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BIKEBOY (CICLISTA MENSAGEIRO) INDEPENDENTE",
+      "cnae": "5320-2/02",
+      "cnae_normalized": "5320-2-02",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BOLACHEIRO(A)/BISCOITEIRO(A) INDEPENDENTE",
+      "cnae": "1092-9/00",
+      "cnae_normalized": "1092-9-00",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BOMBEIRO(A) HIDRÁULICO INDEPENDENTE",
+      "cnae": "4322-3/01",
+      "cnae_normalized": "4322-3-01",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BONELEIRO(A) (FABRICANTE DE BONÉS) INDEPENDENTE",
+      "cnae": "1414-2/00",
+      "cnae_normalized": "1414-2-00",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BORDADEIRO(A) INDEPENDENTE",
+      "cnae": "1340-5/99",
+      "cnae_normalized": "1340-5-99",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BORRACHEIRO(A) INDEPENDENTE",
+      "cnae": "4520-0/06",
+      "cnae_normalized": "4520-0-06",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "BRITADOR INDEPENDENTE",
+      "cnae": "2391-5/01",
+      "cnae_normalized": "2391-5-01",
+      "letra": "B"
+    },
+    {
+      "ocupacao": "CABELEIREIRO(A) INDEPENDENTE",
+      "cnae": "9602-5/01",
+      "cnae_normalized": "9602-5-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CALAFETADOR(A) INDEPENDENTE",
+      "cnae": "4330-4/05",
+      "cnae_normalized": "4330-4-05",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CALHEIRO (A) INDEPENDENT",
+      "cnae": "4399-1/99",
+      "cnae_normalized": "4399-1-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CAMINHONEIRO (A) DE CARGAS NÃO PERIGOSAS, INTERMUNICIPAL E INTERESTADUAL INDEPENDENTE",
+      "cnae": "4930-2/02",
+      "cnae_normalized": "4930-2-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CANTOR(A)/MÚSICO(A) INDEPENDENTE",
+      "cnae": "9001-9/02",
+      "cnae_normalized": "9001-9-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CAPOTEIRO(A) INDEPENDENTE",
+      "cnae": "4520-0/08",
+      "cnae_normalized": "4520-0-08",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARPINTEIRO(A) INDEPENDENTE",
+      "cnae": "1622-6/99",
+      "cnae_normalized": "1622-6-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARPINTEIRO(A) INSTALADOR(A) INDEPENDENTE",
+      "cnae": "4330-4/02",
+      "cnae_normalized": "4330-4-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARREGADOR (VEÍCULOS INDEPENDENTE DE TRANSPORTES TERRESTRES)",
+      "cnae": "5212-5/00",
+      "cnae_normalized": "5212-5-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARREGADOR DE MALAS INDEPENDENTE",
+      "cnae": "9609-2/99",
+      "cnae_normalized": "9609-2-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARROCEIRO - TRANSPORTE DE CARGA INDEPENDENTE",
+      "cnae": "4930-2/01",
+      "cnae_normalized": "4930-2-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARROCEIRO - TRANSPORTE DE MUDANÇA INDEPENDENTE",
+      "cnae": "4930-2/04",
+      "cnae_normalized": "4930-2-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARROCEIRO COLETA DE ENTULHOS E RESÍDUOS INDEPENDENTE",
+      "cnae": "3811-4/00",
+      "cnae_normalized": "3811-4-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CARTAZISTA, PINTOR DE INDEPENDENTE FAIXAS PUBLICITÁRIAS E DE LETRAS",
+      "cnae": "8299-7/99",
+      "cnae_normalized": "8299-7-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CERQUEIRO(A) INDEPENDENTE",
+      "cnae": "4399-1/99",
+      "cnae_normalized": "4399-1-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CHAPELEIRO(A) INDEPENDENTE",
+      "cnae": "1414-2/00",
+      "cnae_normalized": "1414-2-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CHAVEIRO(A) INDEPENDENTE",
+      "cnae": "9529-1/02",
+      "cnae_normalized": "9529-1-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CHOCOLATEIRO(A) INDEPENDENTE",
+      "cnae": "1093-7/01",
+      "cnae_normalized": "1093-7-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CHURRASQUEIRO(A) AMBULANTE INDEPENDENTE",
+      "cnae": "5612-1/00",
+      "cnae_normalized": "5612-1-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CHURRASQUEIRO(A) EM DOMICÍLIO INDEPENDENTE",
+      "cnae": "5620-1/02",
+      "cnae_normalized": "5620-1-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CLICHERISTA INDEPENDENTE",
+      "cnae": "1821-1/00",
+      "cnae_normalized": "1821-1-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COBRADOR(A) DE DÍVIDAS INDEPENDENTE",
+      "cnae": "8291-1/00",
+      "cnae_normalized": "8291-1-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COLCHOEIRO(A) INDEPENDENTE",
+      "cnae": "3104-7/00",
+      "cnae_normalized": "3104-7-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COLETOR DE RESÍDUOS NÃO-PERIGOSOS INDEPENDENTE",
+      "cnae": "3811-4/00",
+      "cnae_normalized": "3811-4-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COLOCADOR(A) DE PIERCING INDEPENDENTE",
+      "cnae": "9609-2/06",
+      "cnae_normalized": "9609-2-06",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COLOCADOR(A) DE REVESTIMENTOS INDEPENDENTE",
+      "cnae": "4330-4/05",
+      "cnae_normalized": "4330-4-05",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE ARMARINHO INDEPENDENTE",
+      "cnae": "4755-5/02",
+      "cnae_normalized": "4755-5-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE BEBÊ INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE CAÇA, PESCA E CAMPING INDEPENDENTE",
+      "cnae": "4763-6/04",
+      "cnae_normalized": "4763-6-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE CAMA, MESA E BANHO INDEPENDENTE",
+      "cnae": "4755-5/03",
+      "cnae_normalized": "4755-5-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE COLCHOARIA INDEPENDENTE",
+      "cnae": "4754-7/02",
+      "cnae_normalized": "4754-7-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+      "cnae": "4754-7/02",
+      "cnae_normalized": "4754-7-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE ILUMINAÇÃO INDEPENDENTE",
+      "cnae": "4754-7/03",
+      "cnae_normalized": "4754-7-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE JOALHERIA INDEPENDENTE",
+      "cnae": "4783-1/01",
+      "cnae_normalized": "4783-1-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE ÓPTICA INDEPENDENTE",
+      "cnae": "4774-1/00",
+      "cnae_normalized": "4774-1-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE RELOJOARIA INDEPENDENTE",
+      "cnae": "4783-1/02",
+      "cnae_normalized": "4783-1-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE TAPEÇARIA, CORTINAS E PERSIANAS INDEPENDENTE",
+      "cnae": "4759-8/01",
+      "cnae_normalized": "4759-8-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DE VIAGEM INDEPENDENTE",
+      "cnae": "4782-2/02",
+      "cnae_normalized": "4782-2-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS INDEPENDENTE",
+      "cnae": "4781-4/00",
+      "cnae_normalized": "4781-4-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS E ALIMENTOS PARA ANIMAIS DE ESTIMAÇÃO (PET SHOP) INDEPENDENTE (NÃO INCLUI A VENDA DE MEDICAMENTOS)",
+      "cnae": "4789-0/04",
+      "cnae_normalized": "4789-0-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS ERÓTICOS INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS ESPORTIVOS INDEPENDENTE",
+      "cnae": "4763-6/02",
+      "cnae_normalized": "4763-6-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS FOTOGRÁFICOS E PARA FILMAGEM INDEPENDENTE",
+      "cnae": "4789-0/08",
+      "cnae_normalized": "4789-0-08",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS FUNERÁRIOS INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS MÉDICOS E ORTOPÉDICOS INDEPENDENTE",
+      "cnae": "4773-3/00",
+      "cnae_normalized": "4773-3-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS PARA HABITAÇÃO INDEPENDENTE",
+      "cnae": "4759-8/99",
+      "cnae_normalized": "4759-8-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ARTIGOS USADOS INDEPENDENTE",
+      "cnae": "4785-7/99",
+      "cnae_normalized": "4785-7-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE BEBIDAS INDEPENDENTE",
+      "cnae": "4723-7/00",
+      "cnae_normalized": "4723-7-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE BICICLETAS E TRICICLOS; PEÇAS E ACESSÓRIOS INDEPENDENTE",
+      "cnae": "4763-6/03",
+      "cnae_normalized": "4763-6-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE BRINQUEDOS E ARTIGOS RECREATIVOS INDEPENDENTE",
+      "cnae": "4763-6/01",
+      "cnae_normalized": "4763-6-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE CAL, AREIA, PEDRA BRITADA, TIJOLOS E TELHAS INDEPENDENTE",
+      "cnae": "4744-0/04",
+      "cnae_normalized": "4744-0-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE CALÇADOS INDEPENDENTE",
+      "cnae": "4782-2/01",
+      "cnae_normalized": "4782-2-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE CARVÃO E LENHA INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE CESTAS DE CAFÉ DA MANHÃ INDEPENDENTE",
+      "cnae": "4729-6/99",
+      "cnae_normalized": "4729-6-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE COSMÉTICOS E ARTIGOS DE PERFUMARIA INDEPENDENTE",
+      "cnae": "4772-5/00",
+      "cnae_normalized": "4772-5-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE DISCOS, CDS, DVDS E FITAS INDEPENDENTE",
+      "cnae": "4762-8/00",
+      "cnae_normalized": "4762-8-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE ELETRODOMÉSTICOS E EQUIPAMENTOS DE ÁUDIO E VÍDEO INDEPENDENTE",
+      "cnae": "4753-9/00",
+      "cnae_normalized": "4753-9-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE EMBALAGENS INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE EQUIPAMENTOS DE TELEFONIA E COMUNICAÇÃO INDEPENDENTE",
+      "cnae": "4752-1/00",
+      "cnae_normalized": "4752-1-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMÁTICA INDEPENDENTE",
+      "cnae": "4751-2/01",
+      "cnae_normalized": "4751-2-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE EQUIPAMENTOS PARA ESCRITÓRIO INDEPENDENTE",
+      "cnae": "4789-0/07",
+      "cnae_normalized": "4789-0-07",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE FERRAGENS E FERRAMENTAS INDEPENDENTE",
+      "cnae": "4744-0/01",
+      "cnae_normalized": "4744-0-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE FLORES, PLANTAS E FRUTAS ARTIFICIAIS INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE INSETICIDAS E RATICIDAS INDEPENDENTE",
+      "cnae": "4789-0/05",
+      "cnae_normalized": "4789-0-05",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE INSTRUMENTOS MUSICAIS E ACESSÓRIOS INDEPENDENTE",
+      "cnae": "4756-3/00",
+      "cnae_normalized": "4756-3-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE LATICÍNIOS INDEPENDENTE",
+      "cnae": "4721-1/03",
+      "cnae_normalized": "4721-1-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE LUBRIFICANTES INDEPENDENTE",
+      "cnae": "4732-6/00",
+      "cnae_normalized": "4732-6-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE MADEIRA E ARTEFATOS INDEPENDENTE",
+      "cnae": "4744-0/02",
+      "cnae_normalized": "4744-0-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE MATERIAIS DE CONSTRUÇÃO EM GERAL INDEPENDENTE",
+      "cnae": "4744-0/99",
+      "cnae_normalized": "4744-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE MATERIAIS HIDRÁULICOS INDEPENDENTE",
+      "cnae": "4744-0/03",
+      "cnae_normalized": "4744-0-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE MATERIAL ELÉTRICO INDEPENDENTE",
+      "cnae": "4742-3/00",
+      "cnae_normalized": "4742-3-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE MIUDEZAS E QUINQUILHARIAS INDEPENDENTE",
+      "cnae": "4713-0/02",
+      "cnae_normalized": "4713-0-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE MOLDURAS E QUADROS INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE MÓVEIS INDEPENDENTE",
+      "cnae": "4754-7/01",
+      "cnae_normalized": "4754-7-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE OBJETOS DE ARTE INDEPENDENTE",
+      "cnae": "4789-0/03",
+      "cnae_normalized": "4789-0-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS NOVOS PARA MOTOCICLETAS E MOTONONETAS INDEPENDENTE",
+      "cnae": "4541-2/06",
+      "cnae_normalized": "4541-2-06",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS NOVOS PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+      "cnae": "4530-7/03",
+      "cnae_normalized": "4530-7-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS PARA APARELHOS ELETROELETRÔNICOS PARA USO DOMÉSTICO INDEPENDENTE",
+      "cnae": "4757-1/00",
+      "cnae_normalized": "4757-1-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS USADOS PARA MOTOCICLETAS E MOTONONETAS INDEPENDENTE",
+      "cnae": "4541-2/07",
+      "cnae_normalized": "4541-2-07",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PEÇAS E ACESSÓRIOS USADOS PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+      "cnae": "4530-7/04",
+      "cnae_normalized": "4530-7-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PERUCAS INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PLANTAS, FLORES NATURAIS, VASOS E ADUBOS INDEPENDENTE",
+      "cnae": "4789-0/02",
+      "cnae_normalized": "4789-0-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PNEUMÁTICOS E CÂMARAS-DE-AR INDEPENDENTE",
+      "cnae": "4530-7/05",
+      "cnae_normalized": "4530-7-05",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS DE HIGIENE PESSOAL INDEPENDENTE",
+      "cnae": "4772-5/00",
+      "cnae_normalized": "4772-5-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS DE LIMPEZA INDEPENDENTE",
+      "cnae": "4789-0/05",
+      "cnae_normalized": "4789-0-05",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS DE PANIFICAÇÃO INDEPENDENTE",
+      "cnae": "4721-1/02",
+      "cnae_normalized": "4721-1-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS DE TABACARIA INDEPENDENTE",
+      "cnae": "4729-6/01",
+      "cnae_normalized": "4729-6-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS NATURAIS INDEPENDENTE",
+      "cnae": "4729-6/99",
+      "cnae_normalized": "4729-6-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS PARA FESTAS E NATAL INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS PARA PISCINAS INDEPENDENTE 4789-0/05",
+      "cnae": "4789-0/05",
+      "cnae_normalized": "4789-0-05",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE PRODUTOS RELIGIOSOS INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE REDES PARA DORMIR INDEPENDENTE",
+      "cnae": "4789-0/99",
+      "cnae_normalized": "4789-0-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE SISTEMA DE SEGURANÇA RESIDENCIAL INDEPENDENTE",
+      "cnae": "4759-8/99",
+      "cnae_normalized": "4759-8-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE SUVENIRES, BIJUTERIAS E ARTESANATOS INDEPENDENTE",
+      "cnae": "4789-0/01",
+      "cnae_normalized": "4789-0-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE TECIDOS INDEPENDENTE",
+      "cnae": "4755-5/01",
+      "cnae_normalized": "4755-5-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE TINTAS E MATERIAIS PARA PINTURA INDEPENDENTE",
+      "cnae": "4741-5/00",
+      "cnae_normalized": "4741-5-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE TOLDOS E PAPEL DE PAREDE INDEPENDENTE",
+      "cnae": "4759-8/99",
+      "cnae_normalized": "4759-8-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMERCIANTE DE VIDROS INDEPENDENTE",
+      "cnae": "4743-1/00",
+      "cnae_normalized": "4743-1-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COMPOTEIRO(A) INDEPENDENTE",
+      "cnae": "1031-7/00",
+      "cnae_normalized": "1031-7-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CONFECCIONADOR(A) DE CARIMBOS INDEPENDENTE",
+      "cnae": "3299-0/02",
+      "cnae_normalized": "3299-0-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CONFEITEIRO(A) INDEPENDENTE",
+      "cnae": "1091-1/02",
+      "cnae_normalized": "1091-1-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COSTUREIRO(A) DE ROUPAS, EXCETO SOB MEDIDA INDEPENDENTE",
+      "cnae": "1412-6/01",
+      "cnae_normalized": "1412-6-01",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COSTUREIRO(A) DE ROUPAS, SOB MEDIDA INDEPENDENTE",
+      "cnae": "1412-6/02",
+      "cnae_normalized": "1412-6-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "COZINHEIRO(A) QUE FORNECE REFEIÇÕES PRONTAS E EMBALADAS PARA CONSUMO INDEPENDENTE",
+      "cnae": "5620-1/04",
+      "cnae_normalized": "5620-1-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CRIADOR(A) DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+      "cnae": "0159-8/02",
+      "cnae_normalized": "0159-8-02",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CRIADOR(A) DE PEIXES ORNAMENTAIS EM ÁGUA DOCE INDEPENDENTE",
+      "cnae": "0322-1/04",
+      "cnae_normalized": "0322-1-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CRIADOR(A) DE PEIXES ORNAMENTAIS EM ÁGUA SALGADA INDEPENDENTE",
+      "cnae": "0321-3/04",
+      "cnae_normalized": "0321-3-04",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CROCHETEIRO(A) INDEPENDENTE",
+      "cnae": "1422-3/00",
+      "cnae_normalized": "1422-3-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CUIDADOR(A) DE ANIMAIS (PET SITTER) INDEPENDENTE",
+      "cnae": "9609-2/08",
+      "cnae_normalized": "9609-2-08",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CUIDADOR(A) DE IDOSOS E ENFERMOS INDEPENDENTE",
+      "cnae": "8712-3/00",
+      "cnae_normalized": "8712-3-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CUNHADOR(A) DE MOEDAS E MEDALHAS INDEPENDENTE",
+      "cnae": "3211-6/03",
+      "cnae_normalized": "3211-6-03",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CURTIDOR DE COURO INDEPENDENTE",
+      "cnae": "1510-6/00",
+      "cnae_normalized": "1510-6-00",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "CUSTOMIZADOR(A) DE ROUPAS INDEPENDENTE",
+      "cnae": "1340-5/99",
+      "cnae_normalized": "1340-5-99",
+      "letra": "C"
+    },
+    {
+      "ocupacao": "DEPILADOR(A) INDEPENDENTE",
+      "cnae": "602-5/02",
+      "cnae_normalized": "602-5-02",
+      "letra": "D"
+    },
+    {
+      "ocupacao": "DIARISTA INDEPENDENTE",
+      "cnae": "9700-5/00",
+      "cnae_normalized": "9700-5-00",
+      "letra": "D"
+    },
+    {
+      "ocupacao": "DIGITADOR(A) INDEPENDENTE",
+      "cnae": "8219-9/99",
+      "cnae_normalized": "8219-9-99",
+      "letra": "D"
+    },
+    {
+      "ocupacao": "DISC JOCKEY (DJ) OU VIDEO JOCKEY (VJ) INDEPENDENTE",
+      "cnae": "9001-9/06",
+      "cnae_normalized": "9001-9-06",
+      "letra": "D"
+    },
+    {
+      "ocupacao": "DISTRIBUIDOR(A) DE ÁGUA POTÁVEL EM CAMINHÃO PIPA INDEPENDENTE",
+      "cnae": "3600-6/02",
+      "cnae_normalized": "3600-6-02",
+      "letra": "D"
+    },
+    {
+      "ocupacao": "DOCEIRO(A) INDEPENDENTE",
+      "cnae": "5620-1/04",
+      "cnae_normalized": "5620-1-04",
+      "letra": "D"
+    },
+    {
+      "ocupacao": "DUBLADOR(A) INDEPENDENTE",
+      "cnae": "5912-0/01",
+      "cnae_normalized": "5912-0-01",
+      "letra": "D"
+    },
+    {
+      "ocupacao": "EDITOR(A) DE JORNAIS DIÁRIOS INDEPENDENTE",
+      "cnae": "5812-3/01",
+      "cnae_normalized": "5812-3-01",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "EDITOR(A) DE JORNAIS NÃO DIÁRIOS INDEPENDENTE",
+      "cnae": "5812-3/02",
+      "cnae_normalized": "5812-3-02",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "EDITOR(A) DE LISTA DE DADOS E DE OUTRAS INFORMAÇÕES INDEPENDENTE",
+      "cnae": "5819-1/00",
+      "cnae_normalized": "5819-1-00",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "EDITOR(A) DE LIVROS INDEPENDENTE",
+      "cnae": "5811-5/00",
+      "cnae_normalized": "5811-5-00",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "EDITOR(A) DE REVISTAS INDEPENDENTE",
+      "cnae": "5813-1/00",
+      "cnae_normalized": "5813-1-00",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "EDITOR(A) DE VÍDEO INDEPENDENTE",
+      "cnae": "5912-0/99",
+      "cnae_normalized": "5912-0-99",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ELETRICISTA DE AUTOMÓVEIS INDEPENDENTE",
+      "cnae": "4520-0/03",
+      "cnae_normalized": "4520-0-03",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ELETRICISTA EM RESIDÊNCIAS E ESTABELECIMENTOS COMERCIAIS INDEPENDENTE",
+      "cnae": "4321-5/00",
+      "cnae_normalized": "4321-5-00",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ENCADERNADOR(A)/PLASTIFICADOR(A) INDEPENDENTE",
+      "cnae": "1822-9/01",
+      "cnae_normalized": "1822-9-01",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ENCANADOR INDEPENDENTE",
+      "cnae": "4322-3/01",
+      "cnae_normalized": "4322-3-01",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ENGRAXATE INDEPENDENTE",
+      "cnae": "9609-2/99",
+      "cnae_normalized": "9609-2-99",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ENTREGADOR DE MALOTES INDEPENDENTE",
+      "cnae": "5320-2/01",
+      "cnae_normalized": "5320-2-01",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ENVASADOR(A) E EMPACOTADOR(A) INDEPENDENTE",
+      "cnae": "8292-0/00",
+      "cnae_normalized": "8292-0-00",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ESTAMPADOR(A) DE PEÇAS DO VESTUÁRIO INDEPENDENTE",
+      "cnae": "1340-5/01",
+      "cnae_normalized": "1340-5-01",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ESTETICISTA DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+      "cnae": "9609-2/08",
+      "cnae_normalized": "9609-2-08",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ESTETICISTA INDEPENDENTE",
+      "cnae": "9602-5/02",
+      "cnae_normalized": "9602-5-02",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "ESTOFADOR(A) INDEPENDENTE",
+      "cnae": "9529-1/05",
+      "cnae_normalized": "9529-1-05",
+      "letra": "E"
+    },
+    {
+      "ocupacao": "FABRICANTE DE AÇÚCAR MASCAVO INDEPENDENTE",
+      "cnae": "1071-6/00",
+      "cnae_normalized": "1071-6-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ALIMENTOS PRONTOS CONGELADOS INDEPENDENTE",
+      "cnae": "1096-1/00",
+      "cnae_normalized": "1096-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE AMENDOIM E CASTANHA DE CAJU TORRADOS E SALGADOS INDEPENDENTE",
+      "cnae": "1031-7/00",
+      "cnae_normalized": "1031-7-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE AMIDO E FÉCULAS DE VEGETAIS INDEPENDENTE",
+      "cnae": "1065-1/01",
+      "cnae_normalized": "1065-1-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ARTEFATOS DE FUNILARIA INDEPENDENTE",
+      "cnae": "2532-2/01",
+      "cnae_normalized": "2532-2-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ARTEFATOS ESTAMPADOS DE METAL, SOB ENCOMENDA OU NÃO INDEPENDENTE",
+      "cnae": "2532-2/01",
+      "cnae_normalized": "2532-2-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ARTEFATOS PARA PESCA E ESPORTE INDEPENDENTE",
+      "cnae": "3230-2/00",
+      "cnae_normalized": "3230-2-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ARTEFATOS TÊXTEIS PARA USO DOMÉSTICO INDEPENDENTE",
+      "cnae": "1351-1/00",
+      "cnae_normalized": "1351-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ARTIGOS DE CUTELARIA INDEPENDENTE",
+      "cnae": "2541-1/00",
+      "cnae_normalized": "2541-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE AVIAMENTOS PARA COSTURA INDEPENDENTE",
+      "cnae": "3299-0/05",
+      "cnae_normalized": "3299-0-05",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE BALAS, CONFEITOS E FRUTAS CRISTALIZADAS INDEPENDENTE",
+      "cnae": "1093-7/02",
+      "cnae_normalized": "1093-7-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE BOLSAS/BOLSEIRO INDEPENDENTE",
+      "cnae": "1521-1/00",
+      "cnae_normalized": "1521-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE BRINQUEDOS NÃO ELETRÔNICOS INDEPENDENTE",
+      "cnae": "3240-0/99",
+      "cnae_normalized": "3240-0-99",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE CALÇADOS DE BORRACHA, MADEIRA E TECIDOS E FIBRAS INDEPENDENTE",
+      "cnae": "1539-4/00",
+      "cnae_normalized": "1539-4-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE CALÇADOS DE COURO INDEPENDENTE",
+      "cnae": "1531-9/01",
+      "cnae_normalized": "1531-9-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE CHÁ INDEPENDENTE",
+      "cnae": "1099-6/05",
+      "cnae_normalized": "1099-6-05",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE CINTOS/CINTEIRO INDEPENDENTE",
+      "cnae": "1414-2/00",
+      "cnae_normalized": "1414-2-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE CONSERVAS DE FRUTAS INDEPENDENTE",
+      "cnae": "1031-7/00",
+      "cnae_normalized": "1031-7-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE CONSERVAS DE LEGUMES E OUTROS VEGETAIS INDEPENDENTE",
+      "cnae": "1032-5/99",
+      "cnae_normalized": "1032-5-99",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE EMBALAGENS DE CARTOLINA E PAPEL-CARTÃO INDEPENDENTE",
+      "cnae": "1732-0/00",
+      "cnae_normalized": "1732-0-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE EMBALAGENS DE MADEIRA INDEPENDENTE",
+      "cnae": "1623-4/00",
+      "cnae_normalized": "1623-4-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE EMBALAGENS DE PAPEL INDEPENDENTE",
+      "cnae": "1731-1/00",
+      "cnae_normalized": "1731-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ESPECIARIAS INDEPENDENTE",
+      "cnae": "1095-3/00",
+      "cnae_normalized": "1095-3-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ESQUADRIAS METÁLICAS SOB ENCOMENDA OU NÃO INDEPENDENTE",
+      "cnae": "2512-8/00",
+      "cnae_normalized": "2512-8-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE FIOS DE ALGODÃO INDEPENDENTE",
+      "cnae": "1311-1/00",
+      "cnae_normalized": "1311-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE FIOS DE LINHO, RAMI, JUTA, SEDA E LÃ INDEPENDENTE",
+      "cnae": "1312-0/00",
+      "cnae_normalized": "1312-0-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE FUMO E DERIVADOS DO FUMO INDEPENDENTE",
+      "cnae": "1220-4/99",
+      "cnae_normalized": "1220-4-99",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE GELÉIA DE MOCOTÓ INDEPENDENTE",
+      "cnae": "1099-6/99",
+      "cnae_normalized": "1099-6-99",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE GELO COMUM INDEPENDENTE",
+      "cnae": "1099-6/04",
+      "cnae_normalized": "1099-6-04",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE GUARDA-CHUVAS E SIMILARES INDEPENDENTE",
+      "cnae": "3299-0/01",
+      "cnae_normalized": "3299-0-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE GUARDANAPOS E COPOS DE PAPEL INDEPENDENTE",
+      "cnae": "1742-7/99",
+      "cnae_normalized": "1742-7-99",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+      "cnae": "3220-5/00",
+      "cnae_normalized": "3220-5-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE JOGOS RECREATIVOS INDEPENDENTE",
+      "cnae": "3240-0/99",
+      "cnae_normalized": "3240-0-99",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE LATICÍNIOS INDEPENDENTE",
+      "cnae": "1052-0/00",
+      "cnae_normalized": "1052-0-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE LETREIROS, PLACAS E PAINÉIS NÃO LUMINOSOS, SOB ENCOMENDA OU NÃO INDEPENDENTE",
+      "cnae": "3299-0/03",
+      "cnae_normalized": "3299-0-03",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE LUMINÁRIAS E OUTROS EQUIPAMENTOS DE ILUMINAÇÃO INDEPENDENTE",
+      "cnae": "2740-6/02",
+      "cnae_normalized": "2740-6-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE MALAS INDEPENDENTE",
+      "cnae": "1521-1/00",
+      "cnae_normalized": "1521-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE MASSAS ALIMENTÍCIAS INDEPENDENTE",
+      "cnae": "1094-5/00",
+      "cnae_normalized": "1094-5-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE MEIAS INDEPENDENTE",
+      "cnae": "1421-5/00",
+      "cnae_normalized": "1421-5-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE MOCHILAS E CARTEIRAS INDEPENDENTE",
+      "cnae": "1521-1/00",
+      "cnae_normalized": "1521-1-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PAINÉIS E LETREIROS LUMINOSOS INDEPENDENTE",
+      "cnae": "3299-0/04",
+      "cnae_normalized": "3299-0-04",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PÃO DE QUEIJO CONGELADO INDEPENDENTE",
+      "cnae": "1091-1/01",
+      "cnae_normalized": "1091-1-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PAPEL INDEPENDENTE",
+      "cnae": "1721-4/00",
+      "cnae_normalized": "1721-4-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PARTES DE PEÇAS DO VESTUÁRIO FACÇÃO INDEPENDENTE",
+      "cnae": "1412-6/03",
+      "cnae_normalized": "1412-6-03",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PARTES DE ROUPAS ÍNTIMAS FACÇÃO INDEPENDENTE",
+      "cnae": "1411-8/02",
+      "cnae_normalized": "1411-8-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PARTES DE ROUPAS PROFISSIONAIS FACÇÃO INDEPENDENTE",
+      "cnae": "1413-4/03",
+      "cnae_normalized": "1413-4-03",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PARTES PARA CALÇADOS INDEPENDENTE",
+      "cnae": "1540-8/00",
+      "cnae_normalized": "1540-8-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE POLPAS DE FRUTAS INDEPENDENTE",
+      "cnae": "1031-7/00",
+      "cnae_normalized": "1031-7-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PRODUTOS DE SOJA INDEPENDENTE",
+      "cnae": "1099-6/99",
+      "cnae_normalized": "1099-6-99",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PRODUTOS DE TECIDO NÃO TECIDO PARA USO ODONTO-MÉDICO-HOSPITALAR INDEPENDENTE",
+      "cnae": "3292-2/02",
+      "cnae_normalized": "3292-2-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PRODUTOS DERIVADOS DE CARNE INDEPENDENTE",
+      "cnae": "1013-9/01",
+      "cnae_normalized": "1013-9-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE PRODUTOS DERIVADOS DO ARROZ INDEPENDENTE",
+      "cnae": "1061-9/02",
+      "cnae_normalized": "1061-9-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE RAPADURA E MELAÇO INDEPENDENTE",
+      "cnae": "1071-6/00",
+      "cnae_normalized": "1071-6-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE REFRESCOS, XAROPES E PÓS PARA REFRESCOS INDEPENDENTE",
+      "cnae": "1122-4/03",
+      "cnae_normalized": "1122-4-03",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE ROUPAS ÍNTIMAS INDEPENDENTE",
+      "cnae": "1411-8/01",
+      "cnae_normalized": "1411-8-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE SUCOS CONCENTRADOS DE FRUTAS, HORTALIÇAS E LEGUMES INDEPENDENTE",
+      "cnae": "1033-3/01",
+      "cnae_normalized": "1033-3-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE SUCOS DE FRUTAS, HORTALIÇAS E LEGUMES INDEPENDENTE",
+      "cnae": "1033-3/02",
+      "cnae_normalized": "1033-3-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FABRICANTE DE VELAS, INCLUSIVE DECORATIVAS INDEPENDENTE",
+      "cnae": "3299-0/06",
+      "cnae_normalized": "3299-0-06",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FARINHEIRO DE MANDIOCA INDEPENDENTE",
+      "cnae": "1063-5/00",
+      "cnae_normalized": "1063-5-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FARINHEIRO DE MILHO INDEPENDENTE",
+      "cnae": "1064-3/00",
+      "cnae_normalized": "1064-3-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FERRAMENTEIRO(A) INDEPENDENTE",
+      "cnae": "2543-8/00",
+      "cnae_normalized": "2543-8-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FERREIRO/FORJADOR INDEPENDENTE",
+      "cnae": "2543-8/00",
+      "cnae_normalized": "2543-8-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FILMADOR(A) INDEPENDENTE",
+      "cnae": "7420-0/04",
+      "cnae_normalized": "7420-0-04",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FORNECEDOR(A) DE ALIMENTOS PREPARADOS PARA EMPRESAS INDEPENDENTE",
+      "cnae": "5620-1/01",
+      "cnae_normalized": "5620-1-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FOSSEIRO (LIMPADOR DE FOSSA) INDEPENDENTE",
+      "cnae": "3702-9/00",
+      "cnae_normalized": "3702-9-00",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FOTOCOPIADOR(A) INDEPENDENTE",
+      "cnae": "8219-9/01",
+      "cnae_normalized": "8219-9-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FOTÓGRAFO(A) AÉREO INDEPENDENTE",
+      "cnae": "7420-0/02",
+      "cnae_normalized": "7420-0-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FOTÓGRAFO(A) INDEPENDENTE",
+      "cnae": "7420-0/01",
+      "cnae_normalized": "7420-0-01",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FOTÓGRAFO(A) SUBMARINO INDEPENDENTE",
+      "cnae": "7420-0/02",
+      "cnae_normalized": "7420-0-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "FUNILEIRO / LANTERNEIRO INDEPENDENTE",
+      "cnae": "4520-0/02",
+      "cnae_normalized": "4520-0-02",
+      "letra": "F"
+    },
+    {
+      "ocupacao": "GALVANIZADOR(A) INDEPENDENTE",
+      "cnae": "2539-0/02",
+      "cnae_normalized": "2539-0-02",
+      "letra": "G"
+    },
+    {
+      "ocupacao": "GESSEIRO(A) INDEPENDENTE",
+      "cnae": "4330-4/03",
+      "cnae_normalized": "4330-4-03",
+      "letra": "G"
+    },
+    {
+      "ocupacao": "GRAVADOR(A) DE CARIMBOS INDEPENDENTE",
+      "cnae": "8299-7/03",
+      "cnae_normalized": "8299-7-03",
+      "letra": "G"
+    },
+    {
+      "ocupacao": "GUARDADOR(A) DE MÓVEIS INDEPENDENTE",
+      "cnae": "5211-7/02",
+      "cnae_normalized": "5211-7-02",
+      "letra": "G"
+    },
+    {
+      "ocupacao": "GUIA DE TURISMO INDEPENDENTE",
+      "cnae": "7912-1/00",
+      "cnae_normalized": "7912-1-00",
+      "letra": "G"
+    },
+    {
+      "ocupacao": "GUINCHEIRO INDEPENDENTE (REBOQUE DE VEÍCULOS)",
+      "cnae": "5229-0/02",
+      "cnae_normalized": "5229-0-02",
+      "letra": "G"
+    },
+    {
+      "ocupacao": "HUMORISTA E CONTADOR DE HISTÓRIAS INDEPENDENTE",
+      "cnae": "9001-9/01",
+      "cnae_normalized": "9001-9-01",
+      "letra": "H"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE ANTENAS DE TV INDEPENDENTE",
+      "cnae": "4321-5/00",
+      "cnae_normalized": "4321-5-00",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE EQUIPAMENTOS DE SEGURANÇA DOMICILIAR E EMPRESARIAL, SEM PRESTAÇÃO DE SERVIÇOS DE VIGILÂNCIA E SEGURANÇA INDEPENDENTE",
+      "cnae": "4321-5/00",
+      "cnae_normalized": "4321-5-00",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE EQUIPAMENTOS PARA ORIENTAÇÃO À NAVEGAÇÃO MARÍTIMA, FLUVIAL E LACUSTRE INDEPENDENTE",
+      "cnae": "4329-1/02",
+      "cnae_normalized": "4329-1-02",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE ISOLANTES ACÚSTICOS E DE VIBRAÇÃO INDEPENDENTE",
+      "cnae": "4329-1/05",
+      "cnae_normalized": "4329-1-05",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE ISOLANTES TÉRMICOS INDEPENDENTE",
+      "cnae": "4329-1/05",
+      "cnae_normalized": "4329-1-05",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS INDEPENDENTE",
+      "cnae": "3321-0/00",
+      "cnae_normalized": "3321-0-00",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE PAINÉIS PUBLICITÁRIOS INDEPENDENTE",
+      "cnae": "4329-1/01",
+      "cnae_normalized": "4329-1-01",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE REDE DE COMPUTADORES INDEPENDENTE",
+      "cnae": "6190-6/99",
+      "cnae_normalized": "6190-6-99",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) DE SISTEMA DE PREVENÇÃO CONTRA INCÊNDIO INDEPENDENTE",
+      "cnae": "4322-3/03",
+      "cnae_normalized": "4322-3-03",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) E REPARADOR (A) DE ACESSÓRIOS AUTOMOTIVOS INDEPENDENTE",
+      "cnae": "4520-0/07",
+      "cnae_normalized": "4520-0-07",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) E REPARADOR DE COFRES, TRANCAS E TRAVAS DE SEGURANÇA INDEPENDENTE",
+      "cnae": "8020-0/02",
+      "cnae_normalized": "8020-0-02",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) E REPARADOR(A) DE ELEVADORES, ESCADAS E ESTEIRAS ROLANTES INDEPENDENTE",
+      "cnae": "4329-1/03",
+      "cnae_normalized": "4329-1-03",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTALADOR(A) E REPARADOR(A) DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO INDEPENDENTE",
+      "cnae": "4322-3/02",
+      "cnae_normalized": "4322-3-02",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTRUTOR(A) DE ARTE E CULTURA EM GERAL INDEPENDENTE",
+      "cnae": "8592-9/99",
+      "cnae_normalized": "8592-9-99",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTRUTOR(A) DE ARTES CÊNICAS INDEPENDENTE",
+      "cnae": "8592-9/02",
+      "cnae_normalized": "8592-9-02",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTRUTOR(A) DE CURSOS GERENCIAIS INDEPENDENTE",
+      "cnae": "8599-6/04",
+      "cnae_normalized": "8599-6-04",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTRUTOR(A) DE CURSOS PREPARATÓRIOS INDEPENDENTE",
+      "cnae": "8599-6/05",
+      "cnae_normalized": "8599-6-05",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTRUTOR(A) DE IDIOMAS INDEPENDENTE",
+      "cnae": "8593-7/00",
+      "cnae_normalized": "8593-7-00",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTRUTOR(A) DE INFORMÁTICA INDEPENDENTE",
+      "cnae": "8599-6/03",
+      "cnae_normalized": "8599-6-03",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "INSTRUTOR(A) DE MÚSICA INDEPENDENTE",
+      "cnae": "8592-9/03",
+      "cnae_normalized": "8592-9-03",
+      "letra": "I"
+    },
+    {
+      "ocupacao": "JARDINEIRO(A) INDEPENDENTE",
+      "cnae": "8130-3/00",
+      "cnae_normalized": "8130-3-00",
+      "letra": "J"
+    },
+    {
+      "ocupacao": "JORNALEIRO(A) INDEPENDENTE",
+      "cnae": "4761-0/02",
+      "cnae_normalized": "4761-0-02",
+      "letra": "J"
+    },
+    {
+      "ocupacao": "LAPIDADOR(A) INDEPENDENTE",
+      "cnae": "3211-6/01",
+      "cnae_normalized": "3211-6-01",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LAVADEIRO(A) DE ROUPAS INDEPENDENTE",
+      "cnae": "9601-7/01",
+      "cnae_normalized": "9601-7-01",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LAVADEIRO(A) DE ROUPAS PROFISSIONAIS INDEPENDENTE",
+      "cnae": "9601-7/03",
+      "cnae_normalized": "9601-7-03",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LAVADOR(A) DE ESTOFADO E SOFÁ INDEPENDENTE",
+      "cnae": "9609-2/99",
+      "cnae_normalized": "9609-2-99",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LAVADOR(A) E POLIDOR DE CARRO INDEPENDENTE",
+      "cnae": "4520-0/05",
+      "cnae_normalized": "4520-0-05",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LIVREIRO(A) INDEPENDENTE",
+      "cnae": "4761-0/01",
+      "cnae_normalized": "4761-0-01",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR DE ANDAIMES INDEPENDENTE",
+      "cnae": "7732-2/02",
+      "cnae_normalized": "7732-2-02",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE APARELHOS DE JOGOS ELETRÔNICOS INDEPENDENTE",
+      "cnae": "7729-2/01",
+      "cnae_normalized": "7729-2-01",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE BICICLETAS, INDEPENDENTE",
+      "cnae": "7721-7/00",
+      "cnae_normalized": "7721-7-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE EQUIPAMENTOS CIENTÍFICOS, MÉDICOS E HOSPITALARES, SEM OPERADOR INDEPENDENTE",
+      "cnae": "7739-0/02",
+      "cnae_normalized": "7739-0-02",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE EQUIPAMENTOS RECREATIVOS E ESPORTIVOS INDEPENDENTE",
+      "cnae": "7721-7/00",
+      "cnae_normalized": "7721-7-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE FITAS DE VÍDEO, DVDS E SIMILARES INDEPENDENTE",
+      "cnae": "7722-5/00",
+      "cnae_normalized": "7722-5-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+      "cnae": "7729-2/02",
+      "cnae_normalized": "7729-2-02",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE LIVROS, REVISTAS, PLANTAS E FLORES INDEPENDENTE",
+      "cnae": "7729 2/99",
+      "cnae_normalized": "7729 2-99",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS AGRÍCOLAS SEM OPERADOR INDEPENDENTE",
+      "cnae": "7731-4/00",
+      "cnae_normalized": "7731-4-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA CONSTRUÇÃO SEM OPERADOR, EXCETO ANDAIMES INDEPENDENTE",
+      "cnae": "7732-2/01",
+      "cnae_normalized": "7732-2-01",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA ESCRITÓRIO INDEPENDENTE",
+      "cnae": "7733-1/00",
+      "cnae_normalized": "7733-1-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE MATERIAL E EQUIPAMENTO ESPORTIVO, INDEPENDENTE",
+      "cnae": "7721-7/00",
+      "cnae_normalized": "7721-7-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE MATERIAL MÉDICO INDEPENDENTE",
+      "cnae": "7729-2/03",
+      "cnae_normalized": "7729-2-03",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE MOTOCICLETA, SEM CONDUTOR, INDEPENDENTE",
+      "cnae": "7719-5/99",
+      "cnae_normalized": "7719-5-99",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE MÓVEIS E UTENSÍLIOS, INCLUSIVE PARA FESTAS INDEPENDENTE",
+      "cnae": "7729-2/02",
+      "cnae_normalized": "7729-2-02",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE OBJETOS DO VESTUÁRIO, JÓIAS E ACESSÓRIOS INDEPENDENTE",
+      "cnae": "7723-3/00",
+      "cnae_normalized": "7723-3-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE OUTRAS MÁQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE, SEM OPERADOR INDEPENDENTE",
+      "cnae": "7739-0/99",
+      "cnae_normalized": "7739-0-99",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE PALCOS, COBERTURAS E OUTRAS ESTRUTURAS DE USO TEMPORÁRIO, EXCETO ANDAIMES INDEPENDENTE",
+      "cnae": "7739-0/03",
+      "cnae_normalized": "7739-0-03",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCADOR(A) DE VÍDEO GAMES, INDEPENDENTE",
+      "cnae": "7722-5/00",
+      "cnae_normalized": "7722-5-00",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "LOCUTOR(A) DE MENSAGENS FONADAS E AO VIVO INDEPENDENTE",
+      "cnae": "9609-2/99",
+      "cnae_normalized": "9609-2-99",
+      "letra": "L"
+    },
+    {
+      "ocupacao": "MÁGICO(A) INDEPENDENTE",
+      "cnae": "9329-8/99",
+      "cnae_normalized": "9329-8-99",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MANICURE/PEDICURE INDEPENDENTE",
+      "cnae": "9602-5/01",
+      "cnae_normalized": "9602-5-01",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MAQUIADOR(A) INDEPENDENTE",
+      "cnae": "9602-5/02",
+      "cnae_normalized": "9602-5-02",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MARCENEIRO (A) SOB ENCOMENDA OU NÃO INDEPENDENTE",
+      "cnae": "3101-2/00",
+      "cnae_normalized": "3101-2-00",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MARMITEIRO(A) INDEPENDENTE",
+      "cnae": "5620-1/04",
+      "cnae_normalized": "5620-1-04",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MECÂNICO(A) DE MOTOCICLETAS E MOTONETAS INDEPENDENTE",
+      "cnae": "4543-9/00",
+      "cnae_normalized": "4543-9-00",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MECÂNICO(A) DE VEÍCULOS INDEPENDENTE",
+      "cnae": "4520-0/01",
+      "cnae_normalized": "4520-0-01",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MERCEEIRO(A)/VENDEIRO(A) INDEPENDENTE",
+      "cnae": "4712-1/00",
+      "cnae_normalized": "4712-1-00",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MERGULHADOR(A) (ESCAFANDRISTA) INDEPENDENTE",
+      "cnae": "7490-1/02",
+      "cnae_normalized": "7490-1-02",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MOENDEIRO(A) INDEPENDENTE",
+      "cnae": "1069-4/00",
+      "cnae_normalized": "1069-4-00",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MONTADOR(A) DE MÓVEIS INDEPENDENTE",
+      "cnae": "3329-5/01",
+      "cnae_normalized": "3329-5-01",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MONTADOR(A) E INSTALADOR DE SISTEMAS E EQUIPAMENTOS DE ILUMINAÇÃO E SINALIZAÇÃO EM VIAS PÚBLICAS, PORTOS E AEROPORTOS INDEPENDENTE",
+      "cnae": "4329-1/04",
+      "cnae_normalized": "4329-1-04",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MOTOBOY INDEPENDENTE 5320-2/02",
+      "cnae": "5320-2/02",
+      "cnae_normalized": "5320-2-02",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MOTORISTA (POR APLICATIVO OU NÃO) INDEPENDENTE",
+      "cnae": "4923-0/02",
+      "cnae_normalized": "4923-0-02",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MOTOTAXISTA INDEPENDENTE",
+      "cnae": "4923-0/01",
+      "cnae_normalized": "4923-0-01",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MOVELEIRO(A) DE MÓVEIS METÁLICOS INDEPENDENTE",
+      "cnae": "3102-1/00",
+      "cnae_normalized": "3102-1-00",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "MOVELEIRO(A) INDEPENDENTE",
+      "cnae": "3103-9/00",
+      "cnae_normalized": "3103-9-00",
+      "letra": "M"
+    },
+    {
+      "ocupacao": "OLEIRO(A) INDEPENDENTE",
+      "cnae": "2342-7/02",
+      "cnae_normalized": "2342-7-02",
+      "letra": "O"
+    },
+    {
+      "ocupacao": "ORGANIZADOR(A) DE EXCURSÕES EM VEÍCULO PRÓPRIO, MUNICIPAL INDEPENDENTE",
+      "cnae": "4929-9/03",
+      "cnae_normalized": "4929-9-03",
+      "letra": "O"
+    },
+    {
+      "ocupacao": "OURIVES INDEPENDENTE",
+      "cnae": "9529-1/06",
+      "cnae_normalized": "9529-1-06",
+      "letra": "O"
+    },
+    {
+      "ocupacao": "PADEIRO(A) INDEPENDENTE",
+      "cnae": "1091-1/01",
+      "cnae_normalized": "1091-1-01",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PANFLETEIRO(A) INDEPENDENTE",
+      "cnae": "7319-0/02",
+      "cnae_normalized": "7319-0-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PAPELEIRO(A) INDEPENDENTE",
+      "cnae": "4761-0/03",
+      "cnae_normalized": "4761-0-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PASTILHEIRO(A) INDEPENDENTE",
+      "cnae": "4330-4/05",
+      "cnae_normalized": "4330-4-05",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PEDREIRO INDEPENDENTE",
+      "cnae": "4399-1/03",
+      "cnae_normalized": "4399-1-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PEIXEIRO(A) INDEPENDENTE",
+      "cnae": "4722-9/02",
+      "cnae_normalized": "4722-9-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PINTOR(A) DE AUTOMÓVEIS INDEPENDENTE",
+      "cnae": "4520-0/02",
+      "cnae_normalized": "4520-0-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PINTOR(A) DE PAREDE INDEPENDENTE",
+      "cnae": "4330-4/04",
+      "cnae_normalized": "4330-4-04",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PIPOQUEIRO(A) INDEPENDENTE",
+      "cnae": "5612-1/00",
+      "cnae_normalized": "5612-1-00",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PISCINEIRO(A) INDEPENDENTE",
+      "cnae": "8129-0/00",
+      "cnae_normalized": "8129-0-00",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PIZZAIOLO(A) EM DOMICÍLIO INDEPENDENTE",
+      "cnae": "5620-1/02",
+      "cnae_normalized": "5620-1-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "POCEIRO/CISTERNEIRO/CACIMBEIRO INDEPENDENTE",
+      "cnae": "4399-1/05",
+      "cnae_normalized": "4399-1-05",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE COLHEITA, SOB CONTRATO DE EMPREITADA, INDEPENDENTE",
+      "cnae": "0161-0/03",
+      "cnae_normalized": "0161-0-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE PODA, SOB CONTRATO DE EMPREITADA, INDEPENDENTE",
+      "cnae": "0161-0/02",
+      "cnae_normalized": "0161-0-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE PREPARAÇÃO DE TERRENOS, SOB CONTRATO DE EMPREITADA, INDEPENDENTE",
+      "cnae": "0161-0/03",
+      "cnae_normalized": "0161-0-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE ROÇAGEM, DESTOCAMENTO, LAVRAÇÃO, GRADAGEM E SULCAMENTO, SOB CONTRATO DE EMPREITADA, INDEPENDENTE",
+      "cnae": "0161-0/03",
+      "cnae_normalized": "0161-0-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PRESTADOR(A) DE SERVIÇOS DE SEMEADURA, SOB CONTRATO DE EMPREITADA, INDEPENDENTE",
+      "cnae": "0161-0/03",
+      "cnae_normalized": "0161-0-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROFESSOR(A) PARTICULAR INDEPENDENTE",
+      "cnae": "8599-6/99",
+      "cnae_normalized": "8599-6-99",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROMOTOR(A) DE EVENTOS INDEPENDENTE",
+      "cnae": "8230-0/01",
+      "cnae_normalized": "8230-0-01",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROMOTOR(A) DE TURISMO LOCAL INDEPENDENTE",
+      "cnae": "7990-2/00",
+      "cnae_normalized": "7990-2-00",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROMOTOR(A) DE VENDAS INDEPENDENTE",
+      "cnae": "7319-0/02",
+      "cnae_normalized": "7319-0-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE ALBERGUE NÃO ASSISTENCIAL INDEPENDENTE",
+      "cnae": "5590-6/01",
+      "cnae_normalized": "5590-6-01",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE BAR E CONGÊNERES, COM ENTRETENIMENTO,INDEPENDENTE",
+      "cnae": "5611-2/05",
+      "cnae_normalized": "5611-2-05",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE BAR E CONGÊNERES, SEM ENTRETENIMENTO, INDEPENDENTE",
+      "cnae": "5611-2/04",
+      "cnae_normalized": "5611-2-04",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE CAMPING INDEPENDENTE",
+      "cnae": "5590-6/02",
+      "cnae_normalized": "5590-6-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE CANTINAS INDEPENDENTE",
+      "cnae": "5620-1/03",
+      "cnae_normalized": "5620-1-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE CARRO DE SOM PARA FINS PUBLICITÁRIOS INDEPENDENTE",
+      "cnae": "7319-0/99",
+      "cnae_normalized": "7319-0-99",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE CASA DE CHÁ INDEPENDENTE",
+      "cnae": "5611-2/03",
+      "cnae_normalized": "5611-2-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE CASA DE SUCOS INDEPENDENTE",
+      "cnae": "5611-2/03",
+      "cnae_normalized": "5611-2-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE CASAS DE FESTAS E EVENTOS INDEPENDENTE",
+      "cnae": "8230-0/02",
+      "cnae_normalized": "8230-0-02",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE ESTACIONAMENTO DE VEÍCULOS INDEPENDENTE",
+      "cnae": "5223-1/00",
+      "cnae_normalized": "5223-1-00",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE FLIPERAMA INDEPENDENTE",
+      "cnae": "9329-8/04",
+      "cnae_normalized": "9329-8-04",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE HOSPEDARIA INDEPENDENTE",
+      "cnae": "5590-6/99",
+      "cnae_normalized": "5590-6-99",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE LANCHONETE INDEPENDENTE",
+      "cnae": "5611-2/03",
+      "cnae_normalized": "5611-2-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE PENSÃO INDEPENDENTE",
+      "cnae": "5590-6/03",
+      "cnae_normalized": "5590-6-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE RESTAURANTE INDEPENDENTE",
+      "cnae": "5611-2/01",
+      "cnae_normalized": "5611-2-01",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE SALA DE ACESSO À INTERNET INDEPENDENTE",
+      "cnae": "8299-7/07",
+      "cnae_normalized": "8299-7-07",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "PROPRIETÁRIO(A) DE SALÃO DE JOGOS DE SINUCA E BILHAR INDEPENDENTE 9329-8/03",
+      "cnae": "9329-8/03",
+      "cnae_normalized": "9329-8-03",
+      "letra": "P"
+    },
+    {
+      "ocupacao": "QUEIJEIRO(A)/ MANTEIGUEIRO(A) INDEPENDENTE",
+      "cnae": "1052-0/00",
+      "cnae_normalized": "1052-0-00",
+      "letra": "Q"
+    },
+    {
+      "ocupacao": "QUITANDEIRO(A) AMBULANTE INDEPENDENTE",
+      "cnae": "5612-1/00",
+      "cnae_normalized": "5612-1-00",
+      "letra": "Q"
+    },
+    {
+      "ocupacao": "QUITANDEIRO(A) INDEPENDENTE",
+      "cnae": "4724-5/00",
+      "cnae_normalized": "4724-5-00",
+      "letra": "Q"
+    },
+    {
+      "ocupacao": "RECICLADOR (A) DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO INDEPENDENTE",
+      "cnae": "3831-9/99",
+      "cnae_normalized": "3831-9-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RECICLADOR (A) DE MATERIAIS PLÁSTICOS INDEPENDENTE",
+      "cnae": "3832-7/00",
+      "cnae_normalized": "3832-7-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RECICLADOR (A) DE SUCATAS DE ALUMÍNIO INDEPENDENTE",
+      "cnae": "3831-9/01",
+      "cnae_normalized": "3831-9-01",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RECICLADOR(A) DE BORRACHA, MADEIRA, PAPEL E VIDRO INDEPENDENTE",
+      "cnae": "3839-4/99",
+      "cnae_normalized": "3839-4-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REDEIRO(A) INDEPENDENTE",
+      "cnae": "1353-7/00",
+      "cnae_normalized": "1353-7-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RELOJOEIRO(A) INDEPENDENTE",
+      "cnae": "9529-1/03",
+      "cnae_normalized": "9529-1-03",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RENDEIRO(A) INDEPENDENTE",
+      "cnae": "1359-6/00",
+      "cnae_normalized": "1359-6-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR (A) DE ARTIGOS DE TAPEÇARIA INDEPENDENTE",
+      "cnae": "9529-1/05",
+      "cnae_normalized": "9529-1-05",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE APARELHOS E EQUIPAMENTOS PARA DISTRIBUIÇÃO E CONTROLE DE ENERGIA ELÉTRICA INDEPENDENTE",
+      "cnae": "3313-9/99",
+      "cnae_normalized": "3313-9-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE ARTIGOS E ACESSÓRIOS DO VESTUÁRIO INDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE BALANÇAS INDUSTRIAIS E COMERCIAIS INDEPENDENTE",
+      "cnae": "3314-7/10",
+      "cnae_normalized": "3314-7-10",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS INDEPENDENTE",
+      "cnae": "3313-9/02",
+      "cnae_normalized": "3313-9-02",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE BICICLETA INDEPENDENTE",
+      "cnae": "9529-1/04",
+      "cnae_normalized": "9529-1-04",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE BRINQUEDOS INDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE CORDAS, VELAMES E LONAS INDEPENDENTE",
+      "cnae": "3319-8/00",
+      "cnae_normalized": "3319-8-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE EMBARCAÇÕES PARA ESPORTE E LAZER INDEPENDENTE",
+      "cnae": "3317-1/02",
+      "cnae_normalized": "3317-1-02",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE EQUIPAMENTOS ESPORTIVOS INDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS INDEPENDENTE",
+      "cnae": "3314-7/02",
+      "cnae_normalized": "3314-7-02",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE EQUIPAMENTOS MÉDICO-HOSPITALARES NÃO ELETRÔNICOS INDEPENDENTE",
+      "cnae": "3319-8/00",
+      "cnae_normalized": "3319-8-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE EXTINTOR DE INCÊNDIO INDEPENDENTE",
+      "cnae": "3314-7/10",
+      "cnae_normalized": "3314-7-10",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE FILTROS INDUSTRIAIS INDEPENDENTE",
+      "cnae": "3314-7/10",
+      "cnae_normalized": "3314-7-10",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS INDEPENDENTE",
+      "cnae": "3313-9/01",
+      "cnae_normalized": "3313-9-01",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE GUARDA CHUVA E SOMBRINHAS INDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE INSTRUMENTOS MUSICAIS INDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO INDEPENDENTE",
+      "cnae": "3314-7/09",
+      "cnae_normalized": "3314-7-09",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS E APARELHOS DE REFRIGERAÇÃO E VENTILAÇÃO PARA USO INDUSTRIAL E COMERCIAL INDEPENDENTE",
+      "cnae": "3314-7/07",
+      "cnae_normalized": "3314-7-07",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA DA MADEIRA INDEPENDENTE",
+      "cnae": "3314-7/99",
+      "cnae_normalized": "3314-7-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS INDEPENDENTE",
+      "cnae": "3314-7/20",
+      "cnae_normalized": "3314-7-20",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA INDEPENDENTE",
+      "cnae": "3314-7/11",
+      "cnae_normalized": "3314-7-11",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO INDEPENDENTE",
+      "cnae": "3314-7/19",
+      "cnae_normalized": "3314-7-19",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS GRÁFICA INDEPENDENTE E APARELHOS PARA A INDÚSTRIA",
+      "cnae": "3314-7/99",
+      "cnae_normalized": "3314-7-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS PARA ENCADERNAÇÃO INDEPENDENTE",
+      "cnae": "3314-7/99",
+      "cnae_normalized": "3314-7-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÁQUINAS, APARELHOS E EQUIPAMENTOS PARA INSTALAÇÕES TÉRMICAS INDEPENDENTE",
+      "cnae": "3314-7/06",
+      "cnae_normalized": "3314-7-06",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE MÓVEIS INDEPENDENTE",
+      "cnae": "9529-1/05",
+      "cnae_normalized": "9529-1-05",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE PANELAS (PANELEIRO) INDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS INDEPENDENTE",
+      "cnae": "3311-2/00",
+      "cnae_normalized": "3311-2-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE TOLDOS E PERSIANAS INDEPENDENTE",
+      "cnae": "9529-1/05",
+      "cnae_normalized": "9529-1-05",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE TONÉIS, BARRIS E PALETES DE MADEIRA INDEPENDENTE",
+      "cnae": "3319-8/00",
+      "cnae_normalized": "3319-8-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE TRATORES AGRÍCOLAS INDEPENDENTE",
+      "cnae": "3314-7/12",
+      "cnae_normalized": "3314-7-12",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) DE VEÍCULOS DE TRAÇÃO ANIMAL INDEPENDENTE",
+      "cnae": "3319-8/00",
+      "cnae_normalized": "3319-8-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) INDEPENDENTE",
+      "cnae": "3314-7/10",
+      "cnae_normalized": "3314-7-10",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REPARADOR(A) INDEPENDENTE DE MÁQUINAS MOTRIZES NÃO ELÉTRICAS",
+      "cnae": "3314-7/01",
+      "cnae_normalized": "3314-7-01",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RESTAURADOR(A) DE INSTRUMENTOS MUSICAIS HISTÓRICOS INDEPENDENTE",
+      "cnae": "3319-8/00",
+      "cnae_normalized": "3319-8-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RESTAURADOR(A) DE LIVROS NDEPENDENTE",
+      "cnae": "9529-1/99",
+      "cnae_normalized": "9529-1-99",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RESTAURADOR(A) DE OBRAS DE ARTE INDEPENDENTE",
+      "cnae": "9002-7/02",
+      "cnae_normalized": "9002-7-02",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RESTAURADOR(A) INDEPENDENTE DE JOGOS ACIONADOS POR MOEDAS",
+      "cnae": "3319-8/00",
+      "cnae_normalized": "3319-8-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "RETIFICADOR(A) DE MOTORES PARA VEÍCULOS AUTOMOTORES INDEPENDENTE",
+      "cnae": "2950-6/00",
+      "cnae_normalized": "2950-6-00",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "REVELADOR(A) FOTOGRÁFICO INDEPENDENTE",
+      "cnae": "7420-0/03",
+      "cnae_normalized": "7420-0-03",
+      "letra": "R"
+    },
+    {
+      "ocupacao": "SALGADEIRO(A) INDEPENDENTE",
+      "cnae": "5620-1/04",
+      "cnae_normalized": "5620-1-04",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SALINEIRO/EXTRATOR DE SAL MARINHO INDEPENDENTE",
+      "cnae": "0892-4/01",
+      "cnae_normalized": "0892-4-01",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SALSICHEIRO(A)/LINGUICEIRO(A) INDEPENDENTE",
+      "cnae": "1013-9/01",
+      "cnae_normalized": "1013-9-01",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SAPATEIRO(A)",
+      "cnae": "9529-1/01",
+      "cnae_normalized": "9529-1-01",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SELEIRO(A) INDEPENDENTE",
+      "cnae": "1529-7/00",
+      "cnae_normalized": "1529-7-00",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SERIGRAFISTA INDEPENDENTE",
+      "cnae": "1813-0/99",
+      "cnae_normalized": "1813-0-99",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SERIGRAFISTA PUBLICITÁRIO INDEPENDENTE",
+      "cnae": "1813-0/01",
+      "cnae_normalized": "1813-0-01",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SERRALHEIRO(A), EXCETO PARA ESQUADRIAS, SOB ENCOMENDA OU NÃO, INDEPENDENTE",
+      "cnae": "2542-0/00",
+      "cnae_normalized": "2542-0-00",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SINTEQUEIRO(A) INDEPENDENTE",
+      "cnae": "4330-4/05",
+      "cnae_normalized": "4330-4-05",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SOLDADOR(A) / BRASADOR(A) INDEPENDENTE",
+      "cnae": "2539-0/01",
+      "cnae_normalized": "2539-0-01",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SORVETEIRO(A) AMBULANTE INDEPENDENTE",
+      "cnae": "5612-1/00",
+      "cnae_normalized": "5612-1-00",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "SORVETEIRO(A) INDEPENDENTE",
+      "cnae": "4729-6/99",
+      "cnae_normalized": "4729-6-99",
+      "letra": "S"
+    },
+    {
+      "ocupacao": "TANOEIRO(A) INDEPENDENTE",
+      "cnae": "1623-4/00",
+      "cnae_normalized": "1623-4-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TAPECEIRO(A) INDEPENDENTE",
+      "cnae": "1352-9/00",
+      "cnae_normalized": "1352-9-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TATUADOR(A) INDEPENDENTE",
+      "cnae": "9609-2/06",
+      "cnae_normalized": "9609-2-06",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TAXISTA INDEPENDENTE",
+      "cnae": "4923-0/01",
+      "cnae_normalized": "4923-0-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TECELÃO(Ã) DE ALGODÃO INDEPENDENTE",
+      "cnae": "1321-9/00",
+      "cnae_normalized": "1321-9-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TECELÃO(Ã) INDEPENDENTE",
+      "cnae": "1322-7/00",
+      "cnae_normalized": "1322-7-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TÉCNICO(A) DE MANUTENÇÃO DE COMPUTADOR INDEPENDENTE",
+      "cnae": "9511-8/00",
+      "cnae_normalized": "9511-8-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TÉCNICO(A) DE MANUTENÇÃO DE ELETRODOMÉSTICOS INDEPENDENTE",
+      "cnae": "9521-5/00",
+      "cnae_normalized": "9521-5-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TÉCNICO(A) DE MANUTENÇÃO DE TELEFONIA INDEPENDENTE",
+      "cnae": "9512-6/00",
+      "cnae_normalized": "9512-6-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TÉCNICO(A) DE SONORIZAÇÃO E DE ILUMINAÇÃO INDEPENDENTE",
+      "cnae": "9001-9/06",
+      "cnae_normalized": "9001-9-06",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TELHADOR(A) INDEPENDENTE",
+      "cnae": "4399-1/99",
+      "cnae_normalized": "4399-1-99",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TINTUREIRO(A) INDEPENDENTE",
+      "cnae": "9601-7/02",
+      "cnae_normalized": "9601-7-02",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TORNEIRO(A) MECÂNICO INDEPENDENTE",
+      "cnae": "2539-0/01",
+      "cnae_normalized": "2539-0-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TOSADOR(A) DE ANIMAIS DOMÉSTICOS INDEPENDENTE",
+      "cnae": "9609-2/08",
+      "cnae_normalized": "9609-2-08",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TOSQUIADOR(A) INDEPENDENTE",
+      "cnae": "0162-8/02",
+      "cnae_normalized": "0162-8-02",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA - MUDANÇAS",
+      "cnae": "4930-2/04",
+      "cnae_normalized": "4930-2-04",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA - MUNICIPAL",
+      "cnae": "4930-2/01",
+      "cnae_normalized": "4930-2-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA - PRODUTOS PERIGOSOS",
+      "cnae": "4930-2/03",
+      "cnae_normalized": "4930-2-03",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR AUTÔNOMO DE CARGA INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL",
+      "cnae": "4930-2/02",
+      "cnae_normalized": "4930-2-02",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS INDEPENDENTE",
+      "cnae": "5099-8/01",
+      "cnae_normalized": "5099-8-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) DE MUDANÇAS INDEPENDENTE",
+      "cnae": "4930-2/04",
+      "cnae_normalized": "4930-2-04",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) ESCOLAR INDEPENDENTE",
+      "cnae": "4924-8/00",
+      "cnae_normalized": "4924-8-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) INTERMUNICIPAL COLETIVO DE PASSAGEIROS SOB FRETE EM REGIÃO METROPOLITANA INDEPENDENTE",
+      "cnae": "4929-9/02",
+      "cnae_normalized": "4929-9-02",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) INTERMUNICIPAL E INTERESTADUAL DE TRAVESSIA POR NAVEGAÇÃO FLUVIAL INDEPENDENTE",
+      "cnae": "5091-2/02",
+      "cnae_normalized": "5091-2-02",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) MARÍTIMO DE CARGA INDEPENDENTE",
+      "cnae": "5011-4/01",
+      "cnae_normalized": "5011-4-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) MUNICIPAL COLETIVO DE PASSAGEIROS SOB FRETE INDEPENDENTE",
+      "cnae": "4929-9/01",
+      "cnae_normalized": "4929-9-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) MUNICIPAL DE CARGAS NÃO PERIGOSAS(CARRETO) INDEPENDENTE",
+      "cnae": "4930-2/01",
+      "cnae_normalized": "4930-2-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) MUNICIPAL DE TRAVESSIA POR NAVEGAÇÃO INDEPENDENTE",
+      "cnae": "5091-2/01",
+      "cnae_normalized": "5091-2-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRANSPORTADOR(A) MUNICIPAL HIDROVIÁRIO DE CARGAS INDEPENDENTE",
+      "cnae": "5021-1/01",
+      "cnae_normalized": "5021-1-01",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "TRICOTEIRO(A) INDEPENDENTE",
+      "cnae": "1422-3/00",
+      "cnae_normalized": "1422-3-00",
+      "letra": "T"
+    },
+    {
+      "ocupacao": "VASSOUREIR(A) INDEPENDENTE",
+      "cnae": "3291-4/00",
+      "cnae_normalized": "3291-4-00",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VENDEDOR(A) AMBULANTE DE PRODUTOS ALIMENTÍCIOS INDEPENDENTE",
+      "cnae": "5612-1/00",
+      "cnae_normalized": "5612-1-00",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VENDEDOR(A) DE AVES VIVAS, COELHOS E OUTROS PEQUENOS ANIMAIS PARA ALIMENTAÇÃO INDEPENDENTE",
+      "cnae": "4724-5/00",
+      "cnae_normalized": "4724-5-00",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VERDUREIRO INDEPENDENTE",
+      "cnae": "4724-5/00",
+      "cnae_normalized": "4724-5-00",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VIDRACEIRO DE AUTOMÓVEIS INDEPENDENTE",
+      "cnae": "4520-0/01",
+      "cnae_normalized": "4520-0-01",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VIDRACEIRO DE EDIFICAÇÕES INDEPENDENTE",
+      "cnae": "4330-4/99",
+      "cnae_normalized": "4330-4-99",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VINAGREIRO INDEPENDENTE",
+      "cnae": "4330-4/99",
+      "cnae_normalized": "4330-4-99",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VINAGREIRO INDEPENDENTE",
+      "cnae": "1099-6/01",
+      "cnae_normalized": "1099-6-01",
+      "letra": "V"
+    },
+    {
+      "ocupacao": "VIVEIRISTA INDEPENDENTE",
+      "cnae": "0121-1/01",
+      "cnae_normalized": "0121-1-01",
+      "letra": "V"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+codigo: 4221-9/03
+codigo_slug: 4221-9-03
+codigo_numerico: '4221903'
+descricao_oficial: MANUTENÇÃO DE REDES DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA
+descricao_plana: MANUTENÇÃO DE REDES DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '42'
+  nome: OBRAS DE INFRA-ESTRUTURA
+grupo:
+  codigo: '42.2'
+  nome: OBRAS DE INFRA-ESTRUTURA PARA ENERGIA ELÉTRICA, TELECOMUNICAÇÕES, ÁGUA, ESGOTO E TRANSPORTE POR DUTOS
+classe:
+  codigo: 4221-9
+  nome: OBRAS PARA GERAÇÃO E DISTRIBUIÇÃO DE ENERGIA ELÉTRICA E PARA TELECOMUNICAÇÕES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

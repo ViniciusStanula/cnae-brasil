@@ -1,0 +1,40 @@
+codigo: 1220-4/99
+codigo_slug: 1220-4-99
+codigo_numerico: '1220499'
+descricao_oficial: FABRICAÇÃO DE OUTROS PRODUTOS DO FUMO, EXCETO CIGARROS, CIGARRILHAS E CHARUTOS
+descricao_plana: FABRICAÇÃO DE OUTROS PRODUTOS DO FUMO, EXCETO CIGARROS, CIGARRILHAS E CHARUTOS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '12'
+  nome: FABRICAÇÃO DE PRODUTOS DO FUMO
+grupo:
+  codigo: '12.2'
+  nome: FABRICAÇÃO DE PRODUTOS DO FUMO
+classe:
+  codigo: 1220-4
+  nome: FABRICAÇÃO DE PRODUTOS DO FUMO
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FABRICANTE DE FUMO E DERIVADOS DO FUMO INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,38 @@
+codigo: 6810-2/02
+codigo_slug: 6810-2-02
+codigo_numerico: '6810202'
+descricao_oficial: ALUGUEL DE IMÓVEIS PRÓPRIOS
+descricao_plana: ALUGUEL DE IMÓVEIS PRÓPRIOS
+secao:
+  letra: L
+  slug: atividades-imobiliarias
+  nome: Atividades imobiliárias
+  nome_curto: Imóveis
+divisao:
+  codigo: '68'
+  nome: ATIVIDADES IMOBILIÁRIAS
+grupo:
+  codigo: '68.1'
+  nome: ATIVIDADES IMOBILIÁRIAS DE IMÓVEIS PRÓPRIOS
+classe:
+  codigo: 6810-2
+  nome: ATIVIDADES IMOBILIÁRIAS DE IMÓVEIS PRÓPRIOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

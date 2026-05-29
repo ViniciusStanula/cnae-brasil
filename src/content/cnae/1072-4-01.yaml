@@ -1,0 +1,69 @@
+codigo: 1072-4/01
+codigo_slug: 1072-4-01
+codigo_numerico: '1072401'
+descricao_oficial: FABRICAÇÃO DE AÇÚCAR DE CANA REFINADO
+descricao_plana: >-
+  Indústria que processa cana-de-açúcar para produzir açúcar refinado, passando pelas etapas de purificação e
+  branqueamento do produto final.
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '10'
+  nome: FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS
+grupo:
+  codigo: '10.7'
+  nome: FABRICAÇÃO E REFINO DE AÇÚCAR
+classe:
+  codigo: 1072-4
+  nome: FABRICAÇÃO DE AÇÚCAR REFINADO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Usina de refino de açúcar de cana
+  - Indústria produtora de açúcar refinado granulado a partir de cana
+  - Fábrica de açúcar refinado especial (tipo cristal refinado ou refinado amorfo)
+  - Planta industrial de refino de açúcar bruto de cana
+  - Empresa de beneficiamento e refino de açúcar para uso alimentício
+o_que_inclui:
+  - Refino de açúcar bruto ou demerara proveniente da cana-de-açúcar
+  - Produção de açúcar refinado granulado (cristal refinado)
+  - Produção de açúcar refinado amorfo (açúcar de confeiteiro)
+  - Processos industriais de clarificação, filtração e branqueamento do açúcar de cana
+  - Embalagem e acondicionamento do açúcar refinado produzido na própria unidade fabril
+  - Produção de açúcar de cana em diferentes granulometrias refinadas
+o_que_nao_inclui:
+  - Fabricação de açúcar de cereais (dextrose) ou de beterraba (use CNAE 1072-4/02)
+  - Fabricação de açúcar bruto de cana sem refino, como demerara ou mascavo (use CNAE 1071-6/00)
+  - Produção de melado, rapadura ou outros derivados não refinados da cana (use CNAE 1071-6/00)
+  - Comércio atacadista de açúcar refinado sem produção própria (use CNAE 4633-8/01)
+  - Produção de adoçantes artificiais ou edulcorantes (use CNAE 2099-1/99)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Licença ambiental (operação industrial com geração de efluentes e resíduos)
+  - Alvará sanitário ou registro no órgão federal de vigilância sanitária para alimentos
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença de operação industrial estadual
+cnaes_relacionados:
+  - 1072-4/02
+  - 1071-6/00
+  - 1081-3/01
+  - 1081-3/02
+  - 1094-5/00
+  - 4633-8/01
+  - 2099-1/99
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:51:30.946Z'

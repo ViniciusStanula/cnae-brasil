@@ -1,0 +1,38 @@
+codigo: 0141-5/02
+codigo_slug: 0141-5-02
+codigo_numerico: '0141502'
+descricao_oficial: PRODUÇÃO DE SEMENTES CERTIFICADAS DE FORRAGEIRAS PARA FORMAÇÃO DE PASTO
+descricao_plana: PRODUÇÃO DE SEMENTES CERTIFICADAS DE FORRAGEIRAS PARA FORMAÇÃO DE PASTO
+secao:
+  letra: A
+  slug: agricultura
+  nome: Agricultura, pecuária, produção florestal, pesca e aquicultura
+  nome_curto: Agricultura
+divisao:
+  codigo: '01'
+  nome: AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS
+grupo:
+  codigo: '01.4'
+  nome: PRODUÇÃO DE SEMENTES E MUDAS CERTIFICADAS
+classe:
+  codigo: 0141-5
+  nome: PRODUÇÃO DE SEMENTES CERTIFICADAS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

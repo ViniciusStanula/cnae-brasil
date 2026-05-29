@@ -1,0 +1,40 @@
+codigo: 7722-5/00
+codigo_slug: 7722-5-00
+codigo_numerico: '7722500'
+descricao_oficial: ALUGUEL DE FITAS DE VÍDEO, DVDS E SIMILARES
+descricao_plana: ALUGUEL DE FITAS DE VÍDEO, DVDS E SIMILARES
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '77'
+  nome: ALUGUÉIS NÃO-IMOBILIÁRIOS E GESTÃO DE ATIVOS INTANGÍVEIS NÃO-FINANCEIROS
+grupo:
+  codigo: '77.2'
+  nome: ALUGUEL DE OBJETOS PESSOAIS E DOMÉSTICOS
+classe:
+  codigo: 7722-5
+  nome: ALUGUEL DE FITAS DE VÍDEO, DVDS E SIMILARES
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: LOCADOR(A) DE FITAS DE VÍDEO, DVDS E SIMILARES INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

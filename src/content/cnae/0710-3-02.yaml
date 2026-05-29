@@ -1,0 +1,38 @@
+codigo: 0710-3/02
+codigo_slug: 0710-3-02
+codigo_numerico: '0710302'
+descricao_oficial: PELOTIZAÇÃO, SINTERIZAÇÃO E OUTROS BENEFICIAMENTOS DE MINÉRIO DE FERRO
+descricao_plana: PELOTIZAÇÃO, SINTERIZAÇÃO E OUTROS BENEFICIAMENTOS DE MINÉRIO DE FERRO
+secao:
+  letra: B
+  slug: industrias-extrativas
+  nome: Indústrias extrativas
+  nome_curto: Extrativa
+divisao:
+  codigo: '07'
+  nome: EXTRAÇÃO DE MINERAIS METÁLICOS
+grupo:
+  codigo: '07.1'
+  nome: EXTRAÇÃO DE MINÉRIO DE FERRO
+classe:
+  codigo: 0710-3
+  nome: EXTRAÇÃO DE MINÉRIO DE FERRO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,38 @@
+codigo: 2092-4/03
+codigo_slug: 2092-4-03
+codigo_numerico: '2092403'
+descricao_oficial: FABRICAÇÃO DE FÓSFOROS DE SEGURANÇA
+descricao_plana: FABRICAÇÃO DE FÓSFOROS DE SEGURANÇA
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '20'
+  nome: FABRICAÇÃO DE PRODUTOS QUÍMICOS
+grupo:
+  codigo: '20.9'
+  nome: FABRICAÇÃO DE PRODUTOS E PREPARADOS QUÍMICOS DIVERSOS
+classe:
+  codigo: 2092-4
+  nome: FABRICAÇÃO DE EXPLOSIVOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

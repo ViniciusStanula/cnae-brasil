@@ -1,0 +1,57 @@
+codigo: 3600-6/01
+codigo_slug: 3600-6-01
+codigo_numerico: '3600601'
+descricao_oficial: CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA
+descricao_plana: >-
+  Captação, tratamento e distribuição de água: atividade de coleta, tratamento e fornecimento de água potável para
+  consumidores, incluindo companhias de saneamento e operadores privados de sistemas de abastecimento.
+secao:
+  letra: E
+  slug: agua-esgoto-residuos
+  nome: Água, esgoto, atividades de gestão de resíduos e descontaminação
+  nome_curto: Saneamento
+divisao:
+  codigo: '36'
+  nome: CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA
+grupo:
+  codigo: '36.0'
+  nome: CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA
+classe:
+  codigo: 3600-6
+  nome: CAPTAÇÃO, TRATAMENTO E DISTRIBUIÇÃO DE ÁGUA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Companhia estadual de saneamento (SAAE, SABESP, etc.)
+  - Operador privado de sistema de água em condomínio
+  - Sistema autônomo de abastecimento rural
+o_que_inclui:
+  - Captação de água bruta em rios e poços
+  - Tratamento e purificação da água
+  - Distribuição por rede de tubulações
+  - Gestão de reservatórios
+o_que_nao_inclui:
+  - Perfuração de poços apenas — use CNAE 4291-0/00
+  - Coleta de esgoto — use CNAE 3700-1/00
+  - Venda de água mineral envasada — use CNAE 1121-6/00
+licencas_comuns:
+  - Outorga de uso de recursos hídricos (ANA/órgão estadual)
+  - Licença ambiental de operação
+  - Concessão municipal ou estadual
+cnaes_relacionados:
+  - 3700-1/00
+  - 3811-4/00
+  - 1121-6/00
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

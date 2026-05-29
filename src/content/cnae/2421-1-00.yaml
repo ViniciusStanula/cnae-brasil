@@ -1,0 +1,38 @@
+codigo: 2421-1/00
+codigo_slug: 2421-1-00
+codigo_numerico: '2421100'
+descricao_oficial: PRODUÇÃO DE SEMI ACABADOS DE AÇO
+descricao_plana: PRODUÇÃO DE SEMI ACABADOS DE AÇO
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '24'
+  nome: METALURGIA
+grupo:
+  codigo: '24.2'
+  nome: SIDERURGIA
+classe:
+  codigo: 2421-1
+  nome: PRODUÇÃO DE SEMIACABADOS DE AÇO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

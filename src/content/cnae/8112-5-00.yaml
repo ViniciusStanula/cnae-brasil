@@ -1,0 +1,38 @@
+codigo: 8112-5/00
+codigo_slug: 8112-5-00
+codigo_numerico: '8112500'
+descricao_oficial: CONDOMÍNIOS PREDIAIS
+descricao_plana: CONDOMÍNIOS PREDIAIS
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '81'
+  nome: SERVIÇOS PARA EDIFÍCIOS E ATIVIDADES PAISAGÍSTICAS
+grupo:
+  codigo: '81.1'
+  nome: SERVIÇOS COMBINADOS PARA APOIO A EDIFÍCIOS
+classe:
+  codigo: 8112-5
+  nome: CONDOMÍNIOS PREDIAIS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

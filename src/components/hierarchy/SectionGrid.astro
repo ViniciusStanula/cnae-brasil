@@ -1,0 +1,29 @@
+---
+import type { SecaoInfo } from '../../lib/constants.js';
+
+interface Props {
+  secoes: Array<SecaoInfo & { count: number }>;
+}
+
+const { secoes } = Astro.props;
+---
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+  {secoes.map((s) => (
+    <a
+      href={`/cnae/${s.slug}/`}
+      class="rounded-xl border border-gray-200 bg-white p-4 hover:border-blue-400 hover:shadow-md transition-all group"
+    >
+      <div class="flex items-start gap-3">
+        <span class="text-2xl font-bold text-blue-700 font-mono bg-blue-50 rounded-lg w-10 h-10 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-100 transition-colors">
+          {s.letra}
+        </span>
+        <div class="min-w-0">
+          <p class="font-semibold text-gray-900 leading-snug text-sm">{s.nome_curto}</p>
+          <p class="text-xs text-gray-500 mt-0.5 line-clamp-2">{s.descricao}</p>
+          <p class="text-xs text-blue-600 mt-1 font-medium">{s.count} subclasses</p>
+        </div>
+      </div>
+    </a>
+  ))}
+</div>

@@ -1,0 +1,67 @@
+codigo: 6492-1/00
+codigo_slug: 6492-1-00
+codigo_numerico: '6492100'
+descricao_oficial: SECURITIZAÇÃO DE CRÉDITOS
+descricao_plana: >-
+  Empresa que transforma carteiras de crédito (como dívidas a receber) em títulos negociáveis no mercado financeiro,
+  captando recursos para quem originou esses créditos.
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '64'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS
+grupo:
+  codigo: '64.9'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS NÃO ESPECIFICADAS ANTERIORMENTE
+classe:
+  codigo: 6492-1
+  nome: SECURITIZAÇÃO DE CRÉDITOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios:
+  - Companhia securitizadora de créditos imobiliários (CRI)
+  - Companhia securitizadora de créditos do agronegócio (CRA)
+  - Securitizadora de recebíveis comerciais e industriais
+  - Fundo de investimento em direitos creditórios (FIDC) estruturado como securitizadora
+  - Securitizadora de créditos financeiros e bancários
+o_que_inclui:
+  - Aquisição de carteiras de crédito originadas por terceiros para fins de securitização
+  - Emissão de títulos lastreados em recebíveis, como CRI e CRA
+  - Estruturação de operações de cessão de crédito com emissão de valores mobiliários
+  - Administração da carteira de créditos adquiridos durante o prazo da operação
+  - Segregação de riscos entre diferentes classes de cotas ou títulos emitidos
+  - Relacionamento com investidores que adquirem os títulos emitidos pela securitizadora
+o_que_nao_inclui:
+  - Concessão direta de empréstimos e financiamentos ao consumidor final (use CNAE 6422-1/00 ou 6491-3/00)
+  - Administração de fundos de investimento em geral (use CNAE 6630-4/00)
+  - Factoring e fomento mercantil, que envolve compra de recebíveis sem emissão de títulos (use CNAE 6499-9/01)
+  - Atividades de banco múltiplo ou banco comercial (use CNAE 6422-1/00)
+  - Intermediação de valores mobiliários em bolsa (use CNAE 6612-6/00)
+licencas_comuns:
+  - Autorização de funcionamento concedida por órgão regulador do mercado financeiro e de capitais
+  - Registro de emissor de valores mobiliários junto ao regulador competente
+  - Alvará municipal de funcionamento da sede administrativa
+cnaes_relacionados:
+  - 6422-1/00
+  - 6491-3/00
+  - 6499-9/01
+  - 6499-9/02
+  - 6612-6/00
+  - 6613-4/00
+  - 6630-4/00
+  - 6450-6/00
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:53:29.855Z'

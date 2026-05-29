@@ -1,0 +1,40 @@
+codigo: 8599-6/05
+codigo_slug: 8599-6-05
+codigo_numerico: '8599605'
+descricao_oficial: CURSOS PREPARATÓRIOS PARA CONCURSOS
+descricao_plana: CURSOS PREPARATÓRIOS PARA CONCURSOS
+secao:
+  letra: P
+  slug: educacao
+  nome: Educação
+  nome_curto: Educação
+divisao:
+  codigo: '85'
+  nome: EDUCAÇÃO
+grupo:
+  codigo: '85.9'
+  nome: OUTRAS ATIVIDADES DE ENSINO
+classe:
+  codigo: 8599-6
+  nome: ATIVIDADES DE ENSINO NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: INSTRUTOR(A) DE CURSOS PREPARATÓRIOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

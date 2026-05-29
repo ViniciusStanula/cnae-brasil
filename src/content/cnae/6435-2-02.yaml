@@ -1,0 +1,37 @@
+codigo: 6435-2/02
+codigo_slug: 6435-2-02
+codigo_numerico: '6435202'
+descricao_oficial: ASSOCIAÇÕES DE POUPANÇA E EMPRÉSTIMO
+descricao_plana: ASSOCIAÇÕES DE POUPANÇA E EMPRÉSTIMO
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '64'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS
+grupo:
+  codigo: '64.3'
+  nome: INTERMEDIAÇÃO NÃO-MONETÁRIA - OUTROS INSTRUMENTOS DE CAPTAÇÃO
+classe:
+  codigo: 6435-2
+  nome: CRÉDITO IMOBILIÁRIO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

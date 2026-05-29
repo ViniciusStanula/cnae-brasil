@@ -1,0 +1,38 @@
+codigo: 6022-5/01
+codigo_slug: 6022-5-01
+codigo_numerico: '6022501'
+descricao_oficial: PROGRAMADORAS
+descricao_plana: PROGRAMADORAS
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '60'
+  nome: ATIVIDADES DE RÁDIO E DE TELEVISÃO
+grupo:
+  codigo: '60.2'
+  nome: ATIVIDADES DE TELEVISÃO
+classe:
+  codigo: 6022-5
+  nome: PROGRAMADORAS E ATIVIDADES RELACIONADAS À TELEVISÃO POR ASSINATURA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,37 @@
+codigo: 6470-1/03
+codigo_slug: 6470-1-03
+codigo_numerico: '6470103'
+descricao_oficial: FUNDOS DE INVESTIMENTO IMOBILIÁRIOS
+descricao_plana: FUNDOS DE INVESTIMENTO IMOBILIÁRIOS
+secao:
+  letra: K
+  slug: financeiro-seguros
+  nome: Atividades financeiras, de seguros e serviços relacionados
+  nome_curto: Financeiro
+divisao:
+  codigo: '64'
+  nome: ATIVIDADES DE SERVIÇOS FINANCEIROS
+grupo:
+  codigo: '64.7'
+  nome: FUNDOS DE INVESTIMENTO
+classe:
+  codigo: 6470-1
+  nome: FUNDOS DE INVESTIMENTO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - ltda
+  - sa
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,70 @@
+codigo: 9700-5/00
+codigo_slug: 9700-5-00
+codigo_numerico: '9700500'
+descricao_oficial: SERVIÇOS DOMÉSTICOS
+descricao_plana: >-
+  Trabalho realizado por pessoas físicas em residências particulares, como limpeza, cozinha, cuidados com a casa e seus
+  moradores, prestado de forma doméstica.
+secao:
+  letra: T
+  slug: servicos-domesticos
+  nome: Serviços domésticos
+  nome_curto: Domésticos
+divisao:
+  codigo: '97'
+  nome: SERVIÇOS DOMÉSTICOS
+grupo:
+  codigo: '97.0'
+  nome: SERVIÇOS DOMÉSTICOS
+classe:
+  codigo: 9700-5
+  nome: SERVIÇOS DOMÉSTICOS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: DIARISTA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Diarista independente que presta serviços de limpeza em residências
+  - Empregado doméstico que trabalha em casa de família
+  - Cozinheiro particular que prepara refeições em residência
+  - Cuidador doméstico de idosos ou crianças em ambiente residencial
+  - Jardineiro particular que cuida do jardim de uma residência
+o_que_inclui:
+  - Limpeza e arrumação de residências particulares
+  - Preparo de refeições dentro da residência do empregador
+  - Cuidados com crianças, idosos ou pessoas dependentes no ambiente doméstico
+  - Lavagem e passagem de roupas no domicílio do empregador
+  - Manutenção e organização geral do lar
+  - Serviços de jardinagem realizados exclusivamente em residência particular
+o_que_nao_inclui:
+  - Empresas de limpeza que prestam serviços a terceiros de forma comercial (use CNAE 8121-4/00)
+  - Serviços de cuidado e assistência a idosos em estabelecimentos especializados (use CNAE 8711-5/02)
+  - Cuidado diurno de crianças em creches ou estabelecimentos similares (use CNAE 8891-2/00)
+  - Serviços de jardinagem prestados a empresas ou condomínios (use CNAE 8130-3/00)
+  - Serviços de lavanderia comercial para terceiros (use CNAE 9601-7/01)
+licencas_comuns:
+  - Registro como MEI (para diaristas independentes enquadrados como microempreendedor individual)
+  - Carteira de Trabalho e Previdência Social (CTPS) para vínculo empregatício doméstico
+cnaes_relacionados:
+  - 8121-4/00
+  - 8122-2/00
+  - 8130-3/00
+  - 8711-5/02
+  - 8891-2/00
+  - 9601-7/01
+  - 9602-5/01
+  - 8712-3/00
+  - 8720-4/01
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:55:31.087Z'

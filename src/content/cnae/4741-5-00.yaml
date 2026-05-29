@@ -1,0 +1,72 @@
+codigo: 4741-5/00
+codigo_slug: 4741-5-00
+codigo_numerico: '4741500'
+descricao_oficial: COMÉRCIO VAREJISTA DE TINTAS E MATERIAIS PARA PINTURA
+descricao_plana: >-
+  Loja que vende tintas, vernizes, solventes, pincéis, rolos e outros produtos usados em serviços de pintura para
+  consumidores finais.
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '47'
+  nome: COMÉRCIO VAREJISTA
+grupo:
+  codigo: '47.4'
+  nome: COMÉRCIO VAREJISTA DE MATERIAL DE CONSTRUÇÃO
+classe:
+  codigo: 4741-5
+  nome: COMÉRCIO VAREJISTA DE TINTAS E MATERIAIS PARA PINTURA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: COMERCIANTE DE TINTAS E MATERIAIS PARA PINTURA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Loja especializada em tintas imobiliárias e decorativas
+  - Ponto de venda de tintas automotivas e complementos
+  - Loja de materiais para pintura artística e artesanal
+  - Revendedor de tintas industriais para pequenos compradores
+  - Loja de tintas com serviço de mistura e personalização de cores
+o_que_inclui:
+  - Venda de tintas imobiliárias, esmaltes, vernizes e lacas
+  - Comercialização de solventes, aguarrás e diluentes
+  - Venda de pincéis, rolos, bandejas e fitas para pintura
+  - Comercialização de primers, seladores e fundos preparadores
+  - Venda de tintas decorativas e texturas para paredes
+  - Mistura e personalização de cores no ponto de venda (tintometria)
+  - Venda de tintas automotivas em embalagens para consumidor final
+o_que_nao_inclui:
+  - Execução de serviços de pintura em imóveis ou superfícies (use CNAE 4330-4/04)
+  - Venda de materiais de construção em geral, como cimento e argamassa (use CNAE 4744-0/01)
+  - Comércio atacadista de tintas e solventes para revendedores (use CNAE 4679-6/04)
+  - Fabricação de tintas, vernizes e esmaltes (use CNAE 2071-1/00)
+  - Venda de equipamentos de pintura industrial, como compressores e pistolas (use CNAE 4744-0/99)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Licença ambiental (devido ao armazenamento de produtos inflamáveis e químicos)
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença sanitária, quando aplicável ao município
+cnaes_relacionados:
+  - 4744-0/01
+  - 4744-0/99
+  - 4679-6/04
+  - 4330-4/04
+  - 2071-1/00
+  - 4742-3/00
+  - 4743-1/00
+  - 4789-0/99
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:52:34.198Z'

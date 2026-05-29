@@ -1,0 +1,38 @@
+codigo: 8610-1/02
+codigo_slug: 8610-1-02
+codigo_numerico: '8610102'
+descricao_oficial: ATIVIDADES DE ATENDIMENTO EM PRONTO SOCORRO E UNIDADES HOSPITALARES PARA ATENDIMENTO A URGÊNCIAS
+descricao_plana: ATIVIDADES DE ATENDIMENTO EM PRONTO SOCORRO E UNIDADES HOSPITALARES PARA ATENDIMENTO A URGÊNCIAS
+secao:
+  letra: Q
+  slug: saude-servicos-sociais
+  nome: Saúde humana e serviços sociais
+  nome_curto: Saúde
+divisao:
+  codigo: '86'
+  nome: ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA
+grupo:
+  codigo: '86.1'
+  nome: ATIVIDADES DE ATENDIMENTO HOSPITALAR
+classe:
+  codigo: 8610-1
+  nome: ATIVIDADES DE ATENDIMENTO HOSPITALAR
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

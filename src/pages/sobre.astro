@@ -1,0 +1,37 @@
+---
+import HubLayout from '../layouts/HubLayout.astro';
+import { buildCanonical } from '../lib/seo.js';
+import { homeCrumb } from '../lib/breadcrumbs.js';
+import { SITE_NAME, SITE_TAGLINE } from '../lib/constants.js';
+
+const title = `Sobre o ${SITE_NAME} | CNAE Brasil`;
+const description = `Conheça o ${SITE_NAME} — o guia de CNAEs em linguagem clara para empreendedores brasileiros.`;
+const canonical = buildCanonical('/sobre/');
+const crumbs = [homeCrumb(), { label: 'Sobre', href: '/sobre/', current: true }];
+---
+
+<HubLayout {title} {description} {canonical} {crumbs}>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Sobre o {SITE_NAME}</h1>
+  <p class="text-xl text-gray-500 mb-8 italic">{SITE_TAGLINE}</p>
+
+  <div class="prose prose-sm max-w-none text-gray-700 space-y-4">
+    <p>
+      O <strong>{SITE_NAME}</strong> foi criado para resolver um problema real: as informações sobre CNAE disponíveis
+      online são fragmentadas, em linguagem técnica e difíceis de entender para quem está abrindo o primeiro negócio.
+    </p>
+    <p>
+      Aqui você encontra todos os {'>'}1.300 códigos CNAE explicados em português claro, com informações práticas sobre:
+    </p>
+    <ul class="list-disc pl-5 space-y-1">
+      <li>Se a atividade é permitida para MEI</li>
+      <li>Qual anexo do Simples Nacional se aplica</li>
+      <li>Exemplos de negócios que usam aquele CNAE</li>
+      <li>Quais licenças e alvarás são comuns</li>
+      <li>CNAEs relacionados para facilitar a comparação</li>
+    </ul>
+    <p>
+      As informações são de referência e passam por revisão periódica. Recomendamos sempre consultar um
+      contador credenciado para decisões definitivas sobre abertura de empresa.
+    </p>
+  </div>
+</HubLayout>

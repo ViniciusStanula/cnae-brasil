@@ -1,0 +1,38 @@
+codigo: 0311-6/03
+codigo_slug: 0311-6-03
+codigo_numerico: '0311603'
+descricao_oficial: COLETA DE OUTROS PRODUTOS MARINHOS
+descricao_plana: COLETA DE OUTROS PRODUTOS MARINHOS
+secao:
+  letra: A
+  slug: agricultura
+  nome: Agricultura, pecuária, produção florestal, pesca e aquicultura
+  nome_curto: Agricultura
+divisao:
+  codigo: '03'
+  nome: PESCA E AQÜICULTURA
+grupo:
+  codigo: '03.1'
+  nome: PESCA
+classe:
+  codigo: 0311-6
+  nome: PESCA EM ÁGUA SALGADA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,40 @@
+codigo: 1340-5/99
+codigo_slug: 1340-5-99
+codigo_numerico: '1340599'
+descricao_oficial: OUTROS SERVIÇOS DE ACABAMENTO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO
+descricao_plana: OUTROS SERVIÇOS DE ACABAMENTO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '13'
+  nome: FABRICAÇÃO DE PRODUTOS TÊXTEIS
+grupo:
+  codigo: '13.4'
+  nome: ACABAMENTOS EM FIOS, TECIDOS E ARTEFATOS TÊXTEIS
+classe:
+  codigo: 1340-5
+  nome: ACABAMENTOS EM FIOS, TECIDOS E ARTEFATOS TÊXTEIS
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: BORDADEIRO(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

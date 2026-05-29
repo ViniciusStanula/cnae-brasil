@@ -1,0 +1,60 @@
+codigo: 7319-0/03
+codigo_slug: 7319-0-03
+codigo_numerico: '7319003'
+descricao_oficial: MARKETING DIRETO
+descricao_plana: >-
+  Marketing direto: serviços de comunicação que se dirigem diretamente ao consumidor final, incluindo email marketing,
+  SMS marketing, telemarketing ativo, mala direta e campanhas digitais personalizadas.
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '73'
+  nome: PUBLICIDADE E PESQUISA DE MERCADO
+grupo:
+  codigo: '73.1'
+  nome: PUBLICIDADE
+classe:
+  codigo: 7319-0
+  nome: ATIVIDADES DE PUBLICIDADE NÃO ESPECIFICADAS ANTERIORMENTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Agência de email marketing
+  - Empresa de telemarketing ativo
+  - Operadora de mala direta digital
+  - Startup de automação de marketing
+o_que_inclui:
+  - Envio de email marketing e newsletters
+  - SMS e notificações push em massa
+  - Telemarketing de prospecção
+  - Mala direta física e digital
+  - Automação de marketing (marketing automation)
+o_que_nao_inclui:
+  - Publicidade em geral — use CNAE 7311-4/00
+  - Gestão de redes sociais — use CNAE 7319-0/99
+  - Pesquisa de mercado — use CNAE 7320-3/00
+licencas_comuns:
+  - Cadastro na Receita Federal (CNPJ)
+  - Conformidade com LGPD (Lei 13.709/2018)
+  - Registro na ABRAREC/ABT se telemarketing
+cnaes_relacionados:
+  - 7311-4/00
+  - 7319-0/99
+  - 7320-3/00
+  - 6311-9/00
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

@@ -1,0 +1,62 @@
+codigo: 5620-1/01
+codigo_slug: 5620-1-01
+codigo_numerico: '5620101'
+descricao_oficial: FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA EMPRESAS
+descricao_plana: >-
+  Fornecimento de alimentos preparados para empresas (catering): serviço de produção e entrega de refeições para
+  empresas, cantinas corporativas, escolas e outros estabelecimentos que precisam alimentar grupos de pessoas.
+secao:
+  letra: I
+  slug: alojamento-alimentacao
+  nome: Alojamento e alimentação
+  nome_curto: Alimentação
+divisao:
+  codigo: '56'
+  nome: ALIMENTAÇÃO
+grupo:
+  codigo: '56.2'
+  nome: SERVIÇOS DE CATERING, BUFÊ E OUTROS SERVIÇOS DE COMIDA PREPARADA
+classe:
+  codigo: 5620-1
+  nome: SERVIÇOS DE CATERING, BUFÊ E OUTROS SERVIÇOS DE COMIDA PREPARADA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FORNECEDOR(A) DE ALIMENTOS PREPARADOS PARA EMPRESAS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Empresa de catering e fornecimento de marmitas corporativas
+  - Fornecedora de refeições para escolas
+  - Cozinha industrial para eventos
+  - Bufê especializado em refeições empresariais
+o_que_inclui:
+  - Fornecimento de refeições prontas para empresas
+  - Gestão de cantinas corporativas
+  - Produção de marmitas em escala para distribuição
+  - Catering para eventos corporativos e sociais
+o_que_nao_inclui:
+  - Restaurante com atendimento presencial no local — use CNAE 5611-2/01
+  - Delivery de restaurante comum — use CNAE 5611-2/01
+  - Bufê de festas (organização de eventos) — use CNAE 8230-0/01
+licencas_comuns:
+  - Licença sanitária com APPCC (Análise de Perigos e Pontos Críticos)
+  - Registro no MAPA ou SIF para produção em escala
+  - Alvará de funcionamento
+  - Vigilância Sanitária municipal
+cnaes_relacionados:
+  - 5611-2/01
+  - 5620-1/02
+  - 5620-1/03
+  - 8230-0/01
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

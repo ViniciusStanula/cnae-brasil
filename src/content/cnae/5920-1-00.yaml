@@ -1,0 +1,38 @@
+codigo: 5920-1/00
+codigo_slug: 5920-1-00
+codigo_numerico: '5920100'
+descricao_oficial: ATIVIDADES DE GRAVAÇÃO DE SOM E DE EDIÇÃO DE MÚSICA
+descricao_plana: ATIVIDADES DE GRAVAÇÃO DE SOM E DE EDIÇÃO DE MÚSICA
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '59'
+  nome: ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO; GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA
+grupo:
+  codigo: '59.2'
+  nome: ATIVIDADES DE GRAVAÇÃO DE SOM E DE EDIÇÃO DE MÚSICA
+classe:
+  codigo: 5920-1
+  nome: ATIVIDADES DE GRAVAÇÃO DE SOM E DE EDIÇÃO DE MÚSICA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

@@ -1,0 +1,40 @@
+codigo: 9102-3/02
+codigo_slug: 9102-3-02
+codigo_numerico: '9102302'
+descricao_oficial: RESTAURAÇÃO E CONSERVAÇÃO DE LUGARES E PRÉDIOS HISTÓRICOS
+descricao_plana: RESTAURAÇÃO E CONSERVAÇÃO DE LUGARES E PRÉDIOS HISTÓRICOS
+secao:
+  letra: R
+  slug: artes-cultura-esporte
+  nome: Artes, cultura, esporte e recreação
+  nome_curto: Cultura e Esporte
+divisao:
+  codigo: '91'
+  nome: ATIVIDADES LIGADAS AO PATRIMÔNIO CULTURAL E AMBIENTAL
+grupo:
+  codigo: '91.0'
+  nome: ATIVIDADES LIGADAS AO PATRIMÔNIO CULTURAL E AMBIENTAL
+classe:
+  codigo: 9102-3
+  nome: >-
+    ATIVIDADES DE MUSEUS E DE EXPLORAÇÃO, RESTAURAÇÃO ARTÍSTICA E CONSERVAÇÃO DE LUGARES E PRÉDIOS HISTÓRICOS E ATRAÇÕES
+    SIMILARES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

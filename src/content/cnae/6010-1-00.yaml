@@ -1,0 +1,38 @@
+codigo: 6010-1/00
+codigo_slug: 6010-1-00
+codigo_numerico: '6010100'
+descricao_oficial: ATIVIDADES DE RÁDIO
+descricao_plana: ATIVIDADES DE RÁDIO
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '60'
+  nome: ATIVIDADES DE RÁDIO E DE TELEVISÃO
+grupo:
+  codigo: '60.1'
+  nome: ATIVIDADES DE RÁDIO
+classe:
+  codigo: 6010-1
+  nome: ATIVIDADES DE RÁDIO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

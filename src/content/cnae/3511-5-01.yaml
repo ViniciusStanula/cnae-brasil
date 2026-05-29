@@ -1,0 +1,71 @@
+codigo: 3511-5/01
+codigo_slug: 3511-5-01
+codigo_numerico: '3511501'
+descricao_oficial: GERAÇÃO DE ENERGIA ELÉTRICA
+descricao_plana: >-
+  Empresas que produzem energia elétrica a partir de fontes como água, sol, vento, gás ou outras, antes de ela chegar às
+  linhas de transmissão.
+secao:
+  letra: D
+  slug: eletricidade-gas-agua
+  nome: Eletricidade, gás, vapor e ar condicionado
+  nome_curto: Energia
+divisao:
+  codigo: '35'
+  nome: ELETRICIDADE, GÁS E OUTRAS UTILIDADES
+grupo:
+  codigo: '35.1'
+  nome: GERAÇÃO, TRANSMISSÃO E DISTRIBUIÇÃO DE ENERGIA ELÉTRICA
+classe:
+  codigo: 3511-5
+  nome: GERAÇÃO DE ENERGIA ELÉTRICA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Usina hidrelétrica de pequeno, médio ou grande porte
+  - Parque de geração de energia solar fotovoltaica em escala comercial
+  - Parque eólico para geração e venda de energia elétrica
+  - Usina termelétrica movida a gás natural ou biomassa
+  - Pequena Central Hidrelétrica (PCH) com venda de energia ao sistema
+  - Usina de geração de energia a partir de biogás ou resíduos sólidos
+o_que_inclui:
+  - Geração de energia elétrica por fonte hídrica (hidrelétricas e PCHs)
+  - Geração de energia elétrica por fonte solar fotovoltaica em escala de usina
+  - Geração de energia elétrica por fonte eólica
+  - Geração de energia elétrica por fonte termelétrica (gás, biomassa, carvão, óleo)
+  - Geração de energia elétrica por fonte nuclear
+  - Operação e manutenção das instalações de geração dentro do próprio empreendimento
+o_que_nao_inclui:
+  - Coordenação e controle da operação de geração e transmissão de energia (use CNAE 3511-5/02)
+  - Transmissão de energia elétrica pelas linhas de alta tensão (use CNAE 3512-3/00)
+  - Distribuição de energia elétrica até o consumidor final (use CNAE 3513-1/00)
+  - Comercialização e corretagem de energia elétrica (use CNAE 3514-0/00)
+  - Instalação de painéis solares em residências ou empresas como serviço (use CNAE 4321-5/00)
+licencas_comuns:
+  - Licença ambiental (prévia, de instalação e de operação) emitida pelo órgão ambiental competente
+  - Autorização ou concessão setorial do órgão regulador federal de energia elétrica
+  - Licença ou autorização municipal de funcionamento do empreendimento
+  - Outorga de uso de recursos hídricos, quando aplicável à fonte geradora
+cnaes_relacionados:
+  - 3511-5/02
+  - 3512-3/00
+  - 3513-1/00
+  - 3514-0/00
+  - 3520-4/01
+  - 3520-4/02
+  - 3530-1/00
+  - 3600-6/01
+  - 3900-5/00
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:51:45.060Z'

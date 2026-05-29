@@ -1,0 +1,38 @@
+codigo: 2110-6/00
+codigo_slug: 2110-6-00
+codigo_numerico: '2110600'
+descricao_oficial: FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS
+descricao_plana: FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '21'
+  nome: FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS E FARMACÊUTICOS
+grupo:
+  codigo: '21.1'
+  nome: FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS
+classe:
+  codigo: 2110-6
+  nome: FABRICAÇÃO DE PRODUTOS FARMOQUÍMICOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

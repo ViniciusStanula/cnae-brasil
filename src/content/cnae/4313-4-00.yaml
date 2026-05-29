@@ -1,0 +1,59 @@
+﻿codigo: 4313-4/00
+codigo_slug: 4313-4-00
+codigo_numerico: '4313400'
+descricao_oficial: OBRAS DE TERRAPLENAGEM
+descricao_plana: >-
+  Obras de terraplanagem: serviços de movimentação de terra, nivelamento de terrenos, corte e aterro para preparação de
+  obras civis, loteamentos e estradas.
+secao:
+  letra: F
+  slug: construcao
+  nome: Construção
+  nome_curto: Construção
+divisao:
+  codigo: '43'
+  nome: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO
+grupo:
+  codigo: '43.1'
+  nome: DEMOLIÇÃO E PREPARAÇÃO DO TERRENO
+classe:
+  codigo: 4313-4
+  nome: OBRAS DE TERRAPLENAGEM
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: IV
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Empresa de terraplanagem e nivelamento
+  - Construtora especializada em obras de terra
+  - Prestador de serviços de escavação e aterro
+o_que_inclui:
+  - Corte e aterro de terreno
+  - Nivelamento e compactação
+  - Escavação de fundações
+  - Drenagem superficial
+  - Preparação de leito de estradas
+o_que_nao_inclui:
+  - Perfuração de poços — use CNAE 0990-4/01
+  - Construção de estradas concluída — use CNAE 4211-1/01
+  - Demolição de edificações — use CNAE 4311-9/01
+licencas_comuns:
+  - Licença ambiental (LP/LI) conforme porte da obra
+  - ART (Anotação de Responsabilidade Técnica) do CREA
+  - Alvará de obras da Prefeitura
+cnaes_relacionados:
+  - 4311-9/01
+  - 4311-9/02
+  - 4312-6/00
+  - 4211-1/01
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

@@ -1,0 +1,70 @@
+﻿codigo: 4711-3/02
+codigo_slug: 4711-3-02
+codigo_numerico: '4711302'
+descricao_oficial: COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - SUPERMERCADOS
+descricao_plana: >-
+  Supermercado que vende principalmente alimentos e produtos de uso doméstico em geral, com área de vendas menor que a
+  de um hipermercado.
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '47'
+  nome: COMÉRCIO VAREJISTA
+grupo:
+  codigo: '47.1'
+  nome: COMÉRCIO VAREJISTA NÃO-ESPECIALIZADO
+classe:
+  codigo: 4711-3
+  nome: >-
+    COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - HIPERMERCADOS E
+    SUPERMERCADOS
+mei:
+  permitido: false
+  fonte: Atividades Permitidas para MEI — contabilizei.com.br (baseado em Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-24'
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Supermercado de bairro com seções de hortifruti, açougue e mercearia
+  - Rede local de supermercados com até 5 lojas
+  - Supermercado compacto em galeria comercial urbana
+  - Mercado de vizinhança com checkout e variedade de marcas
+  - Supermercado familiar com seção de frios, laticínios e limpeza
+o_que_inclui:
+  - 'Venda de alimentos em geral: hortifruti, carnes, laticínios, frios, mercearia seca e bebidas'
+  - Venda de produtos de limpeza, higiene pessoal e itens de uso doméstico como complemento à oferta alimentícia
+  - Operação de seções internas como açougue, padaria e peixaria dentro do próprio supermercado
+  - Venda de produtos embalados e a granel no balcão ou em gôndolas de autoatendimento
+  - Comercialização de itens de bazar e utilidades domésticas como atividade secundária ao mix alimentício
+o_que_nao_inclui:
+  - Hipermercados com mix amplo de não-alimentos como eletrodomésticos e vestuário (use CNAE 4711-3/01)
+  - Lojas especializadas exclusivamente em produtos naturais ou orgânicos (use CNAE 4729-6/99)
+  - Padaria com produção própria de pães como atividade principal (use CNAE 1091-1/01)
+  - Açougue independente sem mix de supermercado (use CNAE 4722-9/01)
+  - Mercearia ou armazém de pequeno porte sem estrutura de supermercado (use CNAE 4712-1/00)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Alvará sanitário
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença ambiental
+cnaes_relacionados:
+  - 4711-3/01
+  - 4712-1/00
+  - 4721-1/02
+  - 4722-9/01
+  - 4722-9/02
+  - 4729-6/99
+  - 4637-1/07
+  - 4691-5/00
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2026-05-22T14:49:53.116Z'

@@ -1,0 +1,38 @@
+codigo: 0891-6/00
+codigo_slug: 0891-6-00
+codigo_numerico: '0891600'
+descricao_oficial: EXTRAÇÃO DE MINERAIS PARA FABRICAÇÃO DE ADUBOS, FERTILIZANTES E OUTROS PRODUTOS QUÍMICOS
+descricao_plana: EXTRAÇÃO DE MINERAIS PARA FABRICAÇÃO DE ADUBOS, FERTILIZANTES E OUTROS PRODUTOS QUÍMICOS
+secao:
+  letra: B
+  slug: industrias-extrativas
+  nome: Indústrias extrativas
+  nome_curto: Extrativa
+divisao:
+  codigo: '08'
+  nome: EXTRAÇÃO DE MINERAIS NÃO-METÁLICOS
+grupo:
+  codigo: '08.9'
+  nome: EXTRAÇÃO DE OUTROS MINERAIS NÃO-METÁLICOS
+classe:
+  codigo: 0891-6
+  nome: EXTRAÇÃO DE MINERAIS PARA FABRICAÇÃO DE ADUBOS, FERTILIZANTES E OUTROS PRODUTOS QUÍMICOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

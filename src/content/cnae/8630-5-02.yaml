@@ -1,0 +1,38 @@
+codigo: 8630-5/02
+codigo_slug: 8630-5-02
+codigo_numerico: '8630502'
+descricao_oficial: ATIVIDADE MÉDICA AMBULATORIAL COM RECURSOS PARA REALIZAÇÃO DE EXAMES COMPLEMENTARES
+descricao_plana: ATIVIDADE MÉDICA AMBULATORIAL COM RECURSOS PARA REALIZAÇÃO DE EXAMES COMPLEMENTARES
+secao:
+  letra: Q
+  slug: saude-servicos-sociais
+  nome: Saúde humana e serviços sociais
+  nome_curto: Saúde
+divisao:
+  codigo: '86'
+  nome: ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA
+grupo:
+  codigo: '86.3'
+  nome: ATIVIDADES DE ATENÇÃO AMBULATORIAL EXECUTADAS POR MÉDICOS E ODONTÓLOGOS
+classe:
+  codigo: 8630-5
+  nome: ATIVIDADES DE ATENÇÃO AMBULATORIAL EXECUTADAS POR MÉDICOS E ODONTÓLOGOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

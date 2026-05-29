@@ -1,0 +1,72 @@
+codigo: 4772-5/00
+codigo_slug: 4772-5-00
+codigo_numerico: '4772500'
+descricao_oficial: COMÉRCIO VAREJISTA DE COSMÉTICOS, PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL
+descricao_plana: >-
+  Venda no varejo de produtos como perfumes, maquiagem, cremes, shampoos, sabonetes e itens de higiene pessoal para o
+  consumidor final.
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '47'
+  nome: COMÉRCIO VAREJISTA
+grupo:
+  codigo: '47.7'
+  nome: COMÉRCIO VAREJISTA DE PRODUTOS FARMACÊUTICOS, PERFUMARIA E COSMÉTICOS E ARTIGOS MÉDICOS, ÓPTICOS E ORTOPÉDICOS
+classe:
+  codigo: 4772-5
+  nome: COMÉRCIO VAREJISTA DE COSMÉTICOS, PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: COMERCIANTE DE COSMÉTICOS E ARTIGOS DE PERFUMARIA INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Loja de cosméticos e maquiagem
+  - Perfumaria independente
+  - Loja de produtos capilares e tratamentos para cabelo
+  - Empório de produtos naturais de beleza e higiene
+  - Revendedor autônomo de cosméticos (MEI)
+  - Loja especializada em produtos de higiene pessoal importados
+o_que_inclui:
+  - Venda de perfumes, colônias e águas de toilette
+  - Comercialização de maquiagem e produtos de beleza em geral
+  - Venda de shampoos, condicionadores e produtos para tratamento capilar
+  - Comercialização de cremes hidratantes, protetores solares e loções corporais
+  - Venda de sabonetes, desodorantes e outros itens de higiene pessoal
+  - Venda de esmaltes, removedores e produtos para cuidados com as unhas
+o_que_nao_inclui:
+  - Fabricação de cosméticos e produtos de higiene pessoal (use CNAE 2063-1/00)
+  - Venda de medicamentos, vitaminas e suplementos farmacêuticos (use CNAE 4771-7/01)
+  - Serviços de cabeleireiro, manicure ou estética com aplicação dos produtos (use CNAE 9602-5/01)
+  - Comércio varejista de artigos médicos e ortopédicos (use CNAE 4773-3/00)
+  - Venda de produtos de limpeza doméstica e saneantes (use CNAE 4789-0/05)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Alvará sanitário (vigilância sanitária municipal ou estadual)
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Cadastro na Anvisa para estabelecimentos que comercializam cosméticos
+cnaes_relacionados:
+  - 4771-7/01
+  - 4771-7/02
+  - 4773-3/00
+  - 4774-1/00
+  - 2063-1/00
+  - 4789-0/05
+  - 9602-5/01
+  - 4713-0/02
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:52:48.355Z'

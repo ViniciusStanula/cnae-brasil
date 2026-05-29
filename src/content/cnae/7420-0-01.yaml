@@ -1,0 +1,73 @@
+codigo: 7420-0/01
+codigo_slug: 7420-0-01
+codigo_numerico: '7420001'
+descricao_oficial: ATIVIDADES DE PRODUÇÃO DE FOTOGRAFIAS, EXCETO AÉREA E SUBMARINA
+descricao_plana: >-
+  Serviço de fotografia em geral — retratos, eventos, moda, publicidade e outros tipos, exceto fotos aéreas e
+  submarinas.
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '74'
+  nome: OUTRAS ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS
+grupo:
+  codigo: '74.2'
+  nome: ATIVIDADES FOTOGRÁFICAS E SIMILARES
+classe:
+  codigo: 7420-0
+  nome: ATIVIDADES FOTOGRÁFICAS E SIMILARES
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: FOTÓGRAFO(A) INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Estúdio de fotografia de retratos e família
+  - Fotógrafo de casamentos e festas (pessoa jurídica)
+  - Estúdio de fotografia publicitária e de produtos
+  - Fotógrafo de moda e editorial
+  - Estúdio de fotografia escolar
+  - Fotógrafo de eventos corporativos
+o_que_inclui:
+  - Fotografia de retratos, famílias e ensaios pessoais em estúdio ou externa
+  - Fotografia de casamentos, formaturas e eventos sociais
+  - Fotografia publicitária, de produtos e para e-commerce
+  - Fotografia de moda, editorial e campanhas
+  - Fotografia escolar e de identificação
+  - Fotografia jornalística e documental realizada em terra
+  - Edição e tratamento de imagens como parte do serviço fotográfico contratado
+o_que_nao_inclui:
+  - Fotografia aérea (com drones ou aeronaves) e fotografia submarina (use CNAE 7420-0/02)
+  - Revelação, impressão e ampliação de fotos em laboratório (use CNAE 7420-0/03)
+  - Filmagem de festas e eventos em vídeo (use CNAE 7420-0/04)
+  - Serviços de microfilmagem de documentos (use CNAE 7420-0/05)
+  - Produção de filmes e vídeos publicitários (use CNAE 5911-1/02)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - AVCB (Auto de Vistoria do Corpo de Bombeiros), quando há estúdio físico com atendimento ao público
+  - Alvará sanitário, quando aplicável ao município para estúdios com atendimento presencial
+  - Registro na Receita Federal como MEI ou empresa, conforme o porte
+cnaes_relacionados:
+  - 7420-0/02
+  - 7420-0/03
+  - 7420-0/04
+  - 7420-0/05
+  - 5911-1/02
+  - 7319-0/02
+  - 7410-2/02
+  - 9001-9/03
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:54:11.039Z'

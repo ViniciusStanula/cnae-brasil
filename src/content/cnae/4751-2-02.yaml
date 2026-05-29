@@ -1,0 +1,42 @@
+codigo: 4751-2/02
+codigo_slug: 4751-2-02
+codigo_numerico: '4751202'
+descricao_oficial: RECARGA DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA
+descricao_plana: RECARGA DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '47'
+  nome: COMÉRCIO VAREJISTA
+grupo:
+  codigo: '47.5'
+  nome: COMÉRCIO VAREJISTA DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO; EQUIPAMENTOS E ARTIGOS DE USO DOMÉSTICO
+classe:
+  codigo: 4751-2
+  nome: COMÉRCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMÁTICA
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: true
+  notes_internal: >-
+    FALSE POSITIVE FLAGGED: not found in gov.br scrape on 2026-05-22. Review needed — verify against current CGSN
+    resolutions.
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

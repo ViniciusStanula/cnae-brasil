@@ -1,0 +1,70 @@
+codigo: 5911-1/01
+codigo_slug: 5911-1-01
+codigo_numerico: '5911101'
+descricao_oficial: ESTÚDIOS CINEMATOGRÁFICOS
+descricao_plana: >-
+  Empresa que possui estrutura física de estúdio para gravação e produção de filmes, séries, programas de TV e vídeos,
+  oferecendo o espaço e equipamentos para produções audiovisuais.
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '59'
+  nome: ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO; GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA
+grupo:
+  codigo: '59.1'
+  nome: ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO
+classe:
+  codigo: 5911-1
+  nome: ATIVIDADES DE PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Estúdio cinematográfico com sets de filmagem para locação
+  - Estúdio de produção audiovisual com infraestrutura técnica completa
+  - Estúdio de gravação de conteúdo para streaming e plataformas digitais
+  - Estúdio de produção de séries e longas-metragens
+  - Estúdio com cenários e equipamentos para produções de televisão
+o_que_inclui:
+  - Operação de espaço físico equipado para gravação de filmes e produções audiovisuais
+  - Disponibilização de sets, cenários e infraestrutura técnica para filmagens
+  - Produção de filmes de ficção, documentários e conteúdo audiovisual em geral
+  - Gravação de programas de televisão em estúdio próprio
+  - Produção de vídeos institucionais e de entretenimento dentro da estrutura do estúdio
+  - Serviços de iluminação, sonorização e suporte técnico integrados à operação do estúdio
+o_que_nao_inclui:
+  - Produção de filmes exclusivamente para fins publicitários (use CNAE 5911-1/02)
+  - Atividades de produção cinematográfica ou de vídeo sem estrutura de estúdio próprio (use CNAE 5911-1/99)
+  - Distribuição e comercialização de filmes e conteúdo audiovisual (use CNAE 5912-0/01)
+  - Exibição de filmes em salas de cinema (use CNAE 5914-6/00)
+  - Gravação de música e produção de álbuns sonoros (use CNAE 5920-1/00)
+licencas_comuns:
+  - Alvará municipal de funcionamento
+  - Auto de Vistoria do Corpo de Bombeiros (AVCB)
+  - Licença de uso e ocupação do solo
+  - Cadastro em órgão de regulação do setor audiovisual
+cnaes_relacionados:
+  - 5911-1/02
+  - 5911-1/99
+  - 5912-0/01
+  - 5912-0/02
+  - 5913-8/00
+  - 5914-6/00
+  - 5920-1/00
+  - 7420-0/01
+  - 9001-9/01
+enriched: true
+last_reviewed: '2026-05-22'
+data_year: 2024
+enriched_at: '2026-05-22T14:53:16.535Z'

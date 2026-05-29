@@ -1,0 +1,38 @@
+codigo: 2061-4/00
+codigo_slug: 2061-4-00
+codigo_numerico: '2061400'
+descricao_oficial: FABRICAÇÃO DE SABÕES E DETERGENTES SINTÉTICOS
+descricao_plana: FABRICAÇÃO DE SABÕES E DETERGENTES SINTÉTICOS
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '20'
+  nome: FABRICAÇÃO DE PRODUTOS QUÍMICOS
+grupo:
+  codigo: '20.6'
+  nome: FABRICAÇÃO DE SABÕES, DETERGENTES, PRODUTOS DE LIMPEZA, COSMÉTICOS, PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL
+classe:
+  codigo: 2061-4
+  nome: FABRICAÇÃO DE SABÕES E DETERGENTES SINTÉTICOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

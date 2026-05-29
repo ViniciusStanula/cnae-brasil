@@ -1,0 +1,60 @@
+codigo: 7410-2/02
+codigo_slug: 7410-2-02
+codigo_numerico: '7410202'
+descricao_oficial: DESIGN DE INTERIORES
+descricao_plana: >-
+  Design de interiores: serviços de projeto e execução de ambientes internos residenciais, comerciais e corporativos,
+  incluindo planejamento de layout, seleção de materiais, iluminação e decoração.
+secao:
+  letra: M
+  slug: atividades-profissionais
+  nome: Atividades profissionais, científicas e técnicas
+  nome_curto: Profissionais
+divisao:
+  codigo: '74'
+  nome: OUTRAS ATIVIDADES PROFISSIONAIS, CIENTÍFICAS E TÉCNICAS
+grupo:
+  codigo: '74.1'
+  nome: DESIGN E DECORAÇÃO DE INTERIORES
+classe:
+  codigo: 7410-2
+  nome: DESIGN E DECORAÇÃO DE INTERIORES
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: V
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Escritório de design de interiores
+  - Designer de interiores autônomo
+  - Studio de arquitetura de interiores
+  - Decoradora de festas e eventos
+o_que_inclui:
+  - Projeto de interiores residenciais
+  - Design de espaços corporativos
+  - Seleção e especificação de materiais
+  - Coordenação de execução da obra de interiores
+  - Consultoria de decoração
+o_que_nao_inclui:
+  - Arquitetura (projeto estrutural) — use CNAE 7111-1/00
+  - Design gráfico — use CNAE 7410-2/01
+  - Loja de móveis e decoração — use CNAE 4754-7/01
+licencas_comuns:
+  - Registro no CAU (Conselho de Arquitetura e Urbanismo) se arquiteto
+  - Registro na ABD (Associação Brasileira de Design de Interiores) — opcional
+  - ART ou RRT para projetos que envolvem estrutura
+cnaes_relacionados:
+  - 7111-1/00
+  - 7410-2/01
+  - 4754-7/01
+  - 4759-8/01
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

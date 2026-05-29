@@ -1,0 +1,38 @@
+codigo: 4713-0/05
+codigo_slug: 4713-0-05
+codigo_numerico: '4713005'
+descricao_oficial: LOJAS FRANCAS (DUTY FREE) DE AEROPORTOS, PORTOS E EM FRONTEIRAS TERRESTRES
+descricao_plana: LOJAS FRANCAS (DUTY FREE) DE AEROPORTOS, PORTOS E EM FRONTEIRAS TERRESTRES
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '47'
+  nome: COMÉRCIO VAREJISTA
+grupo:
+  codigo: '47.1'
+  nome: COMÉRCIO VAREJISTA NÃO-ESPECIALIZADO
+classe:
+  codigo: 4713-0
+  nome: COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, SEM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

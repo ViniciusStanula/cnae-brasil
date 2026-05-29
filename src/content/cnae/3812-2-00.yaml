@@ -1,0 +1,38 @@
+codigo: 3812-2/00
+codigo_slug: 3812-2-00
+codigo_numerico: '3812200'
+descricao_oficial: COLETA DE RESÍDUOS PERIGOSOS
+descricao_plana: COLETA DE RESÍDUOS PERIGOSOS
+secao:
+  letra: E
+  slug: agua-esgoto-residuos
+  nome: Água, esgoto, atividades de gestão de resíduos e descontaminação
+  nome_curto: Saneamento
+divisao:
+  codigo: '38'
+  nome: COLETA, TRATAMENTO E DISPOSIÇÃO DE RESÍDUOS; RECUPERAÇÃO DE MATERIAIS
+grupo:
+  codigo: '38.1'
+  nome: COLETA DE RESÍDUOS
+classe:
+  codigo: 3812-2
+  nome: COLETA DE RESÍDUOS PERIGOSOS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: nao_aplicavel
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

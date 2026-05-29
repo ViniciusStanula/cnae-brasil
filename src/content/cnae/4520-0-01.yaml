@@ -1,0 +1,67 @@
+codigo: 4520-0/01
+codigo_slug: 4520-0-01
+codigo_numerico: '4520001'
+descricao_oficial: SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO MECÂNICA DE VEÍCULOS AUTOMOTORES
+descricao_plana: >-
+  Manutenção e reparação de automóveis: serviços mecânicos, elétricas e gerais de manutenção em carros de passeio e
+  veículos leves. Inclui conserto de motor, freios, suspensão e revisões programadas.
+secao:
+  letra: G
+  slug: comercio
+  nome: Comércio; reparação de veículos automotores e motocicletas
+  nome_curto: Comércio
+divisao:
+  codigo: '45'
+  nome: COMÉRCIO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS
+grupo:
+  codigo: '45.2'
+  nome: MANUTENÇÃO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES
+classe:
+  codigo: 4520-0
+  nome: MANUTENÇÃO E REPARAÇÃO DE VEÍCULOS AUTOMOTORES
+mei:
+  permitido: true
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  ocupacao_oficial: MECÂNICO(A) DE VEÍCULOS INDEPENDENTE
+  conflito_pendente: false
+simples_nacional:
+  anexo: I
+natureza_juridica_recomendada:
+  - mei
+  - me
+  - epp
+  - ltda
+exemplos_negocios:
+  - Oficina mecânica geral
+  - Mecânica especializada em injeção eletrônica
+  - Elétrica de automóveis
+  - Centro de revisões automotivas
+o_que_inclui:
+  - Reparação e revisão de motor
+  - Serviços de freios e suspensão
+  - Elétrica automotiva
+  - Troca de óleo e filtros
+  - Diagnóstico eletrônico (scanner)
+  - Ar-condicionado automotivo
+o_que_nao_inclui:
+  - Funilaria e pintura — use CNAE 4520-0/02
+  - Troca de pneus e alinhamento — use CNAE 4530-7/03
+  - Reparação de caminhões e ônibus — use CNAE 4520-0/04
+  - Reparação de motos — use CNAE 4542-1/01
+licencas_comuns:
+  - Alvará de funcionamento (Prefeitura)
+  - Licença ambiental (para descarte de óleo e fluidos)
+  - Registro no DETRAN em alguns estados
+  - Certificado de corpo de bombeiros (AVCB)
+cnaes_relacionados:
+  - 4520-0/02
+  - 4520-0/03
+  - 4520-0/05
+  - 4530-7/01
+  - 4530-7/03
+  - 4542-1/01
+enriched: true
+last_reviewed: '2025-01-15'
+data_year: 2024
+enriched_at: '2025-01-15'

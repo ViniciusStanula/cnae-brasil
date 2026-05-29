@@ -1,0 +1,38 @@
+codigo: 1081-3/01
+codigo_slug: 1081-3-01
+codigo_numerico: '1081301'
+descricao_oficial: BENEFICIAMENTO DE CAFÉ
+descricao_plana: BENEFICIAMENTO DE CAFÉ
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '10'
+  nome: FABRICAÇÃO DE PRODUTOS ALIMENTÍCIOS
+grupo:
+  codigo: '10.8'
+  nome: TORREFAÇÃO E MOAGEM DE CAFÉ
+classe:
+  codigo: 1081-3
+  nome: TORREFAÇÃO E MOAGEM DE CAFÉ
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

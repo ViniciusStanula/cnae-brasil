@@ -1,0 +1,38 @@
+codigo: 1830-0/02
+codigo_slug: 1830-0-02
+codigo_numerico: '1830002'
+descricao_oficial: REPRODUÇÃO DE VÍDEO EM QUALQUER SUPORTE
+descricao_plana: REPRODUÇÃO DE VÍDEO EM QUALQUER SUPORTE
+secao:
+  letra: C
+  slug: industrias-de-transformacao
+  nome: Indústrias de transformação
+  nome_curto: Transformação
+divisao:
+  codigo: '18'
+  nome: IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES
+grupo:
+  codigo: '18.3'
+  nome: REPRODUÇÃO DE MATERIAIS GRAVADOS EM QUALQUER SUPORTE
+classe:
+  codigo: 1830-0
+  nome: REPRODUÇÃO DE MATERIAIS GRAVADOS EM QUALQUER SUPORTE
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: II
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

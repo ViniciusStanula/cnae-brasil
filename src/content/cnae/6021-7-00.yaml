@@ -1,0 +1,38 @@
+codigo: 6021-7/00
+codigo_slug: 6021-7-00
+codigo_numerico: '6021700'
+descricao_oficial: ATIVIDADES DE TELEVISÃO ABERTA
+descricao_plana: ATIVIDADES DE TELEVISÃO ABERTA
+secao:
+  letra: J
+  slug: informacao-comunicacao
+  nome: Informação e comunicação
+  nome_curto: TI e Comunicação
+divisao:
+  codigo: '60'
+  nome: ATIVIDADES DE RÁDIO E DE TELEVISÃO
+grupo:
+  codigo: '60.2'
+  nome: ATIVIDADES DE TELEVISÃO
+classe:
+  codigo: 6021-7
+  nome: ATIVIDADES DE TELEVISÃO ABERTA
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

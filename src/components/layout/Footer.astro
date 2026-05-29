@@ -1,0 +1,42 @@
+---
+import { SITE_NAME, SITE_TAGLINE, CNAE_VERSION, MEI_FONTE, LAST_REVIEWED_DEFAULT } from '../../lib/constants.js';
+---
+
+<footer class="bg-gray-900 text-gray-300 mt-16">
+  <div class="max-w-5xl mx-auto px-4 py-10">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+      <div>
+        <p class="font-bold text-white text-lg mb-1">{SITE_NAME}</p>
+        <p class="text-sm">{SITE_TAGLINE}</p>
+        <p class="text-xs mt-2 text-gray-400">Dados baseados em CNAE {CNAE_VERSION} — IBGE</p>
+      </div>
+      <div>
+        <p class="font-semibold text-white mb-2">Explorar</p>
+        <ul class="space-y-1 text-sm">
+          <li><a href="/cnae/" class="hover:text-white transition-colors">Todos os CNAEs</a></li>
+          <li><a href="/mei/" class="hover:text-white transition-colors">CNAEs para MEI</a></li>
+          <li><a href="/buscar/" class="hover:text-white transition-colors">Buscar CNAE</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold text-white mb-2">Sobre</p>
+        <ul class="space-y-1 text-sm">
+          <li><a href="/sobre/" class="hover:text-white transition-colors">Sobre o site</a></li>
+          <li><a href="/metodologia/" class="hover:text-white transition-colors">Metodologia</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-700 pt-6 text-xs text-gray-500 space-y-2">
+      <p>
+        As informações deste site têm caráter informativo e de referência. Consulte um contador habilitado para
+        decisões definitivas sobre abertura de empresa, regime tributário e enquadramento MEI.
+      </p>
+      <p>
+        Fonte MEI: {MEI_FONTE}. Última revisão dos dados: {LAST_REVIEWED_DEFAULT}.
+        <a href="/metodologia/" class="underline hover:text-gray-300 ml-1">Ver metodologia</a>.
+      </p>
+      <p>© {new Date().getFullYear()} {SITE_NAME}. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>

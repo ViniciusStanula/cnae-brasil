@@ -1,0 +1,38 @@
+codigo: 7830-2/00
+codigo_slug: 7830-2-00
+codigo_numerico: '7830200'
+descricao_oficial: FORNECIMENTO E GESTÃO DE RECURSOS HUMANOS PARA TERCEIROS
+descricao_plana: FORNECIMENTO E GESTÃO DE RECURSOS HUMANOS PARA TERCEIROS
+secao:
+  letra: 'N'
+  slug: atividades-administrativas
+  nome: Atividades administrativas e serviços complementares
+  nome_curto: Administrativo
+divisao:
+  codigo: '78'
+  nome: SELEÇÃO, AGENCIAMENTO E LOCAÇÃO DE MÃO-DE-OBRA
+grupo:
+  codigo: '78.3'
+  nome: FORNECIMENTO E GESTÃO DE RECURSOS HUMANOS PARA TERCEIROS
+classe:
+  codigo: 7830-2
+  nome: FORNECIMENTO E GESTÃO DE RECURSOS HUMANOS PARA TERCEIROS
+mei:
+  permitido: false
+  fonte: Portal do Empreendedor — gov.br/empresas-e-negocios (Anexo XI da Resolução CGSN nº 140/2018 e alterações)
+  consultado_em: '2026-05-22'
+  conflito_pendente: false
+simples_nacional:
+  anexo: III
+natureza_juridica_recomendada:
+  - me
+  - epp
+  - ltda
+exemplos_negocios: []
+o_que_inclui: []
+o_que_nao_inclui: []
+licencas_comuns: []
+cnaes_relacionados: []
+enriched: false
+last_reviewed: '2026-05-22'
+data_year: 2024

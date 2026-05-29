@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import HubLayout from '../../layouts/HubLayout.astro';
+import SectionGrid from '../../components/hierarchy/SectionGrid.astro';
+import { SECOES } from '../../lib/constants.js';
+import { buildCanonical } from '../../lib/seo.js';
+import { buildBreadcrumbJsonLd, buildCollectionPageJsonLd } from '../../lib/schema-org.js';
+import { homeCrumb, cnaeCrumb } from '../../lib/breadcrumbs.js';
+
+const entries = await getCollection('cnae');
+
+const countBySecao = new Map<string, number>();
+for (const e of entries) {
+  const slug = e.data.secao.slug;
+  countBySecao.set(slug, (countBySecao.get(slug) ?? 0) + 1);
+}
+
+const secoesWithCount = SECOES.map((s) => ({
+  ...s,
+  count: countBySecao.get(s.slug) ?? 0,
+}));
+
+const title = 'Todos os CNAEs — Classificação Nacional de Atividades Econômicas | CNAE Brasil';
+const description = `Explore todos os ${entries.length} CNAEs da classificação CNAE 2.3, organizados por seção, divisão, grupo e classe. Encontre o código certo para sua atividade empresarial.`;
+const canonical = buildCanonical('/cnae/');
+const crumbs = [homeCrumb(), cnaeCrumb()];
+
+const breadcrumbJsonLd = buildBreadcrumbJsonLd(crumbs.map((c) => ({ label: c.label, href: c.href })));
+const collectionJsonLd = buildCollectionPageJsonLd(
+  'Todos os CNAEs',
+  description,
+  '/cnae/',
+  secoesWithCount.map((s) => ({ name: `Seção ${s.letra}: ${s.nome_curto}`, url: `/cnae/${s.slug}/` }))
+);
+---
+
+<HubLayout {title} {description} {canonical} {crumbs} jsonLd={[breadcrumbJsonLd, collectionJsonLd]}>
+  <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Todos os CNAEs</h1>
+  <p class="text-gray-600 mb-6">
+    {entries.length} subclasses organizadas em 21 seções. Selecione uma seção para explorar a hierarquia completa.
+  </p>
+  <SectionGrid secoes={secoesWithCount} />
+</HubLayout>
