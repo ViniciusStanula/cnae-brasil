@@ -23,3 +23,26 @@ create policy "allow service read"
   for select
   to service_role
   using (true);
+
+-- Raw server log — every single request, humans + bots
+create table public.request_logs (
+  id         bigint generated always as identity primary key,
+  path       text        not null,
+  hit_at     timestamptz not null default now(),
+  user_agent text,
+  ip         text
+);
+
+alter table public.request_logs enable row level security;
+
+create policy "allow anon insert"
+  on public.request_logs
+  for insert
+  to anon
+  with check (true);
+
+create policy "allow service read"
+  on public.request_logs
+  for select
+  to service_role
+  using (true);

@@ -82,6 +82,18 @@ async function verifyBotIp(ip: string, botName: string): Promise<boolean> {
   }
 }
 
+async function logRequest(path: string, userAgent: string, ip: string): Promise<void> {
+  await fetch(`${SUPABASE_URL}/rest/v1/request_logs`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: SUPABASE_ANON_KEY,
+      Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+    },
+    body: JSON.stringify({ path, user_agent: userAgent, ip }),
+  });
+}
+
 async function logCrawl(
   path: string,
   linkType: string | null,
@@ -114,24 +126,29 @@ export default function middleware(
 ) {
   try {
     const ua = request.headers.get('user-agent') ?? '';
-    const botName = detectBot(ua);
-    if (!botName) return next();
-
     const { pathname } = new URL(request.url);
-    const afterCnae = pathname.replace(/^\/cnae\//, '').replace(/\/$/, '');
-    const secaoSlug = afterCnae.split('/')[0];
-
-    let linkType: string | null = null;
-    if (secaoSlug) {
-      if ((HTML_SECOES as readonly string[]).includes(secaoSlug)) linkType = 'html';
-      else if ((JS_SECOES as readonly string[]).includes(secaoSlug)) linkType = 'js';
-    }
-
     const ip =
       request.headers.get('x-forwarded-for')?.split(',')[0].trim() ??
       request.headers.get('x-real-ip') ??
       '';
-    context.waitUntil(logCrawl(pathname, linkType, ua, ip, botName));
+
+    // Layer 1: raw log of every single request
+    context.waitUntil(logRequest(pathname, ua, ip));
+
+    // Layer 2: enriched bot log
+    const botName = detectBot(ua);
+    if (botName) {
+      const afterCnae = pathname.replace(/^\/cnae\//, '').replace(/\/$/, '');
+      const secaoSlug = afterCnae.split('/')[0];
+
+      let linkType: string | null = null;
+      if (secaoSlug) {
+        if ((HTML_SECOES as readonly string[]).includes(secaoSlug)) linkType = 'html';
+        else if ((JS_SECOES as readonly string[]).includes(secaoSlug)) linkType = 'js';
+      }
+
+      context.waitUntil(logCrawl(pathname, linkType, ua, ip, botName));
+    }
   } catch {
     // never block the response
   }
