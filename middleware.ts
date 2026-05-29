@@ -10,25 +10,46 @@ const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY!;
 
 // Order matters — more specific substrings first
 const BOT_PATTERNS: Array<{ match: string; name: string }> = [
-  { match: 'googlebot',     name: 'Googlebot' },
-  { match: 'bingbot',       name: 'Bingbot' },
-  { match: 'gptbot',        name: 'GPTBot' },
-  { match: 'claudebot',     name: 'ClaudeBot' },
-  { match: 'perplexitybot', name: 'PerplexityBot' },
-  { match: 'applebot',      name: 'Applebot' },
-  { match: 'duckduckbot',   name: 'DuckDuckBot' },
-  { match: 'yandexbot',     name: 'YandexBot' },
-  { match: 'bytespider',    name: 'ByteSpider' },
-  { match: 'ahrefsbot',     name: 'AhrefsBot' },
-  { match: 'semrushbot',    name: 'SemrushBot' },
-  { match: 'mj12bot',       name: 'MJ12bot' },
+  // Google
+  { match: 'googlebot',            name: 'Googlebot' },
+  { match: 'googleother',          name: 'GoogleOther' },
+  { match: 'google-inspectiontool', name: 'Google-InspectionTool' },
+  { match: 'apis-google',          name: 'APIs-Google' },
+  // Microsoft / Bing
+  { match: 'bingbot',              name: 'Bingbot' },
+  // OpenAI
+  { match: 'gptbot',               name: 'GPTBot' },
+  { match: 'oai-searchbot',        name: 'OAI-SearchBot' },
+  { match: 'chatgpt-user',         name: 'ChatGPT-User' },
+  // Anthropic
+  { match: 'claudebot',            name: 'ClaudeBot' },
+  { match: 'anthropic-ai',         name: 'Anthropic-AI' },
+  // Other AI
+  { match: 'perplexitybot',        name: 'PerplexityBot' },
+  { match: 'cohere-ai',            name: 'Cohere-AI' },
+  { match: 'bytespider',           name: 'ByteSpider' },
+  // Search engines
+  { match: 'applebot',             name: 'Applebot' },
+  { match: 'duckduckbot',          name: 'DuckDuckBot' },
+  { match: 'yandexbot',            name: 'YandexBot' },
+  // Social
+  { match: 'facebookexternalhit',  name: 'FacebookBot' },
+  { match: 'twitterbot',           name: 'TwitterBot' },
+  // SEO tools
+  { match: 'ahrefsbot',            name: 'AhrefsBot' },
+  { match: 'semrushbot',           name: 'SemrushBot' },
+  { match: 'mj12bot',              name: 'MJ12bot' },
 ];
+
+// Fallback: catch any unknown crawler so nothing slips through
+const BOT_FALLBACK = /bot|crawler|spider/i;
 
 function detectBot(ua: string): string | null {
   const lower = ua.toLowerCase();
   for (const { match, name } of BOT_PATTERNS) {
     if (lower.includes(match)) return name;
   }
+  if (BOT_FALLBACK.test(ua)) return 'UnknownBot';
   return null;
 }
 
