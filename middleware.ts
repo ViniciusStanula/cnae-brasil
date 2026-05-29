@@ -82,7 +82,7 @@ async function verifyBotIp(ip: string, botName: string): Promise<boolean> {
   }
 }
 
-async function logRequest(path: string, userAgent: string, ip: string): Promise<void> {
+async function logRequest(path: string, userAgent: string, ip: string, referer: string | null): Promise<void> {
   await fetch(`${SUPABASE_URL}/rest/v1/request_logs`, {
     method: 'POST',
     headers: {
@@ -90,7 +90,7 @@ async function logRequest(path: string, userAgent: string, ip: string): Promise<
       apikey: SUPABASE_ANON_KEY,
       Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
     },
-    body: JSON.stringify({ path, user_agent: userAgent, ip }),
+    body: JSON.stringify({ path, user_agent: userAgent, ip, referer }),
   });
 }
 
@@ -100,6 +100,7 @@ async function logCrawl(
   userAgent: string,
   ip: string,
   botName: string,
+  referer: string | null,
 ): Promise<void> {
   const verified = await verifyBotIp(ip, botName);
   await fetch(`${SUPABASE_URL}/rest/v1/crawl_logs`, {
@@ -115,6 +116,7 @@ async function logCrawl(
       user_agent: userAgent,
       ip,
       bot_name: botName,
+      referer,
       verified,
     }),
   });
@@ -131,9 +133,10 @@ export default function middleware(
       request.headers.get('x-forwarded-for')?.split(',')[0].trim() ??
       request.headers.get('x-real-ip') ??
       '';
+    const referer = request.headers.get('referer');
 
     // Layer 1: raw log of every single request
-    context.waitUntil(logRequest(pathname, ua, ip));
+    context.waitUntil(logRequest(pathname, ua, ip, referer));
 
     // Layer 2: enriched bot log
     const botName = detectBot(ua);
@@ -147,7 +150,7 @@ export default function middleware(
         else if ((JS_SECOES as readonly string[]).includes(secaoSlug)) linkType = 'js';
       }
 
-      context.waitUntil(logCrawl(pathname, linkType, ua, ip, botName));
+      context.waitUntil(logCrawl(pathname, linkType, ua, ip, botName, referer));
     }
   } catch {
     // never block the response

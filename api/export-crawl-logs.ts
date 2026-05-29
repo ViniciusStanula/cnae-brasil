@@ -8,6 +8,7 @@ interface CrawlLogRow {
   user_agent: string | null;
   ip: string | null;
   bot_name: string | null;
+  referer: string | null;
   verified: boolean | null;
 }
 
@@ -33,7 +34,7 @@ export default async function handler(request: Request): Promise<Response> {
 
   const rows = (await res.json()) as CrawlLogRow[];
 
-  const header = 'id,path,link_type,crawled_at,bot_name,user_agent,ip,verified\n';
+  const header = 'id,path,link_type,crawled_at,bot_name,referer,user_agent,ip,verified\n';
   const csv = rows
     .map((r) =>
       [
@@ -42,6 +43,7 @@ export default async function handler(request: Request): Promise<Response> {
         r.link_type ?? '',
         r.crawled_at,
         r.bot_name ?? '',
+        r.referer ?? '',
         `"${(r.user_agent ?? '').replace(/"/g, '""')}"`,
         r.ip ?? '',
         r.verified ?? '',
