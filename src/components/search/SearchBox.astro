@@ -17,6 +17,7 @@ const listId = 'cnae-search-list';
 <form action="/buscar/" method="get" class="flex gap-2" role="search">
   <div class="flex-1 relative">
     <input
+      id="cnae-search-input"
       type="search"
       name="q"
       list={listId}
@@ -39,3 +40,15 @@ const listId = 'cnae-search-list';
     Buscar
   </button>
 </form>
+
+<script define:vars={{ items }}>
+  const input = document.getElementById('cnae-search-input');
+  // When user picks a datalist suggestion, navigate directly to the CNAE page
+  input.addEventListener('change', () => {
+    const val = input.value;
+    const match = items.find((item) => item.label === val);
+    if (match) {
+      window.location.href = `/cnae/${match.slug}/`;
+    }
+  });
+</script>
