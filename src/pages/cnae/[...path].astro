@@ -226,10 +226,11 @@ const collectionJsonLd = buildCollectionPageJsonLd(
   children.slice(0, 50).map((c) => ({ name: c.label, url: c.href }))
 );
 
-const isJsGroup = depth === 1 && (JS_SECOES as readonly string[]).includes(slug);
-const divisaoLinks = isJsGroup
-  ? children.map((c) => ({ href: c.href, label: c.label, count: c.count }))
+const isJsGroup = (JS_SECOES as readonly string[]).includes(slug);
+const jsChildren = isJsGroup
+  ? children.map((c) => ({ href: c.href, label: c.label, count: c.count, description: c.description }))
   : [];
+const isListType = depth === 4;
 ---
 
 <HubLayout {title} {description} {canonical} jsonLd={[breadcrumbJsonLd, collectionJsonLd]}>
@@ -238,25 +239,49 @@ const divisaoLinks = isJsGroup
 
   {isJsGroup ? (
     <>
-      <div id="divisao-links" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div>
-      <script define:vars={{ divisaoLinks }}>
-        const container = document.getElementById('divisao-links');
-        divisaoLinks.forEach((d) => {
-          const a = document.createElement('a');
-          a.href = d.href;
-          a.className =
-            'rounded-xl border border-gray-200 bg-white p-4 hover:border-blue-400 hover:shadow-sm transition-all';
-          const p = document.createElement('p');
-          p.className = 'font-semibold text-gray-900 text-sm';
-          p.textContent = d.label;
-          a.appendChild(p);
-          if (d.count !== undefined) {
-            const cnt = document.createElement('p');
-            cnt.className = 'text-xs text-blue-600 mt-1';
-            cnt.textContent = d.count + ' subclasses';
-            a.appendChild(cnt);
+      {isListType ? (
+        <ul id="js-children" class="space-y-2"></ul>
+      ) : (
+        <div id="js-children" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div>
+      )}
+      <script define:vars={{ jsChildren, isListType }}>
+        const container = document.getElementById('js-children');
+        jsChildren.forEach((d) => {
+          if (isListType) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = d.href;
+            a.className =
+              'flex items-center justify-between gap-3 rounded-lg border border-gray-100 bg-gray-50 px-4 py-2.5 hover:border-blue-300 hover:bg-blue-50 transition-all group';
+            const span = document.createElement('span');
+            span.className = 'text-sm text-gray-800 group-hover:text-blue-800';
+            span.textContent = d.label;
+            a.appendChild(span);
+            if (d.description) {
+              const desc = document.createElement('span');
+              desc.className = 'text-xs text-gray-400 flex-shrink-0';
+              desc.textContent = d.description;
+              a.appendChild(desc);
+            }
+            li.appendChild(a);
+            container.appendChild(li);
+          } else {
+            const a = document.createElement('a');
+            a.href = d.href;
+            a.className =
+              'rounded-xl border border-gray-200 bg-white p-4 hover:border-blue-400 hover:shadow-sm transition-all';
+            const p = document.createElement('p');
+            p.className = 'font-semibold text-gray-900 text-sm';
+            p.textContent = d.label;
+            a.appendChild(p);
+            if (d.count !== undefined) {
+              const cnt = document.createElement('p');
+              cnt.className = 'text-xs text-blue-600 mt-1';
+              cnt.textContent = d.count + ' subclasses';
+              a.appendChild(cnt);
+            }
+            container.appendChild(a);
           }
-          container.appendChild(a);
         });
       </script>
     </>
