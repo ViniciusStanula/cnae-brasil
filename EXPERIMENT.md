@@ -283,6 +283,71 @@ group by bot_name, link_type
 order by bot_name, link_type;
 ```
 
+**Recrawl lag — avg hours between first and second visit:**
+
+| Bot | HTML recrawl lag | JS recrawl lag |
+|-----|-----------------|---------------|
+| ClaudeBot | 1.1h | 1.2h (seção only — never reached depth 3+) |
+| GoogleOther | 6.6h | **4.4h** |
+| Googlebot | — | 10.2h (only 1 JS page recrawled so far) |
+
+Surprising: GoogleOther recrawls JS-discovered pages ~33% faster than HTML pages.
+Possible explanation: Google re-renders JS pages more urgently to confirm content on second pass,
+or newly discovered JS pages are placed in a higher-priority crawl queue.
+
+**Per-seção coverage breakdown (Google only, day 2):**
+
+| Seção | Group | Pages | Max depth |
+|-------|-------|-------|-----------|
+| industrias-de-transformacao | HTML | 193 | 5 |
+| agricultura | HTML | 47 | 5 |
+| outras-atividades-de-servicos | HTML | 17 | 5 |
+| atividades-profissionais | HTML | 15 | 5 |
+| comercio | HTML | 8 | 5 |
+| financeiro-seguros | HTML | 5 | 5 |
+| alojamento-alimentacao | HTML | 5 | 5 |
+| saude-servicos-sociais | HTML | 3 | 4 |
+| agua-esgoto-residuos | HTML | 3 | 5 |
+| organismos-internacionais | HTML | 2 | 3 |
+| administracao-publica | HTML | 1 | 2 |
+| transporte | JS | 36 | 5 |
+| construcao | JS | 14 | 5 |
+| artes-cultura-esporte | JS | 10 | 5 |
+| atividades-administrativas | JS | 7 | 5 |
+| industrias-extrativas | JS | 4 | 3 |
+| atividades-imobiliarias | JS | 2 | 3 |
+| servicos-domesticos | JS | 2 | 3 |
+| educacao | JS | 2 | 3 |
+| eletricidade-gas-agua | JS | 1 | **2** (seção only) |
+| informacao-comunicacao | JS | 1 | **2** (seção only) |
+
+JS coverage is highly uneven: `transporte` almost as well-covered as mid-tier HTML seções,
+while `eletricidade-gas-agua` and `informacao-comunicacao` never had a single hierarchy page discovered.
+
+**JS seções with ZERO Googlebot hierarchy hits (depth 3+) as of day 2:**
+industrias-extrativas, eletricidade-gas-agua, informacao-comunicacao, atividades-imobiliarias,
+atividades-administrativas, educacao, servicos-domesticos → 7 of 10 JS seções completely invisible to Googlebot.
+
+**Time to first JS hierarchy hit after launch:**
+
+| Bot | Hours after launch |
+|-----|-------------------|
+| GoogleOther | 0.9h |
+| Googlebot | 9.9h |
+
+**Discovery velocity (new unique pages/day):**
+
+| Bot | Group | Day 1 | Day 2 |
+|-----|-------|-------|-------|
+| GoogleOther | HTML | 68 | 275 |
+| GoogleOther | JS | 9 | 67 |
+| Googlebot | HTML | 5 | 19 |
+| Googlebot | JS | 0 | 5 |
+| GPTBot | HTML | 759 | 0 (one-time crawl) |
+| ClaudeBot | HTML | 11 | 759 |
+
+Google discovery accelerating day over day for both groups. GPTBot did one aggressive pass and stopped.
+
 ---
 
 ## What to look for at the end (6–8 weeks)
