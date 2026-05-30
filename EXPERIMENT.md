@@ -231,6 +231,58 @@ it followed links rather than discovering pages externally.
 **Open question:** Does the gap close over 6–8 weeks (Google catches up) or persist
 (JS links permanently reduce crawl coverage)?
 
+**Recrawl frequency — avg hits per already-discovered page (depth ≥ 3 for JS):**
+
+| Bot | HTML avg hits/page | JS avg hits/page |
+|-----|-------------------|-----------------|
+| Googlebot | 1.00 | 1.17 |
+| GoogleOther | 1.46 | 1.56 |
+| ClaudeBot | 2.00 | 2.00 (seção only — never reached depth 3+) |
+| GPTBot | 1.00 | — (never reached depth 3+) |
+
+**Key finding — the penalty is discovery, not recrawl frequency.**
+Once Google finds a page via a JS-injected link, it recrawls that page as often as (or more than) HTML-linked pages. The ~75% gap is entirely in *how many pages get discovered initially*, not in how frequently discovered pages get revisited.
+
+Implication: JS links don't hurt ongoing crawl maintenance. They hurt **initial crawl coverage**. A page that Google never discovers via JS will never be crawled at all — but if it does discover it, it treats it the same as any other page going forward.
+
+**Recrawl queries (run with depth >= 3 filter for JS to exclude seção-level noise):**
+```sql
+-- Avg hits per page
+select bot_name, link_type,
+  round(avg(hit_count), 2) as avg_hits_per_page,
+  max(hit_count) as max_hits_single_page
+from (
+  select bot_name, link_type, path, count(*) as hit_count
+  from crawl_logs
+  where link_type is not null
+    and (
+      link_type = 'html'
+      or (link_type = 'js' and length(path) - length(replace(path, '/', '')) - 1 >= 3)
+    )
+  group by bot_name, link_type, path
+) t
+group by bot_name, link_type
+order by bot_name, link_type;
+
+-- Pages recrawled more than once
+select bot_name, link_type,
+  count(*) as pages_recrawled,
+  round(avg(hit_count), 2) as avg_recrawl_count
+from (
+  select bot_name, link_type, path, count(*) as hit_count
+  from crawl_logs
+  where link_type is not null
+    and (
+      link_type = 'html'
+      or (link_type = 'js' and length(path) - length(replace(path, '/', '')) - 1 >= 3)
+    )
+  group by bot_name, link_type, path
+  having count(*) > 1
+) t
+group by bot_name, link_type
+order by bot_name, link_type;
+```
+
 ---
 
 ## What to look for at the end (6–8 weeks)
