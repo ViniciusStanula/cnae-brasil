@@ -172,13 +172,72 @@ group by bot_name, link_type, depth
 order by bot_name, link_type, depth;
 ```
 
+**Coverage gap query (unique pages per group):**
+```sql
+select
+  bot_name,
+  link_type,
+  count(distinct path) as unique_pages
+from crawl_logs
+where bot_name in ('Googlebot', 'GoogleOther')
+  and link_type is not null
+group by bot_name, link_type
+order by bot_name, link_type;
+```
+
+---
+
+## Results log
+
+### Day 2 — 2026-05-30
+
+**Bot activity (last 24h hits):**
+
+| Bot | Hits |
+|-----|------|
+| ClaudeBot | 3,845 |
+| GPTBot | 1,905 |
+| GoogleOther | 1,304 |
+| Googlebot | 268 |
+| Applebot | 8 |
+| Bingbot | 6 |
+| PerplexityBot | 4 |
+| OAI-SearchBot | 4 |
+
+**JS execution confirmed per bot (depth 3+ in JS group):**
+
+| Bot | HTML depth 3+ | JS depth 3+ | Executes JS? |
+|-----|--------------|-------------|--------------|
+| Googlebot | ✓ (4/5/14) | ✓ (2/3/1) | **YES** |
+| GoogleOther | ✓ (79/159/158) | ✓ (31/36/26) | **YES** |
+| ClaudeBot | ✓ (108/394/994) | **0/0/0** | **NO** |
+| GPTBot | ✓ (54/197/497) | **0/0/0** | **NO** |
+
+**Coverage gap — unique pages reached:**
+
+| Bot | HTML pages | JS pages | JS/HTML ratio |
+|-----|-----------|---------|--------------|
+| Googlebot | 24 | 6 | 25% |
+| GoogleOther | 292 | 76 | 26% |
+
+**Interpretation:** Google crawls JS-group pages at ~¼ the rate of HTML-group pages on day 2.
+Both groups have the same number of seções (11 HTML vs 10 JS) so size is not the cause.
+
+**Note on null referers:** All Googlebot JS-group hits show `referer = null`. This is expected —
+Googlebot deliberately does not send Referer headers (documented privacy behavior).
+The crawl pattern (seção → divisão → grupo → classe, progressively deeper over hours) proves
+it followed links rather than discovering pages externally.
+
+**Open question:** Does the gap close over 6–8 weeks (Google catches up) or persist
+(JS links permanently reduce crawl coverage)?
+
 ---
 
 ## What to look for at the end (6–8 weeks)
 
-1. **Did Googlebot ever reach JS-group divisão/grupo/classe pages?** → Primary experiment result
-2. **If yes, what was the referer?** → Proves it followed a JS link vs. found it another way
-3. **How does crawl depth compare?** HTML group vs JS group — did Google go equally deep?
-4. **Coverage gap** — are there entire JS-group subtrees Google never touched?
-5. **Cross-bot comparison** — does GPTBot, Bingbot, ClaudeBot behave differently than Googlebot?
-6. **Verify in GSC** — cross-reference indexed pages in Google Search Console with what crawl_logs shows
+1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
+2. **Did Googlebot reach all JS-group seções at all depths?** → Which subtrees were never touched?
+3. **Bingbot signal** — only 6 hits so far, needs more time
+4. **Cross-bot comparison final** — GPTBot/ClaudeBot never followed JS links vs Google did
+5. **Verify in GSC** — do indexed page counts match crawl_log coverage ratios?
+6. **Referer data** — if any JS-group depth 3+ hit ever shows a referer, document it
