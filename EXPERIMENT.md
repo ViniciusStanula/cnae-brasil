@@ -89,9 +89,9 @@ Every request (humans + bots). Fields: `path`, `hit_at`, `user_agent`, `ip`, `re
 - Crawled deep into HTML-group hierarchy: divisão → grupo → classe level ✓
 - **Zero JS-group divisão/grupo/classe pages crawled** ✗
 
-Conclusion for GPTBot: **does not execute JavaScript**. It followed HTML links deep into the HTML group but stopped at the seção level for the JS group.
+Conclusion for GPTBot: **does not execute JavaScript**. Followed HTML links deep into HTML group, stopped at seção level for JS group.
 
-**Googlebot** hit `robots.txt` and homepage on 2026-05-29. Full crawl pending.
+**Googlebot** hit `robots.txt` and homepage on 2026-05-29. First JS hierarchy page discovered 9.9 hours after launch. See Day 2 for full results.
 
 ---
 
@@ -133,10 +133,12 @@ order by crawled_at asc;
 
 **Proof of JS execution (bot followed a JS-injected link):**
 ```sql
+-- path like '%/%/%' is NOT sufficient — seção pages (/cnae/transporte/) also have 3 slashes.
+-- Use depth >= 3 filter instead.
 select path, bot_name, referer, crawled_at
 from crawl_logs
 where link_type = 'js'
-  and path like '%/%/%'
+  and length(path) - length(replace(path, '/', '')) - 1 >= 3
   and referer is not null
 order by crawled_at asc;
 ```
@@ -179,10 +181,76 @@ select
   link_type,
   count(distinct path) as unique_pages
 from crawl_logs
-where bot_name in ('Googlebot', 'GoogleOther')
-  and link_type is not null
+where link_type is not null
 group by bot_name, link_type
 order by bot_name, link_type;
+```
+
+**Recrawl lag — avg hours between first and second visit:**
+```sql
+select
+  bot_name,
+  link_type,
+  round(avg(extract(epoch from gap)/3600), 1) as avg_hours_to_recrawl
+from (
+  select
+    bot_name, link_type, path,
+    lead(crawled_at) over (partition by bot_name, path order by crawled_at) - crawled_at as gap
+  from crawl_logs
+  where link_type is not null
+) t
+where gap is not null
+group by bot_name, link_type
+order by bot_name, link_type;
+```
+
+**Per-seção coverage (run for any snapshot):**
+```sql
+select
+  split_part(path, '/', 3) as secao,
+  link_type,
+  count(distinct path) as pages,
+  max(length(path) - length(replace(path, '/', '')) - 1) as max_depth_reached
+from crawl_logs
+where bot_name in ('Googlebot', 'GoogleOther')
+  and link_type is not null
+group by secao, link_type
+order by link_type, pages desc;
+```
+
+**JS seções never reached at depth 3+ by Googlebot:**
+```sql
+select s.secao
+from (values
+  ('industrias-extrativas'),('eletricidade-gas-agua'),('construcao'),
+  ('transporte'),('informacao-comunicacao'),('atividades-imobiliarias'),
+  ('atividades-administrativas'),('educacao'),('artes-cultura-esporte'),
+  ('servicos-domesticos')
+) as s(secao)
+where s.secao not in (
+  select split_part(path, '/', 3)
+  from crawl_logs
+  where bot_name = 'Googlebot'
+    and link_type = 'js'
+    and length(path) - length(replace(path, '/', '')) - 1 >= 3
+);
+```
+
+**Discovery velocity (new unique pages per day):**
+```sql
+select
+  bot_name,
+  link_type,
+  date_trunc('day', crawled_at) as day,
+  count(distinct path) as new_pages_that_day
+from crawl_logs
+where link_type is not null
+  and (
+    link_type = 'html'
+    or (link_type = 'js' and length(path) - length(replace(path, '/', '')) - 1 >= 3)
+  )
+group by bot_name, link_type, day
+order by bot_name, link_type, day;
 ```
 
 ---
@@ -343,10 +411,13 @@ atividades-administrativas, educacao, servicos-domesticos → 7 of 10 JS seçõe
 | GoogleOther | JS | 9 | 67 |
 | Googlebot | HTML | 5 | 19 |
 | Googlebot | JS | 0 | 5 |
-| GPTBot | HTML | 759 | 0 (one-time crawl) |
+| GPTBot | HTML | 759 | 0 (one-time crawl, then stopped) |
 | ClaudeBot | HTML | 11 | 759 |
+| ClaudeBot | JS | 0 | 0 (never reached depth 3+) |
 
-Google discovery accelerating day over day for both groups. GPTBot did one aggressive pass and stopped.
+Google discovery accelerating day over day for both groups. GPTBot did one aggressive pass and stopped. ClaudeBot did same pattern one day later.
+
+**Note on HTML undercrawling:** `administracao-publica` (HTML group, letter O) only reached depth 2 on day 2 — Googlebot hasn't gone deep there either. Not all HTML seções are equally crawled. This matters for the final comparison: measure coverage ratios across matched seção sizes, not raw page counts.
 
 ---
 
