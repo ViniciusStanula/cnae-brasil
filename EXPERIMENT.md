@@ -142,18 +142,35 @@ order by crawled_at asc;
 ```
 
 **Crawl depth reached per bot per group:**
+
+> **Important:** Depth 2 (seção pages) hitting `link_type = 'js'` does NOT mean a JS link was followed.
+> The seção page itself is always reachable via a hard-coded HTML link from the `/cnae/` index — for both groups.
+> What makes a seção "JS group" is that its **outgoing** links to divisão children are JS-injected.
+>
+> **The real experiment signal starts at depth 3 (divisão level).**
+> A JS-group hit at depth 3+ means the bot executed JavaScript and followed an injected link.
+> Depth 2 JS hits only confirm "bot found the seção page" — same as HTML group, no signal.
+
+| Depth | Path pattern | Meaning |
+|-------|-------------|---------|
+| 2 | `/cnae/transporte/` | Seção page — reached via HTML from index. No signal. |
+| 3 | `/cnae/transporte/49/` | Divisão page — **only reachable by executing JS**. Signal. |
+| 4 | `/cnae/transporte/49/49.2/` | Grupo page — same. Signal. |
+| 5 | `/cnae/transporte/49/49.2/4921-3/` | Classe page — same. Signal. |
+
 ```sql
-select
-  bot_name,
-  link_type,
-  length(path) - length(replace(path, '/', '')) - 1 as depth,
-  count(*) as pages
-from crawl_logs
-where link_type is not null
+-- Only show depth >= 3 (actual experiment signal)
+select bot_name, link_type, depth, count(*) as pages
+from (
+  select bot_name, link_type,
+    length(path) - length(replace(path, '/', '')) - 1 as depth
+  from crawl_logs
+  where link_type is not null
+) t
+where depth >= 3
 group by bot_name, link_type, depth
 order by bot_name, link_type, depth;
 ```
-(depth 2 = seção, 3 = divisão, 4 = grupo, 5 = classe, leaf pages excluded)
 
 ---
 
