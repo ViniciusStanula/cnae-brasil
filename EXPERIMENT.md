@@ -405,17 +405,17 @@ atividades-administrativas, educacao, servicos-domesticos → 7 of 10 JS seçõe
 
 **Discovery velocity (new unique pages/day):**
 
-| Bot | Group | Day 1 | Day 2 | Day 3 |
-|-----|-------|-------|-------|-------|
-| GoogleOther | HTML | 68 | 293 | 279 |
-| GoogleOther | JS | 9 | 72 | 72 |
-| Googlebot | HTML | 5 | 22 | 9 |
-| Googlebot | JS | 0 | 5 | 2 |
-| GPTBot | HTML | 759 | 0 (stopped) | 0 |
-| ClaudeBot | HTML | 11 | 759 | 0 (stopped) |
-| ClaudeBot | JS | 0 | 0 | 0 (never reached depth 3+) |
-| ChatGPT-User | HTML | 0 | 0 | 2 (new, browsing plugin) |
-| ChatGPT-User | JS | 0 | 0 | 0 (no JS execution) |
+| Bot | Group | Day 1 | Day 2 | Day 3 | Day 4 |
+|-----|-------|-------|-------|-------|-------|
+| GoogleOther | HTML | 68 | 293 | 279 | 24 |
+| GoogleOther | JS | 9 | 72 | 72 | 9 |
+| Googlebot | HTML | 5 | 22 | 9 | 1 |
+| Googlebot | JS | 0 | 5 | 2 | 0 |
+| GPTBot | HTML | 759 | 0 (stopped) | 0 | 0 |
+| ClaudeBot | HTML | 11 | 759 | 0 (stopped) | 0 |
+| ClaudeBot | JS | 0 | 0 | 0 (never reached depth 3+) | 0 |
+| ChatGPT-User | HTML | 0 | 0 | 2 | 2 |
+| ChatGPT-User | JS | 0 | 0 | 0 | 0 |
 
 **Note on HTML undercrawling:** `administracao-publica` (HTML group, letter O) only reached depth 2 on day 2 — Googlebot hasn't gone deep there either. Not all HTML seções are equally crawled. This matters for the final comparison: measure coverage ratios across matched seção sizes, not raw page counts.
 
@@ -473,6 +473,35 @@ GoogleOther JS: 72 new pages on both day 2 AND day 3 — consistent pace.
 HTML discovery slowing (293 → 279). JS/HTML ratio will keep improving as HTML saturates faster.
 
 **New bot: ChatGPT-User** (ChatGPT browsing plugin). Appeared day 3, HTML pages only (depth 4-5), zero JS pages. Confirms no JS execution — same behavior as GPTBot.
+
+---
+
+### Day 4 — 2026-06-01 (plateau)
+
+**Coverage gap — frozen:**
+
+| Bot | HTML pages | JS pages | JS/HTML ratio | vs Day 3 |
+|-----|-----------|---------|--------------|---------|
+| Googlebot | 36 | 8 | 22% | unchanged |
+| GoogleOther | 498 | 151 | 30.3% | +3 HTML, +1 JS |
+
+**Discovery velocity collapsed:**
+
+| Bot | Group | Day 3 | Day 4 |
+|-----|-------|-------|-------|
+| GoogleOther | HTML | 279 | 24 (−91%) |
+| GoogleOther | JS | 72 | 9 (−87%) |
+| Googlebot | HTML | 9 | 1 |
+| Googlebot | JS | 2 | 0 |
+
+Google's initial crawl burst lasted 3 days (days 1–3). Day 4 = maintenance crawl mode. Discovery rate dropped ~90% for both HTML and JS groups equally. The ~30% JS/HTML coverage gap locked in at the end of the burst.
+
+**Interpretation:** Google allocates a crawl budget for new sites. It spent most of that budget in the first 3 days, exploring HTML links aggressively. JS-linked pages received ~30% of the crawl attention HTML pages got. After the burst, recrawl frequency takes over — slower and less likely to discover new pages.
+
+The gap is now stable. It will close only if:
+1. Google returns for a second exploration burst (possible after indexing confirms value)
+2. External links create new entry points to JS-group pages
+3. Recrawl of seção pages re-renders JS and queues more hierarchy pages
 
 ---
 
