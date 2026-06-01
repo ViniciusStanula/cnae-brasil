@@ -405,19 +405,74 @@ atividades-administrativas, educacao, servicos-domesticos → 7 of 10 JS seçõe
 
 **Discovery velocity (new unique pages/day):**
 
-| Bot | Group | Day 1 | Day 2 |
-|-----|-------|-------|-------|
-| GoogleOther | HTML | 68 | 275 |
-| GoogleOther | JS | 9 | 67 |
-| Googlebot | HTML | 5 | 19 |
-| Googlebot | JS | 0 | 5 |
-| GPTBot | HTML | 759 | 0 (one-time crawl, then stopped) |
-| ClaudeBot | HTML | 11 | 759 |
-| ClaudeBot | JS | 0 | 0 (never reached depth 3+) |
-
-Google discovery accelerating day over day for both groups. GPTBot did one aggressive pass and stopped. ClaudeBot did same pattern one day later.
+| Bot | Group | Day 1 | Day 2 | Day 3 |
+|-----|-------|-------|-------|-------|
+| GoogleOther | HTML | 68 | 293 | 279 |
+| GoogleOther | JS | 9 | 72 | 72 |
+| Googlebot | HTML | 5 | 22 | 9 |
+| Googlebot | JS | 0 | 5 | 2 |
+| GPTBot | HTML | 759 | 0 (stopped) | 0 |
+| ClaudeBot | HTML | 11 | 759 | 0 (stopped) |
+| ClaudeBot | JS | 0 | 0 | 0 (never reached depth 3+) |
+| ChatGPT-User | HTML | 0 | 0 | 2 (new, browsing plugin) |
+| ChatGPT-User | JS | 0 | 0 | 0 (no JS execution) |
 
 **Note on HTML undercrawling:** `administracao-publica` (HTML group, letter O) only reached depth 2 on day 2 — Googlebot hasn't gone deep there either. Not all HTML seções are equally crawled. This matters for the final comparison: measure coverage ratios across matched seção sizes, not raw page counts.
+
+---
+
+### Day 3 — 2026-05-31
+
+**Coverage gap (unique pages, Google combined):**
+
+| Bot | HTML pages | JS pages | JS/HTML ratio | vs Day 2 |
+|-----|-----------|---------|--------------|---------|
+| Googlebot | 36 | 8 | 22% | ↓ from 25% |
+| GoogleOther | 495 | 150 | 30% | ↑ from 26% |
+
+GoogleOther gap closing consistently. Googlebot small sample makes ratio noisy.
+
+**JS execution signal (depth 3+):**
+
+| Bot | HTML d3/d4/d5 | JS d3/d4/d5 | Executes JS? |
+|-----|--------------|-------------|--------------|
+| Googlebot | 4/7/25 | 2/3/3 | **YES** |
+| GoogleOther | 105/253/467 | 36/68/96 | **YES** |
+| ChatGPT-User | 0/1/4 | **0/0/0** | **NO** |
+
+**Per-seção breakdown (Google combined, day 3):**
+
+| Seção | Group | Pages | Max depth | Change from day 2 |
+|-------|-------|-------|-----------|------------------|
+| industrias-de-transformacao | HTML | 366 | 5 | +173 |
+| agricultura | HTML | 47 | 5 | unchanged |
+| atividades-profissionais | HTML | 26 | 5 | +11 |
+| outras-atividades-de-servicos | HTML | 21 | 5 | +4 |
+| comercio | HTML | 15 | 5 | +7 |
+| financeiro-seguros | HTML | 5 | 5 | unchanged |
+| alojamento-alimentacao | HTML | 5 | 5 | unchanged |
+| saude-servicos-sociais | HTML | 4 | 5 | +1 |
+| agua-esgoto-residuos | HTML | 3 | 5 | unchanged |
+| organismos-internacionais | HTML | 2 | 3 | unchanged |
+| administracao-publica | HTML | 1 | 2 | unchanged |
+| transporte | JS | 52 | 5 | +16 |
+| construcao | JS | 32 | 5 | +18 |
+| industrias-extrativas | JS | 22 | **5** | +18, depth 3→5 |
+| educacao | JS | 14 | **5** | +12, depth 3→5 |
+| artes-cultura-esporte | JS | 13 | 5 | +3 |
+| atividades-administrativas | JS | 7 | 5 | unchanged |
+| atividades-imobiliarias | JS | 6 | **5** | +4, depth 3→5 |
+| servicos-domesticos | JS | 2 | 3 | unchanged |
+| eletricidade-gas-agua | JS | 1 | 2 | **stuck at seção** |
+| informacao-comunicacao | JS | 1 | 2 | **stuck at seção** |
+
+3 JS seções broke through to depth 5 between day 2 and day 3 (industrias-extrativas, educacao, atividades-imobiliarias). 2 remain completely stuck.
+
+**JS discovery velocity stabilizing:**
+GoogleOther JS: 72 new pages on both day 2 AND day 3 — consistent pace.
+HTML discovery slowing (293 → 279). JS/HTML ratio will keep improving as HTML saturates faster.
+
+**New bot: ChatGPT-User** (ChatGPT browsing plugin). Appeared day 3, HTML pages only (depth 4-5), zero JS pages. Confirms no JS execution — same behavior as GPTBot.
 
 ---
 
