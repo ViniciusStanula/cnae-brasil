@@ -505,6 +505,49 @@ The gap is now stable. It will close only if:
 
 ---
 
+### Day 5 — 2026-06-03 (stable + new bot)
+
+**Coverage gap — unchanged:**
+
+| Bot | HTML pages | JS pages | JS/HTML ratio |
+|-----|-----------|---------|--------------|
+| Googlebot | 36 | 8 | 22% |
+| GoogleOther | 501 | 152 | 30.3% |
+
+**Discovery fully winding down (GoogleOther):**
+
+| Day | HTML new | JS new |
+|-----|---------|-------|
+| 3 | 279 | 72 |
+| 4 | 26 | 9 |
+| 5 | 13 | 4 |
+| 6 (partial) | 4 | 0 |
+
+**New bot: OAI-SearchBot** (OpenAI SearchGPT crawler) — appeared day 4 (2026-06-01).
+- Hit all 11 HTML seção pages and all 10 JS seção pages (depth 2 only)
+- Zero depth 3+ hits — no JS execution confirmed
+- Identical behavior to GPTBot: crawled site index → found seção URLs → stopped
+
+```
+OAI-SearchBot depth breakdown: depth 2 HTML=11, depth 2 JS=10. No depth 3+.
+```
+
+**Executes JS? NO.** OAI-SearchBot joins GPTBot, ClaudeBot, ChatGPT-User as JS-blind bots.
+
+**Updated bot JS execution summary (day 5):**
+
+| Bot | Executes JS | Notes |
+|-----|------------|-------|
+| Googlebot | ✅ YES | ~22% JS coverage vs HTML |
+| GoogleOther | ✅ YES | ~30% JS coverage vs HTML |
+| GPTBot | ❌ NO | One pass day 1, stopped |
+| ClaudeBot | ❌ NO | One pass day 2, stopped |
+| ChatGPT-User | ❌ NO | Browsing plugin, HTML only |
+| OAI-SearchBot | ❌ NO | One pass day 4, depth 2 only |
+| Bingbot | ❓ | Only 1 hit total |
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
