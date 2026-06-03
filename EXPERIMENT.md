@@ -587,6 +587,55 @@ order by link_type, depth;
 
 ---
 
+### Recrawl frequency after discovery: HTML vs JS (Google combined, day 5)
+
+After first discovery, how quickly does Google return to recrawl:
+
+| Depth | HTML avg recrawl | JS avg recrawl | Diff |
+|-------|-----------------|---------------|------|
+| 3 (divisão) | 11.1h | **8.1h** | JS 27% faster |
+| 4 (grupo) | 13.5h | 14.2h | roughly equal |
+| 5 (classe) | 14.8h | **11.2h** | JS 24% faster |
+
+**JS pages are recrawled faster than HTML pages.** Consistent with day 2 observation (GoogleOther HTML 6.6h vs JS 4.4h lag).
+
+**Complete JS penalty picture:**
+
+| Dimension | HTML | JS | Verdict |
+|-----------|------|-----|---------|
+| First discovery | faster (6.8–25.3h avg) | slower (+20–27%) | JS loses |
+| Coverage (pages found) | 100% baseline | ~30% | JS loses |
+| Recrawl frequency | baseline | **25% faster** | JS wins |
+
+**Conclusion:** JavaScript links hurt **initial discovery and coverage**, not ongoing maintenance. Once Google finds a JS-linked page, it treats it as a higher-priority recrawl target — possibly because its rendering pipeline flags JS-discovered pages for re-verification to confirm content stability.
+
+Practical implication: the main SEO risk of JS links is that many pages never get discovered at all during the initial crawl burst (~70% miss rate). But for the minority that do get found, they receive the same or better ongoing crawl attention as HTML-linked pages.
+
+**Query:**
+```sql
+select
+  link_type,
+  depth,
+  round(avg(extract(epoch from gap)/3600), 1) as avg_hours_to_recrawl,
+  count(*) as recrawled_pages
+from (
+  select
+    link_type,
+    path,
+    length(path) - length(replace(path, '/', '')) - 1 as depth,
+    lead(crawled_at) over (partition by bot_name, path order by crawled_at) - crawled_at as gap
+  from crawl_logs
+  where bot_name in ('Googlebot', 'GoogleOther')
+    and link_type is not null
+    and length(path) - length(replace(path, '/', '')) - 1 >= 3
+) t
+where gap is not null
+group by link_type, depth
+order by link_type, depth;
+```
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
