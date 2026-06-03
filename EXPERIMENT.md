@@ -548,6 +548,45 @@ OAI-SearchBot depth breakdown: depth 2 HTML=11, depth 2 JS=10. No depth 3+.
 
 ---
 
+### Discovery speed: HTML vs JS (Google combined, day 5)
+
+How many hours after site launch did Google first discover each page, by depth and link type:
+
+| Depth | HTML avg | JS avg | JS lag | JS lag % | HTML min | JS min |
+|-------|---------|-------|--------|---------|---------|-------|
+| 3 (divisão) | 6.8h | 8.6h | +1.8h | +26% | 1h | 1h |
+| 4 (grupo) | 15.8h | 20.0h | +4.2h | +27% | 1h | 2h |
+| 5 (classe) | 25.3h | 29.8h | +4.5h | +18% | 1h | 4h |
+
+**JS pages discovered 20–27% later than HTML pages at every depth level.**
+
+Lag compounds with depth: Google must crawl the parent JS page, render its script, queue discovered child URLs, then schedule those children — adding ~1.8–4.5h overhead per level vs HTML links that are immediately parseable.
+
+The **minimum hours** column shows the floor is higher for JS: HTML pages at any depth were discovered within 1h of launch (best case), but JS pages at depth 5 had a 4h floor even in the best case.
+
+**Query:**
+```sql
+select
+  link_type,
+  length(path) - length(replace(path, '/', '')) - 1 as depth,
+  round(avg(extract(epoch from (first_hit - '2026-05-29 21:00:00+00'))/3600), 1) as avg_hours_to_discovery,
+  min(extract(epoch from (first_hit - '2026-05-29 21:00:00+00'))/3600)::int as min_hours,
+  max(extract(epoch from (first_hit - '2026-05-29 21:00:00+00'))/3600)::int as max_hours,
+  count(*) as pages
+from (
+  select path, link_type, min(crawled_at) as first_hit
+  from crawl_logs
+  where bot_name in ('Googlebot', 'GoogleOther')
+    and link_type is not null
+    and length(path) - length(replace(path, '/', '')) - 1 >= 3
+  group by path, link_type
+) t
+group by link_type, depth
+order by link_type, depth;
+```
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
