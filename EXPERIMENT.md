@@ -405,13 +405,13 @@ atividades-administrativas, educacao, servicos-domesticos → 7 of 10 JS seçõe
 
 **Discovery velocity (new unique pages/day):**
 
-| Bot | Group | Day 1 | Day 2 | Day 3 | Day 4 |
-|-----|-------|-------|-------|-------|-------|
-| GoogleOther | HTML | 68 | 293 | 279 | 24 |
-| GoogleOther | JS | 9 | 72 | 72 | 9 |
-| Googlebot | HTML | 5 | 22 | 9 | 1 |
-| Googlebot | JS | 0 | 5 | 2 | 0 |
-| GPTBot | HTML | 759 | 0 (stopped) | 0 | 0 |
+| Bot | Group | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 |
+|-----|-------|-------|-------|-------|-------|-------|-------|
+| GoogleOther | HTML | 68 | 293 | 279 | 26 | 13 | 5 |
+| GoogleOther | JS | 9 | 72 | 72 | 9 | 4 | 0 |
+| Googlebot | HTML | 5 | 22 | 9 | 1 | 2 | 0 |
+| Googlebot | JS | 0 | 5 | 2 | 0 | 0 | 0 |
+| GPTBot | HTML | 759 | 0 (stopped) | 0 | 0 | 0 | 0 |
 | ClaudeBot | HTML | 11 | 759 | 0 (stopped) | 0 |
 | ClaudeBot | JS | 0 | 0 | 0 (never reached depth 3+) | 0 |
 | ChatGPT-User | HTML | 0 | 0 | 2 | 2 |
@@ -633,6 +633,29 @@ where gap is not null
 group by link_type, depth
 order by link_type, depth;
 ```
+
+---
+
+### Day 6 — 2026-06-04 (near-zero activity)
+
+**Coverage gap — fully locked:**
+
+| Bot | HTML | JS | Ratio | vs Day 5 |
+|-----|------|----|-------|---------|
+| Googlebot | 36 | 8 | 22% | unchanged |
+| GoogleOther | 502 | 152 | 30.3% | +1 HTML only |
+
+**Velocity essentially zero:**
+GoogleOther: 5 HTML / 0 JS new pages on day 5, 1 HTML / 0 JS on day 6.
+Googlebot: 2 HTML new on day 5, 0 on day 6.
+
+**Small depth movements (GoogleOther):** HTML depth 5: 470→487 (+17). JS depth 4: 68→70, depth 5: 96→99. Marginal recrawls, no new seção discovery.
+
+**Googlebot depth 4 HTML:** 7→10 (+3 grupo pages found).
+
+**ChatGPT-User depth 5 HTML:** 8→20 — browsing plugin triggered by real user searches hitting leaf pages. Still zero JS pages. Confirms real-world behavior: ChatGPT users searching for CNAE terms will trigger crawl of HTML-linked pages but never reach JS-linked ones.
+
+**Status:** Experiment in maintenance phase. Gap stable at ~30%. Next meaningful check: day 14 to see if Google initiates second exploration burst.
 
 ---
 
