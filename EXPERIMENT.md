@@ -405,13 +405,13 @@ atividades-administrativas, educacao, servicos-domesticos → 7 of 10 JS seçõe
 
 **Discovery velocity (new unique pages/day):**
 
-| Bot | Group | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 |
-|-----|-------|-------|-------|-------|-------|-------|-------|
-| GoogleOther | HTML | 68 | 293 | 279 | 26 | 13 | 5 |
-| GoogleOther | JS | 9 | 72 | 72 | 9 | 4 | 0 |
-| Googlebot | HTML | 5 | 22 | 9 | 1 | 2 | 0 |
-| Googlebot | JS | 0 | 5 | 2 | 0 | 0 | 0 |
-| GPTBot | HTML | 759 | 0 (stopped) | 0 | 0 | 0 | 0 |
+| Bot | Group | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 |
+|-----|-------|-------|-------|-------|-------|-------|-------|-------|
+| GoogleOther | HTML | 68 | 293 | 279 | 26 | 13 | 5 | 2 |
+| GoogleOther | JS | 9 | 72 | 72 | 9 | 4 | 1 | 0* |
+| Googlebot | HTML | 5 | 22 | 9 | 1 | 2 | 0 | 0 |
+| Googlebot | JS | 0 | 5 | 2 | 0 | 0 | 0 | +1 new |
+| GPTBot | HTML | 759 | 0 (stopped) | 0 | 0 | 0 | 0 | 0 |
 | ClaudeBot | HTML | 11 | 759 | 0 (stopped) | 0 |
 | ClaudeBot | JS | 0 | 0 | 0 (never reached depth 3+) | 0 |
 | ChatGPT-User | HTML | 0 | 0 | 2 | 2 |
@@ -638,12 +638,18 @@ order by link_type, depth;
 
 ### Day 6 — 2026-06-04 (near-zero activity)
 
-**Coverage gap — fully locked:**
+**Coverage gap — day 6 snapshot:**
 
 | Bot | HTML | JS | Ratio | vs Day 5 |
 |-----|------|----|-------|---------|
 | Googlebot | 36 | 8 | 22% | unchanged |
 | GoogleOther | 502 | 152 | 30.3% | +1 HTML only |
+
+**Day 7 — 2026-06-05 (marginal activity):**
+Googlebot JS: 8 → **9** unique pages (+1 new JS hierarchy page discovered).
+GoogleOther: 504 HTML (+2), 152 JS (unchanged) → 30.2%.
+Velocity query shows 3 JS paths crawled by GoogleOther today but coverage unchanged — recrawls of known pages, not new discovery.
+`*` GoogleOther JS day 7 velocity = 3 crawls but 0 new unique pages.
 
 **Velocity essentially zero:**
 GoogleOther: 5 HTML / 0 JS new pages on day 5, 1 HTML / 0 JS on day 6.
