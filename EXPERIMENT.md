@@ -665,6 +665,80 @@ Googlebot: 2 HTML new on day 5, 0 on day 6.
 
 ---
 
+### Day 8 — 2026-06-06
+
+**Coverage gap — day 8 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 7 |
+|-----|------|----|-------|---------|
+| Googlebot | 36 | 9 | 25% | unchanged |
+| GoogleOther | 504 | 152 | 30.2% | unchanged |
+
+**New pages discovered today:**
+
+| Bot | Path | Link type | Depth | Signal? |
+|-----|------|-----------|-------|---------|
+| Googlebot | `/cnae/artes-cultura-esporte/` | js | 2 (seção) | NO — seção level only |
+| GoogleOther | `/cnae/transporte/52/` | js | 3 (divisão) | YES — JS execution confirmed |
+
+Googlebot's only activity today was a depth-2 seção page — not experiment signal.
+GoogleOther continues slow trickle of JS hierarchy pages (1 new depth-3 page).
+
+**Notable: Googlebot HTML silent since 2026-06-03 (3 days).** Googlebot's last HTML-group hit was June 3. For the past 3 days its only activity on this site has been JS pages. This is consistent with the recrawl-frequency finding (JS pages recrawled faster after discovery) — Googlebot may be prioritizing JS pages for re-rendering verification.
+
+**Bingbot update (now 31 total hits):**
+
+| link_type | hits | unique_pages |
+|-----------|------|-------------|
+| html | 21 | 21 |
+| js | 10 | 10 |
+| null | 51 | 43 |
+
+HTML 21 = 11 seção + 10 divisão pages → Bingbot went to depth 3 for HTML.  
+JS 10 = exactly the 10 JS seção pages → depth 2 only.  
+**Conclusion: Bingbot does NOT execute JavaScript.** Followed HTML links into divisão level, stopped at seção level for JS group. Now joins the JS-blind list.
+
+**OAI-SearchBot confirmation (11 HTML / 10 JS):**  
+Both counts match exactly the seção totals (11 HTML seções, 10 JS seções). Depth 2 only for both groups. Confirmed no JS execution — behavior identical to GPTBot.
+
+**ClaudeBot deep crawl today:** Systematically crawled HTML hierarchy to depth 4–5 (divisão → grupo → classe). Now at 759 HTML unique pages (likely full HTML hierarchy coverage). JS pages: still 10 = all 10 seção pages, zero deeper. Confirms: ClaudeBot reads raw HTML only, never executes scripts.
+
+**Updated bot JS execution table (day 8):**
+
+| Bot | Executes JS | Coverage ratio | Notes |
+|-----|------------|---------------|-------|
+| Googlebot | ✅ YES | 25% JS vs HTML | Trickle continues, HTML silent 3 days |
+| GoogleOther | ✅ YES | 30% JS vs HTML | Slow trickle (+1 depth-3 today) |
+| GPTBot | ❌ NO | ~1% (seção only) | One pass day 1, stopped |
+| ClaudeBot | ❌ NO | ~1% (seção only) | Deep HTML crawl day 8, still zero JS depth 3+ |
+| ChatGPT-User | ❌ NO | seção only | HTML only |
+| OAI-SearchBot | ❌ NO | seção only | Confirmed depth 2 only |
+| Bingbot | ❌ NO | depth 3 HTML, depth 2 JS | **Confirmed no JS execution day 8** |
+
+**Discovery velocity — day 8 column added:**
+
+| Bot | Group | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Day 8 |
+|-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| GoogleOther | HTML | 68 | 293 | 279 | 26 | 13 | 5 | 2 | 0 |
+| GoogleOther | JS | 9 | 72 | 72 | 9 | 4 | 1 | 0 | +1 (d3) |
+| Googlebot | HTML | 5 | 22 | 9 | 1 | 2 | 0 | 0 | 0 |
+| Googlebot | JS | 0 | 5 | 2 | 0 | 0 | 0 | +1 (d2) | +1 (d2) |
+| GPTBot | HTML | 759 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ClaudeBot | HTML | 11 | 759 | 0 | 0 | 0 | 0 | 0 | ~200+ |
+| Bingbot | HTML | — | — | — | — | — | — | — | +21 |
+| Bingbot | JS | — | — | — | — | — | — | — | +10 (d2 only) |
+
+ClaudeBot re-crawled extensively on day 8 — went deep into HTML divisão/grupo/classe levels for the first time. Likely triggered by Anthropic's crawler re-indexing the site after earlier content stabilized.
+
+**Gap trajectory:**
+- Day 2: Googlebot 25%, GoogleOther 26%
+- Day 3: Googlebot 22%, GoogleOther 30%
+- Days 4–8: **Googlebot ~25%, GoogleOther ~30% — locked**
+
+Gap has been stable for 5 days. No signs of closing.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
