@@ -733,9 +733,30 @@ ClaudeBot re-crawled extensively on day 8 — went deep into HTML divisão/grupo
 **Gap trajectory:**
 - Day 2: Googlebot 25%, GoogleOther 26%
 - Day 3: Googlebot 22%, GoogleOther 30%
-- Days 4–8: **Googlebot ~25%, GoogleOther ~30% — locked**
+- Days 4–9: **Googlebot ~25%, GoogleOther ~30% — locked**
 
-Gap has been stable for 5 days. No signs of closing.
+Gap has been stable for 6 days. No signs of closing.
+
+---
+
+### Day 9 — 2026-06-07 (flatline)
+
+Zero new unique CNAE pages for any bot. Complete standstill.
+
+| Bot | HTML | JS | Ratio | vs Day 8 |
+|-----|------|----|-------|---------|
+| Googlebot | 36 | 9 | 25% | unchanged |
+| GoogleOther | 504 | 152 | 30.2% | unchanged |
+
+Googlebot HTML last seen: 2026-06-03 (4 days silent).
+Googlebot JS last seen: 2026-06-06 (3 days silent).
+
+New bots observed (non-CNAE pages only, no experiment signal):
+- **DuckDuckBot**: 4 hits, 2 null pages (likely homepage/robots.txt)
+- **FacebookBot**: 2 hits, 1 null page
+- **PerplexityBot**: 5→9 hits, all null pages
+
+All newcomers stopped at surface level — no CNAE hierarchy crawl.
 
 ---
 
