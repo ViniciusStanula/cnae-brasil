@@ -760,6 +760,68 @@ All newcomers stopped at surface level — no CNAE hierarchy crawl.
 
 ---
 
+### Day 10 — 2026-06-08 (Bingbot burst)
+
+**Coverage gap — day 10 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 9 |
+|-----|------|----|-------|---------|
+| Googlebot | 36 | 9 | 25% | unchanged (5 days silent) |
+| GoogleOther | 504 | 152 | 30.2% | +1 JS depth-4 page |
+| Bingbot | **53** | 10 | 19% | **+32 HTML** — burst started |
+
+**Bingbot finally started its crawl burst (day 10 after launch).**
+
+HTML pages: 21→53 (+32). Went deep: reached depth 4 (grupo level).
+JS pages: still 10 — all 10 JS seção pages hit today for the first time, ALL at depth 2 only.
+
+**Bingbot JS execution: CONFIRMED NO.** Crawl pattern is unambiguous:
+- HTML group: seção → divisão → grupo (depth 2/3/4 all reached)
+- JS group: seção only (depth 2), never deeper
+
+At hierarchy level (depth 3+): HTML = 42 pages, JS = 0 pages. **100% gap.**
+
+New pages today:
+```
+Bingbot HTML (new): saude-servicos-sociais, atividades-profissionais + 4 grupo pages,
+  outras-atividades-de-servicos, financeiro-seguros, agricultura, industrias-de-transformacao
+  + 16 divisão pages, administracao-publica + 84, alojamento-alimentacao + 55/56/56.1,
+  agua-esgoto-residuos + 36/37/38/39, organismos-internacionais
+
+Bingbot JS (new, all depth 2 seção only): industrias-extrativas, educacao,
+  artes-cultura-esporte, construcao, transporte, eletricidade-gas-agua,
+  servicos-domesticos, atividades-imobiliarias, informacao-comunicacao,
+  atividades-administrativas
+```
+
+**GoogleOther JS:** `/cnae/educacao/85/85.4/` — depth 4 (grupo). Slow trickle continues.
+
+**OAI-SearchBot:** First depth-5 HTML hit today — `/cnae/agricultura/01/01.5/0151-2/` (leaf/classe page). HTML unique pages 11→12. Still zero JS depth 3+.
+
+**Bingbot vs Google comparison (crawl burst behavior):**
+
+| | Google (days 1–3) | Bingbot (day 10) |
+|---|---|---|
+| Burst start | Day 1 (hours after launch) | Day 10 |
+| HTML depth reached | 5 | 4 (so far) |
+| JS depth reached | 3–5 (executes JS) | **2 only (no JS)** |
+| JS hierarchy pages | ~30% of HTML | **0%** |
+
+Google and Bing both do crawl bursts — but only Google renders JavaScript during the burst. Bingbot's burst is HTML-only.
+
+**Discovery velocity — day 10 column:**
+
+| Bot | Group | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 | Day 8 | Day 9 | Day 10 |
+|-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|--------|
+| GoogleOther | HTML | 68 | 293 | 279 | 26 | 13 | 5 | 2 | 0 | 0 | +1 |
+| GoogleOther | JS | 9 | 72 | 72 | 9 | 4 | 1 | 0 | +1 | 0 | +1 (d4) |
+| Googlebot | HTML | 5 | 22 | 9 | 1 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Googlebot | JS | 0 | 5 | 2 | 0 | 0 | 0 | +1 | +1 | 0 | 0 |
+| Bingbot | HTML | — | — | — | — | — | — | — | — | — | **+32** |
+| Bingbot | JS | — | — | — | — | — | — | — | — | — | +10 (d2 only) |
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
