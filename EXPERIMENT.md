@@ -822,6 +822,35 @@ Google and Bing both do crawl bursts — but only Google renders JavaScript duri
 
 ---
 
+### Day 11 — 2026-06-09 (Bingbot burst continues)
+
+**Coverage gap — day 11 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 10 |
+|-----|------|----|-------|---------|
+| Googlebot | 36 | 9 | 25% | unchanged (HTML 6 days silent) |
+| GoogleOther | 504 | 152 | 30.2% | unchanged |
+| Bingbot | **58** | 10 | 17% | +5 HTML (depth 5 reached) |
+
+**Bingbot burst continues.** Reached depth 5 today — first leaf/classe page: `/cnae/atividades-profissionais/71/71.1/7112-0/`.
+New HTML pages: grupo-level pages in saude-servicos-sociais (87.1/87.2/87.3), atividades-profissionais (divisões 69/71/75 + grupo 71.1 + leaf 7112-0), industrias-de-transformacao (grupo 26.4).
+
+**Bingbot JS:** 10 seção pages actively recrawled (all 10 revisited today) — zero new depth 3+. JS unique still 10.
+
+Bingbot is now 2 days into its burst: HTML reached all 5 depths. JS permanently stuck at depth 2.
+
+**Googlebot silent:** HTML last seen June 3 (6 days), JS last seen June 6 (3 days). No new pages.
+
+**Bingbot burst depth progression:**
+| Day | HTML max depth | JS max depth | HTML unique | JS unique |
+|-----|---------------|-------------|------------|----------|
+| 10 | 4 (grupo) | 2 (seção) | 53 | 10 |
+| 11 | **5 (leaf)** | 2 (seção) | 58 | 10 |
+
+HTML advancing each day. JS frozen. Pattern identical to what Google showed on days 1–3 but without JS execution.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
