@@ -851,6 +851,41 @@ HTML advancing each day. JS frozen. Pattern identical to what Google showed on d
 
 ---
 
+### Day 12 — 2026-06-10
+
+**Coverage gap — day 12 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 11 |
+|-----|------|----|-------|---------|
+| Googlebot | **37** | 9 | 24% | **+1 HTML — Googlebot returned** |
+| GoogleOther | 505 | 152 | 30.1% | +1 HTML |
+| Bingbot | **78** | 10 | 13% | **+20 HTML** — burst peak |
+
+**Googlebot returned after 7 days of silence.** First HTML hit since June 3: `/cnae/atividades-profissionais/` (depth 2 seção). HTML unique: 36→37. JS still silent since June 6.
+
+Only 1 new page — not a second burst, just a spot check. Watch day 13–14 to see if more activity follows.
+
+**Bingbot burst at peak:** +20 HTML unique pages today. Now covering grupo level (depth 4) across saude-servicos-sociais (86.1–86.9), industrias-de-transformacao/29 (all 5 grupos), comercio (3 divisões), administracao-publica/84 (grupos 84.2/84.3), organismos-internacionais/99, alojamento-alimentacao/55.
+
+Bingbot HTML depth progression:
+- Day 10: reached depth 5 (first leaf)
+- Day 11: expanded depth 4 coverage
+- Day 12: systematic depth 4 sweep across remaining seções (+20 pages)
+
+Bingbot JS: still 10 pages, all seção (depth 2). Actively recrawling all 10 JS seção pages today — confirmed still no depth 3+ despite multiple revisits.
+
+**Bingbot burst depth progression (updated):**
+
+| Day | HTML unique | JS unique | HTML max depth |
+|-----|------------|----------|---------------|
+| 10 | 53 | 10 | 4 |
+| 11 | 58 | 10 | 5 (leaf) |
+| 12 | 78 | 10 | 5 (leaf) |
+
+HTML growing fast. JS frozen at 10.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
