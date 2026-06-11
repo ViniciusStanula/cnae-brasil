@@ -886,6 +886,45 @@ HTML growing fast. JS frozen at 10.
 
 ---
 
+### Day 13 — 2026-06-11
+
+**Coverage gap — day 13 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 12 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | 9 | 24% | unchanged (silent since June 10) |
+| GoogleOther | 505 | 152 | 30.1% | unchanged |
+| Bingbot | **102** | 10 | 10% | **+24 HTML** — burst still growing |
+
+**Bingbot burst:** HTML 78→102 (+24). Now covering grupo level (depth 4) systematically across all HTML seções. Reached depth 5 leaf again: `/cnae/atividades-profissionais/72/72.1/7210-0/`.
+JS: still 10 seção pages, zero depth 3+. Pattern unchanged.
+
+Bingbot burst depth progression (updated):
+
+| Day | HTML unique | JS unique | HTML max depth |
+|-----|------------|----------|---------------|
+| 10 | 53 | 10 | 4 |
+| 11 | 58 | 10 | 5 |
+| 12 | 78 | 10 | 5 |
+| 13 | 102 | 10 | 5 |
+
+HTML: +49 pages over 4 days. JS: frozen at 10 for all 4 days.
+
+**GPTBot returned after 12 days of silence.** At 14:58 UTC, GPTBot rapidly crawled all 21 seção pages (11 HTML + 10 JS) in a ~30-second sweep. Hits: HTML 759→769, JS 10→20. Zero new unique pages — no depth 3+ for either group. Pure maintenance recrawl of the top-level index. Confirms GPTBot does not execute JavaScript on recrawl either.
+
+**Googlebot:** single HTML page June 10, silent June 11. Not a second burst — just a one-off spot check.
+
+**Discovery velocity — day 13 column:**
+
+| Bot | Group | Day 10 | Day 11 | Day 12 | Day 13 |
+|-----|-------|--------|--------|--------|--------|
+| Bingbot | HTML | +32 | +5 | +20 | +24 |
+| Bingbot | JS | +10 (d2) | 0 | 0 | 0 |
+| Googlebot | HTML | 0 | 0 | +1 | 0 |
+| GPTBot | HTML | 0 | 0 | 0 | recrawl (0 new) |
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
