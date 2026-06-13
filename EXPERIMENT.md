@@ -925,6 +925,68 @@ HTML: +49 pages over 4 days. JS: frozen at 10 for all 4 days.
 
 ---
 
+### Day 14 — 2026-06-12 (checkpoint: no Google second burst)
+
+**Coverage gap — day 14 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 13 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | 9 | 24% | unchanged — **4 days silent** |
+| GoogleOther | 506 | 152 | 30.0% | +1 HTML, +1 JS (depth 3) |
+| Bingbot | **171** | 10 | 6% | **+69 HTML** — burst peak |
+
+**Day 14 checkpoint: no Googlebot second burst.** Googlebot last HTML hit June 10 (4 days ago), last JS hit June 6 (8 days ago). The gap locked at 24% HTML / 9 JS is likely permanent for this crawl cycle.
+
+**Bingbot burst at peak (+69 HTML today):** Now systematically covering depth 5 leaf/classe pages across all HTML seções. Examples of new leaf pages hit today:
+```
+industrias-de-transformacao/17/17.1/1710-9
+industrias-de-transformacao/29/29.4/2941-7 (+ 5 others in same grupo)
+comercio/46/46.1/4614-1, 4615-0, 4617-6, 4618-4
+agua-esgoto-residuos/38/38.2/3821-1, 3822-0
+administracao-publica/84/84.3/8430-2
+```
+Bingbot JS: still 10 seção pages, zero depth 3+. Actively recrawling all 10 JS seção pages each day but never following any JS-injected link.
+
+Bingbot burst depth progression (final):
+
+| Day | HTML unique | JS unique | HTML max depth |
+|-----|------------|----------|---------------|
+| 10 | 53 | 10 | 4 |
+| 11 | 58 | 10 | 5 |
+| 12 | 78 | 10 | 5 |
+| 13 | 102 | 10 | 5 |
+| 14 | **171** | 10 | 5 |
+
+Bingbot HTML grew +118 pages over 5 days. JS frozen at 10 throughout. **100% coverage gap for Bingbot at hierarchy level.**
+
+**GoogleOther trickle:** New depth-3 JS page `/cnae/transporte/51/` — GoogleOther still slowly discovering JS hierarchy pages. JS unique: 152→153.
+
+**UnknownBot:** Large unidentified crawler appeared. HTML 3→36 (+33), JS 3→12 (+9). Hitting seção pages for both groups but JS stays at depth 2 — no JS execution. UA matches `/bot|crawler|spider/i` fallback but doesn't match any named pattern.
+
+**AhrefsBot:** First appearance. 6 hits, 4 null pages (non-CNAE surface pages only).
+
+**Updated bot JS execution table (day 14):**
+
+| Bot | Executes JS | Coverage ratio | Status |
+|-----|------------|---------------|--------|
+| Googlebot | ✅ YES | 24% JS vs HTML | Silent since June 6 (JS), June 10 (HTML) |
+| GoogleOther | ✅ YES | 30% JS vs HTML | Slow trickle continues |
+| GPTBot | ❌ NO | seção only | Maintenance recrawl day 13 |
+| ClaudeBot | ❌ NO | seção only | Deep HTML crawl day 8, stopped |
+| Bingbot | ❌ NO | 0% hierarchy (seção only) | Active burst, HTML deep, JS frozen |
+| OAI-SearchBot | ❌ NO | seção only | Spot checks only |
+| ChatGPT-User | ❌ NO | HTML depth 5 | Real user-triggered, HTML only |
+| UnknownBot | ❌ NO | seção only (JS) | New crawler, unidentified |
+
+**Gap trajectory — final for first crawl cycle:**
+- Day 2: Googlebot 25%, GoogleOther 26%
+- Day 3: Googlebot 22%, GoogleOther 30%
+- Days 4–14: **Googlebot ~24%, GoogleOther ~30% — locked for 11 days**
+
+No second burst detected. First crawl cycle complete.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
