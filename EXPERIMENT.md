@@ -987,6 +987,40 @@ No second burst detected. First crawl cycle complete.
 
 ---
 
+### Day 15 — 2026-06-13 (Bingbot slowing, UnknownBot burst)
+
+**Coverage gap — day 15 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 14 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | 9 | 24% | unchanged — 8 days silent (JS), 4 days (HTML) |
+| GoogleOther | 506 | 152 | 30.0% | unchanged |
+| Bingbot | **199** | 10 | 5% | +28 HTML (burst slowing) |
+| UnknownBot | **206** | 12 | 6% | **+170 HTML** — new burst |
+
+**Bingbot burst slowing:** +28 HTML today vs +69 on day 14. Still crawling depth 5 leaf pages. JS frozen at 10 seção pages for 6 consecutive days of active crawling. Bingbot last seen June 14 18:29 — still active.
+
+**UnknownBot massive burst:** HTML 36→206 (+170). Systematic sweep across all HTML seções at divisão and grupo depth (4). JS: only 12 pages — all seção (depth 2). Another clean confirmation of no JS execution: 206 HTML hierarchy pages vs 0 JS hierarchy pages.
+
+UnknownBot UA matches `/bot|crawler|spider/i` fallback but no named pattern. Could be a private crawler, SEO tool, or a bot not yet in detection list. Behavior identical to every other non-Google bot: HTML deep, JS surface.
+
+**All bots — JS execution status (day 15, final summary):**
+
+| Bot | JS execution | HTML hierarchy pages | JS hierarchy pages |
+|-----|-------------|---------------------|-------------------|
+| Googlebot | ✅ YES | 36 | 9 (25%) |
+| GoogleOther | ✅ YES | 506 | 152 (30%) |
+| Bingbot | ❌ NO | 199 | 0 (0%) |
+| GPTBot | ❌ NO | 759 | 0 (0%) |
+| ClaudeBot | ❌ NO | 759 | 0 (0%) |
+| UnknownBot | ❌ NO | 206 | 0 (0%) |
+| OAI-SearchBot | ❌ NO | 12 | 0 (0%) |
+| ChatGPT-User | ❌ NO | 8 | 0 (0%) |
+
+**Pattern is absolute:** every non-Google bot = 0% JS hierarchy coverage regardless of how deep they crawl HTML.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
