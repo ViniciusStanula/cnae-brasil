@@ -1021,6 +1021,27 @@ UnknownBot UA matches `/bot|crawler|spider/i` fallback but no named pattern. Cou
 
 ---
 
+### Day 16 — 2026-06-14 (Bingbot slowing, UnknownBot second massive burst)
+
+**Coverage gap — day 16 snapshot:**
+
+| Bot | HTML | JS | Ratio | vs Day 15 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | 9 | 24% | unchanged — 9 days silent (JS), 5 days (HTML) |
+| GoogleOther | 506 | 152 | 30.0% | unchanged |
+| Bingbot | **221** | 10 | 5% | +22 HTML (burst decelerating: +69→+28→+22) |
+| UnknownBot | **485** | 12 | 2.5% | **+279 HTML** — second massive burst |
+
+**Bingbot burst decelerating:** Daily HTML gains: +69 (day 14) → +28 (day 15) → +22 (day 16). Still active as of June 15 12:32. Crawling deep HTML hierarchy pages across industrias-de-transformacao, comercio, saude, agua-esgoto-residuos. JS: 10 seção pages, zero depth 3+ — 7 consecutive days active, zero JS execution.
+
+**UnknownBot second massive burst:** HTML 206→485 (+279). Two consecutive days of +170 and +279. At 485 unique pages it is approaching GPTBot/ClaudeBot territory (759), suggesting a near-complete HTML sweep in progress. JS: still 12 seção pages — no JS execution across the entire burst.
+
+**Googlebot completely silent:** 9 days since last JS hit (June 6), 5 days since last HTML hit (June 10). Gap frozen at 24%.
+
+**Bingbot JS activity (query 3):** educacao, informacao-comunicacao, construcao, eletricidade-gas-agua, servicos-domesticos — all seção (depth 2). Every Bingbot JS hit for 7+ days is a seção recrawl, never a hierarchy page.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
