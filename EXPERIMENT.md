@@ -1066,6 +1066,33 @@ UnknownBot UA matches `/bot|crawler|spider/i` fallback but no named pattern. Cou
 
 ---
 
+### Days 18-20 — 2026-06-16 to 2026-06-18 (logging gap catchup)
+
+*Note: logging missed June 16-17. This entry covers 3 days combined.*
+
+**Coverage gap — day 20 snapshot (2026-06-18):**
+
+| Bot | HTML | JS | Ratio | vs Day 17 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | 9 | 24% | unchanged — **12 days silent (JS)**, 8 days (HTML) |
+| GoogleOther | 506 | 152 | 30.0% | unchanged |
+| Bingbot | **278** | 10 | 4% | +30 over 3 days (avg +10/day — burst winding down) |
+| UnknownBot | **750** | 12 | 1.6% | +10 — plateau confirmed |
+| ChatGPT-User | 31 | — | — | +16 over 3 days |
+| OAI-SearchBot | 20 | 10 | 50% | +8 HTML |
+
+**Bingbot burst winding down:** Peak was +69/day (day 14). Last 3 days averaged +10/day. Still crawling as of June 18 11:33 but at much reduced pace. JS: 10 seção pages, zero depth 3+ across 11 consecutive active crawl days. Bingbot JS confirmed completely blind to JS-injected links at any hierarchy depth.
+
+**Googlebot 12-day JS silence:** Last JS hit was June 6. Last HTML hit was June 10. Longest gap since launch — no second burst signal. Gap locked at 24% (37/9).
+
+**UnknownBot plateau:** 740→750 (+10 over 3 days). Full HTML sweep complete (~98.7% of site). JS frozen at 12 seção pages throughout entire burst. HTML 750, JS 12 = 1.6% ratio.
+
+**ChatGPT-User growth:** 15→31 (+16 over 3 days). All HTML, shallow. No JS hierarchy pages. Consistent with non-JS-executing bot pattern.
+
+**Bingbot JS (query 3):** educacao, transporte, industrias-extrativas, eletricidade-gas-agua, artes-cultura-esporte, servicos-domesticos — all seção depth 2. 11+ days of crawling, never a depth 3+ JS hit.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
