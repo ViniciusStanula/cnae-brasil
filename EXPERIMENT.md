@@ -1093,6 +1093,30 @@ UnknownBot UA matches `/bot|crawler|spider/i` fallback but no named pattern. Cou
 
 ---
 
+### Days 21-23 — 2026-06-19 to 2026-06-21 (Googlebot JS returns, Bingbot burst over)
+
+*Note: logging gap covered June 19-21. Queries run June 21.*
+
+**Coverage gap — day 23 snapshot (2026-06-21):**
+
+| Bot | HTML | JS | Ratio | vs Day 20 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | **10** | 27% | **+1 JS** — returned after 13-day silence |
+| GoogleOther | 506 | 152 | 30.0% | unchanged |
+| Bingbot | 278 | 10 | 4% | **0 new HTML** — burst over, still recrawling |
+| UnknownBot | 750 | 12 | 1.6% | unchanged |
+| ChatGPT-User | 39 | **1** | — | +8 HTML, **first JS hit** |
+
+**Googlebot JS returns:** After 13-day JS silence (last hit June 6), Googlebot crawled 1 new JS hierarchy page on June 19 20:49. Coverage: 9→10 JS pages. HTML still silent since June 10 (11 days). Gap moved slightly: 37/10 = 27% (was 24%).
+
+**Bingbot burst fully over:** HTML frozen at 278 for 3 consecutive days. Zero new unique pages. Still actively recrawling known pages (last seen June 21 20:29 today). 278 HTML vs 10 JS = 4% gap — no JS execution across entire 15-day burst.
+
+**ChatGPT-User first JS hit:** 1 JS page discovered. Only 1 of 39 HTML pages has a JS equivalent = 2.6% ratio. Likely a seção-level hit, not depth 3+. First time ChatGPT-User has any JS coverage.
+
+**Bingbot recrawl pattern (query 3):** Heavy recrawls of same HTML pages — `/industrias-de-transformacao/17/17.2/1722-2/`, `/agua-esgoto-residuos/38/38.2/`, `/industrias-de-transformacao/24/24.2/2421-1/` appearing dozens of times. Bingbot is doing maintenance recrawl of already-discovered pages, not finding new ones. JS hits: eletricidade-gas-agua (seção) — zero depth 3+.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
