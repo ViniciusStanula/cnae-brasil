@@ -1117,6 +1117,42 @@ UnknownBot UA matches `/bot|crawler|spider/i` fallback but no named pattern. Cou
 
 ---
 
+### Days 24-25 — 2026-06-22 to 2026-06-23 (stable phase — no new coverage)
+
+**Coverage gap — day 25 snapshot (2026-06-23):**
+
+| Bot | HTML | JS | Ratio | vs Day 23 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | 10 | 27% | unchanged — **13 days HTML silent**, JS probe 4 days ago |
+| GoogleOther | 506 | 152 | 30.0% | unchanged |
+| Bingbot | 278 | 10 | 4% | unchanged — pure recrawl, zero new pages |
+| UnknownBot | 750 | 12 | 1.6% | unchanged — second sweep, all recrawls |
+| ChatGPT-User | 44 | 1 | — | +5 HTML |
+| OAI-SearchBot | 21 | 10 | — | +1 HTML |
+
+**Experiment entering stable phase:** All major bots have frozen unique page counts. No new HTML or JS pages discovered by any bot across 2 days.
+
+**Bingbot maintenance mode:** HTML locked at 278 for 7+ days. Still crawling daily (last seen June 23 11:17) but purely recrawling known pages. JS: seção-only recrawls (construcao, educacao, industrias-extrativas, eletricidade-gas-agua). Zero depth 3+ across now 20+ days of cumulative crawl activity.
+
+**UnknownBot second sweep (June 22):** Swept all seção-level JS pages in one pass: atividades-administrativas, eletricidade-gas-agua, educacao, informacao-comunicacao, atividades-imobiliarias, transporte, construcao, artes-cultura-esporte, industrias-extrativas, servicos-domesticos. All depth 2. Zero depth 3+. Confirms the 12 JS pages (seção only) as its ceiling — not growing.
+
+**Googlebot status:** HTML last seen June 10 (13 days). JS last seen June 19 (single probe, +1 page). No second burst in sight. Gap locked: 37 HTML / 10 JS = 27%.
+
+**Coverage gap — final experiment table (day 25):**
+
+| Bot | JS executes | HTML pages | JS pages | JS ratio |
+|-----|------------|-----------|---------|---------|
+| Googlebot | ✅ YES | 37 | 10 | 27% |
+| GoogleOther | ✅ YES | 506 | 152 | 30% |
+| Bingbot | ❌ NO | 278 | 0 depth 3+ | 0% |
+| GPTBot | ❌ NO | 759 | 0 depth 3+ | 0% |
+| ClaudeBot | ❌ NO | 759 | 0 depth 3+ | 0% |
+| UnknownBot | ❌ NO | 750 | 0 depth 3+ | 0% |
+| ChatGPT-User | ❌ NO | 44 | 0 depth 3+ | 0% |
+| OAI-SearchBot | ❌ NO | 21 | 0 depth 3+ | 0% |
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
