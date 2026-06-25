@@ -1185,6 +1185,32 @@ Bingbot had been recrawling the seção pages (`/cnae/atividades-administrativas
 
 ---
 
+## Phase 2 — 2026-06-25: All links converted to HTML (recovery phase)
+
+**Deployed:** 2026-06-25  
+**Phase 1 duration:** 27 days (2026-05-29 to 2026-06-25)
+
+All 10 JS-treatment seções converted to hard-coded HTML links. `JS_SECOES` array emptied in `experiment.config.ts`. All 21 seções now render child links via `<HierarchyChildren />` (static HTML).
+
+### Phase 1 conclusion
+
+| Finding | Result |
+|---------|--------|
+| Only Google executes JS | ✅ Confirmed — Googlebot + GoogleOther only |
+| Non-Google bots follow JS links | ❌ Zero depth 3+ JS pages for any non-Google bot |
+| JS causes coverage gap | ✅ Googlebot 27% JS ratio vs HTML; all others ~0% |
+| Coverage gap stabilized | ✅ Frozen since Day 18; no new JS pages in 9 days |
+| Googlebot active at phase end | ❌ Silent 15 days (HTML) / 6 days (JS) |
+
+### Phase 2 question
+
+Will Googlebot (and others) now discover the former JS-group pages faster/deeper now that links are hard-coded HTML? Track:
+- New HTML pages in JS-group seções (industrias-extrativas, eletricidade-gas-agua, construcao, transporte, informacao-comunicacao, atividades-imobiliarias, atividades-administrativas, educacao, artes-cultura-esporte, servicos-domesticos)
+- Speed of discovery vs Phase 1 JS crawl rate
+- Whether non-Google bots finally reach depth 3+ in former JS seções
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage

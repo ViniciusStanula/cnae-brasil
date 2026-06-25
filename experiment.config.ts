@@ -1,30 +1,28 @@
-// Immutable for the duration of the experiment. Do not regenerate.
-// Split: alternating by seção letra (A=HTML, B=JS, C=HTML, ...).
-// Interleaved to eliminate positional/alphabetical crawl bias.
+// Phase 1 split (2026-05-30 to 2026-06-25): 11 HTML control, 10 JS treatment.
+// Phase 2 (2026-06-25+): all seções converted to HTML to measure recovery.
 
 export const HTML_SECOES = [
-  'agricultura',                   // A — 3 divisões
-  'agua-esgoto-residuos',          // E — 4 divisões
-  'comercio',                      // G — 3 divisões
-  'alojamento-alimentacao',        // I — 2 divisões
-  'financeiro-seguros',            // K — 3 divisões
-  'atividades-profissionais',      // M — 7 divisões
-  'administracao-publica',         // O — 1 divisão
-  'saude-servicos-sociais',        // Q — 3 divisões
-  'outras-atividades-de-servicos', // S — 4 divisões
-  'organismos-internacionais',     // U — 1 divisão
-  'industrias-de-transformacao',   // C — 24 divisões
+  'agricultura',                   // A
+  'industrias-extrativas',         // B — was JS
+  'industrias-de-transformacao',   // C
+  'eletricidade-gas-agua',         // D — was JS
+  'agua-esgoto-residuos',          // E
+  'construcao',                    // F — was JS
+  'comercio',                      // G
+  'transporte',                    // H — was JS
+  'alojamento-alimentacao',        // I
+  'informacao-comunicacao',        // J — was JS
+  'financeiro-seguros',            // K
+  'atividades-imobiliarias',       // L — was JS
+  'atividades-profissionais',      // M
+  'atividades-administrativas',    // N — was JS
+  'administracao-publica',         // O
+  'educacao',                      // P — was JS
+  'saude-servicos-sociais',        // Q
+  'artes-cultura-esporte',         // R — was JS
+  'outras-atividades-de-servicos', // S
+  'servicos-domesticos',           // T — was JS
+  'organismos-internacionais',     // U
 ];
 
-export const JS_SECOES = [
-  'industrias-extrativas',         // B — 5 divisões
-  'eletricidade-gas-agua',         // D — 1 divisão
-  'construcao',                    // F — 3 divisões
-  'transporte',                    // H — 5 divisões
-  'informacao-comunicacao',        // J — 6 divisões
-  'atividades-imobiliarias',       // L — 1 divisão
-  'atividades-administrativas',    // N — 8 divisões
-  'educacao',                      // P — 1 divisão
-  'artes-cultura-esporte',         // R — 4 divisões
-  'servicos-domesticos',           // T — 1 divisão
-];
+export const JS_SECOES: string[] = [];
