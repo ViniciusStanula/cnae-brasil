@@ -1153,6 +1153,38 @@ UnknownBot UA matches `/bot|crawler|spider/i` fallback but no named pattern. Cou
 
 ---
 
+### Days 26-27 — 2026-06-24 to 2026-06-25 (Bingbot JS resumes; depth 3-5 pages)
+
+**Coverage gap — day 27 snapshot (2026-06-25):**
+
+| Bot | HTML | JS | Ratio | vs Day 25 |
+|-----|------|----|-------|---------|
+| Googlebot | 37 | 10 | 27% | unchanged — **15 days HTML silent**, JS 6 days ago |
+| GoogleOther | 506 | 152 | 30.0% | unchanged |
+| Bingbot | 300 | 14 | 4.7% | **+22 HTML, +4 JS** — JS count grew for first time |
+| UnknownBot | 763 | 12 | 1.6% | +13 HTML, JS unchanged |
+| ChatGPT-User | 50 | 2 | — | +6 HTML, **+1 JS** |
+| OAI-SearchBot | 21 | 10 | — | unchanged |
+
+**Bingbot JS breakthrough — depth 3-5 pages discovered:**
+
+After 20+ days frozen at 10 JS pages (all seção depth 2), Bingbot reached 4 new pages deeper in the JS hierarchy:
+
+| Path | Depth | Seção | Date |
+|------|-------|-------|------|
+| `/cnae/atividades-administrativas/77/` | 3 (divisão) | atividades-administrativas | Jun 24 08:17 |
+| `/cnae/atividades-administrativas/82/82.3/` | 4 (grupo) | atividades-administrativas | Jun 24 21:59 |
+| `/cnae/transporte/53/53.2/5320-2/` | 5 (classe) | transporte | Jun 24 23:43 |
+| `/cnae/transporte/52/52.1/5212-5/` | 5 (classe) | transporte | Jun 25 05:13 |
+
+Bingbot had been recrawling the seção pages (`/cnae/atividades-administrativas/`, `/cnae/transporte/`) for weeks. These new deeper pages suggest it began following HTML sub-links found on those seção pages — no JS execution confirmed, but it is now navigating within the JS-seção hierarchy. This is the first non-seção-level JS-group discovery by a non-Google bot.
+
+**ChatGPT-User JS:** Second JS page added — `/cnae/informacao-comunicacao/` (seção depth 2, Jun 23). Still seção-level only, no depth 3+.
+
+**Googlebot remains absent:** Last HTML June 10 (15 days). Last JS June 19 (6 days). No sign of return.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
