@@ -1211,6 +1211,43 @@ Will Googlebot (and others) now discover the former JS-group pages faster/deeper
 
 ---
 
+### Days 28-31 — 2026-06-26 to 2026-06-29 (Phase 2 recovery begins — immediate response)
+
+**Coverage snapshot — day 31 (2026-06-29):**
+
+| Bot | HTML | JS | vs Day 27 |
+|-----|------|----|---------|
+| Googlebot | 38 | 10 | **+1 HTML — returned after 15 days** |
+| GoogleOther | 506 | 152 | unchanged |
+| Bingbot | 358 | 14 | **+58 HTML** — crawling former JS seções |
+| GPTBot | 1019 | 10 | **+260 HTML** — full sweep of former JS seções |
+| ChatGPT-User | 60 | 2 | +10 HTML |
+| OAI-SearchBot | 22 | 10 | +1 HTML |
+| UnknownBot | 763 | 12 | unchanged |
+
+**GPTBot Phase 2 recovery — immediate and systematic:**
+
+On 2026-06-27 (~11:51–12:10 UTC), just 2 days after Phase 2 deploy, GPTBot swept all former JS seções in one pass:
+
+- `informacao-comunicacao` — all 6 divisões (58, 59, 60, 61, 62, 63)
+- `artes-cultura-esporte` — all 4 divisões (90, 91, 92, 93) + grupos + subclasses
+- `transporte` — divisões 49, 51, 52, 53 + multiple grupos/subgroups
+- `eletricidade-gas-agua` — divisão 35
+- `construcao` — divisão 41
+- `atividades-imobiliarias`, `atividades-administrativas`
+
+All logged as `link_type="html"` — confirms Phase 2 conversion is working. GPTBot gained 260 unique pages in 4 days vs zero in 27 days of Phase 1. This is direct proof that HTML links unlock coverage for non-Google bots.
+
+**Bingbot Phase 2 recovery:**
+
++58 HTML pages across former JS seções: construcao (divisões 41, 42, 43), transporte (49, 50, 51), informacao-comunicacao (58), atividades-administrativas (77, 82), eletricidade-gas-agua (35), atividades-imobiliarias (68), educacao (85), artes-cultura-esporte (90, 91). Zero JS pages added — all new discoveries via HTML links.
+
+**Googlebot returned (Jun 25 23:42):**
+
+After 15 days silent, Googlebot crawled `/cnae/industrias-de-transformacao/31/` (HTML seção). Only 1 new page — no former JS seção visited yet. Still monitoring for JS-to-HTML recovery signal.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
