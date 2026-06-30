@@ -1248,6 +1248,35 @@ After 15 days silent, Googlebot crawled `/cnae/industrias-de-transformacao/31/` 
 
 ---
 
+### Day 32 — 2026-06-30 (Bingbot drilling deep into former JS seções)
+
+**Coverage snapshot — day 32 (2026-06-30):**
+
+| Bot | HTML | JS | vs Day 31 |
+|-----|------|----|---------|
+| Googlebot | 38 | 10 | unchanged — silent 5 days since Jun 25 |
+| GoogleOther | 506 | 152 | unchanged |
+| Bingbot | 386 | 14 | **+28 HTML** — deep crawl of former JS seções |
+| GPTBot | 1019 | 10 | unchanged |
+| ChatGPT-User | 64 | 2 | +4 HTML |
+| UnknownBot | 763 | 12 | unchanged |
+
+**Bingbot Phase 2 depth recovery — construcao and educacao:**
+
+Bingbot systematically crawled all subclass-level pages under `construcao` (former JS seção) across Jun 29-30:
+
+- `construcao/41/` → 41.1 → 4110-7; 41.2 → 4120-4
+- `construcao/42/` → 42.1 → 4211-1, 4212-0, 4213-8; 42.2 → 4221-9, 4222-7, 4223-5; 42.9 → 4291-0, 4292-8, 4299-5
+- `construcao/43/` → 43.1 → 4311-8, 4312-6, 4313-4, 4319-3; 43.3 → 4330-4
+
+On Jun 30 09:53, Bingbot hit `educacao/85/` and immediately crawled all 6 divisões (85.1–85.5, 85.9) in parallel — same pattern as its construcao sweep.
+
+This is the clearest Bingbot Phase 2 signal: it is now reaching depth 4-5 pages under former JS seções that were completely inaccessible during Phase 1.
+
+**Googlebot** crawled 1 page on Jun 25 then went silent again. No former JS seção recovery yet.
+
+---
+
 ## What to look for at the end (6–8 weeks)
 
 1. **Did the HTML vs JS coverage gap close?** → If still 25%, JS links permanently hurt coverage
