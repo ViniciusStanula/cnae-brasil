@@ -1248,6 +1248,65 @@ After 15 days silent, Googlebot crawled `/cnae/industrias-de-transformacao/31/` 
 
 ---
 
+### Days 33-37 — 2026-07-01 to 2026-07-05 (Bingbot Phase 2 sweep; Googlebot silent 11 days)
+
+**Coverage snapshot — day 37 (2026-07-05), queries run 2026-07-06:**
+
+| Bot | HTML | JS | vs Day 32 |
+|-----|------|----|---------|
+| Googlebot | 38 | 10 | **unchanged — 11 days silent (HTML), 17 days (JS)** |
+| GoogleOther | 506 | 152 | unchanged |
+| Bingbot | **426** | 14 | **+40 HTML** — deep Phase 2 sweep continues |
+| GPTBot | 1019 | 10 | unchanged |
+| ChatGPT-User | 81 | 2 | +17 HTML |
+| OAI-SearchBot | 23 | 10 | +1 HTML |
+| UnknownBot | 778 | 12 | +15 HTML |
+| ClaudeBot | 759 | 10 | unchanged |
+
+**Bingbot — systematic sweep of all former JS seções:**
+
+Bingbot reached depth 4-5 across virtually all former JS seções over this 5-day period. Active as of Jul 6 12:14 (today). JS page count: frozen at 14 (last JS hit Jun 25 — Phase 1 end). All new pages are `link_type="html"` — confirms it is following the newly hard-coded HTML links.
+
+Seções with new deep pages (depth 4-5):
+
+| Former JS seção | New pages discovered |
+|----------------|---------------------|
+| `construcao` | Continued: 42/42.2, 42/42.9, 43/43.1, 43/43.3 — all subclasse level |
+| `educacao` | 85.2→8520-1; 85.3→8531-7/8532-5/8533-3; 85.4→8541-4/8542-2; 85.5→8550-3; 85.9→8591-1/8592-9/8593-7/8599-6 |
+| `transporte` | 49/49.4→4940-0; 52/ |
+| `artes-cultura-esporte` | seção page + subdirectory |
+| `servicos-domesticos` | 97/ divisão |
+
+Also crawling HTML seções at depth 4-5: `saude-servicos-sociais` (heavy recrawl of 86.4/8640-2 — hit dozens of times across multiple days), `comercio` (46/46.1–46.9, 47/47.2–47.8 at subclasse level), `atividades-profissionais` (71/71.1, 72/72.1, 73/73.1, 74/74.1/74.9, 75/), `alojamento-alimentacao` (56/56.1, 56/56.2/5620-1), `financeiro-seguros` (66/66.1).
+
+**Notable Bingbot behavior:** `/cnae/saude-servicos-sociais/86/86.4/8640-2/` recrawled ~15+ times across the 5-day period (~3×/day). Unusual repetitive recrawl of a single leaf page — not experiment-relevant but indicates high priority in Bing's queue.
+
+**Googlebot — no Phase 2 signal:**
+
+HTML last seen: 2026-06-25 23:42 (11 days silent).
+JS last seen: 2026-06-19 20:49 (17 days silent).
+Coverage unchanged: 38 HTML / 10 JS = 26%.
+No former JS seção visited since Phase 2 deploy. Googlebot is the key experiment target — still waiting for its first Phase 2 response.
+
+**Other bots — minimal activity:**
+
+- **ChatGPT-User:** +17 HTML, shallow. No JS depth 3+.
+- **UnknownBot:** +15 HTML. JS frozen at 12 seção pages.
+- **GPTBot, ClaudeBot, GoogleOther, OAI-SearchBot:** zero new pages.
+
+**Phase 2 recovery status — day 37:**
+
+| Bot | Phase 2 response | Signal |
+|-----|-----------------|--------|
+| Bingbot | ✅ Active — +98 HTML pages since Jun 25 (386→426+) | Deep crawl of all former JS seções |
+| GPTBot | ✅ Done — +260 HTML pages in first 4 days (days 28-31) | Immediate full sweep |
+| ChatGPT-User | Partial — +31 HTML pages since Phase 2 | Slow trickle, shallow |
+| UnknownBot | Minimal — +15 HTML | Slow |
+| Googlebot | ❌ Silent — 0 new pages in 11 days | **Key gap — no recovery yet** |
+| GoogleOther | ❌ Silent — 0 new pages since Phase 2 | Waiting |
+
+---
+
 ### Day 32 — 2026-06-30 (Bingbot drilling deep into former JS seções)
 
 **Coverage snapshot — day 32 (2026-06-30):**
