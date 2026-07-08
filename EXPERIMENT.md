@@ -1248,6 +1248,63 @@ After 15 days silent, Googlebot crawled `/cnae/industrias-de-transformacao/31/` 
 
 ---
 
+### Days 38-40 — 2026-07-06 to 2026-07-08 (Googlebot returns; Bingbot crawls all former JS seções)
+
+**Coverage snapshot — day 40 (2026-07-08), queries run today:**
+
+| Bot | HTML | JS | vs Day 37 |
+|-----|------|----|---------|
+| Googlebot | **39** | 10 | **+1 HTML — returned after 11 days silent** |
+| GoogleOther | 506 | 152 | unchanged |
+| Bingbot | **485** | 14 | **+59 HTML** — continued deep sweep |
+| GPTBot | 1019 | 10 | unchanged |
+| ChatGPT-User | 95 | 2 | +14 HTML |
+| OAI-SearchBot | 23 | 10 | unchanged |
+| UnknownBot | 800 | 12 | +22 HTML |
+| ClaudeBot | 759 | 10 | unchanged |
+| PerplexityBot | **1** | — | **first CNAE hierarchy hit** |
+
+**Googlebot — first activity since Jun 25:**
+
+HTML last seen: 2026-07-06 21:34. JS last seen: 2026-06-19 (unchanged).
+Coverage: 38→39 HTML (+1 page). JS still frozen at 10.
+Single HTML page visit — not a former JS seção. No Phase 2 recovery signal yet from Google, but silence is broken.
+
+**Bingbot — Phase 2 sweep reaching all former JS seções:**
+
++59 HTML pages (426→485). Still active Jul 8 21:26 (hours ago). JS frozen at 14 (last Jun 25).
+New former JS seções reached at depth 3-4:
+
+| Former JS seção | New pages |
+|----------------|-----------|
+| `industrias-extrativas` (B) | 05/, 05/05.0/, 05/05.0/0500-3; 06/, 06/06.0/; 09/, 09/09.1/, 09/09.9/ |
+| `informacao-comunicacao` (J) | 58/58.1/5811-5; 58/58.1/; 59/; 60/ |
+| `servicos-domesticos` (T) | 97/97.0/ (grupo level) |
+| `educacao` (P) | 85.1/ + subclasses 8511-2, 8512-1, 8513-9 (new) |
+
+`industrias-extrativas` and `informacao-comunicacao` are notable — these two seções had zero Bingbot hierarchy pages in Phase 1 (only seção level, depth 2). Now reaching depth 4-5 under HTML links.
+
+Also crawling `construcao/43/43.9/` (new grupo), `construcao/43/43.2/4329-1` — completing construcao coverage.
+
+**PerplexityBot — first CNAE hierarchy hit:**
+
+1 HTML page. Previously only hit null pages (homepage, robots.txt). First experiment signal from Perplexity's crawler.
+
+**Phase 2 recovery status — day 40:**
+
+| Bot | Phase 2 response | HTML pages gained since Jun 25 |
+|-----|-----------------|-------------------------------|
+| GPTBot | ✅ Complete — immediate sweep | +260 (days 28-31) |
+| Bingbot | ✅ Active — systematic sweep all seções | +127 (days 28-40) |
+| ChatGPT-User | Partial — slow trickle | +45 |
+| UnknownBot | Slow | +37 |
+| Googlebot | ⚠️ Minimal — 1 page after 11 days | +1 |
+| GoogleOther | ❌ Silent | 0 |
+
+**Key gap:** Googlebot/GoogleOther combined still at 39 HTML / 10 JS. Former JS seções remain unvisited by Google since Phase 2. Every other bot has shown clear recovery signal. Google's silence is now the primary open question.
+
+---
+
 ### Days 33-37 — 2026-07-01 to 2026-07-05 (Bingbot Phase 2 sweep; Googlebot silent 11 days)
 
 **Coverage snapshot — day 37 (2026-07-05), queries run 2026-07-06:**
