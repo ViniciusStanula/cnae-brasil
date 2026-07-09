@@ -1248,6 +1248,45 @@ After 15 days silent, Googlebot crawled `/cnae/industrias-de-transformacao/31/` 
 
 ---
 
+### Day 41 — 2026-07-09 (UnknownBot Phase 2 sweep; Bingbot decelerating)
+
+**Coverage snapshot — day 41 (2026-07-09):**
+
+| Bot | HTML | JS | vs Day 40 |
+|-----|------|----|---------|
+| Googlebot | 39 | 10 | unchanged — silent since Jul 6 |
+| GoogleOther | 506 | 152 | unchanged |
+| Bingbot | **490** | 14 | +5 HTML (decelerating) |
+| GPTBot | 1019 | 10 | unchanged |
+| ChatGPT-User | 97 | 2 | +2 HTML |
+| OAI-SearchBot | 23 | 10 | unchanged |
+| UnknownBot | **850** | 12 | **+50 HTML — Phase 2 sweep** |
+| ClaudeBot | 759 | 10 | unchanged |
+
+**UnknownBot — Phase 2 recovery sweep (grupo level, depth 3):**
+
+UnknownBot hit 50 new unique pages today. Unlike Phase 1 where it stayed at seção depth 2 for JS-group pages, it is now reaching depth 3 (grupo level) across all former JS seções via the new HTML links:
+
+| Former JS seção | Grupos now reached |
+|----------------|-------------------|
+| `informacao-comunicacao` (J) | 58/58.1/, 58/58.2/, 60/60.1/, 61/61.1–61.4, 61.9/, 63/63.1/ |
+| `atividades-administrativas` (N) | 77/77.1–77.3/, 78/78.1/, 79/79.1/, 79/79.9/, 80/80.2/, 82/82.1–82.3/ |
+| `transporte` (H) | 49/49.1–49.5/, 50/50.3/, 51/51.3/, 52/52.1–52.4/, 53/53.1–53.2/ |
+| `artes-cultura-esporte` (R) | 90/90.0/, 91/91.0/ |
+| `eletricidade-gas-agua` (D) | 35/35.1/, 35/35.2/, 35/35.3/ |
+
+This is direct Phase 2 signal: JS-group seções that UnknownBot only ever hit at seção level in Phase 1 are now receiving depth-3 grupo crawls. JS count frozen at 12 (seção only, unchanged since Phase 1).
+
+**Bingbot — decelerating:**
+
+Only +5 HTML today (485→490). Daily gains: ~+59 (days 33-37) → ~+20 (days 38-40) → +5 (day 41). Entering maintenance mode, similar to what happened after its Phase 1 burst ended around day 21. Still active (last seen 18:44 today). JS frozen at 14 since Jun 25.
+
+**Googlebot — 3 days silent:**
+
+Last seen Jul 6 with 1 HTML page. No former JS seção visit since Phase 2. Silence now entering 4th day. GoogleOther also silent. Google is the last major bot without a Phase 2 recovery signal.
+
+---
+
 ### Days 38-40 — 2026-07-06 to 2026-07-08 (Googlebot returns; Bingbot crawls all former JS seções)
 
 **Coverage snapshot — day 40 (2026-07-08), queries run today:**
