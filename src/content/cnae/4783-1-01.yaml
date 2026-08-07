@@ -2,7 +2,7 @@ codigo: 4783-1/01
 codigo_slug: 4783-1-01
 codigo_numerico: '4783101'
 descricao_oficial: COMÉRCIO VAREJISTA DE ARTIGOS DE JOALHERIA
-descricao_plana: COMÉRCIO VAREJISTA DE ARTIGOS DE JOALHERIA
+descricao_plana: Comércio varejista de artigos de joalheria, como anéis, brincos, correntes e alianças em metais preciosos.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Joalheria de bairro
+  - Loja de alianças e joias em ouro
+  - Comércio de semijoias e joias folheadas
+  - Joalheria online
+  - Quiosque de joias em shopping
+o_que_inclui:
+  - Venda de anéis, alianças, brincos, correntes e pulseiras
+  - Comércio de joias em ouro, prata e metais preciosos
+  - Venda de semijoias e peças folheadas
+  - Comércio de pedras preciosas montadas
+  - Serviços de gravação e ajuste como acessórios à venda
+o_que_nao_inclui:
+  - Comércio varejista de artigos de relojoaria (use CNAE 4783-1/02)
+  - Fabricação de artefatos de joalheria e ourivesaria (use CNAE 3211-6/02)
+  - Fabricação de bijuterias e artefatos semelhantes (use CNAE 3212-4/00)
+  - Comércio varejista de suvenires, bijuterias e artesanatos (use CNAE 4789-0/01)
+  - Reparação de joias (use CNAE 9529-1/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro na Receita Federal para operações com metais preciosos
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro no COAF para prevenção à lavagem de dinheiro
+cnaes_relacionados:
+  - 4783-1/02
+  - 3211-6/02
+  - 3212-4/00
+  - 4789-0/01
+  - 9529-1/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

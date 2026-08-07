@@ -2,7 +2,7 @@ codigo: 4789-0/01
 codigo_slug: 4789-0-01
 codigo_numerico: '4789001'
 descricao_oficial: COMÉRCIO VAREJISTA DE SUVENIRES, BIJUTERIAS E ARTESANATOS
-descricao_plana: COMÉRCIO VAREJISTA DE SUVENIRES, BIJUTERIAS E ARTESANATOS
+descricao_plana: Comércio varejista de suvenires, bijuterias e artesanatos, incluindo lembranças e peças de produção artesanal.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de suvenires em ponto turístico
+  - Comércio de bijuterias em quiosque
+  - Loja de artesanato regional
+  - Banca de artesanato em feira
+  - Comércio online de bijuterias e lembranças
+o_que_inclui:
+  - Venda de suvenires, lembranças e artigos turísticos
+  - Comércio de bijuterias, brincos, colares e pulseiras
+  - Venda de artesanato regional e peças artesanais
+  - Comércio de presentes e artigos decorativos artesanais
+  - Venda em loja, quiosque, feira ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos de joalheria (use CNAE 4783-1/01)
+  - Fabricação de bijuterias e artefatos semelhantes (use CNAE 3212-4/00)
+  - Comércio varejista de objetos de arte (use CNAE 4789-0/03)
+  - Comércio varejista de outros artigos de uso pessoal e doméstico (use CNAE 4759-8/99)
+  - Lojas de variedades, exceto lojas de departamentos (use CNAE 4713-0/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Autorização municipal para banca ou quiosque em via pública
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação Inmetro para bijuterias infantis, quando aplicável
+cnaes_relacionados:
+  - 4783-1/01
+  - 3212-4/00
+  - 4789-0/03
+  - 4759-8/99
+  - 4713-0/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

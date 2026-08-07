@@ -2,7 +2,7 @@ codigo: 4789-0/02
 codigo_slug: 4789-0-02
 codigo_numerico: '4789002'
 descricao_oficial: COMÉRCIO VAREJISTA DE PLANTAS E FLORES NATURAIS
-descricao_plana: COMÉRCIO VAREJISTA DE PLANTAS E FLORES NATURAIS
+descricao_plana: Comércio varejista de plantas e flores naturais, incluindo mudas, arranjos, vasos e insumos de jardinagem.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Floricultura de bairro
+  - Comércio de mudas e plantas ornamentais
+  - Banca de flores em feira ou cemitério
+  - Loja online de plantas e arranjos
+  - Garden center com plantas e insumos
+o_que_inclui:
+  - Venda de flores de corte, buquês e arranjos
+  - Comércio de mudas, plantas ornamentais e suculentas
+  - Venda de vasos, terra, adubo e insumos de jardinagem
+  - Montagem de arranjos e cestas como serviço acessório
+  - Venda em loja, banca, feira ou pela internet
+o_que_nao_inclui:
+  - Cultivo de flores e plantas ornamentais (use CNAE 0122-9/00)
+  - Produção de mudas e outras formas de propagação vegetal, certificadas (use CNAE 0142-3/00)
+  - Atividades paisagísticas (use CNAE 8130-3/00)
+  - Comércio varejista de outros artigos de uso pessoal e doméstico (use CNAE 4759-8/99)
+  - Comércio atacadista de flores e plantas (use CNAE 4623-1/06)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Registro no Ministério da Agricultura para comércio de mudas
+  - Autorização municipal para banca em via pública, quando aplicável
+  - Licença ambiental para comércio de espécies nativas, quando exigida
+cnaes_relacionados:
+  - 0122-9/00
+  - 0142-3/00
+  - 8130-3/00
+  - 4759-8/99
+  - 4789-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

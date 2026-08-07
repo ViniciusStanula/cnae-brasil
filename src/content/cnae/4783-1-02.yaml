@@ -2,7 +2,7 @@ codigo: 4783-1/02
 codigo_slug: 4783-1-02
 codigo_numerico: '4783102'
 descricao_oficial: COMÉRCIO VAREJISTA DE ARTIGOS DE RELOJOARIA
-descricao_plana: COMÉRCIO VAREJISTA DE ARTIGOS DE RELOJOARIA
+descricao_plana: Comércio varejista de artigos de relojoaria, como relógios de pulso, de parede, despertadores e acessórios.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Relojoaria de bairro
+  - Loja de relógios de pulso e pulseiras
+  - Comércio de relógios de parede e despertadores
+  - Relojoaria online
+  - Quiosque de relógios em shopping
+o_que_inclui:
+  - Venda de relógios de pulso, parede e mesa
+  - Comércio de despertadores e cronômetros
+  - Venda de pulseiras, baterias e acessórios para relógios
+  - Troca de pulseira e bateria como serviço acessório à venda
+  - Venda em loja física, quiosque ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos de joalheria (use CNAE 4783-1/01)
+  - Reparação de relógios (use CNAE 9529-1/03)
+  - Comércio varejista de artigos de óptica (use CNAE 4774-1/00)
+  - Comércio varejista de suvenires, bijuterias e artesanatos (use CNAE 4789-0/01)
+  - Comércio varejista especializado de equipamentos de telefonia (use CNAE 4752-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro em logística reversa de pilhas e baterias
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 4783-1/01
+  - 9529-1/03
+  - 4774-1/00
+  - 4789-0/01
+  - 4752-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

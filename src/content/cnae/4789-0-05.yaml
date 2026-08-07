@@ -2,7 +2,7 @@ codigo: 4789-0/05
 codigo_slug: 4789-0-05
 codigo_numerico: '4789005'
 descricao_oficial: COMÉRCIO VAREJISTA DE PRODUTOS SANEANTES DOMISSANITÁRIOS
-descricao_plana: COMÉRCIO VAREJISTA DE PRODUTOS SANEANTES DOMISSANITÁRIOS
+descricao_plana: Comércio varejista de produtos saneantes domissanitários, como detergentes, desinfetantes e produtos de limpeza.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de produtos de limpeza a granel
+  - Comércio de saneantes para uso doméstico
+  - Distribuidora varejista de material de limpeza
+  - Loja online de produtos de limpeza
+  - Comércio de descartáveis e higiene
+o_que_inclui:
+  - Venda de detergentes, desinfetantes e alvejantes
+  - Comércio de ceras, removedores e desengordurantes
+  - Venda de produtos de limpeza a granel e fracionados
+  - Comércio de descartáveis e utensílios de limpeza
+  - Venda em loja física ou pela internet
+o_que_nao_inclui:
+  - Fabricação de sabões e detergentes sintéticos (use CNAE 2061-4/00)
+  - Comércio varejista de cosméticos e produtos de perfumaria (use CNAE 4772-5/00)
+  - Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar (use CNAE 4649-4/08)
+  - Fabricação de escovas, pincéis e vassouras (use CNAE 3291-4/00)
+  - Comércio varejista de outros artigos de uso pessoal e doméstico (use CNAE 4759-8/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Autorização de Funcionamento na Anvisa para saneantes
+  - Responsável técnico habilitado para fracionamento a granel
+  - Inscrição estadual para circulação de mercadorias
+cnaes_relacionados:
+  - 2061-4/00
+  - 4772-5/00
+  - 4649-4/08
+  - 3291-4/00
+  - 4759-8/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

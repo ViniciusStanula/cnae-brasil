@@ -2,7 +2,7 @@ codigo: 4785-7/99
 codigo_slug: 4785-7-99
 codigo_numerico: '4785799'
 descricao_oficial: COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
-descricao_plana: COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
+descricao_plana: Comércio varejista de outros artigos usados, como brechós de roupas, móveis usados e bazares de segunda mão.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Brechó de roupas e acessórios
+  - Loja de móveis usados
+  - Bazar beneficente com artigos de segunda mão
+  - Comércio online de itens usados
+  - Loja de eletrônicos seminovos
+o_que_inclui:
+  - Venda de roupas, calçados e acessórios usados
+  - Comércio de móveis e eletrodomésticos de segunda mão
+  - Venda de livros, brinquedos e utensílios usados
+  - Higienização e reparo leve das peças antes da venda
+  - Venda em loja física, bazar ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de antiguidades (use CNAE 4785-7/01)
+  - Comércio a varejo de peças e acessórios usados para veículos (use CNAE 4530-7/04)
+  - Comércio varejista de objetos de arte (use CNAE 4789-0/03)
+  - Recuperação de materiais não especificados anteriormente (use CNAE 3839-4/99)
+  - Comércio varejista de livros, incluindo sebos (use CNAE 4761-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Registro na Polícia Civil, quando exigido para comércio de usados
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária, quando houver higienização de roupas
+cnaes_relacionados:
+  - 4785-7/01
+  - 4530-7/04
+  - 4789-0/03
+  - 4761-0/01
+  - 3839-4/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

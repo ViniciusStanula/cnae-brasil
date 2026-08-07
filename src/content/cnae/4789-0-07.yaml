@@ -2,7 +2,7 @@ codigo: 4789-0/07
 codigo_slug: 4789-0-07
 codigo_numerico: '4789007'
 descricao_oficial: COMÉRCIO VAREJISTA DE EQUIPAMENTOS PARA ESCRITÓRIO
-descricao_plana: COMÉRCIO VAREJISTA DE EQUIPAMENTOS PARA ESCRITÓRIO
+descricao_plana: Comércio varejista de equipamentos para escritório, como mesas, cadeiras, cofres e máquinas de escritório.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de móveis e equipamentos para escritório
+  - Comércio de cadeiras ergonômicas
+  - Loja de cofres e arquivos
+  - Comércio online de equipamentos de escritório
+  - Loja de fragmentadoras e máquinas de escritório
+o_que_inclui:
+  - Venda de mesas, cadeiras e estações de trabalho
+  - Comércio de arquivos, armários e cofres
+  - Venda de fragmentadoras, encadernadoras e guilhotinas
+  - Comércio de quadros, divisórias e acessórios de escritório
+  - Entrega e montagem como serviço acessório à venda
+o_que_nao_inclui:
+  - Comércio varejista de móveis (use CNAE 4754-7/01)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+  - Comércio varejista especializado de equipamentos e suprimentos de informática (use CNAE 4751-2/01)
+  - Fabricação de móveis com predominância de metal (use CNAE 3102-1/00)
+  - Manutenção e reparação de máquinas de escritório não eletrônicas (use CNAE 3314-7/09)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação Inmetro para produtos que a exijam
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 4754-7/01
+  - 4761-0/03
+  - 4751-2/01
+  - 3102-1/00
+  - 3314-7/09
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

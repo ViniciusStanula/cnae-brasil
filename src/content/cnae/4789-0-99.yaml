@@ -2,7 +2,7 @@ codigo: 4789-0/99
 codigo_slug: 4789-0-99
 codigo_numerico: '4789099'
 descricao_oficial: COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: COMÉRCIO VAREJISTA DE OUTROS PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Comércio varejista de outros produtos sem código próprio na CNAE, como artigos religiosos, funerários e diversos.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de artigos religiosos
+  - Comércio de artigos funerários
+  - Loja de artigos de segurança e EPI
+  - Comércio de produtos diversos sem categoria própria
+  - Loja online de artigos variados
+o_que_inclui:
+  - Venda de artigos religiosos, imagens e devocionais
+  - Comércio de artigos funerários e ornamentais
+  - Venda de equipamentos de proteção individual no varejo
+  - Comércio de produtos sem enquadramento em código próprio
+  - Venda em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de suvenires, bijuterias e artesanatos (use CNAE 4789-0/01)
+  - Comércio varejista de outros artigos de uso pessoal e doméstico (use CNAE 4759-8/99)
+  - Comércio varejista de plantas e flores naturais (use CNAE 4789-0/02)
+  - Comércio varejista de artigos fotográficos e para filmagem (use CNAE 4789-0/08)
+  - Serviços funerários (use CNAE 9603-3/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação Inmetro ou CA do Ministério do Trabalho, conforme o produto
+  - Licença da vigilância sanitária, conforme o produto comercializado
+cnaes_relacionados:
+  - 4789-0/01
+  - 4759-8/99
+  - 4789-0/02
+  - 4789-0/08
+  - 3299-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

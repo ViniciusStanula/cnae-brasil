@@ -2,7 +2,7 @@ codigo: 4782-2/01
 codigo_slug: 4782-2-01
 codigo_numerico: '4782201'
 descricao_oficial: COMÉRCIO VAREJISTA DE CALÇADOS
-descricao_plana: COMÉRCIO VAREJISTA DE CALÇADOS
+descricao_plana: Comércio varejista de calçados, como sapatos, tênis, sandálias e chinelos, para adulto e infantil.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de calçados de bairro
+  - Sapataria com venda de sapatos sociais
+  - Loja de tênis e calçados esportivos
+  - Comércio online de calçados
+  - Loja de calçados infantis
+o_que_inclui:
+  - Venda de sapatos, tênis, sandálias e chinelos
+  - Comércio de calçados sociais, casuais e esportivos
+  - Venda de calçados infantis e de segurança para uso pessoal
+  - Comércio de palmilhas, cadarços e acessórios para calçados
+  - Venda em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos de viagem (use CNAE 4782-2/02)
+  - Fabricação de calçados de couro (use CNAE 1531-9/01)
+  - Comércio varejista de artigos do vestuário e acessórios (use CNAE 4781-4/00)
+  - Reparação de calçados, bolsas e artigos de viagem (use CNAE 9529-1/01)
+  - Comércio varejista de artigos esportivos (use CNAE 4763-6/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem conforme regras do Inmetro
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 4782-2/02
+  - 1531-9/01
+  - 4781-4/00
+  - 9529-1/01
+  - 4763-6/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

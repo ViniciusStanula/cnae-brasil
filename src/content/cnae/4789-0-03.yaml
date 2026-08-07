@@ -2,7 +2,7 @@ codigo: 4789-0/03
 codigo_slug: 4789-0-03
 codigo_numerico: '4789003'
 descricao_oficial: COMÉRCIO VAREJISTA DE OBJETOS DE ARTE
-descricao_plana: COMÉRCIO VAREJISTA DE OBJETOS DE ARTE
+descricao_plana: Comércio varejista de objetos de arte, como quadros, esculturas, gravuras e peças de galeria.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Galeria de arte com venda de quadros
+  - Comércio de esculturas e peças autorais
+  - Loja de gravuras e pôsteres de arte
+  - Comércio online de obras de arte
+  - Ateliê com venda de arte própria e de terceiros
+o_que_inclui:
+  - Venda de quadros, pinturas e gravuras
+  - Comércio de esculturas e peças de arte tridimensional
+  - Venda de fotografias artísticas e serigrafias
+  - Intermediação de venda de obras de artistas
+  - Comércio em galeria, ateliê ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de antiguidades (use CNAE 4785-7/01)
+  - Comércio varejista de suvenires, bijuterias e artesanatos (use CNAE 4789-0/01)
+  - Atividades de artistas plásticos e criação artística (use CNAE 9002-7/01)
+  - Comércio varejista de outros artigos usados (use CNAE 4785-7/99)
+  - Restauração de obras de arte (use CNAE 9002-7/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Autorização do IPHAN para obras de valor histórico protegido
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro no COAF para prevenção à lavagem de dinheiro
+cnaes_relacionados:
+  - 4785-7/01
+  - 4789-0/01
+  - 4785-7/99
+  - 9002-7/01
+  - 4759-8/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'

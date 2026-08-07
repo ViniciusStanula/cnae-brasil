@@ -2,7 +2,7 @@ codigo: 4789-0/08
 codigo_slug: 4789-0-08
 codigo_numerico: '4789008'
 descricao_oficial: COMÉRCIO VAREJISTA DE ARTIGOS FOTOGRÁFICOS E PARA FILMAGEM
-descricao_plana: COMÉRCIO VAREJISTA DE ARTIGOS FOTOGRÁFICOS E PARA FILMAGEM
+descricao_plana: Comércio varejista de artigos fotográficos e para filmagem, como câmeras, lentes, tripés e acessórios.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de câmeras e equipamentos fotográficos
+  - Comércio de lentes e acessórios para fotografia
+  - Loja de iluminação e estúdio fotográfico
+  - Comércio online de artigos fotográficos
+  - Loja de drones e equipamentos de filmagem
+o_que_inclui:
+  - Venda de câmeras fotográficas e filmadoras
+  - Comércio de lentes, filtros e tripés
+  - Venda de iluminação, fundos e equipamentos de estúdio
+  - Comércio de cartões de memória, baterias e acessórios
+  - Venda em loja física ou pela internet
+o_que_nao_inclui:
+  - Serviços de laboratório fotográfico e revelação (use CNAE 7420-0/04)
+  - Atividades de produção fotográfica, exceto aérea e submarina (use CNAE 7420-0/01)
+  - Comércio varejista especializado de equipamentos e suprimentos de informática (use CNAE 4751-2/01)
+  - Comércio varejista de eletrodomésticos e equipamentos de áudio e vídeo (use CNAE 4753-9/00)
+  - Aluguel de equipamentos fotográficos (use CNAE 7739-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Homologação Anatel para drones e equipamentos com transmissão
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro em logística reversa de baterias e eletroeletrônicos
+cnaes_relacionados:
+  - 7420-0/01
+  - 7420-0/04
+  - 4751-2/01
+  - 4753-9/00
+  - 4789-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:24:21.180Z'
