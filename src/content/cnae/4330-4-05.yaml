@@ -2,7 +2,7 @@ codigo: 4330-4/05
 codigo_slug: 4330-4-05
 codigo_numerico: '4330405'
 descricao_oficial: APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES
-descricao_plana: APLICAÇÃO DE REVESTIMENTOS E DE RESINAS EM INTERIORES E EXTERIORES
+descricao_plana: Aplicação de revestimentos e resinas em interiores e exteriores, como pisos, azulejos, porcelanato e resinas epóxi.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Assentador de pisos e azulejos autônomo
+  - Empresa de aplicação de porcelanato e mármore
+  - Prestador de aplicação de resina epóxi industrial
+  - Instalador de pisos vinílicos e laminados
+  - Empresa de revestimento de fachadas em cerâmica
+o_que_inclui:
+  - Assentamento de pisos e azulejos cerâmicos e porcelanato
+  - Aplicação de pisos vinílicos, laminados e carpetes
+  - Aplicação de resinas epóxi e poliuretano em pisos
+  - Revestimento de fachadas em cerâmica, pastilha e pedra
+  - Rejuntamento, nivelamento e acabamento das superfícies
+o_que_nao_inclui:
+  - Serviços de pintura de edifícios em geral (use CNAE 4330-4/04)
+  - Obras de acabamento em gesso e estuque (use CNAE 4330-4/03)
+  - Impermeabilização em obras de engenharia civil (use CNAE 4330-4/01)
+  - Aparelhamento de placas e trabalhos em mármore e granito (use CNAE 2391-5/03)
+  - Outras obras de acabamento da construção (use CNAE 4330-4/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Cumprimento da NR-35 para trabalho em altura em fachadas
+  - Licença ambiental para descarte de resinas e resíduos
+  - Anotação de Responsabilidade Técnica (ART) por obra, quando exigida
+cnaes_relacionados:
+  - 4330-4/04
+  - 4330-4/03
+  - 4330-4/01
+  - 4330-4/99
+  - 2391-5/03
+  - 4399-1/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

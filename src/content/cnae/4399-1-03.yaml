@@ -2,7 +2,7 @@ codigo: 4399-1/03
 codigo_slug: 4399-1-03
 codigo_numerico: '4399103'
 descricao_oficial: OBRAS DE ALVENARIA
-descricao_plana: OBRAS DE ALVENARIA
+descricao_plana: Obras de alvenaria, incluindo levantamento de paredes, muros, reboco e serviços de pedreiro em geral.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Pedreiro autônomo com serviços de alvenaria
+  - Empresa de execução de muros e paredes
+  - Prestador de reboco e chapisco em obras
+  - Equipe de alvenaria para construtoras
+  - Empresa de pequenas reformas e alvenaria
+o_que_inclui:
+  - Levantamento de paredes em tijolo, bloco cerâmico ou de concreto
+  - Execução de muros, divisórias e fechamentos em alvenaria
+  - Aplicação de chapisco, emboço e reboco
+  - Assentamento de vergas, contravergas e elementos vazados
+  - Pequenas reformas e reparos em alvenaria
+o_que_nao_inclui:
+  - Obras de fundações (use CNAE 4391-6/00)
+  - Serviços especializados para construção sem código próprio (use CNAE 4399-1/99)
+  - Aplicação de revestimentos e de resinas (use CNAE 4330-4/05)
+  - Obras de acabamento em gesso e estuque (use CNAE 4330-4/03)
+  - Construção de edifícios completos (use CNAE 4120-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Anotação de Responsabilidade Técnica (ART) por obra, quando exigida
+  - Cumprimento da NR-35 para trabalho em altura
+  - Alvará de construção da obra atendida, de responsabilidade do contratante
+cnaes_relacionados:
+  - 4399-1/99
+  - 4391-6/00
+  - 4330-4/05
+  - 4330-4/03
+  - 4399-1/02
+  - 4330-4/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

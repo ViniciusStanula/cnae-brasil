@@ -2,7 +2,9 @@ codigo: 4520-0/03
 codigo_slug: 4520-0-03
 codigo_numerico: '4520003'
 descricao_oficial: SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO ELÉTRICA DE VEÍCULOS AUTOMOTORES
-descricao_plana: SERVIÇOS DE MANUTENÇÃO E REPARAÇÃO ELÉTRICA DE VEÍCULOS AUTOMOTORES
+descricao_plana: >-
+  Serviços de manutenção e reparação elétrica de veículos automotores, incluindo bateria, alternador, injeção e
+  chicotes.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Auto elétrica de bairro
+  - Prestador de reparo de injeção eletrônica
+  - Oficina de alternadores e motores de partida
+  - Auto elétrica com diagnóstico por scanner
+  - Prestador de reparo de chicotes e módulos
+o_que_inclui:
+  - Diagnóstico eletrônico e leitura de códigos de falha
+  - Reparo e substituição de alternadores e motores de partida
+  - Manutenção de baterias, cabos e sistema de carga
+  - Reparo de chicotes, módulos e sensores de injeção
+  - Instalação e reparo de iluminação e sistemas elétricos do veículo
+o_que_nao_inclui:
+  - Serviços de manutenção e reparação mecânica de veículos (use CNAE 4520-0/01)
+  - Serviços de lanternagem e pintura de veículos (use CNAE 4520-0/02)
+  - Instalação e reparação de acessórios para veículos, como som e alarme (use CNAE 4520-0/07)
+  - Recondicionamento de baterias e acumuladores para veículos (use CNAE 2722-8/02)
+  - Manutenção de geradores, transformadores e motores elétricos (use CNAE 3313-9/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para descarte de baterias e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais e NR-10
+  - Registro no CRT com responsável técnico, quando exigido
+cnaes_relacionados:
+  - 4520-0/01
+  - 4520-0/07
+  - 4520-0/02
+  - 2722-8/02
+  - 3313-9/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

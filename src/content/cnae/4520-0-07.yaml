@@ -2,7 +2,7 @@ codigo: 4520-0/07
 codigo_slug: 4520-0-07
 codigo_numerico: '4520007'
 descricao_oficial: SERVIÇOS DE INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ACESSÓRIOS PARA VEÍCULOS AUTOMOTORES
-descricao_plana: SERVIÇOS DE INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ACESSÓRIOS PARA VEÍCULOS AUTOMOTORES
+descricao_plana: Serviços de instalação, manutenção e reparação de acessórios para veículos, como som, alarme, insulfilm e travas.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Instalador de som e multimídia automotiva
+  - Prestador de instalação de alarmes e rastreadores
+  - Empresa de aplicação de insulfilm
+  - Instalador de engates, racks e acessórios
+  - Prestador de instalação de travas e vidros elétricos
+o_que_inclui:
+  - Instalação de som, multimídia e caixas acústicas
+  - Instalação de alarmes, travas elétricas e rastreadores
+  - Aplicação de insulfilm e películas de proteção
+  - Instalação de engates, racks, faróis auxiliares e acessórios
+  - Manutenção e reparo dos acessórios instalados
+o_que_nao_inclui:
+  - Serviços de manutenção e reparação elétrica de veículos (use CNAE 4520-0/03)
+  - Serviços de capotaria (use CNAE 4520-0/08)
+  - Comércio a varejo de peças e acessórios novos para veículos (use CNAE 4530-7/03)
+  - Serviços de manutenção e reparação mecânica de veículos (use CNAE 4520-0/01)
+  - Serviços de lanternagem e pintura de veículos (use CNAE 4520-0/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Homologação Anatel para equipamentos de rastreamento, quando aplicável
+  - Programa de controle de riscos ocupacionais
+  - Destinação adequada de resíduos eletrônicos
+cnaes_relacionados:
+  - 4520-0/03
+  - 4520-0/08
+  - 4530-7/03
+  - 4520-0/01
+  - 4520-0/05
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

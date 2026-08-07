@@ -2,7 +2,7 @@ codigo: 4520-0/05
 codigo_slug: 4520-0-05
 codigo_numerico: '4520005'
 descricao_oficial: SERVIÇOS DE LAVAGEM, LUBRIFICAÇÃO E POLIMENTO DE VEÍCULOS AUTOMOTORES
-descricao_plana: SERVIÇOS DE LAVAGEM, LUBRIFICAÇÃO E POLIMENTO DE VEÍCULOS AUTOMOTORES
+descricao_plana: Serviços de lavagem, lubrificação e polimento de veículos automotores, incluindo lava-rápido e estética automotiva.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Lava-rápido com lavagem simples e completa
+  - Estética automotiva com polimento e vitrificação
+  - Prestador de lavagem a seco e ecológica
+  - Posto com serviço de troca de óleo e lubrificação
+  - Empresa de higienização interna de veículos
+o_que_inclui:
+  - Lavagem externa, interna e completa de veículos
+  - Lubrificação, troca de óleo e filtros
+  - Polimento, cristalização e vitrificação de pintura
+  - Higienização de estofados, ar-condicionado e carpetes
+  - Lavagem a seco e serviços de estética automotiva
+o_que_nao_inclui:
+  - Serviços de manutenção e reparação mecânica de veículos (use CNAE 4520-0/01)
+  - Serviços de lanternagem e pintura de veículos (use CNAE 4520-0/02)
+  - Serviços de borracharia para veículos automotores (use CNAE 4520-0/06)
+  - Comércio varejista de combustíveis (use CNAE 4731-8/00)
+  - Lavanderias e serviços de lavagem de roupas (use CNAE 9601-7/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para tratamento de efluentes e separador de água e óleo
+  - Outorga de uso de água, quando houver captação própria
+  - Destinação adequada de óleo lubrificante usado
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 4520-0/01
+  - 4520-0/06
+  - 4520-0/02
+  - 4520-0/07
+  - 4731-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

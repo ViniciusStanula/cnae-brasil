@@ -2,7 +2,7 @@ codigo: 4399-1/99
 codigo_slug: 4399-1-99
 codigo_numerico: '4399199'
 descricao_oficial: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: SERVIÇOS ESPECIALIZADOS PARA CONSTRUÇÃO NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Serviços especializados para construção sem código próprio, como locação de obra, escoramento e serviços auxiliares.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de locação e nivelamento de obra
+  - Empresa de escoramento e cimbramento
+  - Prestador de corte e demolição controlada de concreto
+  - Empresa de serviços auxiliares de construção
+  - Prestador de injeção e recuperação estrutural
+o_que_inclui:
+  - Locação, marcação e nivelamento topográfico de obra
+  - Escoramento, cimbramento e travamento de estruturas
+  - Corte, furação e demolição controlada de concreto
+  - Recuperação estrutural, injeção e reforço de peças
+  - Serviços especializados sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Obras de alvenaria (use CNAE 4399-1/03)
+  - Montagem e desmontagem de andaimes e estruturas temporárias (use CNAE 4399-1/02)
+  - Obras de fundações (use CNAE 4391-6/00)
+  - Demolição de edifícios e outras estruturas (use CNAE 4311-8/01)
+  - Administração de obras (use CNAE 4399-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA com responsável técnico
+  - Anotação de Responsabilidade Técnica (ART) por serviço
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Cumprimento da NR-35 para trabalho em altura
+cnaes_relacionados:
+  - 4399-1/03
+  - 4399-1/02
+  - 4391-6/00
+  - 4311-8/01
+  - 4330-4/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

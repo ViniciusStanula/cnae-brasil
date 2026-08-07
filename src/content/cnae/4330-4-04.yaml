@@ -2,7 +2,7 @@ codigo: 4330-4/04
 codigo_slug: 4330-4-04
 codigo_numerico: '4330404'
 descricao_oficial: SERVIÇOS DE PINTURA DE EDIFÍCIOS EM GERAL
-descricao_plana: SERVIÇOS DE PINTURA DE EDIFÍCIOS EM GERAL
+descricao_plana: Serviços de pintura de edifícios em geral, incluindo preparação de superfície, pintura interna, externa e texturas.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Pintor autônomo com atendimento residencial
+  - Empresa de pintura predial e de fachadas
+  - Prestador de pintura industrial de galpões
+  - Equipe de pintura para construtoras
+  - Empresa de textura e efeitos decorativos em parede
+o_que_inclui:
+  - Preparação de superfície com lixamento, massa e selador
+  - Pintura interna e externa de paredes, tetos e esquadrias
+  - Aplicação de texturas, grafiato e efeitos decorativos
+  - Pintura de fachadas com uso de andaime ou balancim
+  - Pintura de estruturas metálicas e madeira em edificações
+o_que_nao_inclui:
+  - Aplicação de revestimentos e de resinas em interiores e exteriores (use CNAE 4330-4/05)
+  - Obras de acabamento em gesso e estuque (use CNAE 4330-4/03)
+  - Serviços de lanternagem e pintura de veículos (use CNAE 4520-0/02)
+  - Impermeabilização em obras de engenharia civil (use CNAE 4330-4/01)
+  - Serviços de tratamento e revestimento em metais (use CNAE 2539-0/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Cumprimento da NR-35 para trabalho em altura
+  - Licença ambiental para descarte de tintas e solventes
+  - Anotação de Responsabilidade Técnica (ART) por obra, quando exigida
+cnaes_relacionados:
+  - 4330-4/05
+  - 4330-4/03
+  - 4330-4/01
+  - 4330-4/99
+  - 4399-1/02
+  - 4520-0/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

@@ -2,7 +2,7 @@ codigo: 4530-7/05
 codigo_slug: 4530-7-05
 codigo_numerico: '4530705'
 descricao_oficial: COMÉRCIO A VAREJO DE PNEUMÁTICOS E CÂMARAS DE AR
-descricao_plana: COMÉRCIO A VAREJO DE PNEUMÁTICOS E CÂMARAS DE AR
+descricao_plana: Comércio a varejo de pneumáticos e câmaras de ar, incluindo pneus novos, remoldados e acessórios relacionados.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de pneus com montagem no local
+  - Comércio varejista de pneus para caminhão
+  - Loja online de pneus e rodas
+  - Revenda de pneus remoldados
+  - Loja de pneus com serviço de alinhamento
+o_que_inclui:
+  - Venda a varejo de pneus novos e remoldados
+  - Comércio de câmaras de ar, protetores e válvulas
+  - Venda de rodas e acessórios relacionados
+  - Comércio em loja física ou pela internet
+  - Recebimento de pneus usados para logística reversa
+o_que_nao_inclui:
+  - Serviços de borracharia para veículos automotores (use CNAE 4520-0/06)
+  - Serviços de alinhamento e balanceamento de veículos (use CNAE 4520-0/04)
+  - Comércio a varejo de peças e acessórios novos (use CNAE 4530-7/03)
+  - Reforma de pneumáticos usados, como recapagem (use CNAE 2212-9/00)
+  - Fabricação de pneumáticos e câmaras de ar (use CNAE 2211-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Cadastro no sistema de logística reversa de pneus
+  - Licença ambiental para armazenamento de pneus inservíveis
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 4520-0/06
+  - 4520-0/04
+  - 4530-7/03
+  - 2212-9/00
+  - 2211-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

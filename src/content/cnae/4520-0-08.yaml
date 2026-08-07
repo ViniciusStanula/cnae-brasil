@@ -2,7 +2,7 @@ codigo: 4520-0/08
 codigo_slug: 4520-0-08
 codigo_numerico: '4520008'
 descricao_oficial: SERVIÇOS DE CAPOTARIA
-descricao_plana: SERVIÇOS DE CAPOTARIA
+descricao_plana: Serviços de capotaria, incluindo reforma de bancos, forrações internas, capotas e estofamento de veículos.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Capotaria com reforma de bancos automotivos
+  - Prestador de forração de teto e portas
+  - Empresa de capotas para utilitários
+  - Capotaria de estofamento em couro
+  - Prestador de reparo de estofados de ônibus
+o_que_inclui:
+  - Reforma e estofamento de bancos de veículos
+  - Forração de teto, portas, painel e porta-malas
+  - Fabricação e instalação de capotas e coberturas
+  - Substituição de espumas, molas e revestimentos
+  - Confecção de capas e acabamentos internos sob medida
+o_que_nao_inclui:
+  - Serviços de lanternagem e pintura de veículos (use CNAE 4520-0/02)
+  - Instalação e reparação de acessórios para veículos (use CNAE 4520-0/07)
+  - Fabricação de bancos e estofados para veículos automotores (use CNAE 2949-2/01)
+  - Fabricação de móveis de outros materiais, como estofados (use CNAE 3103-9/00)
+  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de colas e espumas
+  - Programa de controle de riscos ocupacionais
+  - Destinação adequada de resíduos de espuma e tecido
+cnaes_relacionados:
+  - 4520-0/02
+  - 4520-0/07
+  - 2949-2/01
+  - 3103-9/00
+  - 9529-1/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

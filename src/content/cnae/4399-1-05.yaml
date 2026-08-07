@@ -2,7 +2,7 @@ codigo: 4399-1/05
 codigo_slug: 4399-1-05
 codigo_numerico: '4399105'
 descricao_oficial: PERFURAÇÃO E CONSTRUÇÃO DE POÇOS DE ÁGUA
-descricao_plana: PERFURAÇÃO E CONSTRUÇÃO DE POÇOS DE ÁGUA
+descricao_plana: Perfuração e construção de poços de água, incluindo sondagem, revestimento, instalação de bomba e teste de vazão.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de perfuração de poços artesianos
+  - Prestador de construção de poços tubulares profundos
+  - Empresa de instalação de bombas submersas
+  - Perfuradora de poços para propriedades rurais
+  - Prestador de limpeza e recuperação de poços
+o_que_inclui:
+  - Perfuração de poços tubulares e artesianos
+  - Instalação de revestimento, filtros e pré-filtro
+  - Desenvolvimento do poço e teste de vazão
+  - Instalação de bombas submersas e tubulação de recalque
+  - Limpeza, manutenção e recuperação de poços existentes
+o_que_nao_inclui:
+  - Perfurações e sondagens para investigação do subsolo (use CNAE 4312-6/00)
+  - Instalações hidráulicas, sanitárias e de gás (use CNAE 4322-3/01)
+  - Captação, tratamento e distribuição de água (use CNAE 3600-6/01)
+  - Distribuição de água por caminhões (use CNAE 3600-6/02)
+  - Serviços especializados para construção sem código próprio (use CNAE 4399-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Outorga de uso de água do órgão gestor de recursos hídricos
+  - Licença ambiental estadual para perfuração
+  - Registro no CREA com responsável técnico e ART por poço
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 4312-6/00
+  - 4322-3/01
+  - 3600-6/01
+  - 3600-6/02
+  - 4399-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'

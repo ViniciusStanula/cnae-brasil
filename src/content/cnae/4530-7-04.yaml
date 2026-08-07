@@ -2,7 +2,9 @@ codigo: 4530-7/04
 codigo_slug: 4530-7-04
 codigo_numerico: '4530704'
 descricao_oficial: COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS USADOS PARA VEÍCULOS AUTOMOTORES
-descricao_plana: COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS USADOS PARA VEÍCULOS AUTOMOTORES
+descricao_plana: >-
+  Comércio a varejo de peças e acessórios usados para veículos automotores, incluindo peças recuperadas de desmanche
+  legalizado.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de peças usadas para veículos
+  - Desmanche legalizado com venda de peças
+  - Comércio de peças recuperadas para carros antigos
+  - Loja online de peças automotivas usadas
+  - Comércio de peças usadas para caminhões
+o_que_inclui:
+  - Venda a varejo de peças usadas e recuperadas
+  - Comércio de componentes retirados de veículos desmontados
+  - Venda de peças de reposição para modelos fora de linha
+  - Comércio em loja física ou pela internet
+  - Classificação, teste e garantia das peças vendidas
+o_que_nao_inclui:
+  - Comércio a varejo de peças e acessórios novos (use CNAE 4530-7/03)
+  - Comércio a varejo de pneumáticos e câmaras de ar (use CNAE 4530-7/05)
+  - Recuperação de materiais metálicos, exceto alumínio (use CNAE 3831-9/99)
+  - Serviços de manutenção e reparação mecânica de veículos (use CNAE 4520-0/01)
+  - Comércio atacadista de resíduos e sucatas metálicas (use CNAE 4687-7/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Registro no Detran para atividade de desmontagem, quando aplicável
+  - Licença ambiental para armazenamento de peças e fluidos
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 4530-7/03
+  - 4530-7/05
+  - 3831-9/99
+  - 4520-0/01
+  - 4687-7/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:13:47.903Z'
