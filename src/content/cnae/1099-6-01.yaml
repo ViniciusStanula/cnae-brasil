@@ -2,7 +2,7 @@ codigo: 1099-6/01
 codigo_slug: 1099-6-01
 codigo_numerico: '1099601'
 descricao_oficial: FABRICAÇÃO DE VINAGRES
-descricao_plana: FABRICAÇÃO DE VINAGRES
+descricao_plana: Fabricação de vinagres de vinho, álcool, maçã e outras matérias-primas, por fermentação acética e posterior envase.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de vinagre de vinho tinto e branco
+  - Produtor artesanal de vinagre de maçã
+  - Indústria de vinagre de álcool para o varejo
+  - Fabricante de vinagres aromatizados com ervas
+  - Produtor de vinagre balsâmico regional
+o_que_inclui:
+  - Fermentação acética de vinho, álcool, frutas ou cereais
+  - Fabricação de vinagre de vinho, álcool, maçã e arroz
+  - Produção de vinagres aromatizados e condimentados
+  - Filtragem, pasteurização e envase do vinagre
+  - Rotulagem e embalagem dos produtos fabricados
+o_que_nao_inclui:
+  - Fabricação de especiarias, molhos, temperos e condimentos (use CNAE 1095-3/00)
+  - Fabricação de conservas de legumes em vinagre (use CNAE 1032-5/99)
+  - Fabricação de fermentos e leveduras (use CNAE 1099-6/03)
+  - Fabricação de vinho, que é bebida alcoólica (use CNAE 1112-7/00)
+  - Comércio atacadista de vinagre adquirido de terceiros (use CNAE 4639-7/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro do estabelecimento e do produto no Ministério da Agricultura
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1095-3/00
+  - 1032-5/99
+  - 1099-6/03
+  - 1099-6/99
+  - 1031-7/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

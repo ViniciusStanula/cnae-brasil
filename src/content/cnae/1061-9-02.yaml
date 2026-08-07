@@ -2,7 +2,9 @@ codigo: 1061-9/02
 codigo_slug: 1061-9-02
 codigo_numerico: '1061902'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS DO ARROZ
-descricao_plana: FABRICAÇÃO DE PRODUTOS DO ARROZ
+descricao_plana: >-
+  Fabricação de produtos derivados do arroz, como farinha, flocos, amido e bebidas vegetais, a partir do grão já
+  beneficiado.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de farinha de arroz para panificação sem glúten
+  - Produtor de flocos de arroz para cereais matinais
+  - Indústria de amido de arroz para uso alimentício
+  - Fabricante de bebida vegetal à base de arroz
+  - Pequena indústria de arroz parboilizado e derivados
+o_que_inclui:
+  - Fabricação de farinha e sêmola de arroz
+  - Produção de flocos, expandidos e cereais à base de arroz
+  - Fabricação de amido de arroz
+  - Produção de bebidas vegetais e farináceos à base de arroz
+  - Moagem e transformação do arroz já beneficiado em produtos derivados
+o_que_nao_inclui:
+  - Beneficiamento do arroz em casca, como descasque e polimento (use CNAE 1061-9/01)
+  - Cultivo de arroz em lavoura (use CNAE 0111-3/01)
+  - Fabricação de amidos e féculas de outros vegetais (use CNAE 1065-1/01)
+  - Fabricação de alimentos para animais à base de subprodutos do arroz (use CNAE 1066-0/00)
+  - Comércio atacadista de arroz beneficiado (use CNAE 4632-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Licença ambiental para tratamento de efluentes e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1061-9/01
+  - 1065-1/01
+  - 1069-4/00
+  - 1062-7/00
+  - 0111-3/01
+  - 1066-0/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

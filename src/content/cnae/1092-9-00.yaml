@@ -2,7 +2,7 @@ codigo: 1092-9/00
 codigo_slug: 1092-9-00
 codigo_numerico: '1092900'
 descricao_oficial: FABRICAÇÃO DE BISCOITOS E BOLACHAS
-descricao_plana: FABRICAÇÃO DE BISCOITOS E BOLACHAS
+descricao_plana: Fabricação de biscoitos, bolachas, cookies e wafers, incluindo mistura, forneamento e embalagem dos produtos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de biscoitos caseiros para mercados regionais
+  - Produtor de cookies artesanais com marca própria
+  - Indústria de bolachas recheadas e wafers
+  - Fabricante de biscoitos sem glúten e dietéticos
+  - Pequena indústria de biscoitos de polvilho
+o_que_inclui:
+  - Fabricação de biscoitos doces e salgados
+  - Produção de bolachas, cookies, wafers e biscoitos recheados
+  - Fabricação de biscoitos de polvilho e de outras farinhas
+  - Mistura, modelagem, forneamento e resfriamento da massa
+  - Embalagem e rotulagem dos biscoitos produzidos
+o_que_nao_inclui:
+  - Fabricação de produtos de panificação industrial, como pães e bolos (use CNAE 1091-1/01)
+  - Padaria e confeitaria com produção própria e venda no local (use CNAE 1091-1/02)
+  - Fabricação de produtos derivados do cacau e chocolates (use CNAE 1093-7/01)
+  - Fabricação de massas alimentícias (use CNAE 1094-5/00)
+  - Comércio atacadista de biscoitos adquiridos de terceiros (use CNAE 4639-7/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental, quando exigida pelo porte da fábrica
+cnaes_relacionados:
+  - 1091-1/01
+  - 1091-1/02
+  - 1093-7/01
+  - 1094-5/00
+  - 1096-1/00
+  - 1099-6/07
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

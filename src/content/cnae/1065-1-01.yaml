@@ -2,7 +2,9 @@ codigo: 1065-1/01
 codigo_slug: 1065-1-01
 codigo_numerico: '1065101'
 descricao_oficial: FABRICAÇÃO DE AMIDOS E FÉCULAS DE VEGETAIS
-descricao_plana: FABRICAÇÃO DE AMIDOS E FÉCULAS DE VEGETAIS
+descricao_plana: >-
+  Fabricação de amidos e féculas extraídos de vegetais, além de glucose e derivados do amido para uso alimentício e
+  industrial.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de fécula de batata para indústria alimentícia
+  - Produtor de amido modificado para panificação
+  - Indústria de glucose e xarope de amido
+  - Fabricante de féculas de raízes e tubérculos regionais
+  - Produtor de amido para uso em molhos e sopas industriais
+o_que_inclui:
+  - Extração de amido e fécula de raízes, tubérculos e cereais
+  - Fabricação de amidos modificados para uso alimentício
+  - Produção de glucose, xaropes e maltodextrina a partir do amido
+  - Secagem, moagem e embalagem dos amidos produzidos
+  - Fabricação de féculas destinadas a uso industrial
+o_que_nao_inclui:
+  - Fabricação de óleo de milho em bruto (use CNAE 1065-1/02)
+  - Fabricação de farinha de mandioca e polvilho (use CNAE 1063-5/00)
+  - Fabricação de farinha de milho e fubá (use CNAE 1064-3/00)
+  - Fabricação de adoçantes naturais e artificiais (use CNAE 1099-6/06)
+  - Fabricação de alimentos para animais (use CNAE 1066-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Licença ambiental para tratamento de efluentes
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1063-5/00
+  - 1064-3/00
+  - 1065-1/02
+  - 1069-4/00
+  - 1099-6/06
+  - 1061-9/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

@@ -2,7 +2,7 @@ codigo: 1071-6/00
 codigo_slug: 1071-6-00
 codigo_numerico: '1071600'
 descricao_oficial: FABRICAÇÃO DE AÇÚCAR EM BRUTO
-descricao_plana: FABRICAÇÃO DE AÇÚCAR EM BRUTO
+descricao_plana: Fabricação de açúcar em bruto, como açúcar mascavo, demerara e VHP, a partir da moagem da cana sem etapa de refino.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Engenho com produção de açúcar mascavo artesanal
+  - Produtor de rapadura e melado de cana
+  - Usina de açúcar demerara para exportação
+  - Agroindústria familiar de açúcar orgânico de cana
+  - Engenho com produção de açúcar bruto para o varejo regional
+o_que_inclui:
+  - Moagem da cana e extração do caldo para produção de açúcar
+  - Fabricação de açúcar mascavo, demerara, cristal bruto e VHP
+  - Produção de rapadura e melado como derivados da cana
+  - Clarificação, evaporação e cristalização do caldo
+  - Ensacamento e embalagem do açúcar bruto produzido
+o_que_nao_inclui:
+  - Fabricação de açúcar de cana refinado (use CNAE 1072-4/01)
+  - Fabricação de açúcar de cereais e de beterraba (use CNAE 1072-4/02)
+  - Cultivo de cana de açúcar em lavoura (use CNAE 0113-0/00)
+  - Fabricação de adoçantes naturais e artificiais (use CNAE 1099-6/06)
+  - Comércio atacadista de açúcar adquirido de terceiros (use CNAE 4639-7/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro do estabelecimento no Ministério da Agricultura
+  - Licença ambiental para tratamento de vinhaça e efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1072-4/01
+  - 1072-4/02
+  - 0113-0/00
+  - 1099-6/06
+  - 1093-7/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

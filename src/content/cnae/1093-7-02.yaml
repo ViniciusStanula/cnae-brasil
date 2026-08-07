@@ -2,7 +2,7 @@ codigo: 1093-7/02
 codigo_slug: 1093-7-02
 codigo_numerico: '1093702'
 descricao_oficial: FABRICAÇÃO DE FRUTAS CRISTALIZADAS, BALAS E SEMELHANTES
-descricao_plana: FABRICAÇÃO DE FRUTAS CRISTALIZADAS, BALAS E SEMELHANTES
+descricao_plana: Fabricação de balas, caramelos, pirulitos, frutas cristalizadas e demais confeitos sem base de cacau.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de balas e caramelos artesanais
+  - Produtor de pirulitos e doces para festas
+  - Indústria de frutas cristalizadas e doces em massa
+  - Fabricante de pé de moleque e doces regionais
+  - Produtor de gomas e confeitos sem açúcar
+o_que_inclui:
+  - Fabricação de balas, caramelos, pirulitos e gomas de mascar
+  - Produção de frutas cristalizadas e glaceadas
+  - Fabricação de doces em massa, pé de moleque e paçoca
+  - Produção de confeitos e coberturas açucaradas sem base de cacau
+  - Cozimento da calda, moldagem e embalagem dos produtos
+o_que_nao_inclui:
+  - Fabricação de chocolates e produtos derivados do cacau (use CNAE 1093-7/01)
+  - Fabricação de conservas e compotas de frutas (use CNAE 1031-7/00)
+  - Fabricação de biscoitos e bolachas (use CNAE 1092-9/00)
+  - Fabricação de adoçantes naturais e artificiais (use CNAE 1099-6/06)
+  - Comércio atacadista de balas e confeitos (use CNAE 4637-1/07)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+cnaes_relacionados:
+  - 1093-7/01
+  - 1031-7/00
+  - 1092-9/00
+  - 1099-6/06
+  - 4637-1/07
+  - 1071-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

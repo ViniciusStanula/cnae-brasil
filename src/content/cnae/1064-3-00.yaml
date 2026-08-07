@@ -2,7 +2,7 @@ codigo: 1064-3/00
 codigo_slug: 1064-3-00
 codigo_numerico: '1064300'
 descricao_oficial: FABRICAÇÃO DE FARINHA DE MILHO E DERIVADOS, EXCETO ÓLEOS DE MILHO
-descricao_plana: FABRICAÇÃO DE FARINHA DE MILHO E DERIVADOS, EXCETO ÓLEOS DE MILHO
+descricao_plana: Fabricação de farinha de milho, fubá, canjica, flocos e derivados, excluída a produção de óleos de milho.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Moinho de fubá e farinha de milho para o varejo regional
+  - Fábrica de canjica e quirera de milho
+  - Produtor de flocos de milho para cuscuz
+  - Indústria de farinha de milho pré-cozida
+  - Pequena moagem de milho para padarias e mercados
+o_que_inclui:
+  - Moagem do milho e fabricação de fubá e farinha
+  - Produção de canjica, quirera e milho triturado
+  - Fabricação de flocos de milho e farinhas pré-cozidas
+  - Fabricação de amido de milho destinado a uso alimentício
+  - Ensacamento e embalagem dos produtos moídos
+o_que_nao_inclui:
+  - Fabricação de óleo de milho em bruto (use CNAE 1065-1/02)
+  - Fabricação de óleo de milho refinado (use CNAE 1065-1/03)
+  - Cultivo de milho em lavoura (use CNAE 0111-3/02)
+  - Fabricação de farinha de mandioca e derivados (use CNAE 1063-5/00)
+  - Fabricação de alimentos para animais à base de milho (use CNAE 1066-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Licença ambiental para tratamento de resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1063-5/00
+  - 1065-1/01
+  - 1065-1/02
+  - 1069-4/00
+  - 0111-3/02
+  - 1066-0/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

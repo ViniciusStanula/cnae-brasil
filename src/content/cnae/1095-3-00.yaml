@@ -2,7 +2,7 @@ codigo: 1095-3/00
 codigo_slug: 1095-3-00
 codigo_numerico: '1095300'
 descricao_oficial: FABRICAÇÃO DE ESPECIARIAS, MOLHOS, TEMPEROS E CONDIMENTOS
-descricao_plana: FABRICAÇÃO DE ESPECIARIAS, MOLHOS, TEMPEROS E CONDIMENTOS
+descricao_plana: Fabricação de temperos, molhos, especiarias e condimentos, como maionese, mostarda, pimenta e sal temperado.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de molho de pimenta artesanal
+  - Produtor de temperos secos e ervas desidratadas
+  - Indústria de maionese e molhos para saladas
+  - Fabricante de mostarda e ketchup com marca própria
+  - Produtor de sal temperado e mix de especiarias
+o_que_inclui:
+  - Fabricação de molhos prontos, como maionese, mostarda e ketchup
+  - Produção de molhos de pimenta e condimentos líquidos
+  - Fabricação de temperos secos, sal temperado e mix de especiarias
+  - Moagem, mistura, desidratação e envase de condimentos
+  - Rotulagem e embalagem dos temperos produzidos
+o_que_nao_inclui:
+  - Fabricação de vinagres (use CNAE 1099-6/01)
+  - Fabricação de conservas de legumes e vegetais (use CNAE 1032-5/99)
+  - Fabricação de alimentos e pratos prontos (use CNAE 1096-1/00)
+  - Extração e refino de sal (use CNAE 0892-4/03)
+  - Cultivo de plantas para condimento (use CNAE 0139-3/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para tratamento de efluentes, quando exigida
+cnaes_relacionados:
+  - 1099-6/01
+  - 1032-5/99
+  - 1096-1/00
+  - 0892-4/03
+  - 0139-3/04
+  - 1099-6/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

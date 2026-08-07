@@ -2,7 +2,7 @@ codigo: 1063-5/00
 codigo_slug: 1063-5-00
 codigo_numerico: '1063500'
 descricao_oficial: FABRICAÇÃO DE FARINHA DE MANDIOCA E DERIVADOS
-descricao_plana: FABRICAÇÃO DE FARINHA DE MANDIOCA E DERIVADOS
+descricao_plana: Fabricação de farinha de mandioca, polvilho, tapioca e demais derivados, incluindo a torra e a moagem da raiz.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,39 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Casa de farinha com produção de farinha de mandioca artesanal
+  - Fábrica de polvilho doce e azedo para panificação
+  - Produtor de goma de tapioca refrigerada para o varejo
+  - Agroindústria familiar de farinha e beiju
+  - Indústria de fécula de mandioca para uso alimentício
+o_que_inclui:
+  - Descascamento, ralação, prensagem e torra da mandioca
+  - Fabricação de farinha de mandioca seca, d'água e temperada
+  - Produção de polvilho doce e azedo
+  - Fabricação de goma e massa de tapioca
+  - Produção de fécula de mandioca e derivados
+  - Uso de mandioca da própria produção ou adquirida de terceiros
+o_que_nao_inclui:
+  - Cultivo de mandioca em lavoura (use CNAE 0119-9/06)
+  - Fabricação de farinha de milho e derivados (use CNAE 1064-3/00)
+  - Fabricação de amidos e féculas de outros vegetais (use CNAE 1065-1/01)
+  - Fabricação de alimentos para animais a partir de resíduos da mandioca (use CNAE 1066-0/00)
+  - Preparo e venda de tapioca para consumo imediato (use CNAE 5611-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Licença ambiental para destinação da manipueira e resíduos
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1064-3/00
+  - 1065-1/01
+  - 1069-4/00
+  - 0119-9/06
+  - 1066-0/00
+  - 1092-9/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

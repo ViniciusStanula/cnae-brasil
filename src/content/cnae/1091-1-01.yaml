@@ -2,7 +2,9 @@ codigo: 1091-1/01
 codigo_slug: 1091-1-01
 codigo_numerico: '1091101'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL
-descricao_plana: FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL
+descricao_plana: >-
+  Fabricação industrial de pães, bolos e produtos de panificação destinados a revenda, sem venda direta ao consumidor no
+  local.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de pão de forma para supermercados
+  - Indústria de bolos embalados com marca própria
+  - Produtor de pão de queijo congelado para revenda
+  - Fábrica de panetones e produtos sazonais de panificação
+  - Indústria de massa congelada para padarias
+o_que_inclui:
+  - Fabricação industrial de pães, pães de forma e bisnagas
+  - Produção de bolos, panetones e tortas embalados
+  - Fabricação de pão de queijo e salgados congelados
+  - Produção de massas e pré-misturas congeladas para panificação
+  - Embalagem e distribuição dos produtos a comércios e revendedores
+o_que_nao_inclui:
+  - Padaria e confeitaria com produção própria e venda no local (use CNAE 1091-1/02)
+  - Padaria e confeitaria com predominância de revenda (use CNAE 4721-1/02)
+  - Fabricação de biscoitos e bolachas (use CNAE 1092-9/00)
+  - Fabricação de massas alimentícias (use CNAE 1094-5/00)
+  - Fornecimento de alimentos preparados para consumo domiciliar (use CNAE 5620-1/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1091-1/02
+  - 1092-9/00
+  - 1094-5/00
+  - 4721-1/02
+  - 1096-1/00
+  - 1093-7/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

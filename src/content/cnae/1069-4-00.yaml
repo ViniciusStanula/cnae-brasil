@@ -2,7 +2,9 @@ codigo: 1069-4/00
 codigo_slug: 1069-4-00
 codigo_numerico: '1069400'
 descricao_oficial: MOAGEM E FABRICAÇÃO DE PRODUTOS DE ORIGEM VEGETAL NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: MOAGEM E FABRICAÇÃO DE PRODUTOS DE ORIGEM VEGETAL NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Moagem e fabricação de produtos de origem vegetal sem código específico, como farinhas de castanhas, grãos e
+  leguminosas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de farinha de aveia e cereais integrais
+  - Produtor de farinha de castanha e amêndoas
+  - Moinho de farinha de grão de bico e leguminosas
+  - Indústria de farelo e farinhas vegetais especiais
+  - Produtor de farinhas sem glúten a partir de sementes
+o_que_inclui:
+  - Moagem de grãos, sementes, castanhas e leguminosas
+  - Fabricação de farinhas vegetais sem código específico na CNAE
+  - Produção de farelos e sêmolas de origem vegetal
+  - Torra, moagem, peneiração e embalagem dos produtos vegetais
+  - Fabricação de misturas de farinhas para uso alimentício
+o_que_nao_inclui:
+  - Moagem de trigo e fabricação de derivados (use CNAE 1062-7/00)
+  - Fabricação de farinha de mandioca e derivados (use CNAE 1063-5/00)
+  - Fabricação de farinha de milho e derivados (use CNAE 1064-3/00)
+  - Beneficiamento de arroz (use CNAE 1061-9/01)
+  - Fabricação de alimentos para animais (use CNAE 1066-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Licença ambiental para tratamento de resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1062-7/00
+  - 1063-5/00
+  - 1064-3/00
+  - 1061-9/02
+  - 1065-1/01
+  - 1099-6/07
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

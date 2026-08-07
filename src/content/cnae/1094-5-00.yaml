@@ -2,7 +2,7 @@ codigo: 1094-5/00
 codigo_slug: 1094-5-00
 codigo_numerico: '1094500'
 descricao_oficial: FABRICAÇÃO DE MASSAS ALIMENTÍCIAS
-descricao_plana: FABRICAÇÃO DE MASSAS ALIMENTÍCIAS
+descricao_plana: Fabricação de massas alimentícias frescas, secas ou congeladas, como macarrão, lasanha, nhoque e massas recheadas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de massas frescas com venda a restaurantes
+  - Produtor de macarrão seco para mercados regionais
+  - Indústria de lasanha e massas congeladas
+  - Fabricante de massa de pastel e capeletti
+  - Cantina com produção própria de massas recheadas
+o_que_inclui:
+  - Fabricação de macarrão, espaguete e massas secas
+  - Produção de massas frescas, como talharim e nhoque
+  - Fabricação de massas recheadas, como ravioli, capeletti e lasanha
+  - Produção de massa de pastel, pizza e discos congelados
+  - Secagem, resfriamento, congelamento e embalagem das massas
+o_que_nao_inclui:
+  - Fabricação de pães e produtos de panificação industrial (use CNAE 1091-1/01)
+  - Fabricação de biscoitos e bolachas (use CNAE 1092-9/00)
+  - Fabricação de alimentos e pratos prontos com massa como ingrediente (use CNAE 1096-1/00)
+  - Moagem de trigo e fabricação de farinha (use CNAE 1062-7/00)
+  - Restaurantes que preparam massas para consumo no local (use CNAE 5611-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+cnaes_relacionados:
+  - 1091-1/01
+  - 1092-9/00
+  - 1096-1/00
+  - 1062-7/00
+  - 1095-3/00
+  - 5611-2/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'

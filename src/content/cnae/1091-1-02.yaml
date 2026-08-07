@@ -2,7 +2,9 @@ codigo: 1091-1/02
 codigo_slug: 1091-1-02
 codigo_numerico: '1091102'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA  DE PRODUÇÃO PRÓPRIA
-descricao_plana: FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA  DE PRODUÇÃO PRÓPRIA
+descricao_plana: >-
+  Padaria e confeitaria que fabrica a maior parte do que vende no próprio estabelecimento, com atendimento direto ao
+  consumidor.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Padaria de bairro com produção própria de pães e salgados
+  - Confeitaria artesanal com bolos sob encomenda
+  - Panificadora com forno próprio e venda no balcão
+  - Confeitaria de doces finos com produção no local
+  - Padaria com cafeteria anexa e fabricação própria
+o_que_inclui:
+  - Fabricação própria de pães, bolos, tortas e salgados
+  - Produção de doces e confeitaria no próprio estabelecimento
+  - Venda direta ao consumidor dos produtos fabricados no local
+  - Encomendas de bolos e produtos de confeitaria
+  - Revenda complementar de outros itens, desde que a produção própria predomine
+o_que_nao_inclui:
+  - Fabricação de produtos de panificação industrial para revenda (use CNAE 1091-1/01)
+  - Padaria com predominância de revenda de produtos comprados prontos (use CNAE 4721-1/02)
+  - Fabricação de biscoitos e bolachas (use CNAE 1092-9/00)
+  - Restaurantes e similares com serviço de refeições (use CNAE 5611-2/01)
+  - Serviços de bufê para eventos (use CNAE 5620-1/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 1091-1/01
+  - 4721-1/02
+  - 1092-9/00
+  - 1093-7/02
+  - 5611-2/01
+  - 1096-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:50:17.133Z'
