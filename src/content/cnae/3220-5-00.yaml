@@ -2,7 +2,9 @@ codigo: 3220-5/00
 codigo_slug: 3220-5-00
 codigo_numerico: '3220500'
 descricao_oficial: FABRICAÇÃO DE INSTRUMENTOS MUSICAIS, PEÇAS E ACESSÓRIOS
-descricao_plana: FABRICAÇÃO DE INSTRUMENTOS MUSICAIS, PEÇAS E ACESSÓRIOS
+descricao_plana: >-
+  Fabricação de instrumentos musicais, peças e acessórios, incluindo instrumentos de corda, sopro, percussão e
+  eletrônicos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Luthier de violões e guitarras artesanais
+  - Fábrica de instrumentos de percussão e tambores
+  - Produtor de cordas, palhetas e acessórios musicais
+  - Fabricante de instrumentos de sopro
+  - Oficina de restauração e montagem de instrumentos
+o_que_inclui:
+  - Fabricação de violões, guitarras, violinos e instrumentos de corda
+  - Produção de instrumentos de sopro, metais e madeiras
+  - Fabricação de tambores, pandeiros e instrumentos de percussão
+  - Produção de cordas, palhetas, arcos e acessórios
+  - Fabricação de instrumentos eletrônicos e peças de reposição
+o_que_nao_inclui:
+  - Comércio varejista de instrumentos musicais (use CNAE 4756-3/00)
+  - Reparação e manutenção de instrumentos musicais usados (use CNAE 9529-1/99)
+  - Fabricação de brinquedos e jogos recreativos (use CNAE 3240-0/99)
+  - Fabricação de equipamentos de áudio profissional (use CNAE 2640-0/00)
+  - Aluguel de instrumentos musicais (use CNAE 7729-2/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro Técnico Federal do IBAMA para uso de madeira
+  - Documento de Origem Florestal (DOF) para madeiras nobres
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3240-0/99
+  - 1629-3/01
+  - 3230-2/00
+  - 3299-0/99
+  - 3101-2/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

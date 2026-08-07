@@ -2,7 +2,9 @@ codigo: 3211-6/02
 codigo_slug: 3211-6-02
 codigo_numerico: '3211602'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE JOALHERIA E OURIVESARIA
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE JOALHERIA E OURIVESARIA
+descricao_plana: >-
+  Fabricação de artefatos de joalheria e ourivesaria, como anéis, correntes e alianças em ouro, prata ou metais
+  preciosos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ourivesaria com produção de alianças sob encomenda
+  - Fábrica de correntes e pulseiras de prata
+  - Ateliê de joias autorais em ouro
+  - Produtor de anéis de formatura personalizados
+  - Oficina de cravação e montagem de joias
+o_que_inclui:
+  - Fabricação de anéis, alianças, brincos, correntes e pulseiras
+  - Fundição, laminação, soldagem e conformação de metais preciosos
+  - Cravação de gemas em peças de joalheria
+  - Polimento, banho e acabamento das joias
+  - Produção de peças de ourivesaria, como talheres e objetos de prata
+o_que_nao_inclui:
+  - Lapidação de gemas (use CNAE 3211-6/01)
+  - Cunhagem de moedas e medalhas (use CNAE 3211-6/03)
+  - Fabricação de bijuterias e artefatos semelhantes (use CNAE 3212-4/00)
+  - Comércio varejista de joias e relógios (use CNAE 4783-1/01)
+  - Reparação de joias e relógios (use CNAE 9529-1/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro na Receita Federal para operações com metais preciosos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para banhos químicos e descarte de resíduos
+  - Programa de controle de riscos ocupacionais pela exposição a ácidos
+cnaes_relacionados:
+  - 3211-6/01
+  - 3211-6/03
+  - 3212-4/00
+  - 4783-1/01
+  - 9529-1/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

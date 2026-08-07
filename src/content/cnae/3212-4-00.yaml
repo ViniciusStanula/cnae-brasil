@@ -2,7 +2,9 @@ codigo: 3212-4/00
 codigo_slug: 3212-4-00
 codigo_numerico: '3212400'
 descricao_oficial: FABRICAÇÃO DE BIJUTERIAS E ARTEFATOS SEMELHANTES
-descricao_plana: FABRICAÇÃO DE BIJUTERIAS E ARTEFATOS SEMELHANTES
+descricao_plana: >-
+  Fabricação de bijuterias e artefatos semelhantes, em metais não preciosos, resina, acrílico, sementes ou outros
+  materiais.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ateliê de bijuterias artesanais
+  - Fábrica de brincos e colares folheados
+  - Produtor de bijuterias em resina e acrílico
+  - Artesão de peças com sementes e fibras naturais
+  - Produtor de bijuterias para lojas e feiras
+o_que_inclui:
+  - Fabricação de brincos, colares, pulseiras e anéis de bijuteria
+  - Produção de peças folheadas e banhadas a ouro ou prata
+  - Fabricação de bijuterias em resina, acrílico, madeira ou sementes
+  - Montagem, cravação de pedras sintéticas e acabamento
+  - Embalagem e etiquetagem das peças produzidas
+o_que_nao_inclui:
+  - Fabricação de artefatos de joalheria e ourivesaria em metais preciosos (use CNAE 3211-6/02)
+  - Lapidação de gemas (use CNAE 3211-6/01)
+  - Cunhagem de moedas e medalhas (use CNAE 3211-6/03)
+  - Fabricação de acessórios do vestuário, como cintos (use CNAE 1414-2/00)
+  - Comércio varejista de suvenires e bijuterias (use CNAE 4789-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para banhos galvânicos, quando houver
+  - Certificação do Inmetro para bijuterias infantis, quando exigida
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3211-6/02
+  - 3211-6/01
+  - 1414-2/00
+  - 4789-0/01
+  - 2229-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

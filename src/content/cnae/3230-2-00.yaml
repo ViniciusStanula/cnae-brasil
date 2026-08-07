@@ -2,7 +2,7 @@ codigo: 3230-2/00
 codigo_slug: 3230-2-00
 codigo_numerico: '3230200'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS PARA PESCA E ESPORTE
-descricao_plana: FABRICAÇÃO DE ARTEFATOS PARA PESCA E ESPORTE
+descricao_plana: Fabricação de artefatos para pesca e esporte, como varas, anzóis, redes esportivas, bolas e equipamentos de ginástica.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de varas e molinetes de pesca
+  - Produtor de iscas artificiais e anzóis
+  - Fabricante de bolas esportivas
+  - Produtor de equipamentos de musculação e ginástica
+  - Fábrica de redes e traves para quadras esportivas
+o_que_inclui:
+  - Fabricação de varas, molinetes, anzóis e iscas de pesca
+  - Produção de bolas, redes e traves para esportes
+  - Fabricação de equipamentos de musculação e ginástica
+  - Produção de artigos para camping, caça e esportes ao ar livre
+  - Fabricação de acessórios e peças de reposição esportivas
+o_que_nao_inclui:
+  - Fabricação de brinquedos e jogos recreativos (use CNAE 3240-0/99)
+  - Fabricação de mesas de bilhar e sinuca (use CNAE 3240-0/02)
+  - Fabricação de artefatos de cordoaria, como redes de pesca profissional (use CNAE 1353-7/00)
+  - Comércio varejista de artigos esportivos (use CNAE 4763-6/02)
+  - Fabricação de calçados esportivos, como tênis (use CNAE 1532-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação do Inmetro para equipamentos esportivos, quando exigida
+  - Licença ambiental, conforme o processo produtivo
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3240-0/99
+  - 3240-0/02
+  - 1353-7/00
+  - 3299-0/99
+  - 2229-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

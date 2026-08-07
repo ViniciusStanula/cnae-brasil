@@ -2,7 +2,9 @@ codigo: 3240-0/99
 codigo_slug: 3240-0-99
 codigo_numerico: '3240099'
 descricao_oficial: FABRICAÇÃO DE OUTROS BRINQUEDOS E JOGOS RECREATIVOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE OUTROS BRINQUEDOS E JOGOS RECREATIVOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de brinquedos e jogos recreativos sem código próprio, como bonecas, carrinhos, jogos de tabuleiro e
+  brinquedos educativos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de brinquedos educativos de madeira
+  - Produtor de bonecas e pelúcias
+  - Fabricante de jogos de tabuleiro e quebra-cabeças
+  - Produtor de carrinhos e miniaturas plásticas
+  - Ateliê de brinquedos artesanais
+o_que_inclui:
+  - Fabricação de bonecas, pelúcias e brinquedos de montar
+  - Produção de carrinhos, miniaturas e brinquedos plásticos
+  - Fabricação de jogos de tabuleiro, quebra-cabeças e cartas
+  - Produção de brinquedos educativos e pedagógicos
+  - Montagem, pintura, embalagem e etiquetagem dos brinquedos
+o_que_nao_inclui:
+  - Fabricação de jogos eletrônicos (use CNAE 3240-0/01)
+  - Fabricação de mesas de bilhar e sinuca não associada à locação (use CNAE 3240-0/02)
+  - Fabricação de artefatos para pesca e esporte (use CNAE 3230-2/00)
+  - Fabricação de bicicletas e triciclos não motorizados (use CNAE 3092-0/00)
+  - Comércio varejista de brinquedos (use CNAE 4763-6/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificação compulsória do Inmetro para brinquedos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de tintas e vernizes atóxicos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3240-0/01
+  - 3240-0/02
+  - 3230-2/00
+  - 3220-5/00
+  - 1629-3/01
+  - 2229-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

@@ -2,7 +2,7 @@ codigo: 2950-6/00
 codigo_slug: 2950-6-00
 codigo_numerico: '2950600'
 descricao_oficial: RECONDICIONAMENTO E RECUPERAÇÃO DE MOTORES PARA VEÍCULOS AUTOMOTORES
-descricao_plana: RECONDICIONAMENTO E RECUPERAÇÃO DE MOTORES PARA VEÍCULOS AUTOMOTORES
+descricao_plana: Recondicionamento e recuperação de motores para veículos automotores, com desmontagem, retífica e remontagem completa.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Retífica de motores para carros e caminhonetes
+  - Oficina de recuperação de motores de caminhão
+  - Retífica de cabeçotes e blocos de motor
+  - Prestador de remanufatura de motores para frotas
+  - Retífica com venda de motores recondicionados
+o_que_inclui:
+  - Desmontagem, limpeza e avaliação de motores usados
+  - Retífica de blocos, cabeçotes, virabrequins e bielas
+  - Substituição de pistões, anéis, camisas e bronzinas
+  - Remontagem, regulagem e teste do motor recondicionado
+  - Venda de motores recondicionados em troca do usado
+o_que_nao_inclui:
+  - Fabricação de motores novos para automóveis (use CNAE 2910-7/03)
+  - Fabricação de peças e acessórios para o sistema motor (use CNAE 2941-7/00)
+  - Manutenção e reparação mecânica de veículos automotores (use CNAE 4520-0/01)
+  - Recondicionamento de baterias e acumuladores (use CNAE 2722-8/02)
+  - Comércio de peças e acessórios para veículos (use CNAE 4530-7/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para descarte de óleos e resíduos contaminados
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro no CREA ou CRT com responsável técnico, quando exigido
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2910-7/03
+  - 2941-7/00
+  - 2942-5/00
+  - 2722-8/02
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

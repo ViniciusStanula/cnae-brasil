@@ -2,7 +2,7 @@ codigo: 3103-9/00
 codigo_slug: 3103-9-00
 codigo_numerico: '3103900'
 descricao_oficial: FABRICAÇÃO DE MÓVEIS DE OUTROS MATERIAIS, EXCETO MADEIRA E METAL
-descricao_plana: FABRICAÇÃO DE MÓVEIS DE OUTROS MATERIAIS, EXCETO MADEIRA E METAL
+descricao_plana: Fabricação de móveis de materiais que não madeira nem metal, como plástico, vime, vidro, fibra sintética e estofados.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de sofás e poltronas estofadas
+  - Produtor de móveis de vime e fibra sintética
+  - Fabricante de cadeiras e mesas plásticas
+  - Ateliê de móveis de vidro e acrílico
+  - Produtor de móveis para área externa em fibra
+o_que_inclui:
+  - Fabricação de sofás, poltronas e móveis estofados
+  - Produção de móveis de vime, junco, bambu e fibra sintética
+  - Fabricação de móveis plásticos, de vidro ou acrílico
+  - Produção de puffs, chaises e móveis de área externa
+  - Montagem de estrutura, espuma, revestimento e acabamento
+o_que_nao_inclui:
+  - Fabricação de móveis com predominância de madeira (use CNAE 3101-2/00)
+  - Fabricação de móveis com predominância de metal (use CNAE 3102-1/00)
+  - Fabricação de colchões (use CNAE 3104-7/00)
+  - Fabricação de artefatos de vime e materiais trançados, exceto móveis (use CNAE 1629-3/02)
+  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de colas e espumas
+  - Etiquetagem conforme regras do Inmetro
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3101-2/00
+  - 3102-1/00
+  - 3104-7/00
+  - 1629-3/02
+  - 2229-3/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

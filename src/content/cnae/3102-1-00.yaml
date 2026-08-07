@@ -2,7 +2,9 @@ codigo: 3102-1/00
 codigo_slug: 3102-1-00
 codigo_numerico: '3102100'
 descricao_oficial: FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE METAL
-descricao_plana: FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE METAL
+descricao_plana: >-
+  Fabricação de móveis com predominância de metal, como armários de aço, arquivos, estantes industriais e mesas
+  metálicas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de armários e arquivos de aço para escritório
+  - Produtor de estantes metálicas para estoque
+  - Fabricante de mesas e cadeiras com estrutura metálica
+  - Produtor de camas e beliches de ferro
+  - Fábrica de móveis metálicos para vestiário
+o_que_inclui:
+  - Fabricação de armários, arquivos e roupeiros de aço
+  - Produção de estantes e prateleiras metálicas
+  - Fabricação de mesas, cadeiras e bancadas com estrutura de metal
+  - Produção de camas, beliches e móveis tubulares
+  - Corte, dobra, solda, pintura e montagem das peças
+o_que_nao_inclui:
+  - Fabricação de móveis com predominância de madeira (use CNAE 3101-2/00)
+  - Fabricação de móveis de outros materiais (use CNAE 3103-9/00)
+  - Fabricação de colchões (use CNAE 3104-7/00)
+  - Fabricação de mobiliário para uso médico e odontológico (use CNAE 3250-7/02)
+  - Fabricação de estruturas metálicas para construção (use CNAE 2511-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para pintura e tratamento de superfície
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais para solda e pintura
+  - Certificação do Inmetro para móveis escolares, quando exigida
+cnaes_relacionados:
+  - 3101-2/00
+  - 3103-9/00
+  - 3104-7/00
+  - 3250-7/02
+  - 2511-0/00
+  - 2512-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

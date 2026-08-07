@@ -2,7 +2,9 @@ codigo: 2599-3/99
 codigo_slug: 2599-3-99
 codigo_numerico: '2599399'
 descricao_oficial: FABRICAÇÃO DE OUTROS PRODUTOS DE METAL NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE OUTROS PRODUTOS DE METAL NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de produtos de metal sem código próprio, como cofres, placas metálicas, peças decorativas e artefatos
+  diversos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de cofres e caixas fortes
+  - Produtor de placas e crachás metálicos
+  - Fabricante de peças decorativas em ferro e alumínio
+  - Produtor de suportes e acessórios metálicos diversos
+  - Metalúrgica de artefatos sob encomenda
+o_que_inclui:
+  - Fabricação de cofres, caixas fortes e portas blindadas
+  - Produção de placas, crachás e peças de identificação metálicas
+  - Fabricação de artefatos decorativos e utilitários de metal
+  - Produção de suportes, ganchos e acessórios metálicos diversos
+  - Produtos de metal sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Serviços de confecção de armações metálicas para construção (use CNAE 2599-3/01)
+  - Serviço de corte e dobra de metais (use CNAE 2599-3/02)
+  - Fabricação de artigos de metal para uso doméstico e pessoal (use CNAE 2593-4/00)
+  - Fabricação de artigos de serralheria, exceto esquadrias (use CNAE 2542-0/00)
+  - Fabricação de letras, letreiros e placas não luminosos (use CNAE 3299-0/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para tratamento de superfície e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2599-3/01
+  - 2599-3/02
+  - 2593-4/00
+  - 2542-0/00
+  - 3299-0/03
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

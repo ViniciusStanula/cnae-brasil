@@ -2,7 +2,7 @@ codigo: 3104-7/00
 codigo_slug: 3104-7-00
 codigo_numerico: '3104700'
 descricao_oficial: FABRICAÇÃO DE COLCHÕES
-descricao_plana: FABRICAÇÃO DE COLCHÕES
+descricao_plana: Fabricação de colchões, colchonetes, box e travesseiros, em espuma, molas, látex ou outros materiais.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de colchões de espuma e molas
+  - Produtor de colchões box para o varejo
+  - Fabricante de colchonetes e futons
+  - Produtor de travesseiros e almofadas de espuma
+  - Fábrica de colchões ortopédicos sob medida
+o_que_inclui:
+  - Fabricação de colchões de espuma, molas ensacadas e látex
+  - Produção de bases box, colchonetes e futons
+  - Fabricação de travesseiros e almofadas de dormir
+  - Corte da espuma, montagem do núcleo e costura do revestimento
+  - Etiquetagem e embalagem dos colchões produzidos
+o_que_nao_inclui:
+  - Fabricação de móveis com predominância de madeira (use CNAE 3101-2/00)
+  - Fabricação de móveis de outros materiais, como estofados (use CNAE 3103-9/00)
+  - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
+  - Comércio varejista de colchões (use CNAE 4754-7/02)
+  - Reforma de colchões usados (use CNAE 9529-1/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificação compulsória do Inmetro para colchões
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de espumas e adesivos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3103-9/00
+  - 3101-2/00
+  - 3102-1/00
+  - 1351-1/00
+  - 2229-3/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

@@ -2,7 +2,7 @@ codigo: 3211-6/03
 codigo_slug: 3211-6-03
 codigo_numerico: '3211603'
 descricao_oficial: CUNHAGEM DE MOEDAS E MEDALHAS
-descricao_plana: CUNHAGEM DE MOEDAS E MEDALHAS
+descricao_plana: Cunhagem de moedas e medalhas, incluindo troféus, comendas e peças comemorativas em metal.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de medalhas e troféus esportivos
+  - Produtor de comendas e insígnias oficiais
+  - Fabricante de moedas comemorativas para colecionadores
+  - Oficina de cunhagem de fichas e tokens
+  - Produtor de placas e medalhas personalizadas
+o_que_inclui:
+  - Cunhagem de moedas, medalhas e comendas
+  - Fabricação de troféus, insígnias e distintivos metálicos
+  - Produção de fichas, tokens e peças comemorativas
+  - Gravação de matrizes e cunhos para a produção
+  - Banho, esmaltação e acabamento das peças cunhadas
+o_que_nao_inclui:
+  - Fabricação de artefatos de joalheria e ourivesaria (use CNAE 3211-6/02)
+  - Lapidação de gemas (use CNAE 3211-6/01)
+  - Fabricação de bijuterias e artefatos semelhantes (use CNAE 3212-4/00)
+  - Fabricação de letras, letreiros e placas não luminosos (use CNAE 3299-0/03)
+  - Fabricação de produtos de metal sem código próprio (use CNAE 2599-3/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro na Receita Federal para operações com metais preciosos, quando aplicável
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para banhos químicos e descarte de resíduos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3211-6/02
+  - 3211-6/01
+  - 3212-4/00
+  - 3299-0/03
+  - 2599-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

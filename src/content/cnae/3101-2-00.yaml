@@ -2,7 +2,7 @@ codigo: 3101-2/00
 codigo_slug: 3101-2-00
 codigo_numerico: '3101200'
 descricao_oficial: FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE MADEIRA
-descricao_plana: FABRICAÇÃO DE MÓVEIS COM PREDOMINÂNCIA DE MADEIRA
+descricao_plana: Fabricação de móveis com predominância de madeira, como armários, mesas, camas e estantes, em série ou sob medida.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,39 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Marcenaria de móveis planejados sob medida
+  - Fábrica de guarda-roupas e cômodas em MDF
+  - Produtor de mesas e cadeiras de madeira maciça
+  - Fabricante de estantes e racks para o varejo
+  - Marcenaria de móveis rústicos e artesanais
+o_que_inclui:
+  - Fabricação de armários, guarda-roupas, cômodas e estantes
+  - Produção de mesas, cadeiras, camas e criados-mudos
+  - Fabricação de móveis planejados sob medida
+  - Corte, usinagem, montagem, lixamento e acabamento
+  - Uso de madeira maciça, MDF, MDP ou compensado
+o_que_nao_inclui:
+  - Fabricação de móveis com predominância de metal (use CNAE 3102-1/00)
+  - Fabricação de móveis de outros materiais (use CNAE 3103-9/00)
+  - Fabricação de colchões (use CNAE 3104-7/00)
+  - Fabricação de artefatos diversos de madeira, exceto móveis (use CNAE 1629-3/01)
+  - Fabricação de mobiliário para uso médico e odontológico (use CNAE 3250-7/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro Técnico Federal do IBAMA para uso de madeira
+  - Documento de Origem Florestal (DOF) para a madeira utilizada
+  - Licença ambiental para pintura e uso de vernizes
+  - Programa de controle de riscos ocupacionais pela exposição a pó de madeira
+cnaes_relacionados:
+  - 3102-1/00
+  - 3103-9/00
+  - 3104-7/00
+  - 1629-3/01
+  - 1622-6/02
+  - 3250-7/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'

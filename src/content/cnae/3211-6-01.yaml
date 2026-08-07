@@ -2,7 +2,7 @@ codigo: 3211-6/01
 codigo_slug: 3211-6-01
 codigo_numerico: '3211601'
 descricao_oficial: LAPIDAÇÃO DE GEMAS
-descricao_plana: LAPIDAÇÃO DE GEMAS
+descricao_plana: Lapidação de gemas, transformando pedras preciosas e semipreciosas brutas em pedras facetadas ou cabochões.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Lapidário de pedras preciosas para joalherias
+  - Oficina de lapidação de quartzo e ametista
+  - Prestador de lapidação sob encomenda
+  - Lapidário de esmeraldas e turmalinas
+  - Oficina de cabochões e pedras ornamentais
+o_que_inclui:
+  - Serragem, pré-forma e facetamento de gemas brutas
+  - Produção de pedras facetadas, cabochões e esferas
+  - Polimento e acabamento de gemas
+  - Lapidação sob encomenda de terceiros
+  - Classificação e calibragem das pedras lapidadas
+o_que_nao_inclui:
+  - Fabricação de artefatos de joalheria e ourivesaria (use CNAE 3211-6/02)
+  - Fabricação de bijuterias e artefatos semelhantes (use CNAE 3212-4/00)
+  - Extração de gemas, pedras preciosas e semipreciosas (use CNAE 0893-2/00)
+  - Cunhagem de moedas e medalhas (use CNAE 3211-6/03)
+  - Comércio varejista de joias e pedras (use CNAE 4783-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro na Agência Nacional de Mineração para comércio de gemas
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pela exposição a sílica
+  - Licença ambiental para descarte de lama abrasiva
+cnaes_relacionados:
+  - 3211-6/02
+  - 3212-4/00
+  - 3211-6/03
+  - 0893-2/00
+  - 2399-1/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:03:43.659Z'
