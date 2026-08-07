@@ -2,7 +2,7 @@ codigo: 3314-7/09
 codigo_slug: 3314-7-09
 codigo_numerico: '3314709'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS DE ESCREVER, CALCULAR E DE OUTROS EQUIPAMENTOS NÃO ELETRÔNICOS PARA ESCRITÓRIO
+descricao_plana: Manutenção e reparação de máquinas de escrever, calcular e outros equipamentos não eletrônicos para escritório.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de reparo de máquinas de escrever antigas
+  - Prestador de manutenção de calculadoras mecânicas
+  - Serviço de reparo de guilhotinas e encadernadoras
+  - Oficina de manutenção de carimbos e datadores
+  - Prestador de reparo de equipamentos manuais de escritório
+o_que_inclui:
+  - Manutenção e reparo de máquinas de escrever mecânicas
+  - Reparo de calculadoras e registradoras não eletrônicas
+  - Manutenção de guilhotinas, encadernadoras e grampeadores de mesa
+  - Limpeza, lubrificação e ajuste de mecanismos
+  - Restauração de equipamentos de escritório antigos
+o_que_nao_inclui:
+  - Reparação de computadores e equipamentos de informática (use CNAE 9511-8/00)
+  - Manutenção de equipamentos eletrônicos de escritório, como copiadoras (use CNAE 9511-8/00)
+  - Manutenção de máquinas e equipamentos para uso geral (use CNAE 3314-7/10)
+  - Manutenção de aparelhos e instrumentos de medida e controle (use CNAE 3312-1/02)
+  - Fabricação de artigos para escritório (use CNAE 3299-0/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para descarte de óleos e resíduos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/10
+  - 3312-1/02
+  - 3299-0/02
+  - 3319-8/00
+  - 9511-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

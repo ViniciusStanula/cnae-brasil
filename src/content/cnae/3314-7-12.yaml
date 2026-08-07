@@ -2,7 +2,7 @@ codigo: 3314-7/12
 codigo_slug: 3314-7-12
 codigo_numerico: '3314712'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE TRATORES AGRÍCOLAS
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE TRATORES AGRÍCOLAS
+descricao_plana: Manutenção e reparação de tratores agrícolas, incluindo motor, transmissão, hidráulica e sistemas elétricos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de tratores agrícolas em região rural
+  - Prestador de manutenção de frota de tratores
+  - Serviço de reparo hidráulico de tratores
+  - Oficina mecânica especializada em máquinas agrícolas
+  - Prestador de manutenção preventiva em cooperativas
+o_que_inclui:
+  - Manutenção preventiva e corretiva de tratores agrícolas
+  - Reparo de motor, transmissão, embreagem e diferencial
+  - Manutenção do sistema hidráulico e do levante de três pontos
+  - Reparo elétrico e de sistemas de injeção
+  - Serviço executado em oficina ou na propriedade rural
+o_que_nao_inclui:
+  - Manutenção de máquinas e equipamentos para agricultura e pecuária (use CNAE 3314-7/11)
+  - Manutenção e reparação de tratores, exceto agrícolas (use CNAE 3314-7/16)
+  - Manutenção de máquinas de terraplenagem e construção (use CNAE 3314-7/17)
+  - Recondicionamento e recuperação de motores para veículos (use CNAE 2950-6/00)
+  - Comércio de máquinas e implementos agrícolas (use CNAE 4661-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Licença ambiental para descarte de óleos e resíduos contaminados
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/11
+  - 3314-7/16
+  - 3314-7/17
+  - 2950-6/00
+  - 0161-0/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

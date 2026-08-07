@@ -2,7 +2,7 @@ codigo: 3314-7/99
 codigo_slug: 3314-7-99
 codigo_numerico: '3314799'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE OUTRAS MÁQUINAS E EQUIPAMENTOS PARA USOS INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE OUTRAS MÁQUINAS E EQUIPAMENTOS PARA USOS INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Manutenção e reparação de outras máquinas e equipamentos para usos industriais sem código próprio na CNAE.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de manutenção industrial multissetorial
+  - Prestador de reparo de máquinas especiais sob demanda
+  - Oficina de manutenção de equipamentos de linha de produção
+  - Serviço de manutenção mecânica industrial terceirizada
+  - Prestador de reparo de máquinas sem código específico
+o_que_inclui:
+  - Manutenção de máquinas industriais sem código específico na CNAE
+  - Reparo mecânico, elétrico e hidráulico de equipamentos de produção
+  - Substituição de componentes, ajustes e calibragem
+  - Diagnóstico de falhas e manutenção preditiva
+  - Serviço executado em oficina ou na planta do cliente
+o_que_nao_inclui:
+  - Manutenção de máquinas para as indústrias de alimentos e bebidas (use CNAE 3314-7/19)
+  - Manutenção de máquinas para a indústria têxtil e calçados (use CNAE 3314-7/20)
+  - Manutenção de máquinas e equipamentos para uso geral (use CNAE 3314-7/10)
+  - Manutenção e reparação de equipamentos e produtos sem código próprio (use CNAE 3319-8/00)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Licença ambiental para descarte de óleos e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/19
+  - 3314-7/20
+  - 3314-7/10
+  - 3319-8/00
+  - 3321-0/00
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

@@ -2,7 +2,9 @@ codigo: 3319-8/00
 codigo_slug: 3319-8-00
 codigo_numerico: '3319800'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS E PRODUTOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Manutenção e reparação de equipamentos e produtos sem código próprio na CNAE, como equipamentos comerciais e artigos
+  diversos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de manutenção de equipamentos comerciais diversos
+  - Oficina de reparo de carrinhos e expositores de loja
+  - Serviço de manutenção de equipamentos de academia
+  - Prestador de reparo de artigos e produtos variados
+  - Empresa de manutenção de equipamentos de lazer
+o_que_inclui:
+  - Manutenção de equipamentos comerciais e de serviços
+  - Reparo de equipamentos de academia e lazer
+  - Manutenção de carrinhos, expositores e mobiliário de loja
+  - Reparo de produtos e equipamentos sem código específico
+  - Serviço executado em oficina ou no cliente
+o_que_nao_inclui:
+  - Manutenção de outras máquinas para usos industriais (use CNAE 3314-7/99)
+  - Manutenção de máquinas e equipamentos para uso geral (use CNAE 3314-7/10)
+  - Reparação de equipamentos eletroeletrônicos de uso pessoal e doméstico (use CNAE 9521-5/00)
+  - Reparação de objetos e artigos pessoais e domésticos sem código próprio (use CNAE 9529-1/99)
+  - Instalação de outros equipamentos sem código próprio (use CNAE 3329-5/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro no CREA ou CRT com responsável técnico, quando exigido
+  - Licença ambiental para descarte de resíduos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/99
+  - 3314-7/10
+  - 3329-5/99
+  - 9521-5/00
+  - 9529-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

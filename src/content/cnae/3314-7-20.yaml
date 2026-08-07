@@ -2,7 +2,7 @@ codigo: 3314-7/20
 codigo_slug: 3314-7-20
 codigo_numerico: '3314720'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA A INDÚSTRIA TÊXTIL, DO VESTUÁRIO, DO COURO E CALÇADOS
+descricao_plana: Manutenção e reparação de máquinas e equipamentos para as indústrias têxtil, do vestuário, do couro e de calçados.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de manutenção de máquinas de costura industriais
+  - Oficina de reparo de teares e malhas circulares
+  - Serviço de manutenção de máquinas de corte para confecção
+  - Empresa de reparo de máquinas do polo calçadista
+  - Prestador de manutenção de estamparias têxteis
+o_que_inclui:
+  - Manutenção de máquinas de costura reta, overloque e galoneira
+  - Reparo de teares, malhas circulares e máquinas de fiação
+  - Manutenção de máquinas de corte, prensas e balancins
+  - Reparo de equipamentos de estamparia e acabamento têxtil
+  - Serviço executado em oficina ou na planta do cliente
+o_que_nao_inclui:
+  - Manutenção de máquinas para as indústrias de alimentos e bebidas (use CNAE 3314-7/19)
+  - Manutenção de máquinas e equipamentos para uso geral (use CNAE 3314-7/10)
+  - Manutenção de outras máquinas para usos industriais (use CNAE 3314-7/99)
+  - Reparação de máquinas de costura de uso doméstico (use CNAE 9521-5/00)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Adequação das máquinas atendidas à NR-12
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/19
+  - 3314-7/10
+  - 3314-7/99
+  - 9521-5/00
+  - 3321-0/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

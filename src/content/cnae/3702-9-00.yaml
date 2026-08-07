@@ -2,7 +2,9 @@ codigo: 3702-9/00
 codigo_slug: 3702-9-00
 codigo_numerico: '3702900'
 descricao_oficial: ATIVIDADES RELACIONADAS A ESGOTO, EXCETO A GESTÃO DE REDES
-descricao_plana: ATIVIDADES RELACIONADAS A ESGOTO, EXCETO A GESTÃO DE REDES
+descricao_plana: >-
+  Atividades relacionadas a esgoto, exceto a gestão de redes, como limpeza de fossas, desentupimento e transporte de
+  efluentes.
 secao:
   letra: E
   slug: agua-esgoto-residuos
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de limpa-fossa e caminhão limpa-fossa
+  - Prestador de desentupimento de esgoto residencial
+  - Serviço de limpeza de caixas de gordura
+  - Transportador de efluentes até estação de tratamento
+  - Empresa de manutenção de sistemas de fossa séptica
+o_que_inclui:
+  - Limpeza e esgotamento de fossas sépticas e sumidouros
+  - Desentupimento de redes internas, ralos e caixas de gordura
+  - Transporte de efluentes até estação de tratamento licenciada
+  - Limpeza de caixas de gordura e separadores de água e óleo
+  - Manutenção de sistemas individuais de tratamento de esgoto
+o_que_nao_inclui:
+  - Gestão de redes públicas de esgoto (use CNAE 3701-1/00)
+  - Captação, tratamento e distribuição de água (use CNAE 3600-6/01)
+  - Distribuição de água por caminhões (use CNAE 3600-6/02)
+  - Coleta de resíduos não perigosos (use CNAE 3811-4/00)
+  - Instalações hidráulicas e sanitárias em obras (use CNAE 4322-3/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para transporte e destinação de efluentes
+  - Manifesto de transporte de resíduos e comprovante de destinação
+  - Registro e vistoria do veículo limpa-fossa
+  - Programa de controle de riscos ocupacionais e NR-33 para espaço confinado
+cnaes_relacionados:
+  - 3701-1/00
+  - 3600-6/02
+  - 3600-6/01
+  - 3811-4/00
+  - 4322-3/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

@@ -2,7 +2,7 @@ codigo: 3314-7/11
 codigo_slug: 3314-7-11
 codigo_numerico: '3314711'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AGRICULTURA E PECUÁRIA
+descricao_plana: Manutenção e reparação de máquinas e equipamentos para agricultura e pecuária, exceto tratores agrícolas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de manutenção de colheitadeiras
+  - Prestador de reparo de plantadeiras e semeadoras
+  - Serviço de manutenção de ordenhadeiras
+  - Oficina de reparo de pulverizadores agrícolas
+  - Prestador de manutenção de equipamentos de irrigação
+o_que_inclui:
+  - Manutenção de colheitadeiras, plantadeiras e semeadoras
+  - Reparo de pulverizadores, adubadeiras e implementos
+  - Manutenção de ordenhadeiras e equipamentos de pecuária
+  - Reparo de sistemas de irrigação e bombeamento agrícola
+  - Serviço executado em oficina ou na propriedade rural
+o_que_nao_inclui:
+  - Manutenção e reparação de tratores agrícolas (use CNAE 3314-7/12)
+  - Manutenção e reparação de tratores, exceto agrícolas (use CNAE 3314-7/16)
+  - Serviço de preparação de terreno, cultivo e colheita (use CNAE 0161-0/03)
+  - Manutenção de máquinas e equipamentos para uso geral (use CNAE 3314-7/10)
+  - Comércio de máquinas e implementos agrícolas (use CNAE 4661-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Licença ambiental para descarte de óleos e resíduos contaminados
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais e NR-31 para serviço rural
+cnaes_relacionados:
+  - 3314-7/12
+  - 3314-7/16
+  - 3314-7/10
+  - 0161-0/03
+  - 3314-7/99
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

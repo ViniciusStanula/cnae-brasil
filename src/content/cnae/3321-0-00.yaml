@@ -2,7 +2,9 @@ codigo: 3321-0/00
 codigo_slug: 3321-0-00
 codigo_numerico: '3321000'
 descricao_oficial: INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS
-descricao_plana: INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS INDUSTRIAIS
+descricao_plana: >-
+  Instalação de máquinas e equipamentos industriais, incluindo montagem, alinhamento e comissionamento na planta do
+  cliente.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de montagem industrial de linhas de produção
+  - Prestador de instalação de máquinas importadas
+  - Serviço de alinhamento e nivelamento de equipamentos
+  - Montadora de equipamentos em plantas fabris
+  - Prestador de comissionamento de máquinas industriais
+o_que_inclui:
+  - Montagem e instalação de máquinas industriais na planta do cliente
+  - Alinhamento, nivelamento e fixação de equipamentos
+  - Conexão de utilidades elétricas, hidráulicas e pneumáticas
+  - Comissionamento, testes e start-up das máquinas
+  - Desmontagem e remontagem em mudança de layout
+o_que_nao_inclui:
+  - Manutenção e reparação de máquinas para usos industriais (use CNAE 3314-7/99)
+  - Serviços de montagem de móveis de qualquer material (use CNAE 3329-5/01)
+  - Instalação de outros equipamentos sem código próprio (use CNAE 3329-5/99)
+  - Instalações elétricas em edificações (use CNAE 4321-5/00)
+  - Fabricação de máquinas e equipamentos industriais (use o CNAE da fabricação correspondente)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA com responsável técnico
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cumprimento da NR-12 na entrega das máquinas instaladas
+  - Programa de controle de riscos ocupacionais para trabalho em altura e içamento
+cnaes_relacionados:
+  - 3329-5/01
+  - 3329-5/99
+  - 3314-7/99
+  - 3314-7/10
+  - 4321-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

@@ -2,7 +2,9 @@ codigo: 3314-7/10
 codigo_slug: 3314-7-10
 codigo_numerico: '3314710'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA USO GERAL NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA USO GERAL NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Manutenção e reparação de máquinas e equipamentos de uso geral sem código próprio, como bombas, redutores e
+  equipamentos diversos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de manutenção de bombas centrífugas
+  - Prestador de reparo de redutores e motorredutores
+  - Empresa de manutenção mecânica industrial geral
+  - Oficina de reparo de equipamentos diversos de fábrica
+  - Prestador de manutenção de máquinas de uso comum
+o_que_inclui:
+  - Manutenção preventiva e corretiva de bombas e redutores
+  - Reparo de máquinas de uso geral sem código específico
+  - Substituição de rolamentos, vedações e componentes mecânicos
+  - Alinhamento, balanceamento e testes de funcionamento
+  - Serviço executado em oficina ou em campo
+o_que_nao_inclui:
+  - Manutenção de máquinas motrizes não elétricas (use CNAE 3314-7/01)
+  - Manutenção de equipamentos hidráulicos e pneumáticos (use CNAE 3314-7/02)
+  - Manutenção de compressores (use CNAE 3314-7/04)
+  - Manutenção de outras máquinas para usos industriais (use CNAE 3314-7/99)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Licença ambiental para descarte de óleos e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/01
+  - 3314-7/02
+  - 3314-7/04
+  - 3314-7/05
+  - 3314-7/99
+  - 3321-0/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

@@ -2,7 +2,7 @@ codigo: 3329-5/01
 codigo_slug: 3329-5-01
 codigo_numerico: '3329501'
 descricao_oficial: SERVIÇOS DE MONTAGEM DE MÓVEIS DE QUALQUER MATERIAL
-descricao_plana: SERVIÇOS DE MONTAGEM DE MÓVEIS DE QUALQUER MATERIAL
+descricao_plana: Serviços de montagem de móveis de qualquer material, prestados a lojas, fabricantes ou diretamente ao consumidor.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Montador de móveis autônomo para lojas de varejo
+  - Empresa de montagem de móveis planejados
+  - Prestador de montagem de estações de trabalho
+  - Serviço de montagem e desmontagem em mudanças
+  - Equipe de montagem para e-commerce de móveis
+o_que_inclui:
+  - Montagem de móveis residenciais e de escritório
+  - Instalação de móveis planejados e sob medida
+  - Desmontagem e remontagem de móveis em mudanças
+  - Fixação de armários, prateleiras e painéis em parede
+  - Ajustes, nivelamento e regulagem de portas e gavetas
+o_que_nao_inclui:
+  - Fabricação de móveis com predominância de madeira (use CNAE 3101-2/00)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+  - Instalação de outros equipamentos sem código próprio (use CNAE 3329-5/99)
+  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/04)
+  - Serviços de mudança e transporte de móveis (use CNAE 4930-2/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros, quando houver estabelecimento
+  - Programa de controle de riscos ocupacionais
+  - Seguro de responsabilidade civil, quando exigido pelo contratante
+cnaes_relacionados:
+  - 3101-2/00
+  - 3102-1/00
+  - 3329-5/99
+  - 3321-0/00
+  - 9529-1/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

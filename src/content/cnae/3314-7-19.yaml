@@ -2,7 +2,7 @@ codigo: 3314-7/19
 codigo_slug: 3314-7-19
 codigo_numerico: '3314719'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS E EQUIPAMENTOS PARA AS INDÚSTRIAS DE ALIMENTOS, BEBIDAS E FUMO
+descricao_plana: Manutenção e reparação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de manutenção de envasadoras de bebidas
+  - Oficina de reparo de máquinas de panificação
+  - Serviço de manutenção de fornos e amassadeiras industriais
+  - Empresa de reparo de equipamentos de frigorífico
+  - Prestador de manutenção de linhas de embalagem de alimentos
+o_que_inclui:
+  - Manutenção de envasadoras, rotuladoras e linhas de embalagem
+  - Reparo de amassadeiras, fornos e masseiras industriais
+  - Manutenção de moinhos, extrusoras e equipamentos de processamento
+  - Reparo de máquinas de abate e processamento de carnes
+  - Serviço executado na planta industrial do cliente
+o_que_nao_inclui:
+  - Manutenção de máquinas para a indústria têxtil e do vestuário (use CNAE 3314-7/20)
+  - Manutenção de máquinas e equipamentos para uso geral (use CNAE 3314-7/10)
+  - Manutenção de máquinas e aparelhos de refrigeração industrial (use CNAE 3314-7/07)
+  - Manutenção de outras máquinas para usos industriais (use CNAE 3314-7/99)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Adequação dos serviços às boas práticas sanitárias do cliente
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/20
+  - 3314-7/10
+  - 3314-7/07
+  - 3314-7/99
+  - 3321-0/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'

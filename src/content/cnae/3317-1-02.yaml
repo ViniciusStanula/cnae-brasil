@@ -2,7 +2,7 @@ codigo: 3317-1/02
 codigo_slug: 3317-1-02
 codigo_numerico: '3317102'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE EMBARCAÇÕES PARA ESPORTE E LAZER
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE EMBARCAÇÕES PARA ESPORTE E LAZER
+descricao_plana: Manutenção e reparação de embarcações para esporte e lazer, como lanchas, veleiros e jet skis.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estaleiro de manutenção de lanchas em marina
+  - Prestador de reparo de cascos de fibra de vidro
+  - Oficina de manutenção de motores de popa
+  - Serviço de pintura e polimento náutico
+  - Empresa de manutenção de jet skis e motos aquáticas
+o_que_inclui:
+  - Manutenção preventiva e corretiva de lanchas, veleiros e jet skis
+  - Reparo de cascos de fibra de vidro, madeira ou alumínio
+  - Manutenção de motores de popa e de centro
+  - Serviços de pintura, polimento e antiincrustante
+  - Reparo de sistemas elétricos e hidráulicos náuticos
+o_que_nao_inclui:
+  - Manutenção e reparação de embarcações e estruturas flutuantes comerciais (use CNAE 3317-1/01)
+  - Construção de embarcações para esporte e lazer (use CNAE 3092-0/00)
+  - Manutenção e reparação de máquinas motrizes não elétricas (use CNAE 3314-7/01)
+  - Serviços de marinas e guarda de embarcações (use CNAE 5231-1/02)
+  - Manutenção e reparação de veículos ferroviários (use CNAE 3315-5/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro na Marinha do Brasil para oficina de reparo naval
+  - Licença ambiental para descarte de resíduos e tintas náuticas
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3317-1/01
+  - 3314-7/01
+  - 3319-8/00
+  - 2950-6/00
+  - 3315-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:08:33.119Z'
