@@ -2,7 +2,7 @@ codigo: 3299-0/04
 codigo_slug: 3299-0-04
 codigo_numerico: '3299004'
 descricao_oficial: FABRICAÇÃO DE PAINÉIS E LETREIROS LUMINOSOS
-descricao_plana: FABRICAÇÃO DE PAINÉIS E LETREIROS LUMINOSOS
+descricao_plana: Fabricação de painéis e letreiros luminosos, como luminosos de fachada, painéis de LED e sinalização iluminada.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de luminosos de fachada para comércios
+  - Produtor de painéis de LED para publicidade
+  - Fabricante de letras caixa iluminadas
+  - Produtor de totens luminosos para postos e lojas
+  - Empresa de sinalização luminosa de emergência
+o_que_inclui:
+  - Fabricação de luminosos, letreiros e fachadas iluminadas
+  - Produção de painéis de LED e displays luminosos
+  - Fabricação de letras caixa com iluminação interna
+  - Montagem de estrutura, difusor e sistema elétrico
+  - Fabricação de totens e sinalização luminosa
+o_que_nao_inclui:
+  - Fabricação de letras, letreiros e placas não luminosos (use CNAE 3299-0/03)
+  - Fabricação de luminárias e equipamentos de iluminação (use CNAE 2740-6/02)
+  - Fabricação de lâmpadas (use CNAE 2740-6/01)
+  - Fabricação de equipamentos para sinalização e alarme (use CNAE 2790-2/02)
+  - Serviços de instalação de luminosos na obra (use CNAE 4330-4/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificação do Inmetro para componentes elétricos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro no CREA com responsável técnico
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3299-0/03
+  - 2740-6/02
+  - 2740-6/01
+  - 2790-2/02
+  - 2732-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

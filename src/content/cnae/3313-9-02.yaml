@@ -2,7 +2,7 @@ codigo: 3313-9/02
 codigo_slug: 3313-9-02
 codigo_numerico: '3313902'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE BATERIAS E ACUMULADORES ELÉTRICOS, EXCETO PARA VEÍCULOS
+descricao_plana: Manutenção e reparação de baterias e acumuladores elétricos, exceto para veículos automotores.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de recuperação de baterias estacionárias
+  - Prestador de manutenção de nobreaks e bancos de bateria
+  - Serviço de reparo de baterias industriais de empilhadeira
+  - Empresa de manutenção de sistemas de energia de emergência
+  - Oficina de recondicionamento de acumuladores
+o_que_inclui:
+  - Manutenção e recuperação de baterias estacionárias e industriais
+  - Reparo de bancos de bateria para nobreaks e telecom
+  - Substituição de células, terminais e conexões
+  - Testes de capacidade, carga e descarga
+  - Serviço executado em oficina ou em campo
+o_que_nao_inclui:
+  - Recondicionamento de baterias e acumuladores para veículos (use CNAE 2722-8/02)
+  - Fabricação de pilhas, baterias e acumuladores, exceto para veículos (use CNAE 2721-0/00)
+  - Manutenção de geradores, transformadores e motores elétricos (use CNAE 3313-9/01)
+  - Manutenção de máquinas e materiais elétricos sem código próprio (use CNAE 3313-9/99)
+  - Coleta e destinação de baterias usadas como resíduo (use CNAE 3811-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para manuseio de chumbo e ácidos
+  - Plano de logística reversa de baterias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cumprimento da NR-10 e controle de exposição a chumbo
+cnaes_relacionados:
+  - 2722-8/02
+  - 2721-0/00
+  - 3313-9/01
+  - 3313-9/99
+  - 3811-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

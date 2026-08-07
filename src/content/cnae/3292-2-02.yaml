@@ -2,7 +2,9 @@ codigo: 3292-2/02
 codigo_slug: 3292-2-02
 codigo_numerico: '3292202'
 descricao_oficial: FABRICAÇÃO DE EQUIPAMENTOS E ACESSÓRIOS PARA SEGURANÇA PESSOAL E PROFISSIONAL
-descricao_plana: FABRICAÇÃO DE EQUIPAMENTOS E ACESSÓRIOS PARA SEGURANÇA PESSOAL E PROFISSIONAL
+descricao_plana: >-
+  Fabricação de equipamentos e acessórios para segurança pessoal e profissional, como capacetes, luvas, botas e cintos
+  de segurança.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de capacetes de segurança para obras
+  - Produtor de luvas de proteção industrial
+  - Fabricante de cintos e talabartes para trabalho em altura
+  - Produtor de óculos e protetores auriculares
+  - Fábrica de botas e calçados de segurança
+o_que_inclui:
+  - Fabricação de capacetes, óculos e protetores faciais
+  - Produção de luvas, mangotes e perneiras de proteção
+  - Fabricação de cintos, talabartes e travas-quedas
+  - Produção de protetores auriculares e máscaras respiratórias
+  - Fabricação de botas e calçados de segurança
+o_que_nao_inclui:
+  - Fabricação de roupas de proteção e resistentes a fogo (use CNAE 3292-2/01)
+  - Fabricação de acessórios do vestuário, exceto segurança (use CNAE 1414-2/00)
+  - Fabricação de equipamentos para sinalização e alarme (use CNAE 2790-2/02)
+  - Fabricação de calçados de couro comuns (use CNAE 1531-9/01)
+  - Comércio varejista de equipamentos de proteção (use CNAE 4789-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Aprovação (CA) do Ministério do Trabalho para cada EPI
+  - Certificação do Inmetro, quando exigida
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3292-2/01
+  - 1414-2/00
+  - 1531-9/01
+  - 2790-2/02
+  - 3299-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

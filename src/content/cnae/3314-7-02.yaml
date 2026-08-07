@@ -2,7 +2,7 @@ codigo: 3314-7/02
 codigo_slug: 3314-7-02
 codigo_numerico: '3314702'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE EQUIPAMENTOS HIDRÁULICOS E PNEUMÁTICOS, EXCETO VÁLVULAS
+descricao_plana: Manutenção e reparação de equipamentos hidráulicos e pneumáticos, exceto válvulas, como cilindros, bombas e comandos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de reparo de cilindros hidráulicos
+  - Prestador de manutenção de bombas hidráulicas industriais
+  - Serviço de reparo de sistemas pneumáticos de máquinas
+  - Empresa de manutenção de macacos e prensas hidráulicas
+  - Oficina de mangueiras e conexões hidráulicas
+o_que_inclui:
+  - Reparo e recuperação de cilindros hidráulicos e pneumáticos
+  - Manutenção de bombas, motores e comandos hidráulicos
+  - Substituição de vedações, hastes, camisas e retentores
+  - Confecção e reparo de mangueiras e conexões
+  - Testes de pressão e diagnóstico de vazamentos
+o_que_nao_inclui:
+  - Manutenção e reparação de válvulas industriais (use CNAE 3314-7/03)
+  - Manutenção e reparação de compressores (use CNAE 3314-7/04)
+  - Manutenção de máquinas motrizes não elétricas (use CNAE 3314-7/01)
+  - Manutenção de equipamentos de transmissão para fins industriais (use CNAE 3314-7/05)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Licença ambiental para descarte de óleos hidráulicos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3314-7/03
+  - 3314-7/04
+  - 3314-7/01
+  - 3314-7/05
+  - 3321-0/00
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

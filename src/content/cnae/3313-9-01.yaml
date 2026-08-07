@@ -2,7 +2,7 @@ codigo: 3313-9/01
 codigo_slug: 3313-9-01
 codigo_numerico: '3313901'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE GERADORES, TRANSFORMADORES E MOTORES ELÉTRICOS
+descricao_plana: Manutenção e reparação de geradores, transformadores e motores elétricos, incluindo rebobinamento e testes.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de rebobinamento de motores elétricos
+  - Prestador de manutenção de geradores industriais
+  - Serviço de reparo de transformadores
+  - Empresa de manutenção de motobombas elétricas
+  - Oficina eletromecânica de motores trifásicos
+o_que_inclui:
+  - Rebobinamento de motores elétricos e geradores
+  - Manutenção preventiva e corretiva de transformadores
+  - Substituição de rolamentos, escovas e componentes
+  - Testes elétricos, isolação e balanceamento
+  - Serviço executado em oficina ou em campo
+o_que_nao_inclui:
+  - Manutenção e reparação de baterias e acumuladores elétricos (use CNAE 3313-9/02)
+  - Manutenção de máquinas, aparelhos e materiais elétricos sem código próprio (use CNAE 3313-9/99)
+  - Fabricação de motores elétricos, peças e acessórios (use CNAE 2710-4/03)
+  - Recondicionamento e recuperação de motores para veículos (use CNAE 2950-6/00)
+  - Instalação elétrica em edificações (use CNAE 4321-5/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para descarte de óleos e vernizes
+  - Cumprimento da NR-10 para serviços em eletricidade
+cnaes_relacionados:
+  - 3313-9/02
+  - 3313-9/99
+  - 2710-4/03
+  - 2710-4/01
+  - 2950-6/00
+  - 3314-7/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

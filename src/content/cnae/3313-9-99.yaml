@@ -2,7 +2,9 @@ codigo: 3313-9/99
 codigo_slug: 3313-9-99
 codigo_numerico: '3313999'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS, APARELHOS E MATERIAIS ELÉTRICOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Manutenção e reparação de máquinas, aparelhos e materiais elétricos sem código próprio, como painéis, quadros e
+  comandos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de manutenção de painéis elétricos industriais
+  - Oficina de reparo de quadros de comando
+  - Serviço de manutenção de disjuntores e chaves
+  - Empresa de manutenção elétrica predial industrial
+  - Prestador de reparo de equipamentos elétricos diversos
+o_que_inclui:
+  - Manutenção de painéis, quadros de comando e distribuição
+  - Reparo de disjuntores, contatores, relés e chaves seccionadoras
+  - Manutenção de equipamentos elétricos sem código específico
+  - Testes elétricos, termografia e ajustes de proteção
+  - Serviço executado em oficina ou em campo
+o_que_nao_inclui:
+  - Manutenção de geradores, transformadores e motores elétricos (use CNAE 3313-9/01)
+  - Manutenção de baterias e acumuladores elétricos (use CNAE 3313-9/02)
+  - Manutenção de aparelhos e instrumentos de medida e controle (use CNAE 3312-1/02)
+  - Instalação elétrica em edificações (use CNAE 4321-5/00)
+  - Fabricação de aparelhos para distribuição e controle de energia (use CNAE 2731-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cumprimento da NR-10 para serviços em eletricidade
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3313-9/01
+  - 3313-9/02
+  - 3312-1/02
+  - 2731-7/00
+  - 3314-7/10
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

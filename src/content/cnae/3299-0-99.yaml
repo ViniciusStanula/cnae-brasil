@@ -2,7 +2,9 @@ codigo: 3299-0/99
 codigo_slug: 3299-0-99
 codigo_numerico: '3299099'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS DIVERSOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE PRODUTOS DIVERSOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de produtos diversos sem código próprio na CNAE, como isqueiros, artigos religiosos, taxidermia e produtos
+  variados.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de isqueiros e acendedores
+  - Produtor de artigos religiosos e devocionais
+  - Fabricante de artigos de festa e decoração
+  - Produtor de manequins e expositores
+  - Fábrica de produtos variados sob encomenda
+o_que_inclui:
+  - Fabricação de isqueiros, acendedores e artigos para fumantes
+  - Produção de artigos religiosos, imagens e devocionais
+  - Fabricação de manequins, expositores e artigos de vitrine
+  - Produção de artigos de festa, decoração e presentes
+  - Produtos sem enquadramento em nenhum outro código da CNAE
+o_que_nao_inclui:
+  - Fabricação de escovas, pincéis e vassouras (use CNAE 3291-4/00)
+  - Fabricação de guarda-chuvas e similares (use CNAE 3299-0/01)
+  - Fabricação de canetas, lápis e artigos para escritório (use CNAE 3299-0/02)
+  - Fabricação de velas, inclusive decorativas (use CNAE 3299-0/06)
+  - Fabricação de bijuterias e artefatos semelhantes (use CNAE 3212-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental, conforme o processo produtivo
+  - Certificação do Inmetro, conforme o produto
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3291-4/00
+  - 3299-0/01
+  - 3299-0/02
+  - 3299-0/06
+  - 3212-4/00
+  - 2229-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

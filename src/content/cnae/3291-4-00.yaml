@@ -2,7 +2,7 @@ codigo: 3291-4/00
 codigo_slug: 3291-4-00
 codigo_numerico: '3291400'
 descricao_oficial: FABRICAÇÃO DE ESCOVAS, PINCÉIS E VASSOURAS
-descricao_plana: FABRICAÇÃO DE ESCOVAS, PINCÉIS E VASSOURAS
+descricao_plana: Fabricação de escovas, pincéis e vassouras, incluindo escovas de dente, rolos de pintura, rodos e artigos de limpeza.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de vassouras e rodos de plástico
+  - Produtor de pincéis e rolos para pintura
+  - Fabricante de escovas de dente e higiene
+  - Produtor de escovas industriais e técnicas
+  - Fábrica de vassouras de piaçava artesanais
+o_que_inclui:
+  - Fabricação de vassouras, rodos e escovas de limpeza
+  - Produção de pincéis, trinchas e rolos para pintura
+  - Fabricação de escovas de dente, cabelo e higiene pessoal
+  - Produção de escovas técnicas e industriais
+  - Montagem de cerdas, cabos e suportes
+o_que_nao_inclui:
+  - Fabricação de produtos diversos sem código próprio (use CNAE 3299-0/99)
+  - Fabricação de artigos de metal para uso doméstico e pessoal (use CNAE 2593-4/00)
+  - Fabricação de artefatos plásticos para uso pessoal e doméstico (use CNAE 2229-3/01)
+  - Fabricação de produtos de limpeza e sabões (use CNAE 2062-2/00)
+  - Comércio atacadista de produtos de higiene e limpeza (use CNAE 4649-4/08)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro na Anvisa para escovas de higiene bucal
+  - Licença ambiental, conforme o processo produtivo
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3299-0/99
+  - 2593-4/00
+  - 2229-3/01
+  - 4649-4/08
+  - 3299-0/06
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

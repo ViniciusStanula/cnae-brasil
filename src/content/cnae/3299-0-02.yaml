@@ -2,7 +2,9 @@ codigo: 3299-0/02
 codigo_slug: 3299-0-02
 codigo_numerico: '3299002'
 descricao_oficial: FABRICAÇÃO DE CANETAS, LÁPIS E OUTROS ARTIGOS PARA ESCRITÓRIO
-descricao_plana: FABRICAÇÃO DE CANETAS, LÁPIS E OUTROS ARTIGOS PARA ESCRITÓRIO
+descricao_plana: >-
+  Fabricação de canetas, lápis e artigos para escritório, como borrachas, apontadores, grampeadores e material de
+  papelaria.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de canetas esferográficas personalizadas
+  - Produtor de lápis e lapiseiras
+  - Fabricante de borrachas e apontadores escolares
+  - Produtor de grampeadores e perfuradores
+  - Fábrica de canetas promocionais para brindes
+o_que_inclui:
+  - Fabricação de canetas esferográficas, hidrográficas e marcadores
+  - Produção de lápis, lapiseiras e giz de cera
+  - Fabricação de borrachas, apontadores e réguas
+  - Produção de grampeadores, perfuradores e clipes
+  - Montagem, personalização e embalagem dos artigos
+o_que_nao_inclui:
+  - Fabricação de produtos de papel para uso comercial e de escritório (use CNAE 1741-9/02)
+  - Fabricação de produtos diversos sem código próprio (use CNAE 3299-0/99)
+  - Fabricação de tintas de impressão (use CNAE 2071-1/00)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+  - Fabricação de escovas, pincéis e vassouras (use CNAE 3291-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificação do Inmetro para material escolar infantil
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de tintas e solventes
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3299-0/99
+  - 1741-9/02
+  - 3291-4/00
+  - 4761-0/03
+  - 2229-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

@@ -2,7 +2,7 @@ codigo: 3299-0/05
 codigo_slug: 3299-0-05
 codigo_numerico: '3299005'
 descricao_oficial: FABRICAÇÃO DE AVIAMENTOS PARA COSTURA
-descricao_plana: FABRICAÇÃO DE AVIAMENTOS PARA COSTURA
+descricao_plana: Fabricação de aviamentos para costura, como botões, zíperes, fivelas, colchetes, elásticos e etiquetas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de botões de resina e poliéster
+  - Produtor de zíperes e cursores
+  - Fabricante de fivelas e rebites para confecção
+  - Produtor de etiquetas bordadas e tags
+  - Fábrica de elásticos e cadarços para vestuário
+o_que_inclui:
+  - Fabricação de botões, colchetes, ilhoses e rebites
+  - Produção de zíperes, cursores e fechos
+  - Fabricação de fivelas, presilhas e passadores
+  - Produção de elásticos, cadarços e viés
+  - Fabricação de etiquetas, tags e aplicações para confecção
+o_que_nao_inclui:
+  - Fabricação de linhas para costurar e bordar (use CNAE 1314-6/00)
+  - Fabricação de outros produtos têxteis sem código próprio (use CNAE 1359-6/00)
+  - Fabricação de acessórios do vestuário (use CNAE 1414-2/00)
+  - Fabricação de produtos diversos sem código próprio (use CNAE 3299-0/99)
+  - Comércio atacadista de aviamentos (use CNAE 4641-9/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para banhos galvânicos e tintas
+  - Certificação do Inmetro para aviamentos infantis, quando exigida
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1314-6/00
+  - 1359-6/00
+  - 1414-2/00
+  - 3299-0/99
+  - 2229-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

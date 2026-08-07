@@ -2,7 +2,7 @@ codigo: 3314-7/01
 codigo_slug: 3314-7-01
 codigo_numerico: '3314701'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS MOTRIZES NÃO ELÉTRICAS
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE MÁQUINAS MOTRIZES NÃO ELÉTRICAS
+descricao_plana: Manutenção e reparação de máquinas motrizes não elétricas, como motores a combustão, turbinas e motores estacionários.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de manutenção de motores diesel estacionários
+  - Prestador de reparo de grupos geradores a combustão
+  - Serviço de manutenção de turbinas industriais
+  - Oficina de motores a gás para indústria
+  - Prestador de reparo de motores marítimos estacionários
+o_que_inclui:
+  - Manutenção preventiva e corretiva de motores a combustão estacionários
+  - Reparo de turbinas a vapor, gás e hidráulicas
+  - Substituição de peças, ajustes e regulagem de motores
+  - Testes de desempenho e diagnóstico de falhas
+  - Serviço executado em oficina ou em campo
+o_que_nao_inclui:
+  - Recondicionamento e recuperação de motores para veículos automotores (use CNAE 2950-6/00)
+  - Manutenção de geradores, transformadores e motores elétricos (use CNAE 3313-9/01)
+  - Manutenção de equipamentos hidráulicos e pneumáticos (use CNAE 3314-7/02)
+  - Manutenção de compressores (use CNAE 3314-7/04)
+  - Manutenção mecânica de veículos automotores (use CNAE 4520-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Licença ambiental para descarte de óleos e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2950-6/00
+  - 3313-9/01
+  - 3314-7/02
+  - 3314-7/04
+  - 3311-2/00
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

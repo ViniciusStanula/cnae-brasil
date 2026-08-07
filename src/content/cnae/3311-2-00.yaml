@@ -2,7 +2,9 @@ codigo: 3311-2/00
 codigo_slug: 3311-2-00
 codigo_numerico: '3311200'
 descricao_oficial: MANUTENÇÃO E REPARAÇÃO DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS
-descricao_plana: MANUTENÇÃO E REPARAÇÃO DE TANQUES, RESERVATÓRIOS METÁLICOS E CALDEIRAS, EXCETO PARA VEÍCULOS
+descricao_plana: >-
+  Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos, incluindo inspeção e
+  recuperação.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de manutenção de caldeiras industriais
+  - Prestador de reparo de tanques de combustível
+  - Serviço de inspeção e recuperação de vasos de pressão
+  - Caldeiraria de manutenção em indústrias
+  - Prestador de limpeza e reparo de reservatórios metálicos
+o_que_inclui:
+  - Manutenção preventiva e corretiva de caldeiras e vasos de pressão
+  - Reparo e recuperação de tanques e reservatórios metálicos
+  - Substituição de chapas, tubos e componentes por solda
+  - Inspeção, teste hidrostático e ensaios não destrutivos
+  - Serviço executado em campo ou em oficina
+o_que_nao_inclui:
+  - Fabricação de tanques, reservatórios e caldeiras (use CNAE 2521-7/00)
+  - Fabricação de caldeiras geradoras de vapor (use CNAE 2522-5/00)
+  - Manutenção de máquinas para instalações térmicas (use CNAE 3314-7/06)
+  - Fabricação de obras de caldeiraria pesada (use CNAE 2513-6/00)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA com responsável técnico
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cumprimento da NR-13 para caldeiras e vasos de pressão
+  - Programa de controle de riscos ocupacionais para trabalho em espaço confinado
+cnaes_relacionados:
+  - 2521-7/00
+  - 2522-5/00
+  - 2513-6/00
+  - 3314-7/06
+  - 3321-0/00
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

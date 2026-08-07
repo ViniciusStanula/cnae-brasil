@@ -2,7 +2,7 @@ codigo: 3299-0/06
 codigo_slug: 3299-0-06
 codigo_numerico: '3299006'
 descricao_oficial: FABRICAÇÃO DE VELAS, INCLUSIVE DECORATIVAS
-descricao_plana: FABRICAÇÃO DE VELAS, INCLUSIVE DECORATIVAS
+descricao_plana: Fabricação de velas de cera ou parafina, incluindo velas decorativas, aromáticas e religiosas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de velas decorativas e aromáticas
+  - Produtor de velas religiosas e votivas
+  - Ateliê de velas artesanais de cera de abelha
+  - Fabricante de velas de soja para presente
+  - Produtor de velas para emergência e uso doméstico
+o_que_inclui:
+  - Fabricação de velas de parafina, estearina, cera de abelha ou soja
+  - Produção de velas decorativas, aromáticas e perfumadas
+  - Fabricação de velas religiosas, votivas e de sete dias
+  - Derretimento, moldagem, pavio e acabamento das velas
+  - Embalagem e rotulagem dos produtos fabricados
+o_que_nao_inclui:
+  - Fabricação de produtos diversos sem código próprio (use CNAE 3299-0/99)
+  - Fabricação de sabões, detergentes e produtos de limpeza (use CNAE 2062-2/00)
+  - Fabricação de cosméticos e produtos de perfumaria (use CNAE 2063-1/00)
+  - Fabricação de escovas, pincéis e vassouras (use CNAE 3291-4/00)
+  - Comércio varejista de artigos religiosos (use CNAE 4789-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de parafina e essências
+  - Registro na Anvisa para velas com alegação cosmética
+  - Programa de controle de riscos ocupacionais pelo risco de incêndio
+cnaes_relacionados:
+  - 3299-0/99
+  - 3291-4/00
+  - 2229-3/99
+  - 4789-0/01
+  - 3212-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'

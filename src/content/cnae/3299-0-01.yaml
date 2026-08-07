@@ -2,7 +2,7 @@ codigo: 3299-0/01
 codigo_slug: 3299-0-01
 codigo_numerico: '3299001'
 descricao_oficial: FABRICAÇÃO DE GUARDA CHUVAS E SIMILARES
-descricao_plana: FABRICAÇÃO DE GUARDA CHUVAS E SIMILARES
+descricao_plana: Fabricação de guarda-chuvas, sombrinhas e artigos similares, incluindo armações, cabos e coberturas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de guarda-chuvas e sombrinhas
+  - Produtor de guarda-sóis para praia e jardim
+  - Fabricante de armações e peças de reposição
+  - Produtor de guarda-chuvas personalizados para brindes
+  - Fábrica de sombrinhas decorativas
+o_que_inclui:
+  - Fabricação de guarda-chuvas, sombrinhas e guarda-sóis
+  - Produção de armações, varetas e cabos
+  - Corte e costura da cobertura de tecido
+  - Montagem, personalização e embalagem das peças
+  - Fabricação de peças de reposição para guarda-chuvas
+o_que_nao_inclui:
+  - Fabricação de produtos diversos sem código próprio (use CNAE 3299-0/99)
+  - Fabricação de acessórios do vestuário (use CNAE 1414-2/00)
+  - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
+  - Fabricação de móveis de área externa (use CNAE 3103-9/00)
+  - Comércio varejista de suvenires e artigos diversos (use CNAE 4789-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem conforme regras do Inmetro
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3299-0/99
+  - 1414-2/00
+  - 1351-1/00
+  - 3103-9/00
+  - 4789-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:06:10.298Z'
