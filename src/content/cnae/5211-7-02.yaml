@@ -2,7 +2,7 @@ codigo: 5211-7/02
 codigo_slug: 5211-7-02
 codigo_numerico: '5211702'
 descricao_oficial: GUARDA MÓVEIS
-descricao_plana: GUARDA MÓVEIS
+descricao_plana: Guarda-móveis, com armazenamento de móveis e bens pessoais em box ou depósito, por prazo contratado.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Guarda-móveis com box individuais
+  - Self storage para bens pessoais
+  - Depósito de móveis durante mudanças
+  - Guarda-volumes para empresas e estoques
+  - Armazenagem temporária de bens residenciais
+o_que_inclui:
+  - Armazenamento de móveis e bens pessoais em box fechado
+  - Guarda de bens durante mudanças e reformas
+  - Locação de espaço de armazenagem por período contratado
+  - Controle de acesso, inventário e segurança do depósito
+  - Coleta e entrega dos bens como serviço acessório
+o_que_nao_inclui:
+  - Transporte rodoviário de mudanças (use CNAE 4930-2/04)
+  - Armazéns gerais e emissão de warrant (use CNAE 5211-7/01)
+  - Depósitos de mercadorias para terceiros sem código próprio (use CNAE 5211-7/99)
+  - Carga e descarga (use CNAE 5212-5/00)
+  - Aluguel de imóveis próprios (use CNAE 6810-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental, conforme o porte do depósito
+  - Seguro sobre os bens armazenados
+  - Contrato formal de depósito com o cliente
+cnaes_relacionados:
+  - 4930-2/04
+  - 5211-7/01
+  - 5211-7/99
+  - 5212-5/00
+  - 3329-5/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

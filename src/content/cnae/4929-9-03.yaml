@@ -2,7 +2,7 @@ codigo: 4929-9/03
 codigo_slug: 4929-9-03
 codigo_numerico: '4929903'
 descricao_oficial: ORGANIZAÇÃO DE EXCURSÕES EM VEÍCULOS RODOVIÁRIOS PRÓPRIOS, MUNICIPAL
-descricao_plana: ORGANIZAÇÃO DE EXCURSÕES EM VEÍCULOS RODOVIÁRIOS PRÓPRIOS, MUNICIPAL
+descricao_plana: Organização de excursões em veículos rodoviários próprios, dentro do município, com roteiro e passeio incluídos.
 secao:
   letra: H
   slug: transporte
@@ -32,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Operador de city tour com van própria
+  - Empresa de excursões locais em micro-ônibus
+  - Serviço de passeios turísticos urbanos
+  - Excursões a pontos turísticos do município
+  - Transporte turístico com guia incluído
+o_que_inclui:
+  - Organização e operação de excursões dentro do município
+  - Transporte turístico com roteiro definido em veículo próprio
+  - City tours e passeios a pontos turísticos locais
+  - Venda de pacotes de passeio com transporte incluído
+  - Coordenação de guias e acompanhantes durante o passeio
+o_que_nao_inclui:
+  - Organização de excursões intermunicipais, interestaduais e internacionais (use CNAE 4929-9/04)
+  - Transporte rodoviário coletivo sob fretamento municipal (use CNAE 4929-9/01)
+  - Agências de viagens (use CNAE 7911-2/00)
+  - Operadores turísticos (use CNAE 7912-1/00)
+  - Transporte aquaviário para passeios turísticos (use CNAE 5099-8/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro no Cadastur do Ministério do Turismo
+  - Autorização municipal para transporte turístico
+  - Carteira Nacional de Habilitação categoria D com atividade remunerada
+  - Seguro obrigatório de responsabilidade civil para passageiros
+cnaes_relacionados:
+  - 4929-9/01
+  - 4929-9/02
+  - 7911-2/00
+  - 7912-1/00
+  - 5099-8/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

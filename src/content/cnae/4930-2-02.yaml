@@ -2,7 +2,7 @@ codigo: 4930-2/02
 codigo_slug: 4930-2-02
 codigo_numerico: '4930202'
 descricao_oficial: TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL
-descricao_plana: TRANSPORTE RODOVIÁRIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANÇAS, INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL
+descricao_plana: Transporte rodoviário de carga entre municípios, estados ou países, exceto produtos perigosos e mudanças.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Transportador autônomo de carga com caminhão próprio
+  - Transportadora de cargas intermunicipais
+  - Serviço de entrega de cargas entre estados
+  - Transporte de produtos agrícolas entre regiões
+  - Frete dedicado para indústrias
+o_que_inclui:
+  - Transporte de cargas gerais entre municípios e estados
+  - Frete de mercadorias secas, refrigeradas e paletizadas
+  - Coleta e entrega de cargas em rotas intermunicipais
+  - Transporte com caminhão próprio ou frota
+  - Emissão de conhecimento de transporte das cargas
+o_que_nao_inclui:
+  - Transporte rodoviário de carga municipal (use CNAE 4930-2/01)
+  - Transporte rodoviário de produtos perigosos (use CNAE 4930-2/03)
+  - Transporte rodoviário de mudanças (use CNAE 4930-2/04)
+  - Serviços de entrega rápida e motoboy (use CNAE 5320-2/02)
+  - Distribuição de água por caminhões (use CNAE 3600-6/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro Nacional de Transportadores Rodoviários de Cargas (RNTRC) na ANTT
+  - Carteira Nacional de Habilitação categoria C, D ou E
+  - Vistoria e licenciamento periódico dos veículos
+  - Seguro de responsabilidade civil sobre a carga transportada
+cnaes_relacionados:
+  - 4930-2/01
+  - 4930-2/03
+  - 4930-2/04
+  - 5320-2/02
+  - 5212-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

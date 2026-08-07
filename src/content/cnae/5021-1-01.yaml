@@ -2,7 +2,7 @@ codigo: 5021-1/01
 codigo_slug: 5021-1-01
 codigo_numerico: '5021101'
 descricao_oficial: TRANSPORTE POR NAVEGAÇÃO INTERIOR DE CARGA, MUNICIPAL, EXCETO TRAVESSIA
-descricao_plana: TRANSPORTE POR NAVEGAÇÃO INTERIOR DE CARGA, MUNICIPAL, EXCETO TRAVESSIA
+descricao_plana: Transporte por navegação interior de carga dentro do município, em rios, lagos e canais, exceto travessia.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Transportador fluvial de carga em rio local
+  - Operador de balsa de carga municipal
+  - Transporte de mercadorias em embarcação fluvial
+  - Serviço de chata para areia e materiais
+  - Transporte fluvial de produtos regionais
+o_que_inclui:
+  - Transporte de cargas em rios, lagos e canais do município
+  - Operação de balsas, chatas e embarcações de carga fluvial
+  - Movimentação de granéis, materiais de construção e mercadorias
+  - Carregamento e descarga nas margens e portos fluviais
+  - Navegação interior sem função de travessia
+o_que_nao_inclui:
+  - Transporte por navegação interior de carga intermunicipal (use CNAE 5021-1/02)
+  - Transporte por navegação de travessia, municipal (use CNAE 5091-2/01)
+  - Transporte marítimo de cabotagem de carga (use CNAE 5011-4/01)
+  - Transporte aquaviário para passeios turísticos (use CNAE 5099-8/01)
+  - Transporte por navegação interior de passageiros (use CNAE 5022-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização da ANTAQ para navegação interior
+  - Registro das embarcações na Marinha do Brasil
+  - Habilitação de aquaviário para a tripulação
+  - Licença ambiental para operação em corpos d'água
+cnaes_relacionados:
+  - 5011-4/01
+  - 5091-2/01
+  - 5099-8/01
+  - 5099-8/99
+  - 5212-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

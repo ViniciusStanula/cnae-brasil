@@ -2,7 +2,7 @@ codigo: 5099-8/99
 codigo_slug: 5099-8-99
 codigo_numerico: '5099899'
 descricao_oficial: OUTROS TRANSPORTES AQUAVIÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: OUTROS TRANSPORTES AQUAVIÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Outros transportes aquaviários sem código próprio, como rebocadores, apoio marítimo e transportes especiais.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Operador de rebocador portuário
+  - Serviço de apoio marítimo a plataformas
+  - Transporte aquaviário especial sob contrato
+  - Empresa de lanchas de apoio a embarcações
+  - Serviço de transporte de tripulação por via aquática
+o_que_inclui:
+  - Operação de rebocadores e empurradores
+  - Serviços de apoio marítimo e portuário por embarcação
+  - Transporte de tripulações e suprimentos para embarcações
+  - Transportes aquaviários sem enquadramento em código próprio
+  - Operação de embarcações de serviço especial
+o_que_nao_inclui:
+  - Transporte aquaviário para passeios turísticos (use CNAE 5099-8/01)
+  - Transporte marítimo de cabotagem de carga (use CNAE 5011-4/01)
+  - Transporte por navegação de travessia, municipal (use CNAE 5091-2/01)
+  - Atividades auxiliares dos transportes aquaviários (use CNAE 5231-1/02)
+  - Manutenção e reparação de embarcações e estruturas flutuantes (use CNAE 3317-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização da ANTAQ para a atividade aquaviária
+  - Registro das embarcações na Marinha do Brasil
+  - Habilitação de aquaviário para a tripulação
+  - Licença ambiental para operação em corpos d'água
+cnaes_relacionados:
+  - 5099-8/01
+  - 5011-4/01
+  - 5091-2/01
+  - 5231-1/02
+  - 3317-1/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

@@ -2,7 +2,7 @@ codigo: 4930-2/04
 codigo_slug: 4930-2-04
 codigo_numerico: '4930204'
 descricao_oficial: TRANSPORTE RODOVIÁRIO DE MUDANÇAS
-descricao_plana: TRANSPORTE RODOVIÁRIO DE MUDANÇAS
+descricao_plana: Transporte rodoviário de mudanças, com transporte de móveis e bens residenciais ou comerciais.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de mudanças residenciais
+  - Transportador de mudanças com caminhão baú
+  - Serviço de mudança comercial e de escritório
+  - Empresa de mudanças com embalagem incluída
+  - Frete de mudanças intermunicipais
+o_que_inclui:
+  - Transporte de móveis e bens em mudanças residenciais
+  - Mudanças comerciais, de escritórios e consultórios
+  - Embalagem, carregamento e descarregamento dos bens
+  - Desmontagem e montagem de móveis como serviço acessório
+  - Mudanças municipais, intermunicipais e interestaduais
+o_que_nao_inclui:
+  - Transporte rodoviário de carga, exceto mudanças, intermunicipal (use CNAE 4930-2/02)
+  - Guarda-móveis (use CNAE 5211-7/02)
+  - Serviços de montagem de móveis de qualquer material (use CNAE 3329-5/01)
+  - Carga e descarga (use CNAE 5212-5/00)
+  - Serviços de entrega rápida (use CNAE 5320-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro Nacional de Transportadores Rodoviários de Cargas (RNTRC) na ANTT
+  - Carteira Nacional de Habilitação categoria C, D ou E
+  - Seguro de responsabilidade civil sobre os bens transportados
+  - Autorização municipal para carga e descarga em via pública
+cnaes_relacionados:
+  - 4930-2/02
+  - 5211-7/02
+  - 3329-5/01
+  - 5212-5/00
+  - 5320-2/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

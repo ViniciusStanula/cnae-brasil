@@ -2,7 +2,7 @@ codigo: 5091-2/02
 codigo_slug: 5091-2-02
 codigo_numerico: '5091202'
 descricao_oficial: TRANSPORTE POR NAVEGAÇÃO DE TRAVESSIA INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL
-descricao_plana: TRANSPORTE POR NAVEGAÇÃO DE TRAVESSIA INTERMUNICIPAL, INTERESTADUAL E INTERNACIONAL
+descricao_plana: Transporte por navegação de travessia entre municípios, estados ou países, ligando margens em linha regular.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Operador de ferry-boat entre municípios
+  - Travessia de balsa entre estados
+  - Serviço de travessia intermunicipal de veículos
+  - Balsa de travessia em divisa estadual
+  - Travessia internacional em rio de fronteira
+o_que_inclui:
+  - Travessia de passageiros e veículos entre municípios e estados
+  - Operação de ferry-boats e balsas em linha regular
+  - Travessia internacional em rios de fronteira, quando autorizada
+  - Embarque e desembarque em terminais de travessia
+  - Venda de passagens e controle de embarque
+o_que_nao_inclui:
+  - Transporte por navegação de travessia, municipal (use CNAE 5091-2/01)
+  - Transporte por navegação interior de carga, municipal (use CNAE 5021-1/01)
+  - Transporte aquaviário para passeios turísticos (use CNAE 5099-8/01)
+  - Transporte marítimo de cabotagem de carga (use CNAE 5011-4/01)
+  - Outros transportes aquaviários não especificados (use CNAE 5099-8/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização da ANTAQ para travessia intermunicipal e interestadual
+  - Registro das embarcações na Marinha do Brasil
+  - Habilitação de aquaviário para a tripulação
+  - Certificados de segurança e lotação máxima das embarcações
+cnaes_relacionados:
+  - 5091-2/01
+  - 5021-1/01
+  - 5099-8/01
+  - 5011-4/01
+  - 5099-8/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

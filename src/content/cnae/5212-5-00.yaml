@@ -2,7 +2,7 @@ codigo: 5212-5/00
 codigo_slug: 5212-5-00
 codigo_numerico: '5212500'
 descricao_oficial: CARGA E DESCARGA
-descricao_plana: CARGA E DESCARGA
+descricao_plana: Carga e descarga, com serviços de movimentação de mercadorias em veículos, depósitos e terminais.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Equipe de carga e descarga para transportadoras
+  - Prestador de serviço de chapa em terminais
+  - Empresa de movimentação de cargas em depósitos
+  - Serviço de descarga de caminhões em obras
+  - Equipe de estiva contratada por distribuidoras
+o_que_inclui:
+  - Carregamento e descarregamento de caminhões e contêineres
+  - Movimentação manual e mecanizada de mercadorias
+  - Paletização, amarração e estivagem de cargas
+  - Serviço prestado em depósitos, terminais e canteiros
+  - Operação de empilhadeiras e equipamentos de movimentação
+o_que_nao_inclui:
+  - Transporte rodoviário de carga, exceto perigosos e mudanças (use CNAE 4930-2/02)
+  - Transporte rodoviário de mudanças (use CNAE 4930-2/04)
+  - Guarda-móveis (use CNAE 5211-7/02)
+  - Operações de terminais aquaviários (use CNAE 5231-1/02)
+  - Serviços de operação e fornecimento de equipamentos de elevação para obras (use CNAE 4399-1/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Programa de controle de riscos ocupacionais e NR-11 para movimentação de cargas
+  - Habilitação e treinamento dos operadores de empilhadeira
+  - Seguro de responsabilidade civil sobre a carga movimentada
+  - Certificado de Vistoria do Corpo de Bombeiros, quando houver instalação
+cnaes_relacionados:
+  - 4930-2/02
+  - 4930-2/04
+  - 5211-7/02
+  - 5231-1/02
+  - 4399-1/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

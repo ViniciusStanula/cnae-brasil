@@ -2,7 +2,7 @@ codigo: 4923-0/01
 codigo_slug: 4923-0-01
 codigo_numerico: '4923001'
 descricao_oficial: SERVIÇO DE TÁXI
-descricao_plana: SERVIÇO DE TÁXI
+descricao_plana: Serviço de táxi, com transporte individual remunerado de passageiros em veículo licenciado pelo município.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Taxista autônomo com permissão municipal
+  - Motorista de táxi em ponto credenciado
+  - Serviço de táxi por aplicativo com licença
+  - Táxi executivo com atendimento agendado
+  - Taxista com atendimento a aeroportos
+o_que_inclui:
+  - Transporte individual remunerado de passageiros em táxi
+  - Atendimento em ponto, por rádio ou por aplicativo
+  - Corridas urbanas, intermunicipais e para aeroportos
+  - Transporte de bagagens do passageiro durante a corrida
+  - Operação com veículo licenciado e taxímetro
+o_que_nao_inclui:
+  - Transporte escolar (use CNAE 4924-8/00)
+  - Transporte rodoviário coletivo de passageiros sob fretamento municipal (use CNAE 4929-9/01)
+  - Transporte rodoviário de carga (use CNAE 4930-2/02)
+  - Aluguel de automóveis sem condutor (use CNAE 7711-0/00)
+  - Serviço de transporte de passageiros por aplicativo sem licença de táxi (use CNAE 4929-9/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Permissão ou alvará municipal de táxi
+  - Carteira Nacional de Habilitação com exercício de atividade remunerada
+  - Curso de transporte de passageiros exigido pelo Detran
+  - Vistoria periódica do veículo e aferição do taxímetro
+cnaes_relacionados:
+  - 4924-8/00
+  - 4929-9/01
+  - 4929-9/03
+  - 7711-0/00
+  - 4930-2/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

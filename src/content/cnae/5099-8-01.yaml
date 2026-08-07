@@ -2,7 +2,7 @@ codigo: 5099-8/01
 codigo_slug: 5099-8-01
 codigo_numerico: '5099801'
 descricao_oficial: TRANSPORTE AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS
-descricao_plana: TRANSPORTE AQUAVIÁRIO PARA PASSEIOS TURÍSTICOS
+descricao_plana: Transporte aquaviário para passeios turísticos, como escunas, lanchas de passeio e barcos de turismo.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Operador de escuna para passeios em baía
+  - Passeio de lancha em represa ou litoral
+  - Barco turístico para observação de golfinhos
+  - Passeio de catamarã com roteiro definido
+  - Serviço de barco para mergulho e turismo náutico
+o_que_inclui:
+  - Passeios turísticos em escunas, lanchas e catamarãs
+  - Roteiros náuticos com paradas para banho e contemplação
+  - Passeios para observação de fauna marinha
+  - Transporte náutico para mergulho e turismo de aventura
+  - Venda de passeios avulsos ou em pacote
+o_que_nao_inclui:
+  - Transporte por navegação de travessia, municipal (use CNAE 5091-2/01)
+  - Outros transportes aquaviários não especificados (use CNAE 5099-8/99)
+  - Transporte por navegação interior de carga, municipal (use CNAE 5021-1/01)
+  - Organização de excursões em veículos rodoviários próprios (use CNAE 4929-9/03)
+  - Aluguel de embarcações sem tripulação (use CNAE 7719-5/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro no Cadastur do Ministério do Turismo
+  - Registro das embarcações na Marinha do Brasil
+  - Habilitação de aquaviário para a tripulação
+  - Certificados de segurança, lotação e equipamentos salva-vidas
+cnaes_relacionados:
+  - 5099-8/99
+  - 5091-2/01
+  - 4929-9/03
+  - 5021-1/01
+  - 5231-1/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'

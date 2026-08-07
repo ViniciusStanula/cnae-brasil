@@ -2,7 +2,7 @@ codigo: 4929-9/01
 codigo_slug: 4929-9-01
 codigo_numerico: '4929901'
 descricao_oficial: TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, MUNICIPAL
-descricao_plana: TRANSPORTE RODOVIÁRIO COLETIVO DE PASSAGEIROS, SOB REGIME DE FRETAMENTO, MUNICIPAL
+descricao_plana: Transporte rodoviário coletivo de passageiros sob regime de fretamento, dentro dos limites do município.
 secao:
   letra: H
   slug: transporte
@@ -32,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fretamento de van para empresas no município
+  - Transporte de funcionários entre bairros
+  - Fretamento de micro-ônibus para eventos locais
+  - Serviço de transporte contratado por condomínios
+  - Fretamento urbano para clínicas e academias
+o_que_inclui:
+  - Transporte coletivo contratado por empresa ou grupo, no município
+  - Fretamento de vans, micro-ônibus e ônibus
+  - Transporte de funcionários entre residência e trabalho
+  - Fretamento eventual para eventos e atividades locais
+  - Operação com contrato de fretamento e lista de passageiros
+o_que_nao_inclui:
+  - Fretamento intermunicipal, interestadual e internacional (use CNAE 4929-9/02)
+  - Organização de excursões em veículos rodoviários próprios, municipal (use CNAE 4929-9/03)
+  - Transporte escolar (use CNAE 4924-8/00)
+  - Serviço de táxi (use CNAE 4923-0/01)
+  - Transporte rodoviário coletivo urbano regular (use CNAE 4921-3/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização municipal para transporte de passageiros por fretamento
+  - Carteira Nacional de Habilitação categoria D com atividade remunerada
+  - Vistoria periódica dos veículos
+  - Seguro obrigatório de responsabilidade civil para passageiros
+cnaes_relacionados:
+  - 4929-9/02
+  - 4929-9/03
+  - 4924-8/00
+  - 4923-0/01
+  - 4921-3/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:26:47.239Z'
