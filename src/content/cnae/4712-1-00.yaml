@@ -4,9 +4,7 @@ codigo_numerico: '4712100'
 descricao_oficial: >-
   COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - MINIMERCADOS, MERCEARIAS E
   ARMAZÉNS
-descricao_plana: >-
-  COMÉRCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINÂNCIA DE PRODUTOS ALIMENTÍCIOS - MINIMERCADOS, MERCEARIAS E
-  ARMAZÉNS
+descricao_plana: Comércio varejista de mercadorias em geral com predominância de alimentos, como minimercados, mercearias e armazéns.
 secao:
   letra: G
   slug: comercio
@@ -36,11 +34,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Minimercado de bairro
+  - Mercearia com entrega em domicílio
+  - Armazém de secos e molhados
+  - Mercadinho de conveniência em condomínio
+  - Empório com produtos alimentícios variados
+o_que_inclui:
+  - Venda de alimentos, bebidas e produtos de mercearia
+  - Comércio de produtos de limpeza e higiene como itens complementares
+  - Venda de hortifrúti, frios e laticínios em pequena escala
+  - Atendimento ao consumidor final em loja de pequeno porte
+  - Entrega em domicílio dos produtos vendidos
+o_que_nao_inclui:
+  - Comércio varejista de mercadorias em geral com predominância de alimentos em supermercados (use CNAE 4711-3/02)
+  - Lojas de variedades, exceto lojas de departamentos (use CNAE 4713-0/02)
+  - Comércio varejista de hortifrutigranjeiros (use CNAE 4724-5/00)
+  - Comércio varejista de laticínios e frios (use CNAE 4721-1/03)
+  - Comércio varejista de bebidas (use CNAE 4723-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação para a equipe, quando houver manipulação
+cnaes_relacionados:
+  - 4713-0/02
+  - 4724-5/00
+  - 4721-1/03
+  - 4723-7/00
+  - 4729-6/99
+  - 4721-1/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

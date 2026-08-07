@@ -2,7 +2,7 @@ codigo: 4724-5/00
 codigo_slug: 4724-5-00
 codigo_numerico: '4724500'
 descricao_oficial: COMÉRCIO VAREJISTA DE HORTIFRUTIGRANJEIROS
-descricao_plana: COMÉRCIO VAREJISTA DE HORTIFRUTIGRANJEIROS
+descricao_plana: Comércio varejista de hortifrutigranjeiros, como frutas, verduras, legumes e ovos.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Quitanda de bairro
+  - Barraca de hortifrúti em feira livre
+  - Loja de frutas e verduras selecionadas
+  - Comércio de cestas de hortifrúti por assinatura
+  - Sacolão com venda ao consumidor
+o_que_inclui:
+  - Venda de frutas, verduras, legumes e raízes
+  - Comércio de ovos, temperos frescos e ervas
+  - Higienização, seleção e embalagem no ponto de venda
+  - Montagem e entrega de cestas de hortifrúti
+  - Comércio em loja, feira livre ou por assinatura
+o_que_nao_inclui:
+  - Horticultura, exceto morango, com produção própria (use CNAE 0121-1/01)
+  - Comércio varejista de mercadorias em geral com predominância de alimentos (use CNAE 4712-1/00)
+  - Comércio atacadista de hortifrutigranjeiros (use CNAE 4633-8/01)
+  - Comércio varejista de produtos alimentícios em geral sem código próprio (use CNAE 4729-6/99)
+  - Fabricação de conservas de frutas (use CNAE 1031-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Autorização municipal para banca em feira livre, quando aplicável
+  - Curso de boas práticas de manipulação, quando houver fracionamento
+cnaes_relacionados:
+  - 0121-1/01
+  - 4712-1/00
+  - 4729-6/99
+  - 4633-8/01
+  - 1031-7/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

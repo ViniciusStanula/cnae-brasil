@@ -2,7 +2,7 @@ codigo: 4723-7/00
 codigo_slug: 4723-7-00
 codigo_numerico: '4723700'
 descricao_oficial: COMÉRCIO VAREJISTA DE BEBIDAS
-descricao_plana: COMÉRCIO VAREJISTA DE BEBIDAS
+descricao_plana: Comércio varejista de bebidas, alcoólicas e não alcoólicas, para consumo fora do estabelecimento.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Distribuidora de bebidas com venda ao consumidor
+  - Adega de vinhos e destilados
+  - Depósito de bebidas de bairro
+  - Loja de cervejas artesanais
+  - Comércio online de bebidas
+o_que_inclui:
+  - Venda de cervejas, vinhos, destilados e bebidas alcoólicas
+  - Comércio de refrigerantes, sucos e águas envasadas
+  - Venda em embalagens fechadas para consumo fora do local
+  - Entrega em domicílio das bebidas vendidas
+  - Comércio em loja física ou pela internet
+o_que_nao_inclui:
+  - Bares e outros estabelecimentos com consumo no local (use CNAE 5611-2/05)
+  - Fabricação de cervejas e chopes (use CNAE 1113-5/02)
+  - Comércio atacadista de bebidas (use CNAE 4635-4/99)
+  - Comércio varejista de mercadorias em geral com predominância de alimentos (use CNAE 4712-1/00)
+  - Fabricação de águas envasadas (use CNAE 1121-6/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Autorização municipal para venda de bebidas alcoólicas, quando exigida
+cnaes_relacionados:
+  - 4712-1/00
+  - 1113-5/02
+  - 4635-4/99
+  - 1121-6/00
+  - 4729-6/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

@@ -2,7 +2,7 @@ codigo: 4729-6/01
 codigo_slug: 4729-6-01
 codigo_numerico: '4729601'
 descricao_oficial: TABACARIA
-descricao_plana: TABACARIA
+descricao_plana: Tabacaria, com comércio varejista de cigarros, charutos, fumo e artigos para fumantes.
 secao:
   letra: G
   slug: comercio
@@ -32,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Tabacaria com charutos e cigarrilhas
+  - Loja de narguilé e acessórios
+  - Quiosque de tabacaria em shopping
+  - Tabacaria com fumo para cachimbo
+  - Loja de isqueiros e artigos para fumantes
+o_que_inclui:
+  - Venda de cigarros, charutos, cigarrilhas e fumo
+  - Comércio de narguilé, essências e acessórios
+  - Venda de isqueiros, piteiras, cachimbos e cinzeiros
+  - Comércio de artigos para fumantes em geral
+  - Atendimento ao consumidor final em loja ou quiosque
+o_que_nao_inclui:
+  - Fabricação de cigarros (use CNAE 1220-4/01)
+  - Fabricação de outros produtos do fumo (use CNAE 1220-4/99)
+  - Comércio atacadista de cigarros e fumo (use CNAE 4636-2/02)
+  - Comércio varejista de produtos alimentícios sem código próprio (use CNAE 4729-6/99)
+  - Bares e estabelecimentos com consumo no local (use CNAE 5611-2/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Cumprimento das restrições legais de venda a menores
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária, quando exigida pelo município
+cnaes_relacionados:
+  - 1220-4/01
+  - 1220-4/99
+  - 4729-6/99
+  - 4636-2/02
+  - 4712-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

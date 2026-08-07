@@ -2,7 +2,7 @@ codigo: 4721-1/03
 codigo_slug: 4721-1-03
 codigo_numerico: '4721103'
 descricao_oficial: COMÉRCIO VAREJISTA DE LATICÍNIOS E FRIOS
-descricao_plana: COMÉRCIO VAREJISTA DE LATICÍNIOS E FRIOS
+descricao_plana: Comércio varejista de laticínios e frios, como queijos, iogurtes, embutidos e frios fatiados.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de queijos e frios
+  - Casa de laticínios com fatiamento no balcão
+  - Empório de queijos artesanais
+  - Comércio de frios e embutidos em feira
+  - Loja online de queijos e laticínios
+o_que_inclui:
+  - Venda de queijos, iogurtes, manteiga e requeijão
+  - Comércio de frios, presunto, salame e embutidos
+  - Fatiamento e porcionamento no ponto de venda
+  - Venda de leite, creme de leite e derivados
+  - Comércio em loja física, feira ou pela internet
+o_que_nao_inclui:
+  - Fabricação de laticínios (use CNAE 1052-0/00)
+  - Comércio varejista de carnes em açougue (use CNAE 4722-9/01)
+  - Comércio varejista de mercadorias em geral com predominância de alimentos (use CNAE 4712-1/00)
+  - Padaria e confeitaria com predominância de revenda (use CNAE 4721-1/02)
+  - Comércio atacadista de laticínios (use CNAE 4637-1/06)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+cnaes_relacionados:
+  - 1052-0/00
+  - 4722-9/01
+  - 4712-1/00
+  - 4721-1/02
+  - 4729-6/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

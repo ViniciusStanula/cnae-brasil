@@ -5,8 +5,8 @@ descricao_oficial: >-
   COMÉRCIO VAREJISTA DE PRODUTOS ALIMENTÍCIOS EM GERAL OU ESPECIALIZADO EM PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS
   ANTERIORMENTE
 descricao_plana: >-
-  COMÉRCIO VAREJISTA DE PRODUTOS ALIMENTÍCIOS EM GERAL OU ESPECIALIZADO EM PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS
-  ANTERIORMENTE
+  Comércio varejista de produtos alimentícios em geral ou especializado sem código próprio, como casas de produtos
+  naturais e empórios.
 secao:
   letra: G
   slug: comercio
@@ -36,11 +36,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de produtos naturais e a granel
+  - Empório de produtos regionais
+  - Loja de suplementos e alimentos funcionais
+  - Comércio de temperos e especiarias a granel
+  - Loja de castanhas, grãos e cereais
+o_que_inclui:
+  - Venda de produtos naturais, integrais e a granel
+  - Comércio de castanhas, grãos, cereais e farinhas
+  - Venda de temperos, especiarias e chás
+  - Comércio de alimentos regionais e artesanais
+  - Produtos alimentícios sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Comércio varejista de mercadorias em geral com predominância de alimentos (use CNAE 4712-1/00)
+  - Comércio varejista de hortifrutigranjeiros (use CNAE 4724-5/00)
+  - Comércio varejista de laticínios e frios (use CNAE 4721-1/03)
+  - Comércio varejista de doces, balas e bombons (use CNAE 4721-1/04)
+  - Comércio varejista de bebidas (use CNAE 4723-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Curso de boas práticas de manipulação para venda a granel
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 4712-1/00
+  - 4724-5/00
+  - 4721-1/03
+  - 4721-1/04
+  - 4723-7/00
+  - 1099-6/07
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

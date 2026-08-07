@@ -2,7 +2,7 @@ codigo: 4721-1/02
 codigo_slug: 4721-1-02
 codigo_numerico: '4721102'
 descricao_oficial: PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE REVENDA
-descricao_plana: PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE REVENDA
+descricao_plana: Padaria e confeitaria com predominância de revenda, em que a maior parte dos produtos vendidos é comprada pronta.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Padaria que revende pães de fábrica
+  - Ponto de venda de produtos de panificação
+  - Padaria de conveniência em posto ou mercado
+  - Confeitaria que revende bolos prontos
+  - Depósito de pães com venda ao consumidor
+o_que_inclui:
+  - Revenda de pães, bolos e produtos de panificação comprados prontos
+  - Venda de salgados, doces e lanches adquiridos de terceiros
+  - Comércio de frios, laticínios e bebidas como itens complementares
+  - Finalização de produtos pré-assados no ponto de venda
+  - Atendimento direto ao consumidor final
+o_que_nao_inclui:
+  - Padaria e confeitaria com predominância de produção própria (use CNAE 1091-1/02)
+  - Fabricação de produtos de panificação industrial (use CNAE 1091-1/01)
+  - Comércio varejista de doces, balas e bombons (use CNAE 4721-1/04)
+  - Comércio varejista de laticínios e frios (use CNAE 4721-1/03)
+  - Lanchonetes, casas de chá e sucos (use CNAE 5611-2/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+cnaes_relacionados:
+  - 1091-1/02
+  - 1091-1/01
+  - 4721-1/04
+  - 4721-1/03
+  - 4712-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

@@ -2,7 +2,7 @@ codigo: 4722-9/01
 codigo_slug: 4722-9-01
 codigo_numerico: '4722901'
 descricao_oficial: COMÉRCIO VAREJISTA DE CARNES - AÇOUGUES
-descricao_plana: COMÉRCIO VAREJISTA DE CARNES - AÇOUGUES
+descricao_plana: Comércio varejista de carnes em açougue, incluindo corte, porcionamento e venda de carnes frescas e resfriadas.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Açougue de bairro
+  - Casa de carnes com cortes especiais
+  - Açougue com atendimento e entrega
+  - Boutique de carnes premium
+  - Açougue com preparo de espetinhos e temperados
+o_que_inclui:
+  - Venda de carne bovina, suína, de aves e miúdos
+  - Corte, desossa e porcionamento no ponto de venda
+  - Preparo de carnes temperadas, espetinhos e hambúrgueres para venda imediata
+  - Comércio de embutidos e frios como itens complementares
+  - Atendimento ao consumidor final e entrega em domicílio
+o_que_nao_inclui:
+  - Peixaria, com venda de pescados (use CNAE 4722-9/02)
+  - Fabricação de produtos de carne, como embutidos (use CNAE 1013-9/01)
+  - Abate de bovinos em frigorífico (use CNAE 1011-2/01)
+  - Comércio atacadista de carnes bovinas e suínas (use CNAE 4634-6/01)
+  - Comércio varejista de laticínios e frios (use CNAE 4721-1/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+cnaes_relacionados:
+  - 4722-9/02
+  - 1013-9/01
+  - 4634-6/01
+  - 4721-1/03
+  - 4712-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

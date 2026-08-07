@@ -2,7 +2,7 @@ codigo: 4732-6/00
 codigo_slug: 4732-6-00
 codigo_numerico: '4732600'
 descricao_oficial: COMÉRCIO VAREJISTA DE LUBRIFICANTES
-descricao_plana: COMÉRCIO VAREJISTA DE LUBRIFICANTES
+descricao_plana: Comércio varejista de lubrificantes, como óleos de motor, fluidos e aditivos, sem serviço de troca associado.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de óleos lubrificantes automotivos
+  - Comércio de lubrificantes industriais no varejo
+  - Revenda de aditivos e fluidos para veículos
+  - Loja online de óleos e lubrificantes
+  - Comércio de graxas e óleos para máquinas
+o_que_inclui:
+  - Venda de óleos lubrificantes para motor, câmbio e transmissão
+  - Comércio de graxas, aditivos e fluidos de freio e arrefecimento
+  - Venda de lubrificantes industriais e agrícolas
+  - Comércio em loja física ou pela internet
+  - Recebimento de óleo usado para logística reversa
+o_que_nao_inclui:
+  - Serviços de lavagem, lubrificação e polimento de veículos (use CNAE 4520-0/05)
+  - Comércio varejista de combustíveis para veículos automotores (use CNAE 4731-8/00)
+  - Comércio a varejo de peças e acessórios novos para veículos (use CNAE 4530-7/03)
+  - Comércio atacadista de lubrificantes (use CNAE 4681-8/05)
+  - Serviços de manutenção e reparação mecânica de veículos (use CNAE 4520-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Licença ambiental para armazenamento de lubrificantes
+  - Cadastro no sistema de logística reversa de óleo usado
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 4520-0/05
+  - 4731-8/00
+  - 4530-7/03
+  - 4520-0/01
+  - 4681-8/05
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

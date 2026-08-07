@@ -2,7 +2,7 @@ codigo: 4722-9/02
 codigo_slug: 4722-9-02
 codigo_numerico: '4722902'
 descricao_oficial: PEIXARIA
-descricao_plana: PEIXARIA
+descricao_plana: Peixaria, com comércio varejista de pescados e frutos do mar frescos, resfriados ou congelados.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Peixaria de bairro com pescado fresco
+  - Comércio de frutos do mar em mercado municipal
+  - Peixaria com entrega em domicílio
+  - Loja de pescados congelados
+  - Peixaria com limpeza e filetagem no local
+o_que_inclui:
+  - Venda de peixes frescos, resfriados e congelados
+  - Comércio de camarões, moluscos e frutos do mar
+  - Limpeza, evisceração e filetagem no ponto de venda
+  - Conservação em gelo e câmara fria
+  - Atendimento ao consumidor final e entrega em domicílio
+o_que_nao_inclui:
+  - Comércio varejista de carnes em açougue (use CNAE 4722-9/01)
+  - Preservação de peixes, crustáceos e moluscos (use CNAE 1020-1/01)
+  - Fabricação de conservas de peixes e frutos do mar (use CNAE 1020-1/02)
+  - Pesca de peixes em água salgada (use CNAE 0311-6/01)
+  - Criação de peixes em água doce (use CNAE 0322-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Inscrição estadual para circulação de mercadorias
+  - Registro no órgão de defesa agropecuária para produtos de origem animal
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+cnaes_relacionados:
+  - 4722-9/01
+  - 1020-1/01
+  - 1020-1/02
+  - 0311-6/01
+  - 0322-1/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

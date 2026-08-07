@@ -2,7 +2,7 @@ codigo: 4541-2/07
 codigo_slug: 4541-2-07
 codigo_numerico: '4541207'
 descricao_oficial: COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS USADOS PARA MOTOCICLETAS E MOTONETAS
-descricao_plana: COMÉRCIO A VAREJO DE PEÇAS E ACESSÓRIOS USADOS PARA MOTOCICLETAS E MOTONETAS
+descricao_plana: Comércio a varejo de peças e acessórios usados para motocicletas e motonetas, incluindo peças recuperadas.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de peças usadas para motos
+  - Desmanche legalizado de motocicletas
+  - Comércio de peças recuperadas para modelos antigos
+  - Loja online de peças usadas para motos
+  - Revenda de carenagens e peças de segunda mão
+o_que_inclui:
+  - Venda a varejo de peças usadas e recuperadas para motos
+  - Comércio de componentes retirados de motocicletas desmontadas
+  - Venda de peças de reposição para modelos fora de linha
+  - Classificação, teste e garantia das peças vendidas
+  - Comércio em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio a varejo de peças e acessórios novos para motocicletas (use CNAE 4541-2/06)
+  - Comércio a varejo de peças e acessórios usados para veículos automotores (use CNAE 4530-7/04)
+  - Manutenção e reparação de motocicletas e motonetas (use CNAE 4543-9/00)
+  - Recuperação de materiais metálicos, exceto alumínio (use CNAE 3831-9/99)
+  - Comércio a varejo de motocicletas e motonetas usadas (use CNAE 4541-2/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Registro no Detran para atividade de desmontagem, quando aplicável
+  - Licença ambiental para armazenamento de peças e fluidos
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 4541-2/06
+  - 4541-2/04
+  - 4543-9/00
+  - 4530-7/04
+  - 3831-9/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'

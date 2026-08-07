@@ -2,7 +2,7 @@ codigo: 4713-0/02
 codigo_slug: 4713-0-02
 codigo_numerico: '4713002'
 descricao_oficial: LOJAS DE VARIEDADES, EXCETO LOJAS DE DEPARTAMENTOS OU MAGAZINES
-descricao_plana: LOJAS DE VARIEDADES, EXCETO LOJAS DE DEPARTAMENTOS OU MAGAZINES
+descricao_plana: Lojas de variedades, com venda de mercadorias diversas de baixo valor unitário, exceto lojas de departamentos.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de utilidades domésticas e variedades
+  - Loja de artigos de R$ 1,99
+  - Bazar com produtos variados
+  - Loja de presentes e utilidades
+  - Comércio de variedades em galeria
+o_que_inclui:
+  - Venda de utilidades domésticas, papelaria e bazar
+  - Comércio de artigos de presente, decoração e organização
+  - Venda de mercadorias variadas de baixo valor unitário
+  - Comércio de itens de higiene, brinquedos e acessórios
+  - Atendimento ao consumidor final em loja de pequeno porte
+o_que_nao_inclui:
+  - Comércio varejista de mercadorias em geral com predominância de alimentos (use CNAE 4712-1/00)
+  - Lojas de departamentos ou magazines (use CNAE 4713-0/04)
+  - Comércio varejista de suvenires, bijuterias e artesanato (use CNAE 4789-0/01)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+  - Comércio varejista de brinquedos e artigos recreativos (use CNAE 4763-6/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação Inmetro para produtos que a exijam
+  - Licença da vigilância sanitária, quando comercializar itens de higiene
+cnaes_relacionados:
+  - 4712-1/00
+  - 4789-0/01
+  - 4761-0/03
+  - 4763-6/01
+  - 4729-6/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:16:56.626Z'
