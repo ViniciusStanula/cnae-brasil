@@ -2,7 +2,9 @@ codigo: 2319-2/00
 codigo_slug: 2319-2-00
 codigo_numerico: '2319200'
 descricao_oficial: FABRICAÇÃO DE ARTIGOS DE VIDRO
-descricao_plana: FABRICAÇÃO DE ARTIGOS DE VIDRO
+descricao_plana: >-
+  Fabricação de artigos de vidro, como copos, potes, vidrarias técnicas e peças decorativas, exceto vidro plano e
+  embalagens.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de copos e taças de vidro
+  - Produtor de vidraria para laboratório
+  - Ateliê de peças decorativas em vidro soprado
+  - Fabricante de luminárias e cúpulas de vidro
+  - Produtor de vidros para relógios e instrumentos
+o_que_inclui:
+  - Fabricação de copos, taças, potes e utensílios de vidro
+  - Produção de vidraria técnica e de laboratório
+  - Fabricação de peças decorativas em vidro soprado ou moldado
+  - Produção de componentes de vidro para luminárias e aparelhos
+  - Fusão, sopro, moldagem e recozimento do vidro
+o_que_nao_inclui:
+  - Fabricação de vidro plano e de segurança (use CNAE 2311-7/00)
+  - Fabricação de embalagens de vidro (use CNAE 2312-5/00)
+  - Decoração, lapidação e gravação em vidro e cristal (use CNAE 2399-1/01)
+  - Fabricação de material sanitário de cerâmica (use CNAE 2349-4/01)
+  - Serviços de vidraçaria em obras (use CNAE 4330-4/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para emissões atmosféricas dos fornos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária para artigos em contato com alimentos
+  - Programa de controle de riscos ocupacionais pela exposição a calor
+cnaes_relacionados:
+  - 2311-7/00
+  - 2312-5/00
+  - 2399-1/01
+  - 2349-4/99
+  - 2229-3/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

@@ -2,7 +2,9 @@ codigo: 2229-3/99
 codigo_slug: 2229-3-99
 codigo_numerico: '2229399'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE MATERIAL PLÁSTICO PARA OUTROS USOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE MATERIAL PLÁSTICO PARA OUTROS USOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de artefatos de plástico para usos sem código próprio, como peças técnicas, displays, brindes e componentes
+  diversos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de peças plásticas injetadas sob desenho
+  - Produtor de displays e expositores de acrílico
+  - Fabricante de brindes e peças promocionais plásticas
+  - Indústria de componentes plásticos para máquinas
+  - Produtor de placas e letreiros de acrílico
+o_que_inclui:
+  - Injeção, extrusão, sopro e termoformagem de peças plásticas
+  - Fabricação de peças técnicas plásticas sob desenho do cliente
+  - Produção de displays, expositores e placas de acrílico
+  - Fabricação de brindes e artigos promocionais de plástico
+  - Artefatos plásticos sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Fabricação de artefatos plásticos para uso pessoal e doméstico (use CNAE 2229-3/01)
+  - Fabricação de artefatos plásticos para usos industriais (use CNAE 2229-3/02)
+  - Fabricação de artefatos plásticos para construção (use CNAE 2229-3/03)
+  - Fabricação de embalagens de material plástico (use CNAE 2222-6/00)
+  - Fabricação de artefatos de borracha sem código próprio (use CNAE 2219-6/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para emissões e resíduos plásticos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2229-3/01
+  - 2229-3/02
+  - 2229-3/03
+  - 2222-6/00
+  - 2221-8/00
+  - 2219-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

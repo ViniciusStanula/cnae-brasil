@@ -2,7 +2,7 @@ codigo: 2543-8/00
 codigo_slug: 2543-8-00
 codigo_numerico: '2543800'
 descricao_oficial: FABRICAÇÃO DE FERRAMENTAS
-descricao_plana: FABRICAÇÃO DE FERRAMENTAS
+descricao_plana: Fabricação de ferramentas manuais e para máquinas, como chaves, martelos, brocas, fresas e matrizes.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de chaves de fenda e ferramentas manuais
+  - Ferramentaria com produção de matrizes e moldes
+  - Produtor de brocas e fresas para usinagem
+  - Fabricante de martelos, alicates e ferramentas de impacto
+  - Produtor de ferramentas agrícolas, como enxadas e foices
+o_que_inclui:
+  - Fabricação de ferramentas manuais, como chaves, martelos e alicates
+  - Produção de brocas, fresas, machos e ferramentas de corte para máquinas
+  - Fabricação de matrizes, moldes e estampos para terceiros
+  - Produção de ferramentas agrícolas e de jardinagem
+  - Forjamento, têmpera, usinagem e acabamento das ferramentas
+o_que_nao_inclui:
+  - Fabricação de artigos de cutelaria (use CNAE 2541-1/00)
+  - Fabricação de artigos de serralheria, exceto esquadrias (use CNAE 2542-0/00)
+  - Serviços de usinagem, tornearia e solda (use CNAE 2539-0/01)
+  - Fabricação de máquinas-ferramenta (use CNAE 2840-2/00)
+  - Manutenção e reparação de ferramentas usadas (use CNAE 3314-7/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para tratamento térmico e de superfície
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro do produto no Inmetro, quando exigido
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2541-1/00
+  - 2542-0/00
+  - 2539-0/01
+  - 2532-2/01
+  - 2599-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

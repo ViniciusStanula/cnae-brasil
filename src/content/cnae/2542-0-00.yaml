@@ -2,7 +2,7 @@ codigo: 2542-0/00
 codigo_slug: 2542-0-00
 codigo_numerico: '2542000'
 descricao_oficial: FABRICAÇÃO DE ARTIGOS DE SERRALHERIA, EXCETO ESQUADRIAS
-descricao_plana: FABRICAÇÃO DE ARTIGOS DE SERRALHERIA, EXCETO ESQUADRIAS
+descricao_plana: Fabricação de artigos de serralheria que não esquadrias, como fechaduras, dobradiças, cadeados e ferragens.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de fechaduras e cadeados
+  - Produtor de dobradiças e ferragens para móveis
+  - Fabricante de trincos, puxadores e fechos
+  - Produtor de ferragens para construção civil
+  - Serralheria de peças metálicas sob encomenda
+o_que_inclui:
+  - Fabricação de fechaduras, cadeados, trincos e fechos
+  - Produção de dobradiças, corrediças e ferragens para móveis
+  - Fabricação de puxadores, maçanetas e acessórios metálicos
+  - Produção de ferragens para portas, janelas e construção
+  - Estampagem, usinagem, montagem e acabamento das peças
+o_que_nao_inclui:
+  - Fabricação de esquadrias de metal, como portas e janelas (use CNAE 2512-8/00)
+  - Fabricação de artigos de cutelaria (use CNAE 2541-1/00)
+  - Fabricação de ferramentas (use CNAE 2543-8/00)
+  - Fabricação de produtos de trefilados de metal padronizados (use CNAE 2592-6/01)
+  - Serviços de chaveiro e cópia de chaves (use CNAE 9529-1/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para tratamento de superfície e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro do produto no Inmetro, quando exigido
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2512-8/00
+  - 2541-1/00
+  - 2543-8/00
+  - 2592-6/01
+  - 2599-3/99
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

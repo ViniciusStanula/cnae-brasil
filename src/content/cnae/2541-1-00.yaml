@@ -2,7 +2,7 @@ codigo: 2541-1/00
 codigo_slug: 2541-1-00
 codigo_numerico: '2541100'
 descricao_oficial: FABRICAÇÃO DE ARTIGOS DE CUTELARIA
-descricao_plana: FABRICAÇÃO DE ARTIGOS DE CUTELARIA
+descricao_plana: Fabricação de artigos de cutelaria, como facas, tesouras, talheres, navalhas e alicates de manicure.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Cutelaria artesanal de facas sob encomenda
+  - Fábrica de talheres de aço inox
+  - Produtor de tesouras e navalhas profissionais
+  - Fabricante de alicates e ferramentas de manicure
+  - Produtor de facas para uso industrial e açougues
+o_que_inclui:
+  - Fabricação de facas, canivetes e navalhas
+  - Produção de tesouras, alicates de unha e ferramentas de manicure
+  - Fabricação de talheres e utensílios de mesa cortantes
+  - Têmpera, afiação, polimento e montagem de cabos
+  - Fabricação de lâminas para uso doméstico, profissional e industrial
+o_que_nao_inclui:
+  - Fabricação de ferramentas manuais e de corte industrial (use CNAE 2543-8/00)
+  - Fabricação de artigos de metal para uso doméstico e pessoal (use CNAE 2593-4/00)
+  - Fabricação de artigos de serralheria, exceto esquadrias (use CNAE 2542-0/00)
+  - Fabricação de armas de fogo e munições (use CNAE 2550-1/02)
+  - Serviços de afiação de facas e ferramentas usadas (use CNAE 3314-7/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para tratamento de superfície e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro do produto no Inmetro, quando exigido
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2543-8/00
+  - 2593-4/00
+  - 2542-0/00
+  - 2539-0/01
+  - 2539-0/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

@@ -2,7 +2,9 @@ codigo: 2349-4/99
 codigo_slug: 2349-4-99
 codigo_numerico: '2349499'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS CERÂMICOS NÃO REFRATÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE PRODUTOS CERÂMICOS NÃO REFRATÁRIOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de produtos cerâmicos não refratários sem código próprio, como louças, vasos, peças decorativas e
+  utensílios de cerâmica.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ateliê de cerâmica artesanal com peças utilitárias
+  - Fábrica de louça de mesa em cerâmica
+  - Produtor de vasos e cachepôs de cerâmica
+  - Fabricante de peças decorativas em porcelana
+  - Produtor de isoladores e peças técnicas de cerâmica
+o_que_inclui:
+  - Fabricação de louças de mesa, canecas e travessas de cerâmica
+  - Produção de vasos, cachepôs e peças decorativas
+  - Fabricação de peças técnicas e isoladores cerâmicos
+  - Modelagem, torneamento, secagem, queima e esmaltação
+  - Produtos cerâmicos não refratários sem código próprio
+o_que_nao_inclui:
+  - Fabricação de material sanitário de cerâmica (use CNAE 2349-4/01)
+  - Fabricação de azulejos e pisos (use CNAE 2342-7/01)
+  - Fabricação de artefatos de cerâmica para construção (use CNAE 2342-7/02)
+  - Fabricação de produtos cerâmicos refratários (use CNAE 2341-9/00)
+  - Decoração e vitrificação em cerâmica e louça (use CNAE 2399-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para operação de fornos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária para artigos em contato com alimentos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2349-4/01
+  - 2342-7/01
+  - 2342-7/02
+  - 2341-9/00
+  - 2399-1/01
+  - 2319-2/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

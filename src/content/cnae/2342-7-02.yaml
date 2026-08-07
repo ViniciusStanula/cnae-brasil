@@ -2,7 +2,9 @@ codigo: 2342-7/02
 codigo_slug: 2342-7-02
 codigo_numerico: '2342702'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE CERÂMICA E BARRO COZIDO PARA USO NA CONSTRUÇÃO, EXCETO AZULEJOS E PISOS
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE CERÂMICA E BARRO COZIDO PARA USO NA CONSTRUÇÃO, EXCETO AZULEJOS E PISOS
+descricao_plana: >-
+  Fabricação de artefatos de cerâmica e barro cozido para construção, como tijolos, telhas e lajotas, exceto azulejos e
+  pisos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Olaria de tijolos e blocos cerâmicos
+  - Fábrica de telhas de barro cozido
+  - Produtor de lajotas e tijolinhos aparentes
+  - Cerâmica vermelha para construção civil
+  - Produtor de elementos vazados e cobogós de cerâmica
+o_que_inclui:
+  - Fabricação de tijolos maciços, furados e blocos cerâmicos
+  - Produção de telhas de barro cozido de todos os tipos
+  - Fabricação de lajotas, tijolinhos e elementos vazados
+  - Preparação da argila, extrusão, secagem e queima em forno
+  - Classificação, paletização e expedição das peças
+o_que_nao_inclui:
+  - Fabricação de azulejos e pisos cerâmicos (use CNAE 2342-7/01)
+  - Fabricação de produtos cerâmicos refratários (use CNAE 2341-9/00)
+  - Fabricação de material sanitário de cerâmica (use CNAE 2349-4/01)
+  - Fabricação de produtos cerâmicos não refratários sem código próprio (use CNAE 2349-4/99)
+  - Extração de argila e beneficiamento associado (use CNAE 0810-0/07)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para operação de olaria e fornos
+  - Outorga para uso de argila e licença de lavra, quando houver extração
+  - Cadastro Técnico Federal do IBAMA para uso de lenha
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 2342-7/01
+  - 2341-9/00
+  - 2349-4/99
+  - 2330-3/02
+  - 0810-0/07
+  - 2392-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

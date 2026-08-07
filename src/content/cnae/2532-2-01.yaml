@@ -2,7 +2,7 @@ codigo: 2532-2/01
 codigo_slug: 2532-2-01
 codigo_numerico: '2532201'
 descricao_oficial: PRODUÇÃO DE ARTEFATOS ESTAMPADOS DE METAL
-descricao_plana: PRODUÇÃO DE ARTEFATOS ESTAMPADOS DE METAL
+descricao_plana: Produção de artefatos estampados de metal, obtidos por corte, dobra e prensagem de chapas metálicas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estamparia de peças metálicas para indústria
+  - Produtor de chapas estampadas sob desenho
+  - Fabricante de suportes e braçadeiras estampadas
+  - Estamparia de peças para linha branca
+  - Produtor de tampas e componentes metálicos prensados
+o_que_inclui:
+  - Corte, dobra, repuxo e prensagem de chapas metálicas
+  - Produção de peças estampadas sob desenho do cliente
+  - Fabricação de suportes, braçadeiras, tampas e carcaças
+  - Confecção e manutenção de estampos e matrizes de uso próprio
+  - Rebarbação e acabamento das peças estampadas
+o_que_nao_inclui:
+  - Produção de forjados de aço (use CNAE 2531-4/01)
+  - Metalurgia do pó (use CNAE 2532-2/02)
+  - Serviços de usinagem, tornearia e solda (use CNAE 2539-0/01)
+  - Serviço de corte e dobra de metais prestado a terceiros (use CNAE 2599-3/02)
+  - Fabricação de embalagens metálicas (use CNAE 2591-8/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para descarte de óleos e resíduos metálicos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de ruído e riscos ocupacionais
+  - Laudo de segurança das prensas conforme NR-12
+cnaes_relacionados:
+  - 2531-4/01
+  - 2532-2/02
+  - 2539-0/01
+  - 2599-3/02
+  - 2591-8/00
+  - 2593-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

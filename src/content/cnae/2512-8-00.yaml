@@ -2,7 +2,7 @@ codigo: 2512-8/00
 codigo_slug: 2512-8-00
 codigo_numerico: '2512800'
 descricao_oficial: FABRICAÇÃO DE ESQUADRIAS DE METAL
-descricao_plana: FABRICAÇÃO DE ESQUADRIAS DE METAL
+descricao_plana: Fabricação de esquadrias de metal, como portas, janelas, portões e grades, em alumínio, aço ou ferro.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Serralheria de portões e grades de ferro
+  - Fábrica de esquadrias de alumínio sob medida
+  - Produtor de janelas e portas de aço para obras
+  - Fabricante de fachadas e caixilhos de alumínio
+  - Serralheria de guarda-corpos e corrimãos metálicos
+o_que_inclui:
+  - Fabricação de portas, janelas e caixilhos metálicos
+  - Produção de portões, grades e gradis de ferro ou alumínio
+  - Fabricação de guarda-corpos, corrimãos e estruturas de fachada
+  - Corte, dobra, solda, montagem e pintura das esquadrias
+  - Fabricação sob medida ou em série
+o_que_nao_inclui:
+  - Fabricação de estruturas metálicas para construção (use CNAE 2511-0/00)
+  - Fabricação de artigos de serralheria, exceto esquadrias (use CNAE 2542-0/00)
+  - Fabricação de esquadrias de madeira (use CNAE 1622-6/02)
+  - Serviços de instalação de esquadrias na obra (use CNAE 4330-4/01)
+  - Serviços de confecção de armações metálicas para construção (use CNAE 2599-3/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para pintura e tratamento de superfície
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais para solda e corte
+  - Registro no CREA com responsável técnico, quando exigido
+cnaes_relacionados:
+  - 2511-0/00
+  - 2542-0/00
+  - 2599-3/01
+  - 2599-3/02
+  - 1622-6/02
+  - 2539-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

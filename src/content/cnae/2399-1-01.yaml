@@ -2,7 +2,9 @@ codigo: 2399-1/01
 codigo_slug: 2399-1-01
 codigo_numerico: '2399101'
 descricao_oficial: DECORAÇÃO, LAPIDAÇÃO, GRAVAÇÃO, VITRIFICAÇÃO E OUTROS TRABALHOS EM CERÂMICA, LOUÇA, VIDRO E CRISTAL
-descricao_plana: DECORAÇÃO, LAPIDAÇÃO, GRAVAÇÃO, VITRIFICAÇÃO E OUTROS TRABALHOS EM CERÂMICA, LOUÇA, VIDRO E CRISTAL
+descricao_plana: >-
+  Decoração, lapidação, gravação e vitrificação em cerâmica, louça, vidro e cristal, prestada sobre peças próprias ou de
+  terceiros.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ateliê de pintura e decoração em porcelana
+  - Prestador de jateamento e gravação em vidro
+  - Oficina de lapidação de cristais e espelhos
+  - Serviço de personalização de canecas e copos
+  - Ateliê de vitrificação e esmaltação de cerâmica
+o_que_inclui:
+  - Pintura, decalque e decoração em louça e porcelana
+  - Gravação, jateamento e fosqueamento em vidro e cristal
+  - Lapidação e bisotê de vidros, espelhos e cristais
+  - Vitrificação e esmaltação de peças cerâmicas
+  - Serviço sobre peças próprias ou fornecidas pelo cliente
+o_que_nao_inclui:
+  - Fabricação de artigos de vidro (use CNAE 2319-2/00)
+  - Fabricação de produtos cerâmicos não refratários (use CNAE 2349-4/99)
+  - Fabricação de vidro plano e de segurança (use CNAE 2311-7/00)
+  - Fabricação de abrasivos (use CNAE 2399-1/02)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para uso de tintas, ácidos e abrasivos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pela exposição a sílica e químicos
+cnaes_relacionados:
+  - 2319-2/00
+  - 2349-4/99
+  - 2311-7/00
+  - 2399-1/02
+  - 1813-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

@@ -2,7 +2,9 @@ codigo: 2330-3/99
 codigo_slug: 2330-3-99
 codigo_numerico: '2330399'
 descricao_oficial: FABRICAÇÃO DE OUTROS ARTEFATOS E PRODUTOS DE CONCRETO, CIMENTO, FIBROCIMENTO, GESSO E MATERIAIS SEMELHANTES
-descricao_plana: FABRICAÇÃO DE OUTROS ARTEFATOS E PRODUTOS DE CONCRETO, CIMENTO, FIBROCIMENTO, GESSO E MATERIAIS SEMELHANTES
+descricao_plana: >-
+  Fabricação de artefatos de concreto, cimento, fibrocimento e gesso sem código próprio, como ornamentos, mobiliário
+  urbano e peças decorativas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de vasos e floreiras de cimento
+  - Produtor de bancos e mobiliário urbano de concreto
+  - Fabricante de molduras e ornamentos de gesso
+  - Produtor de peças decorativas de cimento queimado
+  - Fábrica de placas e revestimentos de gesso
+o_que_inclui:
+  - Fabricação de vasos, floreiras e ornamentos de concreto e cimento
+  - Produção de mobiliário urbano, como bancos e lixeiras de concreto
+  - Fabricação de molduras, sancas e placas decorativas de gesso
+  - Produção de peças de fibrocimento sem uso estrutural
+  - Moldagem, cura, acabamento e pintura das peças
+o_que_nao_inclui:
+  - Fabricação de estruturas pré-moldadas de concreto armado (use CNAE 2330-3/01)
+  - Fabricação de artefatos de cimento para uso na construção (use CNAE 2330-3/02)
+  - Fabricação de artefatos de fibrocimento para construção (use CNAE 2330-3/03)
+  - Preparação de massa de concreto e argamassa (use CNAE 2330-3/05)
+  - Fabricação de cal e gesso em pó (use CNAE 2392-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para emissão de particulados
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pela exposição a poeira mineral
+cnaes_relacionados:
+  - 2330-3/01
+  - 2330-3/02
+  - 2330-3/03
+  - 2330-3/05
+  - 2392-3/00
+  - 2342-7/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

@@ -2,7 +2,9 @@ codigo: 2539-0/02
 codigo_slug: 2539-0-02
 codigo_numerico: '2539002'
 descricao_oficial: SERVIÇOS DE TRATAMENTO E REVESTIMENTO EM METAIS
-descricao_plana: SERVIÇOS DE TRATAMENTO E REVESTIMENTO EM METAIS
+descricao_plana: >-
+  Serviços de tratamento e revestimento em metais, como galvanização, anodização, cromagem, pintura e tratamento
+  térmico.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Galvanoplastia com niquelação e cromagem
+  - Prestador de anodização de alumínio
+  - Serviço de pintura eletrostática a pó em peças metálicas
+  - Empresa de tratamento térmico e têmpera
+  - Prestador de zincagem de parafusos e peças
+o_que_inclui:
+  - Galvanoplastia, niquelação, cromagem e zincagem
+  - Anodização e tratamento de superfície em alumínio
+  - Pintura eletrostática a pó e pintura líquida industrial
+  - Tratamento térmico, têmpera, revenimento e cementação
+  - Decapagem, fosfatização e preparação de superfície
+o_que_nao_inclui:
+  - Serviços de usinagem, tornearia e solda (use CNAE 2539-0/01)
+  - Produção de artefatos estampados de metal (use CNAE 2532-2/01)
+  - Metalurgia do pó (use CNAE 2532-2/02)
+  - Serviço de corte e dobra de metais (use CNAE 2599-3/02)
+  - Pintura de edificações e obras (use CNAE 4330-4/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual, obrigatória pelo uso de banhos químicos
+  - Licença para tratamento e destinação de efluentes com metais pesados
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pela exposição a ácidos e metais
+cnaes_relacionados:
+  - 2539-0/01
+  - 2532-2/01
+  - 2532-2/02
+  - 2599-3/02
+  - 2512-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

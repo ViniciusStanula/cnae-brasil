@@ -2,7 +2,7 @@ codigo: 2391-5/01
 codigo_slug: 2391-5-01
 codigo_numerico: '2391501'
 descricao_oficial: BRITAMENTO DE PEDRAS, EXCETO ASSOCIADO À EXTRAÇÃO
-descricao_plana: BRITAMENTO DE PEDRAS, EXCETO ASSOCIADO À EXTRAÇÃO
+descricao_plana: Britamento de pedras não associado à extração, produzindo brita e agregados a partir de rocha comprada de terceiros.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Britador que processa rocha adquirida de pedreiras
+  - Usina de britagem para obras rodoviárias
+  - Prestador de britagem móvel em canteiros de obra
+  - Produtor de brita e pedrisco para construção civil
+  - Beneficiadora de rejeitos de rocha em agregados
+o_que_inclui:
+  - Britagem primária, secundária e terciária de rochas
+  - Produção de brita, pedrisco, pó de pedra e rachão
+  - Classificação granulométrica e peneiramento dos agregados
+  - Britagem de rocha adquirida de terceiros, sem extração própria
+  - Estocagem e expedição dos agregados produzidos
+o_que_nao_inclui:
+  - Extração e britamento de pedras com beneficiamento associado (use CNAE 0810-0/99)
+  - Aparelhamento de pedras para construção, não associado à extração (use CNAE 2391-5/02)
+  - Aparelhamento de placas e trabalhos em mármore e granito (use CNAE 2391-5/03)
+  - Preparação de massa de concreto e argamassa (use CNAE 2330-3/05)
+  - Extração de areia, cascalho ou pedregulho (use CNAE 0810-0/06)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para operação da unidade de britagem
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de ruído e poeira mineral
+  - Registro na Agência Nacional de Mineração, quando aplicável
+cnaes_relacionados:
+  - 2391-5/02
+  - 2391-5/03
+  - 0810-0/99
+  - 0810-0/06
+  - 2330-3/05
+  - 2392-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'

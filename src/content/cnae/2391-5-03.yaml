@@ -2,7 +2,9 @@ codigo: 2391-5/03
 codigo_slug: 2391-5-03
 codigo_numerico: '2391503'
 descricao_oficial: APARELHAMENTO DE PLACAS E EXECUÇÃO DE TRABALHOS EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS
-descricao_plana: APARELHAMENTO DE PLACAS E EXECUÇÃO DE TRABALHOS EM MÁRMORE, GRANITO, ARDÓSIA E OUTRAS PEDRAS
+descricao_plana: >-
+  Aparelhamento de placas e execução de trabalhos em mármore, granito, ardósia e outras pedras, como bancadas e
+  revestimentos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Marmoraria com bancadas de granito sob medida
+  - Serralheria de pedras para pias e soleiras
+  - Produtor de revestimentos em ardósia
+  - Marmoraria de tampos e lavatórios
+  - Oficina de acabamento em pedras ornamentais
+o_que_inclui:
+  - Corte, polimento e acabamento de chapas de mármore e granito
+  - Fabricação de bancadas, tampos, pias e soleiras sob medida
+  - Produção de revestimentos, pisos e rodapés em pedra
+  - Execução de recortes, furos e acabamentos de borda
+  - Trabalhos em ardósia, quartzito e outras pedras ornamentais
+o_que_nao_inclui:
+  - Britamento de pedras não associado à extração (use CNAE 2391-5/01)
+  - Aparelhamento de pedras para construção (use CNAE 2391-5/02)
+  - Extração de granito e beneficiamento associado (use CNAE 0810-0/02)
+  - Extração de mármore e beneficiamento associado (use CNAE 0810-0/03)
+  - Serviços de instalação de pedras na obra (use CNAE 4330-4/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para descarte de lama abrasiva e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pela exposição a sílica
+  - Outorga de uso de água para o corte, quando houver captação
+cnaes_relacionados:
+  - 2391-5/01
+  - 2391-5/02
+  - 0810-0/02
+  - 0810-0/03
+  - 0810-0/01
+  - 2330-3/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:00:55.914Z'
