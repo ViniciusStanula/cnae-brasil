@@ -2,7 +2,7 @@ codigo: 8230-0/02
 codigo_slug: 8230-0-02
 codigo_numerico: '8230002'
 descricao_oficial: CASAS DE FESTAS E EVENTOS
-descricao_plana: CASAS DE FESTAS E EVENTOS
+descricao_plana: Casas de festas e eventos, com locação de espaço equipado para celebrações e confraternizações.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Salão de festas para aniversários
+  - Buffet infantil com espaço próprio
+  - Casa de eventos para casamentos
+  - Espaço para confraternizações corporativas
+  - Chácara de eventos com estrutura completa
+o_que_inclui:
+  - Locação de salão ou espaço equipado para festas
+  - Fornecimento de mesas, cadeiras, som e iluminação do espaço
+  - Estrutura de cozinha, banheiros e estacionamento
+  - Serviços de recepção, limpeza e organização do evento
+  - Pacotes de festa com alimentação e decoração incluídas
+o_que_nao_inclui:
+  - Serviços de organização de feiras, congressos, exposições e festas (use CNAE 8230-0/01)
+  - Serviços de alimentação para eventos e recepções (use CNAE 5620-1/02)
+  - Aluguel de palcos, coberturas e estruturas temporárias (use CNAE 7739-0/03)
+  - Bares e estabelecimentos especializados em servir bebidas, com entretenimento (use CNAE 5611-2/05)
+  - Discotecas, danceterias, salões de dança e similares (use CNAE 9329-8/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária, quando houver cozinha
+  - Alvará de som e licença para eventos com música
+  - Recolhimento de direitos autorais ao ECAD
+cnaes_relacionados:
+  - 8230-0/01
+  - 5620-1/02
+  - 7739-0/03
+  - 5611-2/05
+  - 9329-8/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

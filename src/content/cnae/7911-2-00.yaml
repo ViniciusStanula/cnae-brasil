@@ -2,7 +2,7 @@ codigo: 7911-2/00
 codigo_slug: 7911-2-00
 codigo_numerico: '7911200'
 descricao_oficial: AGÊNCIAS DE VIAGENS
-descricao_plana: AGÊNCIAS DE VIAGENS
+descricao_plana: Agências de viagens, com venda e intermediação de passagens, hospedagem e pacotes turísticos.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Agência de viagens de bairro
+  - Agência online de passagens e hotéis
+  - Agência especializada em viagens corporativas
+  - Consultor de viagens autônomo
+  - Agência de intercâmbio e viagens de estudo
+o_que_inclui:
+  - Venda de passagens aéreas, rodoviárias e marítimas
+  - Reserva de hospedagem, transfers e locação de veículos
+  - Comercialização de pacotes turísticos de operadoras
+  - Assessoria em roteiros, vistos e seguro viagem
+  - Atendimento presencial, por telefone ou online
+o_que_nao_inclui:
+  - Operadores turísticos, que montam os próprios pacotes (use CNAE 7912-1/00)
+  - Serviços de reservas e outros serviços de turismo (use CNAE 7990-2/00)
+  - Organização de excursões em veículos rodoviários próprios, municipal (use CNAE 4929-9/03)
+  - Transporte rodoviário coletivo sob fretamento (use CNAE 4929-9/02)
+  - Atividades de organização de feiras, congressos e exposições (use CNAE 8230-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro obrigatório no Cadastur do Ministério do Turismo
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no tratamento de dados de viajantes
+  - Contratos de representação com operadoras e companhias
+cnaes_relacionados:
+  - 7912-1/00
+  - 7990-2/00
+  - 4929-9/03
+  - 4929-9/02
+  - 5099-8/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

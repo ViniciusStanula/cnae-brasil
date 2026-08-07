@@ -2,7 +2,7 @@ codigo: 8299-7/03
 codigo_slug: 8299-7-03
 codigo_numerico: '8299703'
 descricao_oficial: SERVIÇOS DE GRAVAÇÃO DE CARIMBOS, EXCETO CONFECÇÃO
-descricao_plana: SERVIÇOS DE GRAVAÇÃO DE CARIMBOS, EXCETO CONFECÇÃO
+descricao_plana: Serviços de gravação de carimbos, exceto confecção, com personalização de carimbos e placas.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de gravação de carimbos personalizados
+  - Loja de carimbos com gravação a laser
+  - Serviço de gravação de placas e identificações
+  - Prestador de gravação de brindes personalizados
+  - Empresa de gravação de sinetes e marcadores
+o_que_inclui:
+  - Gravação de carimbos automáticos e de madeira
+  - Personalização de textos, logotipos e assinaturas
+  - Gravação a laser em borracha, metal e acrílico
+  - Gravação de placas de identificação e brindes
+  - Serviço prestado sobre material próprio ou do cliente
+o_que_nao_inclui:
+  - Fabricação de letras, letreiros e placas não luminosos (use CNAE 3299-0/03)
+  - Fabricação de produtos diversos não especificados anteriormente (use CNAE 3299-0/99)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+  - Cunhagem de moedas e medalhas (use CNAE 3211-6/03)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de tintas e solventes
+  - Programa de controle de riscos ocupacionais
+  - Inscrição estadual, quando comercializar mercadorias
+cnaes_relacionados:
+  - 3299-0/03
+  - 3299-0/99
+  - 1813-0/99
+  - 3211-6/03
+  - 4761-0/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

@@ -2,7 +2,7 @@ codigo: 8219-9/01
 codigo_slug: 8219-9-01
 codigo_numerico: '8219901'
 descricao_oficial: FOTOCÓPIAS
-descricao_plana: FOTOCÓPIAS
+descricao_plana: Fotocópias, com serviços de cópia, impressão e digitalização de documentos ao público.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Copiadora em galeria comercial
+  - Papelaria com serviço de xerox
+  - Centro de cópias em universidade
+  - Prestador de digitalização de documentos
+  - Loja de impressão e plotagem
+o_que_inclui:
+  - Serviços de fotocópia em preto e branco e colorida
+  - Impressão de documentos e arquivos digitais
+  - Digitalização e conversão de documentos
+  - Plotagem de plantas e impressão de grande formato
+  - Encadernação simples como serviço acessório
+o_que_nao_inclui:
+  - Preparação de documentos e serviços de apoio administrativo (use CNAE 8219-9/99)
+  - Serviços de encadernação e plastificação (use CNAE 1822-9/01)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+  - Recarga de cartuchos para equipamentos de informática (use CNAE 4751-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no tratamento de documentos de clientes
+  - Respeito aos direitos autorais na reprodução de obras
+  - Inscrição estadual, quando comercializar mercadorias
+cnaes_relacionados:
+  - 8219-9/99
+  - 1822-9/01
+  - 1813-0/99
+  - 4761-0/03
+  - 4751-2/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

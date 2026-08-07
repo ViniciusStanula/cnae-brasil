@@ -2,7 +2,7 @@ codigo: 8291-1/00
 codigo_slug: 8291-1-00
 codigo_numerico: '8291100'
 descricao_oficial: ATIVIDADES DE COBRANÇAS E INFORMAÇÕES CADASTRAIS
-descricao_plana: ATIVIDADES DE COBRANÇAS E INFORMAÇÕES CADASTRAIS
+descricao_plana: Atividades de cobranças e informações cadastrais, com recuperação de crédito e consulta a cadastros.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de cobrança extrajudicial
+  - Assessoria de recuperação de crédito
+  - Prestador de consulta a informações cadastrais
+  - Call center de cobrança terceirizada
+  - Empresa de análise cadastral para crédito
+o_que_inclui:
+  - Cobrança extrajudicial de dívidas por conta de terceiros
+  - Negociação e parcelamento com devedores
+  - Consulta e fornecimento de informações cadastrais
+  - Análise cadastral e de crédito para clientes
+  - Gestão de carteiras de inadimplência
+o_que_nao_inclui:
+  - Preparação de documentos e serviços de apoio administrativo (use CNAE 8219-9/99)
+  - Atividades de teleatendimento (use CNAE 8220-2/00)
+  - Atividades jurídicas, exceto cartórios (use CNAE 6911-7/01)
+  - Outras atividades de serviços financeiros não especificadas (use CNAE 6499-9/99)
+  - Outras atividades de prestação de serviços de informação (use CNAE 6399-2/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Conformidade com a LGPD e o Código de Defesa do Consumidor
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Contratos formais de mandato com os credores
+  - Registro em órgãos de proteção ao crédito, quando aplicável
+cnaes_relacionados:
+  - 8219-9/99
+  - 8220-2/00
+  - 6399-2/00
+  - 6911-7/01
+  - 6499-9/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

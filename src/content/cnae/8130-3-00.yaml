@@ -2,7 +2,7 @@ codigo: 8130-3/00
 codigo_slug: 8130-3-00
 codigo_numerico: '8130300'
 descricao_oficial: ATIVIDADES PAISAGÍSTICAS
-descricao_plana: ATIVIDADES PAISAGÍSTICAS
+descricao_plana: Atividades paisagísticas, com projeto, implantação e manutenção de jardins, gramados e áreas verdes.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Jardineiro autônomo com manutenção de jardins
+  - Empresa de paisagismo e projetos de jardim
+  - Prestador de poda de árvores urbanas
+  - Empresa de implantação de gramados
+  - Serviço de manutenção de áreas verdes de condomínios
+o_que_inclui:
+  - Projeto e implantação de jardins e áreas verdes
+  - Plantio de gramados, arbustos e árvores ornamentais
+  - Manutenção, poda, adubação e irrigação de jardins
+  - Poda de árvores urbanas e em condomínios
+  - Instalação de sistemas de irrigação e iluminação de jardim
+o_que_nao_inclui:
+  - Serviço de poda de árvores para lavouras (use CNAE 0161-0/02)
+  - Cultivo de flores e plantas ornamentais (use CNAE 0122-9/00)
+  - Comércio varejista de plantas e flores naturais (use CNAE 4789-0/02)
+  - Atividades de limpeza não especificadas anteriormente (use CNAE 8129-0/00)
+  - Produção de mudas e outras formas de propagação vegetal, certificadas (use CNAE 0142-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização municipal para poda e supressão de árvores
+  - Registro no CREA ou CAU com responsável técnico para projetos
+  - Cumprimento da NR-35 para poda em altura
+  - Licença ambiental para manejo de vegetação, quando exigida
+cnaes_relacionados:
+  - 0161-0/02
+  - 0122-9/00
+  - 4789-0/02
+  - 8129-0/00
+  - 0142-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

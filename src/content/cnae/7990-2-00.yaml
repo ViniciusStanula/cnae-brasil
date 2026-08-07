@@ -2,7 +2,7 @@ codigo: 7990-2/00
 codigo_slug: 7990-2-00
 codigo_numerico: '7990200'
 descricao_oficial: SERVIÇOS DE RESERVAS E OUTROS SERVIÇOS DE TURISMO NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: SERVIÇOS DE RESERVAS E OUTROS SERVIÇOS DE TURISMO NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Serviços de reservas e outros serviços de turismo sem código próprio, como guias e assessoria a viajantes.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Guia de turismo credenciado
+  - Central de reservas de hospedagem
+  - Serviço de assessoria e roteiros personalizados
+  - Prestador de receptivo em aeroporto
+  - Serviço de emissão de vistos e assistência ao viajante
+o_que_inclui:
+  - Serviços de guia de turismo e condução de grupos
+  - Centrais de reserva de hospedagem e atrativos
+  - Assessoria em roteiros e planejamento de viagem
+  - Serviços de receptivo, transfer e apoio ao viajante
+  - Serviços turísticos sem código próprio na CNAE
+o_que_nao_inclui:
+  - Agências de viagens (use CNAE 7911-2/00)
+  - Operadores turísticos (use CNAE 7912-1/00)
+  - Organização de excursões em veículos rodoviários próprios, municipal (use CNAE 4929-9/03)
+  - Transporte aquaviário para passeios turísticos (use CNAE 5099-8/01)
+  - Atividades de organização de feiras, congressos e exposições (use CNAE 8230-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro no Cadastur do Ministério do Turismo
+  - Credenciamento de guia de turismo, quando aplicável
+  - Conformidade com a LGPD no tratamento de dados de viajantes
+  - Seguro de responsabilidade civil sobre os serviços prestados
+cnaes_relacionados:
+  - 7911-2/00
+  - 7912-1/00
+  - 4929-9/03
+  - 5099-8/01
+  - 8230-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

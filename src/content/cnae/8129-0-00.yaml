@@ -2,7 +2,7 @@ codigo: 8129-0/00
 codigo_slug: 8129-0-00
 codigo_numerico: '8129000'
 descricao_oficial: ATIVIDADES DE LIMPEZA NÃO ESPECIFICADAS ANTERIORMENTE
-descricao_plana: ATIVIDADES DE LIMPEZA NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: Atividades de limpeza sem código próprio, como limpeza de fachadas, caixas d'água, piscinas e desinfecção.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de limpeza de caixas d'água
+  - Prestador de limpeza de fachadas e vidros altos
+  - Empresa de limpeza e tratamento de piscinas
+  - Serviço de desinfecção e sanitização de ambientes
+  - Prestador de limpeza pós-obra e pesada
+o_que_inclui:
+  - Limpeza e higienização de caixas d'água e reservatórios
+  - Limpeza de fachadas, vidros e superfícies em altura
+  - Limpeza e tratamento químico de piscinas
+  - Desinfecção, sanitização e higienização de ambientes
+  - Limpezas especializadas sem código próprio na CNAE
+o_que_nao_inclui:
+  - Limpeza em prédios e em domicílios (use CNAE 8121-4/00)
+  - Imunização e controle de pragas urbanas (use CNAE 8122-2/00)
+  - Atividades relacionadas a esgoto, exceto a gestão de redes (use CNAE 3702-9/00)
+  - Outras obras de acabamento da construção, como limpeza pós-obra (use CNAE 4330-4/99)
+  - Atividades paisagísticas (use CNAE 8130-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária para limpeza de reservatórios
+  - Cumprimento da NR-35 para trabalho em altura
+  - Licença ambiental para uso e descarte de produtos químicos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 8121-4/00
+  - 8122-2/00
+  - 3702-9/00
+  - 4330-4/99
+  - 8130-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

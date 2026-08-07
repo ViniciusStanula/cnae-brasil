@@ -2,7 +2,7 @@ codigo: 7739-0/99
 codigo_slug: 7739-0-99
 codigo_numerico: '7739099'
 descricao_oficial: ALUGUEL DE OUTRAS MÁQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE, SEM OPERADOR
-descricao_plana: ALUGUEL DE OUTRAS MÁQUINAS E EQUIPAMENTOS COMERCIAIS E INDUSTRIAIS NÃO ESPECIFICADOS ANTERIORMENTE, SEM OPERADOR
+descricao_plana: Aluguel de outras máquinas e equipamentos comerciais e industriais sem operador, sem código próprio na CNAE.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -32,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de equipamentos industriais diversos
+  - Aluguel de máquinas para comércio e serviços
+  - Locação de equipamentos de limpeza industrial
+  - Locadora de compressores e geradores industriais
+  - Aluguel de equipamentos comerciais sob contrato
+o_que_inclui:
+  - Aluguel de máquinas comerciais e industriais sem operador
+  - Locação de equipamentos de limpeza, refrigeração e apoio
+  - Aluguel de geradores, compressores e equipamentos auxiliares
+  - Manutenção preventiva incluída no contrato de locação
+  - Equipamentos sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Aluguel de máquinas e equipamentos para escritórios (use CNAE 7733-1/00)
+  - Aluguel de máquinas e equipamentos para construção sem operador (use CNAE 7732-2/01)
+  - Aluguel de equipamentos científicos, médicos e hospitalares (use CNAE 7739-0/02)
+  - Aluguel de palcos, coberturas e estruturas temporárias (use CNAE 7739-0/03)
+  - Aluguel de máquinas e equipamentos agrícolas sem operador (use CNAE 7731-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Adequação dos equipamentos locados à NR-12
+  - Seguro sobre as máquinas locadas
+  - Contrato formal de locação com termo de responsabilidade
+cnaes_relacionados:
+  - 7733-1/00
+  - 7732-2/01
+  - 7739-0/02
+  - 7739-0/03
+  - 7731-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

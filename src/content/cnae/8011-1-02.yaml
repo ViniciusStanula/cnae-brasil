@@ -2,7 +2,7 @@ codigo: 8011-1/02
 codigo_slug: 8011-1-02
 codigo_numerico: '8011102'
 descricao_oficial: SERVIÇOS DE ADESTRAMENTO DE CÃES DE GUARDA
-descricao_plana: SERVIÇOS DE ADESTRAMENTO DE CÃES DE GUARDA
+descricao_plana: Serviços de adestramento de cães de guarda, com treinamento de animais para proteção e vigilância.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Adestrador de cães de guarda para empresas
+  - Centro de treinamento de cães de proteção
+  - Prestador de adestramento para segurança patrimonial
+  - Canil com formação de cães de guarda
+  - Adestrador de cães de faro e patrulha
+o_que_inclui:
+  - Treinamento de cães para guarda e proteção patrimonial
+  - Adestramento de obediência aplicada à segurança
+  - Formação de cães de faro e patrulha
+  - Treinamento de condutores e tratadores
+  - Alojamento dos animais durante o período de treinamento
+o_que_nao_inclui:
+  - Atividades de vigilância e segurança privada (use CNAE 8011-1/01)
+  - Outras atividades de serviços de segurança (use CNAE 8020-0/02)
+  - Serviços de higiene e embelezamento de animais domésticos (use CNAE 9609-2/06)
+  - Atividades veterinárias (use CNAE 7500-1/00)
+  - Criação de animais de estimação (use CNAE 0159-8/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização da Polícia Federal para atividades de segurança privada
+  - Registro no CRMV com responsável técnico
+  - Licença ambiental e sanitária para o canil
+  - Cumprimento das normas de bem-estar animal
+cnaes_relacionados:
+  - 8011-1/01
+  - 8020-0/02
+  - 9609-2/06
+  - 7500-1/00
+  - 0159-8/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

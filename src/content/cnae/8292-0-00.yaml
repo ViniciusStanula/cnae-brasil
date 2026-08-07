@@ -2,7 +2,7 @@ codigo: 8292-0/00
 codigo_slug: 8292-0-00
 codigo_numerico: '8292000'
 descricao_oficial: ENVASAMENTO E EMPACOTAMENTO SOB CONTRATO
-descricao_plana: ENVASAMENTO E EMPACOTAMENTO SOB CONTRATO
+descricao_plana: Envasamento e empacotamento sob contrato, com acondicionamento de produtos de terceiros.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de envase de produtos para terceiros
+  - Prestador de empacotamento de alimentos secos
+  - Serviço de blistagem e embalagem sob contrato
+  - Empresa de rotulagem e acondicionamento
+  - Prestador de kit e montagem de embalagens promocionais
+o_que_inclui:
+  - Envase de líquidos, pós e granulados de terceiros
+  - Empacotamento, fracionamento e acondicionamento
+  - Rotulagem, codificação e lacre das embalagens
+  - Montagem de kits e embalagens promocionais
+  - Serviço prestado com material fornecido pelo contratante
+o_que_nao_inclui:
+  - Fabricação de embalagens de papel (use CNAE 1731-1/00)
+  - Fabricação de embalagens de material plástico (use CNAE 2222-6/00)
+  - Fabricação de alimentos e pratos prontos (use CNAE 1096-1/00)
+  - Carga e descarga (use CNAE 5212-5/00)
+  - Impressão de material para outros usos, como rótulos (use CNAE 1813-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária para envase de alimentos e cosméticos
+  - Autorização de Funcionamento na Anvisa, conforme o produto
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Responsável técnico habilitado, conforme o produto envasado
+cnaes_relacionados:
+  - 1731-1/00
+  - 2222-6/00
+  - 1096-1/00
+  - 5212-5/00
+  - 1813-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'

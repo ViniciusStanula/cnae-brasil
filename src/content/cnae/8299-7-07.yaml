@@ -2,7 +2,7 @@ codigo: 8299-7/07
 codigo_slug: 8299-7-07
 codigo_numerico: '8299707'
 descricao_oficial: SALAS DE ACESSO À INTERNET
-descricao_plana: SALAS DE ACESSO À INTERNET
+descricao_plana: Salas de acesso à internet, como lan houses e cybercafés, com computadores para uso do público.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Lan house de bairro
+  - Cybercafé com acesso à internet
+  - Sala de acesso com impressão e serviços digitais
+  - Espaço de jogos online por hora
+  - Ponto de inclusão digital comunitário
+o_que_inclui:
+  - Disponibilização de computadores com acesso à internet por hora
+  - Serviços de impressão, digitalização e gravação para o público
+  - Acesso a jogos online e uso recreativo dos equipamentos
+  - Apoio ao preenchimento de formulários e serviços digitais
+  - Venda de lanches e bebidas como atividade acessória
+o_que_nao_inclui:
+  - Fotocópias (use CNAE 8219-9/01)
+  - Exploração de jogos eletrônicos recreativos (use CNAE 9329-8/03)
+  - Serviços de comunicação multimídia, como provedores de internet (use CNAE 6110-8/03)
+  - Reparação e manutenção de computadores e periféricos (use CNAE 9511-8/00)
+  - Aluguel de máquinas e equipamentos para escritórios (use CNAE 7733-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro municipal de lan house, com registro de usuários quando exigido
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD e com o Marco Civil da Internet
+  - Controle de acesso de menores conforme legislação municipal
+cnaes_relacionados:
+  - 8219-9/01
+  - 9329-8/03
+  - 6110-8/03
+  - 9511-8/00
+  - 7733-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:36:45.159Z'
