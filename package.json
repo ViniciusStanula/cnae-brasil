@@ -12,6 +12,8 @@
     "astro": "astro",
     "generate": "tsx scripts/generate-cnae-data.ts",
     "enrich": "tsx scripts/enrich-cnae.ts",
+    "enrich:next": "tsx scripts/enrich-manual.ts",
+    "enrich:apply": "tsx scripts/enrich-manual.ts apply",
     "scrape:mei": "tsx scripts/scrape-mei-source.ts",
     "test": "vitest run",
     "lint": "eslint src --ext .ts,.astro",

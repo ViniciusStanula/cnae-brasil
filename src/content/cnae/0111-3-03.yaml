@@ -2,7 +2,9 @@
 codigo_slug: 0111-3-03
 codigo_numerico: '0111303'
 descricao_oficial: CULTIVO DE TRIGO
-descricao_plana: CULTIVO DE TRIGO
+descricao_plana: >-
+  Produção agrícola voltada ao plantio e à colheita de trigo em lavouras temporárias, do preparo do solo à entrega do
+  grão bruto.
 secao:
   letra: A
   slug: agricultura
@@ -28,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Produtor rural de trigo no Sul do país
+  - Fazenda de trigo com produção destinada a moinhos
+  - Cooperativa agrícola com produção própria de trigo em grão
+  - Produtor de trigo em rotação de cultura com soja
+  - Produtor de trigo orgânico certificado
+o_que_inclui:
+  - Preparo do solo e plantio de trigo em lavouras temporárias
+  - Cultivo de trigo para uso alimentar ou industrial
+  - Colheita do trigo em grão bruto
+  - Secagem e armazenagem do trigo na própria propriedade rural, como etapa do cultivo
+  - Produção de trigo por produtor rural pessoa física ou jurídica
+o_que_nao_inclui:
+  - Cultivo de arroz, que tem código próprio (use CNAE 0111-3/01)
+  - Cultivo de milho, que tem código próprio (use CNAE 0111-3/02)
+  - Cultivo de aveia, centeio, cevada e demais cereais (use CNAE 0111-3/99)
+  - Moagem de trigo e fabricação de farinha (use CNAE 1062-7/00)
+  - Comércio atacadista de trigo em grão (use CNAE 4622-2/00)
+  - Serviços de preparo de terreno e colheita prestados a terceiros (use CNAE 0161-0/03)
+licencas_comuns:
+  - Inscrição estadual de produtor rural
+  - Cadastro Ambiental Rural (CAR)
+  - Cadastro no órgão estadual de agricultura ou secretaria rural
+  - Licença ambiental para uso do solo, conforme exigência do órgão estadual
+cnaes_relacionados:
+  - 0111-3/01
+  - 0111-3/02
+  - 0111-3/99
+  - 0115-6/00
+  - 0161-0/03
+  - 0163-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:36:44.992Z'
