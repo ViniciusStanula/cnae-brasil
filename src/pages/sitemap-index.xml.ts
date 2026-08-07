@@ -1,3 +1,10 @@
+import { sitemapIndexResponse } from '../lib/sitemap.js';
+
 export async function GET() {
-  return new Response(null, { status: 404 });
+  return sitemapIndexResponse([
+    '/sitemap-pages.xml',
+    '/sitemap-hierarchy.xml',
+    '/sitemap-cnae.xml',
+    '/sitemap-mei.xml',
+  ]);
 }

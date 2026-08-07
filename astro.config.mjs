@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   output: 'static',
-  site: 'https://cnaebrasil.com.br',
+  site: 'https://www.cnaebrasil.com.br',
   compressHTML: true,
   prefetch: {
     prefetchAll: true,

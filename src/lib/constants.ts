@@ -1,5 +1,5 @@
 export const SITE_NAME = 'CNAE Brasil';
-export const SITE_URL = 'https://cnaebrasil.com.br';
+export const SITE_URL = 'https://www.cnaebrasil.com.br';
 export const SITE_TAGLINE = 'Tudo sobre CNAE em linguagem clara';
 export const CNAE_VERSION = '2.3';
 export const CNAE_DATA_YEAR = 2024;

@@ -1,3 +1,9 @@
+import { urlsetResponse } from '../lib/sitemap.js';
+
 export async function GET() {
-  return new Response(null, { status: 404 });
+  return urlsetResponse([
+    { path: '/mei/' },
+    { path: '/mei/atividades-permitidas/' },
+    { path: '/mei/atividades-proibidas/' },
+  ]);
 }

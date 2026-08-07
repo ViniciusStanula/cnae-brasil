@@ -15,7 +15,7 @@ import {
   buildCollectionPageJsonLd,
 } from '../../lib/schema-org.js';
 import { buildCanonical } from '../../lib/seo.js';
-import { SECAO_BY_SLUG } from '../../lib/constants.js';
+import { SECAO_BY_SLUG, SITE_URL } from '../../lib/constants.js';
 import { homeCrumb, cnaeCrumb } from '../../lib/breadcrumbs.js';
 import { formatCodigoForDisplay, formatCodigoForUrl } from '../../lib/cnae-helpers.js';
 import type { CnaeEntry } from '../../content.config.js';
@@ -222,7 +222,7 @@ const breadcrumbJsonLd = buildBreadcrumbJsonLd(crumbs.map((c) => ({ label: c.lab
 const collectionJsonLd = buildCollectionPageJsonLd(
   h1,
   description,
-  canonical.replace('https://cnaebrasil.com.br', ''),
+  canonical.replace(SITE_URL, ''),
   children.slice(0, 50).map((c) => ({ name: c.label, url: c.href }))
 );
 

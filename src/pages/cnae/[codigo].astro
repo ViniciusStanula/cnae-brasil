@@ -111,7 +111,7 @@ const relatedEntries = data.cnaes_relacionados.map((cod) => ({
 }));
 ---
 
-<CnaeLayout {title} {description} {canonical} jsonLd={[breadcrumbJsonLd, termJsonLd, faqJsonLd]}>
+<CnaeLayout {title} {description} {canonical} {crumbs} jsonLd={[breadcrumbJsonLd, termJsonLd, faqJsonLd]}>
   <HeroBlock
     codigoSlug={data.codigo_slug}
     descricaoPlana={data.descricao_plana}
