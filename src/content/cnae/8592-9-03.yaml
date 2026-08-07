@@ -2,7 +2,7 @@ codigo: 8592-9/03
 codigo_slug: 8592-9-03
 codigo_numerico: '8592903'
 descricao_oficial: ENSINO DE MÚSICA
-descricao_plana: ENSINO DE MÚSICA
+descricao_plana: Ensino de música, com aulas de instrumentos, canto e teoria musical em escola ou domicílio.
 secao:
   letra: P
   slug: educacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Escola de música com aulas de violão e teclado
+  - Professor particular de instrumento
+  - Aulas de canto e técnica vocal
+  - Escola de musicalização infantil
+  - Professor de música online
+o_que_inclui:
+  - Aulas de instrumentos musicais individuais e em grupo
+  - Ensino de canto, técnica vocal e percepção musical
+  - Musicalização infantil e iniciação musical
+  - Aulas de teoria musical e harmonia
+  - Aulas presenciais, em domicílio ou online
+o_que_nao_inclui:
+  - Ensino de arte e cultura não especificado anteriormente (use CNAE 8592-9/99)
+  - Ensino de dança (use CNAE 8592-9/01)
+  - Ensino de artes cênicas, exceto dança (use CNAE 8592-9/02)
+  - Produção musical (use CNAE 9001-9/02)
+  - Comércio varejista especializado de instrumentos musicais e acessórios (use CNAE 4756-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Tratamento acústico e licença de som, quando exigida
+  - Licença da vigilância sanitária, quando houver atendimento infantil
+  - Recolhimento de direitos autorais ao ECAD em apresentações
+cnaes_relacionados:
+  - 8592-9/99
+  - 8592-9/01
+  - 8592-9/02
+  - 9001-9/02
+  - 4756-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

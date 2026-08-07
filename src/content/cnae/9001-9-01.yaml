@@ -2,7 +2,7 @@ codigo: 9001-9/01
 codigo_slug: 9001-9-01
 codigo_numerico: '9001901'
 descricao_oficial: PRODUÇÃO TEATRAL
-descricao_plana: PRODUÇÃO TEATRAL
+descricao_plana: Produção teatral, com montagem e realização de espetáculos de teatro e artes cênicas.
 secao:
   letra: R
   slug: artes-cultura-esporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Companhia teatral com montagens próprias
+  - Produtor de espetáculos teatrais
+  - Grupo de teatro infantil
+  - Produtora de peças para escolas e empresas
+  - Coletivo de teatro de rua
+o_que_inclui:
+  - Montagem e produção de espetáculos teatrais
+  - Contratação de elenco, direção e equipe técnica
+  - Produção de cenários, figurinos e recursos cênicos
+  - Realização de temporadas e turnês
+  - Captação de recursos e gestão de projetos culturais
+o_que_nao_inclui:
+  - Produção musical (use CNAE 9001-9/02)
+  - Atividades de sonorização e de iluminação (use CNAE 9001-9/06)
+  - Ensino de artes cênicas, exceto dança (use CNAE 8592-9/02)
+  - Atividades de exibição cinematográfica (use CNAE 5914-6/00)
+  - Produção de espetáculos de dança (use CNAE 9001-9/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros para o local do espetáculo
+  - Alvará de evento e classificação indicativa
+  - Recolhimento de direitos autorais ao ECAD e ao autor da obra
+  - Registro profissional dos artistas e técnicos, conforme exigência
+cnaes_relacionados:
+  - 9001-9/02
+  - 9001-9/06
+  - 9001-9/03
+  - 8592-9/02
+  - 8230-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

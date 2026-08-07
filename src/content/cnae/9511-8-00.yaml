@@ -2,7 +2,7 @@ codigo: 9511-8/00
 codigo_slug: 9511-8-00
 codigo_numerico: '9511800'
 descricao_oficial: REPARAÇÃO E MANUTENÇÃO DE COMPUTADORES E DE EQUIPAMENTOS PERIFÉRICOS
-descricao_plana: REPARAÇÃO E MANUTENÇÃO DE COMPUTADORES E DE EQUIPAMENTOS PERIFÉRICOS
+descricao_plana: Reparação e manutenção de computadores e equipamentos periféricos, incluindo formatação e troca de peças.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Assistência técnica de computadores
+  - Prestador de manutenção de notebooks
+  - Técnico de informática com atendimento a domicílio
+  - Empresa de suporte técnico para escritórios
+  - Assistência de impressoras e periféricos
+o_que_inclui:
+  - Reparo e manutenção de computadores e notebooks
+  - Formatação, instalação de sistemas e recuperação de dados
+  - Substituição de peças, memórias e componentes
+  - Manutenção de impressoras, monitores e periféricos
+  - Atendimento em bancada, no cliente ou remoto
+o_que_nao_inclui:
+  - Reparação e manutenção de equipamentos de comunicação (use CNAE 9512-6/00)
+  - Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico (use CNAE 9521-5/00)
+  - Comércio varejista especializado de equipamentos e suprimentos de informática (use CNAE 4751-2/01)
+  - Recarga de cartuchos para equipamentos de informática (use CNAE 4751-2/02)
+  - Suporte técnico e manutenção em tecnologia da informação (use CNAE 6209-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no acesso a dados dos clientes
+  - Cadastro em logística reversa de eletroeletrônicos
+  - Licenciamento dos softwares instalados nos equipamentos
+cnaes_relacionados:
+  - 9512-6/00
+  - 9521-5/00
+  - 4751-2/01
+  - 4751-2/02
+  - 6209-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

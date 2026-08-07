@@ -2,7 +2,7 @@ codigo: 8593-7/00
 codigo_slug: 8593-7-00
 codigo_numerico: '8593700'
 descricao_oficial: ENSINO DE IDIOMAS
-descricao_plana: ENSINO DE IDIOMAS
+descricao_plana: Ensino de idiomas, com cursos livres de línguas estrangeiras em escola, domicílio ou online.
 secao:
   letra: P
   slug: educacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Escola de idiomas de bairro
+  - Professor particular de inglês
+  - Curso de espanhol e francês online
+  - Escola de idiomas para empresas
+  - Professor de português para estrangeiros
+o_que_inclui:
+  - Cursos livres de línguas estrangeiras
+  - Aulas particulares e em grupo de idiomas
+  - Preparação para exames de proficiência
+  - Cursos de conversação e idiomas para negócios
+  - Aulas presenciais, em domicílio ou online
+o_que_nao_inclui:
+  - Outras atividades de ensino não especificadas anteriormente (use CNAE 8599-6/99)
+  - Cursos preparatórios para concursos (use CNAE 8599-6/05)
+  - Treinamento em informática (use CNAE 8599-6/03)
+  - Serviços de tradução e interpretação (use CNAE 7490-1/05)
+  - Educação superior de graduação (use CNAE 8531-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária, quando houver atendimento infantil
+  - Conformidade com a LGPD no cadastro de alunos
+  - Contrato de prestação de serviços educacionais com os alunos
+cnaes_relacionados:
+  - 8599-6/99
+  - 8599-6/05
+  - 8599-6/03
+  - 7490-1/05
+  - 8592-9/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

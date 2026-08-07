@@ -2,7 +2,7 @@ codigo: 8599-6/03
 codigo_slug: 8599-6-03
 codigo_numerico: '8599603'
 descricao_oficial: TREINAMENTO EM INFORMÁTICA
-descricao_plana: TREINAMENTO EM INFORMÁTICA
+descricao_plana: Treinamento em informática, com cursos livres de softwares, programação e uso de computadores.
 secao:
   letra: P
   slug: educacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Escola de informática básica
+  - Curso de programação e desenvolvimento web
+  - Treinamento corporativo em softwares de gestão
+  - Curso online de planilhas e pacote office
+  - Escola de design digital e edição de vídeo
+o_que_inclui:
+  - Cursos de informática básica e pacote office
+  - Treinamento em programação e desenvolvimento
+  - Cursos de design digital, edição e softwares específicos
+  - Treinamento corporativo em sistemas e ferramentas
+  - Aulas presenciais, em domicílio ou online
+o_que_nao_inclui:
+  - Outras atividades de ensino não especificadas anteriormente (use CNAE 8599-6/99)
+  - Cursos preparatórios para concursos (use CNAE 8599-6/05)
+  - Ensino de idiomas (use CNAE 8593-7/00)
+  - Desenvolvimento de programas de computador sob encomenda (use CNAE 6201-5/01)
+  - Salas de acesso à internet (use CNAE 8299-7/07)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licenciamento dos softwares utilizados em aula
+  - Conformidade com a LGPD no cadastro de alunos
+  - Contrato de prestação de serviços educacionais com os alunos
+cnaes_relacionados:
+  - 8599-6/99
+  - 8599-6/05
+  - 8593-7/00
+  - 6201-5/01
+  - 8299-7/07
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

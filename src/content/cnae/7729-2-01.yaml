@@ -1,4 +1,4 @@
-codigo: 7729-2/01
+﻿codigo: 7729-2/01
 codigo_slug: 7729-2-01
 codigo_numerico: '7729201'
 descricao_oficial: ALUGUEL DE APARELHOS DE JOGOS ELETRÔNICOS
@@ -45,7 +45,7 @@ o_que_inclui:
 o_que_nao_inclui:
   - Aluguel de equipamentos recreativos e esportivos (use CNAE 7721-7/00)
   - Aluguel de fitas de vídeo, DVDs e similares (use CNAE 7722-5/00)
-  - Exploração de jogos eletrônicos recreativos em estabelecimento (use CNAE 9329-8/03)
+  - Exploração de jogos eletrônicos recreativos em estabelecimento (use CNAE 9329-8/04)
   - Fabricação de jogos eletrônicos (use CNAE 3240-0/01)
   - Aluguel de máquinas e equipamentos para escritórios (use CNAE 7733-1/00)
 licencas_comuns:
@@ -57,7 +57,7 @@ licencas_comuns:
 cnaes_relacionados:
   - 7721-7/00
   - 7722-5/00
-  - 9329-8/03
+  - 9329-8/04
   - 3240-0/01
   - 7733-1/00
 enriched: true

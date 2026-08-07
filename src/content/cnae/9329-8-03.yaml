@@ -2,7 +2,7 @@ codigo: 9329-8/03
 codigo_slug: 9329-8-03
 codigo_numerico: '9329803'
 descricao_oficial: EXPLORAÇÃO DE JOGOS DE SINUCA, BILHAR E SIMILARES
-descricao_plana: EXPLORAÇÃO DE JOGOS DE SINUCA, BILHAR E SIMILARES
+descricao_plana: Exploração de jogos de sinuca, bilhar e similares, com mesas disponibilizadas ao público mediante pagamento.
 secao:
   letra: R
   slug: artes-cultura-esporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Salão de sinuca e bilhar
+  - Bar com mesas de sinuca por hora
+  - Clube de bilhar com mensalidade
+  - Espaço de jogos com mesas de sinuca
+  - Salão de bilhar com torneios
+o_que_inclui:
+  - Disponibilização de mesas de sinuca e bilhar por tempo de uso
+  - Operação de salões e clubes de bilhar
+  - Organização de torneios e campeonatos internos
+  - Aluguel de tacos e acessórios de jogo
+  - Venda de bebidas e lanches como atividade acessória
+o_que_nao_inclui:
+  - Exploração de jogos eletrônicos recreativos (use CNAE 9329-8/04)
+  - Outras atividades de recreação e lazer não especificadas anteriormente (use CNAE 9329-8/99)
+  - Fabricação de mesas de bilhar, de sinuca e acessórios não associada à locação (use CNAE 3240-0/02)
+  - Bares e estabelecimentos especializados em servir bebidas, sem entretenimento (use CNAE 5611-2/04)
+  - Salas de acesso à internet (use CNAE 8299-7/07)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária, quando servir alimentos
+  - Autorização municipal para venda de bebidas alcoólicas
+  - Controle de acesso de menores conforme legislação municipal
+cnaes_relacionados:
+  - 9329-8/04
+  - 9329-8/99
+  - 3240-0/02
+  - 5611-2/04
+  - 8299-7/07
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

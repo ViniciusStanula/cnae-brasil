@@ -2,7 +2,7 @@ codigo: 8712-3/00
 codigo_slug: 8712-3-00
 codigo_numerico: '8712300'
 descricao_oficial: ATIVIDADES DE FORNECIMENTO DE INFRAESTRUTURA DE APOIO E ASSISTÊNCIA A PACIENTE NO DOMICÍLIO
-descricao_plana: ATIVIDADES DE FORNECIMENTO DE INFRAESTRUTURA DE APOIO E ASSISTÊNCIA A PACIENTE NO DOMICÍLIO
+descricao_plana: Fornecimento de infraestrutura de apoio e assistência a paciente no domicílio, no modelo home care.
 secao:
   letra: Q
   slug: saude-servicos-sociais
@@ -34,11 +34,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de home care com equipe de enfermagem
+  - Prestador de cuidador de idosos em domicílio
+  - Serviço de internação domiciliar
+  - Empresa de apoio a pacientes acamados
+  - Prestador de assistência domiciliar pós-cirúrgica
+o_que_inclui:
+  - Fornecimento de estrutura e equipe para atendimento domiciliar
+  - Serviços de enfermagem e cuidadores em domicílio
+  - Apoio a pacientes acamados, idosos e em recuperação
+  - Coordenação de equipe multiprofissional no domicílio
+  - Fornecimento de equipamentos e insumos ao paciente
+o_que_nao_inclui:
+  - Atividades de atendimento em pronto-socorro e unidades hospitalares (use CNAE 8610-1/01)
+  - Atividades de enfermagem prestadas por profissional autônomo (use CNAE 8650-0/01)
+  - Aluguel de material médico (use CNAE 7729-2/03)
+  - Atividades de assistência social prestadas em residências coletivas (use CNAE 8730-1/99)
+  - Aluguel de equipamentos científicos, médicos e hospitalares (use CNAE 7739-0/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro no Conselho Regional de Medicina e de Enfermagem
+  - Responsável técnico habilitado pela equipe assistencial
+  - Conformidade com a LGPD no tratamento de dados de saúde
+cnaes_relacionados:
+  - 8610-1/01
+  - 8650-0/01
+  - 7729-2/03
+  - 7739-0/02
+  - 8730-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

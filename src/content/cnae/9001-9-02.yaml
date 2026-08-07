@@ -2,7 +2,7 @@ codigo: 9001-9/02
 codigo_slug: 9001-9-02
 codigo_numerico: '9001902'
 descricao_oficial: PRODUÇÃO MUSICAL
-descricao_plana: PRODUÇÃO MUSICAL
+descricao_plana: Produção musical, com organização e realização de shows, gravações e projetos musicais.
 secao:
   letra: R
   slug: artes-cultura-esporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Produtor musical de shows e turnês
+  - Estúdio com produção de artistas
+  - Produtora de eventos musicais
+  - Empresário de banda com produção própria
+  - Produtor de projetos musicais culturais
+o_que_inclui:
+  - Produção e realização de shows e apresentações musicais
+  - Direção artística e produção de gravações
+  - Contratação de músicos, técnicos e equipe de palco
+  - Organização de turnês e agenda de apresentações
+  - Captação de recursos e gestão de projetos musicais
+o_que_nao_inclui:
+  - Produção teatral (use CNAE 9001-9/01)
+  - Atividades de sonorização e de iluminação (use CNAE 9001-9/06)
+  - Atividades de gravação de som e de edição de música (use CNAE 5920-1/00)
+  - Ensino de música (use CNAE 8592-9/03)
+  - Bares e estabelecimentos especializados em servir bebidas, com entretenimento (use CNAE 5611-2/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Alvará de evento e licença de som para apresentações
+  - Certificado de Vistoria do Corpo de Bombeiros para o local do show
+  - Recolhimento de direitos autorais ao ECAD
+  - Contratos de cessão de direitos com artistas e compositores
+cnaes_relacionados:
+  - 9001-9/01
+  - 9001-9/06
+  - 5920-1/00
+  - 8592-9/03
+  - 5611-2/05
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

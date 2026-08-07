@@ -2,7 +2,7 @@ codigo: 8299-7/99
 codigo_slug: 8299-7-99
 codigo_numerico: '8299799'
 descricao_oficial: OUTRAS ATIVIDADES DE SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS NÃO ESPECIFICADAS ANTERIORMENTE
-descricao_plana: OUTRAS ATIVIDADES DE SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: Outras atividades de serviços prestados principalmente às empresas, sem código próprio na CNAE.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de serviços empresariais diversos
+  - Empresa de leitura de medidores para concessionárias
+  - Prestador de serviços de apoio a operações comerciais
+  - Empresa de inventário e contagem de estoques
+  - Prestador de serviços terceirizados sem categoria própria
+o_que_inclui:
+  - Serviços de apoio operacional prestados a empresas
+  - Leitura de medidores e coleta de dados em campo
+  - Inventário, contagem e conferência de estoques
+  - Serviços empresariais sem enquadramento em código próprio
+  - Prestação sob contrato a pessoas jurídicas
+o_que_nao_inclui:
+  - Preparação de documentos e serviços de apoio administrativo (use CNAE 8219-9/99)
+  - Atividades de cobranças e informações cadastrais (use CNAE 8291-1/00)
+  - Envasamento e empacotamento sob contrato (use CNAE 8292-0/00)
+  - Serviços combinados de escritório e apoio administrativo (use CNAE 8211-3/00)
+  - Atividades de consultoria em gestão empresarial (use CNAE 7020-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no tratamento de dados de clientes
+  - Contratos formais de prestação de serviço
+  - Programa de controle de riscos ocupacionais para equipes em campo
+cnaes_relacionados:
+  - 8219-9/99
+  - 8291-1/00
+  - 8292-0/00
+  - 8211-3/00
+  - 8299-7/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

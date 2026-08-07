@@ -2,7 +2,7 @@ codigo: 9512-6/00
 codigo_slug: 9512-6-00
 codigo_numerico: '9512600'
 descricao_oficial: REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE COMUNICAÇÃO
-descricao_plana: REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE COMUNICAÇÃO
+descricao_plana: Reparação e manutenção de equipamentos de comunicação, como celulares, roteadores e rádios.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Assistência técnica de celulares
+  - Prestador de troca de telas e baterias
+  - Empresa de manutenção de rádios comunicadores
+  - Assistência de roteadores e equipamentos de rede
+  - Técnico de reparo de smartphones a domicílio
+o_que_inclui:
+  - Reparo de celulares, smartphones e tablets
+  - Troca de telas, baterias, conectores e componentes
+  - Manutenção de roteadores e equipamentos de rede
+  - Reparo de rádios comunicadores e centrais telefônicas
+  - Atendimento em bancada ou no cliente
+o_que_nao_inclui:
+  - Reparação e manutenção de computadores e equipamentos periféricos (use CNAE 9511-8/00)
+  - Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico (use CNAE 9521-5/00)
+  - Comércio varejista especializado de equipamentos de telefonia e comunicação (use CNAE 4752-1/00)
+  - Outras atividades de telecomunicações não especificadas anteriormente (use CNAE 6190-6/99)
+  - Manutenção e reparação de máquinas, aparelhos e materiais elétricos (use CNAE 3313-9/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no acesso a dados dos clientes
+  - Cadastro em logística reversa de baterias e eletroeletrônicos
+  - Homologação Anatel dos equipamentos e peças utilizados
+cnaes_relacionados:
+  - 9511-8/00
+  - 9521-5/00
+  - 4752-1/00
+  - 6190-6/99
+  - 3313-9/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

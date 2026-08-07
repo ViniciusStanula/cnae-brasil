@@ -2,7 +2,7 @@ codigo: 8599-6/05
 codigo_slug: 8599-6-05
 codigo_numerico: '8599605'
 descricao_oficial: CURSOS PREPARATÓRIOS PARA CONCURSOS
-descricao_plana: CURSOS PREPARATÓRIOS PARA CONCURSOS
+descricao_plana: Cursos preparatórios para concursos, com aulas voltadas a provas públicas, vestibulares e certificações.
 secao:
   letra: P
   slug: educacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Cursinho preparatório para concursos públicos
+  - Curso pré-vestibular
+  - Preparatório para ENEM e Enem digital
+  - Curso para certificações profissionais
+  - Preparatório online com videoaulas
+o_que_inclui:
+  - Aulas preparatórias para concursos públicos
+  - Cursos pré-vestibulares e para o ENEM
+  - Preparação para certificações e exames de ordem
+  - Simulados, correção de provas e mentoria de estudo
+  - Aulas presenciais, online ou híbridas
+o_que_nao_inclui:
+  - Outras atividades de ensino não especificadas anteriormente (use CNAE 8599-6/99)
+  - Treinamento em informática (use CNAE 8599-6/03)
+  - Ensino de idiomas (use CNAE 8593-7/00)
+  - Educação superior de graduação (use CNAE 8531-7/00)
+  - Ensino médio (use CNAE 8520-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no cadastro de alunos
+  - Contrato de prestação de serviços educacionais com os alunos
+  - Respeito aos direitos autorais no material didático utilizado
+cnaes_relacionados:
+  - 8599-6/99
+  - 8599-6/03
+  - 8593-7/00
+  - 8592-9/99
+  - 8520-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

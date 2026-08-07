@@ -2,7 +2,7 @@ codigo: 9001-9/06
 codigo_slug: 9001-9-06
 codigo_numerico: '9001906'
 descricao_oficial: ATIVIDADES DE SONORIZAÇÃO E DE ILUMINAÇÃO
-descricao_plana: ATIVIDADES DE SONORIZAÇÃO E DE ILUMINAÇÃO
+descricao_plana: Atividades de sonorização e de iluminação, com fornecimento e operação de som e luz em eventos.
 secao:
   letra: R
   slug: artes-cultura-esporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de sonorização para eventos
+  - Prestador de iluminação cênica para shows
+  - Locadora de som e luz com operação
+  - Técnico de som autônomo para festas
+  - Empresa de estruturas de áudio e vídeo para eventos
+o_que_inclui:
+  - Fornecimento e operação de sistemas de som em eventos
+  - Montagem e operação de iluminação cênica
+  - Instalação de painéis de LED e projeção
+  - Equipe técnica de operação durante o evento
+  - Montagem e desmontagem dos equipamentos
+o_que_nao_inclui:
+  - Produção musical (use CNAE 9001-9/02)
+  - Produção teatral (use CNAE 9001-9/01)
+  - Aluguel de palcos, coberturas e estruturas temporárias (use CNAE 7739-0/03)
+  - Atividades de gravação de som e de edição de música (use CNAE 5920-1/00)
+  - Fabricação de painéis e letreiros luminosos (use CNAE 3299-0/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença de som e alvará de evento do município
+  - Registro no CREA com responsável técnico para estruturas e elétrica
+  - Cumprimento da NR-10 e NR-35 na montagem
+  - Certificado de Vistoria do Corpo de Bombeiros para o evento
+cnaes_relacionados:
+  - 9001-9/02
+  - 9001-9/01
+  - 7739-0/03
+  - 5920-1/00
+  - 8230-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

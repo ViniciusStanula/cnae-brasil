@@ -2,7 +2,7 @@ codigo: 8592-9/99
 codigo_slug: 8592-9-99
 codigo_numerico: '8592999'
 descricao_oficial: ENSINO DE ARTE E CULTURA NÃO ESPECIFICADO ANTERIORMENTE
-descricao_plana: ENSINO DE ARTE E CULTURA NÃO ESPECIFICADO ANTERIORMENTE
+descricao_plana: Ensino de arte e cultura sem código próprio, como artes plásticas, artesanato e cursos culturais.
 secao:
   letra: P
   slug: educacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ateliê com aulas de pintura e desenho
+  - Escola de artesanato e trabalhos manuais
+  - Oficina de cerâmica e escultura
+  - Curso livre de fotografia artística
+  - Espaço cultural com oficinas diversas
+o_que_inclui:
+  - Aulas de pintura, desenho e artes plásticas
+  - Oficinas de artesanato, cerâmica e trabalhos manuais
+  - Cursos livres de fotografia e expressão artística
+  - Oficinas culturais e de patrimônio
+  - Ensino de arte sem código próprio na CNAE
+o_que_nao_inclui:
+  - Ensino de música (use CNAE 8592-9/03)
+  - Ensino de dança (use CNAE 8592-9/01)
+  - Ensino de artes cênicas, exceto dança (use CNAE 8592-9/02)
+  - Outras atividades de ensino não especificadas anteriormente (use CNAE 8599-6/99)
+  - Atividades de artistas plásticos e criação artística (use CNAE 9002-7/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de fornos e produtos químicos
+  - Licença da vigilância sanitária, quando houver atendimento infantil
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 8592-9/03
+  - 8592-9/01
+  - 8592-9/02
+  - 8599-6/99
+  - 9002-7/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

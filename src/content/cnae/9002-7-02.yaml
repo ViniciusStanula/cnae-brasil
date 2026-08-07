@@ -2,7 +2,7 @@ codigo: 9002-7/02
 codigo_slug: 9002-7-02
 codigo_numerico: '9002702'
 descricao_oficial: RESTAURAÇÃO DE OBRAS DE ARTE
-descricao_plana: RESTAURAÇÃO DE OBRAS DE ARTE
+descricao_plana: Restauração de obras de arte, com recuperação de pinturas, esculturas e bens culturais.
 secao:
   letra: R
   slug: artes-cultura-esporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Restaurador de pinturas e telas
+  - Ateliê de restauro de esculturas
+  - Prestador de restauração de bens tombados
+  - Restaurador de móveis e objetos históricos
+  - Empresa de conservação de acervos museológicos
+o_que_inclui:
+  - Restauração de pinturas, telas e obras sobre papel
+  - Recuperação de esculturas e objetos artísticos
+  - Conservação preventiva de acervos e coleções
+  - Restauro de bens tombados e patrimônio histórico
+  - Diagnóstico técnico e laudo de conservação
+o_que_nao_inclui:
+  - Atividades de artistas plásticos, jornalistas independentes e escritores (use CNAE 9002-7/01)
+  - Comércio varejista de objetos de arte (use CNAE 4789-0/03)
+  - Comércio varejista de antiguidades (use CNAE 4785-7/01)
+  - Reparação de móveis e de objetos do mobiliário (use CNAE 9529-1/04)
+  - Atividades de museus e de exploração de lugares históricos (use CNAE 9102-3/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização do IPHAN para intervenção em bens tombados
+  - Licença ambiental para uso e descarte de solventes
+  - Programa de controle de riscos ocupacionais pela exposição a químicos
+  - Seguro sobre as obras sob responsabilidade do restaurador
+cnaes_relacionados:
+  - 9002-7/01
+  - 4789-0/03
+  - 4785-7/01
+  - 9529-1/04
+  - 9102-3/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

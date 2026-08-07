@@ -1,4 +1,4 @@
-codigo: 8299-7/07
+﻿codigo: 8299-7/07
 codigo_slug: 8299-7-07
 codigo_numerico: '8299707'
 descricao_oficial: SALAS DE ACESSO À INTERNET
@@ -44,7 +44,7 @@ o_que_inclui:
   - Venda de lanches e bebidas como atividade acessória
 o_que_nao_inclui:
   - Fotocópias (use CNAE 8219-9/01)
-  - Exploração de jogos eletrônicos recreativos (use CNAE 9329-8/03)
+  - Exploração de jogos eletrônicos recreativos (use CNAE 9329-8/04)
   - Serviços de comunicação multimídia, como provedores de internet (use CNAE 6110-8/03)
   - Reparação e manutenção de computadores e periféricos (use CNAE 9511-8/00)
   - Aluguel de máquinas e equipamentos para escritórios (use CNAE 7733-1/00)
@@ -56,7 +56,7 @@ licencas_comuns:
   - Controle de acesso de menores conforme legislação municipal
 cnaes_relacionados:
   - 8219-9/01
-  - 9329-8/03
+  - 9329-8/04
   - 6110-8/03
   - 9511-8/00
   - 7733-1/00

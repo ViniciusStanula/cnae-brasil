@@ -2,7 +2,7 @@ codigo: 8599-6/99
 codigo_slug: 8599-6-99
 codigo_numerico: '8599699'
 descricao_oficial: OUTRAS ATIVIDADES DE ENSINO NÃO ESPECIFICADAS ANTERIORMENTE
-descricao_plana: OUTRAS ATIVIDADES DE ENSINO NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: Outras atividades de ensino sem código próprio, como cursos livres profissionalizantes e oficinas diversas.
 secao:
   letra: P
   slug: educacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Curso livre profissionalizante
+  - Oficina de culinária e gastronomia
+  - Curso de maquiagem e estética
+  - Treinamento em vendas e atendimento
+  - Curso livre de fotografia técnica
+o_que_inclui:
+  - Cursos livres profissionalizantes de curta duração
+  - Oficinas de culinária, estética e beleza
+  - Treinamentos comportamentais e de vendas
+  - Cursos técnicos livres sem reconhecimento formal
+  - Aulas presenciais, em domicílio ou online
+o_que_nao_inclui:
+  - Ensino de idiomas (use CNAE 8593-7/00)
+  - Treinamento em informática (use CNAE 8599-6/03)
+  - Cursos preparatórios para concursos (use CNAE 8599-6/05)
+  - Ensino de arte e cultura não especificado anteriormente (use CNAE 8592-9/99)
+  - Educação profissional de nível técnico (use CNAE 8541-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária para cursos de alimentos e estética
+  - Conformidade com a LGPD no cadastro de alunos
+  - Contrato de prestação de serviços educacionais com os alunos
+cnaes_relacionados:
+  - 8593-7/00
+  - 8599-6/03
+  - 8599-6/05
+  - 8592-9/99
+  - 8541-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'

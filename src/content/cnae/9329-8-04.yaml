@@ -2,7 +2,7 @@ codigo: 9329-8/04
 codigo_slug: 9329-8-04
 codigo_numerico: '9329804'
 descricao_oficial: EXPLORAÇÃO DE JOGOS ELETRÔNICOS RECREATIVOS
-descricao_plana: EXPLORAÇÃO DE JOGOS ELETRÔNICOS RECREATIVOS
+descricao_plana: Exploração de jogos eletrônicos recreativos, com máquinas e consoles disponibilizados ao público.
 secao:
   letra: R
   slug: artes-cultura-esporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fliperama com máquinas arcade
+  - Espaço de jogos eletrônicos em shopping
+  - Centro de e-sports com consoles por hora
+  - Sala de realidade virtual recreativa
+  - Espaço de games para festas e eventos
+o_que_inclui:
+  - Operação de fliperamas e máquinas arcade
+  - Disponibilização de consoles e computadores para jogos por tempo
+  - Operação de simuladores e cabines de realidade virtual
+  - Organização de campeonatos e torneios de jogos
+  - Venda de lanches e bebidas como atividade acessória
+o_que_nao_inclui:
+  - Exploração de jogos de sinuca, bilhar e similares (use CNAE 9329-8/03)
+  - Salas de acesso à internet (use CNAE 8299-7/07)
+  - Aluguel de aparelhos de jogos eletrônicos (use CNAE 7729-2/01)
+  - Outras atividades de recreação e lazer não especificadas anteriormente (use CNAE 9329-8/99)
+  - Fabricação de jogos eletrônicos (use CNAE 3240-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Classificação indicativa dos jogos disponibilizados
+  - Licenciamento de direitos autorais dos jogos
+  - Controle de acesso de menores conforme legislação municipal
+cnaes_relacionados:
+  - 9329-8/03
+  - 8299-7/07
+  - 7729-2/01
+  - 9329-8/99
+  - 3240-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:39:36.266Z'
