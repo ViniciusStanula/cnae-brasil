@@ -2,7 +2,9 @@ codigo: 4759-8/99
 codigo_slug: 4759-8-99
 codigo_numerico: '4759899'
 descricao_oficial: COMÉRCIO VAREJISTA DE OUTROS ARTIGOS DE USO PESSOAL E DOMÉSTICO NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: COMÉRCIO VAREJISTA DE OUTROS ARTIGOS DE USO PESSOAL E DOMÉSTICO NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Comércio varejista de outros artigos de uso pessoal e doméstico sem código próprio, como utilidades, decoração e
+  presentes.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de utilidades domésticas e decoração
+  - Comércio de artigos de presente e casa
+  - Loja de plantas artificiais e objetos decorativos
+  - Comércio online de artigos para o lar
+  - Loja de organizadores e utensílios domésticos
+o_que_inclui:
+  - Venda de utensílios domésticos, panelas e organizadores
+  - Comércio de artigos de decoração e objetos de casa
+  - Venda de artigos de presente e uso pessoal
+  - Comércio de itens sem enquadramento em código próprio
+  - Venda em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos de tapeçaria, cortinas e persianas (use CNAE 4759-8/01)
+  - Comércio varejista de suvenires, bijuterias e artesanato (use CNAE 4789-0/01)
+  - Lojas de variedades, exceto lojas de departamentos (use CNAE 4713-0/02)
+  - Comércio varejista de móveis (use CNAE 4754-7/01)
+  - Comércio varejista de artigos de cama, mesa e banho (use CNAE 4755-5/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação Inmetro para produtos que a exijam
+  - Licença da vigilância sanitária, quando comercializar itens de higiene
+cnaes_relacionados:
+  - 4759-8/01
+  - 4789-0/01
+  - 4713-0/02
+  - 4754-7/01
+  - 4755-5/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'

@@ -2,7 +2,7 @@ codigo: 4763-6/03
 codigo_slug: 4763-6-03
 codigo_numerico: '4763603'
 descricao_oficial: COMÉRCIO VAREJISTA DE BICICLETAS E TRICICLOS; PEÇAS E ACESSÓRIOS
-descricao_plana: COMÉRCIO VAREJISTA DE BICICLETAS E TRICICLOS; PEÇAS E ACESSÓRIOS
+descricao_plana: Comércio varejista de bicicletas, triciclos, peças e acessórios, incluindo serviços de montagem e ajuste.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de bicicletas de bairro
+  - Bicicletaria com venda e manutenção
+  - Comércio de peças e acessórios para ciclismo
+  - Loja online de bicicletas
+  - Comércio de bicicletas elétricas
+o_que_inclui:
+  - Venda de bicicletas, triciclos e bicicletas elétricas
+  - Comércio de peças, pneus, câmaras e componentes
+  - Venda de capacetes, luvas e acessórios de ciclismo
+  - Montagem, regulagem e manutenção como serviço acessório
+  - Venda em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos esportivos (use CNAE 4763-6/02)
+  - Comércio varejista de brinquedos e artigos recreativos (use CNAE 4763-6/01)
+  - Comércio a varejo de motocicletas e motonetas novas (use CNAE 4541-2/03)
+  - Fabricação de bicicletas e triciclos não motorizados (use CNAE 3092-0/00)
+  - Reparação de bicicletas sem venda associada (use CNAE 9529-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação Inmetro para capacetes e bicicletas infantis
+  - Cadastro em logística reversa de pneus e baterias
+cnaes_relacionados:
+  - 4763-6/02
+  - 4763-6/01
+  - 3092-0/00
+  - 4541-2/03
+  - 9529-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'

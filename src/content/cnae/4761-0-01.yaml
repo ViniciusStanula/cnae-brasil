@@ -2,7 +2,7 @@ codigo: 4761-0/01
 codigo_slug: 4761-0-01
 codigo_numerico: '4761001'
 descricao_oficial: COMÉRCIO VAREJISTA DE LIVROS
-descricao_plana: COMÉRCIO VAREJISTA DE LIVROS
+descricao_plana: Comércio varejista de livros, novos ou usados, em livraria física, sebo ou pela internet.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Livraria de bairro
+  - Sebo com livros usados
+  - Comércio online de livros
+  - Livraria especializada em técnicos e didáticos
+  - Banca de livros em feira
+o_que_inclui:
+  - Venda de livros novos de todos os gêneros
+  - Comércio de livros usados e raros em sebo
+  - Venda de livros didáticos, técnicos e universitários
+  - Comércio de e-books e audiolivros em mídia física
+  - Venda em loja física, feira ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de jornais e revistas (use CNAE 4761-0/02)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+  - Edição de livros (use CNAE 5811-5/00)
+  - Impressão de livros, revistas e outras publicações periódicas (use CNAE 1811-3/02)
+  - Aluguel de livros e bibliotecas (use CNAE 9101-5/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Autorização municipal para banca em via pública, quando aplicável
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 4761-0/02
+  - 4761-0/03
+  - 5811-5/00
+  - 1811-3/02
+  - 4762-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'

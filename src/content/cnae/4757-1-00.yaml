@@ -5,8 +5,8 @@ descricao_oficial: >-
   COMÉRCIO VAREJISTA ESPECIALIZADO DE PEÇAS E ACESSÓRIOS PARA APARELHOS ELETROELETRÔNICOS PARA USO DOMÉSTICO, EXCETO
   INFORMÁTICA E COMUNICAÇÃO
 descricao_plana: >-
-  COMÉRCIO VAREJISTA ESPECIALIZADO DE PEÇAS E ACESSÓRIOS PARA APARELHOS ELETROELETRÔNICOS PARA USO DOMÉSTICO, EXCETO
-  INFORMÁTICA E COMUNICAÇÃO
+  Comércio varejista especializado de peças e acessórios para eletroeletrônicos de uso doméstico, exceto informática e
+  comunicação.
 secao:
   letra: G
   slug: comercio
@@ -36,11 +36,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de peças para eletrodomésticos
+  - Comércio de componentes para geladeiras e fogões
+  - Loja de resistências e termostatos
+  - Comércio online de peças para eletroportáteis
+  - Loja de peças para máquinas de lavar
+o_que_inclui:
+  - Venda de peças de reposição para geladeiras, fogões e lavadoras
+  - Comércio de resistências, termostatos, motores e placas
+  - Venda de acessórios para eletroportáteis e liquidificadores
+  - Comércio de componentes para ar-condicionado doméstico
+  - Atendimento a consumidor final e a oficinas de reparo
+o_que_nao_inclui:
+  - Comércio varejista especializado de equipamentos e suprimentos de informática (use CNAE 4751-2/01)
+  - Comércio varejista especializado de equipamentos de telefonia (use CNAE 4752-1/00)
+  - Comércio varejista de eletrodomésticos e equipamentos de áudio e vídeo (use CNAE 4753-9/00)
+  - Reparação e manutenção de equipamentos eletrodomésticos (use CNAE 9521-5/00)
+  - Comércio varejista de material elétrico (use CNAE 4742-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Comercialização apenas de produtos com certificação Inmetro
+  - Cadastro em logística reversa de eletroeletrônicos
+cnaes_relacionados:
+  - 4753-9/00
+  - 9521-5/00
+  - 4742-3/00
+  - 4751-2/01
+  - 4752-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'

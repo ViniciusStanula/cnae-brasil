@@ -2,7 +2,7 @@ codigo: 4763-6/01
 codigo_slug: 4763-6-01
 codigo_numerico: '4763601'
 descricao_oficial: COMÉRCIO VAREJISTA DE BRINQUEDOS E ARTIGOS RECREATIVOS
-descricao_plana: COMÉRCIO VAREJISTA DE BRINQUEDOS E ARTIGOS RECREATIVOS
+descricao_plana: Comércio varejista de brinquedos e artigos recreativos, como bonecas, jogos, quebra-cabeças e brinquedos educativos.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de brinquedos de bairro
+  - Comércio de brinquedos educativos
+  - Loja de jogos de tabuleiro e board games
+  - Comércio online de brinquedos
+  - Quiosque de brinquedos em shopping
+o_que_inclui:
+  - Venda de bonecas, carrinhos, pelúcias e brinquedos de montar
+  - Comércio de jogos de tabuleiro, cartas e quebra-cabeças
+  - Venda de brinquedos educativos e pedagógicos
+  - Comércio de brinquedos eletrônicos e videogames de brinquedo
+  - Venda em loja física, quiosque ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos esportivos (use CNAE 4763-6/02)
+  - Comércio varejista de bicicletas e triciclos (use CNAE 4763-6/03)
+  - Fabricação de outros brinquedos e jogos recreativos (use CNAE 3240-0/99)
+  - Lojas de variedades, exceto lojas de departamentos (use CNAE 4713-0/02)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Comercialização apenas de brinquedos com certificação Inmetro
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 4763-6/02
+  - 4763-6/03
+  - 3240-0/99
+  - 4713-0/02
+  - 4761-0/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'

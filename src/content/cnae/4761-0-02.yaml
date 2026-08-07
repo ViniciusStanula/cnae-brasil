@@ -2,7 +2,7 @@ codigo: 4761-0/02
 codigo_slug: 4761-0-02
 codigo_numerico: '4761002'
 descricao_oficial: COMÉRCIO VAREJISTA DE JORNAIS E REVISTAS
-descricao_plana: COMÉRCIO VAREJISTA DE JORNAIS E REVISTAS
+descricao_plana: Comércio varejista de jornais e revistas, em banca de rua, loja ou por assinatura.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Banca de jornais e revistas
+  - Comércio de publicações periódicas em loja
+  - Distribuidor de revistas por assinatura
+  - Banca com venda de colecionáveis e fascículos
+  - Comércio de jornais em ponto fixo
+o_que_inclui:
+  - Venda de jornais diários e periódicos
+  - Comércio de revistas, fascículos e colecionáveis
+  - Venda de publicações por assinatura
+  - Comércio de itens complementares em banca, como balas e cartões
+  - Venda em banca de rua, quiosque ou loja
+o_que_nao_inclui:
+  - Comércio varejista de livros (use CNAE 4761-0/01)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+  - Edição de jornais (use CNAE 5812-3/01)
+  - Impressão de jornais (use CNAE 1811-3/01)
+  - Comércio varejista de discos, CDs, DVDs e fitas (use CNAE 4762-8/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Permissão municipal para banca em via pública
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros, quando houver loja
+  - Licença da vigilância sanitária, quando vender alimentos embalados
+cnaes_relacionados:
+  - 4761-0/01
+  - 4761-0/03
+  - 5812-3/01
+  - 1811-3/01
+  - 4762-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'

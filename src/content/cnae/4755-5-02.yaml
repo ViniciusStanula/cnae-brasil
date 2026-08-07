@@ -2,7 +2,9 @@ codigo: 4755-5/02
 codigo_slug: 4755-5-02
 codigo_numerico: '4755502'
 descricao_oficial: COMERCIO VAREJISTA DE ARTIGOS DE ARMARINHO
-descricao_plana: COMERCIO VAREJISTA DE ARTIGOS DE ARMARINHO
+descricao_plana: >-
+  Comércio varejista de artigos de armarinho, como linhas, botões, zíperes, fitas e aviamentos para costura e
+  artesanato.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Armarinho de bairro com aviamentos
+  - Loja de linhas e materiais para crochê
+  - Comércio de botões, zíperes e fitas
+  - Loja de artesanato e aviamentos
+  - Comércio online de armarinho
+o_que_inclui:
+  - Venda de linhas, agulhas, alfinetes e fitas
+  - Comércio de botões, zíperes, elásticos e colchetes
+  - Venda de lãs, barbantes e materiais para tricô e crochê
+  - Comércio de apliques, rendas e materiais de artesanato
+  - Venda em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de tecidos (use CNAE 4755-5/01)
+  - Comércio varejista de artigos de cama, mesa e banho (use CNAE 4755-5/03)
+  - Fabricação de aviamentos para costura (use CNAE 3299-0/05)
+  - Fabricação de linhas para costurar e bordar (use CNAE 1314-6/00)
+  - Comércio atacadista de artigos de armarinho (use CNAE 4641-9/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Certificação Inmetro para artigos infantis, quando aplicável
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 4755-5/01
+  - 4755-5/03
+  - 3299-0/05
+  - 1314-6/00
+  - 4759-8/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'

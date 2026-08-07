@@ -2,7 +2,7 @@ codigo: 4759-8/01
 codigo_slug: 4759-8-01
 codigo_numerico: '4759801'
 descricao_oficial: COMÉRCIO VAREJISTA DE ARTIGOS DE TAPEÇARIA, CORTINAS E PERSIANAS
-descricao_plana: COMÉRCIO VAREJISTA DE ARTIGOS DE TAPEÇARIA, CORTINAS E PERSIANAS
+descricao_plana: Comércio varejista de artigos de tapeçaria, cortinas e persianas, incluindo tapetes e sistemas de sombreamento.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de cortinas e persianas sob medida
+  - Comércio de tapetes e passadeiras
+  - Loja de papel de parede e revestimentos decorativos
+  - Comércio de cortinas com instalação
+  - Loja online de artigos de decoração têxtil
+o_que_inclui:
+  - Venda de cortinas, persianas e sistemas de sombreamento
+  - Comércio de tapetes, passadeiras e capachos
+  - Venda de papel de parede e revestimentos decorativos
+  - Medição e instalação como serviço acessório à venda
+  - Comércio em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos de cama, mesa e banho (use CNAE 4755-5/03)
+  - Fabricação de artefatos de tapeçaria (use CNAE 1352-9/00)
+  - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
+  - Outras obras de acabamento da construção (use CNAE 4330-4/99)
+  - Comércio varejista de outros artigos de uso pessoal e doméstico (use CNAE 4759-8/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem têxtil conforme regras do Inmetro
+  - Cumprimento da NR-35 quando houver instalação em altura
+cnaes_relacionados:
+  - 4755-5/03
+  - 1352-9/00
+  - 1351-1/00
+  - 4759-8/99
+  - 4330-4/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:22:09.502Z'
