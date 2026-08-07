@@ -1,4 +1,4 @@
-codigo: 9002-7/02
+﻿codigo: 9002-7/02
 codigo_slug: 9002-7-02
 codigo_numerico: '9002702'
 descricao_oficial: RESTAURAÇÃO DE OBRAS DE ARTE
@@ -46,7 +46,7 @@ o_que_nao_inclui:
   - Atividades de artistas plásticos, jornalistas independentes e escritores (use CNAE 9002-7/01)
   - Comércio varejista de objetos de arte (use CNAE 4789-0/03)
   - Comércio varejista de antiguidades (use CNAE 4785-7/01)
-  - Reparação de móveis e de objetos do mobiliário (use CNAE 9529-1/04)
+  - Reparação de móveis e de objetos do mobiliário (use CNAE 9529-1/05)
   - Atividades de museus e de exploração de lugares históricos (use CNAE 9102-3/01)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
@@ -58,7 +58,7 @@ cnaes_relacionados:
   - 9002-7/01
   - 4789-0/03
   - 4785-7/01
-  - 9529-1/04
+  - 9529-1/05
   - 9102-3/01
 enriched: true
 last_reviewed: '2026-05-22'

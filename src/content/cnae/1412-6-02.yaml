@@ -1,4 +1,4 @@
-codigo: 1412-6/02
+﻿codigo: 1412-6/02
 codigo_slug: 1412-6-02
 codigo_numerico: '1412602'
 descricao_oficial: CONFECÇÃO, SOB MEDIDA, DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS
@@ -46,7 +46,7 @@ o_que_nao_inclui:
   - Confecção de peças de vestuário em série (use CNAE 1412-6/01)
   - Facção de peças do vestuário para terceiros (use CNAE 1412-6/03)
   - Confecção sob medida de roupas profissionais (use CNAE 1413-4/02)
-  - Serviços de reparação e ajuste de roupas já prontas (use CNAE 9529-1/05)
+  - Serviços de reparação e ajuste de roupas já prontas (use CNAE 9529-1/99)
   - Aluguel de roupas e trajes (use CNAE 7729-2/02)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
@@ -57,7 +57,7 @@ cnaes_relacionados:
   - 1412-6/01
   - 1412-6/03
   - 1413-4/02
-  - 9529-1/05
+  - 9529-1/99
   - 1414-2/00
 enriched: true
 last_reviewed: '2026-05-22'

@@ -1,4 +1,4 @@
-codigo: 3104-7/00
+﻿codigo: 3104-7/00
 codigo_slug: 3104-7-00
 codigo_numerico: '3104700'
 descricao_oficial: FABRICAÇÃO DE COLCHÕES
@@ -47,7 +47,7 @@ o_que_nao_inclui:
   - Fabricação de móveis de outros materiais, como estofados (use CNAE 3103-9/00)
   - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
   - Comércio varejista de colchões (use CNAE 4754-7/02)
-  - Reforma de colchões usados (use CNAE 9529-1/04)
+  - Reforma de colchões usados (use CNAE 9529-1/05)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
   - Certificação compulsória do Inmetro para colchões

@@ -2,7 +2,7 @@ codigo: 9601-7/03
 codigo_slug: 9601-7-03
 codigo_numerico: '9601703'
 descricao_oficial: TOALHEIROS
-descricao_plana: TOALHEIROS
+descricao_plana: Toalheiros, com aluguel e higienização de toalhas, uniformes e enxovais para empresas.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Toalheiro para restaurantes e bares
+  - Empresa de aluguel de uniformes higienizados
+  - Prestador de enxoval para hotéis
+  - Toalheiro para clínicas e salões de beleza
+  - Empresa de rouparia com troca periódica
+o_que_inclui:
+  - Aluguel de toalhas, guardanapos e panos para empresas
+  - Fornecimento e higienização de uniformes
+  - Enxoval rotativo para hotéis, clínicas e restaurantes
+  - Coleta, lavagem, higienização e entrega periódica
+  - Controle de estoque e reposição das peças
+o_que_nao_inclui:
+  - Lavanderias (use CNAE 9601-7/01)
+  - Tinturarias (use CNAE 9601-7/02)
+  - Aluguel de objetos do vestuário, joias e acessórios (use CNAE 7723-3/00)
+  - Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal (use CNAE 7729-2/02)
+  - Comércio varejista de artigos de cama, mesa e banho (use CNAE 4755-5/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Protocolo de higienização conforme exigência sanitária do cliente
+cnaes_relacionados:
+  - 9601-7/01
+  - 9601-7/02
+  - 7723-3/00
+  - 7729-2/02
+  - 4755-5/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

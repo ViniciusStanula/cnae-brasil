@@ -2,7 +2,7 @@ codigo: 9609-2/08
 codigo_slug: 9609-2-08
 codigo_numerico: '9609208'
 descricao_oficial: HIGIENE E EMBELEZAMENTO DE ANIMAIS DOMÉSTICOS
-descricao_plana: HIGIENE E EMBELEZAMENTO DE ANIMAIS DOMÉSTICOS
+descricao_plana: Higiene e embelezamento de animais domésticos, com banho, tosa e cuidados estéticos para pets.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Pet shop com banho e tosa
+  - Banho e tosa móvel em van adaptada
+  - Estúdio de tosa higiênica e estética
+  - Prestador de banho e tosa a domicílio
+  - Spa para cães e gatos
+o_que_inclui:
+  - Banho, secagem e escovação de cães e gatos
+  - Tosa higiênica, estética e na máquina
+  - Corte de unhas, limpeza de ouvidos e escovação de dentes
+  - Tratamentos estéticos e hidratação de pelagem
+  - Atendimento em loja, unidade móvel ou domicílio
+o_que_nao_inclui:
+  - Alojamento de animais domésticos (use CNAE 9609-2/07)
+  - Atividades veterinárias (use CNAE 7500-1/00)
+  - Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação (use CNAE 4789-0/04)
+  - Criação de animais de estimação (use CNAE 0159-8/02)
+  - Serviços de adestramento de cães de guarda (use CNAE 8011-1/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Registro no CRMV com responsável técnico, conforme exigência estadual
+  - Licença ambiental para tratamento de efluentes do banho
+  - Cumprimento das normas de bem-estar animal
+cnaes_relacionados:
+  - 9609-2/07
+  - 7500-1/00
+  - 4789-0/04
+  - 0159-8/02
+  - 9602-5/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

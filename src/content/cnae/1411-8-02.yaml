@@ -1,4 +1,4 @@
-codigo: 1411-8/02
+﻿codigo: 1411-8/02
 codigo_slug: 1411-8-02
 codigo_numerico: '1411802'
 descricao_oficial: FACÇÃO DE ROUPAS ÍNTIMAS
@@ -46,7 +46,7 @@ o_que_nao_inclui:
   - Confecção de roupas íntimas com material e marca próprios (use CNAE 1411-8/01)
   - Facção de peças do vestuário que não roupas íntimas (use CNAE 1412-6/03)
   - Facção de roupas profissionais (use CNAE 1413-4/03)
-  - Serviços de reparação e ajuste de roupas (use CNAE 9529-1/05)
+  - Serviços de reparação e ajuste de roupas (use CNAE 9529-1/99)
   - Comércio varejista de roupas íntimas (use CNAE 4781-4/00)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município

@@ -1,4 +1,4 @@
-codigo: 8011-1/02
+﻿codigo: 8011-1/02
 codigo_slug: 8011-1-02
 codigo_numerico: '8011102'
 descricao_oficial: SERVIÇOS DE ADESTRAMENTO DE CÃES DE GUARDA
@@ -45,7 +45,7 @@ o_que_inclui:
 o_que_nao_inclui:
   - Atividades de vigilância e segurança privada (use CNAE 8011-1/01)
   - Outras atividades de serviços de segurança (use CNAE 8020-0/02)
-  - Serviços de higiene e embelezamento de animais domésticos (use CNAE 9609-2/06)
+  - Serviços de higiene e embelezamento de animais domésticos (use CNAE 9609-2/08)
   - Atividades veterinárias (use CNAE 7500-1/00)
   - Criação de animais de estimação (use CNAE 0159-8/02)
 licencas_comuns:
@@ -57,7 +57,7 @@ licencas_comuns:
 cnaes_relacionados:
   - 8011-1/01
   - 8020-0/02
-  - 9609-2/06
+  - 9609-2/08
   - 7500-1/00
   - 0159-8/02
 enriched: true

@@ -1,4 +1,4 @@
-codigo: 4785-7/01
+﻿codigo: 4785-7/01
 codigo_slug: 4785-7-01
 codigo_numerico: '4785701'
 descricao_oficial: COMÉRCIO VAREJISTA DE ANTIGÜIDADES
@@ -47,7 +47,7 @@ o_que_nao_inclui:
   - Comércio varejista de objetos de arte (use CNAE 4789-0/03)
   - Comércio varejista de discos, CDs, DVDs e fitas (use CNAE 4762-8/00)
   - Comércio varejista de livros, incluindo sebos (use CNAE 4761-0/01)
-  - Restauração de móveis e objetos antigos (use CNAE 9529-1/04)
+  - Restauração de móveis e objetos antigos (use CNAE 9529-1/05)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
   - Inscrição estadual para circulação de mercadorias
@@ -59,7 +59,7 @@ cnaes_relacionados:
   - 4789-0/03
   - 4762-8/00
   - 4761-0/01
-  - 9529-1/04
+  - 9529-1/05
 enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024

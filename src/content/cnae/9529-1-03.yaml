@@ -2,7 +2,7 @@ codigo: 9529-1/03
 codigo_slug: 9529-1-03
 codigo_numerico: '9529103'
 descricao_oficial: REPARAÇÃO DE RELÓGIOS
-descricao_plana: REPARAÇÃO DE RELÓGIOS
+descricao_plana: Reparação de relógios, com conserto de mecanismos, troca de baterias e revisão de peças.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Relojoeiro com conserto de relógios de pulso
+  - Oficina de restauro de relógios antigos
+  - Prestador de troca de baterias e pulseiras
+  - Assistência de relógios de parede e carrilhões
+  - Relojoeiro especializado em mecanismos automáticos
+o_que_inclui:
+  - Conserto de mecanismos de relógios de pulso e parede
+  - Troca de baterias, pulseiras e vidros
+  - Limpeza, lubrificação e regulagem de máquinas
+  - Restauro de relógios antigos e de coleção
+  - Teste de estanqueidade e ajuste de precisão
+o_que_nao_inclui:
+  - Comércio varejista de artigos de relojoaria (use CNAE 4783-1/02)
+  - Reparação de joias (use CNAE 9529-1/06)
+  - Fabricação de artefatos de joalheria e ourivesaria (use CNAE 3211-6/02)
+  - Manutenção e reparação de aparelhos e instrumentos de medida, teste e controle (use CNAE 3312-1/02)
+  - Reparação e manutenção de outros objetos pessoais e domésticos (use CNAE 9529-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro em logística reversa de pilhas e baterias
+  - Seguro sobre as peças sob responsabilidade da oficina
+  - Inscrição estadual, quando comercializar mercadorias
+cnaes_relacionados:
+  - 4783-1/02
+  - 9529-1/06
+  - 3211-6/02
+  - 3312-1/02
+  - 9529-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

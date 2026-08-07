@@ -1,4 +1,4 @@
-codigo: 4789-0/04
+﻿codigo: 4789-0/04
 codigo_slug: 4789-0-04
 codigo_numerico: '4789004'
 descricao_oficial: COMÉRCIO VAREJISTA DE ANIMAIS VIVOS E DE ARTIGOS E ALIMENTOS PARA ANIMAIS DE ESTIMAÇÃO
@@ -48,7 +48,7 @@ o_que_nao_inclui:
   - Criação de animais de estimação (use CNAE 0159-8/02)
   - Criação de peixes ornamentais em água doce (use CNAE 0322-1/04)
   - Atividades veterinárias (use CNAE 7500-1/00)
-  - Serviços de higiene e embelezamento de animais domésticos (use CNAE 9609-2/06)
+  - Serviços de higiene e embelezamento de animais domésticos (use CNAE 9609-2/08)
   - Fabricação de alimentos para animais (use CNAE 1066-0/00)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
@@ -60,7 +60,7 @@ cnaes_relacionados:
   - 0159-8/02
   - 0322-1/04
   - 7500-1/00
-  - 9609-2/06
+  - 9609-2/08
   - 1066-0/00
 enriched: true
 last_reviewed: '2026-05-22'

@@ -2,7 +2,7 @@ codigo: 9529-1/01
 codigo_slug: 9529-1-01
 codigo_numerico: '9529101'
 descricao_oficial: REPARAÇÃO DE CALÇADOS, DE BOLSAS E ARTIGOS DE VIAGEM
-descricao_plana: REPARAÇÃO DE CALÇADOS, DE BOLSAS E ARTIGOS DE VIAGEM
+descricao_plana: Reparação de calçados, bolsas e artigos de viagem, com conserto de solados, costuras e ferragens.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Sapataria com conserto de calçados
+  - Prestador de reforma de bolsas e mochilas
+  - Oficina de conserto de malas de viagem
+  - Sapateiro com troca de solados e saltos
+  - Ateliê de restauro de artigos de couro
+o_que_inclui:
+  - Troca de solados, saltos, palmilhas e tapas
+  - Conserto de costuras, zíperes e fechos de calçados
+  - Reparo de bolsas, mochilas, malas e pastas
+  - Tingimento, limpeza e restauro de peças de couro
+  - Atendimento ao consumidor final em oficina
+o_que_nao_inclui:
+  - Acabamento de calçados de couro sob contrato para fabricantes (use CNAE 1531-9/02)
+  - Fabricação de calçados de couro (use CNAE 1531-9/01)
+  - Fabricação de artigos para viagem, bolsas e semelhantes (use CNAE 1521-1/00)
+  - Comércio varejista de calçados (use CNAE 4782-2/01)
+  - Reparação e manutenção de outros objetos pessoais e domésticos (use CNAE 9529-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de colas e solventes
+  - Programa de controle de riscos ocupacionais
+  - Inscrição estadual, quando comercializar mercadorias
+cnaes_relacionados:
+  - 1531-9/02
+  - 1531-9/01
+  - 1521-1/00
+  - 4782-2/01
+  - 9529-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

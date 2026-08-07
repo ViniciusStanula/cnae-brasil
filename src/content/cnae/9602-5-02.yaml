@@ -2,7 +2,7 @@ codigo: 9602-5/02
 codigo_slug: 9602-5-02
 codigo_numerico: '9602502'
 descricao_oficial: ATIVIDADES DE ESTÉTICA E OUTROS SERVIÇOS DE CUIDADOS COM A BELEZA
-descricao_plana: ATIVIDADES DE ESTÉTICA E OUTROS SERVIÇOS DE CUIDADOS COM A BELEZA
+descricao_plana: Atividades de estética e outros serviços de cuidados com a beleza, como limpeza de pele, depilação e manicure.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Clínica de estética facial e corporal
+  - Manicure e pedicure autônoma
+  - Estúdio de depilação
+  - Espaço de design de sobrancelhas e cílios
+  - Esteticista com atendimento a domicílio
+o_que_inclui:
+  - Limpeza de pele, peeling e tratamentos faciais
+  - Depilação com cera, linha ou laser estético
+  - Manicure, pedicure e alongamento de unhas
+  - Design de sobrancelhas, cílios e micropigmentação estética
+  - Massagens estéticas e tratamentos corporais
+o_que_nao_inclui:
+  - Cabeleireiros, manicure e pedicure em salão (use CNAE 9602-5/01)
+  - Serviços de tatuagem e colocação de piercing (use CNAE 9609-2/06)
+  - Atividades de profissionais da área de saúde, como dermatologia (use CNAE 8630-5/03)
+  - Atividades de fisioterapia (use CNAE 8650-0/04)
+  - Comércio varejista de cosméticos e produtos de perfumaria (use CNAE 4772-5/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Protocolo de esterilização e descarte de perfurocortantes
+  - Formação técnica comprovada dos profissionais
+cnaes_relacionados:
+  - 9602-5/01
+  - 9609-2/06
+  - 8630-5/03
+  - 8650-0/04
+  - 4772-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

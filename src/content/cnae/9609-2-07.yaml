@@ -2,7 +2,7 @@ codigo: 9609-2/07
 codigo_slug: 9609-2-07
 codigo_numerico: '9609207'
 descricao_oficial: ALOJAMENTO DE ANIMAIS DOMÉSTICOS
-descricao_plana: ALOJAMENTO DE ANIMAIS DOMÉSTICOS
+descricao_plana: Alojamento de animais domésticos, com hospedagem de cães, gatos e outros pets por período contratado.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Hotel para cães e gatos
+  - Creche para pets com diária
+  - Hospedagem domiciliar de animais
+  - Pet hotel com área de recreação
+  - Alojamento para pets durante viagens
+o_que_inclui:
+  - Hospedagem de cães, gatos e outros animais domésticos
+  - Fornecimento de alimentação, água e abrigo
+  - Recreação, passeios e socialização dos animais
+  - Creche diurna para pets
+  - Monitoramento e comunicação com os tutores
+o_que_nao_inclui:
+  - Higiene e embelezamento de animais domésticos (use CNAE 9609-2/08)
+  - Atividades veterinárias (use CNAE 7500-1/00)
+  - Criação de animais de estimação (use CNAE 0159-8/02)
+  - Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação (use CNAE 4789-0/04)
+  - Serviços de adestramento de cães de guarda (use CNAE 8011-1/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Registro no CRMV com responsável técnico
+  - Licença ambiental para o alojamento, quando exigida
+  - Cumprimento das normas de bem-estar animal
+cnaes_relacionados:
+  - 9609-2/08
+  - 7500-1/00
+  - 0159-8/02
+  - 4789-0/04
+  - 8011-1/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

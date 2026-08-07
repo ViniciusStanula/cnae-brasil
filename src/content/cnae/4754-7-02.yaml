@@ -1,4 +1,4 @@
-codigo: 4754-7/02
+﻿codigo: 4754-7/02
 codigo_slug: 4754-7-02
 codigo_numerico: '4754702'
 descricao_oficial: COMÉRCIO VAREJISTA DE ARTIGOS DE COLCHOARIA
@@ -46,7 +46,7 @@ o_que_nao_inclui:
   - Comércio varejista de móveis (use CNAE 4754-7/01)
   - Fabricação de colchões (use CNAE 3104-7/00)
   - Comércio varejista de artigos de cama, mesa e banho (use CNAE 4755-5/03)
-  - Reforma de colchões usados (use CNAE 9529-1/04)
+  - Reforma de colchões usados (use CNAE 9529-1/05)
   - Comércio varejista de artigos de iluminação (use CNAE 4754-7/03)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
@@ -58,7 +58,7 @@ cnaes_relacionados:
   - 4754-7/01
   - 3104-7/00
   - 4755-5/03
-  - 9529-1/04
+  - 9529-1/05
   - 4754-7/03
 enriched: true
 last_reviewed: '2026-05-22'

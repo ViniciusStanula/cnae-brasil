@@ -2,7 +2,7 @@ codigo: 9529-1/06
 codigo_slug: 9529-1-06
 codigo_numerico: '9529106'
 descricao_oficial: REPARAÇÃO DE JÓIAS
-descricao_plana: REPARAÇÃO DE JÓIAS
+descricao_plana: Reparação de joias, com conserto, solda, polimento e ajuste de peças em metais preciosos.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de conserto de joias
+  - Prestador de aumento e diminuição de anéis
+  - Ateliê de solda e polimento de peças
+  - Oficina de recravação de pedras
+  - Prestador de banho e restauro de joias
+o_que_inclui:
+  - Conserto de correntes, fechos e engates
+  - Aumento e diminuição de aros de anéis
+  - Solda, polimento e recuperação de peças
+  - Recravação e substituição de pedras
+  - Banho de ouro, ródio e restauro de acabamento
+o_que_nao_inclui:
+  - Fabricação de artefatos de joalheria e ourivesaria (use CNAE 3211-6/02)
+  - Comércio varejista de artigos de joalheria (use CNAE 4783-1/01)
+  - Reparação de relógios (use CNAE 9529-1/03)
+  - Lapidação de gemas (use CNAE 3211-6/01)
+  - Reparação e manutenção de outros objetos pessoais e domésticos (use CNAE 9529-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro na Receita Federal para operações com metais preciosos
+  - Licença ambiental para banhos químicos e descarte de resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Seguro sobre as peças sob responsabilidade da oficina
+cnaes_relacionados:
+  - 3211-6/02
+  - 4783-1/01
+  - 9529-1/03
+  - 3211-6/01
+  - 9529-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

@@ -1,4 +1,4 @@
-codigo: 3103-9/00
+﻿codigo: 3103-9/00
 codigo_slug: 3103-9-00
 codigo_numerico: '3103900'
 descricao_oficial: FABRICAÇÃO DE MÓVEIS DE OUTROS MATERIAIS, EXCETO MADEIRA E METAL
@@ -47,7 +47,7 @@ o_que_nao_inclui:
   - Fabricação de móveis com predominância de metal (use CNAE 3102-1/00)
   - Fabricação de colchões (use CNAE 3104-7/00)
   - Fabricação de artefatos de vime e materiais trançados, exceto móveis (use CNAE 1629-3/02)
-  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/04)
+  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/05)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
   - Certificado de Vistoria do Corpo de Bombeiros

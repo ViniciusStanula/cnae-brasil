@@ -2,7 +2,7 @@ codigo: 9609-2/06
 codigo_slug: 9609-2-06
 codigo_numerico: '9609206'
 descricao_oficial: SERVIÇOS DE TATUAGEM E COLOCAÇÃO DE PIERCING
-descricao_plana: SERVIÇOS DE TATUAGEM E COLOCAÇÃO DE PIERCING
+descricao_plana: Serviços de tatuagem e colocação de piercing, com aplicação de desenhos e adornos corporais.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estúdio de tatuagem
+  - Tatuador autônomo com atendimento por agendamento
+  - Estúdio de piercing e body art
+  - Prestador de micropigmentação artística
+  - Estúdio de tatuagem e remoção a laser
+o_que_inclui:
+  - Aplicação de tatuagens permanentes e artísticas
+  - Colocação de piercings e adornos corporais
+  - Criação de desenhos e projetos personalizados
+  - Esterilização de materiais e cuidados pós-procedimento
+  - Orientação e acompanhamento de cicatrização
+o_que_nao_inclui:
+  - Atividades de estética e outros serviços de cuidados com a beleza (use CNAE 9602-5/02)
+  - Cabeleireiros, manicure e pedicure (use CNAE 9602-5/01)
+  - Atividades de profissionais da área de saúde, como dermatologia (use CNAE 8630-5/03)
+  - Higiene e embelezamento de animais domésticos (use CNAE 9609-2/08)
+  - Outras atividades de serviços pessoais não especificadas anteriormente (use CNAE 9609-2/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal, obrigatória para o estúdio
+  - Protocolo de esterilização e descarte de perfurocortantes
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Termo de consentimento e verificação de idade dos clientes
+cnaes_relacionados:
+  - 9602-5/02
+  - 9602-5/01
+  - 8630-5/03
+  - 9609-2/99
+  - 9609-2/08
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

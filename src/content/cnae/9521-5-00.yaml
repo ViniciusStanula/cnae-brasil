@@ -2,7 +2,7 @@ codigo: 9521-5/00
 codigo_slug: 9521-5-00
 codigo_numerico: '9521500'
 descricao_oficial: REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS ELETROELETRÔNICOS DE USO PESSOAL E DOMÉSTICO
-descricao_plana: REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS ELETROELETRÔNICOS DE USO PESSOAL E DOMÉSTICO
+descricao_plana: Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico, como eletrodomésticos e TVs.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Assistência técnica de eletrodomésticos
+  - Prestador de conserto de máquinas de lavar
+  - Técnico de refrigeração residencial
+  - Assistência de televisores e aparelhos de som
+  - Reparo de eletroportáteis e micro-ondas
+o_que_inclui:
+  - Reparo de geladeiras, fogões, lavadoras e micro-ondas
+  - Manutenção de televisores, aparelhos de som e DVD
+  - Conserto de eletroportáteis e ventiladores
+  - Reparo de ar-condicionado residencial de janela e split
+  - Atendimento em bancada ou na residência do cliente
+o_que_nao_inclui:
+  - Reparação e manutenção de computadores e equipamentos periféricos (use CNAE 9511-8/00)
+  - Reparação e manutenção de equipamentos de comunicação (use CNAE 9512-6/00)
+  - Manutenção de máquinas de refrigeração para uso industrial e comercial (use CNAE 3314-7/07)
+  - Instalação e manutenção de sistemas centrais de ar-condicionado (use CNAE 4322-3/02)
+  - Comércio varejista de eletrodomésticos e equipamentos de áudio e vídeo (use CNAE 4753-9/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro Técnico Federal do IBAMA para manuseio de gases refrigerantes
+  - Cadastro em logística reversa de eletroeletrônicos
+  - Programa de controle de riscos ocupacionais e NR-10
+cnaes_relacionados:
+  - 9511-8/00
+  - 9512-6/00
+  - 3314-7/07
+  - 4322-3/02
+  - 4753-9/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

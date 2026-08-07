@@ -1,4 +1,4 @@
-codigo: 3329-5/01
+﻿codigo: 3329-5/01
 codigo_slug: 3329-5-01
 codigo_numerico: '3329501'
 descricao_oficial: SERVIÇOS DE MONTAGEM DE MÓVEIS DE QUALQUER MATERIAL
@@ -46,7 +46,7 @@ o_que_nao_inclui:
   - Fabricação de móveis com predominância de madeira (use CNAE 3101-2/00)
   - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
   - Instalação de outros equipamentos sem código próprio (use CNAE 3329-5/99)
-  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/04)
+  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/05)
   - Serviços de mudança e transporte de móveis (use CNAE 4930-2/04)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
@@ -58,7 +58,7 @@ cnaes_relacionados:
   - 3102-1/00
   - 3329-5/99
   - 3321-0/00
-  - 9529-1/04
+  - 9529-1/05
 enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024

@@ -2,7 +2,7 @@ codigo: 9529-1/04
 codigo_slug: 9529-1-04
 codigo_numerico: '9529104'
 descricao_oficial: REPARAÇÃO DE BICICLETAS, TRICICLOS E OUTROS VEÍCULOS NÃO MOTORIZADOS
-descricao_plana: REPARAÇÃO DE BICICLETAS, TRICICLOS E OUTROS VEÍCULOS NÃO MOTORIZADOS
+descricao_plana: Reparação de bicicletas, triciclos e outros veículos não motorizados, com manutenção e ajustes.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de bicicletas de bairro
+  - Prestador de manutenção de bikes a domicílio
+  - Oficina especializada em bicicletas de competição
+  - Prestador de reparo de patinetes e triciclos
+  - Bike shop com serviço de manutenção
+o_que_inclui:
+  - Manutenção preventiva e corretiva de bicicletas
+  - Regulagem de câmbios, freios e transmissão
+  - Montagem de rodas, troca de raios e centragem
+  - Reparo de triciclos, patinetes e veículos não motorizados
+  - Atendimento em oficina ou a domicílio
+o_que_nao_inclui:
+  - Comércio varejista de bicicletas e triciclos, peças e acessórios (use CNAE 4763-6/03)
+  - Manutenção e reparação de motocicletas e motonetas (use CNAE 4543-9/00)
+  - Fabricação de bicicletas e triciclos não motorizados (use CNAE 3092-0/00)
+  - Reparação e manutenção de outros objetos pessoais e domésticos (use CNAE 9529-1/99)
+  - Aluguel de equipamentos recreativos e esportivos (use CNAE 7721-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para descarte de óleos e resíduos
+  - Programa de controle de riscos ocupacionais
+  - Inscrição estadual, quando comercializar peças
+cnaes_relacionados:
+  - 4763-6/03
+  - 4543-9/00
+  - 3092-0/00
+  - 9529-1/99
+  - 7721-7/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

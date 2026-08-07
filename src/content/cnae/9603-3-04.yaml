@@ -2,7 +2,7 @@ codigo: 9603-3/04
 codigo_slug: 9603-3-04
 codigo_numerico: '9603304'
 descricao_oficial: SERVIÇOS DE FUNERÁRIAS
-descricao_plana: SERVIÇOS DE FUNERÁRIAS
+descricao_plana: Serviços de funerárias, com organização de funerais, fornecimento de urnas e assistência às famílias.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Funerária com atendimento 24 horas
+  - Empresa de planos funerários
+  - Funerária com traslado e documentação
+  - Prestador de assistência funeral familiar
+  - Funerária com ornamentação e velório
+o_que_inclui:
+  - Organização e coordenação de funerais
+  - Fornecimento de urnas, ornamentação e flores
+  - Preparação do corpo e tanatopraxia
+  - Providência de documentação e certidões de óbito
+  - Traslado do corpo e apoio à família
+o_que_nao_inclui:
+  - Gestão e manutenção de cemitérios (use CNAE 9603-3/01)
+  - Serviços de cremação (use CNAE 9603-3/02)
+  - Serviços de somatoconservação (use CNAE 9603-3/03)
+  - Atividades funerárias e serviços relacionados não especificados anteriormente (use CNAE 9603-3/99)
+  - Comércio varejista de outros produtos não especificados anteriormente (use CNAE 4789-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Autorização municipal específica para serviços funerários
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Responsável técnico habilitado para tanatopraxia
+cnaes_relacionados:
+  - 9603-3/01
+  - 9603-3/02
+  - 9603-3/03
+  - 9603-3/99
+  - 4789-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

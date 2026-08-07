@@ -2,7 +2,7 @@ codigo: 9529-1/99
 codigo_slug: 9529-1-99
 codigo_numerico: '9529199'
 descricao_oficial: REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: REPARAÇÃO E MANUTENÇÃO DE OUTROS OBJETOS E EQUIPAMENTOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Reparação e manutenção de outros objetos pessoais e domésticos sem código próprio, como roupas e utensílios.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Costureira com ajustes e consertos de roupas
+  - Prestador de conserto de guarda-chuvas
+  - Oficina de reparo de instrumentos musicais
+  - Prestador de conserto de utensílios domésticos
+  - Ateliê de reparos diversos
+o_que_inclui:
+  - Ajuste, barra e conserto de roupas já prontas
+  - Reparo de guarda-chuvas, malas pequenas e utensílios
+  - Conserto de instrumentos musicais e objetos pessoais
+  - Manutenção de artigos domésticos sem código próprio
+  - Atendimento ao consumidor final em oficina ou domicílio
+o_que_nao_inclui:
+  - Reparação de calçados, de bolsas e artigos de viagem (use CNAE 9529-1/01)
+  - Reparação de artigos do mobiliário (use CNAE 9529-1/05)
+  - Reparação de relógios (use CNAE 9529-1/03)
+  - Reparação de joias (use CNAE 9529-1/06)
+  - Confecção, sob medida, de peças do vestuário, exceto roupas íntimas (use CNAE 1412-6/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental, conforme os materiais utilizados
+  - Programa de controle de riscos ocupacionais
+  - Inscrição estadual, quando comercializar materiais
+cnaes_relacionados:
+  - 9529-1/01
+  - 9529-1/05
+  - 9529-1/03
+  - 9529-1/06
+  - 1412-6/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

@@ -2,7 +2,7 @@ codigo: 9529-1/02
 codigo_slug: 9529-1-02
 codigo_numerico: '9529102'
 descricao_oficial: CHAVEIROS
-descricao_plana: CHAVEIROS
+descricao_plana: Chaveiros, com cópia de chaves, abertura de fechaduras e instalação de sistemas de trancamento.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Chaveiro com cópia de chaves em loja
+  - Chaveiro 24 horas com atendimento móvel
+  - Prestador de abertura de veículos e residências
+  - Chaveiro especializado em chaves codificadas
+  - Empresa de instalação de fechaduras eletrônicas
+o_que_inclui:
+  - Cópia de chaves simples, tetra e codificadas
+  - Abertura de portas, cofres e veículos sem dano
+  - Instalação e troca de fechaduras e segredos
+  - Programação de chaves com transponder para veículos
+  - Atendimento em loja ou serviço móvel de emergência
+o_que_nao_inclui:
+  - Fabricação de artigos de serralheria, exceto esquadrias (use CNAE 2542-0/00)
+  - Instalações de sistema de prevenção contra incêndio (use CNAE 4322-3/03)
+  - Outras atividades de serviços de segurança (use CNAE 8020-0/02)
+  - Reparação e manutenção de outros objetos pessoais e domésticos (use CNAE 9529-1/99)
+  - Serviços de instalação, manutenção e reparação de acessórios para veículos (use CNAE 4520-0/07)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro na Polícia Civil, quando exigido pelo município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Identificação e registro dos atendimentos de abertura
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 2542-0/00
+  - 8020-0/02
+  - 9529-1/99
+  - 4520-0/07
+  - 4322-3/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'

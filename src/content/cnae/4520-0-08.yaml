@@ -1,4 +1,4 @@
-codigo: 4520-0/08
+﻿codigo: 4520-0/08
 codigo_slug: 4520-0-08
 codigo_numerico: '4520008'
 descricao_oficial: SERVIÇOS DE CAPOTARIA
@@ -47,7 +47,7 @@ o_que_nao_inclui:
   - Instalação e reparação de acessórios para veículos (use CNAE 4520-0/07)
   - Fabricação de bancos e estofados para veículos automotores (use CNAE 2949-2/01)
   - Fabricação de móveis de outros materiais, como estofados (use CNAE 3103-9/00)
-  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/04)
+  - Reforma e reestofamento de móveis usados (use CNAE 9529-1/05)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
   - Certificado de Vistoria do Corpo de Bombeiros
@@ -59,7 +59,7 @@ cnaes_relacionados:
   - 4520-0/07
   - 2949-2/01
   - 3103-9/00
-  - 9529-1/04
+  - 9529-1/05
 enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024

@@ -1,4 +1,4 @@
-codigo: 0159-8/02
+﻿codigo: 0159-8/02
 codigo_slug: 0159-8-02
 codigo_numerico: '0159802'
 descricao_oficial: CRIAÇÃO DE ANIMAIS DE ESTIMAÇÃO
@@ -49,7 +49,7 @@ o_que_nao_inclui:
   - Criação de peixes ornamentais em água salgada e salobra (use CNAE 0321-3/04)
   - Comércio varejista de animais adquiridos de terceiros, como pet shops (use CNAE 4789-0/04)
   - Serviços veterinários e atendimento clínico a animais (use CNAE 7500-1/00)
-  - Serviços de banho, tosa e higiene animal (use CNAE 9609-2/06)
+  - Serviços de banho, tosa e higiene animal (use CNAE 9609-2/08)
 licencas_comuns:
   - Alvará de funcionamento na prefeitura do município
   - Registro no Conselho Regional de Medicina Veterinária (CRMV) com responsável técnico

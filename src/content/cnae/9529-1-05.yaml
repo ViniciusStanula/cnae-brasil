@@ -2,7 +2,7 @@ codigo: 9529-1/05
 codigo_slug: 9529-1-05
 codigo_numerico: '9529105'
 descricao_oficial: REPARAÇÃO DE ARTIGOS DO MOBILIÁRIO
-descricao_plana: REPARAÇÃO DE ARTIGOS DO MOBILIÁRIO
+descricao_plana: Reparação de artigos do mobiliário, como reforma de móveis, reestofamento e restauro de peças.
 secao:
   letra: S
   slug: outras-atividades-de-servicos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estofaria com reforma de sofás
+  - Prestador de restauro de móveis de madeira
+  - Oficina de reforma de cadeiras e poltronas
+  - Prestador de reforma de colchões
+  - Marceneiro com reparo de móveis usados
+o_que_inclui:
+  - Reforma e reestofamento de sofás, poltronas e cadeiras
+  - Restauro de móveis de madeira e envernizamento
+  - Troca de espumas, molas e revestimentos
+  - Reforma de colchões e artigos de colchoaria
+  - Reparo de gavetas, dobradiças e estruturas de móveis
+o_que_nao_inclui:
+  - Fabricação de móveis com predominância de madeira (use CNAE 3101-2/00)
+  - Fabricação de móveis de outros materiais, exceto madeira e metal (use CNAE 3103-9/00)
+  - Serviços de montagem de móveis de qualquer material (use CNAE 3329-5/01)
+  - Restauração de obras de arte (use CNAE 9002-7/02)
+  - Reparação e manutenção de outros objetos pessoais e domésticos (use CNAE 9529-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de vernizes, colas e espumas
+  - Programa de controle de riscos ocupacionais
+  - Inscrição estadual, quando comercializar materiais
+cnaes_relacionados:
+  - 3101-2/00
+  - 3103-9/00
+  - 3329-5/01
+  - 9002-7/02
+  - 9529-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:43:20.438Z'
