@@ -2,7 +2,7 @@ codigo: 4322-3/03
 codigo_slug: 4322-3-03
 codigo_numerico: '4322303'
 descricao_oficial: INSTALAÇÕES DE SISTEMA DE PREVENÇÃO CONTRA INCÊNDIO
-descricao_plana: INSTALAÇÕES DE SISTEMA DE PREVENÇÃO CONTRA INCÊNDIO
+descricao_plana: Instalação de sistemas de prevenção contra incêndio, como hidrantes, sprinklers, alarmes e extintores fixos.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de instalação de rede de hidrantes
+  - Prestador de montagem de sistemas de sprinklers
+  - Instalador de alarmes e detectores de fumaça
+  - Empresa de projetos e instalação de combate a incêndio
+  - Prestador de manutenção de sistemas preventivos
+o_que_inclui:
+  - Instalação de redes de hidrantes, mangotinhos e sprinklers
+  - Montagem de sistemas de detecção e alarme de incêndio
+  - Instalação de portas corta-fogo, sinalização e iluminação de emergência
+  - Instalação de bombas de incêndio e reservatórios técnicos
+  - Manutenção e teste periódico dos sistemas instalados
+o_que_nao_inclui:
+  - Instalações hidráulicas, sanitárias e de gás (use CNAE 4322-3/01)
+  - Instalação e manutenção elétrica (use CNAE 4321-5/00)
+  - Fabricação de equipamentos para sinalização e alarme (use CNAE 2790-2/02)
+  - Recarga e manutenção de extintores portáteis (use CNAE 3319-8/00)
+  - Atividades de vigilância e segurança privada (use CNAE 8011-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA com responsável técnico
+  - Credenciamento no Corpo de Bombeiros do estado
+  - Anotação de Responsabilidade Técnica (ART) por projeto e instalação
+  - Programa de controle de riscos ocupacionais e NR-35
+cnaes_relacionados:
+  - 4322-3/01
+  - 4321-5/00
+  - 2790-2/02
+  - 3319-8/00
+  - 4329-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

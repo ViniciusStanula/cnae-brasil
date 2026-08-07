@@ -2,7 +2,7 @@ codigo: 4329-1/01
 codigo_slug: 4329-1-01
 codigo_numerico: '4329101'
 descricao_oficial: INSTALAÇÃO DE PAINÉIS PUBLICITÁRIOS
-descricao_plana: INSTALAÇÃO DE PAINÉIS PUBLICITÁRIOS
+descricao_plana: Instalação de painéis publicitários, como outdoors, empenas, painéis de fachada e estruturas de mídia exterior.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de montagem de outdoors
+  - Prestador de instalação de painéis de fachada
+  - Instalador de empenas e mídia exterior
+  - Empresa de montagem de estruturas publicitárias
+  - Prestador de troca de lonas em painéis
+o_que_inclui:
+  - Montagem de estruturas metálicas para outdoors e painéis
+  - Instalação de painéis publicitários em fachadas e empenas
+  - Fixação e troca de lonas, adesivos e placas publicitárias
+  - Instalação de totens e estruturas de mídia exterior
+  - Manutenção e desmontagem das estruturas instaladas
+o_que_nao_inclui:
+  - Fabricação de letras, letreiros e placas não luminosos (use CNAE 3299-0/03)
+  - Fabricação de painéis e letreiros luminosos (use CNAE 3299-0/04)
+  - Agenciamento de espaços para publicidade (use CNAE 7312-2/00)
+  - Impressão de material para uso publicitário (use CNAE 1813-0/01)
+  - Outras obras de instalações em construções (use CNAE 4329-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença municipal para instalação de publicidade externa
+  - Registro no CREA com responsável técnico pela estrutura
+  - Anotação de Responsabilidade Técnica (ART) pela montagem
+  - Programa de controle de riscos ocupacionais e NR-35 para trabalho em altura
+cnaes_relacionados:
+  - 3299-0/03
+  - 3299-0/04
+  - 4329-1/99
+  - 1813-0/01
+  - 4329-1/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

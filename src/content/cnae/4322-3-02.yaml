@@ -2,7 +2,7 @@ codigo: 4322-3/02
 codigo_slug: 4322-3-02
 codigo_numerico: '4322302'
 descricao_oficial: INSTALAÇÃO E MANUTENÇÃO DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO
-descricao_plana: INSTALAÇÃO E MANUTENÇÃO DE SISTEMAS CENTRAIS DE AR CONDICIONADO, DE VENTILAÇÃO E REFRIGERAÇÃO
+descricao_plana: Instalação e manutenção de sistemas centrais de ar-condicionado, ventilação e refrigeração em edificações.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de instalação de ar-condicionado split e central
+  - Prestador de manutenção de sistemas VRF
+  - Instalador de dutos e sistemas de ventilação
+  - Empresa de climatização predial e comercial
+  - Prestador de higienização de sistemas de ar-condicionado
+o_que_inclui:
+  - Instalação de sistemas centrais de ar-condicionado e VRF
+  - Montagem de dutos, difusores e sistemas de ventilação
+  - Instalação de câmaras frias e sistemas de refrigeração predial
+  - Manutenção preventiva, corretiva e higienização dos sistemas
+  - Carga de gás refrigerante e teste de estanqueidade
+o_que_nao_inclui:
+  - Manutenção de máquinas de refrigeração para uso industrial e comercial (use CNAE 3314-7/07)
+  - Instalações hidráulicas, sanitárias e de gás (use CNAE 4322-3/01)
+  - Instalação e manutenção elétrica (use CNAE 4321-5/00)
+  - Reparação de aparelhos eletrodomésticos, como ar-condicionado de janela (use CNAE 9521-5/00)
+  - Tratamentos térmicos, acústicos ou de vibração (use CNAE 4329-1/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Cadastro Técnico Federal do IBAMA para manuseio de gases refrigerantes
+  - Plano de Manutenção, Operação e Controle (PMOC) para os sistemas atendidos
+  - Programa de controle de riscos ocupacionais e NR-35 para trabalho em altura
+cnaes_relacionados:
+  - 3314-7/07
+  - 4322-3/01
+  - 4321-5/00
+  - 4329-1/05
+  - 9521-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

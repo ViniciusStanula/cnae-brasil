@@ -2,7 +2,7 @@ codigo: 4330-4/03
 codigo_slug: 4330-4-03
 codigo_numerico: '4330403'
 descricao_oficial: OBRAS DE ACABAMENTO EM GESSO E ESTUQUE
-descricao_plana: OBRAS DE ACABAMENTO EM GESSO E ESTUQUE
+descricao_plana: Obras de acabamento em gesso e estuque, como forros, sancas, molduras, drywall e revestimentos decorativos.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Gesseiro autônomo com forros e sancas
+  - Empresa de instalação de drywall
+  - Prestador de molduras e ornamentos em gesso
+  - Instalador de placas e forros de gesso acartonado
+  - Empresa de acabamento em estuque decorativo
+o_que_inclui:
+  - Execução de forros de gesso liso, sancas e rebaixos
+  - Instalação de paredes e forros em drywall
+  - Aplicação de molduras, cornijas e ornamentos de gesso
+  - Execução de revestimentos em estuque e massa decorativa
+  - Acabamento, lixamento e preparação para pintura
+o_que_nao_inclui:
+  - Instalação de portas, janelas, tetos e divisórias (use CNAE 4330-4/02)
+  - Serviços de pintura de edifícios em geral (use CNAE 4330-4/04)
+  - Aplicação de revestimentos e resinas (use CNAE 4330-4/05)
+  - Fabricação de artefatos de gesso (use CNAE 2330-3/99)
+  - Tratamentos térmicos, acústicos ou de vibração (use CNAE 4329-1/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Anotação de Responsabilidade Técnica (ART) por obra, quando exigida
+  - Licença ambiental para descarte de resíduos de gesso
+cnaes_relacionados:
+  - 4330-4/02
+  - 4330-4/04
+  - 4330-4/05
+  - 4330-4/99
+  - 2330-3/99
+  - 4329-1/05
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

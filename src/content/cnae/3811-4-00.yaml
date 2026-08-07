@@ -2,7 +2,9 @@ codigo: 3811-4/00
 codigo_slug: 3811-4-00
 codigo_numerico: '3811400'
 descricao_oficial: COLETA DE RESÍDUOS NÃO PERIGOSOS
-descricao_plana: COLETA DE RESÍDUOS NÃO PERIGOSOS
+descricao_plana: >-
+  Coleta de resíduos não perigosos, como lixo domiciliar, recicláveis e entulho comum, com transporte até destinação
+  adequada.
 secao:
   letra: E
   slug: agua-esgoto-residuos
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de coleta seletiva de recicláveis
+  - Prestador de coleta de entulho com caçamba estacionária
+  - Catador organizado em cooperativa de reciclagem
+  - Serviço de coleta de resíduos comerciais
+  - Empresa de coleta de resíduos de poda e jardinagem
+o_que_inclui:
+  - Coleta de lixo domiciliar, comercial e industrial não perigoso
+  - Coleta seletiva de papel, plástico, vidro e metal
+  - Locação e retirada de caçambas estacionárias para entulho
+  - Transporte dos resíduos até aterro, triagem ou reciclagem
+  - Coleta de resíduos de construção, poda e volumosos
+o_que_nao_inclui:
+  - Coleta de resíduos perigosos (use CNAE 3812-2/00)
+  - Tratamento e disposição de resíduos não perigosos (use CNAE 3821-1/00)
+  - Recuperação de materiais plásticos (use CNAE 3832-7/00)
+  - Atividades relacionadas a esgoto, como limpa-fossa (use CNAE 3702-9/00)
+  - Comércio atacadista de resíduos e sucatas (use CNAE 4687-7/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual ou municipal para transporte de resíduos
+  - Cadastro Técnico Federal do IBAMA
+  - Manifesto de Transporte de Resíduos (MTR) e comprovante de destinação
+  - Registro e vistoria dos veículos coletores
+cnaes_relacionados:
+  - 3812-2/00
+  - 3821-1/00
+  - 3832-7/00
+  - 3831-9/99
+  - 3702-9/00
+  - 3839-4/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

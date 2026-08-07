@@ -2,7 +2,7 @@ codigo: 4330-4/02
 codigo_slug: 4330-4-02
 codigo_numerico: '4330402'
 descricao_oficial: INSTALAÇÃO DE PORTAS, JANELAS, TETOS, DIVISÓRIAS E ARMÁRIOS EMBUTIDOS DE QUALQUER MATERIAL
-descricao_plana: INSTALAÇÃO DE PORTAS, JANELAS, TETOS, DIVISÓRIAS E ARMÁRIOS EMBUTIDOS DE QUALQUER MATERIAL
+descricao_plana: Instalação de portas, janelas, tetos, divisórias e armários embutidos de qualquer material em obras de acabamento.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Instalador de portas e batentes em obras
+  - Empresa de montagem de divisórias de escritório
+  - Prestador de instalação de forros e tetos modulares
+  - Instalador de armários embutidos e closets
+  - Empresa de instalação de esquadrias de alumínio
+o_que_inclui:
+  - Instalação de portas, batentes, janelas e esquadrias
+  - Montagem de divisórias de escritório e biombos fixos
+  - Instalação de forros, tetos modulares e sancas
+  - Instalação de armários embutidos, closets e painéis
+  - Ajustes, nivelamento e acabamento das peças instaladas
+o_que_nao_inclui:
+  - Fabricação de esquadrias de madeira (use CNAE 1622-6/02)
+  - Fabricação de esquadrias de metal (use CNAE 2512-8/00)
+  - Obras de acabamento em gesso e estuque (use CNAE 4330-4/03)
+  - Serviços de montagem de móveis de qualquer material (use CNAE 3329-5/01)
+  - Fabricação de móveis com predominância de madeira (use CNAE 3101-2/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CAU com responsável técnico, quando exigido
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Anotação de Responsabilidade Técnica (ART) por obra, quando exigida
+cnaes_relacionados:
+  - 4330-4/03
+  - 4330-4/99
+  - 3329-5/01
+  - 1622-6/02
+  - 2512-8/00
+  - 3101-2/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

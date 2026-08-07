@@ -2,7 +2,7 @@ codigo: 4329-1/05
 codigo_slug: 4329-1-05
 codigo_numerico: '4329105'
 descricao_oficial: TRATAMENTOS TÉRMICOS, ACÚSTICOS OU DE VIBRAÇÃO
-descricao_plana: TRATAMENTOS TÉRMICOS, ACÚSTICOS OU DE VIBRAÇÃO
+descricao_plana: Tratamentos térmicos, acústicos ou de vibração em edificações, como isolamento térmico, acústico e antivibratório.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de isolamento acústico de estúdios e salas
+  - Prestador de isolamento térmico de tubulações industriais
+  - Instalador de forros e painéis acústicos
+  - Empresa de tratamento antivibratório de máquinas
+  - Prestador de isolamento térmico de coberturas
+o_que_inclui:
+  - Aplicação de isolamento térmico em tubulações, dutos e coberturas
+  - Instalação de tratamento acústico em salas, estúdios e casas noturnas
+  - Montagem de painéis, mantas e forros isolantes
+  - Instalação de bases e amortecedores antivibratórios
+  - Execução de barreiras acústicas e enclausuramentos
+o_que_nao_inclui:
+  - Instalação e manutenção de sistemas centrais de ar-condicionado (use CNAE 4322-3/02)
+  - Obras de acabamento em gesso e estuque (use CNAE 4330-4/03)
+  - Instalação de portas, janelas, tetos e divisórias (use CNAE 4330-4/02)
+  - Impermeabilização em obras de engenharia civil (use CNAE 4330-4/01)
+  - Outras obras de instalações em construções (use CNAE 4329-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA com responsável técnico
+  - Anotação de Responsabilidade Técnica (ART) pelo serviço
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Licença ambiental para descarte de resíduos de isolantes
+cnaes_relacionados:
+  - 4322-3/02
+  - 4330-4/03
+  - 4330-4/02
+  - 4330-4/01
+  - 4329-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

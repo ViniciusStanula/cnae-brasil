@@ -2,7 +2,7 @@ codigo: 4322-3/01
 codigo_slug: 4322-3-01
 codigo_numerico: '4322301'
 descricao_oficial: INSTALAÇÕES HIDRÁULICAS, SANITÁRIAS E DE GÁS
-descricao_plana: INSTALAÇÕES HIDRÁULICAS, SANITÁRIAS E DE GÁS
+descricao_plana: Instalações hidráulicas, sanitárias e de gás em edificações, incluindo tubulações, louças, metais e redes de gás.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Encanador autônomo com atendimento residencial
+  - Empresa de instalações hidráulicas em obras
+  - Instalador de redes de gás predial
+  - Prestador de instalação de louças e metais sanitários
+  - Empresa de manutenção hidráulica predial
+o_que_inclui:
+  - Instalação de tubulações de água fria, quente e esgoto
+  - Instalação de louças sanitárias, torneiras e metais
+  - Execução de redes internas de gás e instalação de medidores
+  - Instalação de caixas d'água, bombas e sistemas de recalque
+  - Manutenção e reparo de instalações hidrossanitárias
+o_que_nao_inclui:
+  - Instalação e manutenção elétrica (use CNAE 4321-5/00)
+  - Instalação de sistemas centrais de ar-condicionado (use CNAE 4322-3/02)
+  - Instalações de sistema de prevenção contra incêndio (use CNAE 4322-3/03)
+  - Atividades relacionadas a esgoto, como limpa-fossa (use CNAE 3702-9/00)
+  - Perfuração e construção de poços de água (use CNAE 4399-1/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CAU com responsável técnico, quando exigido
+  - Qualificação específica para instalação de redes de gás
+  - Programa de controle de riscos ocupacionais e NR-18 para obras
+  - Anotação de Responsabilidade Técnica (ART) por obra, quando exigida
+cnaes_relacionados:
+  - 4321-5/00
+  - 4322-3/02
+  - 4322-3/03
+  - 4330-4/99
+  - 3702-9/00
+  - 4399-1/05
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

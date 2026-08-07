@@ -2,7 +2,9 @@ codigo: 4329-1/02
 codigo_slug: 4329-1-02
 codigo_numerico: '4329102'
 descricao_oficial: INSTALAÇÃO DE EQUIPAMENTOS PARA ORIENTAÇÃO À NAVEGAÇÃO MARÍTIMA FLUVIAL E LACUSTRE
-descricao_plana: INSTALAÇÃO DE EQUIPAMENTOS PARA ORIENTAÇÃO À NAVEGAÇÃO MARÍTIMA FLUVIAL E LACUSTRE
+descricao_plana: >-
+  Instalação de equipamentos para orientação à navegação marítima, fluvial e lacustre, como boias, balizas e sinalização
+  náutica.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de instalação de boias de sinalização náutica
+  - Prestador de montagem de balizas em hidrovias
+  - Instalador de faróis e sinalização portuária
+  - Empresa de manutenção de sinalização náutica
+  - Prestador de fundeio de equipamentos de navegação
+o_que_inclui:
+  - Instalação de boias, balizas e placas de sinalização náutica
+  - Montagem de faróis e sinalizadores luminosos em vias navegáveis
+  - Fundeio e ancoragem de equipamentos de orientação
+  - Manutenção e substituição de sinalização náutica
+  - Instalação de equipamentos em portos, rios e lagos
+o_que_nao_inclui:
+  - Montagem de iluminação e sinalização em vias públicas, portos e aeroportos (use CNAE 4329-1/04)
+  - Instalação de painéis publicitários (use CNAE 4329-1/01)
+  - Manutenção e reparação de embarcações e estruturas flutuantes (use CNAE 3317-1/01)
+  - Outras obras de instalações em construções (use CNAE 4329-1/99)
+  - Atividades auxiliares dos transportes aquaviários (use CNAE 5231-1/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização da Marinha do Brasil para sinalização náutica
+  - Registro no CREA com responsável técnico
+  - Licença ambiental para intervenção em corpos d'água
+  - Programa de controle de riscos ocupacionais para trabalho aquático
+cnaes_relacionados:
+  - 4329-1/04
+  - 4329-1/01
+  - 4329-1/99
+  - 3317-1/01
+  - 4321-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

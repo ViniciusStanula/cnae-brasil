@@ -2,7 +2,7 @@ codigo: 3839-4/99
 codigo_slug: 3839-4-99
 codigo_numerico: '3839499'
 descricao_oficial: RECUPERAÇÃO DE MATERIAIS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: RECUPERAÇÃO DE MATERIAIS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Recuperação de materiais sem código próprio, como papel, vidro, têxteis, borracha e resíduos eletrônicos.
 secao:
   letra: E
   slug: agua-esgoto-residuos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Recicladora de papel e papelão em fardos
+  - Empresa de recuperação de vidro para vidrarias
+  - Recicladora de resíduos eletrônicos e componentes
+  - Beneficiadora de retalhos têxteis para reaproveitamento
+  - Empresa de recuperação de pneus e borracha
+o_que_inclui:
+  - Triagem e enfardamento de papel, papelão e vidro
+  - Recuperação de resíduos eletrônicos e componentes
+  - Beneficiamento de retalhos têxteis e resíduos de couro
+  - Trituração e recuperação de borracha e pneus
+  - Recuperação de materiais sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Recuperação de sucatas de alumínio (use CNAE 3831-9/01)
+  - Recuperação de materiais metálicos, exceto alumínio (use CNAE 3831-9/99)
+  - Recuperação de materiais plásticos (use CNAE 3832-7/00)
+  - Usinas de compostagem de resíduos orgânicos (use CNAE 3839-4/01)
+  - Coleta de resíduos não perigosos (use CNAE 3811-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para operação da unidade de recuperação
+  - Cadastro Técnico Federal do IBAMA
+  - Plano de logística reversa para eletroeletrônicos e pneus
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 3831-9/01
+  - 3831-9/99
+  - 3832-7/00
+  - 3839-4/01
+  - 3811-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

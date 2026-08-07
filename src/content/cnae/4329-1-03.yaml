@@ -2,7 +2,7 @@ codigo: 4329-1/03
 codigo_slug: 4329-1-03
 codigo_numerico: '4329103'
 descricao_oficial: INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ELEVADORES, ESCADAS E ESTEIRAS ROLANTES
-descricao_plana: INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO DE ELEVADORES, ESCADAS E ESTEIRAS ROLANTES
+descricao_plana: Instalação, manutenção e reparação de elevadores, escadas e esteiras rolantes em edificações.
 secao:
   letra: F
   slug: construcao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de manutenção de elevadores prediais
+  - Instalador de plataformas elevatórias para acessibilidade
+  - Prestador de manutenção de escadas rolantes em shoppings
+  - Empresa de modernização de elevadores antigos
+  - Prestador de reparo de esteiras rolantes
+o_que_inclui:
+  - Instalação de elevadores de passageiros e de carga
+  - Montagem de escadas e esteiras rolantes
+  - Manutenção preventiva e corretiva periódica
+  - Modernização e substituição de comandos e cabinas
+  - Instalação de plataformas elevatórias de acessibilidade
+o_que_nao_inclui:
+  - Manutenção de máquinas para transporte e elevação de cargas industriais (use CNAE 3314-7/08)
+  - Serviços de operação e fornecimento de equipamentos de elevação para obras (use CNAE 4399-1/04)
+  - Instalação e manutenção elétrica (use CNAE 4321-5/00)
+  - Instalação de máquinas e equipamentos industriais (use CNAE 3321-0/00)
+  - Outras obras de instalações em construções (use CNAE 4329-1/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA com responsável técnico
+  - Anotação de Responsabilidade Técnica (ART) pela instalação e manutenção
+  - Licença municipal de vistoria periódica dos equipamentos
+  - Programa de controle de riscos ocupacionais e NR-35 para trabalho em altura
+cnaes_relacionados:
+  - 3314-7/08
+  - 4399-1/04
+  - 4321-5/00
+  - 3321-0/00
+  - 4329-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

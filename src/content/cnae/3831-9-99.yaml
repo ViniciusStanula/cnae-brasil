@@ -2,7 +2,9 @@ codigo: 3831-9/99
 codigo_slug: 3831-9-99
 codigo_numerico: '3831999'
 descricao_oficial: RECUPERAÇÃO DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO
-descricao_plana: RECUPERAÇÃO DE MATERIAIS METÁLICOS, EXCETO ALUMÍNIO
+descricao_plana: >-
+  Recuperação de materiais metálicos que não alumínio, como ferro, aço, cobre e latão, com triagem e preparação da
+  sucata.
 secao:
   letra: E
   slug: agua-esgoto-residuos
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ferro-velho com triagem e prensagem de sucata
+  - Depósito de sucata de cobre e metais não ferrosos
+  - Empresa de desmontagem e reciclagem de estruturas metálicas
+  - Beneficiadora de sucata ferrosa para siderúrgicas
+  - Prestador de corte e enfardamento de sucata de aço
+o_que_inclui:
+  - Triagem e classificação de sucata ferrosa e não ferrosa
+  - Corte, prensagem e enfardamento de sucata metálica
+  - Recuperação de cobre, bronze, latão, chumbo e aço
+  - Desmontagem de estruturas e equipamentos para recuperação de metal
+  - Preparação da sucata para venda a siderúrgicas e fundições
+o_que_nao_inclui:
+  - Recuperação de sucatas de alumínio (use CNAE 3831-9/01)
+  - Recuperação de materiais plásticos (use CNAE 3832-7/00)
+  - Coleta de resíduos não perigosos (use CNAE 3811-4/00)
+  - Comércio atacadista de resíduos e sucatas metálicas (use CNAE 4687-7/03)
+  - Recuperação de materiais sem código próprio (use CNAE 3839-4/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para operação do pátio de sucata
+  - Cadastro Técnico Federal do IBAMA
+  - Registro na Polícia Civil, quando exigido para comércio de metais
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 3831-9/01
+  - 3832-7/00
+  - 3811-4/00
+  - 3839-4/99
+  - 4687-7/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'

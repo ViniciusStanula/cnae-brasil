@@ -2,7 +2,7 @@ codigo: 3831-9/01
 codigo_slug: 3831-9-01
 codigo_numerico: '3831901'
 descricao_oficial: RECUPERAÇÃO DE SUCATAS DE ALUMÍNIO
-descricao_plana: RECUPERAÇÃO DE SUCATAS DE ALUMÍNIO
+descricao_plana: Recuperação de sucatas de alumínio, com triagem, prensagem e preparação da sucata para reaproveitamento industrial.
 secao:
   letra: E
   slug: agua-esgoto-residuos
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Depósito de sucata de alumínio com prensagem
+  - Empresa de reciclagem de latinhas de alumínio
+  - Prestador de triagem e enfardamento de alumínio
+  - Cooperativa de catadores focada em alumínio
+  - Beneficiadora de perfis e esquadrias de alumínio usados
+o_que_inclui:
+  - Coleta interna, triagem e classificação de sucata de alumínio
+  - Prensagem, enfardamento e trituração da sucata
+  - Limpeza e remoção de contaminantes do material
+  - Preparação da sucata para venda a fundições
+  - Recuperação de latinhas, perfis, chapas e cabos de alumínio
+o_que_nao_inclui:
+  - Recuperação de materiais metálicos, exceto alumínio (use CNAE 3831-9/99)
+  - Recuperação de materiais plásticos (use CNAE 3832-7/00)
+  - Coleta de resíduos não perigosos (use CNAE 3811-4/00)
+  - Comércio atacadista de resíduos e sucatas metálicas (use CNAE 4687-7/03)
+  - Metalurgia do alumínio a partir da sucata fundida (use CNAE 2441-5/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para operação do pátio de sucata
+  - Cadastro Técnico Federal do IBAMA
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 3831-9/99
+  - 3832-7/00
+  - 3811-4/00
+  - 3839-4/99
+  - 4687-7/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:11:18.007Z'
