@@ -2,7 +2,9 @@ codigo: 0159-8/02
 codigo_slug: 0159-8-02
 codigo_numerico: '0159802'
 descricao_oficial: CRIAÇÃO DE ANIMAIS DE ESTIMAÇÃO
-descricao_plana: CRIAÇÃO DE ANIMAIS DE ESTIMAÇÃO
+descricao_plana: >-
+  Criação e reprodução de animais destinados a companhia, como cães, gatos, aves e pequenos roedores, para venda a
+  consumidores ou lojas.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Canil com criação e venda de filhotes de raça
+  - Gatil especializado em uma ou mais raças felinas
+  - Criador de aves de gaiola, como canários e calopsitas
+  - Criador de hamsters, coelhos e outros pequenos roedores de estimação
+  - Criatório de aves ornamentais registrado no órgão ambiental
+o_que_inclui:
+  - Reprodução e criação de cães e gatos para venda como animais de companhia
+  - Criação de aves de gaiola e ornamentais destinadas a estimação
+  - Criação de coelhos, hamsters e outros pequenos mamíferos de estimação
+  - Manutenção de matrizes e reprodutores do próprio plantel
+  - Venda direta dos filhotes produzidos ao consumidor ou a lojas especializadas
+o_que_nao_inclui:
+  - Criação de peixes ornamentais em água doce (use CNAE 0322-1/04)
+  - Criação de peixes ornamentais em água salgada e salobra (use CNAE 0321-3/04)
+  - Comércio varejista de animais adquiridos de terceiros, como pet shops (use CNAE 4789-0/04)
+  - Serviços veterinários e atendimento clínico a animais (use CNAE 7500-1/00)
+  - Serviços de banho, tosa e higiene animal (use CNAE 9609-2/06)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no Conselho Regional de Medicina Veterinária (CRMV) com responsável técnico
+  - Licença ambiental estadual para criadouro, especialmente de fauna silvestre
+  - Registro no IBAMA para criação de aves e animais silvestres
+  - Licença da vigilância sanitária municipal
+cnaes_relacionados:
+  - 0159-8/01
+  - 0159-8/99
+  - 0322-1/04
+  - 0321-3/04
+  - 0162-8/03
+  - 0155-5/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

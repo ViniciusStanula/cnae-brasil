@@ -2,7 +2,7 @@ codigo: 1031-7/00
 codigo_slug: 1031-7-00
 codigo_numerico: '1031700'
 descricao_oficial: FABRICAÇÃO DE CONSERVAS DE FRUTAS
-descricao_plana: FABRICAÇÃO DE CONSERVAS DE FRUTAS
+descricao_plana: Fabricação de conservas, compotas, doces e polpas de frutas, incluindo processos de cozimento, pasteurização e envase.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,40 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica artesanal de geleias e compotas de frutas
+  - Produtor de doce de leite com frutas e doces em calda
+  - Pequena indústria de polpa de fruta congelada
+  - Produtor de frutas em conserva para restaurantes e mercados
+  - Agroindústria familiar de doces de frutas regionais
+o_que_inclui:
+  - Fabricação de geleias, compotas, doces em calda e em massa
+  - Produção de polpas e purês de fruta congelados ou pasteurizados
+  - Fabricação de frutas em conserva, cristalizadas ou desidratadas
+  - Cozimento, pasteurização, envase e esterilização das conservas
+  - Uso de frutas da própria produção ou adquiridas de terceiros
+  - Rotulagem e embalagem dos produtos fabricados
+o_que_nao_inclui:
+  - Fabricação de conservas de palmito (use CNAE 1032-5/01)
+  - Fabricação de conservas de legumes e outros vegetais (use CNAE 1032-5/99)
+  - Fabricação de sucos de frutas (use CNAE 1033-3/02)
+  - Fabricação de frutas cristalizadas, balas e semelhantes como confeito (use CNAE 1093-7/02)
+  - Cultivo das frutas em nome próprio (use o CNAE do cultivo correspondente)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro do estabelecimento no Ministério da Agricultura, quando exigido
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1032-5/01
+  - 1032-5/99
+  - 1033-3/01
+  - 1033-3/02
+  - 1093-7/02
+  - 1095-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

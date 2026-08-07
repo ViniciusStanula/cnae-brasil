@@ -2,7 +2,7 @@ codigo: 1033-3/01
 codigo_slug: 1033-3-01
 codigo_numerico: '1033301'
 descricao_oficial: FABRICAÇÃO DE SUCOS CONCENTRADOS DE FRUTAS, HORTALIÇAS E LEGUMES
-descricao_plana: FABRICAÇÃO DE SUCOS CONCENTRADOS DE FRUTAS, HORTALIÇAS E LEGUMES
+descricao_plana: Fabricação de sucos concentrados de frutas, hortaliças e legumes, obtidos pela retirada de água do suco integral.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Indústria de suco concentrado de laranja para exportação
+  - Produtor de concentrado de uva para engarrafadoras
+  - Fábrica de bases concentradas para refrescos e sorvetes
+  - Agroindústria de concentrado de maracujá e acerola
+  - Produtor de concentrado de tomate para indústrias alimentícias
+o_que_inclui:
+  - Extração do suco e concentração por evaporação ou processo equivalente
+  - Fabricação de sucos concentrados de frutas, hortaliças e legumes
+  - Produção de bases e xaropes concentrados para bebidas
+  - Pasteurização, envase e congelamento do concentrado
+  - Uso de matéria-prima da própria produção ou adquirida de terceiros
+o_que_nao_inclui:
+  - Fabricação de sucos prontos para consumo, não concentrados (use CNAE 1033-3/02)
+  - Fabricação de conservas e polpas de frutas (use CNAE 1031-7/00)
+  - Fabricação de pós alimentícios e refrescos em pó (use CNAE 1099-6/02)
+  - Fabricação de refrigerantes e bebidas prontas (use CNAE 1122-4/01)
+  - Cultivo das frutas em nome próprio (use o CNAE do cultivo correspondente)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro do estabelecimento e do produto no Ministério da Agricultura
+  - Licença da vigilância sanitária municipal ou estadual
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1033-3/02
+  - 1031-7/00
+  - 1099-6/02
+  - 1096-1/00
+  - 0131-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

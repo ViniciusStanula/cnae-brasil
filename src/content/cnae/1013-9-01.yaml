@@ -2,7 +2,9 @@ codigo: 1013-9/01
 codigo_slug: 1013-9-01
 codigo_numerico: '1013901'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS DE CARNE
-descricao_plana: FABRICAÇÃO DE PRODUTOS DE CARNE
+descricao_plana: >-
+  Fabricação de produtos derivados de carne, como linguiça, salsicha, presunto, defumados e embutidos, a partir de carne
+  recebida ou comprada.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,41 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica artesanal de linguiça e embutidos para açougues
+  - Produtor de carne defumada e bacon com marca própria
+  - Charcutaria com fabricação de presuntos e salames curados
+  - Pequena indústria de hambúrgueres e almôndegas congelados
+  - Produtor de carne de sol e charque para o varejo regional
+o_que_inclui:
+  - Fabricação de linguiça, salsicha, mortadela, presunto e salame
+  - Produção de carnes defumadas, curadas e salgadas, como bacon e charque
+  - Fabricação de hambúrgueres, almôndegas e empanados de carne
+  - Temperado, moagem, embutimento, cozimento e defumação da carne
+  - Embalagem e congelamento dos produtos de carne fabricados
+  - Fabricação a partir de carne adquirida de frigoríficos ou de abate próprio
+o_que_nao_inclui:
+  - Abate de bovinos em frigorífico (use CNAE 1011-2/01)
+  - Abate de aves (use CNAE 1012-1/01)
+  - Preparação de subprodutos do abate, como sebo e farinhas (use CNAE 1013-9/02)
+  - Fabricação de conservas de peixes, crustáceos e moluscos (use CNAE 1020-1/02)
+  - Fabricação de pratos prontos e refeições congeladas (use CNAE 1096-1/00)
+  - Comércio varejista de carnes em açougue (use CNAE 4722-9/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no serviço de inspeção (SIM, SIE ou SIF) conforme o alcance da venda
+  - Licença da vigilância sanitária municipal ou estadual
+  - Licença ambiental para tratamento de efluentes e resíduos
+  - Registro de responsável técnico junto ao conselho profissional
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1013-9/02
+  - 1011-2/01
+  - 1012-1/01
+  - 1020-1/02
+  - 1096-1/00
+  - 1095-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

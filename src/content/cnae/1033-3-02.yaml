@@ -2,7 +2,9 @@ codigo: 1033-3/02
 codigo_slug: 1033-3-02
 codigo_numerico: '1033302'
 descricao_oficial: FABRICAÇÃO DE SUCOS DE FRUTAS, HORTALIÇAS E LEGUMES, EXCETO CONCENTRADOS
-descricao_plana: FABRICAÇÃO DE SUCOS DE FRUTAS, HORTALIÇAS E LEGUMES, EXCETO CONCENTRADOS
+descricao_plana: >-
+  Fabricação de sucos de frutas, hortaliças e legumes prontos para consumo, engarrafados ou envasados, exceto
+  concentrados.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,39 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de sucos naturais engarrafados para mercados
+  - Produtor de suco de laranja integral pasteurizado
+  - Agroindústria de sucos de fruta em garrafa de vidro
+  - Produtor de suco de uva integral artesanal
+  - Fábrica de sucos prontos com entrega a padarias e lanchonetes
+o_que_inclui:
+  - Extração e envase de sucos integrais e prontos para consumo
+  - Fabricação de néctares e sucos adoçados de frutas e vegetais
+  - Pasteurização e engarrafamento do suco produzido
+  - Fabricação de sucos a partir de polpa ou concentrado adquirido
+  - Rotulagem e embalagem dos produtos fabricados
+o_que_nao_inclui:
+  - Fabricação de sucos concentrados, que tem código próprio (use CNAE 1033-3/01)
+  - Fabricação de conservas e polpas de frutas (use CNAE 1031-7/00)
+  - Fabricação de refrigerantes e outras bebidas não alcoólicas (use CNAE 1122-4/01)
+  - Preparo e venda de sucos para consumo imediato em lanchonete (use CNAE 5611-2/03)
+  - Cultivo das frutas em nome próprio (use o CNAE do cultivo correspondente)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro do estabelecimento e do produto no Ministério da Agricultura
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1033-3/01
+  - 1031-7/00
+  - 1052-0/00
+  - 1099-6/05
+  - 1096-1/00
+  - 0131-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

@@ -106,6 +106,15 @@ function apply(jsonPath: string): void {
     if (unknown.length) {
       throw new Error(`${codigo}: cnaes_relacionados not in dataset: ${unknown.join(', ')}`);
     }
+    // "use CNAE X" cross-references are prose, so the schema can't catch a code
+    // that doesn't exist — but it still sends the reader to a dead code.
+    const prose = [...parsed.data.o_que_nao_inclui, ...parsed.data.o_que_inclui].join(' ');
+    const dangling = [...prose.matchAll(/use CNAE (\d{4}-\d\/\d{2})/g)]
+      .map((m) => m[1]!)
+      .filter((c) => !byCodigo.has(c));
+    if (dangling.length) {
+      throw new Error(`${codigo}: "use CNAE" refers to codes not in dataset: ${dangling.join(', ')}`);
+    }
     if (parsed.data.cnaes_relacionados.includes(codigo)) {
       throw new Error(`${codigo}: cnaes_relacionados references itself`);
     }

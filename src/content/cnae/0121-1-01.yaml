@@ -2,7 +2,9 @@ codigo: 0121-1/01
 codigo_slug: 0121-1-01
 codigo_numerico: '0121101'
 descricao_oficial: HORTICULTURA, EXCETO MORANGO
-descricao_plana: HORTICULTURA, EXCETO MORANGO
+descricao_plana: >-
+  Cultivo de hortaliças, verduras e legumes em canteiros, estufas ou hortas comerciais, excluído o morango, que tem
+  código próprio.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +32,40 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Horta comercial de alface, rúcula e couve para feiras livres
+  - Produtor de hortaliças em estufa com venda direta a restaurantes
+  - Horticultor orgânico com entrega de cestas por assinatura
+  - Produtor de tomate e pimentão em ambiente protegido
+  - Horta urbana com cultivo hidropônico de folhosas
+o_que_inclui:
+  - Cultivo de folhosas como alface, rúcula, couve, agrião e espinafre
+  - Cultivo de legumes e frutos de horta, como tomate de mesa, pimentão, abobrinha e pepino
+  - Cultivo de hortaliças em estufa, hidroponia ou canteiro a céu aberto
+  - Cultivo de temperos frescos, como salsa, cebolinha e coentro
+  - Lavagem, seleção e embalagem da própria produção para venda
+  - Venda direta da produção própria em feiras, cestas ou entrega a comércios
+o_que_nao_inclui:
+  - Cultivo de morango, que tem código próprio (use CNAE 0121-1/02)
+  - Cultivo de flores e plantas ornamentais (use CNAE 0122-9/00)
+  - Cultivo de tomate rasteiro para indústria (use CNAE 0119-9/09)
+  - Produção de mudas certificadas para venda a terceiros (use CNAE 0142-3/00)
+  - Comércio varejista de hortaliças compradas de terceiros (use CNAE 4724-5/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual de produtor rural
+  - Cadastro Ambiental Rural (CAR), quando em área rural
+  - Cadastro no órgão estadual de agricultura
+  - Licença da vigilância sanitária, quando houver manipulação ou embalagem
+cnaes_relacionados:
+  - 0121-1/02
+  - 0122-9/00
+  - 0119-9/09
+  - 0119-9/02
+  - 0119-9/04
+  - 0142-3/00
+  - 0163-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

@@ -2,7 +2,9 @@ codigo: 0159-8/01
 codigo_slug: 0159-8-01
 codigo_numerico: '0159801'
 descricao_oficial: APICULTURA
-descricao_plana: APICULTURA
+descricao_plana: >-
+  Criação de abelhas para produção de mel, própolis, geleia real, cera e pólen, incluindo o manejo das colmeias e a
+  extração.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +32,40 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Apicultor com colmeias próprias e venda de mel em feiras
+  - Produtor de mel orgânico certificado para lojas de produtos naturais
+  - Apiário com produção de própolis e extrato para revenda
+  - Meliponicultor de abelhas nativas sem ferrão
+  - Apicultor prestador de serviço de polinização em lavouras
+o_que_inclui:
+  - Instalação e manejo de colmeias e apiários
+  - Produção e extração de mel, própolis, geleia real, pólen e cera de abelha
+  - Criação de abelhas nativas sem ferrão (meliponicultura)
+  - Envase do mel da própria produção para comercialização
+  - Multiplicação de enxames e venda de colmeias povoadas
+  - Serviço de polinização dirigida com colmeias próprias
+o_que_nao_inclui:
+  - Criação de bicho da seda, que tem código próprio (use CNAE 0159-8/04)
+  - Criação de escargô (use CNAE 0159-8/03)
+  - Criação de outros animais sem código específico (use CNAE 0159-8/99)
+  - Fabricação de balas, doces e produtos à base de mel comprado de terceiros (use CNAE 1093-7/02)
+  - Comércio atacadista de mel adquirido de terceiros (use CNAE 4632-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no serviço de inspeção (municipal, estadual ou federal) para venda de mel
+  - Licença ambiental ou autorização do órgão estadual, conforme o caso
+  - Cadastro no órgão estadual de agricultura
+  - Licença da vigilância sanitária para a sala de extração e envase
+cnaes_relacionados:
+  - 0159-8/02
+  - 0159-8/03
+  - 0159-8/04
+  - 0159-8/99
+  - 0162-8/03
+  - 0122-9/00
+  - 0163-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

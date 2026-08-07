@@ -2,7 +2,9 @@ codigo: 0161-0/02
 codigo_slug: 0161-0-02
 codigo_numerico: '0161002'
 descricao_oficial: SERVIÇO DE PODA DE ÁRVORES PARA LAVOURAS
-descricao_plana: SERVIÇO DE PODA DE ÁRVORES PARA LAVOURAS
+descricao_plana: >-
+  Serviço de poda, condução e limpeza de árvores em lavouras e pomares, prestado a produtores rurais por conta de
+  terceiros.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de serviço de poda em pomares de citros
+  - Equipe terceirizada de poda de cafezais
+  - Podador de parreirais e vinhedos contratado por safra
+  - Prestador de poda de formação em plantios de fruteiras
+  - Serviço de desbaste e condução de árvores em lavouras permanentes
+o_que_inclui:
+  - Poda de formação, produção e limpeza de árvores frutíferas
+  - Poda e condução de cafezais, parreirais e pomares
+  - Desbaste de ramos e retirada de material podado da lavoura
+  - Serviço prestado por conta de terceiros, sem posse da lavoura
+  - Operação de equipamentos e ferramentas de poda contratados pelo produtor
+o_que_nao_inclui:
+  - Poda de árvores urbanas e de jardins, fora de lavouras (use CNAE 8130-3/00)
+  - Serviço de pulverização e controle de pragas agrícolas (use CNAE 0161-0/01)
+  - Serviço de preparo de terreno, cultivo e colheita (use CNAE 0161-0/03)
+  - Cultivo da lavoura em nome próprio, e não como serviço (use o CNAE do cultivo correspondente)
+  - Outras atividades de apoio à agricultura sem código específico (use CNAE 0161-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro no órgão estadual de agricultura, quando exigido
+  - Comprovação de treinamento em segurança do trabalho rural (NR-31) para a equipe
+  - Registro de responsável técnico, quando exigido pelo contratante
+cnaes_relacionados:
+  - 0161-0/01
+  - 0161-0/03
+  - 0161-0/99
+  - 0163-6/00
+  - 0134-2/00
+  - 0132-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

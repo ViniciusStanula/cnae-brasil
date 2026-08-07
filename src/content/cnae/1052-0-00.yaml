@@ -2,7 +2,9 @@ codigo: 1052-0/00
 codigo_slug: 1052-0-00
 codigo_numerico: '1052000'
 descricao_oficial: FABRICAÇÃO DE LATICÍNIOS
-descricao_plana: FABRICAÇÃO DE LATICÍNIOS
+descricao_plana: >-
+  Fabricação de derivados do leite, como queijo, iogurte, manteiga, requeijão e doce de leite, a partir de leite próprio
+  ou adquirido.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,40 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Queijaria artesanal com produção de queijos maturados
+  - Laticínio familiar com fabricação de queijo, manteiga e requeijão
+  - Produtor de iogurte e bebida láctea para o varejo regional
+  - Fábrica de doce de leite com marca própria
+  - Agroindústria de queijo de leite de cabra
+o_que_inclui:
+  - Fabricação de queijos frescos, maturados e processados
+  - Produção de iogurtes, bebidas lácteas e coalhadas
+  - Fabricação de manteiga, requeijão, creme de leite e nata
+  - Produção de doce de leite e leite condensado
+  - Fabricação de leite em pó e produtos lácteos desidratados
+  - Uso de leite da própria produção ou adquirido de terceiros
+o_que_nao_inclui:
+  - Preparação do leite para consumo, como pasteurização e envase (use CNAE 1051-1/00)
+  - Fabricação de sorvetes e outros gelados comestíveis (use CNAE 1053-8/00)
+  - Criação de bovinos para leite, sem industrialização (use CNAE 0151-2/02)
+  - Comércio varejista de laticínios adquiridos de terceiros (use CNAE 4721-1/03)
+  - Fabricação de alimentos para animais a partir de soro de leite (use CNAE 1066-0/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no serviço de inspeção (SIM, SIE ou SIF) conforme o alcance da venda
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro de responsável técnico junto ao conselho profissional
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1051-1/00
+  - 1053-8/00
+  - 0151-2/02
+  - 1096-1/00
+  - 1099-6/99
+  - 1013-9/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

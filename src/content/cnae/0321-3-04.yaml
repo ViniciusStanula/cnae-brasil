@@ -2,7 +2,7 @@ codigo: 0321-3/04
 codigo_slug: 0321-3-04
 codigo_numerico: '0321304'
 descricao_oficial: CRIAÇÃO DE PEIXES ORNAMENTAIS EM ÁGUA SALGADA E SALOBRA
-descricao_plana: CRIAÇÃO DE PEIXES ORNAMENTAIS EM ÁGUA SALGADA E SALOBRA
+descricao_plana: Criação de peixes ornamentais marinhos em água salgada ou salobra, destinados a aquarismo e não ao consumo alimentar.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Criatório de peixes marinhos ornamentais para lojas de aquarismo
+  - Produtor de peixes-palhaço em sistema fechado de água salgada
+  - Aquicultor de espécies ornamentais em água salobra litorânea
+  - Criatório com reprodução em cativeiro de espécies marinhas de aquário
+  - Produtor de peixes ornamentais marinhos com venda a distribuidores
+o_que_inclui:
+  - Reprodução e engorda de peixes ornamentais em água salgada ou salobra
+  - Manutenção de matrizes e larvicultura de espécies marinhas de aquário
+  - Operação de tanques, viveiros e sistemas de recirculação de água salgada
+  - Seleção, acondicionamento e expedição dos peixes produzidos
+  - Venda da produção própria a lojas, distribuidores ou consumidor final
+o_que_nao_inclui:
+  - Criação de peixes ornamentais em água doce (use CNAE 0322-1/04)
+  - Criação de peixes em água salgada e salobra para consumo (use CNAE 0321-3/01)
+  - Pesca de peixes em água salgada (use CNAE 0311-6/01)
+  - Comércio varejista de peixes ornamentais adquiridos de terceiros (use CNAE 4789-0/04)
+  - Atividades de apoio à aquicultura prestadas a terceiros (use CNAE 0321-3/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro de aquicultor no órgão federal competente
+  - Licença ambiental estadual para o empreendimento aquícola
+  - Outorga de uso de água, quando houver captação
+  - Registro no IBAMA para criação e comércio de fauna aquática ornamental
+cnaes_relacionados:
+  - 0322-1/04
+  - 0321-3/01
+  - 0321-3/05
+  - 0321-3/99
+  - 0159-8/02
+  - 0311-6/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

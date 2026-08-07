@@ -2,7 +2,9 @@ codigo: 0892-4/01
 codigo_slug: 0892-4-01
 codigo_numerico: '0892401'
 descricao_oficial: EXTRAÇÃO DE SAL MARINHO
-descricao_plana: EXTRAÇÃO DE SAL MARINHO
+descricao_plana: >-
+  Extração de sal marinho por evaporação da água do mar em salinas, incluindo colheita, lavagem e empilhamento do sal
+  bruto.
 secao:
   letra: B
   slug: industrias-extrativas
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Salina artesanal com produção de sal marinho em tabuleiros
+  - Produtor de flor de sal para uso gastronômico
+  - Salineiro com venda de sal grosso a distribuidores
+  - Salina familiar no litoral nordestino
+  - Produtor de sal marinho para uso animal e industrial
+o_que_inclui:
+  - Captação e represamento de água do mar em tanques de evaporação
+  - Evaporação solar e cristalização do sal em salinas
+  - Colheita, lavagem e empilhamento do sal bruto
+  - Produção de flor de sal e sal marinho artesanal
+  - Ensacamento do sal bruto da própria produção para venda
+o_que_nao_inclui:
+  - Extração de sal-gema em jazidas subterrâneas (use CNAE 0892-4/02)
+  - Refino e outros tratamentos industriais do sal (use CNAE 0892-4/03)
+  - Extração de minerais para fertilizantes e produtos químicos (use CNAE 0891-6/00)
+  - Comércio atacadista de sal adquirido de terceiros (use CNAE 4632-0/01)
+  - Fabricação de temperos e condimentos à base de sal (use CNAE 1095-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para operação da salina
+  - Autorização de lavra ou registro na Agência Nacional de Mineração (ANM)
+  - Outorga de uso de água e autorização para uso de área costeira
+  - Registro no serviço de inspeção para sal destinado a consumo humano
+cnaes_relacionados:
+  - 0892-4/02
+  - 0892-4/03
+  - 0891-6/00
+  - 0899-1/99
+  - 1095-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

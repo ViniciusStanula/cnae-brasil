@@ -2,7 +2,7 @@ codigo: 0161-0/03
 codigo_slug: 0161-0-03
 codigo_numerico: '0161003'
 descricao_oficial: SERVIÇO DE PREPARAÇÃO DE TERRENO, CULTIVO E COLHEITA
-descricao_plana: SERVIÇO DE PREPARAÇÃO DE TERRENO, CULTIVO E COLHEITA
+descricao_plana: Serviço de preparo de solo, plantio, tratos culturais e colheita prestado a produtores rurais por conta de terceiros.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +30,39 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de serviço de aração e gradagem com trator próprio
+  - Equipe terceirizada de colheita contratada por safra
+  - Operador de colheitadeira que atende várias fazendas
+  - Prestador de serviço de plantio mecanizado de grãos
+  - Empresa de tratos culturais para lavouras de cana e soja
+o_que_inclui:
+  - Preparo de solo, aração, gradagem, subsolagem e sulcamento
+  - Plantio e semeadura mecanizada ou manual por conta de terceiros
+  - Tratos culturais, capina e adubação de cobertura contratados pelo produtor
+  - Colheita mecanizada ou manual prestada a terceiros
+  - Operação de máquinas e implementos agrícolas com ou sem fornecimento do equipamento
+  - Serviço remunerado por área, hora-máquina ou produção
+o_que_nao_inclui:
+  - Serviço de pulverização e controle de pragas agrícolas (use CNAE 0161-0/01)
+  - Serviço de poda de árvores para lavouras (use CNAE 0161-0/02)
+  - Atividades de pós-colheita, como secagem e beneficiamento (use CNAE 0163-6/00)
+  - Cultivo da lavoura em nome próprio, e não como serviço (use o CNAE do cultivo correspondente)
+  - Aluguel de máquinas agrícolas sem operador (use CNAE 7739-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro no órgão estadual de agricultura, quando exigido
+  - Comprovação de treinamento em segurança do trabalho rural (NR-31) para operadores
+  - Licenciamento e regularização das máquinas agrícolas utilizadas
+cnaes_relacionados:
+  - 0161-0/01
+  - 0161-0/02
+  - 0161-0/99
+  - 0163-6/00
+  - 0111-3/02
+  - 0115-6/00
+  - 0113-0/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

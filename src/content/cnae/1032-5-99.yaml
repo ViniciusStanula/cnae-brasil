@@ -2,7 +2,7 @@ codigo: 1032-5/99
 codigo_slug: 1032-5-99
 codigo_numerico: '1032599'
 descricao_oficial: FABRICAÇÃO DE CONSERVAS DE LEGUMES E OUTROS VEGETAIS, EXCETO PALMITO
-descricao_plana: FABRICAÇÃO DE CONSERVAS DE LEGUMES E OUTROS VEGETAIS, EXCETO PALMITO
+descricao_plana: Fabricação de conservas de legumes, verduras e outros vegetais, como picles e molhos vegetais, excluído o palmito.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,40 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica artesanal de picles e conservas de pepino
+  - Produtor de conservas de pimenta e vegetais em vidro
+  - Pequena indústria de milho e ervilha em conserva
+  - Agroindústria familiar de legumes em conserva para o varejo
+  - Produtor de antepastos e vegetais em azeite
+o_que_inclui:
+  - Fabricação de conservas de pepino, pimenta, cebola, milho e ervilha
+  - Produção de picles, antepastos e vegetais em salmoura, vinagre ou azeite
+  - Fabricação de legumes e verduras enlatados ou envasados em vidro
+  - Cozimento, branqueamento, pasteurização e esterilização dos vegetais
+  - Uso de vegetais da própria produção ou adquiridos de terceiros
+  - Rotulagem e embalagem dos produtos fabricados
+o_que_nao_inclui:
+  - Fabricação de conservas de palmito, que tem código próprio (use CNAE 1032-5/01)
+  - Fabricação de conservas de frutas (use CNAE 1031-7/00)
+  - Fabricação de molhos, temperos e condimentos (use CNAE 1095-3/00)
+  - Fabricação de pratos prontos e refeições congeladas (use CNAE 1096-1/00)
+  - Cultivo dos vegetais em nome próprio (use o CNAE do cultivo correspondente)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro do estabelecimento no Ministério da Agricultura, quando exigido
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1032-5/01
+  - 1031-7/00
+  - 1095-3/00
+  - 1096-1/00
+  - 1099-6/99
+  - 0121-1/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

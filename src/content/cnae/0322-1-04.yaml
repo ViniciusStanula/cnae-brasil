@@ -2,7 +2,9 @@ codigo: 0322-1/04
 codigo_slug: 0322-1-04
 codigo_numerico: '0322104'
 descricao_oficial: CRIAÇÃO DE PEIXES ORNAMENTAIS EM ÁGUA DOCE
-descricao_plana: CRIAÇÃO DE PEIXES ORNAMENTAIS EM ÁGUA DOCE
+descricao_plana: >-
+  Criação de peixes ornamentais de água doce, como beta, kinguio e acará, destinados a aquarismo e não ao consumo
+  alimentar.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Criatório de peixes beta para lojas de aquarismo
+  - Produtor de kinguios e carpas ornamentais em tanques
+  - Aquicultor de acarás e ciclídeos ornamentais
+  - Criatório doméstico ampliado com venda a distribuidores
+  - Produtor de peixes ornamentais com reprodução em cativeiro
+o_que_inclui:
+  - Reprodução e engorda de peixes ornamentais em água doce
+  - Manutenção de matrizes e larvicultura de espécies de aquário
+  - Operação de tanques, aquários e viveiros de água doce
+  - Seleção, acondicionamento e expedição dos peixes produzidos
+  - Venda da produção própria a lojas, distribuidores ou consumidor final
+o_que_nao_inclui:
+  - Criação de peixes ornamentais em água salgada e salobra (use CNAE 0321-3/04)
+  - Criação de peixes em água doce para consumo (use CNAE 0322-1/01)
+  - Ranicultura, que tem código próprio (use CNAE 0322-1/05)
+  - Comércio varejista de peixes ornamentais adquiridos de terceiros (use CNAE 4789-0/04)
+  - Atividades de apoio à aquicultura prestadas a terceiros (use CNAE 0322-1/07)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro de aquicultor no órgão federal competente
+  - Licença ambiental estadual para o empreendimento aquícola
+  - Outorga de uso de água, quando houver captação
+  - Registro no IBAMA para criação e comércio de fauna aquática ornamental
+cnaes_relacionados:
+  - 0321-3/04
+  - 0322-1/01
+  - 0322-1/05
+  - 0322-1/07
+  - 0322-1/99
+  - 0159-8/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'

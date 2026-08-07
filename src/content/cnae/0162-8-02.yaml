@@ -2,7 +2,9 @@ codigo: 0162-8/02
 codigo_slug: 0162-8-02
 codigo_numerico: '0162802'
 descricao_oficial: SERVIÇO DE TOSQUIAMENTO DE OVINOS
-descricao_plana: SERVIÇO DE TOSQUIAMENTO DE OVINOS
+descricao_plana: >-
+  Serviço de tosquia de ovinos prestado a criadores por conta de terceiros, incluindo a retirada e o acondicionamento da
+  lã.
 secao:
   letra: A
   slug: agricultura
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Tosquiador autônomo que atende cabanhas por temporada
+  - Equipe de tosquia contratada por estâncias de ovinos
+  - Prestador de tosquia com máquina própria em rota entre propriedades
+  - Serviço de tosquia associado ao enfardamento da lã
+  - Tosquiador contratado por cooperativa de produtores de lã
+o_que_inclui:
+  - Tosquia manual ou mecanizada de ovinos por conta de terceiros
+  - Retirada, classificação e acondicionamento da lã na propriedade
+  - Enfardamento da lã como etapa do serviço prestado
+  - Deslocamento de equipe e equipamento entre propriedades contratantes
+  - Serviço remunerado por animal tosquiado ou por diária
+o_que_nao_inclui:
+  - Criação de ovinos em nome próprio, inclusive para lã (use CNAE 0153-9/02)
+  - Serviço de inseminação artificial de animais (use CNAE 0162-8/01)
+  - Serviço de manejo de animais em geral (use CNAE 0162-8/03)
+  - Beneficiamento e fiação industrial da lã (use CNAE 1311-1/00)
+  - Outras atividades de apoio à pecuária sem código específico (use CNAE 0162-8/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro no órgão estadual de agricultura ou defesa agropecuária
+  - Comprovação de treinamento em segurança do trabalho rural (NR-31)
+  - Cumprimento das regras sanitárias de trânsito entre propriedades
+cnaes_relacionados:
+  - 0153-9/02
+  - 0162-8/01
+  - 0162-8/03
+  - 0162-8/99
+  - 0153-9/01
+  - 0161-0/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:43:37.572Z'
