@@ -2,7 +2,9 @@ codigo: 1622-6/99
 codigo_slug: 1622-6-99
 codigo_numerico: '1622699'
 descricao_oficial: FABRICAÇÃO DE OUTROS ARTIGOS DE CARPINTARIA PARA CONSTRUÇÃO
-descricao_plana: FABRICAÇÃO DE OUTROS ARTIGOS DE CARPINTARIA PARA CONSTRUÇÃO
+descricao_plana: >-
+  Fabricação de artigos de carpintaria para construção sem código próprio, como forros, decks, pergolados e estruturas
+  de madeira.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Carpintaria de forros e lambris de madeira
+  - Fabricante de decks e pergolados para áreas externas
+  - Produtor de estruturas e treliças de madeira para telhados
+  - Marcenaria de escadas e corrimãos de madeira
+  - Fabricante de fôrmas de madeira para concretagem
+o_que_inclui:
+  - Fabricação de forros, lambris e réguas de madeira
+  - Produção de decks, pergolados e painéis externos
+  - Fabricação de estruturas, treliças e tesouras para telhado
+  - Produção de escadas, corrimãos e guarda-corpos de madeira
+  - Fabricação de fôrmas e escoramentos de madeira para obras
+o_que_nao_inclui:
+  - Fabricação de casas de madeira pré-fabricadas (use CNAE 1622-6/01)
+  - Fabricação de esquadrias de madeira, como portas e janelas (use CNAE 1622-6/02)
+  - Fabricação de artefatos diversos de madeira, exceto móveis (use CNAE 1629-3/01)
+  - Fabricação de móveis de madeira (use CNAE 3101-2/00)
+  - Serviços de instalação de forros e divisórias na obra (use CNAE 4330-4/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro Técnico Federal do IBAMA para uso de madeira
+  - Documento de Origem Florestal (DOF) para a madeira utilizada
+  - Programa de controle de riscos ocupacionais pela exposição a pó de madeira
+cnaes_relacionados:
+  - 1622-6/01
+  - 1622-6/02
+  - 1629-3/01
+  - 1621-8/00
+  - 1610-2/04
+  - 1623-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

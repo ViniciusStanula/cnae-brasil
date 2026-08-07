@@ -2,7 +2,7 @@ codigo: 2219-6/00
 codigo_slug: 2219-6-00
 codigo_numerico: '2219600'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE BORRACHA NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE BORRACHA NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Fabricação de artefatos de borracha sem código próprio, como mangueiras, juntas, tapetes, luvas e peças técnicas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de mangueiras e tubos de borracha
+  - Produtor de juntas, retentores e vedações
+  - Fabricante de tapetes e capachos de borracha
+  - Produtor de luvas e artefatos de látex
+  - Indústria de peças técnicas de borracha sob desenho
+o_que_inclui:
+  - Fabricação de mangueiras, tubos e perfis de borracha
+  - Produção de juntas, gaxetas, retentores e vedações
+  - Fabricação de tapetes, capachos e revestimentos de borracha
+  - Produção de luvas, balões e artefatos de látex
+  - Mistura, extrusão, moldagem e vulcanização da borracha
+o_que_nao_inclui:
+  - Fabricação de pneumáticos e câmaras de ar (use CNAE 2211-1/00)
+  - Reforma de pneumáticos usados (use CNAE 2212-9/00)
+  - Fabricação de artefatos de material plástico para uso pessoal e doméstico (use CNAE 2229-3/01)
+  - Fabricação de partes para calçados, como solados (use CNAE 1540-8/00)
+  - Fabricação de calçados de materiais não especificados (use CNAE 1539-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para emissões da vulcanização
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro do produto na Anvisa, quando for artigo de uso médico
+  - Programa de controle de riscos ocupacionais pela exposição a produtos químicos
+cnaes_relacionados:
+  - 2211-1/00
+  - 2212-9/00
+  - 2229-3/01
+  - 2229-3/02
+  - 1540-8/00
+  - 2221-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

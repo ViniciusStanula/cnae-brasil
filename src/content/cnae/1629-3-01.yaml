@@ -2,7 +2,9 @@ codigo: 1629-3/01
 codigo_slug: 1629-3-01
 codigo_numerico: '1629301'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DIVERSOS DE MADEIRA, EXCETO MÓVEIS
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DIVERSOS DE MADEIRA, EXCETO MÓVEIS
+descricao_plana: >-
+  Fabricação de artefatos diversos de madeira que não móveis, como utensílios, cabos de ferramenta, molduras e objetos
+  decorativos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -32,11 +34,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de tábuas de corte e utensílios de cozinha em madeira
+  - Produtor de cabos de madeira para ferramentas
+  - Ateliê de molduras e quadros de madeira
+  - Fabricante de brinquedos e peças decorativas de madeira
+  - Produtor de cabides e organizadores de madeira
+o_que_inclui:
+  - Fabricação de utensílios domésticos de madeira, como tábuas e colheres
+  - Produção de cabos de madeira para ferramentas e vassouras
+  - Fabricação de molduras, quadros e objetos decorativos
+  - Produção de cabides, caixas organizadoras e peças utilitárias
+  - Torneamento, lixamento, envernizamento e acabamento das peças
+o_que_nao_inclui:
+  - Fabricação de artefatos de cortiça, bambu, palha e vime (use CNAE 1629-3/02)
+  - Fabricação de embalagens e artefatos de tanoaria (use CNAE 1623-4/00)
+  - Fabricação de artigos de carpintaria para construção (use CNAE 1622-6/99)
+  - Fabricação de móveis de madeira (use CNAE 3101-2/00)
+  - Fabricação de brinquedos e jogos recreativos (use CNAE 3240-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro Técnico Federal do IBAMA para uso de madeira
+  - Documento de Origem Florestal (DOF) para a madeira utilizada
+  - Programa de controle de riscos ocupacionais pela exposição a pó de madeira
+cnaes_relacionados:
+  - 1629-3/02
+  - 1623-4/00
+  - 1622-6/99
+  - 1610-2/04
+  - 1621-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

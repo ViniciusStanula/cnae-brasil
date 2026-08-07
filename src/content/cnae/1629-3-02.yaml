@@ -2,7 +2,7 @@ codigo: 1629-3/02
 codigo_slug: 1629-3-02
 codigo_numerico: '1629302'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DIVERSOS DE CORTIÇA, BAMBU, PALHA, VIME E OUTROS MATERIAIS TRANÇADOS, EXCETO MÓVEIS
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DIVERSOS DE CORTIÇA, BAMBU, PALHA, VIME E OUTROS MATERIAIS TRANÇADOS, EXCETO MÓVEIS
+descricao_plana: Fabricação de artefatos de cortiça, bambu, palha, vime e outros materiais trançados, exceto móveis.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -32,11 +32,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ateliê de cestaria em vime e palha
+  - Produtor de artefatos de bambu para decoração
+  - Fabricante de esteiras e tapetes de palha
+  - Artesão de chapéus e bolsas de fibras trançadas
+  - Produtor de rolhas e artefatos de cortiça
+o_que_inclui:
+  - Fabricação de cestas, balaios e artefatos de cestaria
+  - Produção de esteiras, tapetes e forrações de palha ou fibra
+  - Fabricação de artefatos de bambu, vime e junco
+  - Produção de rolhas e objetos de cortiça
+  - Trançado, tratamento, tingimento e acabamento das peças
+o_que_nao_inclui:
+  - Fabricação de artefatos diversos de madeira, exceto móveis (use CNAE 1629-3/01)
+  - Fabricação de móveis de vime, junco ou bambu (use CNAE 3103-9/00)
+  - Fabricação de artefatos de cordoaria (use CNAE 1353-7/00)
+  - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
+  - Comércio varejista de artesanato (use CNAE 4789-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Autorização ambiental para extração e uso de fibras nativas
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1629-3/01
+  - 1353-7/00
+  - 1351-1/00
+  - 1623-4/00
+  - 4789-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

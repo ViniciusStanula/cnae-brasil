@@ -2,7 +2,7 @@ codigo: 1821-1/00
 codigo_slug: 1821-1-00
 codigo_numerico: '1821100'
 descricao_oficial: SERVIÇOS DE PRÉ IMPRESSÃO
-descricao_plana: SERVIÇOS DE PRÉ IMPRESSÃO
+descricao_plana: Serviços de pré-impressão, como tratamento de imagem, fechamento de arquivo, prova digital e gravação de matrizes.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Bureau de pré-impressão para gráficas
+  - Prestador de tratamento de imagem e fechamento de arquivos
+  - Serviço de gravação de chapas e clichês
+  - Estúdio de prova digital e prova de cor
+  - Prestador de diagramação técnica para impressão
+o_que_inclui:
+  - Tratamento e correção de imagens para impressão
+  - Fechamento e conferência de arquivos digitais
+  - Gravação de chapas offset, clichês e telas serigráficas
+  - Produção de provas digitais e provas de cor
+  - Imposição de páginas e montagem de cadernos
+o_que_nao_inclui:
+  - Impressão de material para uso publicitário (use CNAE 1813-0/01)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+  - Serviços de encadernação e plastificação (use CNAE 1822-9/01)
+  - Outros serviços de acabamentos gráficos (use CNAE 1822-9/99)
+  - Design gráfico e criação de peças (use CNAE 7410-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para descarte de reveladores e chapas
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1813-0/01
+  - 1813-0/99
+  - 1822-9/01
+  - 1822-9/99
+  - 1811-3/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

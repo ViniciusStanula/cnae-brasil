@@ -5,8 +5,8 @@ descricao_oficial: >-
   FABRICAÇÃO DE PRODUTOS DE PASTAS CELULÓSICAS, PAPEL, CARTOLINA, PAPEL CARTÃO E PAPELÃO ONDULADO NÃO ESPECIFICADOS
   ANTERIORMENTE
 descricao_plana: >-
-  FABRICAÇÃO DE PRODUTOS DE PASTAS CELULÓSICAS, PAPEL, CARTOLINA, PAPEL CARTÃO E PAPELÃO ONDULADO NÃO ESPECIFICADOS
-  ANTERIORMENTE
+  Fabricação de produtos de papel, cartolina e papelão sem código próprio, como filtros, rótulos, tubetes e artigos de
+  festa.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -36,11 +36,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de tubetes e canudos de papelão
+  - Produtor de filtros de papel para café
+  - Fabricante de rótulos e etiquetas de papel
+  - Produtor de artigos de festa em papel
+  - Indústria de forminhas e bandejas de papel
+o_que_inclui:
+  - Fabricação de tubetes, canudos e cones de papelão
+  - Produção de filtros de papel e discos filtrantes
+  - Fabricação de rótulos, etiquetas e selos de papel
+  - Produção de forminhas, bandejas e artigos descartáveis de papel
+  - Produtos de papel sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Fabricação de embalagens de papel (use CNAE 1731-1/00)
+  - Fabricação de embalagens de cartolina e papel cartão (use CNAE 1732-0/00)
+  - Fabricação de produtos de papel para uso doméstico e sanitário (use CNAE 1742-7/99)
+  - Fabricação de produtos de papel para uso comercial e de escritório (use CNAE 1741-9/02)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária para produtos em contato com alimentos
+  - Licença ambiental para uso de tintas e adesivos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1731-1/00
+  - 1732-0/00
+  - 1742-7/99
+  - 1741-9/02
+  - 1813-0/99
+  - 1721-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

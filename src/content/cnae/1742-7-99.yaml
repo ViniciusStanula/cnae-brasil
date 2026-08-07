@@ -2,7 +2,9 @@ codigo: 1742-7/99
 codigo_slug: 1742-7-99
 codigo_numerico: '1742799'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS DE PAPEL PARA USO DOMÉSTICO E HIGIÊNICO SANITÁRIO NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE PRODUTOS DE PAPEL PARA USO DOMÉSTICO E HIGIÊNICO SANITÁRIO NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de produtos de papel para uso doméstico e higiênico-sanitário sem código próprio, como papel higiênico,
+  guardanapos e toalhas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de papel higiênico em rolos
+  - Produtor de guardanapos e toalhas de papel
+  - Fabricante de lenços de papel e papel toalha institucional
+  - Indústria de papel interfolhado para banheiros
+  - Convertedora de bobinas tissue em produtos acabados
+o_que_inclui:
+  - Fabricação de papel higiênico em rolo e interfolhado
+  - Produção de guardanapos, toalhas e lenços de papel
+  - Conversão de bobinas tissue em produtos acabados
+  - Gofragem, corte, dobra e embalagem dos produtos
+  - Produtos de papel doméstico e sanitário sem código próprio
+o_que_nao_inclui:
+  - Fabricação de fraldas descartáveis (use CNAE 1742-7/01)
+  - Fabricação de absorventes higiênicos (use CNAE 1742-7/02)
+  - Fabricação de papel em bobina (use CNAE 1721-4/00)
+  - Fabricação de produtos de papel para uso comercial e de escritório (use CNAE 1741-9/02)
+  - Comércio atacadista de produtos de higiene e limpeza (use CNAE 4649-4/08)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro do produto na Anvisa, quando exigido
+  - Licença ambiental para tratamento de efluentes
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1742-7/01
+  - 1742-7/02
+  - 1721-4/00
+  - 1741-9/02
+  - 1749-4/00
+  - 4649-4/08
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

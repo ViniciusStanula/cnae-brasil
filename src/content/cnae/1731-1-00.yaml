@@ -2,7 +2,9 @@ codigo: 1731-1/00
 codigo_slug: 1731-1-00
 codigo_numerico: '1731100'
 descricao_oficial: FABRICAÇÃO DE EMBALAGENS DE PAPEL
-descricao_plana: FABRICAÇÃO DE EMBALAGENS DE PAPEL
+descricao_plana: >-
+  Fabricação de embalagens de papel, como sacos, sacolas, envelopes e bobinas para envase, a partir de papel já
+  produzido.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de sacos de papel kraft para padarias
+  - Produtor de sacolas de papel personalizadas
+  - Fabricante de envelopes e embalagens para delivery
+  - Indústria de sacos de papel multifolhados para cimento
+  - Produtor de embalagens de papel para fast food
+o_que_inclui:
+  - Fabricação de sacos e sacolas de papel de qualquer tipo
+  - Produção de envelopes e embalagens flexíveis de papel
+  - Fabricação de sacos multifolhados para produtos a granel
+  - Impressão, corte, colagem e vincagem das embalagens
+  - Produção de embalagens de papel para alimentos
+o_que_nao_inclui:
+  - Fabricação de embalagens de cartolina e papel cartão (use CNAE 1732-0/00)
+  - Fabricação de chapas e embalagens de papelão ondulado (use CNAE 1733-8/00)
+  - Fabricação de papel em bobina (use CNAE 1721-4/00)
+  - Fabricação de embalagens de material plástico (use CNAE 2222-6/00)
+  - Impressão de material para uso publicitário (use CNAE 1813-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária para embalagens em contato com alimentos
+  - Licença ambiental para uso de tintas e adesivos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1732-0/00
+  - 1733-8/00
+  - 1721-4/00
+  - 1749-4/00
+  - 2222-6/00
+  - 1813-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

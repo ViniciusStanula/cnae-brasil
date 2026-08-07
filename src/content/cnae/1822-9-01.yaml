@@ -2,7 +2,7 @@ codigo: 1822-9/01
 codigo_slug: 1822-9-01
 codigo_numerico: '1822901'
 descricao_oficial: SERVIÇOS DE ENCADERNAÇÃO E PLASTIFICAÇÃO
-descricao_plana: SERVIÇOS DE ENCADERNAÇÃO E PLASTIFICAÇÃO
+descricao_plana: Serviços de encadernação e plastificação de impressos, prestados a gráficas, editoras ou diretamente ao consumidor.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Encadernadora de trabalhos acadêmicos e teses
+  - Prestador de encadernação em capa dura para editoras
+  - Serviço de plastificação de documentos e cardápios
+  - Oficina de restauração e encadernação de livros
+  - Prestador de encadernação espiral e wire-o para gráficas
+o_que_inclui:
+  - Encadernação em capa dura, brochura, espiral e wire-o
+  - Costura, colagem e refile de miolos
+  - Plastificação de documentos, cardápios e impressos
+  - Restauração e reencadernação de livros
+  - Serviço prestado a gráficas, editoras ou ao consumidor final
+o_que_nao_inclui:
+  - Outros serviços de acabamentos gráficos, exceto encadernação e plastificação (use CNAE 1822-9/99)
+  - Serviços de pré-impressão (use CNAE 1821-1/00)
+  - Impressão de livros, revistas e periódicos (use CNAE 1811-3/02)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+  - Edição de livros (use CNAE 5811-5/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de colas e laminados
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1822-9/99
+  - 1821-1/00
+  - 1811-3/02
+  - 1813-0/99
+  - 1813-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

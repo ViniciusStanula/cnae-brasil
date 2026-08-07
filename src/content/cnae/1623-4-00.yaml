@@ -2,7 +2,7 @@ codigo: 1623-4/00
 codigo_slug: 1623-4-00
 codigo_numerico: '1623400'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE TANOARIA E DE EMBALAGENS DE MADEIRA
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE TANOARIA E DE EMBALAGENS DE MADEIRA
+descricao_plana: Fabricação de artefatos de tanoaria e embalagens de madeira, como barris, caixas, engradados e paletes.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de paletes de madeira para logística
+  - Produtor de caixas e engradados para hortifruti
+  - Tanoaria com barris para cachaça e vinho
+  - Fabricante de caixotes de madeira para exportação
+  - Produtor de carretéis e bobinas de madeira
+o_que_inclui:
+  - Fabricação de paletes, pallets e estrados de madeira
+  - Produção de caixas, caixotes e engradados de madeira
+  - Fabricação de barris, tonéis, dornas e pipas
+  - Produção de carretéis e bobinas de madeira
+  - Corte, montagem, tratamento e marcação das embalagens
+o_que_nao_inclui:
+  - Fabricação de artefatos diversos de madeira, exceto móveis (use CNAE 1629-3/01)
+  - Fabricação de artigos de carpintaria para construção (use CNAE 1622-6/99)
+  - Fabricação de embalagens de papel (use CNAE 1731-1/00)
+  - Fabricação de embalagens de material plástico (use CNAE 2222-6/00)
+  - Serrarias com desdobramento de madeira em bruto (use CNAE 1610-2/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro Técnico Federal do IBAMA para uso de madeira
+  - Documento de Origem Florestal (DOF) para a madeira utilizada
+  - Certificação fitossanitária NIMF-15 para embalagens de exportação
+cnaes_relacionados:
+  - 1629-3/01
+  - 1622-6/99
+  - 1610-2/04
+  - 1731-1/00
+  - 2222-6/00
+  - 1621-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

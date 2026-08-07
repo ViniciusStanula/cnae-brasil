@@ -2,7 +2,9 @@ codigo: 1721-4/00
 codigo_slug: 1721-4-00
 codigo_numerico: '1721400'
 descricao_oficial: FABRICAÇÃO DE PAPEL
-descricao_plana: FABRICAÇÃO DE PAPEL
+descricao_plana: >-
+  Fabricação de papel em bobinas ou folhas a partir de celulose ou aparas, incluindo papéis para impressão, escrita e
+  uso sanitário.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de papel a partir de aparas recicladas
+  - Indústria de papel para impressão e escrita
+  - Produtor de papel kraft para embalagens
+  - Fábrica de papel tissue para uso sanitário
+  - Papeleira artesanal com papéis especiais
+o_que_inclui:
+  - Preparação da massa a partir de celulose ou aparas
+  - Formação, prensagem e secagem da folha em máquina de papel
+  - Fabricação de papéis para impressão, escrita e embalagem
+  - Produção de papel kraft, tissue e papéis especiais
+  - Bobinamento, corte e acondicionamento do papel produzido
+o_que_nao_inclui:
+  - Fabricação de celulose e outras pastas para papel (use CNAE 1710-9/00)
+  - Fabricação de cartolina e papel cartão (use CNAE 1722-2/00)
+  - Fabricação de embalagens de papel (use CNAE 1731-1/00)
+  - Fabricação de produtos de papel para uso doméstico e sanitário (use CNAE 1742-7/99)
+  - Comércio atacadista de papel (use CNAE 4647-8/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual pelo potencial poluidor
+  - Outorga de uso de água e licença para tratamento de efluentes
+  - Cadastro Técnico Federal do IBAMA
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1710-9/00
+  - 1722-2/00
+  - 1731-1/00
+  - 1742-7/99
+  - 1749-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

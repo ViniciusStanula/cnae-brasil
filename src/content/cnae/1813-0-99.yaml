@@ -2,7 +2,9 @@ codigo: 1813-0/99
 codigo_slug: 1813-0-99
 codigo_numerico: '1813099'
 descricao_oficial: IMPRESSÃO DE MATERIAL PARA OUTROS USOS
-descricao_plana: IMPRESSÃO DE MATERIAL PARA OUTROS USOS
+descricao_plana: >-
+  Impressão de material para usos não publicitários, como formulários, rótulos, embalagens impressas e documentos
+  comerciais.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Gráfica de blocos, talões e formulários comerciais
+  - Impressão de rótulos e etiquetas adesivas
+  - Gráfica de convites e papelaria personalizada
+  - Impressão de agendas, calendários e cadernos
+  - Gráfica de embalagens e sacolas impressas
+o_que_inclui:
+  - Impressão de formulários, blocos, talões e notas
+  - Impressão de rótulos, etiquetas e selos
+  - Impressão de convites, agendas, calendários e papelaria
+  - Impressão sobre embalagens e materiais diversos
+  - Impressão de material sem finalidade publicitária
+o_que_nao_inclui:
+  - Impressão de material para uso publicitário (use CNAE 1813-0/01)
+  - Impressão de jornais (use CNAE 1811-3/01)
+  - Impressão de livros, revistas e periódicos (use CNAE 1811-3/02)
+  - Impressão de material de segurança, como cheques (use CNAE 1812-1/00)
+  - Serviços de encadernação e plastificação (use CNAE 1822-9/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de tintas e solventes
+  - Programa de controle de riscos ocupacionais pela exposição a solventes
+cnaes_relacionados:
+  - 1813-0/01
+  - 1811-3/02
+  - 1812-1/00
+  - 1821-1/00
+  - 1822-9/01
+  - 1749-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'

@@ -2,7 +2,7 @@ codigo: 1732-0/00
 codigo_slug: 1732-0-00
 codigo_numerico: '1732000'
 descricao_oficial: FABRICAÇÃO DE EMBALAGENS DE CARTOLINA E PAPEL CARTÃO
-descricao_plana: FABRICAÇÃO DE EMBALAGENS DE CARTOLINA E PAPEL CARTÃO
+descricao_plana: Fabricação de embalagens de cartolina e papel cartão, como caixas dobráveis, cartuchos e estojos impressos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de caixas de cartolina para cosméticos
+  - Produtor de embalagens de papel cartão para alimentos
+  - Fabricante de caixas para delivery de pizza e lanches
+  - Indústria de estojos e cartuchos impressos
+  - Produtor de embalagens promocionais em papel cartão
+o_que_inclui:
+  - Fabricação de caixas dobráveis de cartolina e papel cartão
+  - Produção de cartuchos, estojos e display de papel cartão
+  - Impressão, corte, vinco e colagem das embalagens
+  - Fabricação de embalagens para alimentos, cosméticos e farmácia
+  - Acabamentos como laminação, verniz e hot stamping
+o_que_nao_inclui:
+  - Fabricação de embalagens de papel, como sacos e sacolas (use CNAE 1731-1/00)
+  - Fabricação de chapas e embalagens de papelão ondulado (use CNAE 1733-8/00)
+  - Fabricação de cartolina e papel cartão em bobina (use CNAE 1722-2/00)
+  - Fabricação de embalagens de material plástico (use CNAE 2222-6/00)
+  - Serviços de acabamentos gráficos (use CNAE 1822-9/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária para embalagens em contato com alimentos
+  - Licença ambiental para uso de tintas e adesivos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1731-1/00
+  - 1733-8/00
+  - 1722-2/00
+  - 1749-4/00
+  - 1822-9/99
+  - 2222-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:58:25.095Z'
