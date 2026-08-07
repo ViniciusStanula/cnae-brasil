@@ -2,7 +2,7 @@ codigo: 4744-0/03
 codigo_slug: 4744-0-03
 codigo_numerico: '4744003'
 descricao_oficial: COMÉRCIO VAREJISTA DE MATERIAIS HIDRÁULICOS
-descricao_plana: COMÉRCIO VAREJISTA DE MATERIAIS HIDRÁULICOS
+descricao_plana: Comércio varejista de materiais hidráulicos, como tubos, conexões, registros, louças e metais sanitários.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de materiais hidráulicos de bairro
+  - Comércio de louças e metais sanitários
+  - Loja de tubos e conexões para obras
+  - Casa de banho com acabamentos hidráulicos
+  - Comércio online de material hidráulico
+o_que_inclui:
+  - Venda de tubos, conexões e registros de PVC, cobre e PPR
+  - Comércio de louças sanitárias, pias e cubas
+  - Venda de torneiras, chuveiros, duchas e metais
+  - Comércio de caixas d'água, bombas e filtros
+  - Atendimento a consumidor final, encanadores e obras
+o_que_nao_inclui:
+  - Comércio varejista de materiais de construção em geral (use CNAE 4744-0/99)
+  - Comércio varejista de ferragens e ferramentas (use CNAE 4744-0/01)
+  - Instalações hidráulicas, sanitárias e de gás (use CNAE 4322-3/01)
+  - Fabricação de material sanitário de cerâmica (use CNAE 2349-4/01)
+  - Fabricação de tubos e acessórios de plástico para construção (use CNAE 2223-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Comercialização apenas de produtos com certificação Inmetro
+  - Licença da vigilância sanitária, quando comercializar filtros de água
+cnaes_relacionados:
+  - 4744-0/99
+  - 4744-0/01
+  - 4322-3/01
+  - 2349-4/01
+  - 2223-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

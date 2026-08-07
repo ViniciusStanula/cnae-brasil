@@ -2,7 +2,7 @@ codigo: 4743-1/00
 codigo_slug: 4743-1-00
 codigo_numerico: '4743100'
 descricao_oficial: COMÉRCIO VAREJISTA DE VIDROS
-descricao_plana: COMÉRCIO VAREJISTA DE VIDROS
+descricao_plana: Comércio varejista de vidros, incluindo vidros planos, temperados, espelhos e box, com corte sob medida.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Vidraçaria de bairro com corte sob medida
+  - Loja de espelhos e box para banheiro
+  - Comércio de vidros temperados e laminados
+  - Vidraçaria com instalação em obras
+  - Loja de vidros automotivos e residenciais
+o_que_inclui:
+  - Venda de vidro plano, temperado, laminado e aramado
+  - Comércio de espelhos, box e fechamentos de vidro
+  - Corte, lapidação e furação sob medida no ponto de venda
+  - Venda de acessórios e ferragens para vidro
+  - Instalação dos vidros vendidos, como serviço acessório
+o_que_nao_inclui:
+  - Fabricação de vidro plano e de segurança (use CNAE 2311-7/00)
+  - Fabricação de artigos de vidro (use CNAE 2319-2/00)
+  - Decoração, lapidação e gravação em vidro e cristal (use CNAE 2399-1/01)
+  - Outras obras de acabamento da construção (use CNAE 4330-4/99)
+  - Comércio varejista de materiais de construção em geral (use CNAE 4744-0/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pelo risco de corte
+  - Cumprimento da NR-35 quando houver instalação em altura
+cnaes_relacionados:
+  - 2311-7/00
+  - 2319-2/00
+  - 4330-4/99
+  - 4744-0/99
+  - 2399-1/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

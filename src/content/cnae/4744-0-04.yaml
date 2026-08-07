@@ -2,7 +2,7 @@ codigo: 4744-0/04
 codigo_slug: 4744-0-04
 codigo_numerico: '4744004'
 descricao_oficial: COMÉRCIO VAREJISTA DE CAL, AREIA, PEDRA BRITADA, TIJOLOS E TELHAS
-descricao_plana: COMÉRCIO VAREJISTA DE CAL, AREIA, PEDRA BRITADA, TIJOLOS E TELHAS
+descricao_plana: Comércio varejista de cal, areia, pedra britada, tijolos e telhas, ou seja, materiais básicos de construção.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Depósito de areia e brita
+  - Comércio de tijolos e telhas com entrega
+  - Depósito de cimento, cal e agregados
+  - Loja de materiais básicos para obra
+  - Comércio de blocos e materiais de alvenaria
+o_que_inclui:
+  - Venda de areia, brita, pedrisco e pedra
+  - Comércio de cal, cimento e argamassa ensacada
+  - Venda de tijolos, blocos, telhas e lajotas
+  - Fracionamento e carregamento dos materiais
+  - Entrega dos materiais na obra do cliente
+o_que_nao_inclui:
+  - Comércio varejista de materiais de construção em geral (use CNAE 4744-0/99)
+  - Extração de areia, cascalho ou pedregulho (use CNAE 0810-0/06)
+  - Britamento de pedras, exceto associado à extração (use CNAE 2391-5/01)
+  - Fabricação de artefatos de cerâmica e barro cozido para construção (use CNAE 2342-7/02)
+  - Preparação de massa de concreto e argamassa (use CNAE 2330-3/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Licença ambiental para depósito de agregados e controle de poeira
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro dos veículos de entrega e controle de carga
+cnaes_relacionados:
+  - 4744-0/99
+  - 0810-0/06
+  - 2391-5/01
+  - 2342-7/02
+  - 2330-3/05
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

@@ -2,7 +2,7 @@ codigo: 4742-3/00
 codigo_slug: 4742-3-00
 codigo_numerico: '4742300'
 descricao_oficial: COMÉRCIO VAREJISTA DE MATERIAL ELÉTRICO
-descricao_plana: COMÉRCIO VAREJISTA DE MATERIAL ELÉTRICO
+descricao_plana: Comércio varejista de material elétrico, como fios, disjuntores, tomadas, luminárias e componentes de instalação.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de material elétrico de bairro
+  - Casa de elétrica com atendimento a eletricistas
+  - Loja de lâmpadas e luminárias
+  - Comércio online de material elétrico
+  - Loja de automação e componentes elétricos
+o_que_inclui:
+  - Venda de fios, cabos, eletrodutos e conduítes
+  - Comércio de disjuntores, quadros, tomadas e interruptores
+  - Venda de lâmpadas, reatores e luminárias
+  - Comércio de motores, sensores e componentes elétricos
+  - Atendimento a consumidor final, eletricistas e obras
+o_que_nao_inclui:
+  - Comércio varejista de artigos de iluminação decorativa (use CNAE 4754-7/03)
+  - Comércio varejista de materiais de construção em geral (use CNAE 4744-0/99)
+  - Instalação e manutenção elétrica (use CNAE 4321-5/00)
+  - Fabricação de material elétrico para instalações de consumo (use CNAE 2732-5/00)
+  - Comércio atacadista de material elétrico (use CNAE 4673-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Comercialização apenas de produtos com certificação Inmetro
+  - Cadastro em logística reversa de lâmpadas
+cnaes_relacionados:
+  - 4744-0/99
+  - 4754-7/03
+  - 4321-5/00
+  - 2732-5/00
+  - 4744-0/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

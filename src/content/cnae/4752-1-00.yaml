@@ -2,7 +2,7 @@ codigo: 4752-1/00
 codigo_slug: 4752-1-00
 codigo_numerico: '4752100'
 descricao_oficial: COMÉRCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS DE TELEFONIA E COMUNICAÇÃO
-descricao_plana: COMÉRCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS DE TELEFONIA E COMUNICAÇÃO
+descricao_plana: Comércio varejista especializado de equipamentos de telefonia e comunicação, como celulares, acessórios e roteadores.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de celulares e acessórios
+  - Comércio de smartphones e capinhas
+  - Loja de equipamentos de rede e roteadores
+  - Quiosque de acessórios para celular em shopping
+  - Comércio online de equipamentos de telefonia
+o_que_inclui:
+  - Venda de celulares, smartphones e telefones fixos
+  - Comércio de capas, películas, carregadores e fones
+  - Venda de roteadores, repetidores e equipamentos de rede
+  - Comércio de chips e recarga de crédito pré-pago
+  - Venda em loja física, quiosque ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista especializado de equipamentos de informática (use CNAE 4751-2/01)
+  - Reparação e manutenção de equipamentos de comunicação (use CNAE 9512-6/00)
+  - Comércio varejista de eletrodomésticos e equipamentos de áudio e vídeo (use CNAE 4753-9/00)
+  - Comércio atacadista de equipamentos de telefonia (use CNAE 4652-4/00)
+  - Serviços de telefonia móvel celular (use CNAE 6120-5/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Homologação Anatel para os equipamentos comercializados
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro em logística reversa de eletroeletrônicos e baterias
+cnaes_relacionados:
+  - 4751-2/01
+  - 9512-6/00
+  - 4753-9/00
+  - 4652-4/00
+  - 4789-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

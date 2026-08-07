@@ -2,7 +2,7 @@ codigo: 4755-5/01
 codigo_slug: 4755-5-01
 codigo_numerico: '4755501'
 descricao_oficial: COMÉRCIO VAREJISTA DE TECIDOS
-descricao_plana: COMÉRCIO VAREJISTA DE TECIDOS
+descricao_plana: Comércio varejista de tecidos, com venda por metro de malhas, algodão, forros e materiais para confecção.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de tecidos por metro
+  - Comércio de malhas e tecidos para confecção
+  - Loja de tecidos para decoração e cortinas
+  - Comércio online de tecidos
+  - Loja de tecidos com corte sob medida
+o_que_inclui:
+  - Venda de tecidos por metro para confecção e decoração
+  - Comércio de malhas, algodão, linho, seda e sintéticos
+  - Venda de forros, entretelas e tecidos técnicos
+  - Corte e medição do tecido no ponto de venda
+  - Comércio em loja física ou pela internet
+o_que_nao_inclui:
+  - Comércio varejista de artigos de armarinho, como aviamentos (use CNAE 4755-5/02)
+  - Comércio varejista de artigos de cama, mesa e banho (use CNAE 4755-5/03)
+  - Tecelagem de fios de algodão (use CNAE 1321-9/00)
+  - Fabricação de tecidos de malha (use CNAE 1330-8/00)
+  - Comércio atacadista de tecidos (use CNAE 4641-9/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem têxtil conforme regras do Inmetro
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 4755-5/02
+  - 4755-5/03
+  - 1321-9/00
+  - 1330-8/00
+  - 1412-6/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

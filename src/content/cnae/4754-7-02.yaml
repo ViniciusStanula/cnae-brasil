@@ -2,7 +2,7 @@ codigo: 4754-7/02
 codigo_slug: 4754-7-02
 codigo_numerico: '4754702'
 descricao_oficial: COMÉRCIO VAREJISTA DE ARTIGOS DE COLCHOARIA
-descricao_plana: COMÉRCIO VAREJISTA DE ARTIGOS DE COLCHOARIA
+descricao_plana: Comércio varejista de artigos de colchoaria, como colchões, box, travesseiros e acessórios para dormir.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de colchões e box
+  - Comércio de travesseiros e acessórios do sono
+  - Loja especializada em colchões ortopédicos
+  - Comércio online de colchoaria
+  - Loja de colchões com entrega e retirada do usado
+o_que_inclui:
+  - Venda de colchões de espuma, molas e látex
+  - Comércio de bases box, camas box e colchonetes
+  - Venda de travesseiros, protetores e capas
+  - Comércio de acessórios para conforto do sono
+  - Entrega e retirada do colchão usado como serviço acessório
+o_que_nao_inclui:
+  - Comércio varejista de móveis (use CNAE 4754-7/01)
+  - Fabricação de colchões (use CNAE 3104-7/00)
+  - Comércio varejista de artigos de cama, mesa e banho (use CNAE 4755-5/03)
+  - Reforma de colchões usados (use CNAE 9529-1/04)
+  - Comércio varejista de artigos de iluminação (use CNAE 4754-7/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Comercialização apenas de colchões com certificação Inmetro
+  - Cadastro em logística reversa de colchões, quando exigido
+cnaes_relacionados:
+  - 4754-7/01
+  - 3104-7/00
+  - 4755-5/03
+  - 9529-1/04
+  - 4754-7/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

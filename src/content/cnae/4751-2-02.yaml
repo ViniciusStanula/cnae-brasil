@@ -2,7 +2,7 @@ codigo: 4751-2/02
 codigo_slug: 4751-2-02
 codigo_numerico: '4751202'
 descricao_oficial: RECARGA DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA
-descricao_plana: RECARGA DE CARTUCHOS PARA EQUIPAMENTOS DE INFORMÁTICA
+descricao_plana: Recarga de cartuchos para equipamentos de informática, incluindo remanufatura de cartuchos e toners.
 secao:
   letra: G
   slug: comercio
@@ -32,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de recarga de cartuchos e toners
+  - Prestador de remanufatura de cartuchos para empresas
+  - Comércio de cartuchos recarregados
+  - Serviço de recarga com atendimento em domicílio
+  - Loja de suprimentos com recarga no local
+o_que_inclui:
+  - Recarga de cartuchos de tinta e toner
+  - Remanufatura e recondicionamento de cartuchos
+  - Limpeza, teste e substituição de componentes do cartucho
+  - Venda dos cartuchos recarregados
+  - Coleta de cartuchos vazios para reaproveitamento
+o_que_nao_inclui:
+  - Comércio varejista especializado de equipamentos e suprimentos de informática (use CNAE 4751-2/01)
+  - Reparação e manutenção de computadores e periféricos (use CNAE 9511-8/00)
+  - Fabricação de tintas de impressão (use CNAE 2071-1/00)
+  - Recuperação de materiais plásticos (use CNAE 3832-7/00)
+  - Comércio atacadista de equipamentos de informática (use CNAE 4651-6/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para manuseio e descarte de tintas e toners
+  - Inscrição estadual para circulação de mercadorias
+  - Cadastro em logística reversa de cartuchos
+  - Programa de controle de riscos ocupacionais pela exposição a pó de toner
+cnaes_relacionados:
+  - 4751-2/01
+  - 9511-8/00
+  - 3832-7/00
+  - 4761-0/03
+  - 1813-0/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

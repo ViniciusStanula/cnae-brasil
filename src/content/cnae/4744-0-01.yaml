@@ -2,7 +2,7 @@ codigo: 4744-0/01
 codigo_slug: 4744-0-01
 codigo_numerico: '4744001'
 descricao_oficial: COMÉRCIO VAREJISTA DE FERRAGENS E FERRAMENTAS
-descricao_plana: COMÉRCIO VAREJISTA DE FERRAGENS E FERRAMENTAS
+descricao_plana: Comércio varejista de ferragens e ferramentas, como pregos, parafusos, fechaduras e ferramentas manuais e elétricas.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de ferragens de bairro
+  - Comércio de ferramentas elétricas e manuais
+  - Loja de parafusos e fixadores
+  - Ferragem com atendimento a construtoras
+  - Loja online de ferramentas
+o_que_inclui:
+  - Venda de pregos, parafusos, buchas e fixadores
+  - Comércio de fechaduras, dobradiças e ferragens
+  - Venda de ferramentas manuais e elétricas
+  - Comércio de correntes, cadeados e acessórios metálicos
+  - Atendimento a consumidor final, profissionais e obras
+o_que_nao_inclui:
+  - Comércio varejista de materiais de construção em geral (use CNAE 4744-0/99)
+  - Comércio varejista de materiais hidráulicos (use CNAE 4744-0/03)
+  - Fabricação de ferramentas (use CNAE 2543-8/00)
+  - Fabricação de artigos de serralheria, exceto esquadrias (use CNAE 2542-0/00)
+  - Comércio atacadista de ferragens e ferramentas (use CNAE 4672-9/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Comercialização apenas de produtos com certificação Inmetro
+  - Licença ambiental para armazenamento de químicos, quando houver
+cnaes_relacionados:
+  - 4744-0/99
+  - 4744-0/03
+  - 2543-8/00
+  - 2542-0/00
+  - 4742-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'

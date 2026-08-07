@@ -2,7 +2,7 @@ codigo: 4744-0/99
 codigo_slug: 4744-0-99
 codigo_numerico: '4744099'
 descricao_oficial: COMÉRCIO VAREJISTA DE MATERIAIS DE CONSTRUÇÃO EM GERAL
-descricao_plana: COMÉRCIO VAREJISTA DE MATERIAIS DE CONSTRUÇÃO EM GERAL
+descricao_plana: Comércio varejista de materiais de construção em geral, com linha ampla de produtos para obra e reforma.
 secao:
   letra: G
   slug: comercio
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Loja de materiais de construção completa
+  - Depósito de construção de bairro
+  - Home center de materiais para obra
+  - Comércio de materiais de construção com entrega
+  - Loja online de materiais de construção
+o_que_inclui:
+  - Venda de linha ampla de materiais para obra e reforma
+  - Comércio de cimento, argamassa, tintas e revestimentos
+  - Venda de material elétrico, hidráulico e ferragens em conjunto
+  - Comércio de pisos, azulejos e acabamentos
+  - Entrega dos materiais na obra do cliente
+o_que_nao_inclui:
+  - Comércio varejista de ferragens e ferramentas (use CNAE 4744-0/01)
+  - Comércio varejista de madeira e artefatos (use CNAE 4744-0/02)
+  - Comércio varejista de materiais hidráulicos (use CNAE 4744-0/03)
+  - Comércio varejista de cal, areia, pedra britada, tijolos e telhas (use CNAE 4744-0/04)
+  - Comércio varejista de material elétrico (use CNAE 4742-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Inscrição estadual para circulação de mercadorias
+  - Licença ambiental para armazenamento de tintas e químicos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Comercialização apenas de produtos com certificação Inmetro
+cnaes_relacionados:
+  - 4744-0/01
+  - 4744-0/02
+  - 4744-0/03
+  - 4744-0/04
+  - 4742-3/00
+  - 4743-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:19:24.374Z'
