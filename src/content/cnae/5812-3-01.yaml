@@ -2,7 +2,7 @@ codigo: 5812-3/01
 codigo_slug: 5812-3-01
 codigo_numerico: '5812301'
 descricao_oficial: EDIÇÃO DE JORNAIS DIÁRIOS
-descricao_plana: EDIÇÃO DE JORNAIS DIÁRIOS
+descricao_plana: Edição de jornais diários, com produção e publicação de conteúdo jornalístico em periodicidade diária.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Jornal diário de circulação local
+  - Editora de jornal diário regional
+  - Jornal diário com edição impressa e digital
+  - Redação de diário de notícias
+  - Editora de jornal diário especializado
+o_que_inclui:
+  - Produção de conteúdo jornalístico com publicação diária
+  - Edição, diagramação e fechamento das edições
+  - Publicação em papel e em meio digital
+  - Gestão de assinaturas e distribuição
+  - Comercialização de espaço publicitário no jornal
+o_que_nao_inclui:
+  - Edição de jornais não diários (use CNAE 5812-3/02)
+  - Edição de revistas (use CNAE 5813-1/00)
+  - Impressão de jornais (use CNAE 1811-3/01)
+  - Comércio varejista de jornais e revistas (use CNAE 4761-0/02)
+  - Agências de notícias (use CNAE 6391-7/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro do periódico e ISSN, quando aplicável
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro profissional dos jornalistas da redação
+  - Contratos de cessão de direitos sobre textos e imagens
+cnaes_relacionados:
+  - 5812-3/02
+  - 5813-1/00
+  - 1811-3/01
+  - 4761-0/02
+  - 5811-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

@@ -2,7 +2,7 @@ codigo: 5912-0/99
 codigo_slug: 5912-0-99
 codigo_numerico: '5912099'
 descricao_oficial: ATIVIDADES DE PÓS PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO NÃO ESPECIFICADAS ANTERIORMENTE
-descricao_plana: ATIVIDADES DE PÓS PRODUÇÃO CINEMATOGRÁFICA, DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: Atividades de pós-produção audiovisual sem código próprio, como edição, colorização, legendagem e efeitos visuais.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estúdio de edição e finalização de vídeos
+  - Prestador de efeitos visuais e motion graphics
+  - Serviço de legendagem para streaming
+  - Estúdio de colorização de imagens
+  - Empresa de finalização para cinema e TV
+o_que_inclui:
+  - Edição, montagem e finalização de material audiovisual
+  - Colorização, correção de cor e tratamento de imagem
+  - Criação de efeitos visuais, vinhetas e motion graphics
+  - Legendagem, closed caption e audiodescrição
+  - Conversão de formatos e masterização de entrega
+o_que_nao_inclui:
+  - Serviços de dublagem (use CNAE 5912-0/01)
+  - Serviços de mixagem sonora em produção audiovisual (use CNAE 5912-0/02)
+  - Produção de filmes para publicidade (use CNAE 5911-1/02)
+  - Filmagem de festas e eventos (use CNAE 7420-0/04)
+  - Atividades de gravação de som e edição de música (use CNAE 5920-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro na Ancine, quando produzir obra audiovisual
+  - Contratos de cessão de direitos sobre o material tratado
+  - Conformidade com a LGPD no armazenamento de material de clientes
+cnaes_relacionados:
+  - 5912-0/01
+  - 5911-1/02
+  - 7420-0/04
+  - 5920-1/00
+  - 5913-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

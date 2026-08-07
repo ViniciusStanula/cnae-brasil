@@ -2,7 +2,7 @@ codigo: 5620-1/04
 codigo_slug: 5620-1-04
 codigo_numerico: '5620104'
 descricao_oficial: FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR
-descricao_plana: FORNECIMENTO DE ALIMENTOS PREPARADOS PREPONDERANTEMENTE PARA CONSUMO DOMICILIAR
+descricao_plana: Fornecimento de alimentos preparados preponderantemente para consumo domiciliar, como marmitas e comida por encomenda.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Marmitaria com entrega em domicílio
+  - Cozinha que vende comida congelada por encomenda
+  - Dark kitchen com delivery próprio
+  - Serviço de refeições fitness por assinatura
+  - Comida caseira sob encomenda para famílias
+o_que_inclui:
+  - Preparo de marmitas e refeições para entrega
+  - Produção de comida congelada por encomenda
+  - Operação de cozinha sem salão de atendimento
+  - Refeições por assinatura ou plano semanal
+  - Entrega em domicílio das refeições preparadas
+o_que_nao_inclui:
+  - Restaurantes e similares, com consumo no local (use CNAE 5611-2/01)
+  - Serviços de alimentação para eventos e recepções (use CNAE 5620-1/02)
+  - Cantinas e serviços de alimentação privativos (use CNAE 5620-1/03)
+  - Lanchonetes, casas de chá, de sucos e similares (use CNAE 5611-2/03)
+  - Fabricação de alimentos e pratos prontos industrializados (use CNAE 1096-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Rotulagem das refeições embaladas conforme regras da Anvisa
+cnaes_relacionados:
+  - 5611-2/01
+  - 5620-1/02
+  - 5620-1/03
+  - 5611-2/03
+  - 1096-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

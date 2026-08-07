@@ -2,7 +2,7 @@ codigo: 7420-0/03
 codigo_slug: 7420-0-03
 codigo_numerico: '7420003'
 descricao_oficial: LABORATÓRIOS FOTOGRÁFICOS
-descricao_plana: LABORATÓRIOS FOTOGRÁFICOS
+descricao_plana: Laboratórios fotográficos, com revelação, ampliação, impressão e tratamento de imagens.
 secao:
   letra: M
   slug: atividades-profissionais
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Laboratório de revelação e impressão de fotos
+  - Loja de impressão fotográfica digital
+  - Prestador de restauração de fotos antigas
+  - Laboratório de ampliação e quadros fotográficos
+  - Serviço de digitalização de acervos fotográficos
+o_que_inclui:
+  - Revelação de filmes e ampliação de fotografias
+  - Impressão fotográfica digital em papel e outros suportes
+  - Restauração e tratamento de fotos antigas
+  - Digitalização de negativos, slides e álbuns
+  - Produção de álbuns, quadros e fotolivros
+o_que_nao_inclui:
+  - Atividades de produção de fotografias, exceto aérea e submarina (use CNAE 7420-0/01)
+  - Atividades de produção de fotografias aéreas e submarinas (use CNAE 7420-0/02)
+  - Filmagem de festas e eventos (use CNAE 7420-0/04)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+  - Comércio varejista de artigos fotográficos e para filmagem (use CNAE 4789-0/08)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para descarte de reveladores e químicos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no armazenamento de imagens de clientes
+  - Inscrição estadual, quando comercializar mercadorias
+cnaes_relacionados:
+  - 7420-0/01
+  - 7420-0/02
+  - 7420-0/04
+  - 1813-0/99
+  - 4789-0/08
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

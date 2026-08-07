@@ -2,7 +2,7 @@ codigo: 5819-1/00
 codigo_slug: 5819-1-00
 codigo_numerico: '5819100'
 descricao_oficial: EDIÇÃO DE CADASTROS, LISTAS E DE OUTROS PRODUTOS GRÁFICOS
-descricao_plana: EDIÇÃO DE CADASTROS, LISTAS E DE OUTROS PRODUTOS GRÁFICOS
+descricao_plana: Edição de cadastros, listas e outros produtos gráficos, como catálogos, guias, agendas e calendários.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Editora de guias comerciais e catálogos
+  - Produtor de agendas e calendários personalizados
+  - Editora de listas telefônicas e cadastros
+  - Publicação de anuários setoriais
+  - Editora de mapas e guias turísticos
+o_que_inclui:
+  - Edição de catálogos, guias e anuários
+  - Produção de agendas, calendários e planners
+  - Edição de cadastros, listas e diretórios
+  - Publicação de mapas e guias turísticos
+  - Comercialização de espaço publicitário nas publicações
+o_que_nao_inclui:
+  - Edição de livros (use CNAE 5811-5/00)
+  - Edição de revistas (use CNAE 5813-1/00)
+  - Impressão de material para outros usos (use CNAE 1813-0/99)
+  - Fabricação de produtos de papel para uso comercial e de escritório (use CNAE 1741-9/02)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro de ISBN ou ISSN, conforme a publicação
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Conformidade com a LGPD no tratamento de dados cadastrais
+  - Contratos de cessão de direitos sobre conteúdos utilizados
+cnaes_relacionados:
+  - 5811-5/00
+  - 5813-1/00
+  - 1813-0/99
+  - 1741-9/02
+  - 4761-0/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

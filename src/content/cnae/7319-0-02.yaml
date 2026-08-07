@@ -2,7 +2,7 @@ codigo: 7319-0/02
 codigo_slug: 7319-0-02
 codigo_numerico: '7319002'
 descricao_oficial: PROMOÇÃO DE VENDAS
-descricao_plana: PROMOÇÃO DE VENDAS
+descricao_plana: Promoção de vendas, com ações de divulgação, degustação e abordagem para impulsionar produtos no ponto de venda.
 secao:
   letra: M
   slug: atividades-profissionais
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de promotores em supermercados
+  - Prestador de degustação de produtos
+  - Agência de ações promocionais em lojas
+  - Equipe de panfletagem e abordagem
+  - Empresa de merchandising no ponto de venda
+o_que_inclui:
+  - Ações de promoção e demonstração no ponto de venda
+  - Degustação e amostragem de produtos
+  - Abordagem, panfletagem e distribuição de brindes
+  - Merchandising e organização de gôndolas
+  - Contratação e coordenação de promotores
+o_que_nao_inclui:
+  - Agências de publicidade (use CNAE 7311-4/00)
+  - Agenciamento de espaços para publicidade, exceto em veículos de comunicação (use CNAE 7312-2/00)
+  - Marketing direto (use CNAE 7319-0/03)
+  - Outras atividades de publicidade não especificadas anteriormente (use CNAE 7319-0/99)
+  - Pesquisas de mercado e de opinião pública (use CNAE 7320-3/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização municipal para panfletagem em via pública
+  - Licença da vigilância sanitária para degustação de alimentos
+  - Contrato formal de prestação de serviço com o contratante
+  - Programa de controle de riscos ocupacionais para as equipes
+cnaes_relacionados:
+  - 7311-4/00
+  - 7312-2/00
+  - 7319-0/99
+  - 7320-3/00
+  - 8230-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

@@ -2,7 +2,7 @@ codigo: 6399-2/00
 codigo_slug: 6399-2-00
 codigo_numerico: '6399200'
 descricao_oficial: OUTRAS ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO NÃO ESPECIFICADAS ANTERIORMENTE
-descricao_plana: OUTRAS ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: Outras atividades de prestação de serviços de informação sem código próprio, como clipping e pesquisa de dados.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de clipping de notícias
+  - Prestador de pesquisa e levantamento de informações
+  - Serviço de monitoramento de mídia
+  - Empresa de curadoria de conteúdo informativo
+  - Prestador de consulta a bases de dados públicas
+o_que_inclui:
+  - Clipping e monitoramento de notícias e mídias
+  - Levantamento e organização de informações para clientes
+  - Consulta e compilação de dados de bases públicas
+  - Curadoria e distribuição de conteúdo informativo
+  - Serviços de informação sem código próprio na CNAE
+o_que_nao_inclui:
+  - Agências de notícias (use CNAE 6391-7/00)
+  - Portais, provedores de conteúdo e serviços de informação na internet (use CNAE 6319-4/00)
+  - Pesquisas de mercado e de opinião pública (use CNAE 7320-3/00)
+  - Tratamento de dados e hospedagem na internet (use CNAE 6311-9/00)
+  - Atividades de consultoria em gestão empresarial (use CNAE 7020-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Conformidade com a LGPD no tratamento de dados pessoais
+  - Contratos de licenciamento de conteúdo monitorado
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro profissional, quando exigido pela natureza do serviço
+cnaes_relacionados:
+  - 6391-7/00
+  - 6319-4/00
+  - 7320-3/00
+  - 6311-9/00
+  - 7490-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

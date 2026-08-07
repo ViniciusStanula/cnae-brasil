@@ -2,7 +2,7 @@ codigo: 5811-5/00
 codigo_slug: 5811-5-00
 codigo_numerico: '5811500'
 descricao_oficial: EDIÇÃO DE LIVROS
-descricao_plana: EDIÇÃO DE LIVROS
+descricao_plana: Edição de livros, com seleção, preparação e publicação de obras em papel ou meio digital.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Editora de livros literários
+  - Editora de livros técnicos e didáticos
+  - Selo editorial independente
+  - Editora de e-books e publicações digitais
+  - Editora com publicação sob demanda
+o_que_inclui:
+  - Seleção, revisão e preparação de originais para publicação
+  - Edição de livros impressos e digitais
+  - Registro de ISBN e gestão de direitos autorais
+  - Contratação de impressão e distribuição das obras
+  - Publicação sob demanda e autopublicação assistida
+o_que_nao_inclui:
+  - Impressão de livros, revistas e outras publicações periódicas (use CNAE 1811-3/02)
+  - Edição de revistas (use CNAE 5813-1/00)
+  - Edição de jornais diários (use CNAE 5812-3/01)
+  - Comércio varejista de livros (use CNAE 4761-0/01)
+  - Serviços de encadernação e plastificação (use CNAE 1822-9/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro de ISBN para cada obra publicada
+  - Contratos de cessão de direitos autorais com os autores
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Inscrição estadual, quando comercializar exemplares
+cnaes_relacionados:
+  - 1811-3/02
+  - 5813-1/00
+  - 5812-3/01
+  - 4761-0/01
+  - 5819-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

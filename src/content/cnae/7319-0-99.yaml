@@ -2,7 +2,7 @@ codigo: 7319-0/99
 codigo_slug: 7319-0-99
 codigo_numerico: '7319099'
 descricao_oficial: OUTRAS ATIVIDADES DE PUBLICIDADE NÃO ESPECIFICADAS ANTERIORMENTE
-descricao_plana: OUTRAS ATIVIDADES DE PUBLICIDADE NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: Outras atividades de publicidade sem código próprio, como criação de peças avulsas e serviços publicitários diversos.
 secao:
   letra: M
   slug: atividades-profissionais
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador autônomo de criação publicitária
+  - Empresa de publicidade em veículos e frotas
+  - Serviço de publicidade digital sem agência completa
+  - Empresa de brindes e material promocional personalizado
+  - Prestador de publicidade sonora e carro de som
+o_que_inclui:
+  - Criação e produção de peças publicitárias avulsas
+  - Publicidade em veículos, frotas e mobiliário urbano
+  - Publicidade sonora e divulgação por carro de som
+  - Gestão de campanhas digitais e mídias sociais
+  - Atividades publicitárias sem código próprio na CNAE
+o_que_nao_inclui:
+  - Agências de publicidade (use CNAE 7311-4/00)
+  - Agenciamento de espaços para publicidade, exceto em veículos de comunicação (use CNAE 7312-2/00)
+  - Promoção de vendas (use CNAE 7319-0/02)
+  - Marketing direto (use CNAE 7319-0/03)
+  - Impressão de material para uso publicitário (use CNAE 1813-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença municipal para publicidade externa e sonora
+  - Conformidade com a LGPD em campanhas digitais
+  - Contrato formal de prestação de serviço com o contratante
+  - Certificado de Vistoria do Corpo de Bombeiros, quando houver estabelecimento
+cnaes_relacionados:
+  - 7311-4/00
+  - 7312-2/00
+  - 7319-0/02
+  - 1813-0/01
+  - 4329-1/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

@@ -2,7 +2,7 @@ codigo: 5912-0/01
 codigo_slug: 5912-0-01
 codigo_numerico: '5912001'
 descricao_oficial: SERVIÇOS DE DUBLAGEM
-descricao_plana: SERVIÇOS DE DUBLAGEM
+descricao_plana: Serviços de dublagem, com gravação de vozes em outro idioma para filmes, séries, animações e vídeos.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estúdio de dublagem para séries e filmes
+  - Prestador de dublagem para animações
+  - Estúdio de locução e dublagem publicitária
+  - Serviço de dublagem para cursos e vídeos corporativos
+  - Casa de dublagem para plataformas de streaming
+o_que_inclui:
+  - Gravação de vozes dubladas em estúdio
+  - Adaptação e sincronização labial do texto traduzido
+  - Direção de dublagem e escalação de dubladores
+  - Mixagem e masterização das faixas de voz
+  - Dublagem para cinema, TV, streaming e vídeos corporativos
+o_que_nao_inclui:
+  - Atividades de pós-produção cinematográfica sem código próprio (use CNAE 5912-0/99)
+  - Serviços de mixagem sonora em produção audiovisual (use CNAE 5912-0/02)
+  - Produção de filmes para publicidade (use CNAE 5911-1/02)
+  - Atividades de gravação de som e edição de música (use CNAE 5920-1/00)
+  - Serviços de tradução e interpretação (use CNAE 7490-1/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro na Ancine, quando produzir obra audiovisual
+  - Contratos de cessão de direitos de voz com os dubladores
+  - Tratamento acústico e licença de som, quando exigida
+cnaes_relacionados:
+  - 5912-0/99
+  - 5911-1/02
+  - 5920-1/00
+  - 7490-1/05
+  - 7420-0/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

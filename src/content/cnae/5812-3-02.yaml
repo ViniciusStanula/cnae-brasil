@@ -2,7 +2,7 @@ codigo: 5812-3/02
 codigo_slug: 5812-3-02
 codigo_numerico: '5812302'
 descricao_oficial: EDIÇÃO DE JORNAIS NÃO DIÁRIOS
-descricao_plana: EDIÇÃO DE JORNAIS NÃO DIÁRIOS
+descricao_plana: Edição de jornais não diários, com publicação semanal, quinzenal ou mensal de conteúdo jornalístico.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Jornal de bairro com edição semanal
+  - Jornal sindical ou associativo mensal
+  - Publicação quinzenal de notícias regionais
+  - Jornal setorial com periodicidade mensal
+  - Jornal comunitário impresso e digital
+o_que_inclui:
+  - Produção de conteúdo jornalístico com publicação não diária
+  - Edição, diagramação e fechamento das edições periódicas
+  - Publicação em papel e em meio digital
+  - Gestão de assinaturas e distribuição dirigida
+  - Comercialização de espaço publicitário no jornal
+o_que_nao_inclui:
+  - Edição de jornais diários (use CNAE 5812-3/01)
+  - Edição de revistas (use CNAE 5813-1/00)
+  - Impressão de jornais (use CNAE 1811-3/01)
+  - Edição de cadastros, listas e outros produtos gráficos (use CNAE 5819-1/00)
+  - Comércio varejista de jornais e revistas (use CNAE 4761-0/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro do periódico e ISSN, quando aplicável
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Registro profissional dos jornalistas da redação
+  - Contratos de cessão de direitos sobre textos e imagens
+cnaes_relacionados:
+  - 5812-3/01
+  - 5813-1/00
+  - 1811-3/01
+  - 5819-1/00
+  - 4761-0/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

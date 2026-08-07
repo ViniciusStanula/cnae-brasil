@@ -2,7 +2,7 @@ codigo: 6190-6/99
 codigo_slug: 6190-6-99
 codigo_numerico: '6190699'
 descricao_oficial: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES NÃO ESPECIFICADAS ANTERIORMENTE
-descricao_plana: OUTRAS ATIVIDADES DE TELECOMUNICAÇÕES NÃO ESPECIFICADAS ANTERIORMENTE
+descricao_plana: Outras atividades de telecomunicações sem código próprio, como instalação de antenas e serviços auxiliares de rede.
 secao:
   letra: J
   slug: informacao-comunicacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Instalador de antenas de TV e internet
+  - Prestador de serviços auxiliares de rede
+  - Empresa de cabeamento estruturado para telecom
+  - Serviço de instalação de repetidores de sinal
+  - Prestador de suporte técnico a redes de telecomunicações
+o_que_inclui:
+  - Instalação de antenas, parabólicas e repetidores de sinal
+  - Serviços auxiliares de redes de telecomunicações
+  - Cabeamento e lançamento de fibra para operadoras
+  - Suporte técnico e manutenção de infraestrutura de telecom
+  - Atividades de telecomunicações sem código próprio
+o_que_nao_inclui:
+  - Serviços de telefonia fixa comutada (use CNAE 6110-8/01)
+  - Serviços de comunicação multimídia, como provedores de internet (use CNAE 6110-8/03)
+  - Instalação e manutenção elétrica (use CNAE 4321-5/00)
+  - Reparação e manutenção de equipamentos de comunicação (use CNAE 9512-6/00)
+  - Comércio varejista especializado de equipamentos de telefonia (use CNAE 4752-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro no CREA ou CRT com responsável técnico
+  - Homologação Anatel dos equipamentos instalados
+  - Cumprimento da NR-35 para trabalho em altura
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 6110-8/03
+  - 4321-5/00
+  - 9512-6/00
+  - 4752-1/00
+  - 4329-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:32:02.839Z'

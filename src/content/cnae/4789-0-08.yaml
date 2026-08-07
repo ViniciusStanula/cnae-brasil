@@ -1,4 +1,4 @@
-codigo: 4789-0/08
+﻿codigo: 4789-0/08
 codigo_slug: 4789-0-08
 codigo_numerico: '4789008'
 descricao_oficial: COMÉRCIO VAREJISTA DE ARTIGOS FOTOGRÁFICOS E PARA FILMAGEM
@@ -43,7 +43,7 @@ o_que_inclui:
   - Comércio de cartões de memória, baterias e acessórios
   - Venda em loja física ou pela internet
 o_que_nao_inclui:
-  - Serviços de laboratório fotográfico e revelação (use CNAE 7420-0/04)
+  - Laboratórios fotográficos e serviços de revelação (use CNAE 7420-0/03)
   - Atividades de produção fotográfica, exceto aérea e submarina (use CNAE 7420-0/01)
   - Comércio varejista especializado de equipamentos e suprimentos de informática (use CNAE 4751-2/01)
   - Comércio varejista de eletrodomésticos e equipamentos de áudio e vídeo (use CNAE 4753-9/00)
@@ -56,7 +56,7 @@ licencas_comuns:
   - Cadastro em logística reversa de baterias e eletroeletrônicos
 cnaes_relacionados:
   - 7420-0/01
-  - 7420-0/04
+  - 7420-0/03
   - 4751-2/01
   - 4753-9/00
   - 4789-0/99
