@@ -2,7 +2,7 @@ codigo: 7719-5/99
 codigo_slug: 7719-5-99
 codigo_numerico: '7719599'
 descricao_oficial: LOCAÇÃO DE OUTROS MEIOS DE TRANSPORTE NÃO ESPECIFICADOS ANTERIORMENTE, SEM CONDUTOR
-descricao_plana: LOCAÇÃO DE OUTROS MEIOS DE TRANSPORTE NÃO ESPECIFICADOS ANTERIORMENTE, SEM CONDUTOR
+descricao_plana: Locação de outros meios de transporte sem condutor, como embarcações, aeronaves e veículos especiais.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de lanchas sem tripulação
+  - Aluguel de jet skis para temporada
+  - Locação de trailers e motorhomes
+  - Aluguel de embarcações de recreio
+  - Locadora de veículos especiais sem motorista
+o_que_inclui:
+  - Aluguel de embarcações de recreio sem tripulação
+  - Locação de jet skis, caiaques e motos aquáticas
+  - Aluguel de trailers, motorhomes e reboques
+  - Locação de veículos especiais sem condutor
+  - Contrato de locação com responsabilidade do locatário
+o_que_nao_inclui:
+  - Aluguel de automóveis sem condutor (use CNAE 7711-0/00)
+  - Locação de meios de transporte com condutor (use o CNAE do transporte correspondente)
+  - Aluguel de equipamentos recreativos e esportivos (use CNAE 7721-7/00)
+  - Transporte aquaviário para passeios turísticos (use CNAE 5099-8/01)
+  - Aluguel de máquinas e equipamentos para construção sem operador (use CNAE 7732-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro das embarcações na Marinha do Brasil
+  - Seguro obrigatório sobre os bens locados
+  - Verificação de habilitação do locatário, conforme o meio de transporte
+  - Contrato formal de locação com termo de responsabilidade
+cnaes_relacionados:
+  - 7711-0/00
+  - 7721-7/00
+  - 5099-8/01
+  - 7732-2/01
+  - 7729-2/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

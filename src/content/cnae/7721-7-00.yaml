@@ -2,7 +2,9 @@ codigo: 7721-7/00
 codigo_slug: 7721-7-00
 codigo_numerico: '7721700'
 descricao_oficial: ALUGUEL DE EQUIPAMENTOS RECREATIVOS E ESPORTIVOS
-descricao_plana: ALUGUEL DE EQUIPAMENTOS RECREATIVOS E ESPORTIVOS
+descricao_plana: >-
+  Aluguel de equipamentos recreativos e esportivos, como bicicletas, pranchas, brinquedos infláveis e material
+  esportivo.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de bicicletas em orla turística
+  - Aluguel de pranchas de surfe e stand up
+  - Locação de brinquedos infláveis para festas
+  - Aluguel de equipamentos de camping e trilha
+  - Locadora de patins e patinetes
+o_que_inclui:
+  - Aluguel de bicicletas, patins, patinetes e triciclos
+  - Locação de pranchas, caiaques e equipamentos náuticos leves
+  - Aluguel de brinquedos infláveis, cama elástica e piscina de bolinhas
+  - Locação de equipamentos de camping, trilha e esportes
+  - Entrega, montagem e retirada dos equipamentos alugados
+o_que_nao_inclui:
+  - Locação de outros meios de transporte sem condutor (use CNAE 7719-5/99)
+  - Aluguel de aparelhos de jogos eletrônicos (use CNAE 7729-2/01)
+  - Aluguel de palcos, coberturas e estruturas temporárias (use CNAE 7739-0/03)
+  - Comércio varejista de artigos esportivos (use CNAE 4763-6/02)
+  - Atividades de recreação e lazer (use CNAE 9329-8/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Seguro de responsabilidade civil sobre os equipamentos e usuários
+  - Autorização municipal para operação em área pública ou orla
+  - Certificado de Vistoria do Corpo de Bombeiros para infláveis
+  - Contrato formal de locação com termo de responsabilidade
+cnaes_relacionados:
+  - 7719-5/99
+  - 7729-2/01
+  - 7739-0/03
+  - 4763-6/02
+  - 9329-8/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

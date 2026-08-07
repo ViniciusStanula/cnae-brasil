@@ -2,7 +2,7 @@ codigo: 7723-3/00
 codigo_slug: 7723-3-00
 codigo_numerico: '7723300'
 descricao_oficial: ALUGUEL DE OBJETOS DO VESTUÁRIO, JÓIAS E ACESSÓRIOS
-descricao_plana: ALUGUEL DE OBJETOS DO VESTUÁRIO, JÓIAS E ACESSÓRIOS
+descricao_plana: Aluguel de objetos do vestuário, joias e acessórios, como trajes de festa, fantasias e bijuterias.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de trajes de festa e smokings
+  - Aluguel de vestidos de noiva e madrinha
+  - Locadora de fantasias para eventos
+  - Aluguel de joias e acessórios para cerimônias
+  - Locação de trajes a rigor para formaturas
+o_que_inclui:
+  - Aluguel de ternos, smokings e trajes a rigor
+  - Locação de vestidos de festa, noiva e madrinha
+  - Aluguel de fantasias e trajes temáticos
+  - Locação de joias, bijuterias e acessórios
+  - Ajustes, higienização e manutenção das peças alugadas
+o_que_nao_inclui:
+  - Comércio varejista de artigos do vestuário e acessórios (use CNAE 4781-4/00)
+  - Confecção sob medida de peças do vestuário (use CNAE 1412-6/02)
+  - Comércio varejista de artigos de joalheria (use CNAE 4783-1/01)
+  - Lavanderias (use CNAE 9601-7/01)
+  - Aluguel de outros objetos pessoais e domésticos (use CNAE 7729-2/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária, quando houver higienização própria
+  - Seguro sobre as peças locadas, especialmente joias
+  - Contrato formal de locação com termo de responsabilidade
+cnaes_relacionados:
+  - 4781-4/00
+  - 1412-6/02
+  - 4783-1/01
+  - 9601-7/01
+  - 7729-2/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

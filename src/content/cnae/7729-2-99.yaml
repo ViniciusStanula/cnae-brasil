@@ -2,7 +2,7 @@ codigo: 7729-2/99
 codigo_slug: 7729-2-99
 codigo_numerico: '7729299'
 descricao_oficial: ALUGUEL DE OUTROS OBJETOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: ALUGUEL DE OUTROS OBJETOS PESSOAIS E DOMÉSTICOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Aluguel de outros objetos pessoais e domésticos sem código próprio, como livros, ferramentas e itens diversos.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de ferramentas para uso doméstico
+  - Aluguel de artigos para festa infantil
+  - Locação de livros e materiais didáticos
+  - Aluguel de itens de decoração para eventos
+  - Locadora de objetos diversos por assinatura
+o_que_inclui:
+  - Aluguel de ferramentas e equipamentos de uso doméstico
+  - Locação de artigos de decoração e festa
+  - Aluguel de livros, jogos e materiais didáticos
+  - Locação de objetos pessoais sem código próprio
+  - Entrega, retirada e manutenção dos itens alugados
+o_que_nao_inclui:
+  - Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal (use CNAE 7729-2/02)
+  - Aluguel de material médico (use CNAE 7729-2/03)
+  - Aluguel de aparelhos de jogos eletrônicos (use CNAE 7729-2/01)
+  - Aluguel de objetos do vestuário, joias e acessórios (use CNAE 7723-3/00)
+  - Aluguel de máquinas e equipamentos para construção sem operador (use CNAE 7732-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Seguro sobre os bens locados
+  - Contrato formal de locação com termo de responsabilidade
+  - Licença da vigilância sanitária, conforme o item locado
+cnaes_relacionados:
+  - 7729-2/02
+  - 7729-2/03
+  - 7729-2/01
+  - 7723-3/00
+  - 7732-2/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

@@ -2,7 +2,7 @@ codigo: 7733-1/00
 codigo_slug: 7733-1-00
 codigo_numerico: '7733100'
 descricao_oficial: ALUGUEL DE MÁQUINAS E EQUIPAMENTOS PARA ESCRITÓRIOS
-descricao_plana: ALUGUEL DE MÁQUINAS E EQUIPAMENTOS PARA ESCRITÓRIOS
+descricao_plana: Aluguel de máquinas e equipamentos para escritórios, como copiadoras, impressoras e computadores.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de impressoras e copiadoras para empresas
+  - Aluguel de computadores e notebooks corporativos
+  - Locação de equipamentos para eventos e treinamentos
+  - Empresa de outsourcing de impressão
+  - Locadora de projetores e equipamentos de apresentação
+o_que_inclui:
+  - Aluguel de copiadoras, impressoras e multifuncionais
+  - Locação de computadores, notebooks e monitores
+  - Aluguel de projetores e equipamentos de apresentação
+  - Contratos de outsourcing de impressão com franquia de páginas
+  - Manutenção, suprimentos e suporte técnico incluídos na locação
+o_que_nao_inclui:
+  - Aluguel de aparelhos de jogos eletrônicos (use CNAE 7729-2/01)
+  - Comércio varejista especializado de equipamentos e suprimentos de informática (use CNAE 4751-2/01)
+  - Reparação e manutenção de computadores e periféricos (use CNAE 9511-8/00)
+  - Recarga de cartuchos para equipamentos de informática (use CNAE 4751-2/02)
+  - Comércio varejista de equipamentos para escritório (use CNAE 4789-0/07)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Seguro sobre os equipamentos locados
+  - Conformidade com a LGPD no descarte de dados dos equipamentos
+  - Contrato formal de locação com termo de responsabilidade
+cnaes_relacionados:
+  - 7729-2/01
+  - 4751-2/01
+  - 9511-8/00
+  - 4751-2/02
+  - 4789-0/07
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

@@ -2,7 +2,7 @@ codigo: 7490-1/02
 codigo_slug: 7490-1-02
 codigo_numerico: '7490102'
 descricao_oficial: ESCAFANDRIA E MERGULHO
-descricao_plana: ESCAFANDRIA E MERGULHO
+descricao_plana: Escafandria e mergulho, com serviços subaquáticos profissionais de inspeção, reparo e resgate.
 secao:
   letra: M
   slug: atividades-profissionais
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Prestador de mergulho profissional para inspeção de cascos
+  - Empresa de serviços subaquáticos em portos
+  - Mergulhador para limpeza de reservatórios
+  - Serviço de mergulho em obras hidráulicas
+  - Empresa de resgate e busca subaquática
+o_que_inclui:
+  - Inspeção subaquática de cascos, píeres e estruturas
+  - Reparos e soldagem submersa
+  - Limpeza de reservatórios, tanques e piscinas de grande porte
+  - Instalação e manutenção de estruturas submersas
+  - Busca, resgate e recuperação de objetos submersos
+o_que_nao_inclui:
+  - Atividades de produção de fotografias aéreas e submarinas (use CNAE 7420-0/02)
+  - Manutenção e reparação de embarcações e estruturas flutuantes (use CNAE 3317-1/01)
+  - Transporte aquaviário para passeios turísticos (use CNAE 5099-8/01)
+  - Pesca de peixes em água salgada (use CNAE 0311-6/01)
+  - Atividades de ensino de esportes, como mergulho recreativo (use CNAE 8591-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Habilitação de mergulhador profissional pela Marinha do Brasil
+  - Cumprimento da NR-15 anexo 6 para trabalho sob condições hiperbáricas
+  - Registro no CREA com responsável técnico, quando houver obra
+  - Seguro de responsabilidade civil e cobertura de acidentes
+cnaes_relacionados:
+  - 3317-1/01
+  - 7420-0/02
+  - 5099-8/01
+  - 5099-8/99
+  - 4399-1/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

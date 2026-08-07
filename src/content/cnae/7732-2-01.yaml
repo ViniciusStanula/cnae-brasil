@@ -2,7 +2,7 @@ codigo: 7732-2/01
 codigo_slug: 7732-2-01
 codigo_numerico: '7732201'
 descricao_oficial: ALUGUEL DE MÁQUINAS E EQUIPAMENTOS PARA CONSTRUÇÃO SEM OPERADOR, EXCETO ANDAIMES
-descricao_plana: ALUGUEL DE MÁQUINAS E EQUIPAMENTOS PARA CONSTRUÇÃO SEM OPERADOR, EXCETO ANDAIMES
+descricao_plana: Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes, como betoneiras e compactadores.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de betoneiras e compactadores
+  - Aluguel de martelete e ferramentas elétricas para obra
+  - Locação de geradores e compressores para construção
+  - Locadora de equipamentos para pequenas reformas
+  - Aluguel de escoras e formas metálicas
+o_que_inclui:
+  - Aluguel de betoneiras, compactadores e placas vibratórias
+  - Locação de marteletes, serras e ferramentas elétricas de obra
+  - Aluguel de geradores, compressores e bombas
+  - Locação de escoras, formas e equipamentos auxiliares
+  - Entrega, retirada e manutenção preventiva dos equipamentos
+o_que_nao_inclui:
+  - Aluguel de andaimes (use CNAE 7732-2/02)
+  - Serviços de operação e fornecimento de equipamentos de elevação para obras (use CNAE 4399-1/04)
+  - Aluguel de máquinas e equipamentos agrícolas sem operador (use CNAE 7731-4/00)
+  - Montagem e desmontagem de andaimes e estruturas temporárias (use CNAE 4399-1/02)
+  - Comércio varejista de ferragens e ferramentas (use CNAE 4744-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Adequação dos equipamentos locados à NR-12
+  - Seguro sobre as máquinas locadas
+  - Contrato formal de locação com termo de responsabilidade
+cnaes_relacionados:
+  - 7732-2/02
+  - 4399-1/04
+  - 7731-4/00
+  - 4399-1/02
+  - 4744-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

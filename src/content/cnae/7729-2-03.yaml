@@ -2,7 +2,7 @@ codigo: 7729-2/03
 codigo_slug: 7729-2-03
 codigo_numerico: '7729203'
 descricao_oficial: ALUGUEL DE MATERIAL MÉDICO
-descricao_plana: ALUGUEL DE MATERIAL MÉDICO
+descricao_plana: Aluguel de material médico, como camas hospitalares, cadeiras de rodas e equipamentos de apoio domiciliar.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de camas hospitalares para uso domiciliar
+  - Aluguel de cadeiras de rodas e andadores
+  - Locação de concentradores de oxigênio
+  - Aluguel de equipamentos para home care
+  - Locadora de material de apoio pós-cirúrgico
+o_que_inclui:
+  - Aluguel de camas hospitalares e colchões terapêuticos
+  - Locação de cadeiras de rodas, andadores e muletas
+  - Aluguel de concentradores de oxigênio e nebulizadores
+  - Locação de equipamentos para atendimento domiciliar
+  - Entrega, instalação, higienização e manutenção dos itens
+o_que_nao_inclui:
+  - Aluguel de equipamentos científicos, médicos e hospitalares, sem operador (use CNAE 7739-0/02)
+  - Comércio varejista de artigos médicos e ortopédicos (use CNAE 4773-3/00)
+  - Atividades de atendimento domiciliar em saúde (use CNAE 8712-3/00)
+  - Fabricação de mobiliário para uso médico e odontológico (use CNAE 3250-7/02)
+  - Aluguel de outros objetos pessoais e domésticos (use CNAE 7729-2/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Autorização de Funcionamento na Anvisa para produtos para saúde
+  - Responsável técnico habilitado, conforme exigência sanitária
+  - Protocolo de higienização e desinfecção dos equipamentos
+cnaes_relacionados:
+  - 7739-0/02
+  - 4773-3/00
+  - 8712-3/00
+  - 3250-7/02
+  - 7729-2/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'

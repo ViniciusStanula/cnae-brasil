@@ -2,7 +2,7 @@ codigo: 7729-2/02
 codigo_slug: 7729-2-02
 codigo_numerico: '7729202'
 descricao_oficial: ALUGUEL DE MÓVEIS, UTENSÍLIOS E APARELHOS DE USO DOMÉSTICO E PESSOAL; INSTRUMENTOS MUSICAIS
-descricao_plana: ALUGUEL DE MÓVEIS, UTENSÍLIOS E APARELHOS DE USO DOMÉSTICO E PESSOAL; INSTRUMENTOS MUSICAIS
+descricao_plana: Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal, incluindo instrumentos musicais.
 secao:
   letra: 'N'
   slug: atividades-administrativas
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Locadora de móveis para eventos e festas
+  - Aluguel de mesas, cadeiras e toalhas
+  - Locação de instrumentos musicais
+  - Aluguel de eletrodomésticos para temporada
+  - Locadora de utensílios para buffets
+o_que_inclui:
+  - Aluguel de mesas, cadeiras, sofás e móveis para eventos
+  - Locação de louças, talheres, toalhas e utensílios
+  - Aluguel de instrumentos musicais e acessórios
+  - Locação de eletrodomésticos e aparelhos de uso doméstico
+  - Entrega, montagem e retirada dos itens alugados
+o_que_nao_inclui:
+  - Aluguel de objetos do vestuário, joias e acessórios (use CNAE 7723-3/00)
+  - Aluguel de palcos, coberturas e estruturas temporárias (use CNAE 7739-0/03)
+  - Aluguel de outros objetos pessoais e domésticos (use CNAE 7729-2/99)
+  - Comércio varejista de móveis (use CNAE 4754-7/01)
+  - Serviços de montagem de móveis de qualquer material (use CNAE 3329-5/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença da vigilância sanitária para louças e utensílios de alimentação
+  - Seguro sobre os bens locados
+  - Contrato formal de locação com termo de responsabilidade
+cnaes_relacionados:
+  - 7723-3/00
+  - 7739-0/03
+  - 7729-2/99
+  - 4754-7/01
+  - 5620-1/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:34:32.194Z'
