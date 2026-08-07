@@ -2,7 +2,7 @@ codigo: 5612-1/00
 codigo_slug: 5612-1-00
 codigo_numerico: '5612100'
 descricao_oficial: SERVIÇOS AMBULANTES DE ALIMENTAÇÃO
-descricao_plana: SERVIÇOS AMBULANTES DE ALIMENTAÇÃO
+descricao_plana: Serviços ambulantes de alimentação, com venda de alimentos e bebidas em vias públicas, carrinhos ou food trucks.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Carrinho de cachorro-quente em via pública
+  - Food truck com atendimento em eventos
+  - Vendedor ambulante de lanches na praia
+  - Trailer de comida em ponto fixo autorizado
+  - Barraca de alimentos em feira livre
+o_que_inclui:
+  - Venda de alimentos preparados em carrinhos e trailers
+  - Operação de food trucks e barracas móveis
+  - Comércio ambulante de lanches, bebidas e petiscos
+  - Preparo dos alimentos no próprio equipamento móvel
+  - Atendimento em vias públicas, praias, feiras e eventos
+o_que_nao_inclui:
+  - Lanchonetes, casas de chá, de sucos e similares (use CNAE 5611-2/03)
+  - Restaurantes e similares (use CNAE 5611-2/01)
+  - Serviços de alimentação para eventos e recepções (use CNAE 5620-1/02)
+  - Fornecimento de alimentos preparados preponderantemente para consumo domiciliar (use CNAE 5620-1/04)
+  - Comércio varejista de produtos alimentícios em geral (use CNAE 4729-6/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização municipal para comércio ambulante e ponto em via pública
+  - Licença da vigilância sanitária municipal
+  - Curso de boas práticas de manipulação de alimentos
+  - Vistoria do equipamento móvel e instalação de gás
+cnaes_relacionados:
+  - 5611-2/03
+  - 5611-2/01
+  - 5620-1/02
+  - 5620-1/04
+  - 4729-6/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

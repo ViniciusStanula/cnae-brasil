@@ -2,7 +2,7 @@ codigo: 5590-6/01
 codigo_slug: 5590-6-01
 codigo_numerico: '5590601'
 descricao_oficial: ALBERGUES, EXCETO ASSISTENCIAIS
-descricao_plana: ALBERGUES, EXCETO ASSISTENCIAIS
+descricao_plana: Albergues, exceto assistenciais, com hospedagem em quartos compartilhados ou privativos a preço acessível.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Hostel para mochileiros
+  - Albergue da juventude
+  - Hospedagem compartilhada em cidade turística
+  - Hostel com quartos coletivos e privativos
+  - Albergue com área comum e cozinha compartilhada
+o_que_inclui:
+  - Hospedagem em quartos compartilhados e privativos
+  - Fornecimento de roupa de cama e limpeza dos quartos
+  - Áreas comuns, cozinha compartilhada e lazer
+  - Café da manhã, quando incluído na diária
+  - Recepção, reservas e controle de hóspedes
+o_que_nao_inclui:
+  - Campings (use CNAE 5590-6/02)
+  - Pensões de alojamento (use CNAE 5590-6/03)
+  - Hotéis (use CNAE 5510-8/01)
+  - Albergues assistenciais (use CNAE 8730-1/99)
+  - Outros alojamentos não especificados anteriormente (use CNAE 5590-6/99)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro no Cadastur do Ministério do Turismo
+  - Registro de hóspedes conforme exigência da Polícia Federal, quando aplicável
+cnaes_relacionados:
+  - 5590-6/02
+  - 5590-6/03
+  - 5590-6/99
+  - 5510-8/01
+  - 5611-2/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

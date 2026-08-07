@@ -2,7 +2,7 @@ codigo: 5590-6/99
 codigo_slug: 5590-6-99
 codigo_numerico: '5590699'
 descricao_oficial: OUTROS ALOJAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: OUTROS ALOJAMENTOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Outros alojamentos sem código próprio, como alojamentos de obra, dormitórios e hospedagens especiais.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Alojamento para trabalhadores de obra
+  - Dormitório para caminhoneiros
+  - Hospedagem temporária para equipes de safra
+  - Alojamento de temporada para eventos
+  - Hospedagem coletiva sem categoria própria
+o_que_inclui:
+  - Alojamento de trabalhadores em canteiros e frentes de obra
+  - Dormitórios para caminhoneiros e viajantes
+  - Hospedagem coletiva temporária para equipes e eventos
+  - Fornecimento de camas, banheiros e áreas comuns
+  - Alojamentos sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Albergues, exceto assistenciais (use CNAE 5590-6/01)
+  - Campings (use CNAE 5590-6/02)
+  - Pensões de alojamento (use CNAE 5590-6/03)
+  - Hotéis (use CNAE 5510-8/01)
+  - Aluguel de imóveis próprios residenciais (use CNAE 6810-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cumprimento da NR-18 para alojamentos em canteiro de obra
+  - Programa de controle de riscos ocupacionais, quando aplicável
+cnaes_relacionados:
+  - 5590-6/01
+  - 5590-6/02
+  - 5590-6/03
+  - 5510-8/01
+  - 6810-2/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

@@ -2,7 +2,7 @@ codigo: 5611-2/04
 codigo_slug: 5611-2-04
 codigo_numerico: '5611204'
 descricao_oficial: BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, SEM ENTRETENIMENTO
-descricao_plana: BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, SEM ENTRETENIMENTO
+descricao_plana: Bares e estabelecimentos especializados em servir bebidas, sem entretenimento, com consumo no local.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Bar de bairro sem música ao vivo
+  - Boteco com petiscos e bebidas
+  - Cervejaria com consumo no local
+  - Bar de esquina com balcão
+  - Adega com degustação no local
+o_que_inclui:
+  - Venda de bebidas alcoólicas e não alcoólicas para consumo no local
+  - Serviço de petiscos e porções como acompanhamento
+  - Atendimento em balcão, mesas e área externa
+  - Operação sem apresentação artística ou pista de dança
+  - Preparo de drinks e serviço de chope
+o_que_nao_inclui:
+  - Bares e estabelecimentos especializados em servir bebidas, com entretenimento (use CNAE 5611-2/05)
+  - Lanchonetes, casas de chá, de sucos e similares (use CNAE 5611-2/03)
+  - Restaurantes e similares (use CNAE 5611-2/01)
+  - Comércio varejista de bebidas para consumo fora do local (use CNAE 4723-7/00)
+  - Discotecas, danceterias e similares (use CNAE 9329-8/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Autorização municipal para venda de bebidas alcoólicas
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+cnaes_relacionados:
+  - 5611-2/05
+  - 5611-2/03
+  - 5611-2/01
+  - 4723-7/00
+  - 9329-8/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

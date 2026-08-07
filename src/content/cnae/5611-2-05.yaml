@@ -2,7 +2,7 @@ codigo: 5611-2/05
 codigo_slug: 5611-2-05
 codigo_numerico: '5611205'
 descricao_oficial: 'BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, COM ENTRETENIMENTO '
-descricao_plana: 'BARES E OUTROS ESTABELECIMENTOS ESPECIALIZADOS EM SERVIR BEBIDAS, COM ENTRETENIMENTO '
+descricao_plana: Bares e estabelecimentos especializados em servir bebidas, com entretenimento, como música ao vivo ou apresentações.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Bar com música ao vivo
+  - Pub com apresentações artísticas
+  - Choperia com shows regulares
+  - Bar com karaokê
+  - Casa de shows com serviço de bar
+o_que_inclui:
+  - Venda de bebidas para consumo no local com entretenimento
+  - Apresentações de música ao vivo, karaokê e shows
+  - Serviço de petiscos e porções como acompanhamento
+  - Cobrança de couvert artístico e ingresso
+  - Operação de palco, som e iluminação no estabelecimento
+o_que_nao_inclui:
+  - Bares e estabelecimentos especializados em servir bebidas, sem entretenimento (use CNAE 5611-2/04)
+  - Discotecas, danceterias, salões de dança e similares (use CNAE 9329-8/01)
+  - Restaurantes e similares (use CNAE 5611-2/01)
+  - Lanchonetes, casas de chá, de sucos e similares (use CNAE 5611-2/03)
+  - Produção musical e de espetáculos (use CNAE 9001-9/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Alvará de som e licença para eventos com música ao vivo
+  - Recolhimento de direitos autorais ao ECAD
+cnaes_relacionados:
+  - 5611-2/04
+  - 5611-2/01
+  - 5611-2/03
+  - 9329-8/01
+  - 9001-9/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

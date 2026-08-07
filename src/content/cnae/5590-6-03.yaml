@@ -2,7 +2,7 @@ codigo: 5590-6/03
 codigo_slug: 5590-6-03
 codigo_numerico: '5590603'
 descricao_oficial: PENSÕES(ALOJAMENTO)
-descricao_plana: PENSÕES(ALOJAMENTO)
+descricao_plana: Pensões de alojamento, com hospedagem de média e longa permanência, geralmente com refeições incluídas.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Pensão com quartos e refeições incluídas
+  - Casa de cômodos para trabalhadores
+  - Pensionato para estudantes
+  - Hospedagem mensal em quartos individuais
+  - Pensão familiar em cidade do interior
+o_que_inclui:
+  - Hospedagem de média e longa permanência em quartos
+  - Fornecimento de refeições incluídas na diária ou mensalidade
+  - Limpeza dos quartos e áreas comuns
+  - Lavanderia e serviços de apoio ao hóspede
+  - Controle de entrada e permanência dos hóspedes
+o_que_nao_inclui:
+  - Albergues, exceto assistenciais (use CNAE 5590-6/01)
+  - Campings (use CNAE 5590-6/02)
+  - Hotéis (use CNAE 5510-8/01)
+  - Outros alojamentos não especificados anteriormente (use CNAE 5590-6/99)
+  - Aluguel de imóveis próprios residenciais (use CNAE 6810-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+  - Cadastro no Cadastur do Ministério do Turismo, quando aplicável
+cnaes_relacionados:
+  - 5590-6/01
+  - 5590-6/02
+  - 5590-6/99
+  - 5510-8/01
+  - 5620-1/03
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

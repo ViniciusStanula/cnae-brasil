@@ -2,7 +2,7 @@ codigo: 5611-2/03
 codigo_slug: 5611-2-03
 codigo_numerico: '5611203'
 descricao_oficial: LANCHONETES, CASAS DE CHÁ, DE SUCOS E SIMILARES
-descricao_plana: LANCHONETES, CASAS DE CHÁ, DE SUCOS E SIMILARES
+descricao_plana: Lanchonetes, casas de chá, de sucos e similares, com preparo e venda de lanches e bebidas para consumo imediato.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Lanchonete de bairro com salgados e sucos
+  - Casa de sucos e açaí
+  - Cafeteria com lanches rápidos
+  - Sorveteria com consumo no local
+  - Pastelaria e casa de salgados
+o_que_inclui:
+  - Preparo e venda de lanches, salgados e sanduíches
+  - Comércio de sucos, vitaminas, açaí e sorvetes
+  - Serviço de café, chá e bebidas quentes
+  - Consumo no local, balcão, viagem e delivery
+  - Preparo dos alimentos no próprio estabelecimento
+o_que_nao_inclui:
+  - Restaurantes e similares (use CNAE 5611-2/01)
+  - Bares e estabelecimentos especializados em servir bebidas, sem entretenimento (use CNAE 5611-2/04)
+  - Serviços ambulantes de alimentação (use CNAE 5612-1/00)
+  - Padaria e confeitaria com predominância de produção própria (use CNAE 1091-1/02)
+  - Fornecimento de alimentos preparados preponderantemente para consumo domiciliar (use CNAE 5620-1/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+  - Licença ambiental para gordura e efluentes, quando exigida
+cnaes_relacionados:
+  - 5611-2/01
+  - 5611-2/04
+  - 5612-1/00
+  - 1091-1/02
+  - 5620-1/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

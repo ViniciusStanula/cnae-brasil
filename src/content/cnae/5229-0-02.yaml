@@ -2,7 +2,7 @@ codigo: 5229-0/02
 codigo_slug: 5229-0-02
 codigo_numerico: '5229002'
 descricao_oficial: SERVIÇOS DE REBOQUE DE VEÍCULOS
-descricao_plana: SERVIÇOS DE REBOQUE DE VEÍCULOS
+descricao_plana: Serviços de reboque de veículos, com remoção e transporte de veículos avariados ou impedidos de circular.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Guincho 24 horas para veículos leves
+  - Serviço de reboque para seguradoras
+  - Empresa de guincho pesado para caminhões
+  - Reboque de motos e veículos pequenos
+  - Serviço de remoção de veículos em rodovias
+o_que_inclui:
+  - Reboque de veículos avariados, acidentados ou sem condições de rodar
+  - Transporte de veículos em plataforma ou guincho de lança
+  - Atendimento a seguradoras, oficinas e órgãos de trânsito
+  - Socorro em rodovias e vias urbanas
+  - Remoção de veículos para pátios e oficinas
+o_que_nao_inclui:
+  - Estacionamento de veículos (use CNAE 5223-1/00)
+  - Serviços de manutenção e reparação mecânica de veículos (use CNAE 4520-0/01)
+  - Transporte rodoviário de carga, exceto perigosos e mudanças (use CNAE 4930-2/02)
+  - Serviços de borracharia para veículos automotores (use CNAE 4520-0/06)
+  - Comércio a varejo de peças e acessórios usados para veículos (use CNAE 4530-7/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Autorização do Detran ou do órgão de trânsito para remoção de veículos
+  - Carteira Nacional de Habilitação compatível com o veículo de reboque
+  - Licenciamento e vistoria do guincho
+  - Seguro de responsabilidade civil sobre o veículo rebocado
+cnaes_relacionados:
+  - 5223-1/00
+  - 4520-0/01
+  - 4930-2/02
+  - 4520-0/06
+  - 4530-7/04
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

@@ -2,7 +2,7 @@ codigo: 5223-1/00
 codigo_slug: 5223-1-00
 codigo_numerico: '5223100'
 descricao_oficial: ESTACIONAMENTO DE VEÍCULOS
-descricao_plana: ESTACIONAMENTO DE VEÍCULOS
+descricao_plana: Estacionamento de veículos, com guarda de automóveis e motos em pátio, edifício-garagem ou área delimitada.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estacionamento rotativo em área comercial
+  - Edifício-garagem com vagas mensais
+  - Estacionamento de motos em centro urbano
+  - Pátio de estacionamento para eventos
+  - Valet parking com pátio próprio
+o_que_inclui:
+  - Guarda de veículos por hora, diária ou mensalidade
+  - Operação de pátios, edifícios-garagem e áreas demarcadas
+  - Controle de entrada, saída e emissão de tíquete
+  - Serviço de manobrista e valet no próprio pátio
+  - Vigilância e responsabilidade sobre os veículos guardados
+o_que_nao_inclui:
+  - Serviços de reboque de veículos (use CNAE 5229-0/02)
+  - Serviços de lavagem, lubrificação e polimento de veículos (use CNAE 4520-0/05)
+  - Aluguel de automóveis sem condutor (use CNAE 7711-0/00)
+  - Guarda-móveis (use CNAE 5211-7/02)
+  - Atividades de vigilância e segurança privada (use CNAE 8011-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Seguro obrigatório de responsabilidade civil sobre os veículos guardados
+  - Licença ambiental, quando houver área impermeabilizada de grande porte
+  - Autorização municipal específica para estacionamento comercial
+cnaes_relacionados:
+  - 5229-0/02
+  - 4520-0/05
+  - 7711-0/00
+  - 5211-7/02
+  - 8011-1/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

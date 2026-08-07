@@ -2,7 +2,7 @@ codigo: 5620-1/02
 codigo_slug: 5620-1-02
 codigo_numerico: '5620102'
 descricao_oficial: SERVIÇOS DE ALIMENTAÇÃO PARA EVENTOS E RECEPÇÕES - BUFÊ
-descricao_plana: SERVIÇOS DE ALIMENTAÇÃO PARA EVENTOS E RECEPÇÕES - BUFÊ
+descricao_plana: Serviços de alimentação para eventos e recepções, incluindo bufê, com preparo e serviço no local do evento.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Bufê para casamentos e formaturas
+  - Empresa de coffee break para eventos corporativos
+  - Serviço de bufê infantil
+  - Catering para congressos e feiras
+  - Bufê com estrutura e equipe no local
+o_que_inclui:
+  - Preparo e fornecimento de alimentos para eventos
+  - Serviço de bufê com garçons, copeiros e maîtres
+  - Coffee break, coquetel e jantares corporativos
+  - Fornecimento de louças, talheres e mobiliário do serviço
+  - Montagem e operação da cozinha no local do evento
+o_que_nao_inclui:
+  - Cantinas e serviços de alimentação privativos (use CNAE 5620-1/03)
+  - Fornecimento de alimentos preparados preponderantemente para empresas (use CNAE 5620-1/01)
+  - Restaurantes e similares (use CNAE 5611-2/01)
+  - Serviços ambulantes de alimentação (use CNAE 5612-1/00)
+  - Casas de festas e eventos (use CNAE 8230-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal para a cozinha de produção
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Curso de boas práticas de manipulação de alimentos para a equipe
+  - Autorização sanitária para o local do evento, quando exigida
+cnaes_relacionados:
+  - 5620-1/03
+  - 5620-1/01
+  - 5611-2/01
+  - 5612-1/00
+  - 8230-0/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

@@ -2,7 +2,7 @@ codigo: 5320-2/01
 codigo_slug: 5320-2-01
 codigo_numerico: '5320201'
 descricao_oficial: SERVIÇOS DE MALOTE NÃO REALIZADOS PELO CORREIO NACIONAL
-descricao_plana: SERVIÇOS DE MALOTE NÃO REALIZADOS PELO CORREIO NACIONAL
+descricao_plana: Serviços de malote não realizados pelo Correio Nacional, com coleta e entrega regular de documentos entre unidades.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Empresa de malote para bancos e escritórios
+  - Serviço de coleta e entrega de documentos entre filiais
+  - Prestador de malote para cartórios
+  - Empresa de circuito fechado de documentos
+  - Serviço de valise para redes de lojas
+o_que_inclui:
+  - Coleta e entrega regular de malotes entre unidades do cliente
+  - Transporte de documentos, contratos e correspondência interna
+  - Roteiros fixos com horários programados
+  - Controle de rastreio e protocolo de entrega
+  - Serviço prestado a empresas, bancos e órgãos
+o_que_nao_inclui:
+  - Serviços de entrega rápida (use CNAE 5320-2/02)
+  - Atividades de franqueadas do Correio Nacional (use CNAE 5310-5/02)
+  - Atividades do Correio Nacional (use CNAE 5310-5/01)
+  - Transporte rodoviário de carga (use CNAE 4930-2/02)
+  - Transporte de valores (use CNAE 8012-9/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Carteira Nacional de Habilitação com atividade remunerada para os motoristas
+  - Seguro de responsabilidade civil sobre os documentos transportados
+  - Licenciamento e vistoria dos veículos
+  - Contrato formal de prestação de serviço com o cliente
+cnaes_relacionados:
+  - 5320-2/02
+  - 5310-5/02
+  - 5310-5/01
+  - 4930-2/02
+  - 8012-9/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

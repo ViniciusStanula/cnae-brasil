@@ -2,7 +2,7 @@ codigo: 5590-6/02
 codigo_slug: 5590-6-02
 codigo_numerico: '5590602'
 descricao_oficial: CAMPINGS
-descricao_plana: CAMPINGS
+descricao_plana: Campings, com oferta de área para barracas, trailers e motorhomes, além de estrutura de apoio.
 secao:
   letra: I
   slug: alojamento-alimentacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Camping em área de praia ou serra
+  - Área de camping com banheiros e churrasqueiras
+  - Camping para motorhomes e trailers
+  - Camping ecológico em reserva
+  - Camping com aluguel de barracas
+o_que_inclui:
+  - Locação de área para barracas, trailers e motorhomes
+  - Fornecimento de banheiros, chuveiros e lavanderia coletiva
+  - Pontos de energia, água e churrasqueiras
+  - Aluguel de barracas e equipamentos de camping
+  - Recepção, reservas e controle de campistas
+o_que_nao_inclui:
+  - Albergues, exceto assistenciais (use CNAE 5590-6/01)
+  - Pensões de alojamento (use CNAE 5590-6/03)
+  - Hotéis (use CNAE 5510-8/01)
+  - Outros alojamentos não especificados anteriormente (use CNAE 5590-6/99)
+  - Comércio varejista de artigos de caça, pesca e camping (use CNAE 4763-6/04)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual para operação em área natural
+  - Licença da vigilância sanitária municipal
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Cadastro no Cadastur do Ministério do Turismo
+cnaes_relacionados:
+  - 5590-6/01
+  - 5590-6/03
+  - 5590-6/99
+  - 4763-6/04
+  - 5510-8/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

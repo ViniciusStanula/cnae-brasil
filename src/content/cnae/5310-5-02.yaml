@@ -2,7 +2,7 @@ codigo: 5310-5/02
 codigo_slug: 5310-5-02
 codigo_numerico: '5310502'
 descricao_oficial: ATIVIDADES DE FRANQUEADAS DO CORREIO NACIONAL
-descricao_plana: ATIVIDADES DE FRANQUEADAS DO CORREIO NACIONAL
+descricao_plana: Atividades de franqueadas do Correio Nacional, com prestação de serviços postais sob contrato de franquia.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Agência franqueada dos Correios
+  - Franquia postal em galeria comercial
+  - Agência de correio franqueada em bairro
+  - Franqueada com postagem e encomendas
+  - Agência franqueada com serviços bancários postais
+o_que_inclui:
+  - Postagem de cartas, encomendas e Sedex
+  - Venda de selos, embalagens e produtos postais
+  - Recebimento e entrega de objetos postais
+  - Serviços de telegrama e postagem registrada
+  - Operação sob contrato de franquia com o Correio Nacional
+o_que_nao_inclui:
+  - Serviços de malote não realizados pelo Correio Nacional (use CNAE 5320-2/01)
+  - Serviços de entrega rápida (use CNAE 5320-2/02)
+  - Atividades do Correio Nacional (use CNAE 5310-5/01)
+  - Transporte rodoviário de carga (use CNAE 4930-2/02)
+  - Comércio varejista de artigos de papelaria (use CNAE 4761-0/03)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Contrato de franquia vigente com o Correio Nacional
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Inscrição estadual, quando comercializar mercadorias
+  - Seguro de responsabilidade civil sobre os objetos postados
+cnaes_relacionados:
+  - 5320-2/01
+  - 5320-2/02
+  - 5310-5/01
+  - 4761-0/03
+  - 4930-2/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'

@@ -2,7 +2,7 @@ codigo: 5320-2/02
 codigo_slug: 5320-2-02
 codigo_numerico: '5320202'
 descricao_oficial: SERVIÇOS DE ENTREGA RÁPIDA
-descricao_plana: SERVIÇOS DE ENTREGA RÁPIDA
+descricao_plana: Serviços de entrega rápida, como motoboy, courier e entregas expressas de documentos e pequenas encomendas.
 secao:
   letra: H
   slug: transporte
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Motoboy autônomo com entregas urbanas
+  - Empresa de courier e entrega expressa
+  - Serviço de delivery para restaurantes
+  - Empresa de entregas rápidas por bicicleta
+  - Prestador de logística de última milha
+o_que_inclui:
+  - Entrega expressa de documentos e pequenas encomendas
+  - Serviço de motoboy, motofrete e bike courier
+  - Delivery de refeições, medicamentos e produtos
+  - Coleta e entrega no mesmo dia dentro do município
+  - Rastreio e comprovação de entrega
+o_que_nao_inclui:
+  - Serviços de malote não realizados pelo Correio Nacional (use CNAE 5320-2/01)
+  - Atividades de franqueadas do Correio Nacional (use CNAE 5310-5/02)
+  - Transporte rodoviário de carga, exceto perigosos e mudanças (use CNAE 4930-2/02)
+  - Transporte rodoviário de mudanças (use CNAE 4930-2/04)
+  - Serviço de táxi (use CNAE 4923-0/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Cadastro municipal de motofrete, quando exigido
+  - Carteira Nacional de Habilitação categoria A com atividade remunerada
+  - Curso de motofretista exigido pelo Detran
+  - Equipamentos de segurança obrigatórios, como baú e antena corta-pipa
+cnaes_relacionados:
+  - 5320-2/01
+  - 5310-5/02
+  - 4930-2/02
+  - 4923-0/01
+  - 5612-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T21:29:12.410Z'
