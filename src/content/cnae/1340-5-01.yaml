@@ -2,7 +2,9 @@ codigo: 1340-5/01
 codigo_slug: 1340-5-01
 codigo_numerico: '1340501'
 descricao_oficial: ESTAMPARIA E TEXTURIZAÇÃO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO
-descricao_plana: ESTAMPARIA E TEXTURIZAÇÃO EM FIOS, TECIDOS, ARTEFATOS TÊXTEIS E PEÇAS DO VESTUÁRIO
+descricao_plana: >-
+  Serviço de estamparia e texturização em fios, tecidos, artefatos têxteis e peças de vestuário, prestado por conta
+  própria ou de terceiros.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Estamparia de camisetas em silk screen
+  - Serviço de estampa digital em tecidos para confecções
+  - Estamparia de tecidos por sublimação
+  - Oficina de texturização de fios sintéticos
+  - Estamparia de peças promocionais e uniformes
+o_que_inclui:
+  - Estamparia por silk screen, sublimação, transfer e impressão digital
+  - Estampagem de tecidos em rolo e de peças prontas
+  - Texturização e frisagem de fios têxteis
+  - Preparação de telas, matrizes e fixação da estampa
+  - Serviço prestado sobre material próprio ou de terceiros
+o_que_nao_inclui:
+  - Alvejamento, tingimento e torção em fios e tecidos (use CNAE 1340-5/02)
+  - Outros serviços de acabamento têxtil (use CNAE 1340-5/99)
+  - Confecção de peças de vestuário (use CNAE 1412-6/01)
+  - Tinturarias e lavanderias de roupas usadas (use CNAE 9601-7/02)
+  - Fabricação de tecidos de malha (use CNAE 1330-8/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para tratamento de efluentes com tintas e pigmentos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pela exposição a solventes
+cnaes_relacionados:
+  - 1340-5/02
+  - 1340-5/99
+  - 1412-6/01
+  - 1330-8/00
+  - 1321-9/00
+  - 1351-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

@@ -2,7 +2,7 @@ codigo: 1099-6/04
 codigo_slug: 1099-6-04
 codigo_numerico: '1099604'
 descricao_oficial: FABRICAÇÃO DE GELO COMUM
-descricao_plana: FABRICAÇÃO DE GELO COMUM
+descricao_plana: Fabricação de gelo comum em barras, cubos ou escamas, destinado a consumo, conservação de alimentos e uso comercial.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de gelo em cubos para bares e eventos
+  - Produtor de gelo em barra para pescadores e feiras
+  - Fabricante de gelo em escamas para peixarias
+  - Fábrica de gelo com entrega a lanchonetes e distribuidoras
+  - Produtor de gelo filtrado embalado para o varejo
+o_que_inclui:
+  - Fabricação de gelo em cubos, barras, escamas e blocos
+  - Tratamento e filtragem da água usada na produção
+  - Ensacamento e embalagem do gelo produzido
+  - Armazenagem em câmara fria e entrega ao cliente
+  - Produção de gelo para conservação de alimentos e pescados
+o_que_nao_inclui:
+  - Fabricação de gelo seco, que é produto químico (use CNAE 2014-2/00)
+  - Fabricação de sorvetes e outros gelados comestíveis (use CNAE 1053-8/00)
+  - Fabricação de águas envasadas (use CNAE 1121-6/00)
+  - Comércio atacadista de gelo adquirido de terceiros (use CNAE 4639-7/01)
+  - Preservação de pescado com uso de gelo (use CNAE 1020-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal
+  - Laudo de potabilidade da água utilizada na produção
+  - Licença ambiental, quando exigida pelo porte
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1053-8/00
+  - 1121-6/00
+  - 1020-1/01
+  - 1099-6/99
+  - 1096-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

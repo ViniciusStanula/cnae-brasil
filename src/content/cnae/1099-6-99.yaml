@@ -2,7 +2,9 @@ codigo: 1099-6/99
 codigo_slug: 1099-6-99
 codigo_numerico: '1099699'
 descricao_oficial: FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de produtos alimentícios sem código específico na CNAE, como ovos processados, mel envasado de terceiros e
+  caldos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de ovos pasteurizados e desidratados
+  - Envasadora de mel adquirido de apicultores
+  - Produtor de caldos e temperos prontos em cubo
+  - Fabricante de coberturas e recheios alimentícios
+  - Indústria de produtos alimentícios diversos sob encomenda
+o_que_inclui:
+  - Fabricação de produtos alimentícios sem enquadramento em código próprio
+  - Processamento e pasteurização de ovos e derivados
+  - Envase de mel e produtos apícolas adquiridos de terceiros
+  - Fabricação de caldos, bases e coberturas alimentícias
+  - Embalagem e rotulagem dos produtos fabricados
+o_que_nao_inclui:
+  - Fabricação de especiarias, molhos, temperos e condimentos (use CNAE 1095-3/00)
+  - Fabricação de alimentos dietéticos e complementos alimentares (use CNAE 1099-6/07)
+  - Fabricação de alimentos e pratos prontos (use CNAE 1096-1/00)
+  - Apicultura com produção própria de mel (use CNAE 0159-8/01)
+  - Produção de ovos em granja (use CNAE 0155-5/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro no serviço de inspeção, quando houver produto de origem animal
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1095-3/00
+  - 1099-6/07
+  - 1096-1/00
+  - 0159-8/01
+  - 0155-5/05
+  - 1099-6/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

@@ -2,7 +2,9 @@ codigo: 1220-4/99
 codigo_slug: 1220-4-99
 codigo_numerico: '1220499'
 descricao_oficial: FABRICAÇÃO DE OUTROS PRODUTOS DO FUMO, EXCETO CIGARROS, CIGARRILHAS E CHARUTOS
-descricao_plana: FABRICAÇÃO DE OUTROS PRODUTOS DO FUMO, EXCETO CIGARROS, CIGARRILHAS E CHARUTOS
+descricao_plana: >-
+  Fabricação de produtos do fumo sem código próprio, como fumo de corda, rapé e fumo para cachimbo, excluídos cigarros e
+  charutos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica artesanal de fumo de corda
+  - Produtor de fumo picado para cachimbo
+  - Fabricante de rapé e fumo de mascar
+  - Indústria de fumo para narguilé
+  - Produtor de fumo em rolo para o varejo regional
+o_que_inclui:
+  - Fabricação de fumo de corda, em rolo e picado
+  - Produção de rapé, fumo de mascar e fumo para cachimbo
+  - Fabricação de fumo para narguilé e produtos aromatizados
+  - Corte, aromatização, secagem e embalagem do fumo
+  - Produtos do fumo sem código específico na CNAE
+o_que_nao_inclui:
+  - Fabricação de cigarros (use CNAE 1220-4/01)
+  - Fabricação de cigarrilhas e charutos (use CNAE 1220-4/02)
+  - Fabricação de filtros para cigarros (use CNAE 1220-4/03)
+  - Processamento industrial do fumo em folha (use CNAE 1210-7/00)
+  - Cultivo de fumo em lavoura (use CNAE 0114-8/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro especial na Receita Federal para fabricantes de produtos do fumo
+  - Registro do produto na Anvisa
+  - Licença ambiental, conforme exigência estadual
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1220-4/01
+  - 1220-4/02
+  - 1220-4/03
+  - 1210-7/00
+  - 0114-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

@@ -2,7 +2,7 @@ codigo: 1099-6/05
 codigo_slug: 1099-6-05
 codigo_numerico: '1099605'
 descricao_oficial: FABRICAÇÃO DE PRODUTOS PARA INFUSÃO (CHÁ, MATE, ETC.)
-descricao_plana: FABRICAÇÃO DE PRODUTOS PARA INFUSÃO (CHÁ, MATE, ETC.)
+descricao_plana: Fabricação de produtos para infusão, como chá, erva-mate e ervas secas, incluindo secagem, moagem e envase em sachês.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de chás de ervas em sachês
+  - Produtor de erva-mate para chimarrão e tereré
+  - Indústria de chá preto e chá verde embalado
+  - Fabricante de blends de ervas medicinais para infusão
+  - Produtor de chá artesanal com marca própria
+o_que_inclui:
+  - Secagem, torra e moagem de folhas e ervas para infusão
+  - Fabricação de chá preto, verde, de frutas e de ervas
+  - Beneficiamento e embalagem de erva-mate para chimarrão e tereré
+  - Produção de blends e misturas de ervas para infusão
+  - Envase em sachês, latas ou pacotes e rotulagem
+o_que_nao_inclui:
+  - Fabricação de chá mate e outros chás prontos para consumo em garrafa (use CNAE 1122-4/02)
+  - Cultivo de chá da Índia (use CNAE 0139-3/01)
+  - Cultivo de erva mate (use CNAE 0139-3/02)
+  - Fabricação de pós alimentícios e refrescos em pó (use CNAE 1099-6/02)
+  - Fabricação de medicamentos fitoterápicos (use CNAE 2121-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença da vigilância sanitária municipal ou estadual
+  - Registro do estabelecimento no Ministério da Agricultura, quando exigido
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1122-4/02
+  - 0139-3/01
+  - 0139-3/02
+  - 1099-6/02
+  - 1099-6/99
+  - 1081-3/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

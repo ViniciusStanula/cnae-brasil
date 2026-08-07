@@ -2,7 +2,7 @@ codigo: 1352-9/00
 codigo_slug: 1352-9-00
 codigo_numerico: '1352900'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE TAPEÇARIA
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE TAPEÇARIA
+descricao_plana: Fabricação de artefatos de tapeçaria, como tapetes, capachos e passadeiras, em fibras naturais ou sintéticas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de tapetes de fibras naturais
+  - Produtor de capachos e passadeiras para o varejo
+  - Tapeçaria artesanal com tapetes tecidos à mão
+  - Fabricante de carpetes e forrações têxteis
+  - Produtor de tapetes decorativos sob encomenda
+o_que_inclui:
+  - Fabricação de tapetes, passadeiras e capachos
+  - Produção de carpetes e forrações têxteis para piso
+  - Tecelagem e tufagem de artefatos de tapeçaria
+  - Acabamento, overloque e embalagem dos tapetes
+  - Uso de fibras naturais, artificiais ou sintéticas
+o_que_nao_inclui:
+  - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
+  - Fabricação de artefatos de cordoaria (use CNAE 1353-7/00)
+  - Fabricação de outros produtos têxteis sem código próprio (use CNAE 1359-6/00)
+  - Tecelagem de fios de fibras naturais (use CNAE 1322-7/00)
+  - Serviços de instalação de carpetes e forrações (use CNAE 4330-4/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem têxtil conforme regras do Inmetro
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 1351-1/00
+  - 1353-7/00
+  - 1359-6/00
+  - 1322-7/00
+  - 1354-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

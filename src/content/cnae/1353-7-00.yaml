@@ -2,7 +2,7 @@ codigo: 1353-7/00
 codigo_slug: 1353-7-00
 codigo_numerico: '1353700'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE CORDOARIA
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE CORDOARIA
+descricao_plana: Fabricação de artefatos de cordoaria, como cordas, cabos, barbantes, redes e sacarias de fibras têxteis.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de cordas e cabos de sisal
+  - Produtor de barbante para artesanato e crochê
+  - Fabricante de redes de dormir e de pesca
+  - Indústria de sacaria de juta para grãos
+  - Produtor de cordas sintéticas para uso náutico
+o_que_inclui:
+  - Fabricação de cordas, cabos, cordéis e barbantes
+  - Produção de redes de dormir, de pesca e de proteção
+  - Fabricação de sacos e sacarias de fibras têxteis
+  - Torção, trançado e acabamento dos artefatos de cordoaria
+  - Uso de fibras naturais, artificiais ou sintéticas
+o_que_nao_inclui:
+  - Fabricação de artefatos de tapeçaria (use CNAE 1352-9/00)
+  - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
+  - Preparação e fiação de fibras naturais, exceto algodão (use CNAE 1312-0/00)
+  - Fabricação de outros produtos têxteis sem código próprio (use CNAE 1359-6/00)
+  - Fabricação de embalagens de papel e papelão (use CNAE 1731-1/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para emissão de particulados e resíduos
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1352-9/00
+  - 1351-1/00
+  - 1359-6/00
+  - 1312-0/00
+  - 1354-5/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

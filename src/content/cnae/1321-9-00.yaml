@@ -2,7 +2,7 @@ codigo: 1321-9/00
 codigo_slug: 1321-9-00
 codigo_numerico: '1321900'
 descricao_oficial: TECELAGEM DE FIOS DE ALGODÃO
-descricao_plana: TECELAGEM DE FIOS DE ALGODÃO
+descricao_plana: Tecelagem de fios de algodão em teares, produzindo tecidos planos crus ou acabados, exceto tecidos de malha.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Tecelagem de tecidos de algodão para confecções
+  - Fábrica de brim e sarja de algodão
+  - Tecelagem artesanal de tecidos rústicos de algodão
+  - Produtor de tecido cru de algodão para estamparia
+  - Tecelagem de panos de prato e tecidos leves
+o_que_inclui:
+  - Preparação da urdidura e da trama de fios de algodão
+  - Tecelagem em teares de tecidos planos de algodão
+  - Produção de brim, sarja, tricoline, cambraia e lonas de algodão
+  - Fabricação de tecidos crus destinados a acabamento posterior
+  - Enrolamento e inspeção das peças de tecido produzidas
+o_que_nao_inclui:
+  - Tecelagem de fios de fibras naturais que não algodão (use CNAE 1322-7/00)
+  - Tecelagem de fios de fibras artificiais e sintéticas (use CNAE 1323-5/00)
+  - Fabricação de tecidos de malha (use CNAE 1330-8/00)
+  - Preparação e fiação de fibras de algodão (use CNAE 1311-1/00)
+  - Estamparia e acabamento em tecidos (use CNAE 1340-5/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para emissão de particulados e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de ruído e riscos ocupacionais
+cnaes_relacionados:
+  - 1322-7/00
+  - 1323-5/00
+  - 1330-8/00
+  - 1311-1/00
+  - 1340-5/01
+  - 1351-1/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

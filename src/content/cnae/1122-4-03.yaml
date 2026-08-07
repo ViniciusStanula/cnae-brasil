@@ -2,7 +2,9 @@ codigo: 1122-4/03
 codigo_slug: 1122-4-03
 codigo_numerico: '1122403'
 descricao_oficial: FABRICAÇÃO DE REFRESCOS, XAROPES E PÓS PARA REFRESCOS, EXCETO REFRESCOS DE FRUTAS
-descricao_plana: FABRICAÇÃO DE REFRESCOS, XAROPES E PÓS PARA REFRESCOS, EXCETO REFRESCOS DE FRUTAS
+descricao_plana: >-
+  Fabricação de refrescos, xaropes e pós para refrescos, exceto os feitos à base de fruta, para diluição antes do
+  consumo.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de xaropes para refrescos e sodas
+  - Produtor de refresco em pó sabor artificial
+  - Indústria de xarope de guaraná para postos de chope
+  - Fabricante de bases para máquinas de refresco
+  - Produtor de xaropes para sorveterias e lanchonetes
+o_que_inclui:
+  - Fabricação de xaropes concentrados para refrescos e refrigerantes
+  - Produção de pós e preparados sólidos para refresco
+  - Fabricação de bases e essências para bebidas não alcoólicas
+  - Mistura, dissolução, envase e rotulagem dos produtos
+  - Produção destinada a diluição pelo consumidor ou pelo comércio
+o_que_nao_inclui:
+  - Fabricação de refrigerantes prontos para consumo (use CNAE 1122-4/01)
+  - Fabricação de sucos de frutas prontos (use CNAE 1033-3/02)
+  - Fabricação de sucos concentrados de frutas (use CNAE 1033-3/01)
+  - Fabricação de bebidas isotônicas (use CNAE 1122-4/04)
+  - Fabricação de pós alimentícios em geral (use CNAE 1099-6/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Registro do estabelecimento e do produto no Ministério da Agricultura
+  - Licença da vigilância sanitária municipal ou estadual
+  - Rotulagem em conformidade com as regras da Anvisa
+  - Certificado de Vistoria do Corpo de Bombeiros
+cnaes_relacionados:
+  - 1122-4/01
+  - 1122-4/04
+  - 1122-4/99
+  - 1033-3/01
+  - 1033-3/02
+  - 1099-6/02
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

@@ -2,7 +2,7 @@ codigo: 1311-1/00
 codigo_slug: 1311-1-00
 codigo_numerico: '1311100'
 descricao_oficial: PREPARAÇÃO E FIAÇÃO DE FIBRAS DE ALGODÃO
-descricao_plana: PREPARAÇÃO E FIAÇÃO DE FIBRAS DE ALGODÃO
+descricao_plana: Preparação e fiação de fibras de algodão, transformando a pluma em fio têxtil por abertura, cardagem e fiação.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fiação de algodão para tecelagens regionais
+  - Pequena fiação de fio cru de algodão
+  - Produtor de fio penteado de algodão para malharias
+  - Fiação artesanal de algodão colorido
+  - Indústria de fio de algodão para linha de costura
+o_que_inclui:
+  - Abertura, limpeza e cardagem da pluma de algodão
+  - Penteação, estiragem e fiação do algodão em fio
+  - Produção de fios crus, penteados e retorcidos de algodão
+  - Enrolamento do fio em cones, bobinas e meadas
+  - Preparação de fibras de algodão para uso têxtil
+o_que_nao_inclui:
+  - Preparação e fiação de fibras naturais que não algodão (use CNAE 1312-0/00)
+  - Fiação de fibras artificiais e sintéticas (use CNAE 1313-8/00)
+  - Fabricação de linhas para costurar e bordar (use CNAE 1314-6/00)
+  - Tecelagem de fios de algodão (use CNAE 1321-9/00)
+  - Cultivo de algodão herbáceo (use CNAE 0112-1/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental para emissão de particulados e resíduos
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais, pela exposição a poeira têxtil
+cnaes_relacionados:
+  - 1312-0/00
+  - 1313-8/00
+  - 1314-6/00
+  - 1321-9/00
+  - 0112-1/01
+  - 1340-5/99
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'

@@ -2,7 +2,7 @@ codigo: 1359-6/00
 codigo_slug: 1359-6-00
 codigo_numerico: '1359600'
 descricao_oficial: FABRICAÇÃO DE OUTROS PRODUTOS TÊXTEIS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE OUTROS PRODUTOS TÊXTEIS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Fabricação de produtos têxteis sem código específico na CNAE, como feltros, não tecidos, etiquetas e tecidos técnicos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de feltro para artesanato e indústria
+  - Produtor de não tecidos para filtros e embalagens
+  - Fabricante de etiquetas e fitas têxteis
+  - Indústria de entretelas para confecção
+  - Produtor de artefatos têxteis técnicos sob encomenda
+o_que_inclui:
+  - Fabricação de feltros e materiais não tecidos
+  - Produção de entretelas, fitas, cadarços e etiquetas têxteis
+  - Fabricação de artefatos têxteis técnicos e industriais
+  - Produção de produtos têxteis sem enquadramento em código próprio
+  - Corte, acabamento e embalagem dos produtos fabricados
+o_que_nao_inclui:
+  - Fabricação de tecidos especiais, inclusive artefatos (use CNAE 1354-5/00)
+  - Fabricação de artefatos têxteis para uso doméstico (use CNAE 1351-1/00)
+  - Fabricação de artefatos de tapeçaria (use CNAE 1352-9/00)
+  - Fabricação de artefatos de cordoaria (use CNAE 1353-7/00)
+  - Confecção de peças de vestuário (use CNAE 1412-6/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental, conforme o processo produtivo
+  - Etiquetagem têxtil conforme regras do Inmetro
+cnaes_relacionados:
+  - 1354-5/00
+  - 1351-1/00
+  - 1352-9/00
+  - 1353-7/00
+  - 1340-5/99
+  - 1412-6/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:53:06.259Z'
