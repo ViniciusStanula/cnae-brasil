@@ -2,7 +2,7 @@ codigo: 1412-6/02
 codigo_slug: 1412-6-02
 codigo_numerico: '1412602'
 descricao_oficial: CONFECÇÃO, SOB MEDIDA, DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS
-descricao_plana: CONFECÇÃO, SOB MEDIDA, DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS
+descricao_plana: Confecção sob medida de peças do vestuário, com modelagem individual para cada cliente, exceto roupas íntimas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Alfaiataria com ternos sob medida
+  - Ateliê de vestidos de noiva e festa sob medida
+  - Costureira que confecciona peças por encomenda
+  - Ateliê de moda autoral com peças exclusivas
+  - Confecção sob medida de trajes sociais masculinos
+o_que_inclui:
+  - Tomada de medidas e modelagem individual para cada cliente
+  - Corte e costura de peças exclusivas sob encomenda
+  - Confecção de trajes sociais, vestidos de festa e noiva
+  - Provas, ajustes e acabamento personalizado
+  - Atendimento direto ao consumidor final
+o_que_nao_inclui:
+  - Confecção de peças de vestuário em série (use CNAE 1412-6/01)
+  - Facção de peças do vestuário para terceiros (use CNAE 1412-6/03)
+  - Confecção sob medida de roupas profissionais (use CNAE 1413-4/02)
+  - Serviços de reparação e ajuste de roupas já prontas (use CNAE 9529-1/05)
+  - Aluguel de roupas e trajes (use CNAE 7729-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais, quando houver equipe
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 1412-6/01
+  - 1412-6/03
+  - 1413-4/02
+  - 9529-1/05
+  - 1414-2/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

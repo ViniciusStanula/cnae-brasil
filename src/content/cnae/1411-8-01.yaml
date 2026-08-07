@@ -2,7 +2,7 @@ codigo: 1411-8/01
 codigo_slug: 1411-8-01
 codigo_numerico: '1411801'
 descricao_oficial: CONFECÇÃO DE ROUPAS ÍNTIMAS
-descricao_plana: CONFECÇÃO DE ROUPAS ÍNTIMAS
+descricao_plana: Confecção de roupas íntimas, como calcinhas, sutiãs, cuecas e pijamas, com criação, corte e costura próprios.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Confecção de lingerie com marca própria
+  - Fábrica de cuecas e camisetas íntimas masculinas
+  - Ateliê de pijamas e camisolas femininas
+  - Confecção de sutiãs e modeladores
+  - Pequena confecção de roupa íntima para lojas multimarcas
+o_que_inclui:
+  - Criação de modelagem e desenvolvimento de peças íntimas
+  - Corte e costura de calcinhas, sutiãs, cuecas e modeladores
+  - Confecção de pijamas, camisolas e roupas de dormir
+  - Acabamento, etiquetagem e embalagem das peças
+  - Produção com material próprio e marca própria
+o_que_nao_inclui:
+  - Facção de roupas íntimas para terceiros, sem material próprio (use CNAE 1411-8/02)
+  - Confecção de peças de vestuário que não roupas íntimas (use CNAE 1412-6/01)
+  - Fabricação de artigos do vestuário em malharia e tricotagem (use CNAE 1422-3/00)
+  - Fabricação de meias (use CNAE 1421-5/00)
+  - Comércio varejista de roupas íntimas (use CNAE 4781-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem têxtil conforme regras do Inmetro
+  - Programa de controle de riscos ocupacionais para a equipe de costura
+cnaes_relacionados:
+  - 1411-8/02
+  - 1412-6/01
+  - 1422-3/00
+  - 1421-5/00
+  - 1414-2/00
+  - 4781-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

@@ -2,7 +2,7 @@ codigo: 1521-1/00
 codigo_slug: 1521-1-00
 codigo_numerico: '1521100'
 descricao_oficial: FABRICAÇÃO DE ARTIGOS PARA VIAGEM, BOLSAS E SEMELHANTES DE QUALQUER MATERIAL
-descricao_plana: FABRICAÇÃO DE ARTIGOS PARA VIAGEM, BOLSAS E SEMELHANTES DE QUALQUER MATERIAL
+descricao_plana: Fabricação de bolsas, malas, mochilas e artigos para viagem, em couro, tecido, plástico ou qualquer outro material.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de bolsas femininas de couro
+  - Produtor de mochilas escolares e esportivas
+  - Fabricante de malas de viagem e necessaires
+  - Ateliê de marroquinaria com bolsas artesanais
+  - Produtor de pastas e maletas executivas
+o_que_inclui:
+  - Fabricação de bolsas, carteiras e necessaires
+  - Produção de malas, mochilas e sacolas de viagem
+  - Fabricação de pastas, maletas e estojos
+  - Corte, costura, montagem e acabamento das peças
+  - Uso de couro, tecido, plástico, lona ou material sintético
+o_que_nao_inclui:
+  - Fabricação de artefatos de couro sem código específico (use CNAE 1529-7/00)
+  - Curtimento e preparação de couro (use CNAE 1510-6/00)
+  - Fabricação de acessórios do vestuário, como cintos (use CNAE 1414-2/00)
+  - Fabricação de calçados de couro (use CNAE 1531-9/01)
+  - Comércio varejista de artigos de viagem (use CNAE 4782-2/02)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem conforme regras do Inmetro
+  - Licença ambiental, conforme o material e o processo
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1529-7/00
+  - 1510-6/00
+  - 1414-2/00
+  - 1531-9/01
+  - 4782-2/02
+  - 1540-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

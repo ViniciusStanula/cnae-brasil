@@ -2,7 +2,9 @@ codigo: 1414-2/00
 codigo_slug: 1414-2-00
 codigo_numerico: '1414200'
 descricao_oficial: FABRICAÇÃO DE ACESSÓRIOS DO VESTUÁRIO, EXCETO PARA SEGURANÇA E PROTEÇÃO
-descricao_plana: FABRICAÇÃO DE ACESSÓRIOS DO VESTUÁRIO, EXCETO PARA SEGURANÇA E PROTEÇÃO
+descricao_plana: >-
+  Fabricação de acessórios do vestuário, como cintos, gravatas, lenços, bonés e luvas, exceto os de segurança e
+  proteção.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de bonés personalizados
+  - Produtor de cintos de tecido e couro sintético
+  - Ateliê de gravatas e lenços de seda
+  - Fabricante de luvas e toucas de tecido
+  - Produtor de acessórios de moda para lojas
+o_que_inclui:
+  - Fabricação de cintos, suspensórios e faixas de vestuário
+  - Produção de gravatas, lenços, echarpes e cachecóis
+  - Fabricação de bonés, chapéus, toucas e viseiras
+  - Produção de luvas de tecido, malha ou couro para vestuário
+  - Corte, costura, acabamento e embalagem dos acessórios
+o_que_nao_inclui:
+  - Fabricação de equipamentos de proteção individual (use CNAE 3292-2/01)
+  - Confecção de peças de vestuário (use CNAE 1412-6/01)
+  - Fabricação de bolsas e artigos para viagem (use CNAE 1521-1/00)
+  - Fabricação de bijuterias e artefatos semelhantes (use CNAE 3212-4/00)
+  - Comércio varejista de acessórios do vestuário (use CNAE 4781-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem têxtil conforme regras do Inmetro
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1412-6/01
+  - 1521-1/00
+  - 1421-5/00
+  - 1422-3/00
+  - 1529-7/00
+  - 4781-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

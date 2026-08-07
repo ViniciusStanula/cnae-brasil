@@ -2,7 +2,9 @@ codigo: 1531-9/02
 codigo_slug: 1531-9-02
 codigo_numerico: '1531902'
 descricao_oficial: ACABAMENTO DE CALÇADOS DE COURO SOB CONTRATO
-descricao_plana: ACABAMENTO DE CALÇADOS DE COURO SOB CONTRATO
+descricao_plana: >-
+  Acabamento de calçados de couro sob contrato, prestado a fabricantes que fornecem as peças ou os calçados
+  semiacabados.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Ateliê de acabamento de calçados para indústrias calçadistas
+  - Prestador de colagem de solado sob contrato
+  - Oficina de costura de cabedal para fábricas de sapatos
+  - Serviço de limpeza e embalagem final de calçados
+  - Banca de pesponto atendendo o polo calçadista
+o_que_inclui:
+  - Pesponto e costura de cabedais fornecidos pelo contratante
+  - Montagem, colagem e fixação de solados sob contrato
+  - Limpeza, polimento e retoque final dos calçados
+  - Colocação de palmilhas, cadarços e acessórios
+  - Embalagem dos calçados para devolução ao contratante
+o_que_nao_inclui:
+  - Fabricação de calçados de couro com material próprio (use CNAE 1531-9/01)
+  - Fabricação de partes para calçados (use CNAE 1540-8/00)
+  - Fabricação de calçados de material sintético (use CNAE 1533-5/00)
+  - Reparação de calçados usados para o consumidor (use CNAE 9529-1/01)
+  - Comércio varejista de calçados (use CNAE 4782-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental para uso de colas e solventes
+  - Programa de controle de riscos ocupacionais pela exposição a solventes
+  - Contrato formal de prestação de serviço com o contratante
+cnaes_relacionados:
+  - 1531-9/01
+  - 1540-8/00
+  - 1533-5/00
+  - 1532-7/00
+  - 1539-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

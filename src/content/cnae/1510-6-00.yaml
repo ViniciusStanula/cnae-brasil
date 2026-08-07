@@ -2,7 +2,9 @@ codigo: 1510-6/00
 codigo_slug: 1510-6-00
 codigo_numerico: '1510600'
 descricao_oficial: CURTIMENTO E OUTRAS PREPARAÇÕES DE COURO
-descricao_plana: CURTIMENTO E OUTRAS PREPARAÇÕES DE COURO
+descricao_plana: >-
+  Curtimento e preparação de couros e peles, transformando a pele bruta em couro acabado por processos químicos e
+  mecânicos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,39 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Curtume de couro bovino para calçados
+  - Curtume de peles de ovinos e caprinos
+  - Beneficiadora de couro wet blue para exportação
+  - Curtume artesanal de couro vegetal
+  - Acabadora de couro para marroquinaria
+o_que_inclui:
+  - Salga, remolho, caleiro e descarne das peles
+  - Curtimento ao cromo, vegetal ou sintético
+  - Rebaixamento, tingimento e engraxe do couro
+  - Acabamento, estampagem e classificação do couro
+  - Preparação de peles com pelo para uso em confecção
+o_que_nao_inclui:
+  - Fabricação de calçados de couro (use CNAE 1531-9/01)
+  - Fabricação de artefatos de couro sem código específico (use CNAE 1529-7/00)
+  - Fabricação de artigos para viagem e bolsas (use CNAE 1521-1/00)
+  - Preparação de subprodutos do abate (use CNAE 1013-9/02)
+  - Comércio atacadista de couros e peles (use CNAE 4642-7/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Licença ambiental estadual, obrigatória pelo alto potencial poluidor
+  - Outorga de uso de água e licença para tratamento de efluentes
+  - Registro no órgão estadual de defesa agropecuária
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais pela exposição a produtos químicos
+cnaes_relacionados:
+  - 1531-9/01
+  - 1529-7/00
+  - 1521-1/00
+  - 1013-9/02
+  - 4642-7/01
+  - 1540-8/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

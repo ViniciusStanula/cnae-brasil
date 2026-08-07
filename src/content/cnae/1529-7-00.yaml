@@ -2,7 +2,9 @@ codigo: 1529-7/00
 codigo_slug: 1529-7-00
 codigo_numerico: '1529700'
 descricao_oficial: FABRICAÇÃO DE ARTEFATOS DE COURO NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE ARTEFATOS DE COURO NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: >-
+  Fabricação de artefatos de couro sem código específico, como selas, arreios, coleiras, chaveiros e artigos
+  decorativos.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Selaria com produção de selas e arreios
+  - Fabricante de coleiras e guias de couro para pets
+  - Ateliê de chaveiros e porta-cartões de couro
+  - Produtor de artigos decorativos em couro
+  - Fabricante de cintos e correias industriais de couro
+o_que_inclui:
+  - Fabricação de selas, arreios e artigos de montaria
+  - Produção de coleiras, guias e acessórios de couro para animais
+  - Fabricação de chaveiros, porta-cartões e pequenos artefatos
+  - Produção de correias e peças técnicas de couro
+  - Corte, costura, rebitagem e acabamento das peças
+o_que_nao_inclui:
+  - Fabricação de bolsas e artigos para viagem (use CNAE 1521-1/00)
+  - Fabricação de calçados de couro (use CNAE 1531-9/01)
+  - Fabricação de partes para calçados (use CNAE 1540-8/00)
+  - Curtimento e preparação de couro (use CNAE 1510-6/00)
+  - Fabricação de acessórios do vestuário, como cintos de moda (use CNAE 1414-2/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Licença ambiental, conforme o processo produtivo
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1521-1/00
+  - 1531-9/01
+  - 1540-8/00
+  - 1510-6/00
+  - 1414-2/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

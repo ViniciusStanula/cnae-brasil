@@ -2,7 +2,9 @@ codigo: 1412-6/03
 codigo_slug: 1412-6-03
 codigo_numerico: '1412603'
 descricao_oficial: FACÇÃO DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS
-descricao_plana: FACÇÃO DE PEÇAS DO VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS
+descricao_plana: >-
+  Facção de peças do vestuário, ou seja, costura por conta de terceiros, que fornecem tecido e modelagem, exceto roupas
+  íntimas.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de facção de camisetas para marcas de moda
+  - Facção familiar de calças para confecções maiores
+  - Prestador de costura de vestidos sob contrato
+  - Oficina de facção de moda fitness por peça
+  - Costureira com equipe atendendo confecções do polo têxtil
+o_que_inclui:
+  - Costura de peças com material fornecido pelo contratante
+  - Montagem, overloque, travete e acabamento das peças
+  - Serviço remunerado por peça produzida ou por lote
+  - Aplicação de aviamentos e etiquetas fornecidos pelo contratante
+  - Devolução das peças prontas ao contratante
+o_que_nao_inclui:
+  - Confecção de peças de vestuário com material próprio (use CNAE 1412-6/01)
+  - Confecção sob medida de peças do vestuário (use CNAE 1412-6/02)
+  - Facção de roupas íntimas (use CNAE 1411-8/02)
+  - Facção de roupas profissionais (use CNAE 1413-4/03)
+  - Serviços de reparação e ajuste de roupas (use CNAE 9529-1/05)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais para a equipe de costura
+  - Contrato formal de prestação de serviço com o contratante
+cnaes_relacionados:
+  - 1412-6/01
+  - 1412-6/02
+  - 1411-8/02
+  - 1413-4/03
+  - 1422-3/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

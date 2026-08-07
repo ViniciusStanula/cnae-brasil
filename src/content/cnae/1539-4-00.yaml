@@ -2,7 +2,7 @@ codigo: 1539-4/00
 codigo_slug: 1539-4-00
 codigo_numerico: '1539400'
 descricao_oficial: FABRICAÇÃO DE CALÇADOS DE MATERIAIS NÃO ESPECIFICADOS ANTERIORMENTE
-descricao_plana: FABRICAÇÃO DE CALÇADOS DE MATERIAIS NÃO ESPECIFICADOS ANTERIORMENTE
+descricao_plana: Fabricação de calçados de materiais sem código específico, como borracha, madeira, tecido, corda ou fibras naturais.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,37 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de chinelos de borracha
+  - Produtor de alpargatas e sapatilhas de lona
+  - Fabricante de tamancos de madeira
+  - Produtor de sandálias de corda e fibras naturais
+  - Indústria de calçados de tecido para o varejo
+o_que_inclui:
+  - Fabricação de chinelos, sandálias e alpargatas de borracha ou lona
+  - Produção de tamancos e calçados de madeira
+  - Fabricação de calçados de corda, palha e fibras naturais
+  - Corte, montagem, vulcanização e acabamento dos calçados
+  - Calçados de materiais sem enquadramento em código próprio
+o_que_nao_inclui:
+  - Fabricação de calçados de couro (use CNAE 1531-9/01)
+  - Fabricação de tênis de qualquer material (use CNAE 1532-7/00)
+  - Fabricação de calçados de material sintético (use CNAE 1533-5/00)
+  - Fabricação de partes para calçados (use CNAE 1540-8/00)
+  - Comércio varejista de calçados (use CNAE 4782-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem conforme regras do Inmetro
+  - Licença ambiental para uso de colas, solventes e vulcanização
+  - Programa de controle de riscos ocupacionais
+cnaes_relacionados:
+  - 1531-9/01
+  - 1532-7/00
+  - 1533-5/00
+  - 1540-8/00
+  - 4782-2/01
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

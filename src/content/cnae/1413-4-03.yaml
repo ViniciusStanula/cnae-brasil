@@ -2,7 +2,7 @@ codigo: 1413-4/03
 codigo_slug: 1413-4-03
 codigo_numerico: '1413403'
 descricao_oficial: FACÇÃO DE ROUPAS PROFISSIONAIS
-descricao_plana: FACÇÃO DE ROUPAS PROFISSIONAIS
+descricao_plana: Facção de roupas profissionais e uniformes, ou seja, costura por conta de terceiros que fornecem material e modelagem.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,36 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Oficina de facção de uniformes escolares
+  - Facção de jalecos e aventais para confecções
+  - Prestador de costura de uniformes industriais sob contrato
+  - Oficina de facção de fardamentos por peça
+  - Costureira com equipe atendendo fábricas de uniformes
+o_que_inclui:
+  - Costura de uniformes e roupas profissionais para terceiros
+  - Montagem e acabamento de jalecos, aventais e macacões
+  - Aplicação de bolsos, refletivos e aviamentos fornecidos
+  - Serviço remunerado por peça produzida ou por lote
+  - Devolução das peças prontas ao contratante
+o_que_nao_inclui:
+  - Confecção de roupas profissionais com material próprio (use CNAE 1413-4/01)
+  - Confecção sob medida de roupas profissionais (use CNAE 1413-4/02)
+  - Facção de peças do vestuário em geral (use CNAE 1412-6/03)
+  - Facção de roupas íntimas (use CNAE 1411-8/02)
+  - Fabricação de equipamentos de proteção individual (use CNAE 3292-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Programa de controle de riscos ocupacionais para a equipe de costura
+  - Contrato formal de prestação de serviço com o contratante
+cnaes_relacionados:
+  - 1413-4/01
+  - 1413-4/02
+  - 1412-6/03
+  - 1411-8/02
+  - 1414-2/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

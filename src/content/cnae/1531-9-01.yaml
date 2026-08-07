@@ -2,7 +2,7 @@ codigo: 1531-9/01
 codigo_slug: 1531-9-01
 codigo_numerico: '1531901'
 descricao_oficial: FABRICAÇÃO DE CALÇADOS DE COURO
-descricao_plana: FABRICAÇÃO DE CALÇADOS DE COURO
+descricao_plana: Fabricação de calçados de couro, como sapatos, botas e sandálias, incluindo corte, costura e montagem sobre a forma.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +30,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Fábrica de sapatos sociais de couro
+  - Produtor de botas de couro para uso rural
+  - Ateliê de sapatos artesanais sob encomenda
+  - Fabricante de sandálias de couro para o varejo
+  - Indústria calçadista de sapatos femininos de couro
+o_que_inclui:
+  - Corte do couro e preparação do cabedal
+  - Costura do cabedal e montagem sobre a forma
+  - Fixação de solado, salto e palmilha
+  - Acabamento, limpeza e embalagem dos calçados
+  - Fabricação de sapatos, botas, sandálias e mocassins de couro
+o_que_nao_inclui:
+  - Acabamento de calçados de couro sob contrato (use CNAE 1531-9/02)
+  - Fabricação de tênis de qualquer material (use CNAE 1532-7/00)
+  - Fabricação de calçados de material sintético (use CNAE 1533-5/00)
+  - Fabricação de partes para calçados (use CNAE 1540-8/00)
+  - Comércio varejista de calçados (use CNAE 4782-2/01)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem conforme regras do Inmetro
+  - Licença ambiental para uso de colas e solventes
+  - Programa de controle de riscos ocupacionais pela exposição a solventes
+cnaes_relacionados:
+  - 1531-9/02
+  - 1532-7/00
+  - 1533-5/00
+  - 1539-4/00
+  - 1540-8/00
+  - 1510-6/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'

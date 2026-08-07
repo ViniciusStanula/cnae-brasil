@@ -2,7 +2,9 @@ codigo: 1412-6/01
 codigo_slug: 1412-6-01
 codigo_numerico: '1412601'
 descricao_oficial: CONFECÇÃO DE PEÇAS DE VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS E AS CONFECCIONADAS SOB MEDIDA
-descricao_plana: CONFECÇÃO DE PEÇAS DE VESTUÁRIO, EXCETO ROUPAS ÍNTIMAS E AS CONFECCIONADAS SOB MEDIDA
+descricao_plana: >-
+  Confecção de peças de vestuário em série, como camisetas, calças e vestidos, com material e modelagem próprios, exceto
+  sob medida.
 secao:
   letra: C
   slug: industrias-de-transformacao
@@ -30,11 +32,38 @@ natureza_juridica_recomendada:
   - me
   - epp
   - ltda
-exemplos_negocios: []
-o_que_inclui: []
-o_que_nao_inclui: []
-licencas_comuns: []
-cnaes_relacionados: []
-enriched: false
+exemplos_negocios:
+  - Confecção de camisetas com marca própria
+  - Fábrica de calças jeans para lojas multimarcas
+  - Confecção de vestidos femininos em série
+  - Marca de moda praia com produção própria
+  - Confecção de roupa infantil para o atacado
+o_que_inclui:
+  - Criação de modelagem, corte e costura de peças em série
+  - Confecção de camisetas, camisas, calças, saias e vestidos
+  - Produção de moda praia, moda fitness e roupa infantil
+  - Acabamento, etiquetagem, passadoria e embalagem
+  - Produção com material próprio destinada a revenda
+o_que_nao_inclui:
+  - Confecção sob medida de peças do vestuário (use CNAE 1412-6/02)
+  - Facção de peças do vestuário para terceiros (use CNAE 1412-6/03)
+  - Confecção de roupas íntimas (use CNAE 1411-8/01)
+  - Confecção de roupas profissionais e uniformes (use CNAE 1413-4/01)
+  - Comércio varejista de vestuário (use CNAE 4781-4/00)
+licencas_comuns:
+  - Alvará de funcionamento na prefeitura do município
+  - Certificado de Vistoria do Corpo de Bombeiros
+  - Etiquetagem têxtil conforme regras do Inmetro
+  - Programa de controle de riscos ocupacionais para a equipe de costura
+  - Licença ambiental simplificada, quando exigida pelo município
+cnaes_relacionados:
+  - 1412-6/02
+  - 1412-6/03
+  - 1411-8/01
+  - 1413-4/01
+  - 1414-2/00
+  - 4781-4/00
+enriched: true
 last_reviewed: '2026-05-22'
 data_year: 2024
+enriched_at: '2026-08-07T20:55:39.000Z'
